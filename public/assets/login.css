@@ -1,0 +1,108 @@
+body {
+    background: #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+/* login */
+.signin {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+}
+.form-control {
+    width: 510px;
+    height: 68px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0.50) 0%, rgba(85, 85, 85, 0.20) 100%, rgba(153, 153, 153, 0.20) 100%);
+    border: none;  
+    border-radius: 13px;
+    color: #DDD;
+}
+.form-control::placeholder {
+    color: #DDD;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    /* Add any other styles you want to apply on focus here */
+}
+.checkbox-control {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0.50) 0%, rgba(85, 85, 85, 0.20) 100%, rgba(153, 153, 153, 0.20) 100%);
+}
+
+.checkbox-control:checked::before {
+    content: '\2713'; /* Unicode checkmark character */
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px; /* Adjust the size as needed */
+    text-align: center;
+    line-height: 25px; /* Vertically center the checkmark */
+    color: #FFF; /* Change the color to your desired color */
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0.50) 0%, rgba(85, 85, 85, 0.20) 100%, rgba(153, 153, 153, 0.20) 100%); /* Change the background color when checked */
+}
+
+.btn-signin {
+    width: 510px;
+    height: 68px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 103px;
+    background: linear-gradient(180deg, rgba(189, 0, 255, 1), rgba(85, 85, 85, 0.4), rgba(189, 0, 255, 0.4) 100%);
+}
+
+.explore-link {
+    color: #DDD;
+    text-decoration: none;
+}
+
+.explore-link:hover {
+    color: #DDD;
+}
+.explore-link-custcolor {
+    color: #003AFF;
+}
+/* login */
+
+/* register */
+.register-create {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    margin-bottom: 0px;
+}
+.register-small {
+    color: #DDD;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 250% */
+}
+.register-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+/* register */

@@ -1,0 +1,20 @@
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cib:facebook-f" clip-path="url(#clip0_796_553)" filter="url(#filter0_i_796_553)">
+<path id="Vector" d="M10.769 8.46793L11.1677 5.87055H8.67529V4.18501C8.67529 3.47456 9.02334 2.78159 10.1397 2.78159H11.2727V0.570391C11.2727 0.570391 10.2447 0.39502 9.26151 0.39502C7.20908 0.39502 5.86756 1.63921 5.86756 3.89123V5.871H3.58594V8.46838H5.86756V14.7477H8.67529V8.46838L10.769 8.46793Z" fill="#485B7C"/>
+</g>
+<defs>
+<filter id="filter0_i_796_553" x="0.25293" y="0.394531" width="14.3525" height="18.3525" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_796_553"/>
+</filter>
+<clipPath id="clip0_796_553">
+<rect width="14.3526" height="14.3526" fill="white" transform="translate(0.25293 0.394531)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icons8_Instagram 1" filter="url(#filter0_i_796_517)">
+<path id="Vector" d="M5.87063 2.30859C3.8641 2.30859 2.23145 3.94221 2.23145 5.94924V11.1489C2.23145 13.1557 3.86506 14.7886 5.8721 14.7886H11.0718C13.0786 14.7886 14.7114 13.155 14.7114 11.1479V5.94778C14.7114 3.94125 13.0778 2.30859 11.0708 2.30859H5.87063ZM12.2154 4.30539C12.491 4.30539 12.7146 4.52904 12.7146 4.80459C12.7146 5.08015 12.491 5.30379 12.2154 5.30379C11.9399 5.30379 11.7162 5.08015 11.7162 4.80459C11.7162 4.52904 11.9399 4.30539 12.2154 4.30539ZM8.47145 5.30379C10.2611 5.30379 11.7162 6.75896 11.7162 8.54859C11.7162 10.3382 10.2608 11.7934 8.47145 11.7934C6.68181 11.7934 5.22665 10.338 5.22665 8.54859C5.22665 6.75921 6.68181 5.30379 8.47145 5.30379ZM8.47145 6.30219C7.23068 6.30219 6.22505 7.30783 6.22505 8.54859C6.22505 9.78936 7.23068 10.795 8.47145 10.795C9.71221 10.795 10.7178 9.78936 10.7178 8.54859C10.7178 7.30783 9.71221 6.30219 8.47145 6.30219Z" fill="#485B7C"/>
+</g>
+<defs>
+<filter id="filter0_i_796_517" x="0.484375" y="0.561523" width="15.9746" height="19.9746" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_796_517"/>
+</filter>
+</defs>
+</svg>
