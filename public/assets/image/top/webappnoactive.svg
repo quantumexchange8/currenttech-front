@@ -1,0 +1,8 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1000003567">
+<rect id="Rectangle 4009" width="9" height="9" rx="1" transform="matrix(1 0 0 -1 16 10)" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Rectangle 4007" d="M10 16H17C17.9428 16 18.4142 16 18.7071 16.2929C19 16.5858 19 17.0572 19 18V23C19 23.9428 19 24.4142 18.7071 24.7071C18.4142 25 17.9428 25 17 25H10V16Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Rectangle 4008" d="M10 9C10 8.05719 10 7.58579 9.70711 7.29289C9.41421 7 8.94281 7 8 7H3C2.05719 7 1.58579 7 1.29289 7.29289C1 7.58579 1 8.05719 1 9V16H10V9Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path id="Rectangle 4010" d="M10 25H3C2.05719 25 1.58579 25 1.29289 24.7071C1 24.4142 1 23.9428 1 23V16H10V25Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

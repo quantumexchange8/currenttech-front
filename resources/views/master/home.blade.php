@@ -449,11 +449,14 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-logis">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#" style="cursor: pointer; text-decoration: none;">
+                                    <button class="btn-getinfo-logis">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -483,11 +486,13 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-edu">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#">
+                                    <button class="btn-getinfo-edu">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -518,11 +523,13 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-fnb">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#">
+                                    <button class="btn-getinfo-fnb">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -553,11 +560,13 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-fnb" style="background: #C89E8A">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#">
+                                    <button class="btn-getinfo-fnb" style="background: #C89E8A">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -588,11 +597,13 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-fnb" style="background: #A7A7A7">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#">
+                                    <button class="btn-getinfo-fnb" style="background: #A7A7A7">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -623,11 +634,13 @@
                             </div>
 
                             <div>
-                                <button class="btn-getinfo-fnb" style="background: #418F9B">
-                                    <span style="color: #FFF;text-align: center;
-                                    font-family: Comfortaa;
-                                    font-size: 16px;">GET INFO</span>
-                                </button>
+                                <a href="#">
+                                    <button class="btn-getinfo-fnb" style="background: #418F9B">
+                                        <span style="color: #FFF;text-align: center;
+                                        font-family: Comfortaa;
+                                        font-size: 16px;">GET INFO</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

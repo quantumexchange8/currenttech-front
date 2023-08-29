@@ -66,7 +66,10 @@
                     <div class="desc-content-row2">
                         <div class="desc-content-col6">
                             <p>Subcribe for latest news</p>
-                            <input type="email" class="form-control">
+                            <div style="position: relative;">
+                                <input type="email" class="form-control" style="margin-top: 15px; padding-right: 30px;" placeholder="Your Email">
+                                <img src="assets/image/home/envelope.svg" style="position: absolute; right: -17px; top: 34px; transform: translateY(-50%);">
+                            </div>                            
                         </div>
                         <div class="desc-content-col7">
                             <p>Connect with us</p>
@@ -107,7 +110,10 @@
 
                         <div class="desc-content-col8">
                             <div class="abtus">
-                                <p>About Career</p>
+                                <a href="#" style="text-decoration: none;">
+                                    <p>About Career</p>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
