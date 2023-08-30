@@ -14,7 +14,7 @@
                     <div class="sub collapse" id="product">
                         <nav class="sub-navi">
                             <ul>
-                                <li class="{{ Request::is('possystem') ? 'active' : ''}}">
+                                <li class="{{ Request::is('possystem') ? 'active' : ''}}" style="width:88px;margin-left:25px;margin-right:25px">
                                     <a href="{{ route('possystem') }}">
                                         @if(Route::currentRouteName() === 'possystem')
                                         <img src="assets/image/top/posactive.svg">
@@ -25,7 +25,7 @@
                                         @endif
                                     </a>
                                 </li>
-                                <li class="{{ Request::is('webapp') ? 'active' : ''}}">
+                                <li class="{{ Request::is('webapp') ? 'active' : ''}}" style="width:79px;margin-right:25px;margin-left:25px">
                                     <a href="{{ route('webapp') }}">
                                         @if(Route::currentRouteName() === 'webapp')
                                         <img src="assets/image/top/webappactive.svg">
@@ -37,7 +37,7 @@
                                         
                                     </a>
                                 </li>
-                                <li class="{{ Request::is('brokerage') ? 'active' : ''}}">
+                                <li class="{{ Request::is('brokerage') ? 'active' : ''}}" style="width:124px;margin-right:25px;margin-left:25px">
                                     <a href="{{ route('brokerage') }}">
                                         @if(Route::currentRouteName() === 'brokerage')
                                         <img src="assets/image/top/brokeractive.svg">
@@ -49,7 +49,7 @@
                                         
                                     </a>
                                 </li>
-                                <li class="{{ Request::is('expert') ? 'active' : ''}}">
+                                <li class="{{ Request::is('expert') ? 'active' : ''}}" style="width:107px;margin-right:25px;margin-left:25px">
                                     <a href="{{ route('expert') }}">
                                         @if(Route::currentRouteName() === 'expert')
                                         <img src="assets/image/top/expertactive.svg">
@@ -61,9 +61,9 @@
                                         
                                     </a>
                                 </li>
-                                <li class="{{ Request::is('web3') ? 'active' : ''}}">
+                                <li class="{{ Request::is('web3') ? 'active' : ''}}" style="width:54px;margin-left:25px;margin-right:25px">
                                     <a href="{{ route('web3') }} ">
-                                        @if(Route::currentRouteName() === 'expert')
+                                        @if(Route::currentRouteName() === 'web3')
                                         <img src="assets/image/top/web3active.svg">
                                         <span class="nav-wordingAct">Web 3.0</span>
                                         @else

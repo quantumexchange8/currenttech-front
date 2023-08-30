@@ -1,0 +1,263 @@
+@extends('layouts.master')
+@section('content')
+
+<div class="main-content5" style="margin-top:120px;">
+    <div class="web3-1">
+        <p class="revo-p">
+            The Revolution of Web 3.0
+        </p>
+    </div>
+    <div class="web3-2">
+        <p class="revo-p2">
+            Web 3.0 revolutionizes content with decentralized, user-centric platforms. It empowers 
+            creators, ensures data privacy, utilizes blockchain for transparency, and enables immersive 
+            experiences through AI, AR, and VR technologies.
+        </p>
+    </div>
+</div>
+
+<div>
+    <img src="assets/image/product/web3/alien.svg" style="max-width: 100%; height: auto;width: 100%;">
+</div>
+
+<div class="main-content5" style="margin-top: 120px">
+    <div class="web3-3">
+        <p class="empowering-p">
+            Empowering Creativity
+            in the Digital Age
+        </p>
+    </div>
+
+    <div class="web3-4">
+        <p class="empowering-p2">
+            Embrace limitless possibilities. Embody innovation. Unleash digital tools. Ignite artistic 
+            expression. EmPower Creativity in the Digital Age and paint a vibrant canvas of boundless 
+            imagination.
+        </p>
+    </div>
+</div>
+
+<div class="main-content6" >
+    <div class="web3-5">
+        <div>
+            <p class="howwork-p">How it works?</p>
+        </div>
+
+        <div class="work-container-1">
+            <div style="display: flex; flex-direction:column;margin-right: 43px">
+                <div><p class="step1-p">Step 1</p></div>
+                <div>
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 5px">
+                            Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Create a digital wallet: Set up a digital wallet on the chosen blockchain platform to store and manage your NFTs.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Prepare the digital asset: Get your digital asset ready to be turned into an NFT; it can be digital art, music, videos, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Write a smart contract: Use a smart contract programming language like Solidity to write a smart contract that will create the NFT. This contract should include the basic attributes of the NFT, such as name, description, owner, etc.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/image/product/web3/zombie1.svg" style="margin-top: -23px;">
+            </div>
+        </div>
+        <div class="work-container-2">
+            <div style="margin-right: 51px">
+                <img src="assets/image/product/web3/zombie2.svg" style="margin-top: -23px;">
+            </div>
+            <div style="display: flex; flex-direction:column">
+                <div><p class="step1-p">Step 2</p></div>
+                <div>
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 5px">
+                            Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Deploy the smart contract: Deploy the written smart contract to the chosen blockchain platform, such as Ethereum.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-container-3">
+            <div style="display: flex; flex-direction:column;margin-right: 43px">
+                <div><p class="step1-p">Step 3</p></div>
+                <div>
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 5px">
+                            Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Pay the fees: Cover the fees required for creating the NFT, usually involving some cryptocurrency transaction fees.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/image/product/web3/zombie3.svg" style="margin-top: -23px;">
+            </div>
+        </div>
+
+        <div class="work-container-4">
+
+            <div style="margin-right: 51px">
+                <img src="assets/image/product/web3/zombie4.svg" style="margin-top: -23px;">
+            </div>
+
+            <div style="display: flex; flex-direction:column;">
+                <div><p class="step1-p">Step 4</p></div>
+                <div>
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 20px">
+                            Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
+                        </li>
+                        <li style="margin-bottom: 20px">
+                            Promote your NFT: Actively promote your NFT through social media and other platforms to attract potential buyers.
+                        </li>
+                        <li style="margin-bottom: 20px">
+                            Handle transactions: If someone shows interest and is willing to buy your NFT, ensure prompt handling of the transaction and transfer the NFT to the buyer's wallet.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<div class="main-content7">
+    <div class="web3-6">
+        <p class="remark-p">
+            <span style="color:#F00">Remarks:</span>
+            <br>
+            Creating a smart contract involves advanced technical knowledge and security considerations. If you're a beginner, it's advisable to learn the basics of blockchain and smart contract development before attempting to write one. Also, exercise caution in dealing with security and logic while developing the smart contract to protect your digital assets.
+        </p>
+    </div>
+
+    <div class="web3-7">
+        <p class="craft-p">
+            Crafting Digital Experiences for Future
+            WEB 3.0
+        </p>
+    </div>
+    <div>
+        <p class="craft-p2">
+            Designing cutting-edge NFT-based digital experiences to revolutionize content 
+            consumption, ownership, and engagement, shaping the future of the digital art and 
+            collectibles landscape.
+        </p>
+    </div>
+    <div>
+        <img src="assets/image/product/web3/dashboard.svg">
+    </div>
+</div>
+
+<div class="web3-marquee">
+    <div class="web3-marquee-content">
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple1.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple2.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple3.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple4.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple5.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple6.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple7.svg">
+        </div>
+        <div class="web3-marquee-item">
+            <img src="assets/image/product/web3/purple8.svg">
+        </div>
+    </div>
+</div>
+<div class="web3-marquee-2">
+    <div class="web3-marquee-content-2">
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red1.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red2.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red3.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red4.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red5.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red6.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red7.svg">
+        </div>
+        <div class="web3-marquee-item-2">
+            <img src="assets/image/product/web3/red8.svg">
+        </div>
+    </div>
+</div>
+
+<div class="main-content7">
+    <div class="web3-8">
+        <p class="create-p">
+            Creating Personal NFTs Collection
+        </p>
+    </div>
+    <div class="web3-8">
+        <p class="create-p2">
+            Transform your artwork or content into blockchain-based NFTs.<br>
+            Mint and own one-of-a-kind digital assets. Showcase, sell,<br>
+            or trade your personalized creations with the world.
+        </p>
+    </div>
+</div>
+
+<div class="main-content8">
+    <div class="personal-nft-cont">
+        <div class="nft-container1">
+
+        </div>
+        <div class="nft-container2">
+
+        </div>
+        <div class="nft-container3">
+
+        </div>
+    </div>
+</div>
+
+@endsection
