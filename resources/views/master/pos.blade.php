@@ -1,27 +1,86 @@
 @extends('layouts.master')
 @section('content')
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<style>
+    .pos-row1 {
+        text-align: center;
+    }
 
-<div class="main-content">
-    <p class="tranpos-p">
-        Transforming Restaurants with our Dynamic POS System
-    </p>
+    .pos-row2 {
+        text-align: center;
+    }
 
-    <p class="order-p">Order - Serve - Succeed</p>
+    @media screen and (min-width: 1300px) {
+        .pos-row1 {
+            margin-left: 343px;
+            margin-right: 342px;
+        }
+        .pos-row2 {
+            margin-left: 343px;
+            margin-right: 342px;
+        }
+        .pos-row3 {
+            margin-left: 355px;
+            margin-right: 355px;
+        }
+    }
 
-    <img src="assets/image/product/pos/1.svg">
-
-    <p class="ignite-p">
-        Ignite Your Restaurant's Potential with Our
-        Next-Gen POS System
-    </p>
+    @media screen and (min-width: 1800px) {
+        .pos-row1 {
+            margin-left: 343px;
+            margin-right: 342px;
+        }
+        .pos-row2 {
+            margin-left: 343px;
+            margin-right: 342px;
+        }
+        .pos-row3 {
+            margin-left: 343px;
+            margin-right: 342px;
+        }
+    }
+    @media screen and (min-width: 3000px) {
+        .pos-row1 {
+            margin-left: 440px;
+            margin-right: 440px;
+        }
+        .pos-row2 {
+            margin-left: 440px;
+            margin-right: 440px;
+        }
+        .pos-row3 {
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+    }
+    @media screen and (max-width: 1257px) {
+        .pos-row3 img{
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+<div class="main-content" style="margin-top: 120px">
+    <div class="pos-row1">
+        <p class="tranpos-p">
+            Transforming Restaurants with our Dynamic POS System
+        </p>
+    </div>
+    
+    <div class="pos-row2">
+        <p class="order-p">Order - Serve - Succeed</p>
+    </div>
+    
+    <div class="pos-row3">
+        <img src="assets/image/product/pos/1.svg">
+    </div>
+    
+    <div class="pos-row4">
+        <p class="ignite-p">
+            Ignite Your Restaurant's Potential with Our
+            Next-Gen POS System
+        </p>
+    </div>
+    
 
     <p class="streamline-p">
         Streamline operations, elevate service, and boost profitability with our advanced POS system for restaurants. From order management to inventory control, enhance the dining experience and stay ahead of the competition.

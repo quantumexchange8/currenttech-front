@@ -2,6 +2,10 @@ body {
     background: #000;
 }
 
+.container-scroller {
+    overflow: hidden;
+}
+
 .main-content {
     display: flex;
     justify-content: center;
@@ -66,38 +70,118 @@ body {
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 1100px) {
-    .main-content6 {
-        margin-left: 10px;
-        margin-right: 100px;
-    }
+.main-content9 {
+    margin-left: 222px;
+    margin-right: 287px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
 }
 
-@media screen and (min-width: 1200px) {
-    .main-content6 {
-        margin-left: 60px;
-        margin-right: 60px;
+.main-content10 {
+    margin-top: 120px;
+    margin-left: 226px;
+    margin-right: 226px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content11 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+
+.content1 {
+    margin-left: 222px;
+    margin-right: 222px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1257px) {
+    .main-content {
+        margin: 10px;
+    }
+    .main-content9 {
+        margin: 10px;
     }
 }
 
 @media screen and (min-width: 1300px) {
+    .main-content {
+        margin: 10px;
+    }
+    
     .main-content6 {
-        margin-left: 220px;
-        margin-right: 220px;
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+
+    .main-content9 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .main-content6 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .main-content9 {
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 
 @media screen and (min-width: 2000px) {
     .main-content6 {
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+    .main-content9 {
+        margin-left: 320px;
+        margin-right: 320px;
     }
 }
 
 @media screen and (min-width: 3000px) {
     .main-content6 {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .main-content9 {
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .main-content6 {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .main-content9 {
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+}
+
+@media screen and (min-width: 5000px) {
+    .main-content6 {
         margin-left: 350px;
         margin-right: 350px;
+    }
+    .main-content9 {
+        margin-left: 650px;
+        margin-right: 650px;
     }
 }
 
@@ -1027,8 +1111,7 @@ body {
 }
 
 .pos-row3 {
-    display: flex;
-    align-items: center;
+    position: relative;
 }
 
 .pos-row4 {
@@ -1845,6 +1928,7 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    width: 400px;
 
 }
 
@@ -3207,11 +3291,18 @@ body {
     display: flex;
     width: 1465px;
     height: 626px;
+    margin-bottom: 50px;
+}
+
+.personal-nft-cont2 {
+    display: flex;
+    width: 1465px;
+    height: 993px;
 }
 
 .nft-container1 {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3231,7 +3322,7 @@ body {
 
 .nft-container2 {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3251,7 +3342,7 @@ body {
 
 .nft-container3 {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3267,6 +3358,741 @@ body {
     border-image-slice: 1;
     margin-left: 25px;
 }
+
+.nft-container4 {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 5px solid transparent; /* Set an initial transparent border */
+    background: linear-gradient(137deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 100%);
+    box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
+    backdrop-filter: blur(12.5px);
+    border-image: linear-gradient(137deg, rgba(75, 190, 255, 1), rgba(53, 158, 255, 0.51), rgba(208, 107, 255, 1));
+    border-image-slice: 1;
+    margin-right: 25px;
+}
+
+.nft-container5 {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 5px solid transparent; /* Set an initial transparent border */
+    background: linear-gradient(137deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 100%);
+    box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
+    backdrop-filter: blur(12.5px);
+    border-image: linear-gradient(137deg, rgba(75, 190, 255, 1), rgba(53, 158, 255, 0.51), rgba(208, 107, 255, 1));
+    border-image-slice: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nft-container6 {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 5px solid transparent; /* Set an initial transparent border */
+    background: linear-gradient(137deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 100%);
+    box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
+    backdrop-filter: blur(12.5px);
+    border-image: linear-gradient(137deg, rgba(75, 190, 255, 1), rgba(53, 158, 255, 0.51), rgba(208, 107, 255, 1));
+    border-image-slice: 1;
+    margin-left: 25px;
+}
+
+
+.nft1-p1 {
+    color: #6A58F1;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+}
+
+.nft1-p2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.eth-p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.bid-p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+.eth-p2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    text-align: right;
+}
+.bid-p2 {
+    color: #24FF00;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.btn-collect {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 60px;
+    background: #2F80ED;
+    border: none;
+    width: 415px;
+    height: 60px;
+}
+
+.collect-btn {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.join-container {
+    width: 1465px;
+    height: 138px;
+    background: linear-gradient(137deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 100%);
+    box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
+    backdrop-filter: blur(12.5px);
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(137deg, #69EACB, #EACCF8, #6654F1) 1;
+    border-radius: 70px;
+}
+
+.joinnow-row {
+    margin-top: 138px;
+    margin-bottom: 128px;
+}
+
+.inline-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinworld-p {
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(135deg, #69EACB 0%, #EACCF8 51.04%, #6654F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 150px;
+    
+}
+
+.btn-startnow {
+    width: 316px;
+    height: 89px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(179deg, rgba(71, 211, 255, 0.29) 0%, rgba(144, 57, 198, 0.31) 100%);
+    margin-right: 28px;
+}
+
+.startnow-span {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 /* web3 */
 
 /* product */
+
+/* feature */
+/* perform */
+
+.perform2 {
+    margin-bottom: 96px;
+}
+.perform3 {
+    margin-bottom: 96px;
+}
+
+.perform4 {
+    margin-bottom: 96px;
+    height: 600px;
+    width: 1284px;
+    display: flex;
+    align-items: center;
+}
+.perform5 {
+    margin-bottom: 96px;
+    height: 600px;
+    width: 1284px;
+    display: flex;
+    align-items: center;
+}
+
+.perform6 {
+    margin-bottom: 138px;
+}
+
+.perform7 {
+    margin-bottom: 168px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.perform8 {
+    margin-bottom: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.perform-col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.building-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1299px;
+}
+.through-p2 {
+    color: #888;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1153px;
+}
+
+.emphasise-p1 {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.emphasise-p2 {
+    color: #888888;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.sales-p1 {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+}
+
+.sales-p2 {
+    color: #888888;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+}
+
+.discover-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1362px;
+}
+
+.perform-psmall {
+    color: #888;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.perform-pbig {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-getmoreinfo {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(85, 85, 85, 0.40);
+    border: none;
+}
+
+.btn-getmoreinfo-span {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 250% */
+}
+
+.unleash-p {
+    color: #888;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1153px;
+}
+
+.ignite-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 872px;
+}
+
+.point-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 871px;
+}
+
+.implement-p {
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 871px;
+    text-align: center;
+    text-align: center;
+}
+
+.badges-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1248px;
+}
+
+.recognise-p1 {
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1248px;
+    text-align: center;
+}
+
+.leveling-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1183px;
+}
+
+.incorporate-p1 {
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1183px;
+    text-align: center;
+}
+
+.vip-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1204px;
+}
+
+.vip-p2 {
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 1204px;
+}
+
+.streak-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1276px;
+}
+.streak-p2 {
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 1276px;
+}
+
+.provid-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rew10 {
+    margin-bottom: 168px;
+    display: flex;
+    justify-content: center;
+    width: 1268px;
+    justify-content: space-between;
+}
+/* perform */
+
+/* develop */
+
+.develop4 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1059px;
+}
+
+.develop5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.develop6 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.develop7 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 138px;
+}
+
+.develop8 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.develop9 {
+    margin-bottom: 168px;
+    display: flex;
+    justify-content: center;
+    width: 1268px;
+    justify-content: space-between;
+}
+
+.develop10 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 66px;
+}
+
+@media screen and (min-width: 2000px) {
+    .develop10 {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}
+
+.effective {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1257px;
+    height: 559.496px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+
+.effective p {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: right;
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 58px;
+    margin-right: 59px;
+    margin-top: 133px;
+    margin-bottom: 132.5px;
+}
+
+.effective p span {
+    color: #FFF;
+    text-align: right;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.career {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1257px;
+    height: 559.496px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+
+.career p {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 59px;
+    margin-right: 58.69px;
+    margin-top: 132px;
+    margin-bottom: 132.99px;
+}
+
+.career p span {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.ongoing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1257px;
+    height: 559.496px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+
+.ongoing p {
+    display: flex;
+    width: 370px;
+    height: 294px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #888;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 58px;
+    margin-right: 59px;
+    margin-top: 141px;
+    margin-bottom: 124px;
+    text-align: right;
+}
+
+.ongoing p span {
+    color: #FFF;
+    text-align: right;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.develop8 p {
+    width: 1139px;
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.employ-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1036px;
+}
+
+.employ-p2 {
+    color: #888;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1153px;
+}
+
+.line-develop {
+    width: 1258px;
+    height: 1.5px;
+    background: #333;
+    margin-top: 66px;
+    margin-bottom: 132px;
+}
+/* develop */
+/* feature */

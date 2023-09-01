@@ -249,13 +249,197 @@
 <div class="main-content8">
     <div class="personal-nft-cont">
         <div class="nft-container1">
+            <div>
+                <img src="assets/image/product/web3/cat.svg">
+            </div>
+            <div style="display: flex;align-items:center; width:400px">
+                <div>
+                    <img src="assets/image/product/web3/c.svg">
+                </div>
+                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
+                    <div>
+                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
+                    </div>
+                    <div>
+                        <p class="nft1-p2">HAPE PRIME</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/image/product/web3/iconarrow.svg">
+                </div>
+            </div>
 
+            <div style="display: flex; justify-content:space-between">
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">15.8 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">latest Bid</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">9.45 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">from</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p2">$180,345</p>
+                    </div>
+                    <div>
+                        <p class="bid-p2">+12.45</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button class="btn-collect">
+                    <span class="collect-btn">Collect Now</span>
+                </button>
+            </div>
         </div>
         <div class="nft-container2">
+            <div>
+                <img src="assets/image/product/web3/cow.svg">
+            </div>
+            <div style="display: flex;align-items:center; width:400px">
+                <div>
+                    <img src="assets/image/product/web3/c.svg">
+                </div>
+                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
+                    <div>
+                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
+                    </div>
+                    <div>
+                        <p class="nft1-p2">HAPE PRIME</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/image/product/web3/iconarrow.svg">
+                </div>
+            </div>
 
+            <div style="display: flex; justify-content:space-between">
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">15.8 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">latest Bid</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">9.45 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">from</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p2">$180,345</p>
+                    </div>
+                    <div>
+                        <p class="bid-p2">+12.45</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button class="btn-collect">
+                    <span class="collect-btn">Collect Now</span>
+                </button>
+            </div>
         </div>
         <div class="nft-container3">
+            <div>
+                <img src="assets/image/product/web3/chick.svg">
+            </div>
+            <div style="display: flex;align-items:center; width:400px">
+                <div>
+                    <img src="assets/image/product/web3/c.svg">
+                </div>
+                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
+                    <div>
+                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
+                    </div>
+                    <div>
+                        <p class="nft1-p2">HAPE PRIME</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/image/product/web3/iconarrow.svg">
+                </div>
+            </div>
 
+            <div style="display: flex; justify-content:space-between">
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">15.8 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">latest Bid</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p">9.45 ETH</p>
+                    </div>
+                    <div>
+                        <p class="bid-p">from</p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction:column;width:130px">
+                    <div>
+                        <p class="eth-p2">$180,345</p>
+                    </div>
+                    <div>
+                        <p class="bid-p2">+12.45</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button class="btn-collect">
+                    <span class="collect-btn">Collect Now</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="personal-nft-cont2">
+        <div>
+            <img src="assets/image/product/web3/monkey.svg" style="margin-right: 25px">
+        </div>
+
+        <div>
+            <img src="assets/image/product/web3/monkey2.svg" style="margin-right: 25px;margin-left: 25px">
+        </div> 
+
+        <div>
+            <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
+        </div>
+    </div>
+
+    <div class="joinnow-row">
+        <div class="join-container">
+            <div class="inline-display">
+                <div>
+                    <p class="joinworld-p">
+                        Join the Digital Art World Community
+                    </p>
+                </div>
+                <div>
+                    <button class="btn-startnow">
+                        <span class="startnow-span">Start Now!</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </div>

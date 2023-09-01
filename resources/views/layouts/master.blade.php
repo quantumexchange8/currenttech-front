@@ -4,11 +4,12 @@
         <title>Current Tech</title>
         <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     </head>
 
     <body>
 
-        <div>
+        <div class="container-scoller">
             @include('layouts.topbar')
 
             @yield('content')
