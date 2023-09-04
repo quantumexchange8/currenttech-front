@@ -96,6 +96,31 @@
         </script>
 
         <script>
+            window.addEventListener("load", function() {
+                const marqueeContents = document.querySelectorAll(".sector-marquee-content");
+
+                // Clone the marquee items for each marquee row
+                marqueeContents.forEach((marqueeContent) => {
+                    const marqueeItems = marqueeContent.querySelectorAll(".sector-marquee-item");
+                    const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
+
+                    // Calculate the number of items needed to fill the width of the marquee
+                    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
+
+                    // Clone the items
+                    for (let i = 0; i < numberOfItems; i++) {
+                        marqueeItems.forEach((item) => {
+                            marqueeContent.appendChild(item.cloneNode(true));
+                        });
+                    }
+
+                    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+                });
+            });
+
+        </script>
+
+        <script>
             document.addEventListener('click', function(event) {
                 // var navMenu = document.getElementById('navMenu');
                 // var navToggle = document.querySelector('.nav-toggle');

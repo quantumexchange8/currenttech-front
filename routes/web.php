@@ -5,6 +5,8 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\FeatureController;
+use App\Http\Controllers\SectorController;
+use App\Http\Controllers\CareerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +38,8 @@ Route::get('/reward-program', [FeatureController::class, 'reward'])->name('rewar
 Route::get('/develop&learn', [FeatureController::class, 'develop'])->name('develop');
 Route::get('/hr_management', [FeatureController::class, 'hrmanage'])->name('hrmanage');
 Route::get('/reporting&Analytics', [FeatureController::class, 'report'])->name('report');
+
+Route::get('/sectors', [SectorController::class, 'sector'])->name('sector');
+
+Route::get('/career', [CareerController::class, 'career'])->name('career');
 

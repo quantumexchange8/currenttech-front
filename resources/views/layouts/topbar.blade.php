@@ -144,11 +144,17 @@
                         </nav>
                     </div>
                 </li>
-                <li class="nav-border-items">
-                    <span class="nav-wording">Sectors</span>
+                <li class="nav-border-items {{ Route::currentRouteName() === 'sectors' ? 'active' : '' }}">
+                    <a href="{{ route('sector') }}">
+                        <span class="nav-wording">Sectors</span>
+                    </a>
+                    
                 </li>
-                <li class="nav-border-items">
-                    <span class="nav-wording">Career</span>
+                <li class="nav-border-items {{ Route::currentRouteName() === 'career' ? 'active' : '' }}">
+                    <a href="{{ route('career') }}">
+                        <span class="nav-wording">Career</span>
+                    </a>
+                    
                 </li>
                 <li class="nav-border-setting">
                     <img src="/assets/image/accdetail.svg">
