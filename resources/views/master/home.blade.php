@@ -4,20 +4,21 @@
 <br>
 <br>
 <br>
-    <div style="display: flex; margin-top: 100px">
-        <img src="/assets/image/home/vr.svg">
-
-        <div class="techpmain-cont">
-            <p class="techp">Technology</p>
-            <br>
-            <p class="techp-content">
-                is the key to unlocking a sustainable and prosperous <span class="future">future</span>. Through innovation and technological advancements. Technology has ushered in an era of <span class="intell">intelligence</span>, automation, and digitization, propelling the transformation and upgrading of industries.
-            </p>
-        </div>
-    </div>
 
     <div class="main-content">
-        
+
+        <div class="techmain-1">
+            <img src="/assets/image/home/vr.svg">
+    
+            <div class="techpmain-cont">
+                <p class="techp">Technology</p>
+                <br>
+                <p class="techp-content">
+                    is the key to unlocking a sustainable and prosperous <span class="future">future</span>. Through innovation and technological advancements. Technology has ushered in an era of <span class="intell">intelligence</span>, automation, and digitization, propelling the transformation and upgrading of industries.
+                </p>
+            </div>
+        </div>
+
         <div class="center-service">
             <p class="ourservice">
                 Our Service
@@ -178,7 +179,7 @@
 
                     <div class="dev-col6">
                         <div class="support">
-                            <div class="support-row3">
+                            <div class="support-row-3">
                                 <div class="support-col4">
                                     <img src="assets/image/home/support.svg">
                                 </div>
@@ -189,7 +190,7 @@
                                 </div>
                             </div>
 
-                            <div class="support-row4">
+                            <div class="support-row-4">
                                 <div class="support-col3">
                                     <p class="support-content">
                                         Ensure the smooth functioning of your 

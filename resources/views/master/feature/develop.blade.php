@@ -1,6 +1,65 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    .develop1 {
+        text-align: center;
+    }
+    .develop2 {
+        text-align: center;
+    }
+    .develop3 {
+        text-align: center;
+    }
+    .develop4 {
+        text-align: center;
+    }
+    .develop5 {
+        margin-left: 235px;
+        margin-right: 236px;
+    }
+
+    @media screen and (max-width: 1268px) {
+        .develop1 {
+            width: 100%;
+        }
+        .develop2 {
+            width: 100%;
+        }
+        .develop3 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .develop4 {
+            width: 100%;
+        }
+        .develop5 {
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1800px) {
+        .develop1 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .develop2 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .develop3 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .develop4 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+</style>
+
 <div class="main-content11">
     <div class="develop1">
         <p class="employ-p1">

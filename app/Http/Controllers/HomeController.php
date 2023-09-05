@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('master.home');
     }
+
+    public function support()
+    {
+        return view('master.support');
+    }
 }

@@ -1,77 +1,356 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    .broker1 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    .borker2 {
+        text-align: center;
+        margin-bottom: 136px;
+    }
+
+    .broker3 {
+        margin-bottom: 136px;
+    }
+    .broker4 {
+        margin-bottom: 36px;
+        text-align: center;
+    }
+    .broker5 {
+        text-align: center;
+    }
+    .broker6 {
+        margin-bottom: 36px;
+    }
+    .broker7 {
+        margin-bottom: 36px;
+    }
+    .broker8 {
+        margin-bottom: 36px;
+    }
+    .broker9 {
+        margin-bottom: 76px;
+    }
+    .broker10 {
+        margin-bottom: 96px;
+    }
+
+    @media screen and (max-width: 1280px) {
+        .broker1 {
+            width: 100%;
+            height: auto;
+        }
+        .broker2 {
+            width: 100%;
+            height: auto;
+        }
+        .broker3 {
+            width: 100%;
+            height: auto;
+        }
+        .broker3 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .broker4 {
+            width: 100%;
+            height: auto;
+        }
+        .broker5 {
+            width: 100%;
+            height: auto;
+        }
+        .broker6 {
+            width: 100%;
+            height: auto;
+        }
+        .broker7 {
+            width: 100%;
+            height: auto;
+        }
+        .broker8 {
+            width: 100%;
+            height: auto;
+        }
+        .broker9 {
+            width: 100%;
+            height: auto;
+        }
+        .broker10 {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        .broker1 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker2 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker3 {
+            width: 100%;
+            height: auto;
+        }
+        .broker3 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .broker4 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker5 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker6 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker7 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker8 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .broker9 {
+            width: 100%;
+            height: auto;
+        }
+        .broker10 {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (min-width: 2000px) {
+        .broker1 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker2 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker3 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker4 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker5 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker6 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker7 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker8 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker9 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .broker10 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+
+    @media screen and (min-width: 3000px) {
+        .broker1 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker2 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker3 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker4 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker5 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker6 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker7 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker8 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker9 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .broker10 {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+    }
+
+    @media screen and (min-width: 3800px) {
+        .broker1 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker2 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker3 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker4 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker5 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker6 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+
+        .broker7 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker8 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker9 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+        .broker10 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+    }
+</style>
+
 <div class="main-content3" style="margin-top:120px;">
-    <p class="build-p">
-        Building Bridges of Wealth
-    </p>
+    <div class="broker1">
+        <p class="build-p">
+            Building Bridges of Wealth
+        </p>
+    </div>
+    
+    <div class="broker2">
+        <p class="build2">
+            Connecting Opportunities, Empowering Prosperity. Your Gateway to <br>
+            Financial Success, Where Expertise Meets Innovation. Uniting Investors<br>
+            and Markets for a Flourishing Future. Discover the Power of Partnership<br>
+            with our Premier Brokerage Services.
+        </p>
+    </div>
 
-    <p class="build2">
-        Connecting Opportunities, Empowering Prosperity. Your Gateway to <br>
-        Financial Success, Where Expertise Meets Innovation. Uniting Investors<br>
-        and Markets for a Flourishing Future. Discover the Power of Partnership<br>
-        with our Premier Brokerage Services.
-    </p>
-
-    <div>
+    <div class="broker3">
         <img src="assets/image/product/broker/1.svg">
     </div>
 
-    <p class="broker-p">
-        Brokerage Setup Includes
-    </p>
-
-    <p class="broker-p2">
-        Get a White Label Solutions for your brokerage, including customised and rebranded <br>
-        services with advanced tech. Enjoy secure payment solutions for global transactions and <br>
-        efficient financial services. Utilise CRM Solutions for optimized customer interactions,<br>
-        sales, and support
-    </p>
-
-    <div class="cont">
-        <img src="assets/image/product/broker/2.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -100px;">
-        <div class="ct-box">
-            <p class="ct-p">
-                CT White Label Solutions
-            </p>
-            <p class="ct-p2">
-                Customised and rebrand
-                solutions for brokerage
-                with end-to-end support
-                and advanced technology.
-            </p>
+    <div class="broker4">
+        <p class="broker-p">
+            Brokerage Setup Includes
+        </p>
+    </div>
+    
+    <div class="broker5">
+        <p class="broker-p2">
+            Get a White Label Solutions for your brokerage, including customised and rebranded <br>
+            services with advanced tech. Enjoy secure payment solutions for global transactions and <br>
+            efficient financial services. Utilise CRM Solutions for optimized customer interactions,<br>
+            sales, and support
+        </p>
+    </div>
+    
+    <div class="broker6">
+        <div class="cont">
+            <img src="assets/image/product/broker/2.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -100px;">
+            <div class="ct-box">
+                <p class="ct-p">
+                    CT White Label Solutions
+                </p>
+                <p class="ct-p2">
+                    Customised and rebrand
+                    solutions for brokerage
+                    with end-to-end support
+                    and advanced technology.
+                </p>
+            </div>
         </div>
     </div>
-
-    <div class="cont2">
-        <img src="assets/image/product/broker/3.svg" style="margin-top: -105px;margin-left: 660px;margin-bottom: -100px;">
-        <div class="ct-box2">
-            <p class="ct-p4">
-                Payment Solutions
-            </p>
-            <p class="ct-p3">
-                Secure and efficient financial 
-                services for seamless 
-                transactions, catering to 
-                diverse payment.
-            </p>
+    
+    <div class="broker7">
+        <div class="cont2">
+            <img src="assets/image/product/broker/3.svg" style="margin-top: -105px;margin-left: 660px;margin-bottom: -100px;">
+            <div class="ct-box2">
+                <p class="ct-p4">
+                    Payment Solutions
+                </p>
+                <p class="ct-p3">
+                    Secure and efficient financial 
+                    services for seamless 
+                    transactions, catering to 
+                    diverse payment.
+                </p>
+            </div>
         </div>
     </div>
-
-    <div class="cont3">
-        <img src="assets/image/product/broker/4.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -105px;">
-        <div class="ct-box" >
-            <p class="ct-p">
-                CRM Solutions
-            </p>
-            <p class="ct-p5" style="width: 421px">
-                Integrated software for 
-                managing customer interactions, 
-                optimising relationships, and 
-                enhancing sales effectively.
-            </p>
+    
+    <div class="broker8">
+        <div class="cont3">
+            <img src="assets/image/product/broker/4.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -105px;">
+            <div class="ct-box" >
+                <p class="ct-p">
+                    CRM Solutions
+                </p>
+                <p class="ct-p5" style="width: 421px">
+                    Integrated software for 
+                    managing customer interactions, 
+                    optimising relationships, and 
+                    enhancing sales effectively.
+                </p>
+            </div>
         </div>
     </div>
+    
 
 
     <div style="display: flex;justify-content:center;flex-direction:column">
@@ -107,7 +386,7 @@
 
     <div class="line2"></div>
 
-    <div>
+    <div class="broker9">
         <p class="feature-p">Features</p>
     </div>
 
@@ -247,7 +526,9 @@
         </div>
     </div>
 
-    <div>
+    <div class="line2"></div>
+
+    <div class="broker10">
         <p class="getstart-p">How To Get Started</p>
         <p class="getstart-p2">
             To begin a brokerage with Current Tech Industries. Align expertise and goals,<br>
@@ -256,7 +537,7 @@
         </p>
     </div>
 
-    <div style="display: flex">
+    <div class="broker11" style="display: flex">
         <div class="getstart-container" style="margin-right:28.73px;margin-bottom:28.73px"> 
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">

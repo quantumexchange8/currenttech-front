@@ -1,6 +1,27 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    @media screen and (max-width: 1600px) {
+        .rew11 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+    @media screen and (max-width: 2500px) {
+        .rew11 {
+            margin-left: 450px;
+            margin-right: 450px;
+        }
+    }
+    @media screen and (max-width: 3500px) {
+        .rew11 {
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+    }
+</style>
+
 <div class="main-content10">
     <div class="rew1">
         <p class="ignite-p">
@@ -20,13 +41,13 @@
         <img src="assets/image/feature/reward/1.svg">
     </div>
 
-    <div class="rew4">
+    <div class="rew4" style="width: 1000px;display: flex;justify-content: center;">
          <p class="point-p">
             Points and Loyalty Programs
          </p>
     </div>
 
-    <div class="rew5">
+    <div class="rew5" style="width: 1000px;display: flex;justify-content: center;">
         <p class="implement-p">
             Implement a points-based rewards system to incentivize user engagement.
             Users can earn points for various actions within the app, such as completing tasks,

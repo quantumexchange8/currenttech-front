@@ -144,11 +144,10 @@
                         </nav>
                     </div>
                 </li>
-                <li class="nav-border-items {{ Route::currentRouteName() === 'sectors' ? 'active' : '' }}">
+                <li class="nav-border-items {{ Route::currentRouteName() === 'sector' ? 'active' : '' }}">
                     <a href="{{ route('sector') }}">
                         <span class="nav-wording">Sectors</span>
                     </a>
-                    
                 </li>
                 <li class="nav-border-items {{ Route::currentRouteName() === 'career' ? 'active' : '' }}">
                     <a href="{{ route('career') }}">
@@ -157,7 +156,15 @@
                     
                 </li>
                 <li class="nav-border-setting">
-                    <img src="/assets/image/accdetail.svg">
+                    <a href="{{ route('support') }}">
+                        @if(Route::currentRouteName() === 'support')
+                            <img src="/assets/image/top/sup.svg">
+                        @else
+                            <img src="/assets/image/accdetail.svg">
+                        @endif
+                        
+                    </a>
+                    
                     <img src="/assets/image/lang.svg">
                     <img src="/assets/image/edit.svg">
                     <img src="/assets/image/login.svg">

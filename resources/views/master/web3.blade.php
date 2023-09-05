@@ -1,6 +1,60 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    
+    .web3-8 {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1280px) {
+        .web3-7 {
+            width: 100%;
+            height: auto;
+        }
+        .web3-7 p {
+            width: 100%;
+            height: auto;
+        }
+        .web3-8 {
+            width: 100%;
+            height: auto;
+        }
+        .web3-8 p {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        .web3-8 {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    }
+
+    @media screen and (min-width: 2000px) {
+        .web3-8 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+
+    @media screen and (min-width: 3000px) {
+        .web3-8 {
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+    }
+
+    @media screen and (min-width: 3800px) {
+        .web3-8 {
+            margin-left: 650px;
+            margin-right: 650px;
+        }
+    }
+</style>
+
 <div class="main-content5" style="margin-top:120px;">
     <div class="web3-1">
         <p class="revo-p">
@@ -237,7 +291,7 @@
             Creating Personal NFTs Collection
         </p>
     </div>
-    <div class="web3-8">
+    <div class="web3-8" style="margin-bottom:96px">
         <p class="create-p2">
             Transform your artwork or content into blockchain-based NFTs.<br>
             Mint and own one-of-a-kind digital assets. Showcase, sell,<br>
