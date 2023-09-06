@@ -1,6 +1,116 @@
 @extends('layouts.master')
 @section('content')
 
+
+<style>
+    .report1 {
+        text-align: center;
+    }
+    .report2 {
+        text-align: center;
+    }
+    .report4 {
+        text-align: center;
+    }
+    .report8 {
+        text-align: center;
+        margin-bottom: 130px;
+    }
+    @media screen and (max-width: 1268px) {
+        .report1 {
+            width: 100%;
+            height: auto;
+        }
+        .report1 p {
+            width: 100%;
+            height: auto;
+        }
+        .report2 {
+            width: 100%;
+            height: auto;
+        }
+        .report2 p {
+            width: 100%;
+            height: auto;
+        }
+        .report3 {
+            width: 100%;
+            height: auto;
+        }
+        .report3 img {
+            width: 100%;
+            height: auto;
+        }
+        .report4 {
+            width: 100%;
+            height: auto;
+        }
+        .report4 p {
+            width: 100%;
+            height: auto;
+        }
+        .report8 {
+            width: 100%;
+            height: auto;
+        }
+        .report8 p {
+            width: 100%;
+            height: auto;
+        }
+        .report9 {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (min-width: 1800px) {
+        .report1 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report1 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report2 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report2 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report3 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report3 img {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report4 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report4 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report8 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report8 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .report9 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+</style>
+
+
 <div class="main-content13">
     <div class="report1">
         <p>

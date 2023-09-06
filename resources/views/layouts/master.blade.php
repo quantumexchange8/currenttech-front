@@ -755,5 +755,24 @@ window.addEventListener('beforeunload', function () {
 
     </script>
 
+    <script>
+      function toggleNav() {
+        var smallNav = document.querySelector('.small-nav');
+        smallNav.classList.toggle('open');
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var smallNav = document.querySelector('.small-nav');
+      
+      // Function to close the sidebar
+      function closeSidebar() {
+          smallNav.classList.remove('open');
+      }
+      
+      // Add a scroll event listener to the document
+      window.addEventListener("scroll", closeSidebar);
+  });
+    </script>
+
 </body>
 </html>

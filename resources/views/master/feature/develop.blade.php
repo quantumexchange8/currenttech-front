@@ -14,13 +14,19 @@
     .develop4 {
         text-align: center;
     }
-    .develop5 {
-        margin-left: 235px;
-        margin-right: 236px;
+
+    .develop8 {
+        text-align: center;
     }
 
     @media screen and (max-width: 1268px) {
         .develop1 {
+            width: 100%;
+        }
+        .employ-p1 {
+            width: 100%;
+        }
+        .employ-p2 {
             width: 100%;
         }
         .develop2 {
@@ -34,10 +40,24 @@
         .develop4 {
             width: 100%;
         }
-        .develop5 {
-            margin-left: 0px;
-            margin-right: 0px;
+        .develop4 p {
             width: 100%;
+        }
+        .develop5 {
+            /* margin-left: 0px;
+            margin-right: 0px;
+            width: 100%; */
+        }
+        .develop8 {
+            width: 100%;
+        }
+        .effective-container {
+            width: 100%;
+            height: auto;
+        }
+        .effective {
+            width: 100%;
+            height: auto;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -89,20 +109,23 @@
     </div>
 
     <div class="develop5">
-        <div class="effective">
-            <img src="assets/image/feature/develop/2.svg">
-            <p>
-                <span>
-                    Effective<br>
-                    Knowledge Transfer
-                </span><br>
-                Efficiently sharing expertise
-                and insights within an
-                organization to enhance performance, continuity, and
-                overall effectiveness.
-                Systematic knowledge
-                transfer benefits growth.
-            </p>
+        <div class="effective-container">
+            <div class="effective">
+                <img src="assets/image/feature/develop/2.svg">
+                <p>
+                    <span>
+                        Effective<br>
+                        Knowledge Transfer
+                    </span><br>
+                    Efficiently sharing expertise
+                    and insights within an
+                    organization to enhance performance, continuity, and
+                    overall effectiveness.
+                    Systematic knowledge
+                    transfer benefits growth.
+                </p>
+            </div>
+            
         </div>
     </div>
 

@@ -30,6 +30,9 @@ Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::get('/support', [HomeController::class, 'support'])->name('support');
 Route::get('/POS-System', [ProductController::class, 'pos'])->name('possystem');
 Route::get('/web-app', [ProductController::class, 'webapp'])->name('webapp');
+Route::get('/see-all', [ProductController::class, 'seeall'])->name('seeall');
+Route::get('/product-details', [ProductController::class, 'productDetails'])->name('productdetail');
+
 Route::get('/broker', [ProductController::class, 'broker'])->name('brokerage');
 Route::get('/expert-advisor', [ProductController::class, 'expert'])->name('expert');
 Route::get('/web3', [ProductController::class, 'web3'])->name('web3');

@@ -1,6 +1,95 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    .perform1 {
+        text-align: center;
+    }
+    .perform2 {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1280px) {
+        .perform1 {
+            width: 100%;
+            height: auto;
+        }
+        .perform1 p {
+            width: 100%;
+            height: auto;
+        }
+
+        .perform2 {
+            width: 100%;
+            height: auto;
+        }
+        .perform2 p {
+            width: 100%;
+            height: auto;
+        }
+        .perform4 {
+            width: 100%;
+            height: auto;
+        }
+        .perform4 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .perform5 {
+            width: 100%;
+            height: auto;
+        }
+        .perform5 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .through-p2 {
+            font-size: 14px;
+        }
+    }
+    @media screen and (min-width: 1800px) {
+        .perform1 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .perform1 p {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+
+        .perform2 {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .perform2 p {
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+    }
+    @media screen and (min-width: 2500px) {
+        .perform1 {
+            margin-left: 350px;
+            margin-right: : 350px;
+        }
+        .perform2 {
+            margin-left: 350px;
+            margin-right: : 350px;
+        }
+    }
+    @media screen and (min-width: 3500px) {
+        .perform1 {
+            margin-left: 550px;
+            margin-right: : 550px;
+        }
+        .perform2 {
+            margin-left: 550px;
+            margin-right: : 550px;
+        }
+    }
+</style>
+
 <div class="main-content9">
     <div class="perform1">
         <p class="building-p1">
@@ -71,12 +160,12 @@
     <div class="perform5">
         <div style="display: flex; flex-direction:column">
             <div>
-                <p class="sales-p1">
+                <p class="encourage-p1">
                     Encourage a competitive spirit to enhance performance
                 </p>
             </div>
             <div>
-                <p class="sales-p2">
+                <p class="encourage-p2">
                     Encouraging healthy competitiveness can drive 
                     performance, boost innovation, and foster 
                     accountability. Striking a balance is essential to 
@@ -96,13 +185,13 @@
         </div>
         <div style="display: flex; flex-direction:column">
             <div>
-                <p class="emphasise-p1">
-                    The Indispensable Role of a Strong Support Team for
+                <p class="indispensable-p1">
+                    The Indispensable Role of a Strong Support Team for <br>
                     Sales Teams
                 </p>
             </div>
             <div>
-                <p class="emphasise-p2">
+                <p class="indispensable-p2">
                     A robust support team empowers sales teams with 
                     tools, streamlined processes, and customer-centric 
                     assistance, driving success, motivation, and growth.
@@ -115,12 +204,12 @@
         
         <div style="display: flex; flex-direction:column">
             <div>
-                <p class="sales-p1">
+                <p class="display-p1">
                     Display prowess and exceed average performance
                 </p>
             </div>
             <div>
-                <p class="sales-p2">
+                <p class="display-p2">
                     Embrace growth, innovation, and customer-
                     centricity to demonstrate strength, surpass 
                     mediocrity, and achieve excellence in personal and 

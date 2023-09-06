@@ -84,17 +84,21 @@
             width: 100%;
             height: auto;
         }
+        .broker10 p {
+            width: 100%;
+            height: auto;
+        }
     }
 
     @media screen and (max-width: 1600px) {
-        .broker1 {
+        /* .broker1 {
             margin-left: 250px;
             margin-right: 250px;
-        }
-        .broker2 {
+        } */
+        /* .broker2 {
             margin-left: 250px;
             margin-right: 250px;
-        }
+        } */
         .broker3 {
             width: 100%;
             height: auto;
@@ -104,14 +108,14 @@
             max-width: 100%;
             height: auto;
         }
-        .broker4 {
+        /* .broker4 {
             margin-left: 250px;
             margin-right: 250px;
-        }
-        .broker5 {
+        } */
+        /* .broker5 {
             margin-left: 250px;
             margin-right: 250px;
-        }
+        } */
         .broker6 {
             margin-left: 250px;
             margin-right: 250px;
@@ -129,6 +133,10 @@
             height: auto;
         }
         .broker10 {
+            width: 100%;
+            height: auto;
+        }
+        .broker10 p {
             width: 100%;
             height: auto;
         }

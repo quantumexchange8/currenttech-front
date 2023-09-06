@@ -80,6 +80,11 @@
             height: auto;
             margin-top: 0px;
         }
+        .webapp2 p {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+        }
         .webapp3 img {
             width: 100%;
             height: auto;

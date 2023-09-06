@@ -164,12 +164,42 @@
                         @endif
                         
                     </a>
+                    <a href="#">
+                        <img src="/assets/image/lang.svg">
+                    </a>
+                    <a href="{{ route('register') }}">
+                        <img src="/assets/image/edit.svg">
+                    </a>
+                    <a href="{{ route('login') }}">
+                        <img src="/assets/image/login.svg">
+                    </a>
                     
-                    <img src="/assets/image/lang.svg">
-                    <img src="/assets/image/edit.svg">
-                    <img src="/assets/image/login.svg">
                 </li>
             </ul>
         </nav>
     </div>
+    <div class="small-nav-toggle" onclick="toggleNav()">
+        <img src="/assets/image/currenttechlogo.svg">
+    </div>
+</div>
+
+<div class="small-nav">
+    <nav class="nav2">
+        <ul>
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('possystem') }}">POS System</a></li>
+            <li><a href="{{ route('webapp') }}">Web & App</a></li>
+            <li><a href="{{ route('brokerage') }}">Brokerage Setup</a></li>
+            <li><a href="{{ route('expert') }}">Expert Advisor</a></li>
+            <li><a href="{{ route('web3') }}">Web 3.0</a></li>
+            <li><a href="{{ route('performance') }}">Performance</a></li>
+            <li><a href="{{ route('reward') }}">Reward Program</a></li>
+            <li><a href="{{ route('develop') }}">Develop & Learn</a></li>
+            <li><a href="{{ route('hrmanage') }}">HR Management</a></li>
+            <li><a href="{{ route('report') }}">Reporting & Analytics</a></li>
+            <li><a href="{{ route('sector') }}">Sectors</a></li>
+            <li><a href="{{ route('career') }}">Career</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </nav>
 </div>

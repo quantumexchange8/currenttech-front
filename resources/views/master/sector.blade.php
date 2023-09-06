@@ -1,6 +1,130 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+
+    .sector1 {
+        text-align: center;
+    }
+
+    .sector2 {
+        text-align: center;
+        margin-bottom: 67px;
+    }
+
+    .sector3 {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1268px) {
+        .sector1 {
+            width: 100%;
+            height: auto;
+        }
+        .sector1 p {
+            width: 100%;
+            height: auto;
+        }
+        .sector3 {
+            width: 100%;
+            height: auto;
+        }
+        .sector3 p {
+            width: 100%;
+            height: auto;
+        }
+        .sector5 {
+            width: 100%;
+            height: auto;
+        }
+        .sector7 {
+            width: 100%;
+            height: auto;
+        }
+        .sector9 {
+            width: 100%;
+            height: auto;
+        }
+        .sector11 {
+            width: 100%;
+            height: auto;
+        }
+        .sector13 {
+            width: 100%;
+            height: auto;
+        }
+        .sector15 {
+            width: 100%;
+            height: auto;
+        }
+        .sector16 {
+            width: 100%;
+            height: auto;
+        }
+        .cart-col2 {
+            width: 100%;
+            height: auto;
+        }
+        .retail-p2 {
+            width: 100%;
+            height: auto;
+        }
+        .food-p2 {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (min-width: 1800px) {
+        .sector1 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector1 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+
+        .sector3 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector3 p {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector5 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector7 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector9 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector11 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector13 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector15 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .sector16 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+
+</style>
+
 <div class="main-content14">
     <div class="sector1">
         <p>
@@ -107,12 +231,12 @@
             <img src="assets/image/sector/cart.svg">
         </div>
         <div class="cart-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="retail-p1">
                     Retail & Service
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="retail-p2">
                     Retail involves selling goods and services directly to consumers,
                     either through physical stores or online platforms. Service refers to 
@@ -134,12 +258,12 @@
             <img src="assets/image/sector/spoon.svg">
         </div>
         <div class="spoon-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="food-p1">
                     Food & Beverage
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="food-p2">
                     The food and beverage (F&B) industry involves the production, 
                     distribution, and sale of food and drinks for human consumption. It 
@@ -161,12 +285,12 @@
             <img src="assets/image/sector/ferry.svg">
         </div>
         <div class="spoon-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="food-p1">
                     Logistic
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="food-p2">
                     Logistics involves efficiently planning, implementing, and controlling 
                     the movement and storage of goods, services, and information from 
@@ -188,12 +312,12 @@
             <img src="assets/image/sector/box.svg">
         </div>
         <div class="spoon-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="food-p1">
                     Wholesale
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="food-p2">
                     Wholesale involves purchasing goods in bulk from manufacturers or 
                     distributors and selling them in smaller quantities to retailers or 
@@ -215,12 +339,12 @@
             <img src="assets/image/sector/car.svg">
         </div>
         <div class="spoon-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="food-p1">
                     Automotive
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="food-p2">
                     The automotive industry involves designing, manufacturing, selling, 
                     and maintaining motor vehicles. It includes cars, trucks, motorcycles, 
@@ -242,12 +366,12 @@
             <img src="assets/image/sector/edu.svg">
         </div>
         <div class="spoon-col2">
-            <div>
+            <div style="display: flex;">
                 <p class="food-p1">
                     Education
                 </p>
             </div>
-            <div>
+            <div style="display: flex;">
                 <p class="food-p2">
                     Education is the acquisition of knowledge, skills, and values through 
                     formal or informal methods. It empowers individuals for personal and 

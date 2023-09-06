@@ -1,6 +1,85 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    .career1 {
+        text-align: center;
+    }
+    .career2 {
+        text-align: center;
+        margin-bottom: 66px;
+    }
+    .career7 {
+        text-align: center;
+        margin-bottom: 66px;
+    }
+
+    @media screen and (max-width: 1268px) {
+        .career1 {
+            width: 100%;
+            height: auto;
+        }
+        .career1 p {
+            width: 100%;
+            height: auto;
+        }
+        .career2 {
+            width: 100%;
+            height: auto;
+        }
+        .career2 p {
+            width: 100%;
+            height: auto;
+        }
+        .career3 {
+            width: 100%;
+            height: auto;
+        }
+        .career3 img {
+            width: 100%;
+            height: auto;
+        }
+        .career5 {
+            width: 100%;
+            height: auto;
+        }
+        .career6 {
+            width: 100%;
+            height: auto;
+        }
+        .career7 {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (min-width: 1800px) {
+        .career1 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .career2 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .career3 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .career5 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .career6 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .career7 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+</style>
+
 <div class="main-content15">
     <div class="career1">
         <p>
@@ -11,7 +90,7 @@
     <div class="career2">
         <p>
             Empower your future with Current Tech Industries. Join our visionary team, embrace 
-            diversity, and work on impactful projects. Explore career opportunities that fuel your 
+            diversity, and work on impactful projects. Explore career opportunities that fuel your <br>
             growth and make a difference. Apply now at <a href="#" class="href-link">hr.admin@currenttech.pro</a>
         </p>
     </div>

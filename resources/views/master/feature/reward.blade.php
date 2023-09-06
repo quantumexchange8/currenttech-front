@@ -2,6 +2,9 @@
 @section('content')
 
 <style>
+    @media screen and (max-width: 1280px) {
+
+    }
     @media screen and (max-width: 1600px) {
         .rew11 {
             margin-left: 350px;

@@ -24,7 +24,7 @@
                 Our Service
             </p>
 
-            <img src="/assets/image/home/service.svg">
+            <img src="/assets/image/home/service.svg" class="service-image">
 
             <p class="unleash">
                 Unleash <span class="lightning-fast">lightning-fast speed</span> with our optimized services. Say goodbye to <span class="loading-time">loading times</span> and buffering, and embrace seamless connectivity <br>
@@ -98,7 +98,7 @@
 
                                 <div class="mobile-col5">
                                     <p class="mobile-p">
-                                        Website Development
+                                        Mobile App Development
                                     </p>
                                 </div>
                             </div>

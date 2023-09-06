@@ -22,53 +22,52 @@
                         Current Tech Industries 2023. All rights reserved.
                     </p>
                 </div>
+            </div>
 
-                <div class="desc-content-col9">
-                    <div class="desc-row-3">
-                        <div class="desc-content-col2">
-                            <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Products</b>
-                            <br>
-                            <br>
-                            <a class="explore-link" cstyle="font-size: 12px;" href="#">POS System</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Web & App</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Brokerage Setup</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Expert Advisor</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Web 3.0</a><br>
-                        </div>
-
-                        <div class="desc-content-col3">
-                            <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Features</b>
-                            <br>
-                            <br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Performance</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Reward Program</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Develop & Learn</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">HR Management</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Reporting & Analytics</a><br>
-                        </div>
-
-                        <div class="desc-content-col4">
-                            <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Sectors</b>
-                            <br>
-                            <br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Retails & Service</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Food & Beverage</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Logistic</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Wholesale</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Automotive</a><br>
-                            <a class="explore-link style="font-size: 12px;" href="#">Education</a><br>
-                        </div>
-                    </div>
+            <div class="desc-content-row2-main">
+                <div class="desc-content-col2">
+                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Products</b>
+                    <br>
+                    <br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('possystem') }}">POS System</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('webapp') }}">Web & App</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('brokerage') }}">Brokerage Setup</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('expert') }}">Expert Advisor</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('web3') }}">Web 3.0</a><br>
                 </div>
-                
-                
+
+                <div class="desc-content-col3">
+                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Features</b>
+                    <br>
+                    <br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('performance') }}">Performance</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('reward') }}">Reward Program</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('develop') }}">Develop & Learn</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('hrmanage') }}">HR Management</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('report') }}">Reporting & Analytics</a><br>
+                </div>
+
+                <div class="desc-content-col4">
+                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Sectors</b>
+                    <br>
+                    <br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Retails & Service</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Food & Beverage</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Logistic</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Wholesale</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Automotive</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Education</a><br>
+                </div>
+            </div>
+
+            <div class="desc-content-row3-main">
                 <div class="desc-content-col5">
                     <div class="desc-content-row2">
                         <div class="desc-content-col6">
                             <p>Subcribe for latest news</p>
                             <div style="position: relative;">
-                                <input type="email" class="form-control" style="margin-top: 15px; padding-right: 30px;" placeholder="Your Email">
-                                <img src="assets/image/home/envelope.svg" style="position: absolute; right: -17px; top: 34px; transform: translateY(-50%);">
+                                <input type="email" class="form-control" style="margin-top: 15px;" placeholder="Your Email">
+                                <img src="assets/image/home/envelope.svg" style="position: absolute; right: 10px; top: 34px; transform: translateY(-50%);">
                             </div>                            
                         </div>
                         <div class="desc-content-col7">
@@ -118,9 +117,7 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-
         </div>
     </div>
 </footer>

@@ -1,6 +1,120 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    .hr2 {
+        text-align: center;
+    }
+    .hr3 {
+        text-align: center;
+    }
+    .hr4 {
+        text-align: center;
+    }
+    .hr5 {
+        margin-top: 138px;
+    }
+    .hr6 {
+        text-align: center;
+    }
+    .hr7 {
+        margin-bottom: 168px;
+        display: flex;
+        justify-content: center;
+        width: 1268px;
+        justify-content: space-between;
+    }
+
+    .hr-line {
+        width: 1257px;
+        height: 1.5px;
+        background: #333;
+        margin-top: 66px;
+        margin-bottom: 66px;
+    }
+
+    @media screen and (max-width: 1268px) {
+        .hr2 {
+            width: 100%;
+        }
+        .hr2 p {
+            width: 100%;
+        }
+        .hr3 {
+            width: 100%;
+        }
+        .hr3 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .hr4 {
+            width: 100%;
+        }
+        .hr4 p {
+            width: 100%;
+        }
+        .hr5 {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .hr6 {
+            width: 100%;
+        }
+        .hr6 p {
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1600px) {
+        .hr2 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr2 p {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr3 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr4 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr4 p {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr6 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr6 p {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr7 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .hr8 {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+    @media screen and (min-width: 2500px) {
+        .hr7 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        .hr8 {
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    }
+</style>
+
 <div class="main-content12">
     <div class="hr1">
         <p class="enhanced-p">
@@ -18,6 +132,8 @@
     <div class="hr3">
         <img src="assets/image/feature/hr/1.svg">
     </div>
+
+    <div class="hr-line"></div>
 
     <div class="hr4">
         <p>
@@ -117,96 +233,93 @@
     </div>
 
     <div class="hr7">
-        <div class="rew10">
-            <div class="perform-col1">
-                <div>
-                    <img src="assets/image/feature/perform/7.svg">
-                </div>
-                
-                <div style="margin-top: 54px">
-                    <p class="perform-psmall">
-                        Increase
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-pbig">
-                        76%
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-psmall">
-                        Productivity
-                    </p>
-                </div>
+        <div class="perform-col1">
+            <div>
+                <img src="assets/image/feature/perform/7.svg">
             </div>
-            <div class="perform-col2">
-                <div>
-                    <img src="assets/image/feature/perform/8.svg">
-                </div>
-    
-                <div style="margin-top: 54px">
-                    <p class="perform-psmall">
-                        Better
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-pbig">
-                        81%
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-psmall">
-                        Teeamwork
-                    </p>
-                </div>
+            
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Increase
+                </p>
             </div>
-            <div class="perform-col3">
-                <div>
-                    <img src="assets/image/feature/perform/9.svg">
-                </div>
-                <div style="margin-top: 54px">
-                    <p class="perform-psmall">
-                        Gain
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-pbig">
-                        90%
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-psmall">
-                        Sales Volume
-                    </p>
-                </div>
+            <div>
+                <p class="perform-pbig">
+                    76%
+                </p>
             </div>
-            <div class="perform-col4">
-                <div>
-                    <img src="assets/image/feature/perform/10.svg">
-                </div>
-                <div style="margin-top: 54px">
-                    <p class="perform-psmall">
-                        Higher
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-pbig">
-                        78%
-                    </p>
-                </div>
-                <div>
-                    <p class="perform-psmall">
-                        Performance
-                    </p>
-                </div>
+            <div>
+                <p class="perform-psmall">
+                    Productivity
+                </p>
             </div>
         </div>
-    
-        <div class="rew11" style="margin-bottom: 60px;display: flex;justify-content: center;">
-            <button class="btn-getmoreinfo">
-                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
-            </button>
+        <div class="perform-col2">
+            <div>
+                <img src="assets/image/feature/perform/8.svg">
+            </div>
+
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Better
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    81%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Teeamwork
+                </p>
+            </div>
         </div>
+        <div class="perform-col3">
+            <div>
+                <img src="assets/image/feature/perform/9.svg">
+            </div>
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Gain
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    90%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Sales Volume
+                </p>
+            </div>
+        </div>
+        <div class="perform-col4">
+            <div>
+                <img src="assets/image/feature/perform/10.svg">
+            </div>
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Higher
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    78%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Performance
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="hr8" style="margin-bottom: 60px;display: flex;justify-content: center;">
+        <button class="btn-getmoreinfo">
+            <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+        </button>
     </div>
 </div>
 @endsection
