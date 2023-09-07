@@ -6,7 +6,21 @@
     .web3-8 {
         text-align: center;
     }
-
+    .work-container-1-2 {
+        display: flex; 
+        flex-direction:column;
+        margin-right: 43px
+    }
+    .zombie-img2 {
+        margin-right: 50px;
+    }
+    .zombie-img3 img {
+        margin-top: -23px;
+    }
+    .zombie-img4 img {
+        margin-right: 51px;
+        margin-top: -23px;
+    }
     @media screen and (max-width: 1280px) {
         .web3-7 {
             width: 100%;
@@ -24,13 +38,81 @@
             width: 100%;
             height: auto;
         }
+        .web3-2 {
+            width: 100%;
+        }
+        .revo-p2 {
+            width: 100%;
+        }
+        .web3-4 {
+            width: 100%;
+        }
+        .empowering-p2 {
+            width: 100%;
+        }
+        .web3-5 {
+            width: 100%;
+        }
+        .step1-p {
+            width: 600px;
+        }
+        .step1-p2 {
+            width: 600px;
+        }
+        .work-container-1 {
+            height: auto;
+            width: 100%;
+        }
+        .zombie-img {
+            display: flex;
+        }
+        .zombie-img2 {
+            margin-right: 51px;
+            display: flex;
+        }
+        .work-container-1-2 {
+            margin-right: 20px;
+        }
+        .work-container-2 {
+            height: auto;
+            width: 100%;
+        }
+        .work-container-3 {
+            height: auto;
+            width: 100%;
+        }
+        .work-container-4 {
+            height: auto;
+            width: 100%;
+        }
+        .zombie-img3 img{
+            margin-top: 200px;
+        }
+        .zombie-img4 img {
+            margin-top: 150px;
+            margin-right: 10px;
+        }
+        .craft-p2 {
+            width: 100%;
+        }
+        .dashimg {
+            width: 100%;
+        }
+        .dashimg img {
+            width: 100%;
+        }
+        .personal-nft-cont {
+            width: 100%;
+            height: auto;
+        }
+        .personal-nft-cont2 {
+            width: 100%;
+            height: auto;
+        }
     }
 
     @media screen and (max-width: 1600px) {
-        .web3-8 {
-            margin-left: 150px;
-            margin-right: 150px;
-        }
+        
     }
 
     @media screen and (min-width: 2000px) {
@@ -98,7 +180,7 @@
         </div>
 
         <div class="work-container-1">
-            <div style="display: flex; flex-direction:column;margin-right: 43px">
+            <div class="work-container-1-2">
                 <div><p class="step1-p">Step 1</p></div>
                 <div>
                     <ul class="step1-p2">
@@ -118,12 +200,12 @@
                 </div>
             </div>
 
-            <div>
+            <div class="zombie-img">
                 <img src="assets/image/product/web3/zombie1.svg" style="margin-top: -23px;">
             </div>
         </div>
         <div class="work-container-2">
-            <div style="margin-right: 51px">
+            <div class="zombie-img2">
                 <img src="assets/image/product/web3/zombie2.svg" style="margin-top: -23px;">
             </div>
             <div style="display: flex; flex-direction:column">
@@ -168,15 +250,15 @@
                 </div>
             </div>
 
-            <div>
-                <img src="assets/image/product/web3/zombie3.svg" style="margin-top: -23px;">
+            <div class="zombie-img3">
+                <img src="assets/image/product/web3/zombie3.svg">
             </div>
         </div>
 
         <div class="work-container-4">
 
-            <div style="margin-right: 51px">
-                <img src="assets/image/product/web3/zombie4.svg" style="margin-top: -23px;">
+            <div class="zombie-img4">
+                <img src="assets/image/product/web3/zombie4.svg">
             </div>
 
             <div style="display: flex; flex-direction:column;">
@@ -223,8 +305,8 @@
             collectibles landscape.
         </p>
     </div>
-    <div>
-        <img src="assets/image/product/web3/dashboard.svg">
+    <div class="dashimg">
+        <img src="assets/image/product/web3/dashboardnew.png">
     </div>
 </div>
 

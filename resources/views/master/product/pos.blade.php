@@ -8,6 +8,10 @@
     .pos-row2 {
         text-align: center;
     }
+    .pos-row3 img {
+        width: 1153px;
+        height: auto;
+    }
 
     .pos-row4 {
         text-align: center;
@@ -22,17 +26,14 @@
 
     .pos-row6 {
         text-align: left;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         display: flex; 
         flex-direction:column
     }
 
-    .pos-row8 img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+    .pos-row8 {
+        margin-bottom: 120px;
     }
-
     .pos-row9 {
         display: flex;
         flex-direction: column;
@@ -54,6 +55,15 @@
     .pos-row11 {
         margin-bottom: 100px;
         display: flex;
+        justify-content: center;
+    }
+
+    .std-image {
+        margin-right: 20px;
+    }
+
+    .adv-image {
+        margin-left: 20px;
     }
 
     @media screen and (max-width: 1280px) {
@@ -74,6 +84,9 @@
         .pos-row4 p {
             width: 100%;
             height: auto;
+        }
+        .streamline-p {
+            font-size: 14px;
         }
         .pos-row5 {
             width: 100%;
@@ -131,6 +144,16 @@
             height: auto;
             max-width: 100%;
         }
+        .std-image {
+            margin-right: 10px;
+        }
+
+        .adv-image {
+            margin-left: 10px;
+        }
+        .chooose-p {
+            font-size: 14px;
+        }
     }
 
     @media screen and (min-width: 1300px) {
@@ -162,10 +185,6 @@
             margin-left: 355px;
             margin-right: 355px;
         }
-        .pos-row8 {
-            margin-left: 355px;
-            margin-right: 355px;
-        }
         .pos-row9 {
             margin-left: 355px;
             margin-right: 355px;
@@ -177,6 +196,9 @@
         .pos-row11{
             width: 100%;
             height: auto;
+        }
+        .pos-row3 img {
+
         }
     }
 
@@ -218,10 +240,6 @@
             margin-right: 423px;
         }
         .pos-row7 {
-            margin-left: 423px;
-            margin-right: 423px;
-        }
-        .pos-row8 {
             margin-left: 423px;
             margin-right: 423px;
         }
@@ -267,10 +285,6 @@
             margin-left: 550px;
             margin-right: 550px;
         }
-        .pos-row8 {
-            margin-left: 550px;
-            margin-right: 550px;
-        }
         .pos-row9 {
             margin-left: 550px;
             margin-right: 550px;
@@ -287,6 +301,13 @@
     @media screen and (max-width: 1257px) {
         .pos-row3 img{
             width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 1728px) {
+        .pos-row8 img {
+            width: 100%;
+            max-width: 100%;
             height: auto;
         }
     }
@@ -377,10 +398,11 @@
             dynamic marketplace.
         </p>
     </div>
+
     <div class="pos-row8">
         <img src="assets/image/product/pos/5.svg">
     </div>
-
+    
     <div class="pos-row9">
         <img src="assets/image/product/pos/6.svg">
         <div style="display: flex;align-items: center;">
@@ -402,10 +424,10 @@
 
     <div class="pos-row11">
         <div>
-            <img src="assets/image/product/pos/7.svg" style="margin-right: 20px">
+            <img src="assets/image/product/pos/7.svg" class="std-image">
         </div>
         <div>
-            <img src="assets/image/product/pos/8.svg" style="margin-left: 20px">
+            <img src="assets/image/product/pos/8.svg" class="adv-image">
         </div>
     </div>
     

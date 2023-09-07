@@ -227,96 +227,96 @@
                 Introducing Our Spectacular
                 Line of Cutting-Edge Products
             </p>
-
-            <div class="spec-row1">
-                <div class="spec-col1">
-                    <p>
-                        <span class="exp-color">Experience</span> the future with our 
-                        groundbreaking 
-                        <span class="prod-color">products</span>, redefining 
-                        possibilities and empowering lives 
-                        like never before!
-                        Discover <span class="inno-color">innovation</span> today!
-                    </p>
-                </div>
-                <div class="spec-col2">
-                    <div class="pos-content-1">
-                        <img src="assets/image/home/posimg.svg" style="width: 316px; height:288px">
-                        <p class="poshead">
-                            POS SYSTEM
+            <div class="spectacular">
+                <div class="spec-row1">
+                    <div class="spec-col1">
+                        <p>
+                            <span class="exp-color">Experience</span> the future with our 
+                            groundbreaking 
+                            <span class="prod-color">products</span>, redefining 
+                            possibilities and empowering lives 
+                            like never before!
+                            Discover <span class="inno-color">innovation</span> today!
                         </p>
-                        <p class="streamhead">
-                            Streamlining Your Sales Process<br>
+                    </div>
+                    <div class="spec-col2">
+                        <div class="pos-content-1">
+                            <img src="assets/image/home/posimg.svg" style="width: 316px; height:288px">
+                            <p class="poshead">
+                                POS SYSTEM
+                            </p>
+                            <p class="streamhead" style="margin-bottom: 10px;">
+                                Streamlining Your Sales Process<br>
+                            </p>
                             <a>
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
-                        </p>
+                        </div>
                         
                     </div>
-                    
-                </div>
-                <div class="spec-col3">
-                    <div class="webapp">
-                        <img src="assets/image/home/webapp.svg" style="width: 315px; height:288px">
-                        <p class="webapphead">
-                            WEB & APP
-                        </p>
-                        <p class="webappcont">
-                            360-Degree Connectivity<br>
+                    <div class="spec-col3">
+                        <div class="webapp">
+                            <img src="assets/image/home/webapp.svg" style="width: 315px; height:288px">
+                            <p class="webapphead">
+                                WEB & APP
+                            </p>
+                            <p class="webappcont" style="margin-bottom: 10px;">
+                                360-Degree Connectivity<br>
+                            </p>
                             <a>
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
-                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="spec-row2">
+                    <div class="spec-col4">
+                        <div class="broker">
+                            <img src="assets/image/home/broker.svg" style="width: 316px; height:288px">
+                            <p class="brokerhead">
+                                BROKERAGE SETUP
+                            </p>
+                            <p class="brokercontent" style="margin-bottom: 10px;">
+                                Path to FInancial Success<br>
+                            </p>
+                            <a>
+                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="spec-col5">
+                        <div class="expert-1">
+                            <img src="assets/image/home/expertimg.svg" style="width: 316px; height:288px">
+                            <p class="expert1head">
+                                EXPERT ADVISOR
+                            </p>
+                            <p class="expert1content" style="margin-bottom: 10px;">
+                                Power of  AI Investment<br>
+                            </p>
+                            <a>
+                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="spec-col6">
+                        <div class="web3">
+                            <img src="assets/image/home/web3.svg" style="width: 316px; height:288px">
+                            <p class="web3head">
+                                WEB 3.0
+                            </p>
+                            <p class="web3content" style="margin-bottom: 10px;">
+                                The Decentrlised Digital Revolution<br>
+                            </p>
+                            <a>
+                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="spec-row2">
-                <div class="spec-col4">
-                    <div class="broker">
-                        <img src="assets/image/home/broker.svg" style="width: 316px; height:288px">
-                        <p class="brokerhead">
-                            BROKERAGE SETUP
-                        </p>
-                        <p class="brokercontent">
-                            Path to FInancial Success<br>
-                            <a>
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="spec-col5">
-                    <div class="expert-1">
-                        <img src="assets/image/home/expertimg.svg" style="width: 316px; height:288px">
-                        <p class="expert1head">
-                            EXPERT ADVISOR
-                        </p>
-                        <p class="expert1content">
-                            Power of  AI Investment<br>
-                            <a>
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="spec-col6">
-                    <div class="web3">
-                        <img src="assets/image/home/web3.svg" style="width: 316px; height:288px">
-                        <p class="web3head">
-                            WEB 3.0
-                        </p>
-                        <p class="web3content">
-                            The Decentrlised Digital Revolution<br>
-                            <a>
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         <div class="one-stop">
@@ -364,7 +364,7 @@
                     <img src="assets/image/home/develop.svg">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 345px">
                         <p class="perform-detail-head">Develop & Learn</p>
-                        <p class="perform-detail-content">Data analysis and predictions.</p>
+                        <p class="perform-detail-content" style="width: 223px;">Data analysis and predictions.</p>
                     </div>
 
                     <div>
@@ -378,9 +378,9 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/hr.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 345px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 315px">
                         <p class="perform-detail-head">HR Management</p>
-                        <p class="perform-detail-content">Recruitment, onboarding, training.</p>
+                        <p class="perform-detail-content" style="width: 253px;">Recruitment, onboarding, training.</p>
                     </div>
 
                     <div>
@@ -394,9 +394,9 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/report.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 345px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 315px">
                         <p class="perform-detail-head">Report & Analytics</p>
-                        <p class="perform-detail-content">Gather, analyse, and presebt data.</p>
+                        <p class="perform-detail-content" style="width: 251px;">Gather, analyse, and presebt data.</p>
                     </div>
 
                     <div>
@@ -417,8 +417,8 @@
             </p>
 
             <p class="innovation-content">
-                Embracing innovation in your business drives efficiency, <span class="sustainability-color">sustainability</span>,
-                and customer experiences. Groundbreaking solutions transform the 
+                Embracing innovation in your business drives efficiency, <span class="sustainability-color">sustainability</span>, <br>
+                and customer experiences. Groundbreaking solutions transform the <br>
                 landscape, meeting <span class="modern-color">modern</span> demands and ensuring competitiveness.
             </p>
         </div>
@@ -428,7 +428,7 @@
         <div class="marquee-content">
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/logistic.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Efficient transportation,
@@ -439,8 +439,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/logistic1.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:29px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Logistic  
                                 </p>
@@ -452,9 +452,7 @@
                             <div>
                                 <a href="#" style="cursor: pointer; text-decoration: none;">
                                     <button class="btn-getinfo-logis">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo">GET INFO</span>
                                     </button>
                                 </a>
                                 
@@ -466,7 +464,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/education.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/education.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Empowering minds
@@ -476,8 +474,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/education2.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:90px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Education  
                                 </p>
@@ -489,9 +487,7 @@
                             <div>
                                 <a href="#">
                                     <button class="btn-getinfo-edu">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
                             </div>
@@ -502,7 +498,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/fnb.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Delicious dining
@@ -513,8 +509,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/education2.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:90px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Food & Beverage        
                                 </p>
@@ -526,9 +522,7 @@
                             <div>
                                 <a href="#">
                                     <button class="btn-getinfo-fnb">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
                             </div>
@@ -539,7 +533,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/retail.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/retail.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Shopping, endless
@@ -550,8 +544,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/retail2.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:90px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Retail        
                                 </p>
@@ -563,9 +557,7 @@
                             <div>
                                 <a href="#">
                                     <button class="btn-getinfo-fnb" style="background: #C89E8A">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
                             </div>
@@ -576,7 +568,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/wholesale.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient" style="width:479px">
                             Bulk savings, wholesale
@@ -587,8 +579,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/wholesale2.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:90px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Wholesale       
                                 </p>
@@ -600,9 +592,7 @@
                             <div>
                                 <a href="#">
                                     <button class="btn-getinfo-fnb" style="background: #A7A7A7">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
                             </div>
@@ -613,7 +603,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img src="/assets/image/homemarquee/automotive.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/automotive.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient" style="width:379px">
                             Innovative vehicles,
@@ -624,8 +614,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img src="/assets/image/homemarquee/automotive2.svg">
-                            <div style="display: flex; flex-direction:column; margin-left:20px;margin-right:90px">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/automotive2.svg">
+                            <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Automotive       
                                 </p>
@@ -637,9 +627,7 @@
                             <div>
                                 <a href="#">
                                     <button class="btn-getinfo-fnb" style="background: #418F9B">
-                                        <span style="color: #FFF;text-align: center;
-                                        font-family: Comfortaa;
-                                        font-size: 16px;">GET INFO</span>
+                                        <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
                             </div>

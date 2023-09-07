@@ -1,6 +1,126 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+
+    
+
+    @media screen and (max-width: 1280px) {
+        .exprt-2 {
+            width: 100%;
+        }
+        .expert-p-word2 {
+            width: 100%;
+        }
+        .exprt-3 {
+            width: 100%;
+        }
+        .exprt-row1 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+            height: 940px;
+        }
+        .exprt-row2 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .medusapro-p2 {
+            width: 100%;
+        }
+        .medusaultra-p2 {
+            width: 100%;
+        }
+        .exprt-5 {
+            width: 100%;
+        }
+        .exprt-4 {
+            width: 100%;
+        }
+        .exprt-4 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .exprt-9 {
+            width: 100%;
+        }
+        .exprt-9 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .exprt-10 {
+            width: 100%;
+        }
+        .exprt-10 img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .exprt-row8 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+        }
+        .mercurypro-p2 {
+            width: 100%;
+        }
+        .mercuryultra-p2 {
+            width: 100%;
+        }
+        .exprt-row4 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .exprt-row5 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .exprt-row6 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .exprt-row7 {
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .exprt-6 {
+            width: 100%;
+        }
+        .performance-p {
+            width: 100%;
+        }
+        .ragnarok-p1 {
+            font-size: 30px;
+        }
+        .medusa-p5 {
+            font-size: 30px;
+        }
+        .exprt-col-content {
+            width: 494px;
+        }
+        .exprt-col3 {
+            width: 494px;
+        }
+        .exprt-7 {
+            width: 100%;
+        }
+    }
+</style>
+
     <div class="main-content4" style="margin-top:120px;">
         <div class="exprt-1">
             <p class="expert-p-word">
@@ -46,7 +166,7 @@
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 55px; left: 80px; padding: 5px;">
+        <div style="position: absolute; bottom: 55px; left: 55px; padding: 5px;">
             <p class="medusa-p4">
                 MEDUSA
             </p>
@@ -67,7 +187,7 @@
             <div class="exprt-row1">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/pro.svg"  style="margin-left: -108px;">
                         <br>
                         <p class="medusapro-p">
                             MEDUSA PRO
@@ -83,7 +203,7 @@
                 </div>
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -108px;">
                         <br>
                         <p class="medusaultra-p">
                             MEDUSA ULTRA
@@ -103,311 +223,103 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">76.8%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
                 <div class="exprt-col4">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">81.2%</p>
-                        <br>
-                        <p class="word-small">Accuracy</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exprt-row3">
-                <div class="exprt-col3">
-                    <div class="exprt-col-content">
-                        <p class="word-small">Up to</p>
-                        <br>
-                        <p class="word-big">76.8%</p>
-                        <br>
-                        <p class="word-small">Accuracy</p>
-                    </div>
-                </div>
-                <div class="exprt-col4">
-                    <div class="exprt-col-content" style="width: 524px">
-                        <p class="word-small">Up to</p>
-                        <br>
-                        <p class="word-big">81.2%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
             </div>
 
             <div class="exprt-row4">
-                <div class="exprt-col5">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0.2<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
                 <div class="exprt-col6">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
             </div>
 
             <div class="exprt-row5">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">5+</p>
-                        <br>
                         <p class="word-small">Products</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">2x</p>
-                        <br>
                         <p class="word-small">Products</p>
                     </div>
                 </div>
             </div>
 
             <div class="exprt-row6">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Semi</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Auto</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
             </div>
 
             <div class="exprt-row7">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Allow</p>
-                        <br>
-                        <img src="assets/image/product/expert/mt4.svg">
-                        <br>
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/mt4.svg">
+                        </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Allow</p>
-                        <br>
-                        <img src="assets/image/product/expert/ctrade.svg">
-                        <img src="assets/image/product/expert/mt4.svg">
-                        <img src="assets/image/product/expert/mt5.svg">
-                        <br>
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right: 46px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 46px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
             </div>
         </div>
-        {{-- <div style="display: flex;width:100%;justify-content: space-between;">
-            <div style="display: flex; flex-direction:column;">
-                <div>
-                    <img src="assets/image/product/expert/pro.svg">
-                    <div>
-                        <p class="medusapro-p">
-                            MEDUSA PRO
-                        </p>
-                        <p class="medusapro-p2">
-                            The Medusa Expert Advisor 
-                            offers a user-friendly hedging 
-                            strategy for Forex trading,
-                            with predefined rules and 
-                            straightforward management.
-                        </p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Up to</p>
-                    </div>
-                    <div>
-                        <p class="word-big">76.8%</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Accuracy</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Speed</p>
-                    </div>
-                    <div>
-                        <p class="word-big">0.2<small>Sec</small></p>
-                    </div>
-                    <div>
-                        <p class="word-small">Time Delay</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Up to</p>
-                    </div>
-                    <div>
-                        <p class="word-big">5+</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Products</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Support</p>
-                    </div>
-                    <div>
-                        <p class="word-big">Semi</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Function</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Allow</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/expert/mt4.svg">
-                    </div>
-                    <div>
-                        <p class="word-small">Trading Platform</p>
-                    </div>
-                </div>
-
-            </div>
-            <div style="display: flex; flex-direction:column;">
-                <div>
-                    <img src="assets/image/product/expert/ultra.svg">
-                    <div>
-                        <p class="medusaultra-p">
-                            MEDUSA ULTRA
-                        </p>
-                        <p class="medusaultra-p2">
-                            The Medusa Expert Advisor 
-                            caters to experienced traders 
-                            with its advanced hedging 
-                            tactics in Forex, employing 
-                            intricate indicators for precise 
-                            position management.
-                        </p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Up to</p>
-                    </div>
-                    <div>
-                        <p class="word-big">81.2%</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Accuracy</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Speed</p>
-                    </div>
-                    <div>
-                        <p class="word-big">0<small>Sec</small></p>
-                    </div>
-                    <div>
-                        <p class="word-small">Time Delay</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Up to</p>
-                    </div>
-                    <div>
-                        <p class="word-big">2x</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Products</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Support</p>
-                    </div>
-                    <div>
-                        <p class="word-big">Auto</p>
-                    </div>
-                    <div>
-                        <p class="word-small">Function</p>
-                    </div>
-                </div>
-
-                <div style="display: flex;flex-direction:column">
-                    <div>
-                        <p class="word-small">Allow</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/expert/ctrade.svg">
-                        <img src="assets/image/product/expert/mt4.svg">
-                        <img src="assets/image/product/expert/mt5.svg">
-                    </div>
-                    <div>
-                        <p class="word-small">Trading Platform</p>
-                    </div>
-                </div>
-
-            </div>
-        </div> --}}
         
         <div class="exprt-4">
             <p class="performance-p">Performance</p>
             <img src="assets/image/product/expert/performance.svg">
         </div>
-        {{-- <div class="performance-container">
-            <div style="display: flex">
-                <div>
-                    <p class="perform-prate">4.5</p>
-                </div>
-            </div>
-        </div> --}}
-        <div>
-            
-        </div>
     </div>
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 55px; left: 80px; padding: 5px;">
+        <div style="position: absolute;bottom: 55px;left: 55px;padding: 5px">
             <p class="medusa-p6">
                 MERCURY
             </p>
@@ -430,7 +342,7 @@
             <div class="exprt-row8">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/pro.svg" style="margin-left: -108px;">
                         <br>
                         <p class="mercurypro-p">
                             MERCURY PRO
@@ -448,7 +360,7 @@
                 </div>
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -108px;">
                         <br>
                         <p class="mercuryultra-p">
                             MERCURY ULTRA
@@ -487,7 +399,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col5">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
                         <br>
@@ -507,7 +419,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
                         <br>
@@ -527,7 +439,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
                         <br>
@@ -547,24 +459,24 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Allow</p>
-                        <br>
-                        <img src="assets/image/product/expert/ctrade.svg">
-                        <img src="assets/image/product/expert/mt4.svg">
-                        <br>
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right: 46px">
+                            <img src="assets/image/product/expert/mt4.svg">
+                        </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Allow</p>
-                        <br>
-                        <img src="assets/image/product/expert/ctrade.svg">
-                        <img src="assets/image/product/expert/mt4.svg">
-                        <img src="assets/image/product/expert/mt5.svg">
-                        <br>
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right: 46px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 46px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
@@ -581,14 +493,14 @@
                 </div>
             </div>
         </div> --}}
-        <div style="margin-bottom: 50px">
+        <div class="exprt-9" style="margin-bottom: 50px">
             <img src="assets/image/product/expert/performance.svg">
         </div>
     </div>
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 55px; left: 80px; padding: 5px;">
+        <div style="position: absolute; bottom: 100px; left: 55px; padding: 5px;">
             <p class="ragnarok-p">
                 RAGNAROK
             </p>
@@ -611,7 +523,7 @@
             <div class="exprt-row8">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/pro.svg" style="margin-left: -108px;">
                         <br>
                         <p class="ragnarok-p-word">
                             RAGNAROK PRO
@@ -629,7 +541,7 @@
                 </div>
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -108px;">
                         <br>
                         <p class="ragnarok-p-word2">
                             RAGNAROK ULTRA
@@ -669,7 +581,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col5">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
                         <br>
@@ -689,7 +601,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
                         <br>
@@ -709,7 +621,7 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
                         <br>
@@ -729,13 +641,13 @@
                 </div>
             </div>
             <div class="exprt-row8">
-                <div class="exprt-col7">
+                <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Allow</p>
                         <br>
-                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:40px">
-                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:40px">
-                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:40px">
+                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
+                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
+                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/pamm.svg">
                         <br>
                         <p class="word-small">Trading Platform</p>
@@ -745,10 +657,10 @@
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Allow</p>
                         <br>
-                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:40px">
-                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:40px">
-                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:40px">
-                        <img src="assets/image/product/expert/pamm.svg" style="margin-right:40px">
+                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
+                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
+                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
+                        <img src="assets/image/product/expert/pamm.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/network.svg">
                         <br>
                         <p class="word-small">Trading Platform</p>
@@ -767,7 +679,7 @@
                 </div>
             </div>
         </div> --}}
-        <div style="margin-bottom: 50px">
+        <div class="exprt-10" style="margin-bottom: 50px">
             <img src="assets/image/product/expert/performance.svg">
         </div>
     </div>

@@ -88,6 +88,62 @@
             width: 100%;
             height: auto;
         }
+        .cont {
+            width: 100%;
+        }
+        .cont img {
+            width: 400px;
+            margin-left: 20px;
+        }
+        .cont-2-1 {
+            width: 100%;
+        }
+        .cont-2-1 img {
+            width: 450px;
+            height: 450px;
+            margin-left: 20px;
+            margin-top: -60px;
+        }
+        .ct-box {
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        .cont2 {
+            width: 100%;
+        }
+
+        .cont2-2 {
+            width: 100%;
+        }
+        .cont2-2 img {
+            width: 450px;
+            height: 450px;
+            margin-left: 20px;
+            margin-top: -60px;
+        }
+        .package-p {
+            width: 100%;
+        }
+        .package-p2 {
+            width: 100%;
+        }
+        .getstart-container {
+
+        }
+        .broker12 {
+            width: 100%;
+        }
+        .quota-p {
+            width: 100%;
+        }
+        .personalise-container {
+            width: 100%;
+        }
+        .personalise-container img {
+            width: 400px;
+            height: 400px;
+            margin-left: -15px;
+        }
     }
 
     @media screen and (max-width: 1600px) {
@@ -120,10 +176,10 @@
             margin-left: 250px;
             margin-right: 250px;
         }
-        .broker7 {
+        /* .broker7 {
             margin-left: 250px;
             margin-right: 250px;
-        }
+        } */
         .broker8 {
             margin-left: 250px;
             margin-right: 250px;
@@ -301,16 +357,16 @@
     
     <div class="broker5">
         <p class="broker-p2">
-            Get a White Label Solutions for your brokerage, including customised and rebranded <br>
-            services with advanced tech. Enjoy secure payment solutions for global transactions and <br>
-            efficient financial services. Utilise CRM Solutions for optimized customer interactions,<br>
+            Get a White Label Solutions for your brokerage, including customised and rebranded 
+            services with advanced tech. Enjoy secure payment solutions for global transactions and 
+            efficient financial services. Utilise CRM Solutions for optimized customer interactions,
             sales, and support
         </p>
     </div>
     
     <div class="broker6">
         <div class="cont">
-            <img src="assets/image/product/broker/2.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -100px;">
+            <img src="assets/image/product/broker/2.svg">
             <div class="ct-box">
                 <p class="ct-p">
                     CT White Label Solutions
@@ -324,11 +380,10 @@
             </div>
         </div>
     </div>
-    
     <div class="broker7">
-        <div class="cont2">
-            <img src="assets/image/product/broker/3.svg" style="margin-top: -105px;margin-left: 660px;margin-bottom: -100px;">
-            <div class="ct-box2">
+        <div class="cont-2-1">
+            
+            <div class="ct-box">
                 <p class="ct-p4">
                     Payment Solutions
                 </p>
@@ -339,17 +394,18 @@
                     diverse payment.
                 </p>
             </div>
+            <img src="assets/image/product/broker/3.svg">
         </div>
     </div>
-    
+
     <div class="broker8">
-        <div class="cont3">
-            <img src="assets/image/product/broker/4.svg" style="margin-top: -105px;margin-left: 90px;margin-bottom: -105px;">
+        <div class="cont2-2">
+            <img src="assets/image/product/broker/4.svg">
             <div class="ct-box" >
                 <p class="ct-p">
                     CRM Solutions
                 </p>
-                <p class="ct-p5" style="width: 421px">
+                <p class="ct-p5">
                     Integrated software for 
                     managing customer interactions, 
                     optimising relationships, and 
@@ -361,7 +417,7 @@
     
 
 
-    <div style="display: flex;justify-content:center;flex-direction:column">
+    <div style="display: flex;justify-content:center;flex-direction:column;margin-bottom: 80px;">
         <div>
             <p class="package-p">
                 Our cost-effective brokerage package
@@ -632,7 +688,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="broker12">
         <p class="quota-p">Get Your Personalised Quota Today!</p>
     </div>
 
