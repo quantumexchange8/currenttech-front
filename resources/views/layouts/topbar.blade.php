@@ -1,3 +1,6 @@
+<div class="blackboard">
+    
+</div>
 <div class="center-top">
     <div class="bar">
         <nav class="nav">
@@ -183,22 +186,44 @@
     </div>
 </div>
 
+
 <div class="small-nav">
     <nav class="nav2">
         <ul>
-            <li><a href="{{ route('home') }}">Home</a></li>
-            <li><a href="{{ route('possystem') }}">POS System</a></li>
-            <li><a href="{{ route('webapp') }}">Web & App</a></li>
-            <li><a href="{{ route('brokerage') }}">Brokerage Setup</a></li>
-            <li><a href="{{ route('expert') }}">Expert Advisor</a></li>
-            <li><a href="{{ route('web3') }}">Web 3.0</a></li>
-            <li><a href="{{ route('performance') }}">Performance</a></li>
-            <li><a href="{{ route('reward') }}">Reward Program</a></li>
-            <li><a href="{{ route('develop') }}">Develop & Learn</a></li>
-            <li><a href="{{ route('hrmanage') }}">HR Management</a></li>
-            <li><a href="{{ route('report') }}">Reporting & Analytics</a></li>
-            <li><a href="{{ route('sector') }}">Sectors</a></li>
-            <li><a href="{{ route('career') }}">Career</a></li>
+            <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
+                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}">Home</a>
+            </li>
+            <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
+                <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')">
+                    <span style="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? '; color: #BD00FF' : '' }}">Products</span>
+                    <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left:158px"></i>
+                </a>
+                <ul id="ProductSubMenu" style="display: none;margin-left: 30px;">
+                    <li class="{{ Request::is('POS-System') ? 'active' : '' }}"><a href="{{ route('possystem') }}"><span style="{{ Request::is('POS-System') ? 'color: #BD00FF;' : '' }}" >POS System</span></a></li>
+                    <li class="{{ Request::is('web-app') ? 'active' : '' }}"><a href="{{ route('webapp') }}"><span style="{{ Request::is('web-app') ? 'color: #BD00FF;' : '' }}" >Web & App</span></a></li>
+                    <li class="{{ Request::is('broker') ? 'active' : '' }}"><a href="{{ route('brokerage') }}"><span style="{{ Request::is('broker') ? 'color: #BD00FF;' : '' }}">Brokerage Setup</span></a></li>
+                    <li class="{{ Request::is('expert-advisor') ? 'active' : '' }}"><a href="{{ route('expert') }}"><span style="{{ Request::is('expert-advisor') ? 'color: #BD00FF;' : '' }}">Expert Advisor</span></a></li>
+                    <li class="{{ Request::is('web3') ? 'active' : '' }}"><a href="{{ route('web3') }}"><span style="{{ Request::is('web3') ? 'color: #BD00FF;' : '' }}">Web 3.0</span></a></li>
+                </ul>
+                
+            </li>
+            <li class="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
+                <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
+                    <span style="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? '; color: #BD00FF' : '' }}">Feature</span>
+                    <i id="FeatureIcon" class="mdi mdi-chevron-down" style="margin-left:175px"></i>
+                </a>
+                <ul id="FeatureSubMenu" style="display: none;margin-left: 30px;">
+                    <li class="{{ Request::is('performance') ? 'active' : '' }}"><a href="{{ route('performance') }}"><span style="{{ Request::is('performance') ? 'color: #BD00FF;' : '' }}" >Performance</span></a></li>
+                    <li class="{{ Request::is('reward-program') ? 'active' : '' }}"><a href="{{ route('reward') }}"><span style="{{ Request::is('reward-program') ? 'color: #BD00FF;' : '' }}" >Reward Program</span></a></li>
+                    <li class="{{ Request::is('develop&learn') ? 'active' : '' }}"><a href="{{ route('develop') }}"><span style="{{ Request::is('develop&learn') ? 'color: #BD00FF;' : '' }}" >Develop & Learn</span></a></li>
+                    <li class="{{ Request::is('hr_management') ? 'active' : '' }}"><a href="{{ route('hrmanage') }}"><span style="{{ Request::is('hr_management') ? 'color: #BD00FF;' : '' }}" >HR Management</span></a></li>
+                    <li class="{{ Request::is('reporting&Analytics') ? 'active' : '' }}"><a href="{{ route('report') }}"><span style="{{ Request::is('reporting&Analytics') ? 'color: #BD00FF;' : '' }}" >Reporting & Analytics</span></a></li>
+                </ul>
+            </li>
+            
+            
+            <li class="smallnav-act {{ Request::is('sectors') ? 'active' : ''}}"><a href="{{ route('sector') }}" style="{{ Request::is('sectors') ? 'color: #BD00FF;' : '' }}">Sectors</a></li>
+            <li class="smallnav-act {{ Request::is('career') ? 'active' : ''}}"><a href="{{ route('career') }}" style="{{ Request::is('career') ? 'color: #BD00FF;' : '' }}">Career</a></li>
             <!-- Add more menu items as needed -->
         </ul>
     </nav>

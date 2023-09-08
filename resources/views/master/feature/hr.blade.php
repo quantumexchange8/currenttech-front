@@ -64,6 +64,57 @@
         .hr6 p {
             width: 100%;
         }
+        .hr-container1 {
+            width: 460px;
+            height: 741px;
+        }
+        .hr-container-col-img img {
+            width: 460px;
+        }
+        .hr-container-col1 p {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .hr-container-col2 p {
+            width: 400px;
+        }
+        .hr-container2 {
+            width: 460px;
+            height: 741px;
+        }
+        .hr-container2 img {
+            width: 460px;
+        }
+        .hr-container-col3 p {
+            font-size: 27px;
+        }
+        .hr-container-col4 p {
+            width: 415px;
+        }
+        .hr-container3 {
+            width: 460px;
+            height: 741px;
+        }
+
+        .hr-container3 img {
+            width: 460px;
+        }
+        .hr-container-col5 p {
+            font-size: 28px;
+        }
+        .hr-container-col6 p {
+            width: 454px;
+        }
+        .hr-container4 {
+            width: 460px;
+            height: 741px;
+        }
+        .hr-container4 img {
+            width: 460px;
+        }
+        .hr-container-col8 p {
+            width: 427px;
+        }
     }
     @media screen and (min-width: 1600px) {
         .hr2 {
@@ -318,7 +369,9 @@
     </div>
     <div class="hr8" style="margin-bottom: 60px;display: flex;justify-content: center;">
         <button class="btn-getmoreinfo">
-            <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            <a href="{{ route('support') }}" class="explore-link">
+                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            </a>
         </button>
     </div>
 </div>

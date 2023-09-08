@@ -248,7 +248,7 @@
                             <p class="streamhead" style="margin-bottom: 10px;">
                                 Streamlining Your Sales Process<br>
                             </p>
-                            <a>
+                            <a href="{{ route('possystem') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
                         </div>
@@ -263,7 +263,7 @@
                             <p class="webappcont" style="margin-bottom: 10px;">
                                 360-Degree Connectivity<br>
                             </p>
-                            <a>
+                            <a href="{{ route('webapp') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
                         </div>
@@ -279,7 +279,7 @@
                             <p class="brokercontent" style="margin-bottom: 10px;">
                                 Path to FInancial Success<br>
                             </p>
-                            <a>
+                            <a href="{{ route('expert') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
                         </div>
@@ -294,7 +294,7 @@
                             <p class="expert1content" style="margin-bottom: 10px;">
                                 Power of  AI Investment<br>
                             </p>
-                            <a>
+                            <a href="{{ route('brokerage') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
                         </div>
@@ -309,7 +309,7 @@
                             <p class="web3content" style="margin-bottom: 10px;">
                                 The Decentrlised Digital Revolution<br>
                             </p>
-                            <a>
+                            <a href="{{ route('web3') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                             </a>
                         </div>
@@ -337,9 +337,11 @@
 
                     <div>
                         <button class="btn-getinfo">
-                            <span style="color: #FFF;text-align: center;
-                            font-family: Comfortaa;
-                            font-size: 16px;">GET INFO</span>
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span style="color: #FFF;text-align: center;
+                                font-family: Comfortaa;
+                                font-size: 16px;">GET INFO</span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -353,9 +355,11 @@
 
                     <div>
                         <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
                             font-family: Comfortaa;
                             font-size: 16px;">GET INFO</span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -369,9 +373,11 @@
 
                     <div>
                         <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
                             font-family: Comfortaa;
                             font-size: 16px;">GET INFO</span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -385,9 +391,11 @@
 
                     <div>
                         <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
                             font-family: Comfortaa;
                             font-size: 16px;">GET INFO</span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -401,9 +409,11 @@
 
                     <div>
                         <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
                             font-family: Comfortaa;
                             font-size: 16px;">GET INFO</span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -417,8 +427,8 @@
             </p>
 
             <p class="innovation-content">
-                Embracing innovation in your business drives efficiency, <span class="sustainability-color">sustainability</span>, <br>
-                and customer experiences. Groundbreaking solutions transform the <br>
+                Embracing innovation in your business drives efficiency, <span class="sustainability-color">sustainability</span>, 
+                and customer experiences. Groundbreaking solutions transform the 
                 landscape, meeting <span class="modern-color">modern</span> demands and ensuring competitiveness.
             </p>
         </div>
@@ -450,7 +460,7 @@
                             </div>
 
                             <div>
-                                <a href="#" style="cursor: pointer; text-decoration: none;">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-logis">
                                         <span class="btn-span-getinfo">GET INFO</span>
                                     </button>
@@ -485,7 +495,7 @@
                             </div>
 
                             <div>
-                                <a href="#">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-edu">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -520,7 +530,7 @@
                             </div>
 
                             <div>
-                                <a href="#">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -555,7 +565,7 @@
                             </div>
 
                             <div>
-                                <a href="#">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #C89E8A">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -590,7 +600,7 @@
                             </div>
 
                             <div>
-                                <a href="#">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #A7A7A7">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -625,7 +635,7 @@
                             </div>
 
                             <div>
-                                <a href="#">
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #418F9B">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>

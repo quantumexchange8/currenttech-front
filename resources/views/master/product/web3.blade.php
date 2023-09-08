@@ -310,7 +310,7 @@
     </div>
 </div>
 
-<div class="web3-marquee">
+<div class="web3-marquee" style="margin-top: 66px;">
     <div class="web3-marquee-content">
         <div class="web3-marquee-item">
             <img src="assets/image/product/web3/purple1.svg">
@@ -384,8 +384,8 @@
 
 <div class="main-content8">
     <div class="personal-nft-cont">
-        <div class="nft-container1">
-            <div>
+        <div class="nft-container1-1">
+            {{-- <div>
                 <img src="assets/image/product/web3/cat.svg">
             </div>
             <div style="display: flex;align-items:center; width:400px">
@@ -436,10 +436,11 @@
                 <button class="btn-collect">
                     <span class="collect-btn">Collect Now</span>
                 </button>
-            </div>
+            </div> --}}
+            <img src="assets/image/product/web3/test.png">
         </div>
-        <div class="nft-container2">
-            <div>
+        <div class="nft-container1-2">
+            {{-- <div>
                 <img src="assets/image/product/web3/cow.svg">
             </div>
             <div style="display: flex;align-items:center; width:400px">
@@ -490,10 +491,11 @@
                 <button class="btn-collect">
                     <span class="collect-btn">Collect Now</span>
                 </button>
-            </div>
+            </div> --}}
+            <img src="assets/image/product/web3/test2.png">
         </div>
-        <div class="nft-container3">
-            <div>
+        <div class="nft-container1-3">
+            {{-- <div>
                 <img src="assets/image/product/web3/chick.svg">
             </div>
             <div style="display: flex;align-items:center; width:400px">
@@ -544,11 +546,23 @@
                 <button class="btn-collect">
                     <span class="collect-btn">Collect Now</span>
                 </button>
-            </div>
+            </div> --}}
+            <img src="assets/image/product/web3/test3.png">
+        </div>
+        <div class="nft-container1-4">
+            <img src="assets/image/product/web3/monkey.svg">
+        </div>
+
+        <div class="nft-container1-5">
+            <img src="assets/image/product/web3/monkey2.svg">
+        </div> 
+
+        <div class="nft-container1-6">
+            <img src="assets/image/product/web3/monkey3.svg">
         </div>
     </div>
 
-    <div class="personal-nft-cont2">
+    {{-- <div class="personal-nft-cont2">
         <div>
             <img src="assets/image/product/web3/monkey.svg" style="margin-right: 25px">
         </div>
@@ -560,7 +574,7 @@
         <div>
             <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
         </div>
-    </div>
+    </div> --}}
 
     <div class="joinnow-row">
         <div class="join-container">
@@ -572,7 +586,9 @@
                 </div>
                 <div>
                     <button class="btn-startnow">
-                        <span class="startnow-span">Start Now!</span>
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <span class="startnow-span">Start Now!</span>
+                        </a>
                     </button>
                 </div>
             </div>

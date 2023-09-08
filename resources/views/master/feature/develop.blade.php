@@ -22,6 +22,7 @@
     @media screen and (max-width: 1268px) {
         .develop1 {
             width: 100%;
+            margin-top: 100px;
         }
         .employ-p1 {
             width: 100%;
@@ -51,13 +52,56 @@
         .develop8 {
             width: 100%;
         }
+        .develop6 {
+            width: 100%;
+        }
+        .develop7 {
+            width: 100%;
+        }
         .effective-container {
             width: 100%;
-            height: auto;
+            height: 451px;
         }
         .effective {
             width: 100%;
             height: auto;
+        }
+        .effective-container img {
+            width: 620px;
+            height: auto;
+        }
+        .effective p {
+            width: 300px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+        .career {
+            width: 100%;
+            height: auto;
+        }
+        .career img{
+            width: 620px;
+            height: auto;
+        }
+        .career p {
+            margin-right: 4px;
+            font-size: 20px;
+            width: 300px;
+        }
+
+        .ongoing {
+            width: 100%;
+            height: 451px;
+        }
+        .ongoing img{
+            width: 577px;
+            height: auto;
+        }
+        .ongoing p {
+            margin-right: 4px;
+            font-size: 20px;
+            width: 300px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -149,21 +193,24 @@
     </div>
 
     <div class="develop7">
-        <div class="ongoing">
-            <img src="assets/image/feature/develop/4.svg">
-            <p>
-                <span>
-                    Ongoing training<br> 
-                    and workshops
-                </span><br>
-                Regular training sessions <br>
-                and workshops keep <br>
-                employees updated with new <br>
-                skills and knowledge, <br>
-                ensuring their continuous <br>
-                professional development.
-            </p>
+        <div class="effective-container">
+            <div class="effective">
+                <img src="assets/image/feature/develop/4.svg">
+                <p>
+                    <span>
+                        Ongoing training<br> 
+                        and workshops
+                    </span><br>
+                    Regular training sessions <br>
+                    and workshops keep <br>
+                    employees updated with new <br>
+                    skills and knowledge, <br>
+                    ensuring their continuous <br>
+                    professional development.
+                </p>
+            </div>
         </div>
+        
     </div>
 
     <div class="develop8">
@@ -261,7 +308,9 @@
 
     <div class="develop10" style="margin-bottom: 60px">
         <button class="btn-getmoreinfo">
-            <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            <a href="{{ route('support') }}" class="explore-link">
+                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            </a>
         </button>
     </div>
 </div>

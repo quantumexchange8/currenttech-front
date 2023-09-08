@@ -71,8 +71,8 @@
 
     <div class="rew8">
         <p class="recognise-p1">
-            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching
-            specific milestones, completing challenges, or demonstrating exceptional performance.
+            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching <br>
+            specific milestones, completing challenges, or demonstrating exceptional performance. <br>
             Displaying badges on user profiles adds a gamified element and encourages users to strive for more accomplishments.
         </p>
     </div>
@@ -230,7 +230,9 @@
 
     <div class="rew11" style="margin-bottom: 60px">
         <button class="btn-getmoreinfo">
-            <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            <a href="{{ route('support') }}" class="explore-link">
+                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            </a>
         </button>
     </div>
 </div>

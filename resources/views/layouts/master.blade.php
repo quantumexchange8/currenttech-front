@@ -328,7 +328,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
-    
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
+
     <script>
 
     function toggleNav() {
@@ -345,31 +346,30 @@
       }
     }
 
-    function toggleSubMenu(subMenuId) {
-    var subMenu = document.getElementById(subMenuId);
-    var subMenuArrow = subMenu.previousElementSibling.querySelector('i');
-    var subMenus = document.getElementsByClassName("sub-menu");
+    function toggleSubMenu(showSubMenuId, showIconId, hideSubMenuId, hideIconId) {
+        var showSubMenu = document.getElementById(showSubMenuId);
+        var showIcon = document.getElementById(showIconId);
+        
+        var hideSubMenu = document.getElementById(hideSubMenuId);
+        var hideIcon = document.getElementById(hideIconId);
 
-    // Check if the clicked sub-menu is already active
-    if (subMenu.classList.contains("active")) {
-      subMenu.classList.remove("active");
-      subMenuArrow.classList.remove("mdi-chevron-up");
-      subMenuArrow.classList.add("mdi-chevron-down");
-    } else {
-      // Deactivate all sub-menus
-      for (var i = 0; i < subMenus.length; i++) {
-        subMenus[i].classList.remove("active");
-        var arrow = subMenus[i].previousElementSibling.querySelector('i');
-        arrow.classList.remove("mdi-chevron-up");
-        arrow.classList.add("mdi-chevron-down");
-      }
-    
-      // Activate the clicked sub-menu
-      subMenu.classList.add("active");
-      subMenuArrow.classList.remove("mdi-chevron-down");
-      subMenuArrow.classList.add("mdi-chevron-up");
+        // Hide the previously shown submenu (if any)
+        if (hideSubMenu.style.display === 'block') {
+            hideSubMenu.style.display = 'none';
+            hideIcon.className = 'mdi mdi-chevron-down';
+        }
+
+        // Toggle the clicked submenu
+        if (showSubMenu.style.display === 'none' || showSubMenu.style.display === '') {
+            showSubMenu.style.display = 'block';
+            showIcon.className = 'mdi mdi-chevron-up';
+        } else {
+            showSubMenu.style.display = 'none';
+            showIcon.className = 'mdi mdi-chevron-down';
+        }
     }
-  }
+
+
 
       // dark mode
       $(document).ready(function() {
@@ -396,12 +396,12 @@
             }
         });
 
-// Ensure the selected mode persists across page navigation
-window.addEventListener('beforeunload', function () {
-  var body = document.querySelector('body');
-  var mode = body.classList.contains('dark-mode') ? 'dark' : 'light';
-  localStorage.setItem('mode', mode);
-});
+    // Ensure the selected mode persists across page navigation
+    window.addEventListener('beforeunload', function () {
+      var body = document.querySelector('body');
+      var mode = body.classList.contains('dark-mode') ? 'dark' : 'light';
+      localStorage.setItem('mode', mode);
+    });
 
 
     // navigation sub active

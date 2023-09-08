@@ -18,6 +18,7 @@
         .career1 {
             width: 100%;
             height: auto;
+            margin-top: 110px;
         }
         .career1 p {
             width: 100%;
@@ -50,6 +51,27 @@
         .career7 {
             width: 100%;
             height: auto;
+        }
+        .career-row2 {
+            width: 100%;
+        }
+        .career-row2 img {
+            width: 300px;
+        }
+        .career-row3 {
+            display: flex;
+            margin-bottom: 88px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .career-col3 {
+            margin-bottom: 30px;
+        }
+        .career-col7 {
+            margin-bottom: 30px;
+        }
+        .career-col9 {
+            margin-bottom: 30px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -123,7 +145,9 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
                 </button>
             </div>
         </div>
@@ -221,7 +245,10 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
+                    
                 </button>
             </div>
         </div>
@@ -320,7 +347,10 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
+                    
                 </button>
             </div>
         </div>
@@ -418,7 +448,10 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
+                    
                 </button>
             </div>
         </div>
@@ -517,7 +550,10 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
+                    
                 </button>
             </div>
         </div>
@@ -616,7 +652,9 @@
             </div>
             <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
-                    <span>APPLY NOW</span>
+                    <a href="{{ route('support') }}" class="explore-link">
+                        <span>APPLY NOW</span>
+                    </a>
                 </button>
             </div>
         </div>

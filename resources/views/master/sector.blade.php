@@ -20,6 +20,7 @@
         .sector1 {
             width: 100%;
             height: auto;
+            margin-top: 100px;
         }
         .sector1 p {
             width: 100%;
@@ -388,9 +389,11 @@
         <div>
             <p>Get Your Personalised Quote Today!</p>
         </div>
-        <div style="margin-left: 89px;">
+        <div style="margin-left: 30px;">
             <button class="btn-contact">
-                <span>Contact Us Now!</span>
+                <a href="{{ route('support') }}" class="explore-link">
+                    <span>Contact Us Now!</span>
+                </a>
             </button>
         </div>
     </div>

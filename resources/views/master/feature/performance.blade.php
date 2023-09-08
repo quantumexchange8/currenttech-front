@@ -17,6 +17,7 @@
         .perform1 p {
             width: 100%;
             height: auto;
+            margin-top: 170px;
         }
 
         .perform2 {
@@ -315,7 +316,9 @@
 
     <div class="perform8">
         <button class="btn-getmoreinfo">
-            <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            <a href="{{ route('support') }}" class="explore-link">
+                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+            </a>
         </button>
     </div>
 </div>

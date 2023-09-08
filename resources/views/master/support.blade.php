@@ -1,6 +1,35 @@
 @extends('layouts.master')
 @section('content')
 
+<style>
+    @media screen and (max-width: 1268px) {
+        .support3 {
+            width: 100%;
+        }
+        .support-row1 {
+            width: 460px;
+        }
+        .support-row2 {
+            width: 460px;
+        }
+        .support-row3 {
+            width: 460px;
+        }
+        .support-row4 {
+            width: 460px;
+        }
+        .support-row5 {
+            width: 460px;
+        }
+        .support-row6 {
+            width: 460px;
+        }
+        .sup-row1-cont {
+            margin-left: 20px;
+        }
+    }
+</style>
+
 <div class="main-content16">
     <div class="support1">
         <p>

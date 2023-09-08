@@ -126,6 +126,7 @@
         }
         .package-p2 {
             width: 100%;
+            font-size: 14px;
         }
         .getstart-container {
 
@@ -617,7 +618,9 @@
                 </div>
                 <div style="margin-top: -50px;text-align:end;margin-right:35px">
                     <button class="btn-getinfo">
-                        <span class="btn-getinfo-p">GET INFO</span>
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <span class="btn-getinfo-p">GET INFO</span>
+                        </a>
                     </button>
                 </div>
             </div>
@@ -637,7 +640,9 @@
                 </div>
                 <div style="margin-top: -50px;text-align:end;margin-right:35px">
                     <button class="btn-getinfo">
-                        <span class="btn-getinfo-p">GET INFO</span>
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <span class="btn-getinfo-p">GET INFO</span>
+                        </a>
                     </button>
                 </div>
             </div>
@@ -661,7 +666,10 @@
                 </div>
                 <div style="margin-top: -50px;text-align:end;margin-right:35px">
                     <button class="btn-getinfo">
-                        <span class="btn-getinfo-p">GET INFO</span>
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <span class="btn-getinfo-p">GET INFO</span>
+                        </a>
+                        
                     </button>
                 </div>
             </div>
@@ -679,9 +687,11 @@
                 <div>     
                     <img src="assets/image/product/broker/23.svg">
                 </div>
-                <div style="margin-top: -50px;text-align:end;margin-right:35px">
+                <div class="mgn-btn">
                     <button class="btn-getinfo">
-                        <span class="btn-getinfo-p">GET INFO</span>
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <span class="btn-getinfo-p">GET INFO</span>
+                        </a>
                     </button>
                 </div>
             </div>

@@ -546,13 +546,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -565,13 +565,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -584,13 +584,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -606,13 +606,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -625,13 +625,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -644,13 +644,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Business Startup Template</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -704,13 +704,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -723,13 +723,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -742,13 +742,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -764,13 +764,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -783,13 +783,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Bike Store Section</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -802,13 +802,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Business Startup Template</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -851,13 +851,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -870,13 +870,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -889,13 +889,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -911,13 +911,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -930,13 +930,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Bike Store Section</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -949,13 +949,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Business Startup Template</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1011,13 +1011,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1030,13 +1030,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1049,13 +1049,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1071,13 +1071,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1090,13 +1090,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Bike Store Section</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1109,13 +1109,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Business Startup Template</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1170,13 +1170,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1189,13 +1189,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1208,13 +1208,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1230,13 +1230,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1249,13 +1249,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Bike Store Section</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>
@@ -1268,13 +1268,13 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg">
                 <div class="ecomm-margin">
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 10px;">
                         <p class="clothing">Business Startup Template</p>
                     </div>
-                    <div style="margin-top: 5px">
+                    <div>
                         <img src="assets/image/product/webapp/star.svg">
                     </div>
                 </div>

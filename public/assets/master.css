@@ -1,5 +1,6 @@
 body {
     background: #000;
+    margin-top: 0px;
 }
 
 .container-scroller {
@@ -129,8 +130,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 120px;
-    margin-left: 226px;
-    margin-right: 245px;
+    /* margin-left: 226px;
+    margin-right: 245px; */
 }
 
 .main-content16 {
@@ -372,8 +373,14 @@ body {
     font-size: 16px;
 }
 
+.btn-span-getinfo1 {
+    color: #FFF;text-align: center;
+    font-family: Comfortaa;
+    font-size: 16px;
+}
+
 .btm-cont-text {
-    margin-right:29px;
+    margin-right:60px;
     display: flex; 
     flex-direction:column; 
     margin-left:20px;
@@ -486,6 +493,14 @@ body {
     margin-left: 220px;
     margin-right: 220px;
     flex-wrap: wrap;
+}
+
+.blackboard {
+    width: 100%;
+    height: 174px;
+    background: #000000;
+    z-index: 50;
+    position: fixed;
 }
 
 .bar {
@@ -1190,7 +1205,7 @@ body {
     margin-bottom: 68px;
     margin-left: 243px;
     margin-right: 242px;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     align-items: center;
 }
@@ -1210,7 +1225,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 75px;
+    margin-top: 40px;
     margin-bottom: 68px;
     margin-left: 243px;
     margin-right: 242px;
@@ -1873,6 +1888,7 @@ body {
     line-height: 75px; /* 113.636% */
     width: 820px;
     height: 150px;
+    margin-bottom: 10px;
 }
 
 .innovation-content {
@@ -1883,7 +1899,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 133.333% */
-    width: 1243px;
+    width: 1151px;
     height: 181px;
 }
 
@@ -2033,6 +2049,7 @@ body {
     line-height: normal;
     width: 1055px;
     height: 148px;
+    margin-bottom: 40px;
 }
 
 .order-p {
@@ -2324,6 +2341,12 @@ body {
     line-height: normal;
 }
 
+.mgn-btn {
+    margin-top: -50px;
+    text-align:end;
+    margin-right:35px
+}
+
 .cont {
     width: 1257px;
     height: 336px;
@@ -2343,10 +2366,16 @@ body {
     margin-top: 130px;
     margin-bottom: 160px;
     display: flex;
+    justify-content: space-around;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
 }
 
-.cont2-2{
+.cont-2-1 img {
+    margin-top: -75px;
+    margin-bottom: -40px;
+}
+
+.cont2-2 {
     width: 1257px;
     height: 336px;
     flex-shrink: 0;
@@ -2354,7 +2383,13 @@ body {
     margin-top: 130px;
     margin-bottom: 160px;
     display: flex;
+    justify-content: space-around;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+
+.cont2-2 img {
+    margin-top: -75px;
+    margin-bottom: -40px;
 }
 
 .cont img {
@@ -2451,7 +2486,7 @@ body {
     font-weight: 700;
     line-height: 30px; /* 125% */
     width: 335px;
-    margin-left: 60px;
+    margin-left: 140px;
     margin-right: 0px;
 }
 
@@ -2546,7 +2581,7 @@ body {
 
 .getstart-container {
     width: 614.137px;
-    height: 841.962px;
+    height: 870px;
     flex-shrink: 0;
     border-radius: 30px;
     background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
@@ -2587,6 +2622,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 250% */
+    text-decoration: none;
 }
 
 .quota-p {
@@ -3315,7 +3351,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     width: 871px;
 }
 
@@ -3364,29 +3400,33 @@ body {
 
 .work-container-1 {
     width: 1177px;
-    height: 324px;
+    height: 350px;
     display: flex;
+    align-items: center;
     margin-bottom: 120px;
 }
 
 .work-container-2 {
     width: 1177px;
-    height: 324px;
+    height: 350px;
     display: flex;
+    align-items: center;
     margin-bottom: 120px;
 }
 
 .work-container-3 {
     width: 1177px;
-    height: 324px;
+    height: 350px;
     display: flex;
+    align-items: center;
     margin-bottom: 120px;
 }
 
 .work-container-4 {
     width: 1177px;
-    height: 324px;
+    height: 350px;
     display: flex;
+    align-items: center;
     margin-bottom: 120px;
 }
 
@@ -3467,9 +3507,11 @@ body {
 
 .personal-nft-cont {
     display: flex;
+    flex-wrap: wrap;
     width: 1465px;
-    height: 626px;
+    height: auto;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .personal-nft-cont2 {
@@ -3493,6 +3535,28 @@ body {
     box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
     backdrop-filter: blur(12.5px);
     margin-right: 25px;
+}
+
+.nft-container1-1 {
+    width: 456px;
+    height: 626px;
+    border-radius: 20px;
+    border: 2px solid #69EACB;
+    margin-bottom: 50px;
+}
+
+.nft-container1-2 {
+    width: 455px;
+    height: 626px;
+    border-radius: 20px;
+    border: 2px solid #69EACB;
+}
+
+.nft-container1-3 {
+    width: 455px;
+    height: 626px;
+    border-radius: 20px;
+    border: 2px solid #69EACB;
 }
  
 
@@ -3743,7 +3807,7 @@ body {
 }
 
 .perform4 {
-    margin-bottom: 96px;
+    margin-bottom: 70px;
     height: 600px;
     width: 1284px;
     display: flex;
@@ -3751,7 +3815,7 @@ body {
     justify-content: center;
 }
 .perform5 {
-    margin-bottom: 96px;
+    margin-bottom: 70px;
     height: 600px;
     width: 1284px;
     display: flex;
@@ -3760,7 +3824,7 @@ body {
 }
 
 .perform6 {
-    margin-bottom: 138px;
+    margin-bottom: 80px;
 }
 
 .perform7 {
@@ -3793,6 +3857,7 @@ body {
     font-weight: 700;
     line-height: normal;
     width: 1299px;
+    margin-bottom: 20px;
 }
 .through-p2 {
     color: #888;
@@ -3942,8 +4007,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .btn-getmoreinfo {
@@ -4106,6 +4171,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 1268px;
 }
 
 @media screen and (max-width: 1268px) {
@@ -4135,7 +4201,6 @@ body {
 .rew10 {
     margin-bottom: 168px;
     display: flex;
-    justify-content: center;
     width: 1268px;
     justify-content: space-between;
 }
@@ -4641,7 +4706,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1453px;
+    width: 1258px;
     height: 168px;
 }
 /* HR  */
@@ -4659,6 +4724,7 @@ body {
     width: 1048px;
     height: 222px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .report2 {
@@ -4845,6 +4911,10 @@ body {
     margin-left: 20px;
 }
 
+.report7-col5 img {
+    margin-top: -40px;
+}
+
 .report7-col6 {
     margin-right: 77px;
     margin-top: 20px;
@@ -4946,6 +5016,7 @@ body {
     line-height: normal;
     width: 917px;
     height: 148px;
+    margin-bottom: 10px;
 }   
 
 .sector2 p {
@@ -5174,6 +5245,7 @@ body {
     line-height: normal;
     width: 919px;
     height: 148px;
+    margin-bottom: 10px;
 }
 
 .career2 p {
@@ -5201,7 +5273,7 @@ body {
 }
 
 .career4 {
-    margin-bottom: 88px;
+    margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -5683,8 +5755,13 @@ body {
     flex-shrink: 0;
     border-radius: 25px;
     background: rgba(238, 238, 238, 0.60);
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 16px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding-top: 10px;
 }
 
 .sup-form-control::placeholder {
@@ -5695,6 +5772,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 166.667% */
+    
 }
 
 .btn-sup-submit {
@@ -5759,7 +5837,7 @@ body {
 
 /* Optionally, style the active menu item */
 .small-nav .nav2 ul li.active a {
-    background-color: #555;
+    /* background-color: #555; */
 }
 
 @media (max-width: 1100px) {
@@ -6128,6 +6206,142 @@ body {
     .techmain-1 {
         margin-top: 10px;
     }
+    .getstart-container {
+        width: 455px;
+        height: 805px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    }
+
+    .getstart-container img {
+        width: 455px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    .getstart-container2 {
+        width: 455px;
+        height: 805px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    }
+
+    .getstart-container2 img {
+        width: 455px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .contact-p2 {
+        width: 400px;
+        margin-bottom: 55px;
+    }
+    .mgn-btn {
+        margin-top: -75px;
+    }
+    .ct-p5 {
+        margin-left: 95px;
+    }
+    .join-container {
+        width: 100%;
+    }
+    .joinnow-row {
+        width: 100%;
+    }
+    .joinworld-p {
+        font-size: 35px;
+        margin-right: -35px;
+    }
+    .btn-startnow {
+        width: 290px;
+        height: 77px;
+    }
+
+    /* nft */
+    .personal-nft-cont {
+        width: 1250px;
+        height: auto;
+    }
+    
+    .nft-container1-1 {
+        width: 400px;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+    .nft-container1-1 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-2 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-2 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-3 {
+        width: 400px;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+    .nft-container1-3 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-4 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-4 img {
+        width: 400px;
+        height: auto;
+    }
+    .nft-container1-5 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-5 img {
+        width: 400px;
+        height: auto;
+    }
+    .nft-container1-6 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-6 img {
+        width: 400px;
+        height: auto;
+    }
+    .joinnow-row {
+        margin-top: 360px;
+    }
+    .discover-p {
+        width: 100%;
+    }
+    .provid-2 {
+        width: 100%;
+    }
+    .develop5 {
+        width: 100%;
+    }
+    .support1 p {
+        width: 100%;
+    }
+    .support1 {
+        margin-bottom: 60px;
+    }
+    .rew1 {
+        margin-top: 111px;
+    }
+    .hr1 {
+        margin-top: 110px;
+    }
+    .blackboard {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -6202,6 +6416,9 @@ body {
     .btn-span-getinfo {
         font-size: 12px;
     }
+    .btn-span-getinfo1 {
+        font-size: 12px;
+    }
     .btm-cont-text {
         margin-right:10px;
         margin-left: 10px;
@@ -6226,8 +6443,8 @@ body {
         margin-right: 150px;
     }
     .main-content10 {
-        margin-left: 360px;
-        margin-right: 360px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
     .techpmain-cont {
         margin-top: 95px;
@@ -6260,6 +6477,65 @@ body {
         width: 976px;
         height: 600px;
     } */
+}
+
+@media screen and (max-width: 1600px) {
+    .personal-nft-cont {
+        width: 1250px;
+        height: auto;
+    }
+    
+    .nft-container1-1 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-1 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-2 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-2 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-3 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-3 img{
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-4 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-4 img {
+        width: 400px;
+        height: auto;
+    }
+    .nft-container1-5 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-5 img {
+        width: 400px;
+        height: auto;
+    }
+    .nft-container1-6 {
+        width: 400px;
+        height: 550px;
+    }
+    .nft-container1-6 img {
+        width: 400px;
+        height: auto;
+    }
+    .joinnow-row {
+        margin-top: 360px;
+    }
 }
 
 @media screen and (min-width: 1800px) {

@@ -20,6 +20,7 @@
         .report1 {
             width: 100%;
             height: auto;
+            margin-top: 212px;
         }
         .report1 p {
             width: 100%;
@@ -60,6 +61,61 @@
         .report9 {
             width: 100%;
             height: auto;
+        }
+        .report5 {
+            width: 100%;
+        }
+        .report5-container {
+            width: 100%;
+        }
+        .report5-col1 img {
+            width: 535px;
+        }
+        .report-enhancing-p1 {
+            font-size: 30px;
+            width: 369px;
+        }
+        .report-data-p1 {
+            width: 371px;
+            font-size: 22px;
+        }
+        .report5-col1 {
+            margin-left: 5px;
+        }
+        .report5-col2 {
+            margin-right: 20px;
+        }
+
+        .report6 {
+            width: 100%;
+            height: auto;
+        }
+        .report6-container {
+            width: 100%;
+        }
+        .report-col4 img {
+            width: 535px;
+        }
+        .report-col3 {
+            margin-left: 20px;
+        }
+
+        .report7 {
+            width: 100%;
+        }
+        .report7-container {
+            width: 100%;
+        }
+        .report7-col5 img {
+            width: 520px;
+            margin-top: 0px;
+        }
+        .report-unveil-p2 {
+            width: 386px;
+        }
+        .report-data-p3 {
+            width: 382px;
+            font-size: 22px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -104,8 +160,8 @@
             margin-right: 350px;
         }
         .report9 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
     }
 </style>
@@ -190,7 +246,7 @@
     <div class="report7">
         <div class="report7-container">
             <div class="report7-col5">
-                <img src="assets/image/feature/report/4.svg" style="margin-top: -40px">
+                <img src="assets/image/feature/report/4.svg" >
             </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">
@@ -414,7 +470,9 @@
     <div class="report10">
         <div class="rew11" style="margin-bottom: 60px;display: flex;justify-content: center;">
             <button class="btn-getmoreinfo">
-                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+                <a href="{{ route('support') }}" class="explore-link">
+                    <span class="btn-getmoreinfo-span">GET MORE INFO</span>
+                </a>
             </button>
         </div>
     </div>

@@ -382,18 +382,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">79.3%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
                 <div class="exprt-col4">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">84.6%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
@@ -402,18 +398,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0.2<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
                 <div class="exprt-col6">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
@@ -422,18 +414,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">10+</p>
-                        <br>
                         <p class="word-small">Products</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">10x</p>
-                        <br>
                         <p class="word-small">Products</p>
                     </div>
                 </div>
@@ -442,18 +430,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Semi</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Auto</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
@@ -500,7 +484,7 @@
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 100px; left: 55px; padding: 5px;">
+        <div style="position: absolute; bottom: 15px; left: 55px; padding: 5px;">
             <p class="ragnarok-p">
                 RAGNAROK
             </p>
@@ -564,18 +548,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">86.8%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
                 <div class="exprt-col4">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">96.3%</p>
-                        <br>
                         <p class="word-small">Accuracy</p>
                     </div>
                 </div>
@@ -584,18 +564,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0.2<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
                 <div class="exprt-col6">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Speed</p>
-                        <br>
                         <p class="word-big">0<small>Sec</small></p>
-                        <br>
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
@@ -604,18 +580,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
-                        <br>
                         <p class="word-big">50+</p>
-                        <br>
                         <p class="word-small">Follower Accounts</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Up to</p>
-                        <br>
-                        <img src="assets/image/product/expert/infinity.png">
-                        <br>
+                        <img src="assets/image/product/expert/infinity.png" style="margin-top: 23px;margin-bottom: 23px">
                         <p class="word-small">Follower Accounts</p>
                     </div>
                 </div>
@@ -624,18 +596,14 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Auto</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Support</p>
-                        <br>
                         <p class="word-big">Auto</p>
-                        <br>
                         <p class="word-small">Function</p>
                     </div>
                 </div>
@@ -644,25 +612,21 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Allow</p>
-                        <br>
                         <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/pamm.svg">
-                        <br>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Allow</p>
-                        <br>
                         <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/pamm.svg" style="margin-right:35px">
                         <img src="assets/image/product/expert/network.svg">
-                        <br>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
