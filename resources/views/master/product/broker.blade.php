@@ -145,6 +145,12 @@
             height: 400px;
             margin-left: -15px;
         }
+        .build2 {
+            font-size: 14px;
+        }
+        .broker-p2 {
+            font-size: 14px;
+        }
     }
 
     @media screen and (max-width: 1600px) {

@@ -612,21 +612,26 @@
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Allow</p>
-                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/pamm.svg">
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/pamm.svg">
+                        </div>
+                        
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
                         <p class="word-small">Allow</p>
-                        <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/pamm.svg" style="margin-right:35px">
-                        <img src="assets/image/product/expert/network.svg">
+                        <div class="word-img">
+                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/mt5.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/pamm.svg" style="margin-right:35px">
+                            <img src="assets/image/product/expert/network.svg">
+                        </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>

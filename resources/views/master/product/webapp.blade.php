@@ -674,13 +674,13 @@
     </div>
 
     <div class="webapp10">
-        <div>
+        <div style="margin-right: 10px">
             <img src="assets/image/product/webapp/10.svg" style="margin-right: 12px">
         </div>
-        <div>
+        <div style="margin-right: 10px">
             <img src="assets/image/product/webapp/11.svg" style="margin-right: 12px">
         </div>
-        <div>
+        <div style="margin-right: 10px">
             <img src="assets/image/product/webapp/12.svg" style="margin-right: 12px">
         </div>
         <div>
@@ -985,10 +985,10 @@
     
 
     <div class="webapp13">
-        <div>
-            <img src="assets/image/product/webapp/15.svg" style="margin-right:31px">
+        <div style="margin-right: 15px;">
+            <img src="assets/image/product/webapp/15.svg">
         </div>
-        <div>
+        <div style="margin-left: 15px;">
             <img src="assets/image/product/webapp/16.svg">
         </div>
         
@@ -1141,10 +1141,10 @@
     
 
     <div class="webapp12">
-        <div>
+        <div style="margin-right: 10px">
             <img src="assets/image/product/webapp/17.svg" style="margin-right:20px">
         </div>
-        <div>
+        <div style="margin-right: 10px">
             <img src="assets/image/product/webapp/18.svg" style="margin-right:20px">
         </div>
         <div>
@@ -1158,7 +1158,7 @@
             <div>
                 <p class="ecorm">Apple / Google / iPad & Mobile Apps Development</p>
             </div>
-            <div>
+            <div class="viewmore-a">
                 <a href="" class="view-more">View More</a>
             </div>
         </div>

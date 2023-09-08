@@ -3511,7 +3511,7 @@ body {
     width: 1465px;
     height: auto;
     margin-bottom: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .personal-nft-cont2 {
@@ -5835,10 +5835,6 @@ body {
     background-color: #555;
 }
 
-/* Optionally, style the active menu item */
-.small-nav .nav2 ul li.active a {
-    /* background-color: #555; */
-}
 
 @media (max-width: 1100px) {
     .bar {
@@ -6528,6 +6524,7 @@ body {
     .nft-container1-6 {
         width: 400px;
         height: 550px;
+        margin-top: 321px;
     }
     .nft-container1-6 img {
         width: 400px;

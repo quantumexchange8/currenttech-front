@@ -73,6 +73,9 @@
         .career-col9 {
             margin-bottom: 30px;
         }
+        .career7 p {
+            width: 100%;
+        }
     }
     @media screen and (min-width: 1800px) {
         .career1 {
