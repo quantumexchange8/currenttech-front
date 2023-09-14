@@ -75,17 +75,17 @@
                             <br>
                             <div class="social-row">
                                 <div class="social-item1">
-                                    <a style="height: 14px">
+                                    <a style="height: 14px" href="https://www.facebook.com/currenttechindustries">
                                         <img src="/assets/image/social/facebook.svg" style="width:14px; height:14px">
                                     </a>
                                 </div>
                                 <div class="social-item1">
-                                    <a style="height: 14px">
+                                    <a style="height: 14px" href="https://instagram.com/currenttechindustries?">
                                         <img src="/assets/image/social/ig.svg" style="width:14px; height:14px">
                                     </a>
                                 </div>
                                 <div class="social-item1">
-                                    <a style="height: 14px">
+                                    <a style="height: 14px" href="https://www.linkedin.com/company/currenttechindustries/">
                                         <img src="/assets/image/social/linkedin.svg" style="width:14px; height:14px">
                                     </a>
                                 </div>

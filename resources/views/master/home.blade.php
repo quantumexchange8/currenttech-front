@@ -8,13 +8,21 @@
     <div class="main-content">
 
         <div class="techmain-1">
-            <img src="/assets/image/home/vr.svg">
-    
+            <div>
+                <img src="/assets/image/home/vr.svg">
+            </div>
             <div class="techpmain-cont">
                 <p class="techp">Technology</p>
                 <br>
                 <p class="techp-content">
-                    is the key to unlocking a sustainable and prosperous <span class="future">future</span>. Through innovation and technological advancements. Technology has ushered in an era of <span class="intell">intelligence</span>, automation, and digitization, propelling the transformation and upgrading of industries.
+                    is the key to unlocking a sustainable <br>
+                    and prosperous <span class="future">future</span>. Through <br>
+                    innovation and technological <br>
+                    advancements. Technology has <br>
+                    ushered in an era of <span class="intell">intelligence</span>, <br>
+                    automation, and digitization, <br>
+                    propelling the transformation and <br>
+                    upgrading of industries.
                 </p>
             </div>
         </div>
@@ -212,7 +220,7 @@
         <div class="center-vision">
             <p class="vision-p">Your Vision Come Alive</p>
 
-            <img src="/assets/image/home/vision.png">
+            <img src="/assets/image/home/vision.png" style="width: 100%;">
 
             <p class="vision-content">
                 Welcome to the era of <span class="vision-color">vision</span>. Embark on a journey through the realms of 
@@ -330,9 +338,9 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/performance.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 325px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 121px">
                         <p class="perform-detail-head">Performance</p>
-                        <p class="perform-detail-content">Impactful and versatile features.</p>
+                        <p class="perform-detail-content" style="width: 264px;">Impactful and versatile features.</p>
                     </div>
 
                     <div>
@@ -348,9 +356,9 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/reward.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 360px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 167px">
                         <p class="perform-detail-head">Reward Program</p>
-                        <p class="perform-detail-content">Points, discount, referrals.</p>
+                        <p class="perform-detail-content" style="width: 220px;">Points, discount, referrals.</p>
                     </div>
 
                     <div>
@@ -366,7 +374,7 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/develop.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 345px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 163px">
                         <p class="perform-detail-head">Develop & Learn</p>
                         <p class="perform-detail-content" style="width: 223px;">Data analysis and predictions.</p>
                     </div>
@@ -384,7 +392,7 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/hr.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 315px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 134px">
                         <p class="perform-detail-head">HR Management</p>
                         <p class="perform-detail-content" style="width: 253px;">Recruitment, onboarding, training.</p>
                     </div>
@@ -402,7 +410,7 @@
 
                 <div class="ourfeature-item">
                     <img src="assets/image/home/report.svg">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 315px">
+                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 138px">
                         <p class="perform-detail-head">Report & Analytics</p>
                         <p class="perform-detail-content" style="width: 251px;">Gather, analyse, and presebt data.</p>
                     </div>
@@ -475,8 +483,8 @@
             <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/education.svg">
-                    <div class="text-overlay">
-                        <p class="txtimg-efficient">
+                    <div class="text-overlay-edu">
+                        <p class="txtimg-efficient-edu">
                             Empowering minds
                             through quality education.
                         </p>
@@ -646,7 +654,5 @@
                 </div>
             </div>
         </div>
-        
     </div>
-
 @endsection

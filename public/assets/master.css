@@ -10,8 +10,10 @@ body {
 .main-content {
     display: flex;
     justify-content: center;
-    margin-left: 243px;
-    margin-right: 242px;
+    align-items: center;
+    width: 100%;
+    max-width: 1093px; /* Set your desired maximum width */
+    margin: 0 auto; /* Automatically center the element horizontally */
     flex-wrap: wrap;
 }
 
@@ -178,7 +180,7 @@ body {
 }
 
 .techp {
-    color: #474343;
+    color: #FFF;
     text-align: right;
     font-family: Comfortaa;
     font-size: 66px;
@@ -189,7 +191,7 @@ body {
 }
 
 .techp-content {
-    width: 612px;
+    width: 486px;
     height: 372px;
     color: #888;
     text-align: right;
@@ -304,6 +306,8 @@ body {
     margin-bottom: 68px;
     text-align: center;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .bottom-container {
@@ -335,6 +339,26 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
+}
+
+.txtimg-efficient-edu {
+    color: #000;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+}
+.text-overlay-edu {
+    position: absolute;
+    width: 452px;
+    height: 120px;
+    bottom: 235px;
+    left: 40px;
+    z-index: 1;
+    text-align: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
 }
 
 .logistic-p {
@@ -407,7 +431,7 @@ body {
 }
 
 .spectacular {
-    width: 1243px;
+    width: 100%;
     height: auto;
     margin-top: 90px;
 }
@@ -422,12 +446,13 @@ body {
 
 .spec-col1 p {
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 45px; /* 125% */
     text-align: left;
     color: #888888;
+    margin-top: 0px;
 }
 
 .spec-col2 {
@@ -497,10 +522,11 @@ body {
 
 .blackboard {
     width: 100%;
-    height: 174px;
+    height: 80px;
     background: #000000;
     z-index: 50;
     position: fixed;
+    transition: height 0.1s ease
 }
 
 .bar {
@@ -744,6 +770,7 @@ body {
       list-style: none;
       justify-content: center;
       align-items: center;
+      margin-left: -15px;
   }
 
   .nav-border {
@@ -903,7 +930,6 @@ body {
     font-family: Comfortaa;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
 
@@ -912,7 +938,6 @@ body {
     font-family: Comfortaa;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     margin-top: 9px;
 }
@@ -1181,6 +1206,8 @@ body {
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .center-service {
@@ -1195,6 +1222,7 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    width: 100%;
 }
 
 .center-spectacular {
@@ -1208,6 +1236,7 @@ body {
     text-align: left;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .center-innovation {
@@ -1250,7 +1279,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -1262,7 +1291,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -1272,17 +1301,17 @@ body {
     color: #999;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 133.333% */
-    width: 1243px;
+    width: 980px;
     height: 118px;
     margin-top: 48px;
 }
 
 .development {
-    width: 1243px;
+    width: 100%;
     height: 624px;
     margin-top: 90px;
     /* display: flex; */
@@ -1297,21 +1326,21 @@ body {
 }
 
 .software {
-    width: 339px;
+    width: 300px;
     height: 275px;
 }
 .website {
-    width: 339px;
+    width: 300px;
     height: 275px;
 }
 
 .mobile { 
-    width: 339px;
+    width: 300px;
     height: 275px;
 }
 
 .pos { 
-    width: 339px;
+    width: 300px;
     height: 275px;
 }
 
@@ -1321,7 +1350,7 @@ body {
 }
 
 .support { 
-    width: 339px;
+    width: 300px;
     height: 275px;
 }
 
@@ -1391,7 +1420,7 @@ body {
     height: 56px;
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 112% */
@@ -1405,7 +1434,7 @@ body {
     height: 56px;
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
@@ -1418,7 +1447,7 @@ body {
     height: 56px;
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
@@ -1431,7 +1460,7 @@ body {
     height: 56px;
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
@@ -1457,7 +1486,7 @@ body {
     height: 56px;   
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
@@ -1470,7 +1499,7 @@ body {
     height: 130px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
@@ -1482,7 +1511,7 @@ body {
     height: 158px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 250% */
@@ -1490,11 +1519,11 @@ body {
 }
 
 .mobile-content {
-    width: 339px;
+    width: 292px;
     height: 158px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 250% */
@@ -1502,11 +1531,11 @@ body {
 }
 
 .pos-content {
-    width: 339px;
+    width: 293px;
     height: 158px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 250% */
@@ -1526,11 +1555,11 @@ body {
 }
 
 .support-content {
-    width: 339px;
+    width: 292px;
     height: 158px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 250% */
@@ -1541,7 +1570,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: 48px; /* 72.727% */
@@ -1555,7 +1584,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -1567,7 +1596,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -1579,19 +1608,19 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
 }
 
 .vision-content {
-    width: 1243px;
+    width: 990px;
     height: 181px;
     color: #999;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 133.333% */
@@ -1602,7 +1631,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: 75px; /* 113.636% */
@@ -1624,6 +1653,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 28px;
 }
 
 .prod-color {
@@ -1641,7 +1671,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 45px;
@@ -1685,7 +1715,7 @@ body {
 .poshead {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 200% */
@@ -1696,7 +1726,7 @@ body {
 .streamhead {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 111.111% */
@@ -1709,7 +1739,7 @@ body {
     height: 40px;
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 200% */
@@ -1720,7 +1750,7 @@ body {
 .webappcont {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 111.111% */
@@ -1732,7 +1762,7 @@ body {
 .brokerhead {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 200% */
@@ -1745,7 +1775,7 @@ body {
     height: 80px;
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 111.111% */
@@ -1756,7 +1786,7 @@ body {
 .expert1head {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 200% */
@@ -1769,7 +1799,7 @@ body {
     height: 80px;
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 111.111% */
@@ -1780,7 +1810,7 @@ body {
 .web3head {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 200% */
@@ -1793,7 +1823,7 @@ body {
     height: 80px;
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 111.111% */
@@ -1805,16 +1835,17 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: 75px; /* 113.636% */
-    width: 825px;
+    width: 740px;
     height: 150px;
+    margin-bottom: 120px;
 }
 
 .ourfeature {
-    width: 825px;
+    width: 624px;
     display: flex;
     flex-direction: column;
 }
@@ -1882,7 +1913,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: 75px; /* 113.636% */
@@ -1895,11 +1926,11 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 133.333% */
-    width: 1151px;
+    width: 960px;
     height: 181px;
 }
 
@@ -1909,7 +1940,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -1921,7 +1952,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -5877,9 +5908,9 @@ body {
 
 
 @media screen and (max-width: 1280px) {
-    .main-content {
+    /* .main-content {
         margin: 10px;
-    }
+    } */
 
     .main-content2 {
         margin: 10px;
@@ -6076,16 +6107,22 @@ body {
         height: 500px;
     }
     .techp {
-        font-size: 46px;
+        font-size: 53px;
     }
     .techp-content {
-        font-size:  23px;
+        font-size:  24px;
+        width: 605px;
     }
     .future {
         font-size:  23px;
     }
     .intell {
         font-size:  23px;
+    }
+
+    .software {
+        width: 339px;
+        height: 275px;
     }
 
     /* row */
@@ -6341,10 +6378,7 @@ body {
 }
 
 @media screen and (min-width: 1300px) {
-    .main-content {
-        margin-right: 242px;
-        margin-left: 243px;
-    }
+    
     
     .main-content6 {
         margin-left: 10px;
@@ -6355,10 +6389,10 @@ body {
         margin-left: 150px;
         margin-right: 150px;
     }
-    .techpmain-cont {
+    /* .techpmain-cont {
         margin-top: 95px;
         margin-left: -100px
-    }
+    } */
     .content1 {
         margin-left: 122px;
         margin-right: 122px;
@@ -6368,10 +6402,10 @@ body {
         height: 600px;
     }
     .techp {
-        font-size: 46px;
+        font-size: 53px;
     }
     .techp-content {
-        font-size:  23px;
+        font-size:  24px;
     }
     .future {
         font-size:  23px;
@@ -6394,20 +6428,31 @@ body {
     .txtimg-efficient {
         font-size: 33px;
     }
+    .txtimg-efficient-edu {
+        font-size: 33px;
+        width: 420px;
+    }
+    .text-overlay-edu {
+        left: 20px;
+        bottom: 161px;
+    }
     .text-overlay {
-        width: 411px;
+        width: 397px;
         left: 25px;
+        bottom: 200px;
     }
     .btn-getinfo-logis {
         width: 90px;
-        height: 45px;
+        height: 40px;
     }
     .logistic-p {
         font-size: 20px;
+        height: 30px;
     }
     .logistic-p-cont {
-        font-size: 13px;
-        width: 242px;
+        font-size: 11px;
+        width: 210px;
+        font-weight: 500;
     }
     .btn-span-getinfo {
         font-size: 12px;
@@ -6418,18 +6463,20 @@ body {
     .btm-cont-text {
         margin-right:10px;
         margin-left: 10px;
+        width: 215px;
     }
     .btn-getinfo-edu {
         width: 90px;
-        height: 45px;
+        height: 40px;
     }
     .btn-getinfo-fnb {
         width: 90px;
-        height: 45px;
+        height: 40px;
     }
 }
 
 @media screen and (min-width: 1500px) {
+    
     .main-content6 {
         margin-left: 60px;
         margin-right: 60px;
@@ -6442,10 +6489,10 @@ body {
         margin-left: 250px;
         margin-right: 250px;
     }
-    .techpmain-cont {
+    /* .techpmain-cont {
         margin-top: 95px;
         margin-left: -100px
-    }
+    } */
     .content1 {
         margin-left: 200px;
         margin-right: 200px;
@@ -6455,10 +6502,10 @@ body {
         height: 600px;
     }
     .techp {
-        font-size: 46px;
+        font-size: 53px;
     }
     .techp-content {
-        font-size:  23px;
+        font-size:  24px;
     }
     .future {
         font-size:  23px;
@@ -6467,12 +6514,11 @@ body {
         font-size:  23px;
     }
     .ourservice {
-        font-size: 46px;
+        font-size: 53px;
     }
-    /* .service-image {
-        width: 976px;
-        height: 600px;
-    } */
+    .service-image {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -6559,10 +6605,10 @@ body {
         margin-left: 500px;
         margin-right: 500px;
     }
-    .techpmain-cont {
+    /* .techpmain-cont {
         margin-top: 95px;
         margin-right: 145px
-    }
+    } */
     .content1 {
         margin-left: 300px;
         margin-right: 300px;
@@ -6582,10 +6628,10 @@ body {
         margin-left: 600px;
         margin-right: 600px;
     }
-    .techpmain-cont {
+    /* .techpmain-cont {
         margin-top: 95px;
         margin-right: 335px
-    }
+    } */
     .content1 {
         margin-left: 450px;
         margin-right: 450px;
@@ -6601,10 +6647,10 @@ body {
         margin-left: 550px;
         margin-right: 550px;
     }
-    .techpmain-cont {
+    /* .techpmain-cont {
         margin-top: 95px;
         margin-right: 450px
-    }
+    } */
     .content1 {
         margin-left: 1000px;
         margin-right: 1000px;

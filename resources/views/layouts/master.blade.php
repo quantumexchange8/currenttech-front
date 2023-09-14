@@ -407,52 +407,79 @@
     // navigation sub active
 
     $(document).ready(function() {
+    // Function to update the height of .blackboard
+    function updateBlackboardHeight() {
+        // Check if any .sub element is currently visible
+        var subMenuVisible = $('.sub:visible').length > 0;
+        
+        // Set the height of .blackboard based on sub-menu visibility
+        if (subMenuVisible) {
+            $('.blackboard').css('height', '170px');
+        } else {
+            $('.blackboard').css('height', '80px');
+        }
+    }
+
     // Show/hide sub-navigation menu on parent click
     $('.nav-item.menu-items > a.nav-link').click(function() {
-      var subMenu = $(this).next('.sub');
-      $('.sub').not(subMenu).slideUp(300);
-      subMenu.slideToggle(300);
+        var subMenu = $(this).next('.sub');
+        $('.sub').not(subMenu).slideUp(300, function() {
+            // Update the height of .blackboard after the slideUp animation is complete
+            updateBlackboardHeight();
+        });
+        subMenu.slideToggle(300, function() {
+            // Update the height of .blackboard after the slideToggle animation is complete
+            updateBlackboardHeight();
+        });
     });
 
     // Add active class to selected sub-navigation menu item and its parent
     $('.sub-navi a').click(function() {
-      // Remove active class from all sub-navigation menu items
-      $('.sub-navi a').removeClass('active');
+        // Remove active class from all sub-navigation menu items
+        $('.sub-navi a').removeClass('active');
 
-      // Add active class to selected sub-navigation menu item
-      $(this).addClass('active');
+        // Add active class to selected sub-navigation menu item
+        $(this).addClass('active');
 
-      // Add active class to parent menu item
-      var parentMenuItem = $(this).closest('.nav-item.menu-items');
-      $('.nav-item.menu-items').removeClass('active');
-      parentMenuItem.addClass('active');
-      parentMenuItem.find('> a.nav-link').addClass('active');
-
-      // Add active class to parent menu item if sub-menu is active
-      if (parentMenuItem.hasClass('nav-item') && parentMenuItem.hasClass('menu-items')) {
+        // Add active class to parent menu item
+        var parentMenuItem = $(this).closest('.nav-item.menu-items');
+        $('.nav-item.menu-items').removeClass('active');
         parentMenuItem.addClass('active');
         parentMenuItem.find('> a.nav-link').addClass('active');
-      } else {
-        parentMenuItem.removeClass('active');
-        parentMenuItem.find('> a.nav-link').removeClass('active');
-      }
+
+        // Add active class to parent menu item if sub-menu is active
+        if (parentMenuItem.hasClass('nav-item') && parentMenuItem.hasClass('menu-items')) {
+            parentMenuItem.addClass('active');
+            parentMenuItem.find('> a.nav-link').addClass('active');
+        } else {
+            parentMenuItem.removeClass('active');
+            parentMenuItem.find('> a.nav-link').removeClass('active');
+        }
     });
 
     // Hide sub-navigation menu on scroll
     $(window).scroll(function() {
-    // Check if the sub-navigation menu is currently visible
-    var subMenuVisible = $('.sub:visible').length > 0;
-    
-    // Close the sub-navigation menu if it's visible and the user is scrolling
-    if (subMenuVisible) {
-      $('.sub').slideUp();
-    }
-  });
+        // Check if the sub-navigation menu is currently visible
+        var subMenuVisible = $('.sub:visible').length > 0;
+
+        // Close the sub-navigation menu if it's visible and the user is scrolling
+        if (subMenuVisible) {
+            $('.sub').slideUp(300, function() {
+                // Update the height of .blackboard after closing the sub-menu
+                updateBlackboardHeight();
+            });
+        }
+    });
+
     // Disable auto-scrolling to top on parent click
     $('.nav-item.menu-items > a.nav-link').click(function(e) {
-      e.preventDefault(); // Prevent the default anchor link behavior
+        e.preventDefault(); // Prevent the default anchor link behavior
     });
-  });
+
+    // Initialize the height of .blackboard on page load
+    updateBlackboardHeight();
+});
+
 
   // MARQUEE SLIDING IMAGE
   window.addEventListener("load", function() {
