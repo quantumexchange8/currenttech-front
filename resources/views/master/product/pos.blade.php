@@ -9,7 +9,7 @@
         text-align: center;
     }
     .pos-row3 img {
-        width: 1153px;
+        width: 100%;
         height: auto;
     }
 
@@ -20,8 +20,9 @@
 
     .pos-row5 {
         text-align: center;
-        margin-top: 36px;
-        margin-bottom: 170px
+        margin-bottom: 170px;
+        display: flex;
+        align-items: center;
     }
 
     .pos-row6 {
@@ -31,9 +32,21 @@
         flex-direction:column
     }
 
+    .pos-row7 {
+        width: 100%;
+    }
+
     .pos-row8 {
         margin-bottom: 120px;
+        width: 100%;
     }
+
+    .pos-row8 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
     .pos-row9 {
         display: flex;
         flex-direction: column;
@@ -41,15 +54,18 @@
         align-items: center;
     }
     .pos-row9 img {
-        width: 100%;
+        /* width: 100%;
         max-width: 100%;
-        height: auto;
+        height: auto; */
     }
 
     .pos-row10 {
         text-align: center;
         margin-top: 36px;
         margin-bottom: 66px;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .pos-row11 {
@@ -59,12 +75,17 @@
     }
 
     .std-image {
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     .adv-image {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
+
+    .st-icon {
+        width:135px;
+    }
+    
 
     @media screen and (max-width: 1280px) {
         .pos-row1 {
@@ -85,8 +106,11 @@
             width: 100%;
             height: auto;
         }
+        .ignite-p1 {
+            font-size: 32px;
+        }
         .streamline-p {
-            font-size: 14px;
+            font-size: 21px;
         }
         .pos-row5 {
             width: 100%;
@@ -121,9 +145,9 @@
             margin-top: 0px;
         }
         .pos-row9 img {
-            width: 100%;
+            /* width: 100%;
             max-width: 100%;
-            height: auto;
+            height: auto; */
         }
         .pos-row10 {
             width: 100%;
@@ -145,14 +169,33 @@
             max-width: 100%;
         }
         .std-image {
-            margin-right: 10px;
+            /* margin-right: 10px; */
         }
 
         .adv-image {
-            margin-left: 10px;
+            /* margin-left: 10px; */
         }
         .chooose-p {
-            font-size: 14px;
+            font-size: 20px;
+        }
+
+        .software-p1 {
+            font-size: 32px;
+        }
+        .software-p2 {
+            font-size: 20px;
+        }
+        .st-icon {
+            width:146px;
+        }
+        .simplify-p {
+            font-size: 37px;
+            margin-bottom: 50px;
+        }
+
+        .simplify-p2 {
+            font-size: 10px;
+            
         }
     }
 
@@ -166,24 +209,24 @@
             margin-right: 342px;
         }
         .pos-row3 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row4 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row5 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row6 {
             margin-left: 355px;
             margin-right: 355px;
         }
         .pos-row7 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row9 {
             margin-left: 355px;
@@ -198,7 +241,7 @@
             height: auto;
         }
         .pos-row3 img {
-
+            width: 100%;
         }
     }
 
@@ -224,8 +267,8 @@
             margin-right: 423px;
         }
         .pos-row3 {
-            margin-left: 423px;
-            margin-right: 423px;
+            /* margin-left: 423px;
+            margin-right: 423px; */
         }
         .pos-row4 {
             margin-left: 423px;
@@ -266,8 +309,8 @@
             margin-right: 550px;
         }
         .pos-row3 {
-            margin-left: 550px;
-            margin-right: 550px;
+            /* margin-left: 550px;
+            margin-right: 550px; */
         }
         .pos-row4 {
             margin-left: 550px;
@@ -312,7 +355,7 @@
         }
     }
 </style>
-<div class="main-content" style="margin-top: 120px">
+<div class="main-content" style="margin-top: 140px">
     <div class="pos-row1">
         <p class="tranpos-p">
             Transforming Restaurants with our Dynamic POS System
@@ -336,14 +379,16 @@
     
     <div class="pos-row5">
         <p class="streamline-p">
-            Streamline operations, elevate service, and boost profitability with our advanced POS system for restaurants. From order management to inventory control, enhance the dining experience and stay ahead of the competition.
+            Streamline operations, elevate service, and boost profitability with our advanced POS 
+            system for restaurants. From order management to inventory control, enhance the dining 
+            experience and stay ahead of the competition.
         </p>
     </div>
     
 
     <div class="pos-row6">
         <div style="display: flex;align-items: center;margin-bottom:136px">
-            <img src="assets/image/product/pos/2.svg">
+            <img src="assets/image/product/pos/2.svg" class="st-icon">
             <div style="display: flex; flex-direction:column;margin-left: 70px;">
                 <div><p class="software-p1">Software</p></div>
                 <div>
@@ -357,7 +402,7 @@
         </div>
 
         <div style="display: flex;align-items: center;margin-bottom:136px">
-            <img src="assets/image/product/pos/3.svg">
+            <img src="assets/image/product/pos/3.svg" class="st-icon">
             <div style="display: flex; flex-direction:column;margin-left: 70px;">
                 <div><p class="software-p1">Hardware</p></div>
                 <div>
@@ -370,8 +415,8 @@
             </div>
         </div>
 
-        <div style="display: flex;align-items: center;margin-bottom:136px">
-            <img src="assets/image/product/pos/4.svg">
+        <div style="display: flex;align-items: center;margin-bottom:40px">
+            <img src="assets/image/product/pos/4.svg" class="st-icon" >
             <div style="display: flex; flex-direction:column;margin-left: 70px;">
                 <div><p class="software-p1">Payment</p></div>
                 <div>
@@ -393,8 +438,8 @@
         </p>
 
         <p class="simplify-p2">
-            The right POS system can revolutionise the way your big business <br>
-            operates, providing the tools and insights needed to flourish in a <br>
+            The right POS system can revolutionise the way your big business 
+            operates, providing the tools and insights needed to flourish in a 
             dynamic marketplace.
         </p>
     </div>
@@ -423,10 +468,10 @@
     
 
     <div class="pos-row11">
-        <div>
+        <div style="margin-right: 20px;">
             <img src="assets/image/product/pos/7.svg" class="std-image">
         </div>
-        <div>
+        <div style="margin-left: 20px;">
             <img src="assets/image/product/pos/8.svg" class="adv-image">
         </div>
     </div>

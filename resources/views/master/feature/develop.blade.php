@@ -11,6 +11,9 @@
     .develop3 {
         text-align: center;
     }
+    .develop3 img {
+        width: 100%;
+    }
     .develop4 {
         text-align: center;
     }
@@ -22,13 +25,14 @@
     @media screen and (max-width: 1268px) {
         .develop1 {
             width: 100%;
-            margin-top: 100px;
+            /* margin-top: 100px; */
         }
         .employ-p1 {
             width: 100%;
         }
         .employ-p2 {
             width: 100%;
+            font-size: 12px;
         }
         .develop2 {
             width: 100%;
@@ -72,13 +76,13 @@
         }
         .effective p {
             width: 300px;
-            margin-left: 10px;
+            margin-left: 35px;
             font-size: 20px;
         }
 
         .career {
             width: 100%;
-            height: auto;
+            /* height: auto; */
         }
         .career img{
             width: 620px;
@@ -103,6 +107,14 @@
             font-size: 20px;
             width: 300px;
         }
+        .effective p span {
+            font-size: 20px;
+        }
+        .effective p {
+            font-size: 14px;
+            margin-left: 10px;
+            width: 245px;
+        }
     }
     @media screen and (min-width: 1800px) {
         .develop1 {
@@ -110,21 +122,21 @@
             margin-right: 350px;
         }
         .develop2 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .develop3 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .develop4 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
     }
 </style>
 
-<div class="main-content11">
+<div class="main-content11" style="margin-top: 120px">
     <div class="develop1">
         <p class="employ-p1">
             Employee development is vital
@@ -132,7 +144,7 @@
         </p>
     </div>
 
-    <div class="develop2">
+    <div class="develop2" style="margin-bottom: 50px;">
         <p class="employ-p2">
             Employee growth is crucial for a company's success, enhances productivity, innovation, 
             retention, adaptability, and leadership, fostering a positive work environment and 

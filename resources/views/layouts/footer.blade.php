@@ -66,7 +66,7 @@
                         <div class="desc-content-col6">
                             <p>Subcribe for latest news</p>
                             <div style="position: relative;">
-                                <input type="email" class="form-control" style="margin-top: 15px;" placeholder="Your Email">
+                                <input type="email" class="form-control-email" style="margin-top: 15px;" placeholder="Your Email">
                                 <img src="assets/image/home/envelope.svg" style="position: absolute; right: 10px; top: 34px; transform: translateY(-50%);">
                             </div>                            
                         </div>
@@ -109,7 +109,7 @@
 
                         <div class="desc-content-col8">
                             <div class="abtus">
-                                <a href="#" style="text-decoration: none;">
+                                <a href="{{ route('support') }}" style="text-decoration: none;">
                                     <p>About Career</p>
                                 </a>
                                 

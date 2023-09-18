@@ -4,6 +4,7 @@
 <style>
     .perform1 {
         text-align: center;
+        width: 100%;
     }
     .perform2 {
         text-align: center;
@@ -17,7 +18,7 @@
         .perform1 p {
             width: 100%;
             height: auto;
-            margin-top: 170px;
+            /* margin-top: 170px; */
         }
 
         .perform2 {
@@ -52,46 +53,46 @@
     }
     @media screen and (min-width: 1800px) {
         .perform1 {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
         .perform1 p {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
 
         .perform2 {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
         .perform2 p {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
     }
     @media screen and (min-width: 2500px) {
         .perform1 {
-            margin-left: 350px;
-            margin-right: : 350px;
+            /* margin-left: 350px;
+            margin-right: : 350px; */
         }
         .perform2 {
-            margin-left: 350px;
-            margin-right: : 350px;
+            /* margin-left: 350px;
+            margin-right: : 350px; */
         }
     }
     @media screen and (min-width: 3500px) {
         .perform1 {
-            margin-left: 550px;
-            margin-right: : 550px;
+            /* margin-left: 550px;
+            margin-right: : 550px; */
         }
         .perform2 {
-            margin-left: 550px;
-            margin-right: : 550px;
+            /* margin-left: 550px;
+            margin-right: : 550px; */
         }
     }
 </style>
 
-<div class="main-content9">
+<div class="main-content9" style="margin-top:120px;">
     <div class="perform1">
         <p class="building-p1">
             Building Success <br>
@@ -114,7 +115,7 @@
     </div>
 </div>
 
-<div class="content1">
+<div class="main-content9">
     <div class="perform4">
         <div style="display: flex; flex-direction:column">
             <div>
@@ -132,13 +133,13 @@
             </div>
         </div>
         <div>
-            <img src="assets/image/feature/perform/2.svg">
+            <img src="assets/image/feature/perform/2.svg" style="width: 550px;">
         </div>
     </div>
 
     <div class="perform5">
         <div>
-            <img src="assets/image/feature/perform/3.svg">
+            <img src="assets/image/feature/perform/3.svg" style="width: 550px;">
         </div>
         <div style="display: flex; flex-direction:column">
             <div>
@@ -176,13 +177,13 @@
             </div>
         </div>
         <div>
-            <img src="assets/image/feature/perform/4.svg">
+            <img src="assets/image/feature/perform/4.svg" style="width: 550px;">
         </div>
     </div>
 
     <div class="perform4">
         <div>
-            <img src="assets/image/feature/perform/5.svg">
+            <img src="assets/image/feature/perform/5.svg" style="width: 550px;">
         </div>
         <div style="display: flex; flex-direction:column">
             <div>

@@ -1,6 +1,7 @@
 body {
     background: #000;
     margin-top: 0px;
+    margin: 15px;
 }
 
 .container-scroller {
@@ -20,9 +21,11 @@ body {
 .main-content2 {
     display: flex;
     justify-content: center;
-    margin-left: 110px;
-    margin-right: 111px;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1093px; /* Set your desired maximum width */
+    margin: 0 auto;
 }
 
 .main-content3 {
@@ -31,6 +34,9 @@ body {
     margin-left: 236px;
     margin-right: 235px;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content4 {
@@ -39,6 +45,9 @@ body {
     margin-left: 241px;
     margin-right: 252px;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content5 {
@@ -55,6 +64,9 @@ body {
     margin-left: 264px;
     margin-right: 287px;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content7 {
@@ -63,6 +75,9 @@ body {
     margin-left: 264px;
     margin-right: 287px;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content8 {
@@ -71,6 +86,9 @@ body {
     margin-left: 132px;
     margin-right: 131px;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content9 {
@@ -80,6 +98,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 120px;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content10 {
@@ -89,6 +110,9 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content11 {
@@ -98,6 +122,9 @@ body {
     margin-top: 120px;
     margin-left: 235px;
     margin-right: 235px;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content12 {
@@ -107,6 +134,9 @@ body {
     margin-top: 120px;
     margin-left: 236px;
     margin-right: 235px;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
 }
 
 .main-content13 {
@@ -348,12 +378,13 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 100% */
+    width: 510px;
 }
 .text-overlay-edu {
     position: absolute;
     width: 452px;
     height: 120px;
-    bottom: 235px;
+    bottom: 200px;
     left: 40px;
     z-index: 1;
     text-align: left;
@@ -526,7 +557,8 @@ body {
     background: #000000;
     z-index: 50;
     position: fixed;
-    transition: height 0.1s ease
+    transition: height 0.1s ease;
+    top: 0;
 }
 
 .bar {
@@ -737,17 +769,17 @@ body {
   .sub {
       position: absolute;
       top: 100%;
-      left: -49px;
+      left: -63px;
       z-index: 999;
       display: none;
       background-color: #DDDDDD;
-      padding: 10px;
+      padding: 7px;
       min-width: 200px;
       border: 1px solid none;
       border-top: none;
       justify-content: center;
       width: 1084px;
-      height: 58px;
+      height: 70px;
       flex-shrink: 0;
       border-radius: 39px;
       background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
@@ -770,7 +802,7 @@ body {
       list-style: none;
       justify-content: center;
       align-items: center;
-      margin-left: -15px;
+      margin-left: -30px;
   }
 
   .nav-border {
@@ -993,7 +1025,7 @@ body {
 .desc-content {
     display: flex;
     flex-wrap: wrap;
-    width: 1243px;
+    width: 1093px;
     justify-content: center;
     align-items: center; 
 } 
@@ -1100,7 +1132,7 @@ body {
 }
 
 .abtus p {
-    width: 99px;
+    width: 100%;
     height: 15.876px;
     flex-shrink: 0;
     color: #FFF;
@@ -1161,6 +1193,25 @@ body {
     border-radius: 40px;
     background: #FFF;
     outline: none;
+}
+
+.form-control-email {
+    width: 266px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #FFF;
+    outline: none;
+}
+
+.form-control-email::placeholder {
+    color: #DDD;
+    font-family: Comfortaa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15px;
 }
 
 .social-row {
@@ -1697,6 +1748,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+.getstart-container img {
+    width: 550px;
+    height: auto;
+}
+.getstart-container2 img {
+    width: 550px;
+    height: auto;
+}
 
 .expert-1 {
     width: 316px;
@@ -1988,13 +2047,13 @@ body {
 
 .web3-marquee-content {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     animation: marquee-animation2 250s linear infinite;
 }
 
 .web3-marquee-content-2 {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     animation: marquee-animation3 250s linear infinite;
 }
 
@@ -2074,7 +2133,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2099,7 +2158,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 32px;
+    font-size: 27px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2111,18 +2170,18 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 850px;
     height: 81px;
 }
 
 .software-p1 {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 32px;
+    font-size: 27px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2132,11 +2191,11 @@ body {
 .software-p2 {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 125% */
-    width: 760px;
+    width: 600px;
     height: 100px;
     margin: 0;
 }
@@ -2144,22 +2203,23 @@ body {
 .simplify-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 46px;
+    font-size: 37px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1250px;
+    width: 100%;
     height: 102px;
+    margin-bottom: 0px;
 }
 
 .simplify-p2 {
     color: #888;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 125% */
-    width: 760px;
+    width: 610px;
     height: 75px;
 }
 
@@ -2167,7 +2227,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 128px;
+    font-size: 102px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 19.531% */
@@ -2175,7 +2235,7 @@ body {
 
 .cloud-color {
     font-family: Comfortaa;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 62.5% */
@@ -2197,7 +2257,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 1040px;
     height: 81px;
 }
 
@@ -2205,23 +2265,24 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 64px;
+    font-size: 51px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     width: 835px;
     height: 142px;
+    margin-bottom: 40px;
 }
 
 .powerhouse-p2 {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 770px;
     height: 81px;
 }
 
@@ -2235,17 +2296,17 @@ body {
 .embrace-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1507px;
+    width: 1093px;
 }
 
 .ecorm {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2255,14 +2316,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1507px;
+    width: 1093px;
 }
 
 .view-more {
     color: #BD00FF;
     text-align: right;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2272,7 +2333,7 @@ body {
 .fashion-store {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2282,7 +2343,7 @@ body {
 .clothing {
     color: #888;
     font-family: Comfortaa;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -2290,7 +2351,7 @@ body {
 }
 
 .btn-view {
-    width: 90px;
+    width: 80px;
     height: 28px;
     flex-shrink: 0;
     border-radius: 25px;
@@ -2305,7 +2366,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     /* Remove the line-height property */
@@ -2314,7 +2375,7 @@ body {
 .modern-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2334,7 +2395,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2345,7 +2406,7 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2355,7 +2416,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 64px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2366,7 +2427,7 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2455,7 +2516,7 @@ body {
     color: #FFF;
     text-align: right;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2465,7 +2526,7 @@ body {
     color: #888;
     text-align: right;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 125% */
@@ -2477,20 +2538,20 @@ body {
 .ct-box {
     width: 474px;
     height: 180px;
-    margin-left: 85px;
+    margin-left: -50px;
     margin-top: 35px;
 }
 
 .ct-box2 {
     width: 474px;
     height: 180px;
-    margin-left: -1120px;
-    margin-top: 50px;
+    margin-left: 15px;
+    margin-top: 35px;
 }
 .ct-p3 {
     color: #888;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 125% */
@@ -2501,7 +2562,7 @@ body {
 .ct-p4 {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2525,22 +2586,23 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 64px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0px;
-    width: 1268px;
+    /* width: 1268px; */
 }
 
 .package-p2 {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 907px;
 }
 
 .line2 {
@@ -2564,7 +2626,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2574,7 +2636,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2592,17 +2654,17 @@ body {
 .getstart-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: left;
-    width: 1257px;
+    /* width: 1257px; */
 }
 .getstart-p2 {
     color: #888;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2611,16 +2673,16 @@ body {
 }
 
 .getstart-container {
-    width: 614.137px;
-    height: 870px;
+    width: 550px;
+    height: 810px;
     flex-shrink: 0;
     border-radius: 30px;
     background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
 }
 
 .getstart-container2 {
-    width: 614.137px;
-    height: 870px;
+    width: 550px;
+    height: 810px;
     flex-shrink: 0;
     border-radius: 30px;
     background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
@@ -2629,7 +2691,7 @@ body {
 .contact-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 133.333% */
@@ -2638,7 +2700,7 @@ body {
 .contact-p2 {
     color: #BBB;
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 125% */
@@ -2668,7 +2730,7 @@ body {
 }
 
 .personalise-container {
-    width: 1257px;
+    width: 100%;
     height: 607px;
     flex-shrink: 0;
     border-radius: 35px;
@@ -2694,13 +2756,27 @@ body {
     border: none;
     margin-bottom: 16px;
 }
+
+.form-control2::placeholder {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    color: #333;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* Adjust the line height to match the input height */
+}
+
 .btn-submit {
     width: 134px;
     height: 48px;
     flex-shrink: 0;
     border-radius: 25px;
     border: 1px solid rgba(187, 187, 187, 0.40);
-    background: #BBBBBB66;
+    background: #bbbbbb00
 }
 .submit-span {
     color: #FFF;
@@ -2716,7 +2792,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 80px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2729,18 +2805,18 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    /* width: 1153px; */
     height: 135px;
 }
 
 .medusa-p {
     text-align: center;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 138.889% */
@@ -2755,7 +2831,7 @@ body {
 .mercury-p {
     text-align: center;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 138.889% */
@@ -2794,7 +2870,7 @@ body {
 
 .medusapro-p {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -2809,17 +2885,17 @@ body {
 .medusapro-p2 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 524px;
+    width: 420px;
     height: 240px; 
 }
 
 .medusaultra-p {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -2834,11 +2910,11 @@ body {
 .medusaultra-p2 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 524px;
+    width: 420px;
     height: 240px;
 }
 
@@ -2869,7 +2945,7 @@ body {
 .word-small {
     color: #888;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -2880,7 +2956,7 @@ body {
 .word-big {
     color: #FFF;
     font-family: Arial;
-    font-size: 96px;
+    font-size: 77px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2940,7 +3016,7 @@ body {
 
 .mercurypro-p {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -2954,18 +3030,18 @@ body {
 .mercurypro-p2 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: left;
-    width: 524px;
+    width: 420px;
     height: 336px;
 }
 
 .mercuryultra-p {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -2980,7 +3056,7 @@ body {
 .mercuryultra-p2 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2990,7 +3066,7 @@ body {
 
 .ragnarok-p-word {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -3003,7 +3079,7 @@ body {
 
 .ragnarok-p-word2 {
     font-family: Arial;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 125% */
@@ -3017,7 +3093,7 @@ body {
 .ragnarok-p2 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3026,11 +3102,11 @@ body {
 .ragnarok-p3 {
     color: #FFF;
     font-family: Arial;
-    font-size: 36px;
+    font-size: 29px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 524px;
+    width: 420px;
 }
 
 
@@ -3043,37 +3119,40 @@ body {
     text-align: center;
 }
 .exprt-3 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
 
 .exprt-4 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
+.exprt-4 img {
+    width: 100%;
+}
 
 .exprt-5 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
 
 .exprt-6 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
 
 .exprt-7 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
 
 .exprt-8 {
-    width: 1235px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
 }
@@ -3081,36 +3160,36 @@ body {
 @media screen and (min-width: 1200px) {
     /* Styles for screens with a minimum width of 1200px (larger screens) */
       .exprt-1 {
-          margin-left: 355px; /* Adjust the margin as per your needs */
-          margin-right: 355px; /* Adjust the margin as per your needs */
+          /* margin-left: 355px; 
+          margin-right: 355px;  */
       }
       .exprt-2 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs */
+        /* margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-3 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-4 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-5 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-6 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-7 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-8 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
       }
       @media screen and (min-width: 2000px) {
@@ -3120,32 +3199,32 @@ body {
           margin-right: 600px; /* Adjust the margin as per your needs */
       }
       .exprt-2 {
-            margin-left: 600px; /* Adjust the margin as per your needs */
-            margin-right: 600px; /* Adjust the margin as per your needs */
+            /* margin-left: 600px; Adjust the margin as per your needs
+            margin-right: 600px; Adjust the margin as per your needs */
         }
         .exprt-3 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; . Adjus.t the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
         .exprt-4 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; Adjust the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
         .exprt-5 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; Adjust the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
         .exprt-6 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; Adjust the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
         .exprt-7 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; Adjust the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
         .exprt-8 {
-            margin-left: 355px; /* Adjust the margin as per your needs */
-            margin-right: 355px; /* Adjust the margin as per your needs */
+            /* margin-left: 355px; Adjust the margin as per your needs
+            margin-right: 355px; Adjust the margin as per your needs */
         }
       }
       @media screen and (min-width: 3000px) {
@@ -3155,32 +3234,32 @@ body {
           margin-right: 1280px; /* Adjust the margin as per your needs */
       }
       .exprt-2 {
-        margin-left: 1280px; /* Adjust the margin as per your needs */
-        margin-right: 1280px; /* Adjust the margin as per your needs */
+        /* margin-left: 1280px; Adjust the margin as per your needs
+        margin-right: 1280px; Adjust the margin as per your needs */
     }
     .exprt-3 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-4 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-5 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-6 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-7 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .exprt-8 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
       }
 
@@ -3191,7 +3270,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
     }
     .exprt-row2 {
         display: flex;
@@ -3200,7 +3279,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
     .exprt-row3 {
@@ -3210,7 +3289,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 
@@ -3221,7 +3300,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 
@@ -3232,7 +3311,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 
@@ -3243,7 +3322,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 
@@ -3254,7 +3333,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 
@@ -3265,7 +3344,7 @@ body {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        width: 1246px;
+        /* width: 1246px; */
         margin-bottom: 60px;
     }
 /* expert */
@@ -3280,7 +3359,7 @@ body {
 }
 
 .web3-2 {
-    width: 1465px;
+    width: 100%;
     height: auto;
     margin-bottom: 100px;
     text-align: center;
@@ -3323,8 +3402,8 @@ body {
         margin-right: 355px; /* Adjust the margin as per your needs */
     }
     .web3-2 {
-        margin-left: 355px; /* Adjust the margin as per your needs */
-        margin-right: 355px; /* Adjust the margin as per your needs */
+        /* margin-left: 355px; Adjust the margin as per your needs
+        margin-right: 355px; Adjust the margin as per your needs */
     }
     .web3-3 {
         margin-left: 355px; /* Adjust the margin as per your needs */
@@ -3342,8 +3421,8 @@ body {
         margin-right: 600px; /* Adjust the margin as per your needs */
     }
     .web3-2 {
-        margin-left: 600px; /* Adjust the margin as per your needs */
-        margin-right: 600px; /* Adjust the margin as per your needs */
+        /* margin-left: 600px; Adjust the margin as per your needs
+        margin-right: 600px; Adjust the margin as per your needs */
     }
     .web3-3 {
         margin-left: 600px; /* Adjust the margin as per your needs */
@@ -3361,8 +3440,8 @@ body {
         margin-right: 1280px; /* Adjust the margin as per your needs */
     }
     .web3-2 {
-        margin-left: 1280px; /* Adjust the margin as per your needs */
-        margin-right: 1280px; /* Adjust the margin as per your needs */
+        /* margin-left: 1280px; Adjust the margin as per your needs
+        margin-right: 1280px; Adjust the margin as per your needs */
     }
     .web3-3 {
         margin-left: 1280px; /* Adjust the margin as per your needs */
@@ -3378,7 +3457,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3390,18 +3469,18 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 910px;
 }
 
 .empowering-p {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3413,17 +3492,17 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 959px;
 }
 
 .howwork-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3464,7 +3543,7 @@ body {
 .step1-p {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 32px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3479,7 +3558,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 849px;
+    width: 810px;
     
 }
 
@@ -3496,29 +3575,29 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1341px;
+    /* width: 1341px; */
 }
 
 .craft-p2 {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 820px;
 }
 
 .create-p {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3530,16 +3609,17 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 625px;
 }
 
 .personal-nft-cont {
     display: flex;
     flex-wrap: wrap;
-    width: 1465px;
+    width: 100%;
     height: auto;
     margin-bottom: 50px;
     justify-content: space-evenly;
@@ -3569,27 +3649,36 @@ body {
 }
 
 .nft-container1-1 {
-    width: 456px;
-    height: 626px;
+    width: 340px;
+    height: 468px;
     border-radius: 20px;
     border: 2px solid #69EACB;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .nft-container1-2 {
-    width: 455px;
-    height: 626px;
+    width: 340px;
+    height: 468px;
     border-radius: 20px;
     border: 2px solid #69EACB;
 }
 
 .nft-container1-3 {
-    width: 455px;
-    height: 626px;
+    width: 340px;
+    height: 468px;
     border-radius: 20px;
     border: 2px solid #69EACB;
 }
  
+.nft-container1-1 img {
+    width: 340px;
+}
+.nft-container1-2 img {
+    width: 340px;
+}
+.nft-container1-3 img {
+    width: 340px;
+}
 
 .nft-container2 {
     display: flex;
@@ -3770,7 +3859,7 @@ body {
 }
 
 .join-container {
-    width: 1465px;
+    width: 100%;
     height: 138px;
     background: linear-gradient(137deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 100%);
     box-shadow: 0px 4px 49px 0px rgba(0, 7, 72, 0.12);
@@ -3788,12 +3877,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .joinworld-p {
     text-align: center;
     font-family: Comfortaa;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -3801,13 +3891,14 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-right: 150px;
-    
+    margin-right: 115px;
+    margin-right: 90px;
+    margin-left: 30px;
 }
 
 .btn-startnow {
-    width: 316px;
-    height: 89px;
+    width: 300px;
+    height: 75px;
     border-radius: 50px;
     border: none;
     background: linear-gradient(179deg, rgba(71, 211, 255, 0.29) 0%, rgba(144, 57, 198, 0.31) 100%);
@@ -3840,7 +3931,7 @@ body {
 .perform4 {
     margin-bottom: 70px;
     height: 600px;
-    width: 1284px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3856,6 +3947,7 @@ body {
 
 .perform6 {
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .perform7 {
@@ -3883,22 +3975,22 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1299px;
+    /* width: 1299px; */
     margin-bottom: 20px;
 }
 .through-p2 {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 885px;
 }
 
 .emphasise-p1 {
@@ -4014,17 +4106,17 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1362px;
+    /* width: 1362px; */
 }
 
 .perform-psmall {
     color: #888;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4034,7 +4126,7 @@ body {
 .perform-pbig {
     color: #FFF;
     font-family: Arial;
-    font-size: 96px;
+    font-size: 77px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4065,18 +4157,18 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 890px;
 }
 
 .ignite-p {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4198,11 +4290,11 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1268px;
+    /* width: 1268px; */
 }
 
 @media screen and (max-width: 1268px) {
@@ -4223,6 +4315,7 @@ body {
     }
     .employ-p2 {
         width: 100%;
+        
     }
     .develop4 p {
         width: 100%;
@@ -4236,6 +4329,26 @@ body {
     justify-content: space-between;
 }
 /* perform */
+
+/* reward */
+
+.rew2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rew7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rew8 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* reward */
+
 
 /* develop */
 
@@ -4271,7 +4384,7 @@ body {
 .develop8 {
     display: flex;
     justify-content: center;
-    margin-bottom: 88px;
+    margin-bottom: 70px;
 }
 
 .develop9 {
@@ -4300,7 +4413,7 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 1257px;
-    height: 559.496px;
+    height: 485.496px
 }
 
 .effective {
@@ -4309,9 +4422,12 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 1257px;
+    width: 1093px;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     border-radius: 50px;
+}
+.effective img {
+    width: 670px;
 }
 
 .effective p {
@@ -4324,11 +4440,11 @@ body {
     text-align: right;
     color: #888;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 58px;
+    margin-left: 25px;
     margin-right: 59px;
     margin-top: 133px;
     margin-bottom: 132.5px;
@@ -4338,7 +4454,7 @@ body {
     color: #FFF;
     text-align: right;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4350,10 +4466,14 @@ body {
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
-    width: 1257px;
-    height: 559.496px;
+    /* width: 1257px; */
+    height: 456.496px;
     border-radius: 50px;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+
+.career img {
+    width: 625px;
 }
 
 .career p {
@@ -4365,12 +4485,12 @@ body {
     flex-shrink: 0;
     color: #888;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 59px;
-    margin-right: 58.69px;
+    margin-left: 35px;
+    margin-right: 35.69px;
     margin-top: 132px;
     margin-bottom: 132.99px;
 }
@@ -4378,7 +4498,7 @@ body {
 .career p span {
     color: #FFF;
     font-family: Comfortaa;
-    font-size: 36px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4430,7 +4550,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4440,7 +4560,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4452,11 +4572,11 @@ body {
     color: #888;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1153px;
+    width: 900px;
 }
 
 .line-develop {
@@ -4464,7 +4584,7 @@ body {
     height: 1.5px;
     background: #333;
     margin-top: 66px;
-    margin-bottom: 132px;
+    margin-bottom: 79px;
 }
 /* develop */
 
@@ -4474,7 +4594,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 66px;
+    font-size: 53px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -4497,11 +4617,11 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Comfortaa;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1354px;
+    /* width: 1354px; */
 }
 
 .hr5-container-row1 {
@@ -5904,6 +6024,15 @@ body {
     }
 }
 
+.nft-container1-4 img {
+    width: 340px;
+}
+.nft-container1-5 img {
+    width: 340px;
+}
+.nft-container1-6 img {
+    width: 340px;
+}
 /* mobile view */
 
 
@@ -5912,9 +6041,9 @@ body {
         margin: 10px;
     } */
 
-    .main-content2 {
+    /* .main-content2 {
         margin: 10px;
-    }
+    } */
 
     .main-content3 {
         margin: 10px;
@@ -6058,6 +6187,8 @@ body {
         width: 100%;
         height: auto;
         margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .center-spectacular img {
@@ -6074,6 +6205,8 @@ body {
         width: 100%;
         height: auto;
         margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .one-stop p {
@@ -6284,8 +6417,9 @@ body {
         width: 100%;
     }
     .joinworld-p {
-        font-size: 35px;
-        margin-right: -35px;
+        font-size: 30px;
+        margin-right: 20px;
+        margin-top: 35px;
     }
     .btn-startnow {
         width: 290px;
@@ -6353,6 +6487,7 @@ body {
     }
     .discover-p {
         width: 100%;
+        font-size: 20px;
     }
     .provid-2 {
         width: 100%;
@@ -6367,7 +6502,7 @@ body {
         margin-bottom: 60px;
     }
     .rew1 {
-        margin-top: 111px;
+        /* margin-top: 111px; */
     }
     .hr1 {
         margin-top: 110px;
@@ -6381,13 +6516,13 @@ body {
     
     
     .main-content6 {
-        margin-left: 10px;
-        margin-right: 100px;
+        /* margin-left: 10px;
+        margin-right: 100px; */
     }
 
     .main-content9 {
-        margin-left: 150px;
-        margin-right: 150px;
+        /* margin-left: 150px;
+        margin-right: 150px; */
     }
     /* .techpmain-cont {
         margin-top: 95px;
@@ -6473,21 +6608,24 @@ body {
         width: 90px;
         height: 40px;
     }
+    .product-img {
+        width: 80px;
+    }
 }
 
 @media screen and (min-width: 1500px) {
     
     .main-content6 {
-        margin-left: 60px;
-        margin-right: 60px;
+        /* margin-left: 60px;
+        margin-right: 60px; */
     }
     .main-content9 {
-        margin-left: 150px;
-        margin-right: 150px;
+        /* margin-left: 150px;
+        margin-right: 150px; */
     }
     .main-content10 {
-        margin-left: 250px;
-        margin-right: 250px;
+        /* margin-left: 250px;
+        margin-right: 250px; */
     }
     /* .techpmain-cont {
         margin-top: 95px;
@@ -6587,23 +6725,23 @@ body {
         margin-right: 250px;
     }
     .main-content10 {
-        margin-left: 400px;
-        margin-right: 400px;
+        /* margin-left: 400px;
+        margin-right: 400px; */
     }
 }
 
 @media screen and (min-width: 2300px) {
     .main-content6 {
-        margin-left: 220px;
-        margin-right: 220px;
+        /* margin-left: 220px;
+        margin-right: 220px; */
     }
     .main-content9 {
-        margin-left: 320px;
-        margin-right: 320px;
+        /* margin-left: 320px;
+        margin-right: 320px; */
     }
     .main-content10 {
-        margin-left: 500px;
-        margin-right: 500px;
+        /* margin-left: 500px;
+        margin-right: 500px; */
     }
     /* .techpmain-cont {
         margin-top: 95px;
@@ -6617,16 +6755,16 @@ body {
 
 @media screen and (min-width: 3000px) {
     .main-content6 {
-        margin-left: 300px;
-        margin-right: 300px;
+        /* margin-left: 300px;
+        margin-right: 300px; */
     }
     .main-content9 {
-        margin-left: 450px;
-        margin-right: 450px;
+        /* margin-left: 450px;
+        margin-right: 450px; */
     }
     .main-content10 {
-        margin-left: 600px;
-        margin-right: 600px;
+        /* margin-left: 600px;
+        margin-right: 600px; */
     }
     /* .techpmain-cont {
         margin-top: 95px;
@@ -6640,12 +6778,12 @@ body {
 
 @media screen and (min-width: 4000px) {
     .main-content6 {
-        margin-left: 300px;
-        margin-right: 300px;
+        /* margin-left: 300px;
+        margin-right: 300px; */
     }
     .main-content9 {
-        margin-left: 550px;
-        margin-right: 550px;
+        /* margin-left: 550px;
+        margin-right: 550px; */
     }
     /* .techpmain-cont {
         margin-top: 95px;
@@ -6659,12 +6797,12 @@ body {
 
 @media screen and (min-width: 5000px) {
     .main-content6 {
-        margin-left: 350px;
-        margin-right: 350px;
+        /* margin-left: 350px;
+        margin-right: 350px; */
     }
     .main-content9 {
-        margin-left: 650px;
-        margin-right: 650px;
+        /* margin-left: 650px;
+        margin-right: 650px; */
     }
     .content1 {
         margin-left: 700px;

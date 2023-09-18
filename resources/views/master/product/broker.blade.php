@@ -24,20 +24,51 @@
     }
     .broker6 {
         margin-bottom: 36px;
+        width: 100%;
     }
     .broker7 {
+        width: 100%;
         margin-bottom: 36px;
     }
     .broker8 {
         margin-bottom: 36px;
+        width: 100%;
     }
     .broker9 {
         margin-bottom: 76px;
+        width: 100%;
     }
     .broker10 {
         margin-bottom: 96px;
+        width: 100%;
     }
-
+    .cont {
+        width: 100%;
+    }
+    .cont-2-1 {
+        width: 100%;
+    }
+    .cont2-2 {
+        width: 100%;
+    }
+    .getinfo-align {
+        margin-top: -15px;
+        text-align:end;
+        margin-right:35px;
+    }
+    .getinfo-align2 {
+        margin-top: -40px;
+        text-align:end;
+        margin-right:35px;
+    }
+    .getinfo-align3 {
+        margin-top: -50px;
+        text-align:end;
+        margin-right:35px;
+    }
+    .broker12 {
+        width: 100%;
+    }
     @media screen and (max-width: 1280px) {
         .broker1 {
             width: 100%;
@@ -108,6 +139,10 @@
             margin-left: 40px;
             margin-right: 20px;
         }
+        .ct-box2 {
+            margin-left: 40px;
+            margin-right: 20px;
+        }
         .cont2 {
             width: 100%;
         }
@@ -150,6 +185,21 @@
         }
         .broker-p2 {
             font-size: 14px;
+        }
+        .getinfo-align {
+            margin-top: -50px;
+            text-align:end;
+            margin-right:35px;
+        }
+        .getinfo-align2 {
+            margin-top: -50px;
+            text-align:end;
+            margin-right:35px;
+        }
+        .getinfo-align3 {
+            margin-top: -50px;
+            text-align:end;
+            margin-right:35px;
         }
     }
 
@@ -353,7 +403,7 @@
     </div>
 
     <div class="broker3">
-        <img src="assets/image/product/broker/1.svg">
+        <img src="assets/image/product/broker/1.svg" style="width: 100%;">
     </div>
 
     <div class="broker4">
@@ -390,7 +440,7 @@
     <div class="broker7">
         <div class="cont-2-1">
             
-            <div class="ct-box">
+            <div class="ct-box2">
                 <p class="ct-p4">
                     Payment Solutions
                 </p>
@@ -430,11 +480,11 @@
                 Our cost-effective brokerage package
             </p>
         </div>
-        <div>
+        <div style="display: flex;justify-content: center;">
             <p class="package-p2">
-                Introducing our comprehensive brokerage package, designed for seamless investing. <br>
-                Leverage our expertise, technology, and support for your brokerage. Establish your brand <br>
-                and expand your business with confidence and ease. Start your journey to financial <br>
+                Introducing our comprehensive brokerage package, designed for seamless investing. 
+                Leverage our expertise, technology, and support for your brokerage. Establish your brand 
+                and expand your business with confidence and ease. Start your journey to financial
                 success with our tailored brokerage package now.
             </p>
         </div>
@@ -609,7 +659,7 @@
     </div>
 
     <div class="broker11" style="display: flex">
-        <div class="getstart-container" style="margin-right:28.73px;margin-bottom:28.73px"> 
+        <div class="getstart-container" style="margin-right:14px;margin-bottom:28.73px"> 
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
                     <p class="contact-p">CONTACT</p>
@@ -622,7 +672,7 @@
                 <div>     
                     <img src="assets/image/product/broker/20.svg" >
                 </div>
-                <div style="margin-top: -50px;text-align:end;margin-right:35px">
+                <div class="getinfo-align">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
@@ -631,7 +681,7 @@
                 </div>
             </div>
         </div>
-        <div class="getstart-container2" style="margin-bottom:28.73px">
+        <div class="getstart-container2" style="margin-bottom:28.73px;margin-left:14px">
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
                     <p class="contact-p">CUSTOMISATION</p>
@@ -644,7 +694,7 @@
                 <div>     
                     <img src="assets/image/product/broker/21.svg">
                 </div>
-                <div style="margin-top: -50px;text-align:end;margin-right:35px">
+                <div class="getinfo-align2">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
@@ -670,7 +720,7 @@
                 <div>     
                     <img src="assets/image/product/broker/22.svg" style="margin-top: -50px">
                 </div>
-                <div style="margin-top: -50px;text-align:end;margin-right:35px">
+                <div class="getinfo-align3">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>

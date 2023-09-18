@@ -1,12 +1,13 @@
 @extends('layouts.master')
 @section('content')
-<br>
-<br>
-<br>
 
 <style>
     .webapp1 {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
     }
     .webapp2 {
         text-align: center;
@@ -15,14 +16,22 @@
         margin-right: 250px;
     }
 
+    .webapp3 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
     .webapp4 {
         text-align: left;
+        width: 100%;
     }
 
     .webapp5 {
         display: flex;
         text-align: center;
-        margin-bottom: 90px
+        margin-bottom: 90px;
+        width: 100%;
     }
 
     .webapp6 {
@@ -33,7 +42,7 @@
     .webapp7 {
         display: flex; 
         align-items:center;
-        width: 1507px;
+        width: 100%;
         justify-content: space-between;
         margin-bottom: 40px;
     }
@@ -41,7 +50,7 @@
     .webapp8 {
         display: flex; 
         align-items:center;
-        width: 1507px;
+        width: 100%;
         justify-content: space-between;
         margin-bottom: 40px;
     }
@@ -77,13 +86,18 @@
         display: flex;   
         flex-direction:column;
         margin-left: 18px;
-        width: 240px;
+        margin-right: 10px;
+        width: 170px;
     }
 
     .ecomm-main-margin {
         display: flex;
         align-items: center;
         margin-left: 10px;
+    }
+    .ecomm-main-margin-1 {
+        display: flex;
+        align-items: center;
     }
 
     @media screen and (max-width: 1280px) {
@@ -122,6 +136,7 @@
         .webapp4 p {
             width: 100%;
             height: auto;
+            font-size: 16px;
         }
 
         .webapp5 {
@@ -155,12 +170,14 @@
         .ecomm-tem {
             display: flex;
             flex-direction: row;
+            width: 100%;
         }
         .webapp7 {
             width: 100%;
             height: auto;
             margin-top: 0px;
             flex-direction: column;
+            align-items: flex-start;
             margin-left: 10px;
         }
         .webapp8 {
@@ -168,7 +185,10 @@
             height: auto;
             margin-top: 0px;
             flex-direction: column;
-            margin-left: 30px;
+            margin-left: 10px;
+        }
+        .webapp9 p {
+            font-size: 16px;
         }
         .webapp10 {
             width: 100%;
@@ -221,17 +241,33 @@
         }
         .ecomm-main-margin {
             margin-bottom: 30px;
+            margin-left: 0px;
+            justify-content: space-evenly;
+            width: 100%;
         }
-
+        .ecomm-main-margin-1 {
+            margin-bottom: 30px;
+            justify-content: space-evenly;
+            width: 100%;
+        }
         .viewmore-a {
             width: 120px;
+        }
+        .fashion-store {
+            font-size: 20px;
+        }
+        .clothing {
+            font-size: 14px;
+        }
+        .powerhouse-p2 {
+            font-size: 12px;
         }
     }
 
     @media screen and (max-width: 1600px) {
         .webapp1 {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
         /* .webapp2 {
             margin-left: 250px;
@@ -339,36 +375,36 @@
 
     @media screen and (min-width: 2000px) {
         .webapp1 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp2 {
             margin-left: 350px;
             margin-right: 350px;
         }
         .webapp3 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp4 {
             margin-left: 350px;
             margin-right: 350px;
         }
         .webapp5 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp6 {
             margin-left: 350px;
             margin-right: 350px;
         }
         .webapp7 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp8 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp10 {
             margin-left: 350px;
@@ -391,36 +427,36 @@
 
     @media screen and (min-width: 3000px) {
         .webapp1 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp2 {
             margin-left: 500px;
             margin-right: 500px;
         }
         .webapp3 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp4 {
             margin-left: 500px;
             margin-right: 500px;
         }
         .webapp5 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp6 {
             margin-left: 500px;
             margin-right: 500px;
         }
         .webapp7 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp8 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp10 {
             margin-left: 500px;
@@ -442,36 +478,36 @@
 
     @media screen and (min-width: 3800px) {
         .webapp1 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp2 {
             margin-left: 650px;
             margin-right: 650px;
         }
         .webapp3 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp4 {
             margin-left: 650px;
             margin-right: 650px;
         }
         .webapp5 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp6 {
             margin-left: 650px;
             margin-right: 650px;
         }
         .webapp7 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp8 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp10 {
             margin-left: 650px;
@@ -518,14 +554,14 @@
      </div>
 
      <div class="webapp5">
-        <div>
-            <img src="assets/image/product/webapp/2.svg" style="margin-right: 12px">
+        <div style="margin-right: 12px">
+            <img src="assets/image/product/webapp/2.svg" style="width: 100%">
         </div>
-        <div>
-            <img src="assets/image/product/webapp/3.svg" style="margin-right: 12px;margin-left: 12px">
+        <div style="margin-right: 12px;margin-left: 12px">
+            <img src="assets/image/product/webapp/3.svg" style="width: 100%">
         </div>
-        <div>
-            <img src="assets/image/product/webapp/4.svg" style="margin-left: 12px">
+        <div style="margin-left: 12px">
+            <img src="assets/image/product/webapp/4.svg" style="width: 100%">
         </div>
         
      </div>
@@ -543,8 +579,8 @@
     
     <div class="ecomm-tem">
         <div class="webapp7"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+            <div class="ecomm-main-margin-1">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
@@ -563,7 +599,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
@@ -582,7 +618,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
@@ -603,8 +639,8 @@
         </div>
 
         <div class="webapp8"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+            <div class="ecomm-main-margin-1">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -623,7 +659,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -642,7 +678,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
@@ -675,16 +711,16 @@
 
     <div class="webapp10">
         <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/10.svg" style="margin-right: 12px">
+            <img src="assets/image/product/webapp/10.svg" style="margin-right: 12px;width: 100%;">
         </div>
         <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/11.svg" style="margin-right: 12px">
+            <img src="assets/image/product/webapp/11.svg" style="margin-right: 12px;width: 100%;">
         </div>
         <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/12.svg" style="margin-right: 12px">
+            <img src="assets/image/product/webapp/12.svg" style="margin-right: 12px;width: 100%;">
         </div>
         <div>
-            <img src="assets/image/product/webapp/13.svg" style="margin-right: 12px">
+            <img src="assets/image/product/webapp/13.svg" style="margin-right: 12px;width: 100%;">
         </div>
     </div>
 
@@ -832,7 +868,7 @@
     </div>
 
     <div class="webapp11">
-        <img src="assets/image/product/webapp/14.svg">
+        <img src="assets/image/product/webapp/14.svg" style="width: 100%;">
     </div>
 
     <div class="webapp6">
@@ -986,10 +1022,10 @@
 
     <div class="webapp13">
         <div style="margin-right: 15px;">
-            <img src="assets/image/product/webapp/15.svg">
+            <img src="assets/image/product/webapp/15.svg" style="width: 100%;">
         </div>
         <div style="margin-left: 15px;">
-            <img src="assets/image/product/webapp/16.svg">
+            <img src="assets/image/product/webapp/16.svg" style="width: 100%;">
         </div>
         
     </div>
@@ -1142,13 +1178,13 @@
 
     <div class="webapp12">
         <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/17.svg" style="margin-right:20px">
+            <img src="assets/image/product/webapp/17.svg" style="margin-right:20px;width: 100%;">
         </div>
         <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/18.svg" style="margin-right:20px">
+            <img src="assets/image/product/webapp/18.svg" style="margin-right:20px;width: 100%;">
         </div>
         <div>
-            <img src="assets/image/product/webapp/19.svg">
+            <img src="assets/image/product/webapp/19.svg" style="width: 100%;">
         </div>
         
     </div>

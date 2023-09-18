@@ -3,8 +3,42 @@
 
 <style>
 
-    
-
+    .content4-inside-img {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 241px;
+        margin-right: 252px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1093px;
+        margin: 0 auto;
+    }
+    .exprt-col3 {
+        width: 420px;
+    }
+    .exprt-col4 {
+        width: 420px;
+    }
+    .exprt-col6 {
+        width: 420px;
+    }
+    .exprt-col8 {
+        width: 420px;
+    }
+    .exprt-9 {
+        width: 100%;
+    }
+    .exprt-9 img{
+        width: 100%;
+    }
+    .exprt-10 {
+        width: 100%;
+    }
+    .exprt-10 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
     @media screen and (max-width: 1280px) {
         .exprt-2 {
             width: 100%;
@@ -29,7 +63,7 @@
             align-items: center;
         }
         .medusapro-p2 {
-            width: 100%;
+            /* width: 100%; */
         }
         .medusaultra-p2 {
             width: 100%;
@@ -68,7 +102,7 @@
             align-items: flex-start;
         }
         .mercurypro-p2 {
-            width: 100%;
+            /* width: 100%; */
         }
         .mercuryultra-p2 {
             width: 100%;
@@ -105,9 +139,11 @@
         }
         .ragnarok-p1 {
             font-size: 30px;
+            width: 660px;
         }
         .medusa-p5 {
             font-size: 30px;
+            width: 660px; 
         }
         .exprt-col-content {
             width: 494px;
@@ -140,7 +176,7 @@
 
         <div style="display: flex; width: 1257px; align-items: center; justify-content: space-evenly; margin-bottom: 98px;">
             <div style="text-align: center; margin: 0 auto;">
-                <img src="assets/image/product/expert/medusa.svg">
+                <img src="assets/image/product/expert/medusa.svg" style="width:500px">
                 <div style="display: flex;justify-content: center;">
                     <p class="medusa-p">
                         Hedging Strategy <br>
@@ -151,7 +187,7 @@
                 </div>
             </div>
             <div style="text-align: center; margin: 0 auto;">
-                <img src="assets/image/product/expert/mercury.svg">
+                <img src="assets/image/product/expert/mercury.svg" style="width:500px">
                 <div style="display: flex;justify-content: center;">
                     <p class="mercury-p">
                         Signal Detect Strategy
@@ -166,20 +202,23 @@
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 55px; left: 55px; padding: 5px;">
-            <p class="medusa-p4">
-                MEDUSA
-            </p>
-            <p class="medusa-p5">
-                The Medusa Expert Advisor is an automated 
-                trading robot for the Forex market. It employs 
-                a hedging strategy to protect positions from  
-                adverse price movements. The EA uses 
-                predefined rules and indicators to open 
-                hedge positions and manages them with 
-                stop-loss and take-profit levels.
-            </p>
+        <div class="content4-inside-img">
+            <div style="position: absolute; bottom: 55px; padding: 5px;">
+                <p class="medusa-p4">
+                    MEDUSA
+                </p>
+                <p class="medusa-p5">
+                    The Medusa Expert Advisor is an automated 
+                    trading robot for the Forex market. It employs 
+                    a hedging strategy to protect positions from  
+                    adverse price movements. The EA uses 
+                    predefined rules and indicators to open 
+                    hedge positions and manages them with 
+                    stop-loss and take-profit levels.
+                </p>
+            </div>
         </div>
+        
     </div>
 
     <div class="main-content4">
@@ -319,22 +358,25 @@
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute;bottom: 55px;left: 55px;padding: 5px">
-            <p class="medusa-p6">
-                MERCURY
-            </p>
-            <p class="medusa-p5">
-                The Mercury Expert Advisor's trading 
-                strategies utilize technical indicators or price 
-                action analysis. Indicator-based approaches 
-                involve mathematical calculations from 
-                historical price data, while price action 
-                strategies interpret actual chart movements. 
-                Both methods inform trading decisions, 
-                offering potential opportunities for successful 
-                trading.
-            </p>
+        <div class="content4-inside-img">
+            <div style="position: absolute;bottom: 55px;padding: 5px">
+                <p class="medusa-p6">
+                    MERCURY
+                </p>
+                <p class="medusa-p5">
+                    The Mercury Expert Advisor's trading 
+                    strategies utilize technical indicators or price 
+                    action analysis. Indicator-based approaches 
+                    involve mathematical calculations from 
+                    historical price data, while price action 
+                    strategies interpret actual chart movements. 
+                    Both methods inform trading decisions, 
+                    offering potential opportunities for successful 
+                    trading.
+                </p>
+            </div>
         </div>
+        
     </div>
 
     <div class="main-content4">
@@ -365,7 +407,7 @@
                         <p class="mercuryultra-p">
                             MERCURY ULTRA
                         </p>
-                        <p class="mercuryultra-p2">
+                        <p class="mercurypro-p2">
                             Mercury Ultra is more 
                             accuracy. It targets 
                             experienced traders, 
@@ -484,22 +526,25 @@
 
     <div style="position: relative;">
         <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;">
-        <div style="position: absolute; bottom: 15px; left: 55px; padding: 5px;">
-            <p class="ragnarok-p">
-                RAGNAROK
-            </p>
-            <p class="ragnarok-p1">
-                Ragnarok is a fund management system 
-                combines PAMM and Copy Trading, allowing 
-                professional traders to manage pooled funds 
-                (PAMM) and enabling others to automatically 
-                copy their trades (Copy Trading). This 
-                integrated platform enhances investment 
-                opportunities, optimizes risk management, and 
-                fosters collaboration between traders and 
-                investors.
-            </p>
+        <div class="content4-inside-img">
+            <div style="position: absolute; bottom: 15px; padding: 5px;">
+                <p class="ragnarok-p">
+                    RAGNAROK
+                </p>
+                <p class="ragnarok-p1">
+                    Ragnarok is a fund management system 
+                    combines PAMM and Copy Trading, allowing 
+                    professional traders to manage pooled funds 
+                    (PAMM) and enabling others to automatically 
+                    copy their trades (Copy Trading). This 
+                    integrated platform enhances investment 
+                    opportunities, optimizes risk management, and 
+                    fosters collaboration between traders and 
+                    investors.
+                </p>
+            </div>
         </div>
+        
     </div>
 
     <div class="main-content4">
@@ -512,11 +557,10 @@
                         <p class="ragnarok-p-word">
                             RAGNAROK PRO
                         </p>
-                        <p class="mercurypro-p2">
+                        <p class="ragnarok-p3">
                             Ragnarok Pro offers PAMM, 
                             an exclusive investment 
-                            platform focused on PAMM 
-                            trading, allowing investors to 
+                            platform focused on PAMM trading, allowing investors to 
                             allocate funds to skilled 
                             traders for passive income 
                             and diversification.

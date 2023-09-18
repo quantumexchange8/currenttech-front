@@ -8,8 +8,12 @@
     .hr3 {
         text-align: center;
     }
+    .hr3 img {
+        width: 100%;
+    }
     .hr4 {
         text-align: center;
+        width: 100%;
     }
     .hr5 {
         margin-top: 138px;
@@ -122,20 +126,20 @@
             margin-right: 200px;
         }
         .hr2 p {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr3 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr4 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr4 p {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr6 {
             margin-left: 200px;
@@ -166,7 +170,7 @@
     }
 </style>
 
-<div class="main-content12">
+<div class="main-content12" style="margin-top: 120px">
     <div class="hr1">
         <p class="enhanced-p">
             Enhanced HR management for higher efficiency

@@ -117,22 +117,22 @@
 
     @media screen and (min-width: 2000px) {
         .web3-8 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
     }
 
     @media screen and (min-width: 3000px) {
         .web3-8 {
-            margin-left: 550px;
-            margin-right: 550px;
+            /* margin-left: 550px;
+            margin-right: 550px; */
         }
     }
 
     @media screen and (min-width: 3800px) {
         .web3-8 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
     }
 </style>
@@ -184,13 +184,13 @@
                 <div><p class="step1-p">Step 1</p></div>
                 <div>
                     <ul class="step1-p2">
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Create a digital wallet: Set up a digital wallet on the chosen blockchain platform to store and manage your NFTs.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Prepare the digital asset: Get your digital asset ready to be turned into an NFT; it can be digital art, music, videos, etc.
                         </li>
                         <li style="margin-bottom: 5px">
@@ -212,13 +212,13 @@
                 <div><p class="step1-p">Step 2</p></div>
                 <div>
                     <ul class="step1-p2">
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
                         </li>
                         <li style="margin-bottom: 5px">
@@ -234,13 +234,13 @@
                 <div><p class="step1-p">Step 3</p></div>
                 <div>
                     <ul class="step1-p2">
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
                         </li>
-                        <li style="margin-bottom: 5px">
+                        <li style="margin-bottom: 15px">
                             Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
                         </li>
                         <li style="margin-bottom: 5px">
@@ -298,7 +298,7 @@
             WEB 3.0
         </p>
     </div>
-    <div>
+    <div style="margin-bottom: 50px;">
         <p class="craft-p2">
             Designing cutting-edge NFT-based digital experiences to revolutionize content 
             consumption, ownership, and engagement, shaping the future of the digital art and 
@@ -375,8 +375,8 @@
     </div>
     <div class="web3-8" style="margin-bottom:96px">
         <p class="create-p2">
-            Transform your artwork or content into blockchain-based NFTs.<br>
-            Mint and own one-of-a-kind digital assets. Showcase, sell,<br>
+            Transform your artwork or content into blockchain-based NFTs.
+            Mint and own one-of-a-kind digital assets. Showcase, sell,
             or trade your personalized creations with the world.
         </p>
     </div>

@@ -25,14 +25,14 @@
     }
 </style>
 
-<div class="main-content10">
+<div class="main-content10" style="margin-top:120px;">
     <div class="rew1">
         <p class="ignite-p">
             Ignite Engagement and Unlock Exclusive Benefits
         </p>
     </div>
 
-    <div class="rew2" style="margin-bottom: 66px">
+    <div class="rew2" style="margin-bottom: 100px">
         <p class="unleash-p">
             Unleash engagement, earn points, unlock badges, and enjoy exclusive benefits. Join now for 
             personalized offers, contests, and delightful surprises. Elevate your experience with 
@@ -41,7 +41,7 @@
     </div>
 
     <div class="rew3" style="margin-bottom: 138px">
-        <img src="assets/image/feature/reward/1.svg">
+        <img src="assets/image/feature/reward/1.svg" style="width: 100%;">
     </div>
 
     <div class="rew4" style="width: 1000px;display: flex;justify-content: center;">
@@ -50,7 +50,7 @@
          </p>
     </div>
 
-    <div class="rew5" style="width: 1000px;display: flex;justify-content: center;">
+    <div class="rew5" style="width: 1000px;display: flex;justify-content: center;margin-bottom: 100px;">
         <p class="implement-p">
             Implement a points-based rewards system to incentivize user engagement.
             Users can earn points for various actions within the app, such as completing tasks,
@@ -60,7 +60,7 @@
     </div>
 
     <div class="rew6" style="margin-bottom: 100px;">
-        <img src="assets/image/feature/reward/2.svg">
+        <img src="assets/image/feature/reward/2.svg" style="width: 100%;">
     </div>
 
     <div class="rew7">
@@ -69,16 +69,16 @@
         </p>
     </div>
 
-    <div class="rew8">
+    <div class="rew8" style="margin-bottom: 100px;">
         <p class="recognise-p1">
-            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching <br>
-            specific milestones, completing challenges, or demonstrating exceptional performance. <br>
+            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching 
+            specific milestones, completing challenges, or demonstrating exceptional performance. 
             Displaying badges on user profiles adds a gamified element and encourages users to strive for more accomplishments.
         </p>
     </div>
 
     <div class="rew-9" style="margin-bottom: 100px;">
-        <img src="assets/image/feature/reward/3.svg">
+        <img src="assets/image/feature/reward/3.svg" style="width: 100%;">
     </div>
 
     <div class="rew7">
@@ -87,16 +87,16 @@
         </p>
     </div>
 
-    <div class="rew8">
+    <div class="rew8" style="margin-bottom: 100px">
         <p class="incorporate-p1">
-            Incorporate a leveling system to provide a sense of progression and achievement.<br>
-            As users interact with the app, they can level up based on their activities and accomplishments.<br>
+            Incorporate a leveling system to provide a sense of progression and achievement.
+            As users interact with the app, they can level up based on their activities and accomplishments.
             Each level unlocks new features, benefits, or privileges, motivating users to stay engaged and reach higher levels.
         </p>
     </div>
 
     <div class="rew9" style="margin-bottom: 100px;">
-        <img src="assets/image/feature/reward/4.svg">
+        <img src="assets/image/feature/reward/4.svg" style="width: 100%;">
     </div>
 
     <div class="rew7">
@@ -105,7 +105,7 @@
         </p>
     </div>
 
-    <div class="rew8">
+    <div class="rew8" style="margin-bottom: 100px">
         <p class="vip-p2">
             Offer a premium or VIP membership tier with exclusive benefits. Users who subscribe to this membership
             level gain access to premium content, enhanced features, personalized support, or priority
@@ -123,10 +123,10 @@
         </p>
     </div>
 
-    <div class="rew8">
+    <div class="rew8" style="margin-bottom: 100px;">
         <p class="streak-p2">
-            Encourage daily app usage and engagement through daily streaks and challenges. <br>
-            Users who consistently log in or complete certain tasks every day can earn bonus rewards,<br>
+            Encourage daily app usage and engagement through daily streaks and challenges. 
+            Users who consistently log in or complete certain tasks every day can earn bonus rewards,
             extra points, or exclusive content. This creates a habit-forming experience and keeps users actively engaged with the app.
         </p>
     </div>
@@ -137,8 +137,8 @@
 
     <div class="perform6">
         <p class="provid-2">
-            By providing suitable rewards at the <br>
-            appropriate moment, we ensure that the desired<br>
+            By providing suitable rewards at the 
+            appropriate moment, we ensure that the desired
             activity is accomplished effectively.
         </p>
     </div>

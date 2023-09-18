@@ -527,10 +527,10 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <img class="home-marquee-btm-icon" src="/assets/image/home/fnb2.svg">
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
-                                    Food & Beverage        
+                                    Food & Beverage
                                 </p>
                                 <p class="logistic-p-cont">
                                     Savoury Delights
