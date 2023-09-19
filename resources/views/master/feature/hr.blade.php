@@ -16,7 +16,7 @@
         width: 100%;
     }
     .hr5 {
-        margin-top: 138px;
+        margin-top: 60px;
     }
     .hr6 {
         text-align: center;
@@ -35,6 +35,10 @@
         background: #333;
         margin-top: 66px;
         margin-bottom: 66px;
+    }
+
+    .hr-container-col-img img {
+        width: 530px;
     }
 
     @media screen and (max-width: 1268px) {
@@ -232,7 +236,7 @@
                         and administrators.
                     </p>
                 </div>
-                <div>
+                <div class="hr-container-col-img">
                     <img src="assets/image/feature/hr/3.svg">
                 </div>
             </div>
@@ -252,7 +256,7 @@
                         timeliness while reducing manual effort.
                     </p>
                 </div>
-                <div>
+                <div class="hr-container-col-img">
                     <img src="assets/image/feature/hr/4.svg">
                 </div>
             </div>
@@ -270,7 +274,7 @@
                         learning outcomes.
                     </p>
                 </div>
-                <div>
+                <div class="hr-container-col-img">
                     <img src="assets/image/feature/hr/5.svg">
                 </div>
             </div>

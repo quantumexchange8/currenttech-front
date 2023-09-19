@@ -105,7 +105,7 @@
     }
 </style>
 
-<div class="main-content15">
+<div class="main-content15" style="margin-top: 120px;">
     <div class="career1">
         <p>
             Join Our Team for Exciting Career Opportunities
@@ -115,7 +115,7 @@
     <div class="career2">
         <p>
             Empower your future with Current Tech Industries. Join our visionary team, embrace 
-            diversity, and work on impactful projects. Explore career opportunities that fuel your <br>
+            diversity, and work on impactful projects. Explore career opportunities that fuel your 
             growth and make a difference. Apply now at <a href="#" class="href-link">hr.admin@currenttech.pro</a>
         </p>
     </div>
@@ -155,9 +155,16 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/it1.png" style="margin-right: 9px">
-            <img src="assets/image/career/it2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/it3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/it1.png">
+            </div>
+            <div style="margin-left:9px;margin-right:9px">
+                <img src="assets/image/career/it2.png">
+            </div>
+            <div style="margin-left: 9px">
+                <img src="assets/image/career/it3.png">
+            </div>
+            
         </div>
         <div class="career-row3">
             <div class="career-col3">
@@ -170,7 +177,7 @@
                         MIN REQUIREMENT
                     </p>
                 </div>
-                <div style="display: flex;width:316px;justify-content: space-between;">
+                <div style="display: flex;width:275px;justify-content: space-between;">
                     <div class="ctgry-p">
                         <p>
                             Laravel PHP <br><br>
@@ -256,9 +263,15 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/ui1.png" style="margin-right: 9px">
-            <img src="assets/image/career/ui2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/ui3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/ui1.png">
+            </div>
+            <div style="margin-left: 9px;margin-right:9px">
+                <img src="assets/image/career/ui2.png">
+            </div>
+            <div style="margin-left: 9px">
+                <img src="assets/image/career/ui3.png">
+            </div>
         </div>
         <div class="career-row3">
             <div class="career-col7">
@@ -271,7 +284,7 @@
                         MIN REQUIREMENT
                     </p>
                 </div>
-                <div style="display: flex;width:316px;justify-content: space-between;height: 157.5px">
+                <div style="display: flex;width:270px;justify-content: space-between;height: 157.5px">
                     <div class="ctgry-p">
                         <p>
                             Figma <br><br>
@@ -293,7 +306,7 @@
                     <br>
                     <p class="goodon-p">GOOD ON</p>
                 </div>
-                <div class="cap-ctgry-p">
+                <div class="cap-ctgry-p2">
                     <p>
                         Creative <br><br>
                         Problem-Solving <br><br>
@@ -358,9 +371,16 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/market1.png" style="margin-right: 9px">
-            <img src="assets/image/career/market2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/market3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/market1.png" >
+            </div>
+            <div style="margin-left: 9px; margin-right:9px">
+                <img src="assets/image/career/market2.png">
+            </div>
+            <div style="margin-left : 9px">
+                <img src="assets/image/career/market3.png">
+            </div>
+            
         </div>
         <div class="career-row3">
             <div class="career-col7">
@@ -459,9 +479,15 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/op1.png" style="margin-right: 9px">
-            <img src="assets/image/career/op2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/op3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/op1.png" >
+            </div>
+            <div style="margin-left: 9px; margin-right:9px">
+                <img src="assets/image/career/op2.png">
+            </div>
+            <div style="margin-left : 9px">
+                <img src="assets/image/career/op3.png" >
+            </div>
         </div>
         <div class="career-row3">
             <div class="career-col7">
@@ -561,9 +587,16 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/sale1.png" style="margin-right: 9px">
-            <img src="assets/image/career/sale2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/sale3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/sale1.png">
+            </div>
+            <div style="margin-left: 9px; margin-right:9px">
+                <img src="assets/image/career/sale2.png">
+            </div>
+            <div style="margin-left : 9px">
+                <img src="assets/image/career/sale3.png">
+            </div>
+            
         </div>
         <div class="career-row3">
             <div class="career-col7">
@@ -662,9 +695,16 @@
             </div>
         </div>
         <div class="career-row2">
-            <img src="assets/image/career/intern1.png" style="margin-right: 9px">
-            <img src="assets/image/career/intern2.png" style="margin-left: 9px; margin-right:9px">
-            <img src="assets/image/career/intern3.png" style="margin-left : 9px">
+            <div style="margin-right: 9px">
+                <img src="assets/image/career/intern1.png">
+            </div>
+            <div style="margin-left: 9px; margin-right:9px">
+                <img src="assets/image/career/intern2.png">
+            </div>
+            <div style="margin-left : 9px">
+                <img src="assets/image/career/intern3.png">
+            </div>
+            
         </div>
         <div class="career-row3">
             <div class="career-col9">
@@ -710,7 +750,7 @@
                     </div>
                 </div>
             </div>
-            <div class="career-col8">
+            <div class="career-col9">
                 <div class="cap-p">
                     <p class="cap-p-p">EDUCATION</p>
                     <br>
@@ -724,7 +764,7 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col8">
+            <div class="career-col9">
                 <div class="cap-p">
                     <p class="cap-p-p">EXPERIENCES</p>
                     <br>

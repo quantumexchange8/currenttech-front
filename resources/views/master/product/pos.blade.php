@@ -107,10 +107,10 @@
             height: auto;
         }
         .ignite-p1 {
-            font-size: 32px;
+            font-size: 26px;
         }
         .streamline-p {
-            font-size: 21px;
+            font-size: 14px;
         }
         .pos-row5 {
             width: 100%;

@@ -20,7 +20,7 @@
         .sector1 {
             width: 100%;
             height: auto;
-            margin-top: 100px;
+            /* margin-top: 100px; */
         }
         .sector1 p {
             width: 100%;
@@ -61,6 +61,10 @@
         .sector16 {
             width: 100%;
             height: auto;
+        }
+        .sector16 p {
+            font-size: 24px;
+            width: 600px;
         }
         .cart-col2 {
             width: 100%;
@@ -126,7 +130,7 @@
 
 </style>
 
-<div class="main-content14">
+<div class="main-content14" style="margin-top: 120px;">
     <div class="sector1">
         <p>
             Transforming Every Sector

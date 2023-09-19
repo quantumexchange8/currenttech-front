@@ -14,17 +14,18 @@
     }
     .report8 {
         text-align: center;
-        margin-bottom: 130px;
+        margin-bottom: 100px;
     }
     @media screen and (max-width: 1268px) {
         .report1 {
             width: 100%;
             height: auto;
-            margin-top: 212px;
+            /* margin-top: 212px; */
         }
         .report1 p {
             width: 100%;
             height: auto;
+            font-size: 40px;
         }
         .report2 {
             width: 100%;
@@ -33,6 +34,7 @@
         .report2 p {
             width: 100%;
             height: auto;
+            font-size: 14px;
         }
         .report3 {
             width: 100%;
@@ -57,6 +59,7 @@
         .report8 p {
             width: 100%;
             height: auto;
+            font-size: 28px;
         }
         .report9 {
             width: 100%;
@@ -67,23 +70,29 @@
         }
         .report5-container {
             width: 100%;
+            height: 375px;
         }
         .report5-col1 img {
             width: 535px;
         }
         .report-enhancing-p1 {
-            font-size: 30px;
+            font-size: 24px;
             width: 369px;
         }
         .report-data-p1 {
             width: 371px;
-            font-size: 22px;
+            font-size: 18px;
+        }
+        .report-data-p2 {
+            width: 371px;
+            font-size: 18px;
         }
         .report5-col1 {
             margin-left: 5px;
         }
         .report5-col2 {
             margin-right: 20px;
+            margin-top: 0px;
         }
 
         .report6 {
@@ -115,7 +124,7 @@
         }
         .report-data-p3 {
             width: 382px;
-            font-size: 22px;
+            font-size: 18px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -167,7 +176,7 @@
 </style>
 
 
-<div class="main-content13">
+<div class="main-content13" style="margin-top: 120px">
     <div class="report1">
         <p>
             Enabling data-driven
