@@ -217,7 +217,9 @@
     <div class="seeall3">
         <div class="seeall3-row1">
             <div class="seeall3-col1">
-                <img src="assets/image/product/seeall/1.png">
+                <a href="{{ route('productdetail') }}">
+                    <img src="assets/image/product/seeall/1.png">
+                </a>
                 <div style="margin-top: 36px">
                     <p style="color: #888;
                     font-family: Comfortaa;
