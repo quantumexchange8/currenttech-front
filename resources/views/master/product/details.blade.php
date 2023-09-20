@@ -72,7 +72,7 @@
 
     .detail-container1 {
         width: 231px;
-        height: 115px;
+        height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
         margin-right: 12.5px;
@@ -80,7 +80,7 @@
     }
     .detail-container2 {
         width: 231px;
-        height: 115px;
+        height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
         margin-right: 12.5px;
@@ -89,7 +89,7 @@
     }
     .detail-container3 {
         width: 231px;
-        height: 115px;
+        height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
         margin-left: 12.5px;
@@ -107,6 +107,15 @@
         color: #FFF;
         font-family: Comfortaa;
         font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .detail-heading2 {
+        color: #888;
+        font-family: Comfortaa;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -193,10 +202,16 @@
                         font-family: Comfortaa;
                         font-size: 14px;">RATING</p> 
                     </div>
-                    <div style="color: #FFF">
-                        STAR
+                    <div>
+                        <img src="assets/image/product/webapp/star.svg">
                     </div>
-                    <div style="color: #FFF">
+                    {{-- <div style="color: #FFF">
+                        STAR
+                    </div> --}}
+                    <div style="color: #FFF;
+                    text-align: center;
+                    font-family: Comfortaa;
+                    font-size: 34px; margin-top: 15px;" >
                         4
                     </div>
                 </div>
@@ -294,11 +309,11 @@
                         <p>OPERATING SYSTEM</p>
                     </div>
                     <div>
-                        <img src="assets/image/product/detail/window.svg">
-                        <img src="assets/image/product/detail/apple.svg">
-                        <img src="assets/image/product/detail/android.svg">
-                        <img src="assets/image/product/detail/pc.svg">
-                        <img src="assets/image/product/detail/mobileicon.svg">
+                        <img src="assets/image/product/detail/window.svg" style="margin-right: 10px; margin-top: 7px;">
+                        <img src="assets/image/product/detail/apple.svg" style="margin-right: 10px; margin-top: 7px;">
+                        <img src="assets/image/product/detail/android.svg" style="margin-right: 10px; margin-top: 7px;">
+                        <img src="assets/image/product/detail/pc.svg" style="margin-right: 10px; margin-top: 7px;">
+                        <img src="assets/image/product/detail/mobileicon.svg" style="margin-right: 10px; margin-top: 7px;">
                         <img src="assets/image/product/detail/tablet.svg">
                     </div>
                 </div>
@@ -308,15 +323,18 @@
 
     <div class="detail-3">
         <div class="detail-marquee-content" style="display: flex">
-            <div class="detail-marquee-item">
+            <div class="detail-marquee-item"  style="margin-right: 10px;">
                 <img src="assets/image/product/detail/1.png">
             </div>
-            <div class="detail-marquee-item">
+            <div class="detail-marquee-item"  style="margin-right: 10px;">
                 <img src="assets/image/product/detail/2.png">
             </div>
-            <div class="detail-marquee-item">
+            <div class="detail-marquee-item"  style="margin-right: 10px;">
                 <img src="assets/image/product/detail/3.png">
             </div>
+            {{-- <div class="detail-marquee-item"  style="margin-right: 10px;">
+                <img src="assets/image/product/detail/4.png">
+            </div>  --}}
         </div>
     </div>
 
@@ -324,19 +342,20 @@
         <p style="color: #FFF;
         font-family: Comfortaa;
         font-size: 30px;">Rating & Likes</p>
-        <div class="rating-container">
+        {{-- <div class="rating-container">
             <div style="display: flex;align-items: center;justify-content: center;">
                 <div style="color: #FFF;
-                text-align: center;
-                font-family: Comfortaa;
-                font-size: 100px;">
-                    4.0
+                    text-align: center;
+                    font-family: Comfortaa;
+                    font-size: 100px; margin-right: 350px; margin-top: 28px;">
+                        4.0
                 </div>
-                <div>
-
+                <div style="font-size: 100px; margin-right: 550px; margin-top: -50px;">
+                    <img src="assets/image/product/webapp/star.svg">
                 </div>
             </div>
-        </div>
+        </div> --}}
+        <img src="assets/image/product/webapp/star2.svg">
     </div>
 
     <div class="detail-5">
@@ -356,6 +375,58 @@
         <li>Section Drag & Drop Page Builder.</li>
         <li>Full Oberlo Compatibility.</li>
         <li>Sub-Collection Page.</li>
+        <li>Dynamic Checkout Ready.</li>
+        <li>Add To Cart Popup.</li>
+        <li>Advanced Variant Swatches.</li>
+        <li>Ajax Products.</li>
+        <li>Ajax Search.</li>
+        <li>Social Share.</li>
+        <li>Optimised For Mobile Devices.</li>
+        <li>Size Guide Popup.</li>
+        <li>Strong Filter.</li>
+        <li>Instagram Shop.</li>
+        <li>Popup Login.</li>
+        <li>Automatic Price Change.</li>
+        <li>Flexible Built-in Mega Menu.</li>
+        <li>Quick-view Product Quick-view.</li>
+        <li>Advanced Layered Navigation.</li>
+        <li>Unlimited Google Fonts.</li>
+        <li>Site Identity.</li>
+        <li>Header & Footer Style Options.</li>
+        <li>Amazing Slider built-in</li>
+        <li>Unlimited colours.</li>
+        <li>SEO Optimised.</li>
+        <li>“New”, “Hot”, “Sale”... labels.</li>
+        <li>Multi-Currency.</li>
+        <li>Amazing Layout Variations.</li>
+        <li>Newsletter.</li>
+        <li>Responsive & Retina Ready.</li>
+        <li>Drop-down shopping cart in header.</li>
+        <li>Sticky Header Multi Styles.</li>
+        <li>Ajax Add to Cart & Wishlist.</li>
+        <li>Ajax Paging & Ajax Toolbar built-in.</li>
+        <li>Ajax Grid & List view collection.</li>
+        <li>Previous & Next functionality for the product view page.</li>
+        <li>Slider for Up-sell Products and Related Products blocks.</li>
+        <li>Product zoom built-in.</li>
+        <li>Best Seller Product.</li>
+        <li>Back to top button.</li>
+        <li>Background patterns and colour chooser.</li>
+        {{-- <br> --}}
+        <p class="detail-heading2">Tabs:</p>
+        <li>Grid / List view.</li>
+        <li>“Additional Information” tab for individual product attributes.</li>
+        <li>Brand Logo Slider.</li>
+        <li>Blog Post Slider built-in.</li>
+        <li>FontAwesome icons.</li>
+        <li>One-click import.</li>
+        <li>Cross Browser Support.</li>
+        <li>Customer Reviews.</li>
+        <p class="detail-heading2">Contact:</p>
+        <li>Product Carousel.</li>
+        <li>HTML5 & CSS3 & Sass CSS.</li>
+        <li>Social networking.</li>
+        <li>Support Online 24/7.</li>
     </div>
 
     <div class="detail-7">
