@@ -2,18 +2,18 @@
 @section('content')
 
     <div class="center">
-        <div>
+        <a href="{{ route('home') }}">
             <img src="/assets/image/logo.svg">
-        </div>
+        </a>
         <div style="margin-top: 120px;">
             <p class="signin">Sign In</p>
             <div style="display: flex; flex-direction: column; margin-top:38px">
-                <input type="text" class="form-control" style="margin-bottom: 15px" placeholder="Enter Email">
-                <input type="text" class="form-control" style="margin-top: 15px" placeholder="Enter Password">
+                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Email" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Password" onfocus="centerText(this)" onblur="resetText(this)">
 
                 <div style="margin-top: 30px;">
                     <input type="checkbox" class="checkbox-control">
-                    <span style="color: #DDD; font-family: 'Comfortaa', sans-serif;">Remeber Me</span>
+                    <span style="color: #DDD; font-family: 'Comfortaa', sans-serif; margin-left: 12px;">Remember Me</span>
                 </div>
 
             <button class="btn-signin">
@@ -32,7 +32,7 @@
             <div style="display: flex; justify-content:center; margin-top: 96px">
                 <p style="color: #DDD;font-family: Comfortaa;font-size: 16px;">
                     Do not have an account?
-                    <a href="#" class="explore-link-custcolor">
+                    <a href="{{ route('register') }}" class="explore-link-custcolor" style="margin-left: 7px">
                         Sign Up
                     </a>
                 </p>
@@ -41,4 +41,19 @@
             
         </div>
     </div>
+    <script>
+        function centerText(input) {
+            input.style.textAlign = 'center'; // Center-align text when focused
+            input.setAttribute('data-placeholder', input.placeholder); // Store the placeholder text
+            input.placeholder = ''; // Clear placeholder text
+        }
+    
+        function resetText(input) {
+            input.style.textAlign = ''; // Remove center alignment when blurred
+            const dataPlaceholder = input.getAttribute('data-placeholder');
+            if (dataPlaceholder !== null) {
+                input.placeholder = dataPlaceholder; // Restore placeholder text if it exists
+            }
+        }
+    </script>
 @endsection

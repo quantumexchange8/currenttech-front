@@ -2,9 +2,9 @@
 @section('content')
 
     <div class="center">
-        <div>
+        <a href="{{ route('home') }}">
             <img src="/assets/image/logo.svg">
-        </div>
+        </a>
         <div style="margin-top: 60px">
             <div>
                 <p class="register-create">
@@ -14,19 +14,15 @@
             </div>
 
             <div class="register-input">
-                <input type="text" class="form-control" style="margin-bottom: 25px" placeholder="Enter Full Name">
-
-                <input type="text" class="form-control" style="margin-bottom: 25px" placeholder="Enter Phone Number">
-
-                <input type="text" class="form-control" style="margin-bottom: 25px" placeholder="Enter Email">
-
-                <input type="text" class="form-control" style="margin-bottom: 25px" placeholder="Enter Password">
-
-                <input type="text" class="form-control" style="margin-bottom: 25px" placeholder="Confirm Password">
+                <input type="text" class="form-control" style="margin-bottom: 25px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Full Name" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 25px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Phone Number" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 25px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Email" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 25px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Password" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 25px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Confirm Password" onfocus="centerText(this)" onblur="resetText(this)">
 
                 <div style="margin-top: 30px;">
                     <input type="checkbox" class="checkbox-control">
-                    <span style="color: #DDD; font-family: 'Comfortaa', sans-serif;">I agree with Privacy Policy</span>
+                    <span style="color: #DDD; font-family: 'Comfortaa', sans-serif; margin-left: 12px;">I agree with Privacy Policy</span>
                 </div>
 
                 <div>
@@ -38,10 +34,10 @@
                 </div>
 
                 <div style="display: flex; justify-content:center; margin-top: 50px">
-                    <p style="color: #DDD;font-family: Comfortaa;font-size: 16px;">
-                        Already have an account?
-                        <a href="#" class="explore-link-custcolor">
-                            Sign Up
+                    <p style="color: #DDD; font-family: Comfortaa; font-size: 16px;">
+                        Already have an account?  
+                        <a href="{{ route('login') }}" class="explore-link-custcolor" style="margin-left: 7px">
+                            Sign In
                         </a>
                     </p>
                 </div>
@@ -49,4 +45,19 @@
             
         </div>
     </div>
+    <script>
+        function centerText(input) {
+            input.style.textAlign = 'center'; 
+            input.setAttribute('data-placeholder', input.placeholder);
+            input.placeholder = ''; 
+        }
+    
+        function resetText(input) {
+            input.style.textAlign = ''; 
+            const dataPlaceholder = input.getAttribute('data-placeholder');
+            if (dataPlaceholder !== null) {
+                input.placeholder = dataPlaceholder; 
+            }
+        }
+    </script>
 @endsection
