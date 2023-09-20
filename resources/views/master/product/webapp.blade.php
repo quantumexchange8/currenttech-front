@@ -572,7 +572,7 @@
                 <p class="ecorm">e-Commerce Template</p>
             </div>
             <div>
-                <a href="" class="view-more">View More</a>
+                <a href="{{ route('seeall') }}" class="view-more">View More</a>
             </div>
         </div>
     </div>
