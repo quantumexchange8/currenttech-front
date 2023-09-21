@@ -7,7 +7,7 @@
         display: flex;
     }
     .detail-2 {
-        width: 1257px;
+        max-width: 1100px;
         margin-bottom: 66px;
     }
     .detail-6 {
@@ -15,7 +15,7 @@
         margin-bottom: 66px;
     }
     .detail-7 {
-        width: 1257px;
+        width: 1100px;
         margin-bottom: 66px;
         display: flex;
     }
@@ -71,7 +71,7 @@
     }
 
     .detail-container1 {
-        width: 231px;
+        width: 199px;
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -79,7 +79,7 @@
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }
     .detail-container2 {
-        width: 231px;
+        width: 199px;
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -88,7 +88,7 @@
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }
     .detail-container3 {
-        width: 231px;
+        width: 199px;
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -106,7 +106,7 @@
     .detail-heading {
         color: #FFF;
         font-family: Comfortaa;
-        font-size: 30px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -141,18 +141,22 @@
     }
 
     .detail-social-cont {
-        width: 619px;
+        width: 539px;
         height: 184px;
         flex-shrink: 0;
         border-radius: 10px;
         display: flex;
         justify-content: center;
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    }   
+    .img-max-width {
+    max-width: 100%; 
+    height: auto; 
     }
 </style>
 
 
-<div class="main-content18">
+<div class="main-content18" style="margin-top: 155px;">
     <div class="detail-1">
         <div style="margin-right: 50px">
             <img src="assets/image/product/seeall/11.png">
@@ -323,25 +327,26 @@
 
     <div class="detail-3">
         <div class="detail-marquee-content" style="display: flex">
-            <div class="detail-marquee-item"  style="margin-right: 10px;">
-                <img src="assets/image/product/detail/1.png">
+            <div class="detail-marquee-item" style="margin-right: 10px;">
+                <img src="assets/image/product/detail/1.png" class="img-max-width">
             </div>
-            <div class="detail-marquee-item"  style="margin-right: 10px;">
-                <img src="assets/image/product/detail/2.png">
+            <div class="detail-marquee-item" style="margin-right: 10px;">
+                <img src="assets/image/product/detail/2.png" class="img-max-width">
             </div>
-            <div class="detail-marquee-item"  style="margin-right: 10px;">
-                <img src="assets/image/product/detail/3.png">
+            <div class="detail-marquee-item" style="margin-right: 10px;">
+                <img src="assets/image/product/detail/3.png" class="img-max-width">
             </div>
-            {{-- <div class="detail-marquee-item"  style="margin-right: 10px;">
-                <img src="assets/image/product/detail/4.png">
-            </div>  --}}
+            <div class="detail-marquee-item" style="margin-right: 10px;">
+                <img src="assets/image/product/detail/4.png" class="img-max-width">
+            </div> 
         </div>
     </div>
+    
 
-    <div class="detail-4">
+    <div class="detail-4" style="width: 1100px;">
         <p style="color: #FFF;
         font-family: Comfortaa;
-        font-size: 30px;">Rating & Likes</p>
+        font-size: 25px;">Rating & Likes</p>
         {{-- <div class="rating-container">
             <div style="display: flex;align-items: center;justify-content: center;">
                 <div style="color: #FFF;
@@ -355,12 +360,13 @@
                 </div>
             </div>
         </div> --}}
-        <img src="assets/image/product/webapp/star2.svg">
+        <img src="assets/image/product/webapp/star2.svg" style="width: 1100px;">
+       <!-- style="width: 1100px; -->
     </div>
 
-    <div class="detail-5">
+    <div class="detail-5" style="width: 1100px;"">
         <p class="detail-heading">Informations</p>
-        <p class="details-p">
+        <p class="details-p" style="font-size: 20px; max-width: 100%;">
             COZE is a minimal and modern Shopify e-commerce theme. It was built for your watch store, men store, women store, 
             clothing store, furniture store, bookstore, cosmetics shop, luxury jewellery, and accessories store. <br><br>
             Furthermore, this amazing theme is integrated with eCommerce, many apps with lots of features, mini cart, unlimited 
