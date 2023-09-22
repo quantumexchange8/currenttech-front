@@ -92,7 +92,7 @@
     }
 </style>
 
-<div class="main-content9" style="margin-top:120px;">
+<div class="main-content9" style="margin-top:170px;">
     <div class="perform1">
         <p class="building-p1">
             Building Success <br>
@@ -144,7 +144,8 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="sales-p1">
-                    Sales Commissions on Motivation and Enthusiasm
+                    Sales Commissions on <br>
+                    Motivation and Enthusiasm
                 </p>
             </div>
             <div>

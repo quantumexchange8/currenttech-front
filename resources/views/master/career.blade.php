@@ -18,7 +18,7 @@
         .career1 {
             width: 100%;
             height: auto;
-            margin-top: 110px;
+            /* margin-top: 110px; */
         }
         .career1 p {
             width: 100%;
@@ -31,6 +31,7 @@
         .career2 p {
             width: 100%;
             height: auto;
+            font-size: 14px;
         }
         .career3 {
             width: 100%;
@@ -66,15 +67,41 @@
         }
         .career-col3 {
             margin-bottom: 30px;
+            width: 750px;
+        }
+        .career-col4 {
+            width: 250px;
+            margin-left: 0px;
+        }
+        .career-col5 {
+            width: 250px;
+        }
+        .career-col6 {
+            width: 250px;
         }
         .career-col7 {
             margin-bottom: 30px;
+            width: 750px;
+        }
+        .career-col8 {
+            width: 250px;
         }
         .career-col9 {
             margin-bottom: 30px;
+            width: 250px;
+        }
+        .career-col10 {
+            width: 500px;
         }
         .career7 p {
             width: 100%;
+            font-size: 19px;
+        }
+        .href-link {
+            font-size: 14px;
+        }
+        .href-link2 {
+            font-size: 19px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -87,8 +114,8 @@
             margin-right: 350px;
         }
         .career3 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .career5 {
             margin-left: 350px;
@@ -105,7 +132,7 @@
     }
 </style>
 
-<div class="main-content15" style="margin-top: 120px;">
+<div class="main-content15" style="margin-top: 170px;">
     <div class="career1">
         <p>
             Join Our Team for Exciting Career Opportunities
@@ -786,7 +813,7 @@
             Join us on an exciting journey towards endless possibilities and growth. Embrace diverse 
             career opportunities, unleash your potential, and become part of a supportive community 
             that values lifelong learning and personal fulfillment. Let's build a brighter future together. 
-            Apply now at <a href="#" class="href-link">hr.admin@currenttech.pro</a>
+            Apply now at <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
         </p>
     </div>
 </div>

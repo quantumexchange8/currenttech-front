@@ -414,7 +414,7 @@
         
         // Set the height of .blackboard based on sub-menu visibility
         if (subMenuVisible) {
-            $('.blackboard').css('height', '170px');
+            $('.blackboard').css('height', '174px');
         } else {
             $('.blackboard').css('height', '80px');
         }

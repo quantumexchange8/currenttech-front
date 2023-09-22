@@ -43,12 +43,14 @@
         }
         .revo-p2 {
             width: 100%;
+            font-size: 14px;
         }
         .web3-4 {
             width: 100%;
         }
         .empowering-p2 {
             width: 100%;
+            
         }
         .web3-5 {
             width: 100%;
@@ -67,7 +69,7 @@
             display: flex;
         }
         .zombie-img2 {
-            margin-right: 51px;
+            margin-right: 35px;
             display: flex;
         }
         .work-container-1-2 {
@@ -94,6 +96,7 @@
         }
         .craft-p2 {
             width: 100%;
+            font-size: 14px;
         }
         .dashimg {
             width: 100%;
@@ -108,6 +111,14 @@
         .personal-nft-cont2 {
             width: 100%;
             height: auto;
+        }
+        .remark-p {
+            font-size: 7px
+        }
+        .create-p2 {
+            width: 100%;
+            height: auto;
+            font-size: 13px;
         }
     }
 
@@ -137,7 +148,7 @@
     }
 </style>
 
-<div class="main-content5" style="margin-top:120px;">
+<div class="main-content5" style="margin-top:170px;">
     <div class="web3-1">
         <p class="revo-p">
             The Revolution of Web 3.0

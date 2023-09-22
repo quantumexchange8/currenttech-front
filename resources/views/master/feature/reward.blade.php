@@ -25,7 +25,7 @@
     }
 </style>
 
-<div class="main-content10" style="margin-top:120px;">
+<div class="main-content10" style="margin-top:170px;">
     <div class="rew1">
         <p class="ignite-p">
             Ignite Engagement and Unlock Exclusive Benefits
@@ -71,8 +71,8 @@
 
     <div class="rew8" style="margin-bottom: 100px;">
         <p class="recognise-p1">
-            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching 
-            specific milestones, completing challenges, or demonstrating exceptional performance. 
+            Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching <br>
+            specific milestones, completing challenges, or demonstrating exceptional performance. <br>
             Displaying badges on user profiles adds a gamified element and encourages users to strive for more accomplishments.
         </p>
     </div>
@@ -89,8 +89,8 @@
 
     <div class="rew8" style="margin-bottom: 100px">
         <p class="incorporate-p1">
-            Incorporate a leveling system to provide a sense of progression and achievement.
-            As users interact with the app, they can level up based on their activities and accomplishments.
+            Incorporate a leveling system to provide a sense of progression and achievement. <br>
+            As users interact with the app, they can level up based on their activities and accomplishments.<br>
             Each level unlocks new features, benefits, or privileges, motivating users to stay engaged and reach higher levels.
         </p>
     </div>
@@ -107,8 +107,8 @@
 
     <div class="rew8" style="margin-bottom: 100px">
         <p class="vip-p2">
-            Offer a premium or VIP membership tier with exclusive benefits. Users who subscribe to this membership
-            level gain access to premium content, enhanced features, personalized support, or priority
+            Offer a premium or VIP membership tier with exclusive benefits. Users who subscribe to this membership<br>
+            level gain access to premium content, enhanced features, personalized support, or priority<br>
             access to new updates. This creates a sense of exclusivity and encourages users to upgrade for enhanced rewards.
         </p>
     </div>
@@ -125,8 +125,8 @@
 
     <div class="rew8" style="margin-bottom: 100px;">
         <p class="streak-p2">
-            Encourage daily app usage and engagement through daily streaks and challenges. 
-            Users who consistently log in or complete certain tasks every day can earn bonus rewards,
+            Encourage daily app usage and engagement through daily streaks and challenges. <br>
+            Users who consistently log in or complete certain tasks every day can earn bonus rewards,<br>
             extra points, or exclusive content. This creates a habit-forming experience and keeps users actively engaged with the app.
         </p>
     </div>

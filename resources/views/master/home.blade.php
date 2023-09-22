@@ -5,6 +5,14 @@
 <br>
 <br>
 
+<style>
+    @media screen and (max-width: 1280px) {
+        .ourservice {
+            font-size: 46px !important;
+        }
+    }
+    
+</style>
     <div class="main-content">
 
         <div class="techmain-1">
@@ -249,7 +257,7 @@
                     </div>
                     <div class="spec-col2">
                         <div class="pos-content-1">
-                            <img src="assets/image/home/posimg.svg" style="width: 316px; height:288px">
+                            <img src="assets/image/home/posimg.svg" class="workcate">
                             <p class="poshead">
                                 POS SYSTEM
                             </p>
@@ -264,7 +272,7 @@
                     </div>
                     <div class="spec-col3">
                         <div class="webapp">
-                            <img src="assets/image/home/webapp.svg" style="width: 315px; height:288px">
+                            <img src="assets/image/home/webapp.svg" class="workcate">
                             <p class="webapphead">
                                 WEB & APP
                             </p>
@@ -280,7 +288,7 @@
                 <div class="spec-row2">
                     <div class="spec-col4">
                         <div class="broker">
-                            <img src="assets/image/home/broker.svg" style="width: 316px; height:288px">
+                            <img src="assets/image/home/broker.svg" class="workcate">
                             <p class="brokerhead">
                                 BROKERAGE SETUP
                             </p>
@@ -295,7 +303,7 @@
 
                     <div class="spec-col5">
                         <div class="expert-1">
-                            <img src="assets/image/home/expertimg.svg" style="width: 316px; height:288px">
+                            <img src="assets/image/home/expertimg.svg" class="workcate">
                             <p class="expert1head">
                                 EXPERT ADVISOR
                             </p>
@@ -310,7 +318,7 @@
 
                     <div class="spec-col6">
                         <div class="web3">
-                            <img src="assets/image/home/web3.svg" style="width: 316px; height:288px">
+                            <img src="assets/image/home/web3.svg" class="workcate">
                             <p class="web3head">
                                 WEB 3.0
                             </p>

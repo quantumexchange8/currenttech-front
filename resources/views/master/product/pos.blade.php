@@ -75,11 +75,15 @@
     }
 
     .std-image {
-        /* margin-right: 20px; */
+        width: 100%;
+        height: auto;
+        max-width: 100%;
     }
 
     .adv-image {
-        /* margin-left: 20px; */
+        width: 100%;
+        height: auto;
+        max-width: 100%;
     }
 
     .st-icon {
@@ -110,7 +114,7 @@
             font-size: 26px;
         }
         .streamline-p {
-            font-size: 14px;
+            font-size: 10px;
         }
         .pos-row5 {
             width: 100%;
@@ -201,8 +205,8 @@
 
     @media screen and (min-width: 1300px) {
         .pos-row1 {
-            margin-left: 343px;
-            margin-right: 342px;
+            /* margin-left: 343px;
+            margin-right: 342px; */
         }
         .pos-row2 {
             margin-left: 343px;
@@ -233,8 +237,8 @@
             margin-right: 355px;
         }
         .pos-row10 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row11{
             width: 100%;
@@ -259,8 +263,8 @@
 
     @media screen and (min-width: 1800px) {
         .pos-row1 {
-            margin-left: 423px;
-            margin-right: 423px;
+            /* margin-left: 423px;
+            margin-right: 423px; */
         }
         .pos-row2 {
             margin-left: 423px;
@@ -291,18 +295,18 @@
             margin-right: 423px;
         }
         .pos-row10 {
+            /* margin-left: 423px;
+            margin-right: 423px; */
+        }
+        /* .pos-row11 {
             margin-left: 423px;
             margin-right: 423px;
-        }
-        .pos-row11 {
-            margin-left: 423px;
-            margin-right: 423px;
-        }
+        } */
     }
     @media screen and (min-width: 3000px) {
         .pos-row1 {
-            margin-left: 550px;
-            margin-right: 550px;
+            /* margin-left: 550px;
+            margin-right: 550px; */
         }
         .pos-row2 {
             margin-left: 550px;
@@ -333,13 +337,13 @@
             margin-right: 550px;
         }
         .pos-row10 {
+            /* margin-left: 550px;
+            margin-right: 550px; */
+        }
+        /* .pos-row11 {
             margin-left: 550px;
             margin-right: 550px;
-        }
-        .pos-row11 {
-            margin-left: 550px;
-            margin-right: 550px;
-        }
+        } */
     }
     @media screen and (max-width: 1257px) {
         .pos-row3 img{
@@ -355,7 +359,7 @@
         }
     }
 </style>
-<div class="main-content" style="margin-top: 140px">
+<div class="main-content" style="margin-top: 170px">
     <div class="pos-row1">
         <p class="tranpos-p">
             Transforming Restaurants with our Dynamic POS System
