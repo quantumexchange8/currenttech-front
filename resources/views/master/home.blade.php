@@ -355,7 +355,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                                 <span style="color: #FFF;text-align: center;
-                                font-family: Comfortaa;
+                                font-family: SF Pro;
                                 font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -373,7 +373,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: Comfortaa;
+                            font-family: SF Pro;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -391,7 +391,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: Comfortaa;
+                            font-family: SF Pro;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -409,7 +409,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: Comfortaa;
+                            font-family: SF Pro;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -427,7 +427,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: Comfortaa;
+                            font-family: SF Pro;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>

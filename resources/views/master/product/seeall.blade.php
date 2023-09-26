@@ -29,7 +29,7 @@
     }
     .seeall1 p {
         color: #FFF;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 30px;
         font-style: normal;
         font-weight: 700;
@@ -43,7 +43,7 @@
     }
     .seeall12 p {
         color: #888;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
@@ -58,7 +58,7 @@
     }
     .seeall4 p {
         color: #FFF;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 28px;
         font-style: normal;
         font-weight: 700;
@@ -118,7 +118,7 @@
 
     .seeall6 p {
         color: #FFF;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -131,7 +131,7 @@
 
     .seeall7 p {
         color: #888;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
@@ -150,7 +150,7 @@
 
     .seeall9 p {
         color: #FFF;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 28px;
         font-style: normal;
         font-weight: 700;
@@ -218,7 +218,7 @@
     }
     .webappfont {
         color: #888;
-        font-family: Comfortaa;
+        font-family: SF Pro;
         font-size: 14px;
         margin: 0;
     }
@@ -304,21 +304,21 @@
                 </p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Your All-in-One Website
                     Template Solution
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -330,21 +330,21 @@
                 <p class="webappfont">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                      Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -352,25 +352,25 @@
             <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:261px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Creative Portfolio Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -382,21 +382,21 @@
                 <p class="webappfont">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -404,25 +404,25 @@
             <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:234px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Event & Conference Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -434,21 +434,21 @@
                 <p class="webappfont">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -456,25 +456,25 @@
             <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:259px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -488,25 +488,25 @@
                 </a>
                 <div style="margin-top: 36px">
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0">Carbon</p>
                     <br>
                     <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                         Your All-in-One Website
                         Template Solution
                     </p>
                     <br>
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 14px;margin:0">
                         Minimalist Template
                     </p>
                     <br>
                     <div style="display: flex;align-items:center">
                         <img src="assets/image/product/seeall/eye.svg">
-                        <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                        <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                     </div>
                 </div>
             </div>
@@ -514,25 +514,25 @@
                 <img src="assets/image/product/seeall/2.png">
                 <div style="margin-top: 36px">
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0">Zivi</p>
                     <br>
                     <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:261px">
                         A Modern Website Template
                         Collection
                     </p>
                     <br>
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 14px;margin:0">
                         Creative Portfolio Theme 
                     </p>
                     <br>
                     <div style="display: flex;align-items:center">
                         <img src="assets/image/product/seeall/eye.svg">
-                        <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                        <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                     </div>
                 </div>
             </div>
@@ -540,25 +540,25 @@
                 <img src="assets/image/product/seeall/3.png">
                 <div style="margin-top: 36px">
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0">Livesay</p>
                     <br>
                     <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:234px">
                         Elevate Your Web Design
                         with High-End Templates
                     </p>
                     <br>
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 14px;margin:0">
                         Event & Conference Theme 
                     </p>
                     <br>
                     <div style="display: flex;align-items:center">
                         <img src="assets/image/product/seeall/eye.svg">
-                        <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                        <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                     </div>
                 </div>
             </div>
@@ -566,25 +566,25 @@
                 <img src="assets/image/product/seeall/4.png">
                 <div style="margin-top: 36px">
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0">Archi</p>
                     <br>
                     <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:259px">
                         Painting Your Online Vision
                         with Stunning Templates
                     </p>
                     <br>
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 14px;margin:0">
                         E-Commerce Theme
                     </p>
                     <br>
                     <div style="display: flex;align-items:center">
                         <img src="assets/image/product/seeall/eye.svg">
-                        <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                        <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                     </div>
                 </div>
             </div>
@@ -592,25 +592,25 @@
                 <img src="assets/image/product/seeall/5.png">
                 <div style="margin-top: 36px">
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0">Skudo</p>
                     <br>
                     <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:163px">
                         Dynamic
                         Website Template
                     </p>
                     <br>
                     <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 14px;margin:0">
                         The Most Advanced Theme
                     </p>
                     <br>
                     <div style="display: flex;align-items:center">
                         <img src="assets/image/product/seeall/eye.svg">
-                        <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                        <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                     </div>
                 </div>
             </div>
@@ -1019,21 +1019,21 @@
                 <p class="webappfont">Carbon</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Your All-in-One Website
                     Template Solution
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1045,21 +1045,21 @@
                 <p class="webappfont">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                      Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1067,25 +1067,25 @@
             <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:261px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Creative Portfolio Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -1097,21 +1097,21 @@
                 <p class="webappfont">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1119,25 +1119,25 @@
             <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:234px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     Event & Conference Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -1149,21 +1149,21 @@
                 <p class="webappfont">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:222px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1171,25 +1171,25 @@
             <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 18px;margin:0;width:259px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                    font-family: Comfortaa;
+                    font-family: SF Pro;
                     font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div> --}}
@@ -1199,25 +1199,25 @@
             <img src="assets/image/product/seeall/6.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 14px;margin:0">Carbon</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 18px;margin:0;width:222px">
                     Your All-in-One Website
                     Template Solution
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 10px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1225,25 +1225,25 @@
             <img src="assets/image/product/seeall/7.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 14px;margin:0">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 18px;margin:0;width:261px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 10px;margin:0">
                     Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1251,25 +1251,25 @@
             <img src="assets/image/product/seeall/8.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 14px;margin:0">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 18px;margin:0;width:234px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 10px;margin:0">
                     Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1277,25 +1277,25 @@
             <img src="assets/image/product/seeall/9.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 14px;margin:0">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 18px;margin:0;width:259px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
+                font-family: SF Pro;
                 font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg">
-                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
