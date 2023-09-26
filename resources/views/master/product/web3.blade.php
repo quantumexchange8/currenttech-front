@@ -377,7 +377,6 @@
         </div>
     </div>
 </div>
-
 <div class="main-content7">
     <div class="web3-8">
         <p class="create-p">
@@ -392,7 +391,32 @@
         </p>
     </div>
 </div>
-
+<div class="web3-marqueee" style="margin-top: 66px;">
+    <div class="web3-marqueee-content">
+        <div class="web3-marqueee-item">
+            <img src="assets/image/product/web3/test.png">
+        </div>
+        <div class="web3-marqueee-item">
+            <img src="assets/image/product/web3/test2.png">
+        </div>
+        <div class="web3-marqueee-item">
+            <img src="assets/image/product/web3/test3.png">
+        </div>
+    </div>
+</div>
+<div class="web3-marqueee-2">
+    <div class="web3-marqueee-content-2">
+        <div class="web3-marqueee-item-2">
+            <img src="assets/image/product/web3/monkey.svg">
+        </div>
+        <div class="web3-marqueee-item-2">
+            <img src="assets/image/product/web3/monkey2.svg">
+        </div>
+        <div class="web3-marqueee-item-2">
+            <img src="assets/image/product/web3/monkey3.svg">
+        </div>
+    </div>
+</div>
 <div class="main-content8">
     <div class="personal-nft-cont">
         <div class="nft-container1-1">
