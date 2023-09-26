@@ -10,6 +10,13 @@
         max-width: 1100px;
         margin-bottom: 66px;
     }
+    .detail-5 {
+        width: 1100px;
+    }
+    .detail-5 .details-p{
+        font-size: 20px;
+        max-width: 100%;
+    }
     .detail-6 {
         width: 1257px;
         margin-bottom: 66px;
@@ -153,6 +160,55 @@
     max-width: 100%; 
     height: auto; 
     }
+    
+    @media screen and (max-width: 1280px) {
+        .detail-4 p{
+        margin-top: 50px;
+    }
+    .detail-4 img {
+        max-width: 100%;
+    }
+
+    .detail-5 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; 
+    }
+
+    .detail-5 .details-p {
+        font-size: 12px; 
+        max-width: 86%;
+    }
+
+    .detail-6 .detail-heading,
+    .detail-6 li {
+        font-size: 12px;
+    }
+
+    .detail-heading2 {
+        font-size: 16px; 
+    }
+    .detail-container1 {
+        max-width: 100%;
+    }
+    .detail-1 p{
+        font-size: 20px;
+    }
+    .detail-row1 {
+        display: flex;
+        margin-left: -450px;
+    }
+
+    /* Adjust the width for each container */
+    .detail-container1,
+    .detail-container2,
+    .detail-container3 {
+        width: 32%;
+    }
+}
 </style>
 
 
@@ -364,9 +420,9 @@
        <!-- style="width: 1100px; -->
     </div>
 
-    <div class="detail-5" style="width: 1100px;"">
+    <div class="detail-5">
         <p class="detail-heading">Informations</p>
-        <p class="details-p" style="font-size: 20px; max-width: 100%;">
+        <p class="details-p">
             COZE is a minimal and modern Shopify e-commerce theme. It was built for your watch store, men store, women store, 
             clothing store, furniture store, bookstore, cosmetics shop, luxury jewellery, and accessories store. <br><br>
             Furthermore, this amazing theme is integrated with eCommerce, many apps with lots of features, mini cart, unlimited 
