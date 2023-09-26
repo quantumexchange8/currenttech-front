@@ -161,7 +161,7 @@
     height: auto; 
     }
     
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1150px) {
         .detail-4 p{
         margin-top: 50px;
     }
@@ -179,17 +179,17 @@
     }
 
     .detail-5 .details-p {
-        font-size: 12px; 
+        font-size: 10px; 
         max-width: 86%;
     }
 
     .detail-6 .detail-heading,
     .detail-6 li {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .detail-heading2 {
-        font-size: 16px; 
+        font-size: 13px; 
     }
     .detail-container1 {
         max-width: 100%;
@@ -201,8 +201,6 @@
         display: flex;
         margin-left: -450px;
     }
-
-    /* Adjust the width for each container */
     .detail-container1,
     .detail-container2,
     .detail-container3 {
