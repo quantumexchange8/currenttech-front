@@ -1,13 +1,31 @@
 @extends('layouts.login')
 @section('content')
-
+<style>
+        @media screen and (max-width: 1280px) {
+        .form, .btn-signin {
+            margin-left: -60px; 
+        }
+        .form-control {
+            max-width: 80%;
+        }
+        .btn-signin {
+            max-width: 90%;
+        }
+        .explore-link {
+            margin-right: 110px;
+        }
+        .account {
+            margin-right: 160px;
+        }
+    }
+    </style>
     <div class="center">
         <a href="{{ route('home') }}">
             <img src="/assets/image/logo.svg">
         </a>
         <div style="margin-top: 120px;">
             <p class="signin">Sign In</p>
-            <div style="display: flex; flex-direction: column; margin-top:38px">
+            <div class="form" style="display: flex; flex-direction: column; margin-top:38px">
                 <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Email" onfocus="centerText(this)" onblur="resetText(this)">
                 <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Password" onfocus="centerText(this)" onblur="resetText(this)">
 
@@ -15,7 +33,7 @@
                     <input type="checkbox" class="checkbox-control">
                     <span style="color: #DDD; font-family: 'Comfortaa', sans-serif; margin-left: 12px;">Remember Me</span>
                 </div>
-
+            </div>
             <button class="btn-signin">
                 <span style="color: #DDD; font-size: 20px;text-align: center; font-family: Comfortaa;">
                     Sign In
@@ -29,7 +47,7 @@
                 </a>
             </div>
 
-            <div style="display: flex; justify-content:center; margin-top: 96px">
+            <div class="account" style="display: flex; justify-content:center; margin-top: 96px">
                 <p style="color: #DDD;font-family: Comfortaa;font-size: 16px;">
                     Do not have an account?
                     <a href="{{ route('register') }}" class="explore-link-custcolor" style="margin-left: 7px">
