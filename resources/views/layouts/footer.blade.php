@@ -26,7 +26,7 @@
 
             <div class="desc-content-row2-main">
                 <div class="desc-content-col2">
-                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Products</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro;">Products</b>
                     <br>
                     <br>
                     <a class="explore-link" style="font-size: 12px;" href="{{ route('possystem') }}">POS System</a><br>
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="desc-content-col3">
-                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Features</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro;">Features</b>
                     <br>
                     <br>
                     <a class="explore-link" style="font-size: 12px;" href="{{ route('performance') }}">Performance</a><br>
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="desc-content-col4">
-                    <b style="font-size: 14px;color: #FFF;font-family: Comfortaa;">Sectors</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro;">Sectors</b>
                     <br>
                     <br>
                     <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Retails & Service</a><br>
