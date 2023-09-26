@@ -216,8 +216,13 @@
         display: flex;
         margin-bottom: 36px;
     }
-    
-    @media screen and (max-width: 1268px) {
+    .webappfont {
+        color: #888;
+        font-family: Comfortaa;
+        font-size: 14px;
+        margin: 0;
+    }
+    @media screen and (max-width: 1280px) {
         .seeall1 {
             width: 100%;
             height: auto;
@@ -226,17 +231,52 @@
             width: 100%;
             height: auto;
         }
-    }
-
-    @media screen and (min-width: 1800px) {
-        /* .seeall1 {
-            margin-left: 200px;
-            margin-right: 200px;
+        .webappfont {
+        font-size: 10px; 
         }
-        .seeall1 p {
-            margin-left: 200px;
-            margin-right: 200px;
+        /* .webapp7 .ecomm-main-margin-1{
+        margin-right: 60px;
+        }
+        .ecomm-main-margin-1 .product-img{
+        margin-right: 40px;
         } */
+        .webapp7 {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10px;
+        }
+        .webapp8 {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        .ecomm-tem {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .ecomm-margin {
+            display: flex;   
+            flex-direction:column;
+            margin-left: 18px;
+        }
+        .ecomm-main-margin {
+            margin-bottom: 30px;
+            margin-left: 0px;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        .ecomm-main-margin-1 {
+            margin-bottom: 30px;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        
     }
 </style>
 
@@ -254,27 +294,25 @@
             Stand out from the crowd and captivate your audience today!
         </p>
     </div>
-
     <div class="webapp10">
         <div style="margin-right: 10px">
             <a href="{{ route('productdetail') }}">
                 <img src="assets/image/product/seeall/1.png" style="margin-right: 12px;width: 100%;">
             </a>
             <div style="margin-top: 36px">
-                <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0">Carbon</p>
+                <p class="webappfont">Carbon
+                </p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0;width:222px">
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
                     Your All-in-One Website
                     Template Solution
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 14px;margin:0">
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
@@ -285,22 +323,48 @@
             </div>
         </div>
         <div style="margin-right: 10px">
-            <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
-            <div style="margin-top: 36px">
-                <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0">Zivi</p>
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0;width:261px">
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
                     A Modern Website Template
                     Collection
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 14px;margin:0">
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                     Creative Theme 
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div>
+        {{-- <div style="margin-right: 10px">
+            <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
+            <div style="margin-top: 36px">
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Zivi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:261px">
+                    A Modern Website Template
+                    Collection
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
                     Creative Portfolio Theme 
                 </p>
                 <br>
@@ -309,25 +373,25 @@
                     <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div style="margin-right: 10px">
-            <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
-            <div style="margin-top: 36px">
-                <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0">Livesay</p>
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0;width:234px">
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 14px;margin:0">
-                    Event & Conference Theme 
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
@@ -336,23 +400,49 @@
                 </div>
             </div>
         </div>
-        <div>
-            <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
+        {{-- <div style="margin-right: 10px">
+            <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0">Archi</p>
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                font-family: Comfortaa;
-                font-size: 18px;margin:0;width:259px">
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:234px">
+                    Elevate Your Web Design
+                    with High-End Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Event & Conference Theme 
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div> --}}
+        <div style="margin-right: 10px">
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Archi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
                 <br>
                 <p style="color: #888;
-                font-family: Comfortaa;
-                font-size: 14px;margin:0">
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
@@ -362,7 +452,34 @@
                 </div>
             </div>
         </div>
-    </div> 
+        {{-- <div>
+            <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
+            <div style="margin-top: 36px">
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Archi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:259px">
+                    Painting Your Online Vision
+                    with Stunning Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    E-Commerce Theme
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div> --}}
+    </div>
+    
     {{-- <div class="seeall3">
         <div class="seeall3-row1">
             <div class="seeall3-col1">
@@ -818,125 +935,8 @@
                 </a>
             </div>
         </div>
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="webapp7"> 
+
+        <div class="webapp8"> 
             <div class="ecomm-main-margin-1">
                 <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
@@ -1010,14 +1010,197 @@
             and seamless customisation options. Elevate your website today!
         </p>
     </div>
-    
     <div class="webapp10">
+        <div style="margin-right: 10px">
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/6.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Carbon</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
+                    Your All-in-One Website
+                    Template Solution
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Minimalist Template
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div>
+        <div style="margin-right: 10px">
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/7.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Zivi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
+                    A Modern Website Template
+                    Collection
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                     Creative Theme 
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div>
+        {{-- <div style="margin-right: 10px">
+            <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
+            <div style="margin-top: 36px">
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Zivi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:261px">
+                    A Modern Website Template
+                    Collection
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Creative Portfolio Theme 
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div> --}}
+        <div style="margin-right: 10px">
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/8.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Livesay</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
+                    Elevate Your Web Design
+                    with High-End Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Event Conference
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div>
+        {{-- <div style="margin-right: 10px">
+            <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
+            <div style="margin-top: 36px">
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Livesay</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:234px">
+                    Elevate Your Web Design
+                    with High-End Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    Event & Conference Theme 
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div> --}}
+        <div style="margin-right: 10px">
+            <a href="{{ route('productdetail') }}">
+                <img src="assets/image/product/seeall/9.png" style="margin-right: 12px;width: 100%;">
+            </a>
+            <div style="margin-top: 36px" class="webapp10-font">
+                <p class="webappfont">Archi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:222px">
+                    Painting Your Online Vision
+                    with Stunning Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    E-Commerce Theme
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div>
+        {{-- <div>
+            <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
+            <div style="margin-top: 36px">
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">Archi</p>
+                <br>
+                <p style="color: #FFF;
+                    font-family: Comfortaa;
+                    font-size: 18px;margin:0;width:259px">
+                    Painting Your Online Vision
+                    with Stunning Templates
+                </p>
+                <br>
+                <p style="color: #888;
+                    font-family: Comfortaa;
+                    font-size: 10px;margin:0">
+                    E-Commerce Theme
+                </p>
+                <br>
+                <div style="display: flex;align-items:center">
+                    <img src="assets/image/product/seeall/eye.svg">
+                    <span style="color: #BB9200;font-family: Comfortaa;font-size: 12px;">2,583 Viewer</span>
+                </div>
+            </div>
+        </div> --}}
+    </div>
+    {{-- <div class="webapp10">
         <div style="margin-right: 10px">
             <img src="assets/image/product/seeall/6.png" style="margin-right: 12px;width: 100%;">
             <div style="margin-top: 36px">
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 18px;margin:0">Carbon</p>
+                font-size: 14px;margin:0">Carbon</p>
                 <br>
                 <p style="color: #FFF;
                 font-family: Comfortaa;
@@ -1028,7 +1211,7 @@
                 <br>
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 14px;margin:0">
+                font-size: 10px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
@@ -1043,7 +1226,7 @@
             <div style="margin-top: 36px">
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 18px;margin:0">Zivi</p>
+                font-size: 14px;margin:0">Zivi</p>
                 <br>
                 <p style="color: #FFF;
                 font-family: Comfortaa;
@@ -1054,8 +1237,8 @@
                 <br>
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 14px;margin:0">
-                    Creative Portfolio Theme 
+                font-size: 10px;margin:0">
+                    Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
@@ -1069,7 +1252,7 @@
             <div style="margin-top: 36px">
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 18px;margin:0">Livesay</p>
+                font-size: 14px;margin:0">Livesay</p>
                 <br>
                 <p style="color: #FFF;
                 font-family: Comfortaa;
@@ -1080,8 +1263,8 @@
                 <br>
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 14px;margin:0">
-                    Event & Conference Theme 
+                font-size: 10px;margin:0">
+                    Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
@@ -1095,7 +1278,7 @@
             <div style="margin-top: 36px">
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 18px;margin:0">Archi</p>
+                font-size: 14px;margin:0">Archi</p>
                 <br>
                 <p style="color: #FFF;
                 font-family: Comfortaa;
@@ -1106,7 +1289,7 @@
                 <br>
                 <p style="color: #888;
                 font-family: Comfortaa;
-                font-size: 14px;margin:0">
+                font-size: 10px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
@@ -1116,7 +1299,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="seeall-line"></div>
 
@@ -1186,125 +1369,8 @@
                 </a>
             </div>
         </div>
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="webapp7"> 
+
+        <div class="webapp8"> 
             <div class="ecomm-main-margin-1">
                 <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
