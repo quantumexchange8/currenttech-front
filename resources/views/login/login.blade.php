@@ -26,29 +26,29 @@
         <div style="margin-top: 120px;">
             <p class="signin">Sign In</p>
             <div class="form" style="display: flex; flex-direction: column; margin-top:38px">
-                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Email" onfocus="centerText(this)" onblur="resetText(this)">
-                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'Comfortaa', sans-serif;" placeholder="Enter Password" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'SF Pro', sans-serif;" placeholder="Enter Email" onfocus="centerText(this)" onblur="resetText(this)">
+                <input type="text" class="form-control" style="margin-bottom: 15px; font-size: 18px; font-family:'SF Pro', sans-serif;" placeholder="Enter Password" onfocus="centerText(this)" onblur="resetText(this)">
 
                 <div style="margin-top: 30px;">
                     <input type="checkbox" class="checkbox-control">
-                    <span style="color: #DDD; font-family: 'Comfortaa', sans-serif; margin-left: 12px;">Remember Me</span>
+                    <span style="color: #DDD; font-family: 'SF Pro', sans-serif; margin-left: 12px;">Remember Me</span>
                 </div>
             </div>
             <button class="btn-signin">
-                <span style="color: #DDD; font-size: 20px;text-align: center; font-family: Comfortaa;">
+                <span style="color: #DDD; font-size: 20px;text-align: center; font-family: SF Pro;">
                     Sign In
                 </span>
             </button>
             <div style="display: flex; justify-content: flex-end; color:#DDD; margin-top:26px">
                 <a href="#" class="explore-link">
-                    <span style="font-family: Comfortaa;font-size: 16px;">
+                    <span style="font-family: SF Pro;font-size: 16px;">
                         Forget your password?
                     </span>
                 </a>
             </div>
 
             <div class="account" style="display: flex; justify-content:center; margin-top: 96px">
-                <p style="color: #DDD;font-family: Comfortaa;font-size: 16px;">
+                <p style="color: #DDD;font-family: SF Pro;font-size: 16px;">
                     Do not have an account?
                     <a href="{{ route('register') }}" class="explore-link-custcolor" style="margin-left: 7px">
                         Sign Up
