@@ -1,6 +1,21 @@
 @extends('layouts.login')
 @section('content')
-
+<style>
+    @media screen and (max-width: 1280px) {
+    .register-create, .register-small {
+    margin-left: -60px; 
+    }
+    .register-input, .btn-signup {
+        margin-left: -60px; 
+    }
+    .form-control {
+        max-width: 80%;
+    }
+    .btn-signin {
+        max-width: 80%;
+    }
+}
+</style>
     <div class="center">
         <a href="{{ route('home') }}">
             <img src="/assets/image/logo.svg">
