@@ -528,7 +528,7 @@
     }
 </style>
 
-<div class="main-content2" style="margin-top: 105px;">
+<div class="main-content2" style="margin-top: 170px;">
     <div class="webapp1">
         <p class="powerhouse-p">
             The Powerhouse for Your Web and App Needs
@@ -737,8 +737,8 @@
 
     <div class="ecomm-tem">
         <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
+            <div class="ecomm-main-margin">
+                <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
@@ -797,8 +797,8 @@
         </div>
 
         <div class="webapp8"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
+            <div class="ecomm-main-margin">
+                <img src="assets/image/product/webapp/7.svg">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -885,7 +885,7 @@
     <div class="ecomm-tem">
         <div class="webapp7"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
@@ -904,7 +904,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
@@ -923,7 +923,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
@@ -945,7 +945,7 @@
 
         <div class="webapp8"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -964,7 +964,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
@@ -983,7 +983,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
@@ -1045,7 +1045,7 @@
     <div class="ecomm-tem">
         <div class="webapp7"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
@@ -1064,7 +1064,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
@@ -1083,7 +1083,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
@@ -1105,7 +1105,7 @@
 
         <div class="webapp8"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -1124,7 +1124,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
@@ -1143,7 +1143,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>
@@ -1204,7 +1204,7 @@
     <div class="ecomm-tem">
         <div class="webapp7"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Fashion Store</p>
@@ -1223,7 +1223,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Grid Plus</p>
@@ -1242,7 +1242,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Livesay</p>
@@ -1264,7 +1264,7 @@
 
         <div class="webapp8"> 
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg">
+                <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Furnatur</p>
@@ -1283,7 +1283,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg">
+                <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Road Pedal</p>
@@ -1302,7 +1302,7 @@
                 </a>
             </div>
             <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg">
+                <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
                     <div style="margin-bottom: 10px;">
                         <p class="fashion-store">Marketin</p>

@@ -4,6 +4,7 @@
 <style>
     .hr2 {
         text-align: center;
+        margin-bottom: 20px;
     }
     .hr3 {
         text-align: center;
@@ -174,7 +175,7 @@
     }
 </style>
 
-<div class="main-content12" style="margin-top: 120px">
+<div class="main-content12" style="margin-top: 170px">
     <div class="hr1">
         <p class="enhanced-p">
             Enhanced HR management for higher efficiency

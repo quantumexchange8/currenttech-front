@@ -57,12 +57,12 @@
         margin-right:35px;
     }
     .getinfo-align2 {
-        margin-top: -40px;
+        margin-top: -12px;
         text-align:end;
         margin-right:35px;
     }
     .getinfo-align3 {
-        margin-top: -50px;
+        margin-top: -5px;
         text-align:end;
         margin-right:35px;
     }
@@ -77,6 +77,8 @@
         .broker2 {
             width: 100%;
             height: auto;
+            display: flex;
+            justify-content: center;
         }
         .broker3 {
             width: 100%;
@@ -94,6 +96,8 @@
         .broker5 {
             width: 100%;
             height: auto;
+            display: flex;
+            justify-content: center;
         }
         .broker6 {
             width: 100%;
@@ -116,8 +120,8 @@
             height: auto;
         }
         .broker10 p {
-            width: 100%;
-            height: auto;
+            /* width: 100%;
+            height: auto; */
         }
         .cont {
             width: 100%;
@@ -201,6 +205,15 @@
             text-align:end;
             margin-right:35px;
         }
+        .ct-p {
+            width: 445px;
+        }
+        .ct-p6 {
+            width: 420px;
+        }
+        .getstart-p2 {
+            font-size: 14px;
+        }
     }
 
     @media screen and (max-width: 1600px) {
@@ -229,17 +242,17 @@
             margin-left: 250px;
             margin-right: 250px;
         } */
-        .broker6 {
+        /* .broker6 {
             margin-left: 250px;
             margin-right: 250px;
-        }
+        } */
         /* .broker7 {
             margin-left: 250px;
             margin-right: 250px;
         } */
         .broker8 {
-            margin-left: 250px;
-            margin-right: 250px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
         }
         .broker9 {
             width: 100%;
@@ -250,43 +263,43 @@
             height: auto;
         }
         .broker10 p {
-            width: 100%;
-            height: auto;
+            /* width: 100%;
+            height: auto; */
         }
     }
 
     @media screen and (min-width: 2000px) {
-        .broker1 {
+        /* .broker1 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker2 {
+        } */
+        /* .broker2 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker3 {
+        } */
+        /* .broker3 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker4 {
+        } */
+        /* .broker4 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker5 {
+        } */
+        /* .broker5 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker6 {
+        } */
+        /* .broker6 {
             margin-left: 350px;
             margin-right: 350px;
-        }
-        .broker7 {
+        } */
+        /* .broker7 {
             margin-left: 350px;
             margin-right: 350px;
-        }
+        } */
         .broker8 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .broker9 {
             margin-left: 350px;
@@ -299,37 +312,37 @@
     }
 
     @media screen and (min-width: 3000px) {
-        .broker1 {
+        /* .broker1 {
             margin-left: 500px;
             margin-right: 500px;
-        }
-        .broker2 {
+        } */
+        /* .broker2 {
             margin-left: 500px;
             margin-right: 500px;
         }
         .broker3 {
             margin-left: 500px;
             margin-right: 500px;
-        }
-        .broker4 {
+        } */
+        /* .broker4 {
             margin-left: 500px;
             margin-right: 500px;
         }
         .broker5 {
             margin-left: 500px;
             margin-right: 500px;
-        }
-        .broker6 {
+        } */
+        /* .broker6 {
             margin-left: 500px;
             margin-right: 500px;
-        }
-        .broker7 {
+        } */
+        /* .broker7 {
             margin-left: 500px;
             margin-right: 500px;
-        }
+        } */
         .broker8 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .broker9 {
             margin-left: 500px;
@@ -342,38 +355,38 @@
     }
 
     @media screen and (min-width: 3800px) {
-        .broker1 {
+        /* .broker1 {
             margin-left: 650px;
             margin-right: 650px;
-        }
-        .broker2 {
+        } */
+        /* .broker2 {
             margin-left: 650px;
             margin-right: 650px;
         }
         .broker3 {
             margin-left: 650px;
             margin-right: 650px;
-        }
-        .broker4 {
+        } */
+        /* .broker4 {
             margin-left: 650px;
             margin-right: 650px;
         }
         .broker5 {
             margin-left: 650px;
             margin-right: 650px;
-        }
-        .broker6 {
+        } */
+        /* .broker6 {
             margin-left: 650px;
             margin-right: 650px;
-        }
+        } */
 
-        .broker7 {
+        /* .broker7 {
             margin-left: 650px;
             margin-right: 650px;
-        }
+        } */
         .broker8 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .broker9 {
             margin-left: 650px;
@@ -386,7 +399,7 @@
     }
 </style>
 
-<div class="main-content3" style="margin-top:120px;">
+<div class="main-content3" style="margin-top:170px;">
     <div class="broker1">
         <p class="build-p">
             Building Bridges of Wealth
@@ -395,9 +408,9 @@
     
     <div class="broker2">
         <p class="build2">
-            Connecting Opportunities, Empowering Prosperity. Your Gateway to <br>
-            Financial Success, Where Expertise Meets Innovation. Uniting Investors<br>
-            and Markets for a Flourishing Future. Discover the Power of Partnership<br>
+            Connecting Opportunities, Empowering Prosperity. Your Gateway to 
+            Financial Success, Where Expertise Meets Innovation. Uniting Investors
+            and Markets for a Flourishing Future. Discover the Power of Partnership
             with our Premier Brokerage Services.
         </p>
     </div>
@@ -459,7 +472,7 @@
         <div class="cont2-2">
             <img src="assets/image/product/broker/4.svg">
             <div class="ct-box" >
-                <p class="ct-p">
+                <p class="ct-p6">
                     CRM Solutions
                 </p>
                 <p class="ct-p5">
@@ -492,13 +505,13 @@
 
     <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;">
         <div>
-            <img src="assets/image/product/broker/5.svg">
+            <img src="assets/image/product/broker/5.svg" style="width: 130px;">
             <div>
                 <p class="ctrade-p">cTrader</p>
             </div>
         </div>
         <div>
-            <img src="assets/image/product/broker/6.svg">
+            <img src="assets/image/product/broker/6.svg" style="width: 130px;">
             <div>
                 <p class="mt5-p">MT5</p>
             </div>
@@ -572,7 +585,7 @@
 
     <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;margin-bottom: 98px;">
         <div style="text-align: center">
-            <img src="assets/image/product/broker/12.svg">
+            <img src="assets/image/product/broker/25.svg">
             <div>
                  <p class="feat-p-wording">Seperate Brand Apps</p>
             </div>
@@ -584,14 +597,14 @@
     </div>
 
     <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;margin-bottom: 98px;">
-        <div style="text-align: center">
+        <div style="text-align: center;width:197px">
             <img src="assets/image/product/broker/14.svg">
             <div>
                  <p class="feat-p-wording">In-app Chat</p>
             </div>
            
         </div>
-        <div style="text-align: center;width:167px;">
+        <div style="text-align: center;width:197px">
             <img src="assets/image/product/broker/15.svg" >
             <div>
                 <p class="feat-p-wording">MQL5 Community</p>
@@ -652,8 +665,8 @@
     <div class="broker10">
         <p class="getstart-p">How To Get Started</p>
         <p class="getstart-p2">
-            To begin a brokerage with Current Tech Industries. Align expertise and goals,<br>
-            acquire relevant licenses, integrate technology, establish partnerships,<br>
+            To begin a brokerage with Current Tech Industries. Align expertise and goals,
+            acquire relevant licenses, integrate technology, establish partnerships,
             and prioritise exceptional customer service for growth and success.
         </p>
     </div>

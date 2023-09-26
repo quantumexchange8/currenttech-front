@@ -33,6 +33,7 @@
         .sector3 p {
             width: 100%;
             height: auto;
+            font-size: 30px;
         }
         .sector5 {
             width: 100%;
@@ -82,12 +83,12 @@
 
     @media screen and (min-width: 1800px) {
         .sector1 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .sector1 p {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
 
         .sector3 {
@@ -130,7 +131,7 @@
 
 </style>
 
-<div class="main-content14" style="margin-top: 120px;">
+<div class="main-content14" style="margin-top: 170px;">
     <div class="sector1">
         <p>
             Transforming Every Sector
@@ -140,8 +141,8 @@
 
     <div class="sector2">
         <p>
-            Experience transformation in every sector with our revolutionary platform.<br>
-            From retail to F&B, logistic to education, our solution empowers<br>
+            Experience transformation in every sector with our revolutionary platform.
+            From retail to F&B, logistic to education, our solution empowers
             businesses to thrive in a dynamic world.
         </p>
     </div>
@@ -151,7 +152,7 @@
     <div class="sector-marquee-content">
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.svg" >
+                <img src="assets/image/sector/1.svg" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Retail & Service
@@ -162,7 +163,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.2.png">
+                <img src="assets/image/sector/1.2.png" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Food & Beverage
@@ -173,7 +174,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/3.svg">
+                <img src="assets/image/sector/3.svg" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Logistic
@@ -184,7 +185,7 @@
         </div> 
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.4.png">
+                <img src="assets/image/sector/1.4.png" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Wholesale 
@@ -195,7 +196,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.5.png">
+                <img src="assets/image/sector/1.5.png" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Automotive 
@@ -206,7 +207,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.6.png">
+                <img src="assets/image/sector/1.6.png" style="width:850px">
                 <div class="sector-text-overlay">
                     <p>
                         Education 

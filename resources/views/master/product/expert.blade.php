@@ -157,7 +157,7 @@
     }
 </style>
 
-    <div class="main-content4" style="margin-top:120px;">
+    <div class="main-content4" style="margin-top:170px;">
         <div class="exprt-1">
             <p class="expert-p-word">
                 Choose Your Expert Advisor
