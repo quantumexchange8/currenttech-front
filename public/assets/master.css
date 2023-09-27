@@ -233,7 +233,7 @@ body {
 .techp {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 66px;
     font-style: normal;
     /* font-weight: 700; */
@@ -244,24 +244,24 @@ body {
 .techp-content {
     width: 486px;
     height: 372px;
-    color: #888;
+    color: #FFF;
     text-align: right;
-    font-family: SF Pro;
-    font-size: 30px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 45px; /* 150% */
+    font-weight: 300;
+    line-height: 40px; /* 150% */
 }
 
-.future {
+/* .future {
     background: linear-gradient(110deg, #BD00FF 0%, #0047FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 45px;
 }
 
@@ -270,12 +270,12 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 45px;
-}
+} */
 
 .dev-col1 {
     width: 406px;
@@ -385,20 +385,20 @@ body {
 
 .txtimg-efficient {
     color: #000;
-    font-family: SF Pro;
-    font-size: 40px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 100% */
+    font-weight: 600;
+    line-height: 35px; /* 100% */
 }
 
 .txtimg-efficient-edu {
     color: #000;
-    font-family: SF Pro;
-    font-size: 40px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 100% */
+    font-weight: 600;
+    line-height: 32px; /* 100% */
     width: 510px;
 }
 .text-overlay-edu {
@@ -415,29 +415,29 @@ body {
 
 .logistic-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 600;
     line-height: 40px; /* 166.667% */
     margin: 0;
 }
 
 .logistic-p-cont {
     color: #DDD;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 178.571% */
     margin: 0;
 }
 
 .btn-getinfo-logis {
-    width: 134px;
-    height: 48px;
+    width: 100px;
+    height: 30px;
     flex-shrink: 0;
-    border-radius: 25px;
+    border-radius: 35px;
     background: #C4718D;
     border: none;
     cursor: pointer; /* Add this line to set the cursor to a pointer */
@@ -445,13 +445,13 @@ body {
 
 .btn-span-getinfo {
     color: #FFF;text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
 }
 
 .btn-span-getinfo1 {
     color: #FFF;text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
 }
 
@@ -463,20 +463,20 @@ body {
 }
 
 .btn-getinfo-edu {
-    width: 134px;
-    height: 48px;
+    width: 100px;
+    height: 30px;
     flex-shrink: 0;
-    border-radius: 25px;
+    border-radius: 35px;
     background: #0BB76F ;
     border: none;
     cursor: pointer;
 }
 
 .btn-getinfo-fnb {
-    width: 134px;
-    height: 48px;
+    width: 100px;
+    height: 30px;
     flex-shrink: 0;
-    border-radius: 25px;
+    border-radius: 35px;
     background: #88C6D4;
     border: none;
     cursor: pointer;
@@ -491,21 +491,27 @@ body {
 
 .spec-col1 {
     width: 390px;
-    height: 441px;
+    height: 478px;
     margin-right: 16px;
     margin-bottom: 18px;
+    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    border-radius: 25px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .spec-col1 p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 45px; /* 125% */
-    text-align: left;
-    color: #888888;
-    margin-top: 0px;
+    font-weight: 300;
+    line-height: 35px; /* 125% */
+    color: #FFF;
+    margin-top: 75px; /* Remove margin */
+    padding: 30px; /* Remove padding */
 }
+
 
 .spec-col2 {
     width: 390px;
@@ -575,7 +581,7 @@ body {
 .blackboard {
     width: 100%;
     height: 100px !important;
-    background: #000000bf;
+    background: #000000;
     z-index: 50;
     position: fixed;
     transition: height 0.1s ease;
@@ -829,10 +835,10 @@ body {
   }
 
   .nav-border {
-    width: 88px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
-    border-radius: 35px;
+    border-radius:50%;
     margin-right: 6px;
     background: linear-gradient(360deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
 }
@@ -841,13 +847,13 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    width: 152px;
-    height: 50px;
+    width: 122px;
+    height: 35px;
     flex-shrink: 0;
     border-radius: 35px;
     margin-left: 6px;
     margin-right: 6px;
-    background: linear-gradient(360deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    background: linear-gradient(360deg, rgba(51, 51, 51, 0.40) 0%, rgba(185, 180, 180, 0.24) 100%);
 }
 
 .nav-border-setting {
@@ -855,7 +861,7 @@ body {
     justify-content: space-evenly; /* Center horizontally */
     align-items: center; /* Center vertically */
     width: 110px;
-    height: 50px;
+    height: 40px;
     flex-shrink: 0;
     border-radius: 35px;
     margin-left: 6px;
@@ -871,7 +877,7 @@ body {
       font-size: 12px;
       line-height: 15.1px;
       align-items: center;
-      width: 1093px;
+      width: 680px;
   }
   
   .nav li {
@@ -903,18 +909,21 @@ body {
       display: flex;
       justify-content: space-between;
       padding: 0;
-      margin-left: 270px;
-      margin-right: 270px;
+      margin-left: 220px;
+      margin-right: 380px;
       margin-top: 20px;
       list-style-type: none;
       font-size: 12px;
       line-height: 15.1px;
   }
-  
+
+.sub-navi ul li {
+    margin-right: -2px; 
+}
   .sub-navi li {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: SF Pro Text;
       margin-left: 40px;
       margin-right: 40px;
       width: 125px;
@@ -982,7 +991,7 @@ body {
 .nav-wording {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     line-height: normal;
@@ -990,7 +999,7 @@ body {
 
 .nav-wording2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
     line-height: normal;
@@ -999,10 +1008,10 @@ body {
 
 .nav-wordingAct {
     color: #BD00FF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin-top: 9px;
 }
@@ -1010,20 +1019,20 @@ body {
 .nav-border-items.active .nav-link .nav-wording {
     color: #BD00FF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
 }
 
 .nav-border-items.active .nav-wording {
     color: #BD00FF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
 }
 
@@ -1159,10 +1168,10 @@ body {
     height: 15.876px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin: 0;
 }
@@ -1170,7 +1179,7 @@ body {
 .desc-content-col1 .ft-desc {
     width: 295px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1181,7 +1190,7 @@ body {
 .desc-content-col1 .ft-copyright {
     width: 253px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 10px;
     font-style: normal;
     /* font-weight: 700; */
@@ -1191,20 +1200,20 @@ body {
 
 .desc-content-col6 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin: 0;
 }
 
 .desc-content-col7 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin: 0;
 }
@@ -1229,10 +1238,10 @@ body {
 
 .form-control-email::placeholder {
     color: #DDD;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     padding-left: 15px;
 }
@@ -1257,7 +1266,7 @@ body {
 .explore-link {
     text-decoration: none;
     color: #CCC;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1339,20 +1348,20 @@ body {
 .ourservice {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 48px; /* 72.727% */
     margin-bottom: 56px;
 }
 
-.lightning-fast {
+/* .lightning-fast {
     background: linear-gradient(114deg, #BD00FF 0%, #0047FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1364,21 +1373,21 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
-}
+} */
 
 .unleash {
-    color: #999;
+    color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 24px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 133.333% */
+    font-weight: 300;
+    line-height: 45px; /* 133.333% */
     width: 980px;
     height: 118px;
     margin-top: 48px;
@@ -1493,11 +1502,11 @@ body {
     width: 185px;
     height: 56px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 28px; /* 112% */
+    font-weight: 400;
+    line-height: 22px; /* 112% */
     text-align: left;
     align-items: center;
     margin-left: 18px;
@@ -1507,12 +1516,12 @@ body {
     width: 176px;
     height: 56px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     text-align: left;
-    line-height: 28px; /* 112% */
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
@@ -1520,12 +1529,12 @@ body {
     width: 176px;
     height: 56px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     text-align: left;
-    line-height: 28px; /* 112% */
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
@@ -1533,12 +1542,12 @@ body {
     width: 199px;
     height: 56px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     text-align: left;
-    line-height: 28px; /* 112% */
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
@@ -1546,12 +1555,12 @@ body {
     width: 176px;
     height: 56px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 25px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     text-align: left;
-    line-height: 28px; /* 112% */
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
@@ -1559,108 +1568,108 @@ body {
     width: 192px;
     height: 56px;   
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     text-align: left;
-    line-height: 28px; /* 112% */
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
 .software-content {
-    width: 339px;
+    width: 290px;
     height: 130px;
-    color: #888;
-    font-family: SF Pro;
-    font-size: 14px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px;
+    font-weight: 300;
+    line-height: 22px;
     text-align: left;
 }
 
 .website-content {
-    width: 339px;
+    width: 290px;
     height: 158px;
-    color: #888;
-    font-family: SF Pro;
-    font-size: 14px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px; /* 250% */
+    font-weight: 300;
+    line-height: 22px; 
     text-align: left;
 }
 
 .mobile-content {
-    width: 292px;
+    width: 290px;
     height: 158px;
-    color: #888;
-    font-family: SF Pro;
-    font-size: 14px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px; /* 250% */
+    font-weight: 300;
+    line-height: 22px;
     text-align: left;
 }
 
 .pos-content {
-    width: 293px;
+    width: 290px;
     height: 158px;
-    color: #888;
-    font-family: SF Pro;
-    font-size: 14px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px; /* 250% */
+    font-weight: 300;
+    line-height: 22px;
     text-align: left;
 }
 
 .expert-content {
-    width: 339px;
+    width: 290px;
     height: 158px;
-    color: #888;
-    font-family: SF Pro;
+    color: #FFF;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px; /* 250% */
+    font-weight: 300;
+    line-height: 22px; 
     text-align: left;
 }
 
 .support-content {
-    width: 292px;
+    width: 290px;
     height: 158px;
-    color: #888;
-    font-family: SF Pro;
-    font-size: 14px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 25px; /* 250% */
+    font-weight: 300;
+    line-height: 22px; 
     text-align: left;
 }
 
 .vision-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 48px; /* 72.727% */
     margin: 0;
     margin-bottom: 60px;
 }
 
-.vision-color {
+/* .vision-color {
     background: linear-gradient(144deg, #BD00FF 0%, #0047FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 40px;
 }
 
@@ -1669,34 +1678,34 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 40px;
-}
+} */
 
-.reshap-color {
+/* .reshap-color {
     background: linear-gradient(110deg, #BD00FF 0%, #0047FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 40px;
-}
+} */
 
 .vision-content {
     width: 990px;
     height: 181px;
-    color: #999;
+    color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 300;
     line-height: 40px; /* 133.333% */
     margin-top: 96px;
 }
@@ -1704,12 +1713,12 @@ body {
 .spect-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 75px; /* 113.636% */
-    width: 880px;
+    font-weight: 500;
+    line-height: 85px; /* 113.636% */
+    width: 900px;
 }
 
 .spec-row1 {
@@ -1723,22 +1732,24 @@ body {
 }
 
 .exp-color {
-    background: linear-gradient(97deg, #BD00FF 0%, #0047FF 100%);
+    /* background: linear-gradient(97deg, #BD00FF 0%, #0047FF 100%); */
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: #BD00FF;
     font-size: 28px;
+    font-weight: 700;
 }
 
-.prod-color {
+/* .prod-color {
     background: linear-gradient(43deg, #BD00FF 32.2%, #0047FF 50.22%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 45px;
 }
 
@@ -1747,12 +1758,12 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 45px;
-}
+} */
 
 .pos-content-1 {
     width: 290px;
@@ -1799,10 +1810,10 @@ body {
 
 .poshead {
     color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 40px; /* 200% */
     text-align: left;
     margin: 0;
@@ -1810,11 +1821,11 @@ body {
 
 .streamhead {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 111.111% */
+    font-weight: 500;
+    line-height: 28px; /* 111.111% */
     text-align: left;
     margin: 0;
 }
@@ -1823,10 +1834,10 @@ body {
     width: 126px;
     height: 40px;
     color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 40px; /* 200% */
     text-align: left;
     margin: 0;
@@ -1834,11 +1845,11 @@ body {
 
 .webappcont {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 111.111% */
+    font-weight: 500;
+    line-height: 28px; /* 111.111% */
     width: 217px;
     text-align: left;
     margin: 0;
@@ -1846,56 +1857,56 @@ body {
 
 .brokerhead {
     color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 40px; /* 200% */
     text-align: left;
     margin: 0;
 }
 
 .brokercontent {
-    width: 289px;
-    height: 80px;
+    /* width: 289px;
+    height: 80px; */
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 111.111% */
+    font-weight: 500;
+    line-height: 28px; /* 111.111% */
     text-align: left;
     margin: 0;
 }
 
 .expert1head {
     color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 40px; /* 200% */
     text-align: left;
     margin: 0;
 }
 
 .expert1content {
-    width: 237px;
-    height: 80px;
+    /* width: 237px;
+    height: 80px; */
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 111.111% */
+    font-weight: 500;
+    line-height: 28px; /* 111.111% */
     text-align: left;
     margin: 0;
 }
 
 .web3head {
     color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
     line-height: 40px; /* 200% */
@@ -1904,14 +1915,14 @@ body {
 }
 
 .web3content {
-    width: 311px;
-    height: 80px;
+    /* width: 311px;
+    height: 80px; */
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 111.111% */
+    font-weight: 500;
+    line-height: 28px; /* 111.111% */
     text-align: left;
     margin: 0;
 }
@@ -1919,11 +1930,11 @@ body {
 .one-stop-head {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 75px; /* 113.636% */
+    font-weight: 500;
+    line-height: 85px; /* 113.636% */
     width: 740px;
     height: 150px;
     margin-bottom: 120px;
@@ -1937,10 +1948,10 @@ body {
 
 .ourfeature2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     text-align: left;
     margin: 0;
@@ -1949,10 +1960,10 @@ body {
 .ourfeature3 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 40px; /* 125% */
     text-align: left;
     margin: 0;
@@ -1967,7 +1978,7 @@ body {
 
 .perform-detail-head {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 700; */
@@ -1977,7 +1988,7 @@ body {
 
 .perform-detail-content {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
     /* font-weight: 700; */
@@ -1997,37 +2008,37 @@ body {
 .innovation-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 75px; /* 113.636% */
+    font-weight: 500;
+    line-height: 85px; /* 113.636% */
     width: 780px;
     height: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 90px;
 }
 
 .innovation-content {
-    color: #888;
+    color: #ffffff;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 24px;
+    font-family: SF Pro Text;
+    font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 40px; /* 133.333% */
-    width: 920px;
+    width: 1000px;
     height: 181px;
 }
 
-.sustainability-color {
+/* .sustainability-color {
     background: linear-gradient(132deg, #BD00FF 0%, #0047FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 40px;
 }
 
@@ -2036,12 +2047,12 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 40px;
-}
+} */
 
 /* marquee */
 
@@ -2194,7 +2205,7 @@ body {
 .workcate {
     width: 100%; 
     height:288px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /* marquee */
@@ -2207,24 +2218,25 @@ body {
 .tranpos-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 53px;
+    font-family: SF Pro Text;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 78.7px;
     width: 940px;
     height: 148px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .order-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
-    /* font-weight: 300; */
-    line-height: normal;
+    font-weight: 300;
+    line-height: 35.8px;
     width: 400px;
 
 }
@@ -2232,43 +2244,44 @@ body {
 .ignite-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 27px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 38.19px;
     width: 660px;
     height: 72px;
+    margin-top: -40px;
 }
 
 .streamline-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 18px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
-    width: 850px;
+    font-weight: 500;
+    line-height: 28.64px;
+    width: 950px;
     height: 81px;
 }
 
 .software-p1 {
-    color: #FFF;
-    font-family: SF Pro;
-    font-size: 27px;
+    color: #BD00FF;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 38.19px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 .software-p2 {
-    color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    color: #ffffff;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     width: 600px;
     height: 100px;
@@ -2277,42 +2290,43 @@ body {
 
 .simplify-p {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 37px;
+    font-family: SF Pro Text;
+    font-size: 46px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
-    width: 100%;
+    font-weight: 500;
+    line-height: 54.89px;
+    width: 1000px;
     height: 102px;
     margin-bottom: 0px;
 }
 
 .simplify-p2 {
-    color: #888;
-    font-family: SF Pro;
-    font-size: 16px;
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
-    width: 610px;
+    width: 710px;
     height: 75px;
 }
 
 .pos-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 102px;
+    font-family: SF Pro Text;
+    font-size: 128px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 25px; /* 19.531% */
 }
 
 .cloud-color {
-    font-family: SF Pro;
-    font-size: 32px;
+    font-family: SF Pro Text;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 300;
     line-height: 25px; /* 62.5% */
     background: linear-gradient(180deg, #BD00FF 42.19%, #0038FF 100%);
     background-clip: text;
@@ -2327,11 +2341,11 @@ body {
 .chooose-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 1040px;
     height: 81px;
 }
@@ -2339,30 +2353,31 @@ body {
 .powerhouse-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 51px;
+    font-family: SF Pro Text;
+    font-size: 64px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 76.38px;
     width: 780px;
     height: 142px;
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 .powerhouse-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
-    font-family: SF Pro;
-    font-size: 20px;
+    font-family: SF Pro Text;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 888px;
-    height: 81px;
+    height: 116px;
 }
 .powerhouse-pp1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 51px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2375,7 +2390,7 @@ body {
 .powerhouse-pp2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2394,34 +2409,48 @@ body {
 
 .embrace-p {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 38.19px;
     width: 1093px;
+    margin-top: -30px;
+    margin-bottom: 70px;
 }
 
+.ecormm {
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.87px;
+    width: 600px;
+    margin-top: 100px;
+}
 .ecorm {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 28px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 38.19px;
+    margin-top: 50px;
+    margin-bottom: -10px;
 }
-
 .temp {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1093px;
+    margin-top: -50px;
 }
 
 .view-more {
     color: #BD00FF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2431,21 +2460,21 @@ body {
 
 .fashion-store {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 16px;
+    font-family: SF Pro Text;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 23.87px;
     margin: 0;
 }
 
 .clothing {
     color: #888;
-    font-family: SF Pro;
-    font-size: 12px;
+    font-family: SF Pro Text;
+    font-size: 14px;
     font-style: normal;
-    /* font-weight: 400; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 16.71px;
     margin: 0;
 }
 
@@ -2464,7 +2493,7 @@ body {
 .btn-span-view {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2473,7 +2502,7 @@ body {
 
 .modern-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2482,18 +2511,20 @@ body {
 
 .transform-p {
     color: #FFF;
-    font-family: SF Pro;
-    font-size: 36px;
+    font-family: SF Pro Text;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 38.19px;
     width: 1507px;
+    margin-top: -20px;
+    margin-bottom: 100px;
 }
 
 .build-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2504,7 +2535,7 @@ body {
 .build2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 18px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2515,7 +2546,7 @@ body {
 .broker-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2526,7 +2557,7 @@ body {
 .broker-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 18px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2620,7 +2651,7 @@ body {
 .ct-p {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2631,7 +2662,7 @@ body {
 .ct-p2 {
     color: #888;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2656,7 +2687,7 @@ body {
 }
 .ct-p3 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2667,7 +2698,7 @@ body {
 
 .ct-p4 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2678,7 +2709,7 @@ body {
 .ct-p5 {
     color: #888;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2691,7 +2722,7 @@ body {
 .ct-p6 {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2702,7 +2733,7 @@ body {
 .package-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2714,7 +2745,7 @@ body {
 .package-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2731,7 +2762,7 @@ body {
 .feature-p {
     color: #FFF;
     text-align: left;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 36px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2742,7 +2773,7 @@ body {
 .ctrade-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2752,7 +2783,7 @@ body {
 .mt5-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2762,7 +2793,7 @@ body {
 .feat-p-wording {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2770,7 +2801,7 @@ body {
 }
 .getstart-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2780,7 +2811,7 @@ body {
 }
 .getstart-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2807,7 +2838,7 @@ body {
 
 .contact-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2816,7 +2847,7 @@ body {
 
 .contact-p2 {
     color: #BBB;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2827,7 +2858,7 @@ body {
 .btn-getinfo-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2837,7 +2868,7 @@ body {
 
 .quota-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2857,7 +2888,7 @@ body {
 
 .ctrade-span-word {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2880,7 +2911,7 @@ body {
     justify-content: center; /* Horizontally center the content */
     color: #333;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 400; */
@@ -2898,7 +2929,7 @@ body {
 .submit-span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2908,7 +2939,7 @@ body {
 .expert-p-word {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 64px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2921,7 +2952,7 @@ body {
 .expert-p-word2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2932,7 +2963,7 @@ body {
 
 .medusa-p {
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2947,7 +2978,7 @@ body {
 
 .mercury-p {
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2961,7 +2992,7 @@ body {
 }
 
 .medusa-p4 {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 64px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2976,7 +3007,7 @@ body {
 
 .medusa-p5 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -2986,7 +3017,7 @@ body {
 }
 
 .medusapro-p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3001,7 +3032,7 @@ body {
 
 .medusapro-p2 {
     color: #FFF;
-    font-family SF Pro;
+    font-family SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3011,7 +3042,7 @@ body {
 }
 
 .medusaultra-p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3026,7 +3057,7 @@ body {
 
 .medusaultra-p2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3036,7 +3067,7 @@ body {
 }
 
 .ragnarok-p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 64px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3050,7 +3081,7 @@ body {
 
 .ragnarok-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3061,7 +3092,7 @@ body {
 
 .word-small {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 400; */
@@ -3072,7 +3103,7 @@ body {
 
 .word-big {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 77px;
     font-style: normal;
     font-weight: 700;
@@ -3088,7 +3119,7 @@ body {
 
 .performance-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3111,7 +3142,7 @@ body {
 .perform-prate {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 150px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3119,7 +3150,7 @@ body {
 }
 
 .medusa-p6 {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 64px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3132,7 +3163,7 @@ body {
 }
 
 .mercurypro-p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3146,7 +3177,7 @@ body {
 
 .mercurypro-p2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3157,7 +3188,7 @@ body {
 }
 
 .mercuryultra-p {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3172,7 +3203,7 @@ body {
 
 .mercuryultra-p2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3182,7 +3213,7 @@ body {
 }
 
 .ragnarok-p-word {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -3195,7 +3226,7 @@ body {
 }
 
 .ragnarok-p-word2 {
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -3209,7 +3240,7 @@ body {
 
 .ragnarok-p2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3218,7 +3249,7 @@ body {
 }
 .ragnarok-p3 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3573,7 +3604,7 @@ body {
 .revo-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3585,7 +3616,7 @@ body {
 .revo-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3596,7 +3627,7 @@ body {
 .empowering-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3608,7 +3639,7 @@ body {
 .empowering-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3618,7 +3649,7 @@ body {
 
 .howwork-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3659,7 +3690,7 @@ body {
 
 .step1-p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3670,7 +3701,7 @@ body {
 
 .step1-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3681,7 +3712,7 @@ body {
 
 .remark-p {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3691,7 +3722,7 @@ body {
 .craft-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3702,7 +3733,7 @@ body {
 .craft-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 18px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3713,7 +3744,7 @@ body {
 .create-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3725,7 +3756,7 @@ body {
 .create-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4011,7 +4042,7 @@ body {
 
 .joinworld-p {
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4037,7 +4068,7 @@ body {
 .startnow-span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4103,7 +4134,7 @@ body {
 .building-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4114,7 +4145,7 @@ body {
 .through-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4124,7 +4155,7 @@ body {
 
 .emphasise-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4134,7 +4165,7 @@ body {
 
 .emphasise-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4144,7 +4175,7 @@ body {
 
 .sales-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4155,7 +4186,7 @@ body {
 
 .sales-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4166,7 +4197,7 @@ body {
 
 .encourage-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4177,7 +4208,7 @@ body {
 
 .encourage-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4189,7 +4220,7 @@ body {
 .indispensable-p1 {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4200,7 +4231,7 @@ body {
 
 .indispensable-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4211,7 +4242,7 @@ body {
 
 .display-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4222,7 +4253,7 @@ body {
 
 .display-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4234,7 +4265,7 @@ body {
 .discover-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4244,7 +4275,7 @@ body {
 
 .perform-psmall {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
@@ -4254,10 +4285,10 @@ body {
 
 .perform-pbig {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 77px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -4275,8 +4306,27 @@ body {
 .btn-getmoreinfo-span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: 40px; /* 250% */
+}
+
+.btn-getmoreinfo2 {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(85, 85, 85, 0.40);
+    border: none;
+}
+
+.btn-getmoreinfo2-span {
+    color: #BD00FF;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 13px;
     font-style: normal;
     /* font-weight: 700; */
     line-height: 40px; /* 250% */
@@ -4285,7 +4335,7 @@ body {
 .unleash-p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4296,7 +4346,7 @@ body {
 .ignite-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4308,7 +4358,7 @@ body {
 .point-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4318,7 +4368,7 @@ body {
 
 .implement-p {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4331,7 +4381,7 @@ body {
 .badges-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4341,7 +4391,7 @@ body {
 
 .recognise-p1 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4353,7 +4403,7 @@ body {
 .leveling-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4363,7 +4413,7 @@ body {
 
 .incorporate-p1 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4375,7 +4425,7 @@ body {
 .vip-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4385,7 +4435,7 @@ body {
 
 .vip-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4397,7 +4447,7 @@ body {
 .streak-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 32px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4406,7 +4456,7 @@ body {
 }
 .streak-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4418,7 +4468,7 @@ body {
 .provid-2 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4484,7 +4534,7 @@ body {
 .develop4 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 50px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4568,7 +4618,7 @@ body {
     flex-shrink: 0;
     text-align: right;
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4582,7 +4632,7 @@ body {
 .effective p span {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4613,10 +4663,10 @@ body {
     justify-content: center;
     flex-shrink: 0;
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin-left: 35px;
     margin-right: 35.69px;
@@ -4626,7 +4676,7 @@ body {
 
 .career p span {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4652,7 +4702,7 @@ body {
     justify-content: center;
     flex-shrink: 0;
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4667,7 +4717,7 @@ body {
 .ongoing p span {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 36px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4678,7 +4728,7 @@ body {
     width: 1139px;
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4688,7 +4738,7 @@ body {
 .employ-p1 {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4700,7 +4750,7 @@ body {
 .employ-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4722,7 +4772,7 @@ body {
 .enhanced-p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4734,7 +4784,7 @@ body {
 .hr2 p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4745,7 +4795,7 @@ body {
 .hr4 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4824,7 +4874,7 @@ body {
 
 .hr-container-col1 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4844,7 +4894,7 @@ body {
 
 .hr-container-col2 p {
     color: #BBB;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4862,7 +4912,7 @@ body {
 
 .hr-container-col3 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4881,7 +4931,7 @@ body {
 
 .hr-container-col4 p {
     color: #BBB;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4900,7 +4950,7 @@ body {
 
 .hr-container-col5 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4919,7 +4969,7 @@ body {
 
 .hr-container-col6 p {
     color: #BBB;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4938,7 +4988,7 @@ body {
 
 .hr-container-col-7 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700;  */
@@ -4957,7 +5007,7 @@ body {
 
 .hr-container-col8 p {
     color: #BBB;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4982,7 +5032,7 @@ body {
 .hr6 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 38px;
     font-style: normal;
     /* font-weight: 700; */
@@ -4997,7 +5047,7 @@ body {
 .report1 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5015,7 +5065,7 @@ body {
 .report2 p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5048,7 +5098,7 @@ body {
 .report4 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5087,7 +5137,7 @@ body {
 .report-enhancing-p1 {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5100,7 +5150,7 @@ body {
 .report-data-p1 {
     color: #888;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5124,7 +5174,7 @@ body {
 
 .report-app-p2 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5136,7 +5186,7 @@ body {
 
 .report-data-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5173,7 +5223,7 @@ body {
 .report-unveil-p2 {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5185,7 +5235,7 @@ body {
 .report-data-p3 {
     color: #888;
     text-align: right;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5212,7 +5262,7 @@ body {
 .report8 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5268,10 +5318,10 @@ body {
     width: 200px;
     height: 76px;
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 77px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     margin-top: 30px;
     margin-bottom: 0px;
@@ -5280,7 +5330,7 @@ body {
 
 .report-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5299,7 +5349,7 @@ body {
 .sector1 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5312,7 +5362,7 @@ body {
 .sector2 p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5340,7 +5390,7 @@ body {
 
 .sector-text-overlay p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 48px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5369,10 +5419,10 @@ body {
 .sector3 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: normal;
     width: 974px;
     height: 56px;
@@ -5456,7 +5506,7 @@ body {
 
 .retail-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5468,7 +5518,7 @@ body {
 
 .retail-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5480,7 +5530,7 @@ body {
 
 .food-p1 {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 28px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5492,7 +5542,7 @@ body {
 
 .food-p2 {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5514,7 +5564,7 @@ body {
 .btn-contact span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5523,7 +5573,7 @@ body {
 
 .sector16 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 36px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5538,7 +5588,7 @@ body {
 .career1 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5551,7 +5601,7 @@ body {
 .career2 p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5561,7 +5611,7 @@ body {
 
 .href-link {
     color: #BD00FF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5570,7 +5620,7 @@ body {
 
 .href-link2 {
     color: #BD00FF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5593,7 +5643,7 @@ body {
 
 .career4 p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5651,7 +5701,7 @@ body {
 
 .it-program-p p {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5662,7 +5712,7 @@ body {
 
 .it-program-p2 p {
     color: #888;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5683,7 +5733,7 @@ body {
 .btn-apply span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5806,7 +5856,7 @@ body {
 .career-req-p1 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5817,7 +5867,7 @@ body {
 .career-req-p2 {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5828,7 +5878,7 @@ body {
 .ctgry-p p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5839,7 +5889,7 @@ body {
 .goodon-p p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5850,7 +5900,7 @@ body {
 .cap-ctgry-p p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5861,7 +5911,7 @@ body {
 .cap-ctgry-p2 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5881,7 +5931,7 @@ body {
 .cap-p-p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5892,7 +5942,7 @@ body {
 .goodon-p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5911,7 +5961,7 @@ body {
 .edu-ctgry-p p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5930,7 +5980,7 @@ body {
 .exp-ctgry-p p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 77px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5951,7 +6001,7 @@ body {
 .career7 p {
     color: #888;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
@@ -5965,7 +6015,7 @@ body {
 .support1 p {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 53px;
     font-style: normal;
     /* font-weight: 700; */
@@ -6070,7 +6120,7 @@ body {
 
 .sup-row1-cont label span {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     /* font-weight: 700; */
@@ -6131,14 +6181,14 @@ body {
     /* justify-content: center;
     align-items: center; */
     padding-top: 10px;
-    font-family: 'SF Pro', sans-serif;
+    font-family: 'SF Pro Text', sans-serif;
     outline: none;
 }
 
 .sup-form-control::placeholder {
     color: #333;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
     /* font-weight: 400; */
@@ -6160,7 +6210,7 @@ body {
 .btn-sup-submit span {
     color: #FFF;
     text-align: center;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     /* font-weight: 700; */
@@ -6199,7 +6249,7 @@ body {
     text-decoration: none;
     transition: background-color 0.2s ease;
     font-size: 25px;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
 }
 
 .small-nav .nav2 ul li a:hover {

@@ -94,11 +94,9 @@
                             <div class="website-row4">
                                 <div class="website-col3">
                                     <p class="website-content">
-                                        Empower your business with customized 
-                                        software solutions. Our expert team of 
-                                        developers will bring your ideas to life, 
-                                        delivering innovative and reliable 
-                                        software tailored to your specific needs.
+                                        We develop websites, no matter big or small with a stage-by-stage approach. 
+                                        From pre-production planning, crafting the GUI design, to backend development;
+                                        we execute them with precision.
                                     </p>
                                 </div>
                             </div>
@@ -247,12 +245,12 @@
                 <div class="spec-row1">
                     <div class="spec-col1">
                         <p>
-                            <span class="exp-color">Experience</span> the future with our 
+                            <span class="exp-color">Experience</span> <br>the future with our 
                             groundbreaking 
                             <span class="prod-color">products</span>, redefining 
                             possibilities and empowering lives 
-                            like never before!
-                            Discover <span class="inno-color">innovation</span> today!
+                            like never before! Discover 
+                            <span class="inno-color">innovation</span> today!
                         </p>
                     </div>
                     <div class="spec-col2">
@@ -262,10 +260,15 @@
                                 POS SYSTEM
                             </p>
                             <p class="streamhead" style="margin-bottom: 10px;">
-                                Streamlining Your Sales Process<br>
+                                Streamlining <br>Your Sales Process<br>
                             </p>
                             <a href="{{ route('possystem') }}">
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
                             </a>
                         </div>
                         
@@ -280,7 +283,12 @@
                                 360-Degree Connectivity<br>
                             </p>
                             <a href="{{ route('webapp') }}">
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -293,10 +301,15 @@
                                 BROKERAGE SETUP
                             </p>
                             <p class="brokercontent" style="margin-bottom: 10px;">
-                                Path to FInancial Success<br>
+                                Path to <br> Financial Success<br>
                             </p>
                             <a href="{{ route('expert') }}">
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -308,10 +321,15 @@
                                 EXPERT ADVISOR
                             </p>
                             <p class="expert1content" style="margin-bottom: 10px;">
-                                Power of  AI Investment<br>
+                                Power <br> of AI Investment<br>
                             </p>
                             <a href="{{ route('brokerage') }}">
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -323,10 +341,15 @@
                                 WEB 3.0
                             </p>
                             <p class="web3content" style="margin-bottom: 10px;">
-                                The Decentrlised Digital Revolution<br>
+                                The Decentralised Digital Revolution<br>
                             </p>
                             <a href="{{ route('web3') }}">
-                                <img src="assets/image/home/arrow.svg" style="text-align: left">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -355,7 +378,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                                 <span style="color: #FFF;text-align: center;
-                                font-family: SF Pro;
+                                font-family: SF Pro Text;
                                 font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -373,7 +396,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: SF Pro;
+                            font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -391,7 +414,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: SF Pro;
+                            font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -409,7 +432,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: SF Pro;
+                            font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -427,7 +450,7 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                             <span style="color: #FFF;text-align: center;
-                            font-family: SF Pro;
+                            font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
                         </button>
@@ -596,7 +619,7 @@
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale.svg">
                     <div class="text-overlay">
-                        <p class="txtimg-efficient" style="width:479px">
+                        <p class="txtimg-efficient" style="width:379px">
                             Bulk savings, wholesale
                             prices, sourcing for
                             businesses and retailers.

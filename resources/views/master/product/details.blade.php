@@ -39,7 +39,7 @@
     .btn-preview span {
         color: #FFF;
         text-align: center;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -58,7 +58,7 @@
     .btn-getfree span {
         color: #FFF;
         text-align: center;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -112,7 +112,7 @@
 
     .detail-heading {
         color: #FFF;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 25px;
         font-style: normal;
         font-weight: 700;
@@ -121,7 +121,7 @@
 
     .detail-heading2 {
         color: #888;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -130,7 +130,7 @@
 
     .details-p {
         color: #888;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -140,7 +140,7 @@
 
     .detail-6 li {
         color: #888;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -217,25 +217,25 @@
         </div>
         <div>
             <p style="color: #FFF;
-            font-family: SF Pro;
+            font-family: SF Pro Text;
             font-size: 36px;margin:0">Carbon</p>
             <br>
             <p style="color: #FFF;
-            font-family: SF Pro;
+            font-family: SF Pro Text;
             font-size: 18px;margin:0;width:397px">
                 Your All-in-One Website
                 Template Solution
             </p>
             <br>
             <p style="color: #888;
-            font-family: SF Pro;
+            font-family: SF Pro Text;
             font-size: 14px;margin:0">
                 Minimalist Template
             </p>
             <br>
             <div style="display: flex;align-items:center">
                 <img src="assets/image/product/seeall/eye.svg">
-                <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
+                <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
             </div>
             <br>
             <div>
@@ -257,7 +257,7 @@
                     <div>
                         <p style="color: #888;
                         text-align: center;
-                        font-family: SF Pro;
+                        font-family: SF Pro Text;
                         font-size: 14px;">RATING</p> 
                     </div>
                     <div>
@@ -268,7 +268,7 @@
                     </div> --}}
                     <div style="color: #FFF;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 34px; margin-top: 15px;" >
                         4
                     </div>
@@ -282,18 +282,18 @@
                     <div>
                         <p style="color: #888;
                         text-align: center;
-                        font-family: SF Pro;
+                        font-family: SF Pro Text;
                         font-size: 14px;">SIZE</p>
                     </div>
                     <div style="color: #888;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 12px;">
                         <p>MB</p>
                     </div>
                     <div style="color: #FFF;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 30px;">
                         55.8
                     </div>
@@ -307,18 +307,18 @@
                     <div>
                         <p style="color: #888;
                         text-align: center;
-                        font-family: SF Pro;
+                        font-family: SF Pro Text;
                         font-size: 14px;">CHART</p>
                     </div>
                     <div style="color: #888;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 12px;">
                         <p>NO.</p>
                     </div>
                     <div style="color: #FFF;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 30px;">
                         2
                     </div>
@@ -332,18 +332,18 @@
                     <div>
                         <p style="color: #888;
                         text-align: center;
-                        font-family: SF Pro;
+                        font-family: SF Pro Text;
                         font-size: 14px;">ADD-ON</p>
                     </div>
                     <div style="color: #888;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 12px;">
                         <p>PURCHASE</p>
                     </div>
                     <div style="color: #FFF;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 30px;">
                         Yes
                     </div>
@@ -357,12 +357,12 @@
                     <div>
                         <p style="color: #888;
                         text-align: center;
-                        font-family: SF Pro;
+                        font-family: SF Pro Text;
                         font-size: 14px;">DEVICE</p>
                     </div>
                     <div style="color: #888;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 12px;">
                         <p>OPERATING SYSTEM</p>
                     </div>
@@ -399,13 +399,13 @@
 
     <div class="detail-4" style="width: 1100px;">
         <p style="color: #FFF;
-        font-family: SF Pro;
+        font-family: SF Pro Text;
         font-size: 25px;">Rating & Likes</p>
         {{-- <div class="rating-container">
             <div style="display: flex;align-items: center;justify-content: center;">
                 <div style="color: #FFF;
                     text-align: center;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 100px; margin-right: 350px; margin-top: 28px;">
                         4.0
                 </div>
@@ -496,7 +496,7 @@
                     <img src="assets/image/product/detail/cloud.svg">
                 </div>
                 <div style="color: #FFF;
-                font-family: SF Pro;
+                font-family: SF Pro Text;
                 font-size: 20px;">
                     Connect Us
                 </div>
@@ -516,13 +516,13 @@
                     <img src="assets/image/product/detail/sup.svg">
                 </div>
                 <div style="color: #FFF;
-                font-family: SF Pro;
+                font-family: SF Pro Text;
                 font-size: 20px;">
                     Email Support
                 </div>
                 <div style="color: #888;
                 text-align: center;
-                font-family: SF Pro;
+                font-family: SF Pro Text;
                 font-size: 16px;text-decoration-line: underline;">
                     support@currenttech.pro
                 </div>

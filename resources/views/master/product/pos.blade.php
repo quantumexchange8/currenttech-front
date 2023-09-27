@@ -57,6 +57,8 @@
         /* width: 100%;
         max-width: 100%;
         height: auto; */
+        width: 566px; 
+        height: 536px;
     }
 
     .pos-row10 {
@@ -392,8 +394,7 @@
 
     <div class="pos-row6">
         <div style="display: flex;align-items: center;margin-bottom:136px">
-            <img src="assets/image/product/pos/2.svg" class="st-icon">
-            <div style="display: flex; flex-direction:column;margin-left: 70px;">
+            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
                 <div><p class="software-p1">Software</p></div>
                 <div>
                     <p class="software-p2">Software offers intuitive and customizable features<br>
@@ -403,11 +404,12 @@
                     </p>
                 </div>
             </div>
+            <img src="assets/image/product/pos/2.svg" class="st-icon">
         </div>
 
         <div style="display: flex;align-items: center;margin-bottom:136px">
-            <img src="assets/image/product/pos/3.svg" class="st-icon">
-            <div style="display: flex; flex-direction:column;margin-left: 70px;">
+            {{-- <img src="assets/image/product/pos/3.svg" class="st-icon"> --}}
+            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
                 <div><p class="software-p1">Hardware</p></div>
                 <div>
                     <p class="software-p2">Hardware offers durable and reliable components,<br>
@@ -417,11 +419,12 @@
                     </p>
                 </div>
             </div>
+            <img src="assets/image/product/pos/3.svg" class="st-icon">
         </div>
 
         <div style="display: flex;align-items: center;margin-bottom:40px">
-            <img src="assets/image/product/pos/4.svg" class="st-icon" >
-            <div style="display: flex; flex-direction:column;margin-left: 70px;">
+            {{-- <img src="assets/image/product/pos/4.svg" class="st-icon" > --}}
+            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
                 <div><p class="software-p1">Payment</p></div>
                 <div>
                     <p class="software-p2">
@@ -432,6 +435,7 @@
                     </p>
                 </div>
             </div>
+            <img src="assets/image/product/pos/9.svg" class="st-icon">
         </div>
     </div>
 
@@ -453,14 +457,13 @@
     </div>
     
     <div class="pos-row9">
-        <img src="assets/image/product/pos/6.svg">
         <div style="display: flex;align-items: center;">
             <p class="pos-p1">
                 POS 
             </p>
             <span class="cloud-color">Cloud</span>
         </div>
-        
+        <img src="assets/image/product/pos/6.svg">
     </div>
     <div class="pos-row10">
         <p class="chooose-p">
@@ -473,11 +476,11 @@
 
     <div class="pos-row11">
         <div style="margin-right: 20px;">
-            <img src="assets/image/product/pos/7.svg" class="std-image">
+            <img src="assets/image/product/pos/10.svg" class="std-image">
         </div>
-        <div style="margin-left: 20px;">
-            <img src="assets/image/product/pos/8.svg" class="adv-image">
-        </div>
+        {{-- <div style="margin-left: 20px;">
+            <img src="assets/image/product/pos/11.svg" class="adv-image">
+        </div> --}}
     </div>
     
 </div>
