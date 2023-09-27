@@ -12,7 +12,7 @@ body {
 /* login */
 .signin {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +31,7 @@ body {
 }
 .form-control::placeholder {
     color: #DDD;
-    font-family: 'SF Pro', sans-serif;
+    font-family: 'SF Pro Text', sans-serif;
     font-size: 20px;
 }
 
@@ -87,7 +87,7 @@ body {
 /* register */
 .register-create {
     color: #FFF;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -96,7 +96,7 @@ body {
 }
 .register-small {
     color: #DDD;
-    font-family: SF Pro;
+    font-family: SF Pro Text;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
