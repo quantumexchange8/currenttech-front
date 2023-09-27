@@ -9,7 +9,7 @@
         <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
 
         <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
-        <link href="https://fonts.googleapis.com/css2?family=SF Pro Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     </head>
 
@@ -297,7 +297,7 @@
     <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
 
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=SF Pro Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 

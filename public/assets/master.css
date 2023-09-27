@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
 body {
     background: #000;
     margin-top: 0px;
@@ -233,7 +238,7 @@ body {
 .techp {
     color: #FFF;
     text-align: right;
-    font-family: SF Pro Text;
+    font-family: SF Pro;
     font-size: 66px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3032,7 +3037,7 @@ body {
 
 .medusapro-p2 {
     color: #FFF;
-    font-family SF Pro Text;
+    font-family SF Pro;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */

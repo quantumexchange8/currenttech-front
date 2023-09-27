@@ -594,7 +594,7 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>Indoor / Outfoor Sales</p></div>
+                <div class="it-program-p"><p>Indoor / Outdoor Sales</p></div>
                 <div class="it-program-p2">
                     <p>
                         Indoor sales occur within physical premises or online, with direct 
