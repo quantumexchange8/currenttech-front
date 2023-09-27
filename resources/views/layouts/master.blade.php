@@ -9,7 +9,7 @@
         <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
 
         <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=SF Pro Text&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     </head>
 
@@ -297,7 +297,7 @@
     <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
 
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SF Pro Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 
@@ -731,7 +731,30 @@
         });
 
     </script>
+    <script>
+      window.addEventListener("load", function() {
+          const marqueeContents = document.querySelectorAll(".web3-marqueee-content");
 
+          // Clone the marquee items for each marquee row
+          marqueeContents.forEach((marqueeContent) => {
+              const marqueeItems = marqueeContent.querySelectorAll(".web3-marqueee-item");
+              const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
+
+              // Calculate the number of items needed to fill the width of the marquee
+              const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
+
+              // Clone the items
+              for (let i = 0; i < numberOfItems; i++) {
+                  marqueeItems.forEach((item) => {
+                      marqueeContent.appendChild(item.cloneNode(true));
+                  });
+              }
+
+              marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+          });
+      });
+
+  </script>
     <script>
         window.addEventListener("load", function() {
             const marqueeContents = document.querySelectorAll(".web3-marquee-content-2");
@@ -756,7 +779,30 @@
         });
 
     </script>
+    <script>
+      window.addEventListener("load", function() {
+          const marqueeContents = document.querySelectorAll(".web3-marqueee-content-2");
 
+          // Clone the marquee items for each marquee row
+          marqueeContents.forEach((marqueeContent) => {
+              const marqueeItems = marqueeContent.querySelectorAll(".web3-marqueee-item-2");
+              const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
+
+              // Calculate the number of items needed to fill the width of the marquee
+              const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
+
+              // Clone the items
+              for (let i = 0; i < numberOfItems; i++) {
+                  marqueeItems.forEach((item) => {
+                      marqueeContent.appendChild(item.cloneNode(true));
+                  });
+              }
+
+              marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+          });
+      });
+
+  </script>
     <script>
         window.addEventListener("load", function() {
             const marqueeContents = document.querySelectorAll(".sector-marquee-content");
@@ -781,7 +827,30 @@
         });
 
     </script>
+    <script>
+      window.addEventListener("load", function() {
+          const marqueeContents = document.querySelectorAll(".sector-marqueee-content");
 
+          // Clone the marquee items for each marquee row
+          marqueeContents.forEach((marqueeContent) => {
+              const marqueeItems = marqueeContent.querySelectorAll(".sector-marqueee-item");
+              const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
+
+              // Calculate the number of items needed to fill the width of the marquee
+              const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
+
+              // Clone the items
+              for (let i = 0; i < numberOfItems; i++) {
+                  marqueeItems.forEach((item) => {
+                      marqueeContent.appendChild(item.cloneNode(true));
+                  });
+              }
+
+              marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+          });
+      });
+
+  </script>
     <script>
       function toggleNav() {
         var smallNav = document.querySelector('.small-nav');
