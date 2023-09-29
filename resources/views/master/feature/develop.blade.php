@@ -170,8 +170,10 @@
                 <img src="assets/image/feature/develop/2.svg">
                 <p>
                     <span>
+                        <span class="exp-color">
                         Effective<br>
                         Knowledge Transfer
+                        </span>
                     </span><br>
                     Efficiently sharing expertise
                     and insights within an
@@ -190,8 +192,10 @@
             <img src="assets/image/feature/develop/3.svg">
             <p>
                 <span>
+                    <span class="exp-color">
                     Career <br>
                     Development
+                    </span>
                 </span><br>
                 Advancing one's skills and 
                 experiences to pursue 
@@ -210,8 +214,10 @@
                 <img src="assets/image/feature/develop/4.svg">
                 <p>
                     <span>
+                        <span class="exp-color">
                         Ongoing training<br> 
                         and workshops
+                        </span>
                     </span><br>
                     Regular training sessions <br>
                     and workshops keep <br>
@@ -239,11 +245,11 @@
                 <img src="assets/image/feature/perform/7.svg">
             </div>
             
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Increase
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     96%
@@ -260,11 +266,11 @@
                 <img src="assets/image/feature/perform/8.svg">
             </div>
 
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Better
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     84%
@@ -280,11 +286,11 @@
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Gain
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     79%
@@ -300,11 +306,11 @@
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Higher
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     88%
@@ -318,13 +324,13 @@
         </div>
     </div>
 
-    <div class="develop10" style="margin-bottom: 60px">
+    {{-- <div class="develop10" style="margin-bottom: 60px">
         <button class="btn-getmoreinfo">
             <a href="{{ route('support') }}" class="explore-link">
                 <span class="btn-getmoreinfo-span">GET MORE INFO</span>
             </a>
         </button>
-    </div>
+    </div> --}}
 </div>
 
 @endsection

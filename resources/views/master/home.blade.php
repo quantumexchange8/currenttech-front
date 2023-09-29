@@ -373,11 +373,11 @@
                         <p class="perform-detail-head">Performance</p>
                         <p class="perform-detail-content" style="width: 264px;">Impactful and versatile features.</p>
                     </div>
-
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                                <span style="color: #FFF;text-align: center;
+                                <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;
                                 font-size: 16px;">GET INFO</span>
                             </a>
@@ -391,11 +391,11 @@
                         <p class="perform-detail-head">Reward Program</p>
                         <p class="perform-detail-content" style="width: 220px;">Points, discount, referrals.</p>
                     </div>
-
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #FFF;text-align: center;
+                            <span style="color: #BD00FF;text-align: center;
                             font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
@@ -409,11 +409,11 @@
                         <p class="perform-detail-head">Develop & Learn</p>
                         <p class="perform-detail-content" style="width: 223px;">Data analysis and predictions.</p>
                     </div>
-
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #FFF;text-align: center;
+                            <span style="color: #BD00FF;text-align: center;
                             font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
@@ -427,11 +427,11 @@
                         <p class="perform-detail-head">HR Management</p>
                         <p class="perform-detail-content" style="width: 253px;">Recruitment, onboarding, training.</p>
                     </div>
-
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #FFF;text-align: center;
+                            <span style="color: #BD00FF;text-align: center;
                             font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>
@@ -445,11 +445,11 @@
                         <p class="perform-detail-head">Report & Analytics</p>
                         <p class="perform-detail-content" style="width: 251px;">Gather, analyse, and presebt data.</p>
                     </div>
-
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #FFF;text-align: center;
+                            <span style="color: #BD00FF;text-align: center;
                             font-family: SF Pro Text;
                             font-size: 16px;">GET INFO</span>
                             </a>

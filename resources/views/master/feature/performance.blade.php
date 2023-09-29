@@ -120,7 +120,7 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="emphasise-p1">
-                    Emphasise Well-Defined Goals
+                    <span class="exp-color"> Emphasise Well-Defined Goals </span>
                 </p>
             </div>
             <div>
@@ -143,9 +143,10 @@
         </div>
         <div style="display: flex; flex-direction:column">
             <div>
-                <p class="sales-p1">
+                <p class="sales-p1"><span class="exp-color">
                     Sales Commissions on <br>
                     Motivation and Enthusiasm
+                    </span>
                 </p>
             </div>
             <div>
@@ -164,16 +165,15 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="encourage-p1">
-                    Encourage a competitive spirit to enhance performance
+                    <span class="exp-color">Promote competitiveness for better results.</span>
                 </p>
             </div>
             <div>
                 <p class="encourage-p2">
-                    Encouraging healthy competitiveness can drive 
-                    performance, boost innovation, and foster 
-                    accountability. Striking a balance is essential to 
-                    create a supportive and productive work 
-                    environment.
+                    Promoting constructive competition can
+                    enhance performance, innovation, accountability, to
+                    create a supportive and productive
+                    work environment.
                 </p>
             </div>
         </div>
@@ -189,8 +189,9 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="indispensable-p1">
-                    The Indispensable Role of a Strong Support Team for <br>
-                    Sales Teams
+                    <span class="exp-color">
+                        The Essential Function of a Sales Support Team.
+                    </span>
                 </p>
             </div>
             <div>
@@ -208,15 +209,15 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="display-p1">
-                    Display prowess and exceed average performance
+                    <span class="exp-color">
+                    Demonstrate skill and surpass performance. 
+                    </span>
                 </p>
             </div>
             <div>
                 <p class="display-p2">
-                    Embrace growth, innovation, and customer-
-                    centricity to demonstrate strength, surpass 
-                    mediocrity, and achieve excellence in personal and 
-                    organizational endeavors.
+                    Embrace growth, innovation, and customer-centricity to demonstrate strength,
+                     surpass mediocrity, and achieve excellence in personal and organisational endeavour.
                 </p>
             </div>
         </div>
@@ -227,7 +228,7 @@
 
     <div class="perform6">
         <p class="discover-p">
-            Discover the Hidden Potential of Your Company to Achieve Unprecedented Performance and Growth
+            Discover the Potential of Your Company to Achieve Performance and Growth
         </p>
     </div>
 
@@ -237,11 +238,11 @@
                 <img src="assets/image/feature/perform/7.svg">
             </div>
             
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Increase
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     86%
@@ -258,11 +259,11 @@
                 <img src="assets/image/feature/perform/8.svg">
             </div>
 
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Better
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     250%
@@ -278,11 +279,11 @@
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Gain
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     78%
@@ -298,11 +299,11 @@
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Higher
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     52%
@@ -316,12 +317,12 @@
         </div>
     </div>
 
-    <div class="perform8">
+    {{-- <div class="perform8">
         <button class="btn-getmoreinfo">
             <a href="{{ route('support') }}" class="explore-link">
                 <span class="btn-getmoreinfo-span">GET MORE INFO</span>
             </a>
         </button>
-    </div>
+    </div> --}}
 </div>
 @endsection

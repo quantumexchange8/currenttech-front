@@ -439,7 +439,9 @@
             <img src="assets/image/product/broker/2.svg">
             <div class="ct-box">
                 <p class="ct-p">
+                    <span class="exp-color">
                     CT White Label Solutions
+                    </span>
                 </p>
                 <p class="ct-p2">
                     Customised and rebrand
@@ -455,7 +457,9 @@
             
             <div class="ct-box2">
                 <p class="ct-p4">
+                    <span class="exp-color">
                     Payment Solutions
+                    </span>
                 </p>
                 <p class="ct-p3">
                     Secure and efficient financial 
@@ -473,7 +477,9 @@
             <img src="assets/image/product/broker/4.svg">
             <div class="ct-box" >
                 <p class="ct-p6">
+                    <span class="exp-color">
                     CRM Solutions
+                    </span>
                 </p>
                 <p class="ct-p5">
                     Integrated software for 
@@ -503,7 +509,7 @@
         </div>
     </div>
 
-    <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;">
+    {{-- <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;">
         <div>
             <img src="assets/image/product/broker/5.svg" style="width: 130px;">
             <div>
@@ -516,15 +522,169 @@
                 <p class="mt5-p">MT5</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 
-    <div class="line2"></div>
+    {{-- <div class="line2"></div> --}}
 
-    <div class="broker9">
+    {{-- <div class="broker9">
         <p class="feature-p">Features</p>
+    </div> --}}
+
+    <div class="develop55">
+        <div class="effective-container">
+            <div class="effective">
+                <table>
+                    <tr>
+                        <td style="padding-left: 150px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Unlimited User
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/8.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                In-app deposit
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/10.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Copy-Trading
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/12.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Spread Betting
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 150px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/13.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Seperate Brand
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/17.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                            In-app Control
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/18.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Expert Advisor
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/19.svg" style="width: 100px; height: auto;">
+                            </div>
+                            <div class="developtext">
+                            60+ Indicators
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 
-    <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;margin-bottom: 98px;">
+    <div class="develop55">
+        <div class="effective-container">
+            <div class="effective">
+                <table>
+                    <tr>
+                        <td style="padding-left: 150px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Limited User
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/9.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                In-app deposit
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/10.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Copy-Trading
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/9.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Spread Betting
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 150px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/13.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Seperate Brand
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/17.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                            In-app Control
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/18.svg" style="width: 100px; height: 80px;">
+                            </div>
+                            <div class="developtext">
+                                Expert Advisor
+                            </div>
+                        </td>
+                        <td style="padding: 50px;">
+                            <div style="text-align: center;">
+                                <img src="assets/image/product/broker/19.svg" style="width: 100px; height: auto;">
+                            </div>
+                            <div class="developtext">
+                            30+ Indicators
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;margin-bottom: 98px;">
         <div style="text-align: center">
             <img src="assets/image/product/broker/7.svg">
             <div>
@@ -658,12 +818,12 @@
                 <p class="feat-p-wording">30+ Indicators</p>
            </div>
         </div>
-    </div>
-
+    </div> --}}
+    
     <div class="line2"></div>
 
     <div class="broker10">
-        <p class="getstart-p">How To Get Started</p>
+        <p class="getstart-p">4 Tips To Get Started</p>
         <p class="getstart-p2">
             To begin a brokerage with Current Tech Industries. Align expertise and goals,
             acquire relevant licenses, integrate technology, establish partnerships,
@@ -675,7 +835,11 @@
         <div class="getstart-container" style="margin-right:14px;margin-bottom:28.73px"> 
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
-                    <p class="contact-p">CONTACT</p>
+                    <p class="contact-p">
+                        <span class="exp-color">
+                            CONTACT
+                        </span>
+                        </p>
                     <p class="contact-p2">
                         Reach out to us today for any questions or
                         support related to our competitively priced
@@ -685,19 +849,23 @@
                 <div>     
                     <img src="assets/image/product/broker/20.svg" >
                 </div>
-                <div class="getinfo-align">
+                {{-- <div class="getinfo-align">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
                         </a>
                     </button>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="getstart-container2" style="margin-bottom:28.73px;margin-left:14px">
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
-                    <p class="contact-p">CUSTOMISATION</p>
+                    <p class="contact-p">
+                        <span class="exp-color">
+                            CUSTOMISATION
+                        </span>
+                    </p>
                     <p class="contact-p2">
                         Customise our affordable brokerage package
                         to suit your individual needs and investment
@@ -707,13 +875,13 @@
                 <div>     
                     <img src="assets/image/product/broker/21.svg">
                 </div>
-                <div class="getinfo-align2">
+                {{-- <div class="getinfo-align2">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
                         </a>
                     </button>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -722,7 +890,11 @@
         <div class="getstart-container2" style="margin-right:28.73px">
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
-                    <p class="contact-p">INSTALLATION</p>
+                    <p class="contact-p">
+                        <span class="exp-color">
+                            INSTALLATION
+                        </span>
+                        </p>
                     <p class="contact-p2">
                         Our process ensures secure hosting, rigorous testing,
                         and flawless functionality. Your personalized White 
@@ -733,20 +905,24 @@
                 <div>     
                     <img src="assets/image/product/broker/22.svg" style="margin-top: -50px">
                 </div>
-                <div class="getinfo-align3">
+                {{-- <div class="getinfo-align3">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
                         </a>
                         
                     </button>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="getstart-container2"> 
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
-                    <p class="contact-p">TRAINING</p>
+                    <p class="contact-p">
+                        <span class="exp-color">
+                            TRAINING
+                        </span>
+                    </p>
                     <p class="contact-p2">
                         We offer comprehensive training, encompassing 
                         technical support, marketing insights, and regular 
@@ -756,13 +932,13 @@
                 <div>     
                     <img src="assets/image/product/broker/23.svg">
                 </div>
-                <div class="mgn-btn">
+                {{-- <div class="mgn-btn">
                     <button class="btn-getinfo">
                         <a href="{{ route('support') }}" class="explore-link">
                             <span class="btn-getinfo-p">GET INFO</span>
                         </a>
                     </button>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -770,33 +946,47 @@
     <div class="broker12">
         <p class="quota-p">Get Your Personalised Quota Today!</p>
     </div>
-
     <div class="personalise-container">
         <div style="padding: 48px">
+                <div class="sup-row1-cont">   
             <div style="display: flex;align-items: center;justify-content: space-between;">
-                <div>
+                <div style="margin-left: -60px;">
                     <img src="assets/image/product/broker/24.svg">
                 </div>
                 <div style="display: flex;flex-direction:column">
-                    <div style="display: flex;justify-content: space-between;margin-bottom:64px">
+                    <div style="display: flex;justify-content: space-between;width: 430px; margin-top: -50px; margin-bottom: 60px;">
                         <div>
-                            <input type="radio"> <span class="ctrade-span-word">cTrader</span>
+                            <label>
+                                <input type="radio" name="ctrader" value="ctrader">
+                                <span class="custom-radio"></span>
+                                <span>cTrader</span>
+                            </label>
                         </div>
                         <div>
-                            <input type="radio"> <span class="ctrade-span-word">Metatrader 5</span>
+                            <label>
+                                <input type="radio" name="mt5" value="mt5"> 
+                                <span class="custom-radio"></span>
+                                <span>Metatrader 5</span>
+                            </label>
                         </div>
                     </div>
 
                     <div style="display: flex;flex-direction:column">
-                        <div>
-                            <input type="radio"> <span class="ctrade-span-word">White Label Solutions</span>
-                        </div>
-                        <div>
-                            <input type="radio"> <span class="ctrade-span-word">Payment Solutions</span>
-                        </div>
-                        <div>
-                            <input type="radio"> <span class="ctrade-span-word">CRM Solutions</span>
-                        </div>
+                        <label>
+                            <input type="radio" name="whitelabel" value="whitelabel">
+                            <span class="custom-radio"></span>
+                            <span>White Label Solutions</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="appdev" value="appdev"> 
+                            <span class="custom-radio"></span>
+                            <span>Payment Solutions</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="crmsolu" value="crmsolu"> 
+                            <span class="custom-radio"></span>
+                            <span>CRM Solutions</span>
+                        </label>
                         <br>
                         <br>
                         <div>
@@ -808,6 +998,7 @@
                         <div>
                             <input type="text" class="form-control2" placeholder="Email Address">
                         </div>
+                        <br><br>
                         <div style="text-align: right;">
                             <button class="btn-submit">
                                 <span class="submit-span">Submit</span>
@@ -817,7 +1008,7 @@
                 </div>
             </div>
         </div>
-        
+        </div>
     </div>
 </div>
 

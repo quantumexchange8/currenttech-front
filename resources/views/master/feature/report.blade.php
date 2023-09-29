@@ -179,9 +179,7 @@
 <div class="main-content13" style="margin-top: 170px">
     <div class="report1">
         <p>
-            Enabling data-driven
-            strategic choices and efficient
-            workforce management
+            Data-driven strategy and efficient workforce management
         </p>
     </div>
     <div class="report2">
@@ -200,7 +198,7 @@
 
     <div class="report4">
         <p>
-            A Comprehensive Anlysis and Report
+            A Comprehensive Analysis and Report
         </p>
     </div>
 
@@ -211,8 +209,10 @@
             </div>
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
+                    <span class="exp-color">
                     Enhancing Clarity and
                     Visibility of Key Metrics
+                    </span>
                 </p>
 
                 <p class="report-data-p1">
@@ -232,8 +232,10 @@
         <div class="report6-container">
             <div class="report-col3">
                 <p class="report-app-p2">
+                    <span class="exp-color">
                     Apps for Management
                     Team
+                    </span>
                 </p>
 
                 <p class="report-data-p2">
@@ -259,8 +261,10 @@
             </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">
+                    <span class="exp-color">
                     Unveiling the <br>
                     Power of Data
+                    </span>
                 </p>
 
                 <p class="report-data-p3">
@@ -295,7 +299,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        92%
+                        76%
                     </p>
                 </div>
                 <div>
@@ -310,7 +314,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        77%
+                        81%
                     </p>
                 </div>
                 <div>
@@ -330,7 +334,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:213px">
-                        Performance Appraisals
+                        Performance
                     </p>
                 </div>
             </div>
@@ -340,7 +344,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        79%
+                        78%
                     </p>
                 </div>
                 <div>
@@ -357,7 +361,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        91%
+                        76%
                     </p>
                 </div>
                 <div>
@@ -372,7 +376,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        78%
+                        81%
                     </p>
                 </div>
                 <div>
@@ -387,7 +391,7 @@
                 </div>
                 <div>
                     <p class="report-p1" style="margin-top: 11px">
-                        66%
+                        90%
                     </p>
                 </div>
                 <div>
@@ -402,7 +406,7 @@
                 </div>
                 <div>
                     <p class="report-p1">
-                        76%
+                        78%
                     </p>
                 </div>
                 <div>
@@ -469,14 +473,14 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:108px">
-                        Performance
+                        Target
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="report10">
+    {{-- <div class="report10">
         <div class="rew11" style="margin-bottom: 60px;display: flex;justify-content: center;">
             <button class="btn-getmoreinfo">
                 <a href="{{ route('support') }}" class="explore-link">
@@ -484,7 +488,7 @@
                 </a>
             </button>
         </div>
-    </div>
+    </div> --}}
 </div>
 
 @endsection

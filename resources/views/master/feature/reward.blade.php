@@ -46,7 +46,9 @@
 
     <div class="rew4" style="width: 1000px;display: flex;justify-content: center;">
          <p class="point-p">
+            <span class="exp-color">
             Points and Loyalty Programs
+            </span>
          </p>
     </div>
 
@@ -65,7 +67,9 @@
 
     <div class="rew7">
         <p class="badges-p1">
+            <span class="exp-color">
             Badges and Achievements
+            </span>
         </p>
     </div>
 
@@ -83,7 +87,9 @@
 
     <div class="rew7">
         <p class="leveling-p1">
+            <span class="exp-color">
             Leveling and Progression
+            </span>
         </p>
     </div>
 
@@ -101,7 +107,9 @@
 
     <div class="rew7">
         <p class="vip-p1">
+            <span class="exp-color">
             VIP or Premium Membership
+            </span>
         </p>
     </div>
 
@@ -119,7 +127,9 @@
 
     <div class="rew7">
         <p class="streak-p1">
+            <span class="exp-color">
             Daily Streaks and Challenges
+            </span>
         </p>
     </div>
 
@@ -149,11 +159,11 @@
                 <img src="assets/image/feature/perform/7.svg">
             </div>
             
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Increase
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     78%
@@ -170,11 +180,11 @@
                 <img src="assets/image/feature/perform/8.svg">
             </div>
 
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Better
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     74%
@@ -190,11 +200,11 @@
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Gain
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     168%
@@ -210,11 +220,11 @@
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
-            <div style="margin-top: 54px">
+            {{-- <div style="margin-top: 54px">
                 <p class="perform-psmall">
                     Higher
                 </p>
-            </div>
+            </div> --}}
             <div>
                 <p class="perform-pbig">
                     92%
@@ -228,12 +238,12 @@
         </div>
     </div>
 
-    <div class="rew11" style="margin-bottom: 60px">
+    {{-- <div class="rew11" style="margin-bottom: 60px">
         <button class="btn-getmoreinfo">
             <a href="{{ route('support') }}" class="explore-link">
                 <span class="btn-getmoreinfo-span">GET MORE INFO</span>
             </a>
         </button>
-    </div>
+    </div> --}}
 </div>
 @endsection

@@ -206,8 +206,10 @@
             <div class="hr-container1">
                 <div class="hr-container-col1">
                     <p>
+                        <span class="exp-color">
                         Smart clock-in for effortless
                         attendance tracking
+                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col2">
@@ -225,8 +227,10 @@
             <div class="hr-container2">
                 <div class="hr-container-col3">
                     <p>
+                        <span class="exp-color">
                         Make the reimbursement
                         process more straightforward
+                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col4">
@@ -247,7 +251,9 @@
             <div class="hr-container3">
                 <div class="hr-container-col5">
                     <p>
+                        <span class="exp-color">
                         Smart payroll management system
+                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col6">
@@ -264,7 +270,9 @@
             <div class="hr-container4">
                 <div class="hr-container-col-7">
                     <p>
+                        <span class="exp-color">
                         Learning Management System (LMS)
+                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col8">
@@ -291,8 +299,92 @@
             productivity and employee development.
         </p>
     </div>
+    <div class="rew10">
+        <div class="perform-col1">
+            <div>
+                <img src="assets/image/feature/perform/7.svg">
+            </div>
+            
+            {{-- <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Increase
+                </p>
+            </div> --}}
+            <div>
+                <p class="perform-pbig">
+                    76%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Productivity
+                </p>
+            </div>
+        </div>
+        <div class="perform-col2">
+            <div>
+                <img src="assets/image/feature/perform/8.svg">
+            </div>
 
-    <div class="hr7">
+            {{-- <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Better
+                </p>
+            </div> --}}
+            <div>
+                <p class="perform-pbig">
+                    81%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Teeamwork
+                </p>
+            </div>
+        </div>
+        <div class="perform-col3">
+            <div>
+                <img src="assets/image/feature/perform/9.svg">
+            </div>
+            {{-- <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Gain
+                </p>
+            </div> --}}
+            <div>
+                <p class="perform-pbig">
+                    90%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Sales Volume
+                </p>
+            </div>
+        </div>
+        <div class="perform-col4">
+            <div>
+                <img src="assets/image/feature/perform/10.svg">
+            </div>
+            {{-- <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Higher
+                </p>
+            </div> --}}
+            <div>
+                <p class="perform-pbig">
+                    78%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Performance
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div class="hr7">
         <div class="perform-col1">
             <div>
                 <img src="assets/image/feature/perform/7.svg">
@@ -375,13 +467,13 @@
                 </p>
             </div>
         </div>
-    </div>
-    <div class="hr8" style="margin-bottom: 60px;display: flex;justify-content: center;">
+    </div> --}}
+    {{-- <div class="hr8" style="margin-bottom: 60px;display: flex;justify-content: center;">
         <button class="btn-getmoreinfo">
             <a href="{{ route('support') }}" class="explore-link">
                 <span class="btn-getmoreinfo-span">GET MORE INFO</span>
             </a>
         </button>
-    </div>
+    </div> --}}
 </div>
 @endsection

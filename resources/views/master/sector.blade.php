@@ -239,7 +239,9 @@
         <div class="cart-col2">
             <div style="display: flex;">
                 <p class="retail-p1">
+                    <span class="exp-color">
                     Retail & Service
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">
@@ -266,7 +268,9 @@
         <div class="spoon-col2">
             <div style="display: flex;">
                 <p class="food-p1">
+                    <span class="exp-color">
                     Food & Beverage
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">
@@ -293,7 +297,9 @@
         <div class="spoon-col2">
             <div style="display: flex;">
                 <p class="food-p1">
+                    <span class="exp-color">
                     Logistic
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">
@@ -320,7 +326,9 @@
         <div class="spoon-col2">
             <div style="display: flex;">
                 <p class="food-p1">
+                    <span class="exp-color">
                     Wholesale
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">
@@ -347,7 +355,9 @@
         <div class="spoon-col2">
             <div style="display: flex;">
                 <p class="food-p1">
+                    <span class="exp-color">
                     Automotive
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">
@@ -374,7 +384,9 @@
         <div class="spoon-col2">
             <div style="display: flex;">
                 <p class="food-p1">
+                    <span class="exp-color">
                     Education
+                    </span>
                 </p>
             </div>
             <div style="display: flex;">

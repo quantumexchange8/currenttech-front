@@ -143,7 +143,7 @@
         <p>
             Empower your future with Current Tech Industries. Join our visionary team, embrace 
             diversity, and work on impactful projects. Explore career opportunities that fuel your 
-            growth and make a difference. Apply now at <a href="#" class="href-link">hr.admin@currenttech.pro</a>
+            growth and make a difference. Apply now at <br><a href="#" class="href-link">hr.admin@currenttech.pro</a>
         </p>
     </div>
 
@@ -153,7 +153,7 @@
 
     <div class="career4">
         <p>
-            We focus on...
+            We focus on
         </p>
     </div>
 
@@ -162,7 +162,17 @@
     <div class="career5">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>IT Programmer</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>IT Programmer</p>
+                </div>
+                
                 <div class="it-program-p2">
                     <p>
                         IT programmers write, test, and maintain code for software 
@@ -173,13 +183,13 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -207,17 +217,18 @@
                 <div style="display: flex;width:275px;justify-content: space-between;">
                     <div class="ctgry-p">
                         <p>
-                            Laravel PHP <br><br>
-                            React JS <br><br>
-                            Vue JS <br><br>
-                            Flutter
+                            CSS / HTML <br><br>
+                            JAVA SCRIPT <br><br>
+                            MQL4 <br><br>
+                            MQL5
                         </p>
                     </div>
                     <div class="ctgry-p">
                         <p>
-                            Java Script <br><br>
-                            CSS / HTML <br><br>
-                            MQL4 / MQL5 <br><br>
+                            LARAVEL PHP <br><br>
+                            REACT JS <br><br>
+                            VUE JS <br><br>
+                            FLUTTER <br><br>
                         </p>
                     </div>
                 </div>  
@@ -269,7 +280,16 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>UI / UX Designer</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>UI / UX Designer</p>
+                </div>
                 <div class="it-program-p2">
                     <p>
                         UI/UX designer focuses on creating user-friendly interfaces, 
@@ -280,14 +300,14 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                     
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -377,7 +397,16 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>Marketing Designer</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>Marketing Designer</p>
+                </div>
                 <div class="it-program-p2">
                     <p>
                         A marketing designer is a professional who combines marketing 
@@ -388,14 +417,14 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                     
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -485,7 +514,16 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>Backend Operation</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>Backend Operation</p>
+                </div>
                 <div class="it-program-p2">
                     <p>
                         Operation involves managing and maintaining software in production, 
@@ -496,14 +534,14 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                     
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -594,7 +632,16 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>Indoor / Outdoor Sales</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>Indoor / Outdoor Sales</p>
+                </div>
                 <div class="it-program-p2">
                     <p>
                         Indoor sales occur within physical premises or online, with direct 
@@ -604,14 +651,14 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                     
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -702,7 +749,16 @@
     <div class="career6">
         <div class="career-row1">
             <div class="career-col1">
-                <div class="it-program-p"><p>Internship</p></div>
+                <div class="it-program-p">
+                    <div class="career-col2">
+                        <a href="{{ route('support') }}" class="explore-link">
+                            <button class="btn-apply">
+                                <span>APPLY NOW</span>
+                            </button>
+                        </a>
+                    </div>
+                    <p>Internship</p>
+                </div>
                 <div class="it-program-p2">
                     <p>
                         An internship is a temporary work opportunity provided by companies 
@@ -713,13 +769,13 @@
                     </p>
                 </div>
             </div>
-            <div class="career-col2" style="margin-top: -60px;">
+            {{-- <div class="career-col2" style="margin-top: -60px;">
                 <button class="btn-apply">
                     <a href="{{ route('support') }}" class="explore-link">
                         <span>APPLY NOW</span>
                     </a>
                 </button>
-            </div>
+            </div> --}}
         </div>
         <div class="career-row2">
             <div style="margin-right: 9px">
@@ -734,24 +790,6 @@
             
         </div>
         <div class="career-row3">
-            <div class="career-col9">
-                <div class="career-req-p">
-                    <p class="career-req-p1">
-                        SKILLS
-                    </p>
-                    <br>
-                    <p class="career-req-p2">
-                        MIN REQUIREMENT
-                    </p>
-                </div>
-                <div class="cap-ctgry-p" style="height: 157.5px">
-                    <p>
-                        IT Programmer <br><br>
-                        UI / UX Designer <br><br>
-                        Marketing Design <br><br>
-                    </p>
-                </div>  
-            </div>
             <div class="career-col10">
                 <div class="cap-p1">
                     <p class="cap-p-p">CAPABILITY</p>
@@ -778,6 +816,24 @@
                 </div>
             </div>
             <div class="career-col9">
+                <div class="career-req-p">
+                    <p class="career-req-p1">
+                        SKILL
+                    </p>
+                    <br>
+                    <p class="career-req-p2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="cap-ctgry-p" style="height: 157.5px">
+                    <p>
+                        IT Programmer <br><br>
+                        UI / UX Designer <br><br>
+                        Marketing Design <br><br>
+                    </p>
+                </div>  
+            </div>
+            <div class="career-col9">
                 <div class="cap-p">
                     <p class="cap-p-p">EDUCATION</p>
                     <br>
@@ -785,8 +841,6 @@
                 </div>
                 <div class="edu-ctgry-p" style="height: 157.5px">
                     <p>
-                        Diploma <br>
-                        or <br>
                         Degree
                     </p>
                 </div>
@@ -813,7 +867,7 @@
             Join us on an exciting journey towards endless possibilities and growth. Embrace diverse 
             career opportunities, unleash your potential, and become part of a supportive community 
             that values lifelong learning and personal fulfillment. Let's build a brighter future together. 
-            Apply now at <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
+            <br>Apply now at <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
         </p>
     </div>
 </div>

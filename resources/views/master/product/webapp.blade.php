@@ -268,7 +268,7 @@
     }
 
     @media screen and (max-width: 1280px) {
-    .detail-4 p{
+    /* .detail-4 p{
         margin-top: 50px;
     }
     .detail-4 img {
@@ -311,7 +311,7 @@
     .detail-container2,
     .detail-container3 {
         width: 32%;
-    }
+    } */
         .webapp1 {
             width: 100%;
             height: auto;
@@ -478,115 +478,6 @@
         }
     }
 
-    @media screen and (max-width: 1600px) {
-        .webapp1 {
-            /* margin-left: 250px;
-            margin-right: 250px; */
-        }
-        /* .webapp2 {
-            margin-left: 250px;
-            margin-right: 250px;
-        } */
-        .webapp3 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-        .webapp4 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-
-        .webapp4 p {
-            width: 100%;
-            height: auto;
-        }
-
-        .webapp5 {
-            width: 100%;
-            height: auto;
-            margin-bottom: 96px;
-        }
-
-        .webapp5 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-
-        .webapp6 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-
-        .webapp6 .temp {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-
-        .webapp6 p {
-            width: 100%;
-            height: auto;
-        }
-        .webapp7 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-        .webapp8 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-        .webapp10 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-
-        .webapp10 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-
-        .webapp11 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-        .webapp11 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-
-        .webapp12 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-        .webapp12 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-
-        .webapp13 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-        }
-        .webapp13 img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-        }
-    }
-
     @media screen and (min-width: 2000px) {
         .webapp1 {
             /* margin-left: 350px;
@@ -637,6 +528,7 @@
             margin-left: 350px;
             margin-right: 350px;
         }
+        
     }
 
     @media screen and (min-width: 3000px) {

@@ -3,6 +3,7 @@
 <style>
     .pos-row1 {
         text-align: center;
+        margin-bottom: 40px;
     }
 
     .pos-row2 {
