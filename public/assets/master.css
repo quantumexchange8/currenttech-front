@@ -1738,12 +1738,12 @@ body {
 
 .exp-color {
     /* background: linear-gradient(97deg, #BD00FF 0%, #0047FF 100%); */
-    background-clip: text;
+    /* background-clip: text; */
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
     color: #BD00FF;
-    font-size: 28px;
-    font-weight: 700;
+    /* font-size: 28px;
+    font-weight: 700; */
 }
 
 /* .prod-color {
@@ -1961,6 +1961,7 @@ body {
     text-align: left;
     margin: 0;
     height: 30px;
+    margin-left: -140px;
 }
 .ourfeature3 {
     color: #FFF;
@@ -1973,12 +1974,23 @@ body {
     text-align: left;
     margin: 0;
     height: 30px;
+    margin-left: -140px;
 }
 
 .ourfeature-item {
     display: flex;
     align-items: center;
     margin-top: 66px;
+    margin-left: -140px;
+    margin-right: 16px;
+    margin-bottom: 18px;
+    width: 900px;
+    height: 90px;
+    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 .perform-detail-head {
@@ -2230,7 +2242,7 @@ body {
     line-height: 78.7px;
     width: 940px;
     height: 148px;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
     margin-top: 20px;
 }
 
@@ -2538,7 +2550,7 @@ body {
 }
 
 .build2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 18px;
@@ -2560,7 +2572,7 @@ body {
 }
 
 .broker-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 18px;
@@ -2665,12 +2677,12 @@ body {
 }
 
 .ct-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 30px; /* 125% */
     width: 270px;
     margin-left: 175px;
@@ -2691,11 +2703,11 @@ body {
     margin-top: 35px;
 }
 .ct-p3 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 30px; /* 125% */
     text-align: left;
     width: 320px;
@@ -2712,12 +2724,12 @@ body {
 }
 
 .ct-p5 {
-    color: #888;
+    color: #ffffff;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 30px; /* 125% */
     width: 330px;
     margin-left: 110px;
@@ -2748,13 +2760,13 @@ body {
 }
 
 .package-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 907px;
 }
 
@@ -2815,12 +2827,12 @@ body {
     /* width: 1257px; */
 }
 .getstart-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     text-align: left;
     width: 830px;
 }
@@ -2851,11 +2863,11 @@ body {
 }
 
 .contact-p2 {
-    color: #BBB;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     width: 453px;
 }
@@ -4148,12 +4160,12 @@ body {
     margin-bottom: 20px;
 }
 .through-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
     width: 885px;
 }
@@ -4169,7 +4181,7 @@ body {
 }
 
 .emphasise-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4190,7 +4202,7 @@ body {
 }
 
 .sales-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4212,7 +4224,7 @@ body {
 }
 
 .encourage-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4235,7 +4247,7 @@ body {
 }
 
 .indispensable-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4257,7 +4269,7 @@ body {
 }
 
 .display-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4291,10 +4303,10 @@ body {
 .perform-pbig {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 77px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 57.28px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -4338,13 +4350,13 @@ body {
 }
 
 .unleash-p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 890px;
 }
 
@@ -4352,10 +4364,10 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 53px;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 78.76px;
     width: 840px;
     margin-bottom: 10px;
 }
@@ -4364,20 +4376,20 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 42.96px;
     width: 871px;
 }
 
 .implement-p {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 23.87px;
     width: 871px;
     text-align: center;
     text-align: center;
@@ -4387,20 +4399,20 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 32px;
-    font-style: normal;
-    /* font-weight: 700; */
+    font-size: 36px;
+    font-style: 42.96px;
+    font-weight: 700;
     line-height: normal;
     width: 1248px;
 }
 
 .recognise-p1 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 23.87px;
     width: 992px;
     text-align: center;
 }
@@ -4409,19 +4421,19 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
     width: 1183px;
 }
 
 .incorporate-p1 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
     width: 1183px;
     text-align: center;
@@ -4431,19 +4443,19 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
     width: 1204px;
 }
 
 .vip-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
     text-align: center;
     width: 990px;
@@ -4453,18 +4465,18 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
     width: 1276px;
 }
 .streak-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
     text-align: center;
     width: 1020px;
@@ -4474,10 +4486,10 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 40px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 57.28px;
     /* width: 1268px; */
 }
 
@@ -4552,6 +4564,16 @@ body {
     justify-content: center;
     margin-bottom: 88px;
 }
+.develop55 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+.developtext {
+    color: white;
+    font-size: 18px;
+    font-family: SF Pro Text;
+}
 
 .develop6 {
     display: flex;
@@ -4608,6 +4630,7 @@ body {
     align-items: center;
     width: 1093px;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    color: #BD00FF;
     border-radius: 50px;
 }
 .effective img {
@@ -4622,12 +4645,12 @@ body {
     justify-content: center;
     flex-shrink: 0;
     text-align: right;
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 400;
+    line-height: 28.64px;
     margin-left: 25px;
     margin-right: 59px;
     margin-top: 133px;
@@ -4635,14 +4658,30 @@ body {
 }
 
 .effective p span {
-    color: #FFF;
+    color: #BD00FF;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 28px;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
 }
+
+.with-vertical-line {
+    position: relative;
+}
+
+.with-vertical-line::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 280px; 
+    background-color: #ffffff; 
+    left: 50%; 
+    top: 0;
+    transform: translateX(-50%);
+}
+
 
 .career {
     display: flex;
@@ -4667,11 +4706,11 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: normal;
     margin-left: 35px;
     margin-right: 35.69px;
@@ -4680,11 +4719,11 @@ body {
 }
 
 .career p span {
-    color: #FFF;
+    color: #BD00FF;
     font-family: SF Pro Text;
-    font-size: 28px;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
     text-align: left;
 }
@@ -4706,11 +4745,11 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: normal;
     margin-left: 58px;
     margin-right: 59px;
@@ -4720,12 +4759,12 @@ body {
 }
 
 .ongoing p span {
-    color: #FFF;
+    color: #BD00FF;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 36px;
+    font-size: 32px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -4734,9 +4773,9 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 40px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -4753,13 +4792,13 @@ body {
 }
 
 .employ-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
-    font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-size: 24px;
+    font-style: 28.64px;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 900px;
 }
 
@@ -4778,22 +4817,22 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 53px;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
-    width: 830px;
-    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 78.76px;
+    width: 930px;
+    margin-bottom: 30px;
 }
 
 .hr2 p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 890px;
 }
 
@@ -4880,10 +4919,10 @@ body {
 .hr-container-col1 p {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 133.333% */
+    font-weight: 500;
+    line-height: 30px; /* 133.333% */
     width: 437px;
     height: 80px;
     text-align: left;
@@ -4898,11 +4937,12 @@ body {
 }
 
 .hr-container-col2 p {
-    color: #BBB;
+    /* color: #BBB; */
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     width: 360px;
     text-align: left;
@@ -4918,10 +4958,10 @@ body {
 .hr-container-col3 p {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 133.333% */
+    font-weight: 500;
+    line-height: 30px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
@@ -4935,11 +4975,11 @@ body {
 }
 
 .hr-container-col4 p {
-    color: #BBB;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     width: 415px;
     height: 100px;
@@ -4956,10 +4996,10 @@ body {
 .hr-container-col5 p {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 40px; /* 133.333% */
+    font-weight: 500;
+    line-height: 25px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
@@ -4973,11 +5013,11 @@ body {
 }
 
 .hr-container-col6 p {
-    color: #BBB;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     width: 415px;
     height: 100px;
@@ -4994,10 +5034,10 @@ body {
 .hr-container-col-7 p {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700;  */
-    line-height: 40px; /* 133.333% */
+    font-weight: 500; 
+    line-height: 30px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
@@ -5011,11 +5051,11 @@ body {
 }
 
 .hr-container-col8 p {
-    color: #BBB;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: 25px; /* 125% */
     text-align: left;
     width: 415px;
@@ -5038,10 +5078,10 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 38px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 57.28px;
     width: 1172px;
     height: 168px;
 }
@@ -5053,11 +5093,11 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 53px;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
-    width: 840px;
+    font-weight: 500;
+    line-height: 78.76px;
+    width: 1040px;
     height: 222px;
     text-align: center;
     margin-bottom: 10px;
@@ -5068,13 +5108,13 @@ body {
 }
 
 .report2 p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 940px;
     height: 81px;
     text-align: center;
@@ -5097,17 +5137,19 @@ body {
 }
 
 .report4 {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .report4 p {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 55.75px;
+    width: 1040px;
+    height: 70px;
 }
 
 .report5 {
@@ -5153,13 +5195,13 @@ body {
 }
 
 .report-data-p1 {
-    color: #888;
+    color: #ffffff;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 30px; /* 125% */
+    font-weight: 400;
+    line-height: 25px; /* 125% */
     width: 429px;
     height: 210px;
     text-align: right;
@@ -5190,12 +5232,12 @@ body {
 }
 
 .report-data-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 30px; /* 125% */
+    font-weight: 400;
+    line-height: 25px; /* 125% */
     text-align: left;
     width: 429px;
     height: 210px;
@@ -5238,13 +5280,13 @@ body {
 }
 
 .report-data-p3 {
-    color: #888;
+    color: #ffffff;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 30px; /* 125% */
+    font-weight: 400;
+    line-height: 25px; /* 125% */
     width: 429px;
     height: 210px;
 
@@ -5268,10 +5310,10 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 40px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 57.28px;
     width: 970px;
     height: 168px;
 }
@@ -5321,13 +5363,13 @@ body {
 
 .report-p1 {
     width: 200px;
-    height: 76px;
+    height: 56px;
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 77px;
+    font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 57.28px;
     margin-top: 30px;
     margin-bottom: 0px;
     text-align: center;
@@ -5365,13 +5407,13 @@ body {
 }   
 
 .sector2 p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 740px;
 }
 
@@ -5398,8 +5440,8 @@ body {
     font-family: SF Pro Text;
     font-size: 48px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 57.28px;
     margin-left: 51px;
     margin-top: 12px;
 }
@@ -5522,7 +5564,7 @@ body {
 }
 
 .retail-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
@@ -5546,7 +5588,7 @@ body {
 }
 
 .food-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
@@ -5594,23 +5636,23 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 53px;
+    font-size: 66px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 78.76px;
     width: 919px;
-    height: 148px;
+    height: 248px;
     margin-bottom: 10px;
 }
 
 .career2 p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 28.64px;
     width: 890px;
 }
 
@@ -5649,11 +5691,12 @@ body {
 .career4 p {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 40px;
+    font-size: 64px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
-    width: 348px;
+    width: 548px;
+    text-align: center;
 }
 .career5 {
     width: 100%;
@@ -5695,6 +5738,7 @@ body {
 
 .career-row3 {
     display: flex;
+    text-transform: capitalize;
     /* margin-bottom: 88px; */
 }
 
@@ -5704,35 +5748,55 @@ body {
     margin-bottom: 66px;
 }
 
+.career-col2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.btn-apply {
+    vertical-align: middle;
+}
+
 .it-program-p p {
-    color: #FFF;
+    display: inline-block;
+    vertical-align: middle;
+    color: #BD00FF;
     font-family: SF Pro Text;
     font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
     line-height: normal;
     text-align: left;
     margin-bottom: 0px;
 }
 
 .it-program-p2 p {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 30px; /* 125% */
     width: 700px;
     height: 150px;
-    margin-bottom: 0px
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .btn-apply {
     width: 175.667px;
     height: 50px;
     flex-shrink: 0;
-    background: #7940CF;
+    background: transparent;
+    border: 2px solid #7940CF;
     border-radius: 13px;
+    color: #7940CF;
+}
+
+.btn-apply:hover {
+    background: #7940CF;
+    color: #FFF;
 }
 
 .btn-apply span {
@@ -5746,6 +5810,8 @@ body {
 }
 
 .career-col3 {
+    text-align: left;
+    text-transform: uppercase;
     width: 400px;
     height: 268px;
     flex-shrink: 0;
@@ -5759,6 +5825,7 @@ body {
 }
 
 .career-col4 {
+    text-transform: uppercase;
     width: 200px;
     height: 268px;
     flex-shrink: 0;
@@ -5773,6 +5840,7 @@ body {
 }
 
 .career-col5 {
+    text-transform: uppercase;
     width: 200px;
     height: 268px;
     flex-shrink: 0;
@@ -5800,8 +5868,9 @@ body {
 }
 
 .career-col7 {
+    text-transform: uppercase;
     width: 400px;
-    height: 300px;
+    height: 320px;
     flex-shrink: 0;
     border-radius: 10px;
     margin-right: 13px;
@@ -5813,8 +5882,9 @@ body {
 }
 
 .career-col8 {
+    text-transform: uppercase;
     width: 200px;
-    height: 300px;
+    height: 320px;
     flex-shrink: 0;
     border-radius: 10px;
     margin-left: 13px;
@@ -5827,6 +5897,7 @@ body {
 }
 
 .career-col9 {
+    text-transform: uppercase;
     width: 200px;
     height: 300px;
     flex-shrink: 0;
@@ -5841,6 +5912,7 @@ body {
 }
 
 .career-col10 {
+    text-transform: uppercase;
     width: 400px;
     height: 300px;
     flex-shrink: 0;
@@ -5859,7 +5931,7 @@ body {
 }
 
 .career-req-p1 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -5881,13 +5953,13 @@ body {
 }
 
 .ctgry-p p {
+    text-align: left;
     color: #FFF;
-    text-align: center;
     font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 500;
+    line-height: 16.71px;
     margin: 0;
 }
 
@@ -5904,7 +5976,7 @@ body {
 
 .cap-ctgry-p p {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
@@ -5915,7 +5987,7 @@ body {
 }
 .cap-ctgry-p2 p {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-family: SF Pro Text;
     font-size: 14px;
     font-style: normal;
@@ -5934,7 +6006,7 @@ body {
 }
 
 .cap-p-p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -5964,6 +6036,7 @@ body {
 }
 
 .edu-ctgry-p p {
+    text-transform: capitalize;
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
@@ -5986,7 +6059,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 77px;
+    font-size: 48px;
     font-style: normal;
     /* font-weight: 700; */
     line-height: normal;
@@ -6004,12 +6077,12 @@ body {
 }
 
 .career7 p {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
-    font-size: 19px;
-    font-style: normal;
-    /* font-weight: 700; */
+    font-size: 24px;
+    font-style: 28.64px;
+    font-weight: 500;
     line-height: normal;
     width: 930px;
 }
