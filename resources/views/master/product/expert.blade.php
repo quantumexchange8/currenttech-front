@@ -14,7 +14,7 @@
         margin: 0 auto;
     }
     .exprt-col3 {
-        width: 420px;
+        width: 500px;
     }
     .exprt-col4 {
         width: 420px;
@@ -179,21 +179,21 @@
                 <img src="assets/image/product/expert/medusa.svg" style="width:500px">
                 <div style="display: flex;justify-content: center;">
                     <p class="medusa-p">
-                        Hedging Strategy <br>
-                        0 Time Delay<br>
-                        Up to 10 Products<br>
-                        Semi Auto
-                    </p>
+                        &bull; Hedging Strategy <br>
+                        &bull; 0 Time Delay <br>
+                        &bull; Up-to 10 products <br>
+                        &bull; Semi Auto
+                      </p>
                 </div>
             </div>
             <div style="text-align: center; margin: 0 auto;">
                 <img src="assets/image/product/expert/mercury.svg" style="width:500px">
                 <div style="display: flex;justify-content: center;">
                     <p class="mercury-p">
-                        Signal Detect Strategy
-                        0 Times Delay
-                        Unlimited Products
-                        Fully Auto
+                        &bull; Signal Detect <br>
+                        &bull; 0 Times Delay <br>
+                        &bull; Unlimited products <br>
+                        &bull; Fully Auto
                     </p>
                 </div>
             </div>
@@ -226,56 +226,56 @@
             <div class="exprt-row1">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/pro.svg"  style="margin-left: -108px;">
+                        <img src="assets/image/product/expert/pro.svg"  style="margin-left: 100px; margin-bottom: -90px;">
                         <br>
-                        <p class="medusapro-p">
-                            MEDUSA PRO
+                        <p class="medusapro-p" style="margin-left: 208px;">
+                            PRO CHIP
                         </p>
-                        <p class="medusapro-p2">
+                        {{-- <p class="medusapro-p2">
                             The Medusa Expert Advisor 
                             offers a user-friendly hedging 
                             strategy for Forex trading,
                             with predefined rules and 
                             straightforward management.
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
-                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -108px;">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -528px; margin-bottom: -90px;" >
                         <br>
-                        <p class="medusaultra-p">
-                            MEDUSA ULTRA
+                        <p class="medusaultra-p"  style="margin-left: -420px;">
+                            ULTRA CHIP
                         </p>
-                        <p class="medusaultra-p2">
+                        {{-- <p class="medusaultra-p2">
                             The Medusa Expert Advisor 
                             caters to experienced traders 
                             with its advanced hedging 
                             tactics in Forex, employing 
                             intricate indicators for precise 
                             position management.
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>
             <div class="exprt-row2">
                 <div class="exprt-col3">
-                    <div class="exprt-col-content">
-                        <p class="word-small">Up to</p>
+                    <div class="exprt-col-content" style="margin-left: 208px;">
+                        {{-- <p class="word-small">Up to</p> --}}
                         <p class="word-big">76.8%</p>
-                        <p class="word-small">Accuracy</p>
+                        <p class="word-small">Accuracy Up to</p>
                     </div>
                 </div>
                 <div class="exprt-col4">
-                    <div class="exprt-col-content" style="width: 524px">
-                        <p class="word-small">Up to</p>
+                    <div class="exprt-col-content">
+                        {{-- <p class="word-small">Up to</p> --}}
                         <p class="word-big">81.2%</p>
-                        <p class="word-small">Accuracy</p>
+                        <p class="word-small">Accuracy Up to</p>
                     </div>
                 </div>
             </div>
 
-            <div class="exprt-row4">
+            {{-- <div class="exprt-row4">
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Speed</p>
@@ -290,9 +290,9 @@
                         <p class="word-small">Time Delay</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="exprt-row5">
+            {{-- <div class="exprt-row5">
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Up to</p>
@@ -307,9 +307,9 @@
                         <p class="word-small">Products</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="exprt-row6">
+            {{-- <div class="exprt-row6">
                 <div class="exprt-col3">
                     <div class="exprt-col-content">
                         <p class="word-small">Support</p>
@@ -324,24 +324,24 @@
                         <p class="word-small">Function</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="exprt-row7">
                 <div class="exprt-col3">
-                    <div class="exprt-col-content">
-                        <p class="word-small">Allow</p>
-                        <div class="word-img">
-                            <img src="assets/image/product/expert/mt4.svg">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img" style="margin-left: 20px;">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt5.svg">
                         </div>
                         <p class="word-small">Trading Platform</p>
                     </div>
                 </div>
                 <div class="exprt-col8">
                     <div class="exprt-col-content" style="width: 524px">
-                        <p class="word-small">Allow</p>
-                        <div class="word-img">
-                            <img src="assets/image/product/expert/ctrade.svg" style="margin-right: 46px">
-                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 46px">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img" style="margin-left: 20px;">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
                             <img src="assets/image/product/expert/mt5.svg">
                         </div>
                         <p class="word-small">Trading Platform</p>
@@ -351,7 +351,7 @@
         </div>
         
         <div class="exprt-4">
-            <p class="performance-p">Performance</p>
+            {{-- <p class="performance-p">Performance</p> --}}
             <img src="assets/image/product/expert/performance.svg">
         </div>
     </div>
@@ -380,7 +380,136 @@
     </div>
 
     <div class="main-content4">
-        <div class="exprt-5">
+        <div class="exprt-3">
+            <div class="exprt-row1">
+                <div class="exprt-col1">
+                    <div class="exprt-col-content">
+                        <img src="assets/image/product/expert/pro.svg"  style="margin-left: 100px; margin-bottom: -90px;">
+                        <br>
+                        <p class="medusapro-p" style="margin-left: 208px;">
+                            PRO CHIP
+                        </p>
+                        {{-- <p class="medusapro-p2">
+                            The Medusa Expert Advisor 
+                            offers a user-friendly hedging 
+                            strategy for Forex trading,
+                            with predefined rules and 
+                            straightforward management.
+                        </p> --}}
+                    </div>
+                </div>
+                <div class="exprt-col1">
+                    <div class="exprt-col-content">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -528px; margin-bottom: -90px;">
+                        <br>
+                        <p class="medusaultra-p"  style="margin-left: -420px;">
+                            ULTRA CHIP
+                        </p>
+                        {{-- <p class="medusaultra-p2">
+                            The Medusa Expert Advisor 
+                            caters to experienced traders 
+                            with its advanced hedging 
+                            tactics in Forex, employing 
+                            intricate indicators for precise 
+                            position management.
+                        </p> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="exprt-row2">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        <p class="word-big">79.3%</p>
+                        <p class="word-small">Accuracy Up to</p>
+                    </div>
+                </div>
+                <div class="exprt-col4">
+                    <div class="exprt-col-content">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        <p class="word-big">84.6%</p>
+                        <p class="word-small">Accuracy Up to</p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- <div class="exprt-row4">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Speed</p>
+                        <p class="word-big">0.2<small>Sec</small></p>
+                        <p class="word-small">Time Delay</p>
+                    </div>
+                </div>
+                <div class="exprt-col6">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Speed</p>
+                        <p class="word-big">0<small>Sec</small></p>
+                        <p class="word-small">Time Delay</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            {{-- <div class="exprt-row5">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Up to</p>
+                        <p class="word-big">5+</p>
+                        <p class="word-small">Products</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Up to</p>
+                        <p class="word-big">2x</p>
+                        <p class="word-small">Products</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            {{-- <div class="exprt-row6">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Support</p>
+                        <p class="word-big">Semi</p>
+                        <p class="word-small">Function</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Support</p>
+                        <p class="word-big">Auto</p>
+                        <p class="word-small">Function</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            <div class="exprt-row7">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img">
+                            <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
+                        <p class="word-small">Trading Platform</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img">
+                            <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
+                        <p class="word-small">Trading Platform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- <div class="exprt-5">
             <div class="exprt-row8">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
@@ -507,10 +636,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         
         <div class="exprt-6">
-            <p class="performance-p">Performance</p> 
+            {{-- <p class="performance-p">Performance</p>  --}}
         </div>
         {{-- <div class="performance-container">
             <div style="display: flex">
@@ -536,7 +665,7 @@
                     combines PAMM and Copy Trading, allowing 
                     professional traders to manage pooled funds 
                     (PAMM) and enabling others to automatically 
-                    copy their trades (Copy Trading). This 
+                    copy their trades. This 
                     integrated platform enhances investment 
                     opportunities, optimizes risk management, and 
                     fosters collaboration between traders and 
@@ -548,14 +677,162 @@
     </div>
 
     <div class="main-content4">
-        <div class="exprt-7">
+        <div class="exprt-3">
+            <div class="exprt-row1">
+                <div class="exprt-col1">
+                    <div class="exprt-col-content">
+                        <img src="assets/image/product/expert/pro.svg"  style="margin-left: 100px; margin-bottom: -90px;">
+                        <br>
+                        <p class="medusapro-p" style="margin-left: 208px;">
+                            PRO CHIP
+                        </p>
+                        {{-- <p class="medusapro-p2">
+                            The Medusa Expert Advisor 
+                            offers a user-friendly hedging 
+                            strategy for Forex trading,
+                            with predefined rules and 
+                            straightforward management.
+                        </p> --}}
+                    </div>
+                </div>
+                <div class="exprt-col1">
+                    <div class="exprt-col-content">
+                        <img src="assets/image/product/expert/ultra.svg" style="margin-left: -528px; margin-bottom: -90px;">
+                        <br>
+                        <p class="medusaultra-p"  style="margin-left: -420px;">
+                            ULTRA CHIP
+                        </p>
+                        {{-- <p class="medusaultra-p2">
+                            The Medusa Expert Advisor 
+                            caters to experienced traders 
+                            with its advanced hedging 
+                            tactics in Forex, employing 
+                            intricate indicators for precise 
+                            position management.
+                        </p> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="exprt-row2">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        <p class="word-bigg">50+</p>
+                        <p class="word-small">Investor Accounts</p>
+                    </div>
+                </div>
+                <div class="exprt-col4">
+                    <div class="exprt-col-content">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        {{-- <p class="word-big">84.6%</p> --}}
+                        <img src="assets/image/product/expert/investor.svg">
+                        <p class="word-small">Investor Accounts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exprt-row2">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        {{-- <p class="word-big">50+</p> --}}
+                        <img src="assets/image/product/expert/support1.svg"  style="margin-left: 15px; margin-bottom: 15px">
+                        <p class="word-small">Support</p>
+                    </div>
+                </div>
+                <div class="exprt-col4">
+                    <div class="exprt-col-content">
+                        {{-- <p class="word-small">Up to</p> --}}
+                        {{-- <p class="word-big">84.6%</p> --}}
+                        <img src="assets/image/product/expert/support1.svg" style="margin-right: 15px; margin-bottom: 15px">
+                        <img src="assets/image/product/expert/support2.svg">
+                        <p class="word-small">Support</p>
+                    </div>
+                </div>
+            </div>
+            {{-- <div class="exprt-row4">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Speed</p>
+                        <p class="word-big">0.2<small>Sec</small></p>
+                        <p class="word-small">Time Delay</p>
+                    </div>
+                </div>
+                <div class="exprt-col6">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Speed</p>
+                        <p class="word-big">0<small>Sec</small></p>
+                        <p class="word-small">Time Delay</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            {{-- <div class="exprt-row5">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Up to</p>
+                        <p class="word-big">5+</p>
+                        <p class="word-small">Products</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Up to</p>
+                        <p class="word-big">2x</p>
+                        <p class="word-small">Products</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            {{-- <div class="exprt-row6">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content">
+                        <p class="word-small">Support</p>
+                        <p class="word-big">Semi</p>
+                        <p class="word-small">Function</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        <p class="word-small">Support</p>
+                        <p class="word-big">Auto</p>
+                        <p class="word-small">Function</p>
+                    </div>
+                </div>
+            </div> --}}
+
+            <div class="exprt-row7">
+                <div class="exprt-col3">
+                    <div class="exprt-col-content" style="margin-left: 198px;">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img">
+                            <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
+                        <p class="word-small">Trading Platform</p>
+                    </div>
+                </div>
+                <div class="exprt-col8">
+                    <div class="exprt-col-content" style="width: 524px">
+                        {{-- <p class="word-small">Allow</p> --}}
+                        <div class="word-img">
+                            <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
+                            <img src="assets/image/product/expert/mt5.svg">
+                        </div>
+                        <p class="word-small">Trading Platform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- <div class="exprt-7">
             <div class="exprt-row8">
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <img src="assets/image/product/expert/pro.svg" style="margin-left: -108px;">
                         <br>
                         <p class="ragnarok-p-word">
-                            RAGNAROK PRO
+                            PRO CHIP
                         </p>
                         <p class="ragnarok-p3">
                             Ragnarok Pro offers PAMM, 
@@ -572,7 +849,7 @@
                         <img src="assets/image/product/expert/ultra.svg" style="margin-left: -108px;">
                         <br>
                         <p class="ragnarok-p-word2">
-                            RAGNAROK ULTRA
+                            ULTRA CHIP
                         </p>
                         <p class="ragnarok-p3">
                             Even more accuracy. 
@@ -680,11 +957,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         
-        <div class="exprt-8">
+        {{-- <div class="exprt-8">
             <p class="performance-p">Performance</p> 
-        </div>
+        </div> --}}
         {{-- <div class="performance-container">
             <div style="display: flex">
                 <div>

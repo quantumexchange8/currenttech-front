@@ -622,7 +622,7 @@
                         </td>
                         <td style="padding: 50px;">
                             <div style="text-align: center;">
-                                <img src="assets/image/product/broker/9.svg" style="width: 100px; height: 80px;">
+                                <img src="assets/image/product/broker/9.svg" style="width: 50px; height: 80px;">
                             </div>
                             <div class="developtext">
                                 In-app deposit
@@ -638,7 +638,7 @@
                         </td>
                         <td style="padding: 50px;">
                             <div style="text-align: center;">
-                                <img src="assets/image/product/broker/9.svg" style="width: 100px; height: 80px;">
+                                <img src="assets/image/product/broker/9.svg" style="width: 50px; height: 80px;">
                             </div>
                             <div class="developtext">
                                 Spread Betting

@@ -33,7 +33,7 @@
     .hr-line {
         width: 1257px;
         height: 1.5px;
-        background: #333;
+        background: #888888;
         margin-top: 66px;
         margin-bottom: 66px;
     }
@@ -252,7 +252,7 @@
                 <div class="hr-container-col5">
                     <p>
                         <span class="exp-color">
-                        Smart payroll management system
+                        Smart payroll management<br> system
                         </span>
                     </p>
                 </div>
@@ -338,7 +338,7 @@
             </div>
             <div>
                 <p class="perform-psmall">
-                    Teeamwork
+                    Teamwork
                 </p>
             </div>
         </div>

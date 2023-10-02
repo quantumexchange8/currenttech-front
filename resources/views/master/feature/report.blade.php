@@ -205,7 +205,7 @@
     <div class="report5">
         <div class="report5-container">
             <div class="report5-col1">
-                <img src="assets/image/feature/report/2.svg" style="margin-top: -40px">
+                <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
             </div>
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
@@ -249,7 +249,7 @@
                 </p>
             </div>
             <div class="report-col4">
-                <img src="assets/image/feature/report/3.svg" style="margin-top: -40px">
+                <img src="assets/image/feature/report/3.svg" style="margin-top: 20px">
             </div>
         </div>
     </div>
@@ -257,7 +257,7 @@
     <div class="report7">
         <div class="report7-container">
             <div class="report7-col5">
-                <img src="assets/image/feature/report/4.svg" >
+                <img src="assets/image/feature/report/4.svg" style="margin-top: 20px" >
             </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">

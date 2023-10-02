@@ -216,6 +216,7 @@ body {
     flex-wrap: wrap;
     max-width: 1100px; 
     margin: 120px auto;
+    margin-bottom: 25px;
 }
 
 
@@ -499,7 +500,7 @@ body {
     height: 478px;
     margin-right: 16px;
     margin-bottom: 18px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-left: 16px;
     display: flex;
@@ -512,7 +513,7 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 35px; /* 125% */
-    color: #FFF;
+    color: #000000;
     margin-top: 75px; /* Remove margin */
     padding: 30px; /* Remove padding */
 }
@@ -521,7 +522,7 @@ body {
 .spec-col2 {
     width: 390px;
     height: 478px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-left: 16px;
     margin-right: 16px;
@@ -533,7 +534,7 @@ body {
 .spec-col3 {
     width: 390px;
     height: 478px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-left: 16px;
     margin-bottom: 18px;
@@ -544,7 +545,7 @@ body {
 .spec-col4 {
     width: 390px;
     height: 478px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-right: 16px;
     margin-top: 18px;
@@ -555,7 +556,7 @@ body {
 .spec-col5 {
     width: 390px;
     height: 478px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-left: 16px;
     margin-right: 16px;
@@ -567,7 +568,7 @@ body {
 .spec-col6 {
     width: 390px;
     height: 478px;
-    background:linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
     border-radius: 25px;
     margin-left: 16px;
     margin-top: 18px;
@@ -1825,7 +1826,7 @@ body {
 }
 
 .streamhead {
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -1849,7 +1850,7 @@ body {
 }
 
 .webappcont {
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -1874,7 +1875,7 @@ body {
 .brokercontent {
     /* width: 289px;
     height: 80px; */
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -1898,7 +1899,7 @@ body {
 .expert1content {
     /* width: 237px;
     height: 80px; */
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -1922,7 +1923,7 @@ body {
 .web3content {
     /* width: 311px;
     height: 80px; */
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -2300,7 +2301,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 125% */
-    width: 600px;
+    width: 700px;
     height: 100px;
     margin: 0;
 }
@@ -2842,7 +2843,14 @@ body {
     height: 810px;
     flex-shrink: 0;
     border-radius: 30px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
+}
+.getstart-container22 {
+    width: 1040px;
+    height: 1010px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
 }
 
 .getstart-container2 {
@@ -2850,7 +2858,7 @@ body {
     height: 810px;
     flex-shrink: 0;
     border-radius: 30px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.40) 0%, rgba(85, 85, 85, 0.16) 100%, rgba(153, 153, 153, 0.16) 100%);
+    background: #FFF;
 }
 
 .contact-p {
@@ -2863,7 +2871,7 @@ body {
 }
 
 .contact-p2 {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -2937,7 +2945,7 @@ body {
 
 .btn-submit {
     width: 134px;
-    height: 48px;
+    height: 42px;
     flex-shrink: 0;
     border-radius: 25px;
     border: 1px solid rgba(187, 187, 187, 0.40);
@@ -2967,7 +2975,7 @@ body {
 }
 
 .expert-p-word2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 19px;
@@ -2979,12 +2987,15 @@ body {
 }
 
 .medusa-p {
-    text-align: center;
+    width: 120px;
+    margin-top: -40px;
+    margin-left: 40px;
+    text-align: left;
     font-family: SF Pro Text;
-    font-size: 29px;
+    font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 50px; /* 138.889% */
+    font-weight: 600;
+    line-height: 45px; /* 138.889% */
     background: linear-gradient(135deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -2994,12 +3005,14 @@ body {
 }
 
 .mercury-p {
-    text-align: center;
+    margin-top: -30px;
+    margin-left: 130px;
+    text-align: left;
     font-family: SF Pro Text;
-    font-size: 29px;
+    font-size: 30px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: 50px; /* 138.889% */
+    font-weight: 600;
+    line-height: 45px; /* 138.889% */
     background: linear-gradient(135deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -3027,17 +3040,17 @@ body {
     font-family: SF Pro Text;
     font-size: 40px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 400;
     line-height: normal;
-    text-align: left;
+    text-align: 47.74px;
     width: 879px;
 }
 
 .medusapro-p {
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 50px; /* 125% */
     background: linear-gradient(135deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
     background-clip: text;
@@ -3049,7 +3062,7 @@ body {
 
 .medusapro-p2 {
     color: #FFF;
-    font-family SF Pro;
+    font-family: SF Pro Text;
     font-size: 29px;
     font-style: normal;
     /* font-weight: 700; */
@@ -3060,9 +3073,9 @@ body {
 
 .medusaultra-p {
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: 50px; /* 125% */
     width: 316px;
     height: 50px;
@@ -3110,23 +3123,39 @@ body {
 .word-small {
     color: #888;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
-    /* font-weight: 400; */
+    font-weight: 500;
     line-height: normal;
     margin-bottom: 0px;
     margin-top: 0px;
+    margin-left: 20px;
 }
 
 .word-big {
     color: #FFF;
     font-family: SF Pro Text;
-    font-size: 77px;
+    font-size: 96px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: -40px;
+    /* width: 50px; */
+}
+
+.word-bigg {
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    /* width: 50px; */
 }
 
 .word-img {
@@ -3631,7 +3660,7 @@ body {
 }
 
 .revo-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 19px;
@@ -3654,7 +3683,7 @@ body {
 }
 
 .empowering-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 19px;
@@ -3706,7 +3735,7 @@ body {
 }
 
 .step1-p {
-    color: #FFF;
+    color: #BD00FF;
     font-family: SF Pro Text;
     font-size: 26px;
     font-style: normal;
@@ -3717,7 +3746,7 @@ body {
 }
 
 .step1-p2 {
-    color: #888;
+    color: #ffffff;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -3748,7 +3777,7 @@ body {
 }
 
 .craft-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 18px;
@@ -3766,19 +3795,19 @@ body {
     font-style: normal;
     /* font-weight: 700; */
     line-height: normal;
-    width: 1174px;
-    margin-bottom: 10px;
+    width: 1000px;
+    margin-bottom: 30px;
 }
 
 .create-p2 {
-    color: #888;
+    color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
     /* font-weight: 700; */
     line-height: normal;
-    width: 625px;
+    width: 825px;
 }
 
 .personal-nft-cont {
@@ -4335,7 +4364,7 @@ body {
     height: 40px;
     flex-shrink: 0;
     border-radius: 25px;
-    background: rgba(85, 85, 85, 0.40);
+    background: linear-gradient(360deg, rgba(51, 51, 51, 0.4) 0%, rgba(136, 136, 136, 0.24) 100%);
     border: none;
 }
 
@@ -4805,7 +4834,7 @@ body {
 .line-develop {
     width: 1258px;
     height: 1.5px;
-    background: #333;
+    background: #888888;
     margin-top: 66px;
     margin-bottom: 79px;
 }
@@ -4864,7 +4893,7 @@ body {
     width: 530px;
     height: 841.962px;
     border-radius: 33px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%);
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4876,7 +4905,8 @@ body {
     width: 530px;
     height: 841.962px;
     border-radius: 33px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%);
+    /* background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%); */
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4888,7 +4918,8 @@ body {
     width: 530px;
     height: 841.962px;
     border-radius: 33px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%);
+    /* background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%); */
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4901,7 +4932,8 @@ body {
     width: 530px;
     height: 841.962px;
     border-radius: 33px;
-    background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%);
+    /* background: linear-gradient(180deg, rgba(214, 214, 214, 0.20) 0%, rgba(85, 85, 85, 0.08) 100%, rgba(153, 153, 153, 0.08) 100%); */
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4921,12 +4953,13 @@ body {
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 30px; /* 133.333% */
     width: 437px;
     height: 80px;
     text-align: left;
     margin: 0;  
+    margin-top: -30px;
 }
 
 .hr-container-col2 {
@@ -4938,7 +4971,7 @@ body {
 
 .hr-container-col2 p {
     /* color: #BBB; */
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4947,6 +4980,7 @@ body {
     width: 360px;
     text-align: left;
     margin: 0;
+    margin-top: -60px;
 }
 
 .hr-container-col3 {
@@ -4956,16 +4990,17 @@ body {
 }
 
 .hr-container-col3 p {
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 30px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
     margin: 0;
+    margin-top: -30px;
 }
 
 .hr-container-col4 {
@@ -4975,7 +5010,7 @@ body {
 }
 
 .hr-container-col4 p {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -4985,6 +5020,7 @@ body {
     height: 100px;
     text-align: left;
     margin: 0;
+    margin-top: -60px;
 }
 
 .hr-container-col5 {
@@ -4994,16 +5030,17 @@ body {
 }
 
 .hr-container-col5 p {
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 25px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
     margin: 0;
+    margin-top: -30px;
 }
 
 .hr-container-col6 {
@@ -5013,7 +5050,7 @@ body {
 }
 
 .hr-container-col6 p {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -5023,6 +5060,7 @@ body {
     height: 100px;
     text-align: left;
     margin: 0;
+    margin-top: -40px;
 }
 
 .hr-container-col-7 {
@@ -5032,16 +5070,17 @@ body {
 }
 
 .hr-container-col-7 p {
-    color: #FFF;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 700; 
     line-height: 30px; /* 133.333% */
     width: 415px;
     height: 80px;
     text-align: left;
     margin: 0;
+    margin-top: -30px;
 }
 
 .hr-container-col8 {
@@ -5051,7 +5090,7 @@ body {
 }
 
 .hr-container-col8 p {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -5061,6 +5100,7 @@ body {
     width: 415px;
     height: 100px;
     margin: 0;
+    margin-top: -40px;
 }
 
 .line-hr {
@@ -5158,10 +5198,10 @@ body {
 
 .report5-container {
     /* width: 1257px; */
-    height: 400px;
+    height: 500px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    background: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -5195,7 +5235,7 @@ body {
 }
 
 .report-data-p1 {
-    color: #ffffff;
+    color: #000000;
     text-align: right;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -5209,10 +5249,10 @@ body {
 
 .report6-container {
     /* width: 1257px; */
-    height: 400px;
+    height: 500px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    background: #FFF;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -5232,7 +5272,7 @@ body {
 }
 
 .report-data-p2 {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
@@ -5257,10 +5297,10 @@ body {
 
 .report7-container {
     /* width: 1257px; */
-    height: 400px;
+    height: 500px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    background: #FFF;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -5280,7 +5320,7 @@ body {
 }
 
 .report-data-p3 {
-    color: #ffffff;
+    color: #000000;
     text-align: right;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -5459,7 +5499,7 @@ body {
 .sector-line {
     width: 1093px;
     height: 1.5px;
-    background: #333;
+    background: #888;
     margin-bottom: 66px;
 }
 
@@ -5564,7 +5604,7 @@ body {
 }
 
 .retail-p2 {
-    color: #ffffff;
+    color: #060606;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
@@ -5588,7 +5628,7 @@ body {
 }
 
 .food-p2 {
-    color: #ffffff;
+    color: #000000;
     font-family: SF Pro Text;
     font-size: 19px;
     font-style: normal;
@@ -6241,17 +6281,36 @@ body {
 
 .support4 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start; 
 }
 
+.left-input {
+    margin-right: 50px; /* Adjust spacing between left and right sections */
+}
+
+.right-input {
+    margin-right: 120px;
+    flex: 2; /* Take up twice as much space as the left section */
+}
+
+.support4 .large-textarea {
+    margin-left: 100px;
+    height: 180px; 
+    width: 500px;
+}
+
+.support4 .large-textarea::placeholder {
+    text-align: left;
+    padding-left: 15px;
+} 
+
 .sup-form-control {
-    width: 520px;
-    height: 48px;
+    margin-left: -10px;
+    width: 500px;
+    height: 40px;
     flex-shrink: 0;
-    border-radius: 25px;
-    background: rgba(238, 238, 238, 0.60);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 16px;
     display: flex;
@@ -6264,12 +6323,12 @@ body {
 }
 
 .sup-form-control::placeholder {
-    color: #333;
+    color: #333333;
     text-align: center;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    /* font-weight: 400; */
+    font-weight: 400;
     line-height: 40px; /* 166.667% */
     
 }
@@ -6279,10 +6338,11 @@ body {
     height: 48px;
     flex-shrink: 0;
     border-radius: 25px;
-    border: 1px solid rgba(187, 187, 187, 0.40);
+    border: 2px solid #7940CF;
     background: transparent;
-    margin-top: 66px;
-    margin-bottom: 136px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 890px;
 }
 
 .btn-sup-submit span {

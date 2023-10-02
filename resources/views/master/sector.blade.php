@@ -228,181 +228,197 @@
             Our Solution's Influence on all Sector
         </p>
     </div>
-    <div class="sector4">
-        <img src="assets/image/sector/7.svg">
-    </div>
-
-    <div class="sector5">
-        <div class="cart-col1">
-            <img src="assets/image/sector/cart.svg">
-        </div>
-        <div class="cart-col2">
-            <div style="display: flex;">
-                <p class="retail-p1">
-                    <span class="exp-color">
-                    Retail & Service
-                    </span>
-                </p>
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/7.svg" style="margin-bottom: -80px;">
             </div>
-            <div style="display: flex;">
-                <p class="retail-p2">
-                    Retail involves selling goods and services directly to consumers,
-                    either through physical stores or online platforms. Service refers to 
-                    intangible offerings provided by businesses to meet various needs, 
-                    such as healthcare, financial assistance, or professional expertise. 
-                    Both sectors are crucial for the economy, emphasising consumer 
-                    satisfaction and efficient delivery of products and services.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="sector6">
-        <img src="assets/image/sector/8.svg">
-    </div>
-
-    <div class="sector7">
-        <div class="spoon-col1">
-            <img src="assets/image/sector/spoon.svg">
-        </div>
-        <div class="spoon-col2">
-            <div style="display: flex;">
-                <p class="food-p1">
-                    <span class="exp-color">
-                    Food & Beverage
-                    </span>
-                </p>
-            </div>
-            <div style="display: flex;">
-                <p class="food-p2">
-                    The food and beverage (F&B) industry involves the production, 
-                    distribution, and sale of food and drinks for human consumption. It 
-                    encompasses restaurants, cafes, bars, and beverage manufacturers, 
-                    contributing significantly to the economy and hospitality sector. 
-                    Success depends on quality, innovation, and customer service, 
-                    meeting diverse consumer needs.
-                </p>
+            <div class="sector5">
+                <div class="cart-col1">
+                    <img src="assets/image/sector/cart.svg">
+                </div>
+                <div class="cart-col2">
+                    <div style="display: flex;">
+                        <p class="retail-p1">
+                            <span class="exp-color">
+                            Retail & Service
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="retail-p2">
+                            Retail involves selling goods and services directly to consumers,
+                            either through physical stores or online platforms. Service refers to 
+                            intangible offerings provided by businesses to meet various needs, 
+                            such as healthcare, financial assistance, or professional expertise. 
+                            Both sectors are crucial for the economy, emphasising consumer 
+                            satisfaction and efficient delivery of products and services.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="sector8">
-        <img src="assets/image/sector/9.svg">
-    </div>
-    
-    <div class="sector9">
-        <div class="spoon-col1">
-            <img src="assets/image/sector/ferry.svg">
-        </div>
-        <div class="spoon-col2">
-            <div style="display: flex;">
-                <p class="food-p1">
-                    <span class="exp-color">
-                    Logistic
-                    </span>
-                </p>
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/8.svg" style="margin-bottom: -80px;">
             </div>
-            <div style="display: flex;">
-                <p class="food-p2">
-                    Logistics involves efficiently planning, implementing, and controlling 
-                    the movement and storage of goods, services, and information from 
-                    origin to consumption. It encompasses transportation, warehousing, 
-                    inventory management, and supply chain coordination, playing a vital 
-                    role in cost reduction, improved delivery times, and customer 
-                    satisfaction.
-                </p>
+            <div class="sector7">
+                <div class="spoon-col1">
+                    <img src="assets/image/sector/spoon.svg">
+                </div>
+                <div class="spoon-col2">
+                    <div style="display: flex;">
+                        <p class="food-p1">
+                            <span class="exp-color">
+                            Food & Beverage
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="food-p2">
+                            The food and beverage (F&B) industry involves the production, 
+                            distribution, and sale of food and drinks for human consumption. It 
+                            encompasses restaurants, cafes, bars, and beverage manufacturers, 
+                            contributing significantly to the economy and hospitality sector. 
+                            Success depends on quality, innovation, and customer service, 
+                            meeting diverse consumer needs.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="sector10">
-        <img src="assets/image/sector/10.svg">
-    </div>
-
-    <div class="sector11">
-        <div class="spoon-col1">
-            <img src="assets/image/sector/box.svg">
-        </div>
-        <div class="spoon-col2">
-            <div style="display: flex;">
-                <p class="food-p1">
-                    <span class="exp-color">
-                    Wholesale
-                    </span>
-                </p>
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/9.svg" style="margin-bottom: -80px;">
             </div>
-            <div style="display: flex;">
-                <p class="food-p2">
-                    Wholesale involves purchasing goods in bulk from manufacturers or 
-                    distributors and selling them in smaller quantities to retailers or 
-                    businesses. Wholesalers serve as intermediaries, facilitating cost-
-                    effective distribution and allowing producers to reach a broader 
-                    market while retailers access a diverse range of products at 
-                    discounted prices.
-                </p>
+            <div class="sector9">
+                <div class="spoon-col1">
+                    <img src="assets/image/sector/ferry.svg">
+                </div>
+                <div class="spoon-col2">
+                    <div style="display: flex;">
+                        <p class="food-p1">
+                            <span class="exp-color">
+                            Logistic
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="food-p2">
+                            Logistics involves efficiently planning, implementing, and controlling 
+                            the movement and storage of goods, services, and information from 
+                            origin to consumption. It encompasses transportation, warehousing, 
+                            inventory management, and supply chain coordination, playing a vital 
+                            role in cost reduction, improved delivery times, and customer 
+                            satisfaction.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="sector12">
-        <img src="assets/image/sector/11.svg">
-    </div>
-
-    <div class="sector13">
-        <div class="spoon-col1">
-            <img src="assets/image/sector/car.svg">
-        </div>
-        <div class="spoon-col2">
-            <div style="display: flex;">
-                <p class="food-p1">
-                    <span class="exp-color">
-                    Automotive
-                    </span>
-                </p>
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/10.svg" style="margin-bottom: -80px;">
             </div>
-            <div style="display: flex;">
-                <p class="food-p2">
-                    The automotive industry involves designing, manufacturing, selling, 
-                    and maintaining motor vehicles. It includes cars, trucks, motorcycles, 
-                    and more, playing a vital role in the global economy. Constantly 
-                    evolving, the sector prioritizes technological advancements, 
-                    environmental sustainability, and safety to meet consumer demands 
-                    for efficient, safe, and eco-friendly transportation options.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="sector14">
-        <img src="assets/image/sector/12.svg">
-    </div>
-
-    <div class="sector15">
-        <div class="spoon-col1">
-            <img src="assets/image/sector/edu.svg">
-        </div>
-        <div class="spoon-col2">
-            <div style="display: flex;">
-                <p class="food-p1">
-                    <span class="exp-color">
-                    Education
-                    </span>
-                </p>
-            </div>
-            <div style="display: flex;">
-                <p class="food-p2">
-                    Education is the acquisition of knowledge, skills, and values through 
-                    formal or informal methods. It empowers individuals for personal and 
-                    societal development, fostering critical thinking, innovation, and 
-                    socioeconomic progress. Education systems vary, covering early 
-                    childhood education to lifelong learning, enabling individuals to 
-                    reach their potential and contribute to society.
-                </p>
+            <div class="sector11">
+                <div class="spoon-col1">
+                    <img src="assets/image/sector/box.svg">
+                </div>
+                <div class="spoon-col2">
+                    <div style="display: flex;">
+                        <p class="food-p1">
+                            <span class="exp-color">
+                            Wholesale
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="food-p2">
+                            Wholesale involves purchasing goods in bulk from manufacturers or 
+                            distributors and selling them in smaller quantities to retailers or 
+                            businesses. Wholesalers serve as intermediaries, facilitating cost-
+                            effective distribution and allowing producers to reach a broader 
+                            market while retailers access a diverse range of products at 
+                            discounted prices.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="sector16">
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/11.svg" style="margin-bottom: -80px;">
+            </div>
+            <div class="sector13">
+                <div class="spoon-col1">
+                    <img src="assets/image/sector/car.svg" style="margin-bottom: -80px;">
+                </div>
+                <div class="spoon-col2">
+                    <div style="display: flex;">
+                        <p class="food-p1">
+                            <span class="exp-color">
+                            Automotive
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="food-p2">
+                            The automotive industry involves designing, manufacturing, selling, 
+                            and maintaining motor vehicles. It includes cars, trucks, motorcycles, 
+                            and more, playing a vital role in the global economy. Constantly 
+                            evolving, the sector prioritizes technological advancements, 
+                            environmental sustainability, and safety to meet consumer demands 
+                            for efficient, safe, and eco-friendly transportation options.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+        <div style="display: flex; flex-direction:column">
+            <div class="sector4">   
+                <img src="assets/image/sector/12.svg" style="margin-bottom: -80px;">
+            </div>
+            <div class="sector15">
+                <div class="spoon-col1">
+                    <img src="assets/image/sector/edu.svg" style="margin-bottom: -80px;">
+                </div>
+                <div class="spoon-col2">
+                    <div style="display: flex;">
+                        <p class="food-p1">
+                            <span class="exp-color">
+                            Education
+                            </span>
+                        </p>
+                    </div>
+                    <div style="display: flex;">
+                        <p class="food-p2">
+                            Education is the acquisition of knowledge, skills, and values through 
+                            formal or informal methods. It empowers individuals for personal and 
+                            societal development, fostering critical thinking, innovation, and 
+                            socioeconomic progress. Education systems vary, covering early 
+                            childhood education to lifelong learning, enabling individuals to 
+                            reach their potential and contribute to society.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div class="sector16">
         <div>
             <p>Get Your Personalised Quote Today!</p>
         </div>
@@ -413,7 +429,7 @@
                 </a>
             </button>
         </div>
-    </div>
+    </div> --}}
 
 </div>
 @endsection

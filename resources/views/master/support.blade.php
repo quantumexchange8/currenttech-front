@@ -46,8 +46,8 @@
             <div class="support-row1">
                 <div class="sup-row1-cont">
                     <label>
-                        <input type="radio" name="pos" value="pos_system">
-                        <span class="custom-radio"></span>
+                        {{-- <input type="radio" name="pos" value="pos_system">
+                        <span class="custom-radio"></span> --}}
                         <span>POS System</span>
                     </label>
                     <br>
@@ -68,18 +68,18 @@
                     <div style="display: flex;justify-content: space-between;width: 310px;">
                         <div>
                             <label>
-                                <input type="radio" name="web" value="web"> 
-                                <span class="custom-radio"></span>
-                                <span>Web</span>
+                                {{-- <input type="radio" name="web" value="web"> 
+                                <span class="custom-radio"></span> --}}
+                                <span>Web / Application</span>
                             </label>
                         </div>
-                        <div>
+                        {{-- <div>
                             <label>
                                 <input type="radio" name="app" value="app"> 
                                 <span class="custom-radio"></span>
                                 <span>App</span>
                             </label>
-                        </div>
+                        </div> --}}
                     </div>
                     <br>
                     <label>
@@ -104,18 +104,18 @@
                     <div style="display: flex;justify-content: space-between;width: 430px">
                         <div>
                             <label>
-                                <input type="radio" name="ctrader" value="ctrader">
-                                <span class="custom-radio"></span>
-                                <span>cTrader</span>
+                                {{-- <input type="radio" name="ctrader" value="ctrader">
+                                <span class="custom-radio"></span> --}}
+                                <span>cTrader / Metaquote</span>
                             </label>
                         </div>
-                        <div>
+                        {{-- <div>
                             <label>
                                 <input type="radio" name="mt5" value="mt5"> 
                                 <span class="custom-radio"></span>
                                 <span>Metatrader 5</span>
                             </label>
-                        </div>
+                        </div> --}}
                     </div>
                     <br>
                     <label>
@@ -141,17 +141,10 @@
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
                         <div>
-                            <label>
-                                <input type="radio" name="prochip" value="prochip">
-                                <span class="custom-radio"></span>
-                                <span>Pro Chip</span>
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                <input type="radio" name="ultrachip" value="ultrachip">
-                                <span class="custom-radio"></span>
-                                <span>Ultra Chip</span>
+                            <label class="web3hide">
+                                {{-- <input type="radio" name="web3" value="web3"> 
+                                <span class="custom-radio"  style="opacity: 0;"></span> --}}
+                                <span>Pro Chip / Ultra Chip</span>
                             </label>
                         </div>
                     </div>
@@ -159,26 +152,26 @@
                     <label>
                         <input type="radio" name="medusa" value="medusa">
                         <span class="custom-radio"></span>
-                        <span>MEDUSA</span>
+                        <span>MEDUSA ROBOTECH</span>
                     </label>
                     <label>
                         <input type="radio" name="mercury" value="mercury">
                         <span class="custom-radio"></span>
-                        <span>MERCURY</span>
+                        <span>MERCURY ROBOTECH</span>
                     </label>
                     <label>
                         <input type="radio" name="ragnarok" value="ragnarok"> 
                         <span class="custom-radio"></span>
-                        <span>RAGNAROK</span>
+                        <span>RAGNAROK ROBOTECH</span>
                     </label>
                 </div>
             </div>
             <div class="support-row5">
                 <div class="sup-row1-cont">
                     <label class="web3hide">
-                        <input type="radio" name="web3" value="web3"> 
-                        <span class="custom-radio"  style="opacity: 0;"></span>
-                        <span >Web 3.0</span>
+                        {{-- <input type="radio" name="web3" value="web3"> 
+                        <span class="custom-radio"  style="opacity: 0;"></span> --}}
+                        <span >WEB 3.0</span>
                     </label>
                     <br>
                     <label>
@@ -197,17 +190,10 @@
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
                         <div>
-                            <label>
-                                <input type="radio" name="intern" value="intern"> 
-                                <span class="custom-radio"></span>
-                                <span>Internship</span>
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                <input type="radio" name="fulltime" value="fulltime">
-                                <span class="custom-radio"></span>
-                                <span>Full-Time</span>
+                            <label class="web3hide">
+                                {{-- <input type="radio" name="web3" value="web3"> 
+                                <span class="custom-radio"  style="opacity: 0;"></span> --}}
+                                <span >Career</span>
                             </label>
                         </div>
                     </div>
@@ -247,16 +233,19 @@
         </div>
     </div>
 
-    <form>
-        <div class="support4">
+    <div class="support4">
+        <div class="left-input">
+            <textarea class="sup-form-control large-textarea" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
+        </div>
+        <div class="right-input">
             <input type="text" class="sup-form-control" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
             <input type="text" class="sup-form-control" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
             <input type="email" class="sup-form-control" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">            
-            <button class="btn-sup-submit">
-                <span>Submit</span>
-            </button>
         </div>
-    </form>
+    </div>
+        <button class="btn-sup-submit">
+            <span>Submit</span>
+        </button>
 </div>
 <script>
     function clearPlaceholder(element) {
