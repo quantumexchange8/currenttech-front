@@ -192,7 +192,8 @@
 
         <div class="work-container-1">
             <div class="work-container-1-2">
-                <div><p class="step1-p">Step 1</p></div>
+                <div><p class="step1-p">
+                    Step 1</p></div>
                 <div>
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
@@ -610,7 +611,29 @@
             <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
         </div>
     </div> --}}
-
+    <div class="main-content7">
+        <div class="web3-8">
+            <p class="create-p">
+                Discovering Miracles of the Future 
+                Leading the Digital World
+            </p>
+        </div>
+        <div class="web3-8" style="margin-bottom:96px">
+            <p class="create-p2">
+                Cryptocurrency, the marvel born in the information age, is emerging at an 
+                astonishing pace, and its future is brimming with boundless possibilities. In this wave
+                 of digital revolution, cryptocurrency is poised to become the shining star of the financial 
+                 world, leading us towards an unprecedented tomorrow.
+            </p>
+        </div>
+    </div>
+    {{-- <div class="web3-marquee" style="margin-top: 66px;"> --}}
+        <div class="web3-marquee-content">
+            <div class="web3-marquee-item">
+                <img src="assets/image/product/web3/crypto.svg">
+            </div>
+        </div>
+    {{-- </div> --}}
     <div class="joinnow-row">
         <div class="join-container">
             <div class="inline-display">
