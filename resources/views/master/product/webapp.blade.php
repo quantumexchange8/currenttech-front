@@ -966,7 +966,7 @@
             </div>
         </div>
     </div>
-    <div class="main-content18" style="margin-top: 155px;">
+    <div class="main-content18" style="margin-top: 10px;">
         <div class="detail-3">
             <div class="detail-marquee-content" style="display: flex">
                 <div class="detail-marquee-item" style="margin-right: 10px;">
