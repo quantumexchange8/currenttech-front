@@ -11,10 +11,8 @@
             font-size: 46px !important;
         }
     }
-    
 </style>
     <div class="main-content">
-
         <div class="techmain-1">
             <div>
                 <img src="/assets/image/home/vr.svg">
@@ -24,13 +22,21 @@
                 <br>
                 <p class="techp-content">
                     is the key to unlocking a sustainable <br>
+                    and prosperous future. Through <br>
+                    innovation and technological <br>
+                    advancements. Technology has <br>
+                    ushered in an era of intelligence, <br>
+                    automation, and digitization, <br>
+                    propelling the transformation and <br>
+                    upgrading of industries.
+                    {{-- is the key to unlocking a sustainable <br>
                     and prosperous <span class="future">future</span>. Through <br>
                     innovation and technological <br>
                     advancements. Technology has <br>
                     ushered in an era of <span class="intell">intelligence</span>, <br>
                     automation, and digitization, <br>
                     propelling the transformation and <br>
-                    upgrading of industries.
+                    upgrading of industries. --}}
                 </p>
             </div>
         </div>
@@ -43,13 +49,14 @@
             <img src="/assets/image/home/service.svg" class="service-image">
 
             <p class="unleash">
-                Unleash <span class="lightning-fast">lightning-fast speed</span> with our optimized services. Say goodbye to <span class="loading-time">loading times</span> and buffering, and embrace seamless connectivity <br>
+                {{-- Unleash <span class="lightning-fast">lightning-fast speed</span> with our optimized services. Say goodbye to <span class="loading-time">loading times</span> and buffering, and embrace seamless connectivity <br>
+                for a superior online experience. --}}
+                Unleash lightning-fast speed with our optimized services. Say goodbye to loading times and buffering, and embrace seamless connectivity 
                 for a superior online experience.
             </p>
 
             <div class="development">
                 <div class="dev-row1">
-
                     <div class="dev-col1">
                         <div class="software">
                             <div class="software-row1">
@@ -131,7 +138,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="dev-row2">
@@ -229,10 +235,14 @@
             <img src="/assets/image/home/vision.png" style="width: 100%;">
 
             <p class="vision-content">
-                Welcome to the era of <span class="vision-color">vision</span>. Embark on a journey through the realms of 
+                Welcome to the era of vision. Embark on a journey through the realms of 
+                boundless creativity and innovation. Discover how technology unlocks the 
+                power of imagination, reshaping our world with visionary possibilities and 
+                endless horizons of imagination.
+                {{-- Welcome to the era of <span class="vision-color">vision</span>. Embark on a journey through the realms of 
                 boundless <span class="creativity-color">creativity</span> and innovation. Discover how technology unlocks the 
                 power of imagination, <span class="reshap-color">reshaping our world</span> with visionary possibilities and 
-                endless horizons of imagination.
+                endless horizons of imagination. --}}
             </p>
         </div>
 

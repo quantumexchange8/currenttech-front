@@ -1448,6 +1448,28 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 1100px) {
+    .software {
+    margin-left: -300px;
+    }
+    .website {
+    margin-left: -300px;
+    }
+    .mobile {
+    margin-left: -300px;
+    }
+    .expert {
+    margin-left: -300px;
+    }
+    .pos {
+    margin-left: -300px;
+    }
+    .support {
+    margin-left: -300px;
+    }
+    
+}
+
 .software-row2 {
     display: flex;
     align-items: center;
@@ -1505,16 +1527,15 @@ body {
 }
 
 .software-p {
-    width: 185px;
+    width: 176px;
     height: 56px;
     color: #FFF;
     font-family: SF Pro Text;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; /* 112% */
     text-align: left;
-    align-items: center;
+    line-height: 22px; /* 112% */
     margin-left: 18px;
 }
 
@@ -1725,6 +1746,20 @@ body {
     font-weight: 500;
     line-height: 85px; /* 113.636% */
     width: 900px;
+}
+
+@media screen and (max-width: 1100px){
+    .spect-p {
+        color: #FFF;
+        text-align: center;
+        font-family: SF Pro Text;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 85px; /* 113.636% */
+        width: 900px;
+        margin-bottom: 150px;
+    }
 }
 
 .spec-row1 {
@@ -2846,8 +2881,8 @@ body {
     background: #FFF;
 }
 .getstart-container22 {
-    width: 1040px;
-    height: 1010px;
+    width: 1093px;
+    height: 1093px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
@@ -4602,6 +4637,8 @@ body {
     color: white;
     font-size: 18px;
     font-family: SF Pro Text;
+    /* margin-left: 20px; */
+    margin-top: 10px;
 }
 
 .develop6 {
@@ -4665,6 +4702,15 @@ body {
 .effective img {
     width: 670px;
 }
+
+.vertical-line {
+    border-left: 1px solid #ffffff; /* Adjust the color as needed */
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 
 .effective p {
     display: flex;
@@ -5522,6 +5568,8 @@ body {
 .sector5 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector6 {
@@ -5531,6 +5579,8 @@ body {
 .sector7 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector8 {
@@ -5540,6 +5590,8 @@ body {
 .sector9 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector10 {
@@ -5549,6 +5601,8 @@ body {
 .sector11 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector12 {
@@ -5558,6 +5612,8 @@ body {
 .sector13 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector14 {
@@ -5567,6 +5623,8 @@ body {
 .sector15 {
     display: flex;
     margin-bottom: 138px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sector16 {
@@ -5592,12 +5650,12 @@ body {
 }
 
 .retail-p1 {
-    color: #FFF;
+    color: #BD00FF;
     font-family: SF Pro Text;
-    font-size: 28px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
-    line-height: normal;
+    font-weight: 700;
+    line-height: 42.96px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 88px;
@@ -5606,9 +5664,9 @@ body {
 .retail-p2 {
     color: #060606;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 30px; /* 125% */
     margin-left: 88px;
     width: 670px;
@@ -5616,11 +5674,11 @@ body {
 }
 
 .food-p1 {
-    color: #FFF;
+    color: #BD00FF;
     font-family: SF Pro Text;
-    font-size: 28px;
+    font-size: 36px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -5630,9 +5688,9 @@ body {
 .food-p2 {
     color: #000000;
     font-family: SF Pro Text;
-    font-size: 19px;
+    font-size: 24px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
     line-height: 30px; /* 125% */
     margin-left: 88px;
     width: 700px;
@@ -6358,7 +6416,7 @@ body {
 
 /* mobile view */
 .nav2 {
-    margin-top: 140px
+    margin-top: 10px
 }
 .small-nav-toggle {
     display: none;
@@ -6382,12 +6440,13 @@ body {
 
 .small-nav .nav2 ul li a {
     display: block;
-    padding: 25px 24px;
+    padding: 15px 24px;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.2s ease;
     font-size: 25px;
     font-family: SF Pro Text;
+    font-weight: 700;
 }
 
 .small-nav .nav2 ul li a:hover {
@@ -6402,8 +6461,8 @@ body {
 
     .small-nav-toggle {
         display: block;
-        padding: 15px;
-        border: 2px white solid;
+        padding: 20px;
+        /* border: 2px white solid; */
         border-radius: 50%;
         position: fixed; /* Set the position to fixed */
         top: 35px;
@@ -6412,23 +6471,49 @@ body {
     }
 
     .small-nav {
+        padding: 20px 20px 0 20px;
         display: block;
         position: absolute;
-        top: 0;
-        left: -360px; /* Hide the small navigation initially */
-        width: 360px;
-        height: 100vh;
+        top: 7vh;
+        left: 35px;
+        width: 240px;
+        height: 17vh;
         background-color: #333;
-        transition: left 0.3s ease;
+        border-radius: 40px;
+        opacity: 0; /* Start with opacity set to 0 */
+        visibility: hidden; /* Start with visibility hidden */
+        transition: opacity 0.3s ease, visibility 0.3s ease; /* Add transition for opacity and visibility */
         z-index: 998;
         position: fixed;
-        overflow-y: auto; /* Add scrollbar if content overflows */
-        transition: left 0.3s ease; /* Add transition for 'left' property */
+        overflow-y: auto;
     }
-
+    
+    .smallnav-act.mobile-hidden {
+        display: none;
+    }
+    
     .small-nav.open {
-        left: 0; /* Show the small navigation when open class is added */
-        
+        opacity: 1; /* Set opacity to 1 to make it visible */
+        visibility: visible; /* Set visibility to visible */
+    }
+    .nav-wording2 {
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 9px;
+        font-weight: 300;
+    }
+    
+    .nav-wordingAct {
+        color: #BD00FF;
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 9px;
     }
 }
 
@@ -6446,7 +6531,7 @@ body {
 
 @media screen and (max-width: 1280px) {
     .main-content {
-        margin: 10px;
+        margin: 50px;
         width: auto;
     }
 
@@ -6536,6 +6621,7 @@ body {
         width: 100%;
         height: auto;
         margin-top: 0px;
+        margin-bottom: 1300px;
     }
 
     .center-service img {
@@ -6550,9 +6636,9 @@ body {
     }
 
     .center-service .unleash {
-        width: 100%;
+        width: 90%;
         height: auto;
-        font-size: 20px;
+        font-size: 30px;
     }
     .center-service .lightning-fast {
         font-size: 20px;
@@ -6562,19 +6648,29 @@ body {
     }
 
     .center-service .software-content {
-        font-size: 16px;
+        font-size: 26px;
+        width: 700px;
+        line-height: 30px;
     }
     .center-service .website-content {
-        font-size: 16px;
+        font-size: 26px;
+        width: 700px;
+        line-height: 30px;
     }
     .center-service .mobile-content {
-        font-size: 16px;
+        font-size: 26px;
+        width: 700px;
+        line-height: 30px;
     }
     .center-service .pos-content {
-        font-size: 16px;
+        font-size: 26px;
+        width: 700px;
+        line-height: 30px;
     }
     .center-service .support-content {
-        font-size: 16px;
+        font-size: 26px;
+        width: 700px;
+        line-height: 30px;
     }
     .center-vision {
         width: 100%;
@@ -6594,7 +6690,9 @@ body {
     }
 
     .center-vision .vision-content {
-        font-size: 20px;
+        font-size: 30px;
+        text-align: left;
+        font-weight: 400;
     }
     .center-vision .vision-color {
         font-size: 20px;
@@ -6744,19 +6842,28 @@ body {
         justify-content: center;
     }
     .dev-col1 {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 0px;
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
     .dev-col2 {
         margin-top: 6px;
         margin-bottom: 6px;
         margin-left: 0px;
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
     .dev-col3 {
         margin-top: 6px;
         margin-bottom: 6px;
         margin-left: 0px;
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
     .dev-col4 {
         margin-top: 0px;
@@ -6764,14 +6871,20 @@ body {
         margin-right: 0px;
         margin-left: 6px;
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
     .dev-col5 {
         margin-top: 6px;
         margin-bottom: 6px;
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
     .dev-col6 {
         height: 340px;
+        width: 840px;
+        margin-left: 50px;
     }
 
     .spectacular {
