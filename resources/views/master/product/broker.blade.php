@@ -2,6 +2,10 @@
 @section('content')
 
 <style>
+    .vertical-line {
+        border-left: 1px solid #000; /* Adjust the color and width as needed */
+    height: 100%;
+}
     .broker1 {
         text-align: center;
         margin-bottom: 36px;
@@ -529,13 +533,19 @@
     {{-- <div class="broker9">
         <p class="feature-p">Features</p>
     </div> --}}
-
     <div class="develop55">
         <div class="effective-container">
             <div class="effective">
                 <table>
                     <tr>
-                        <td style="padding-left: 150px;">
+                        <div style="padding: 50px;">
+                            <img src="assets/image/product/broker/5.svg" style="width: 100px; height: 100px;">
+                            <div class="developtext">
+                                cTrader <br> Brokerage Setup
+                            </div>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
                             </div>
@@ -569,7 +579,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding-left: 150px;">
+                        <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/13.svg" style="width: 100px; height: 80px;">
                             </div>
@@ -612,7 +622,13 @@
             <div class="effective">
                 <table>
                     <tr>
-                        <td style="padding-left: 150px;">
+                        <div style="padding: 50px;">
+                            <img src="assets/image/product/broker/6.svg" style="width: 100px; height: 100px;">
+                            <div class="developtext">
+                                Meta Trader Brokerage Setup
+                            </div>
+                        </div>
+                        <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
                             </div>
@@ -646,7 +662,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding-left: 150px;">
+                        <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/13.svg" style="width: 100px; height: 80px;">
                             </div>

@@ -81,14 +81,14 @@
         }
     }
 
-    @media screen and (min-width: 1800px) {
+    /* @media screen and (min-width: 1800px) {
         .sector1 {
-            /* margin-left: 350px;
-            margin-right: 350px; */
+            margin-left: 350px;
+            margin-right: 350px;
         }
         .sector1 p {
-            /* margin-left: 350px;
-            margin-right: 350px; */
+            margin-left: 350px;
+            margin-right: 350px;
         }
 
         .sector3 {
@@ -127,7 +127,7 @@
             margin-left: 350px;
             margin-right: 350px;
         }
-    }
+    } */
 
 </style>
 
@@ -152,7 +152,7 @@
     <div class="sector-marquee-content">
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.svg" style="width:850px">
+                <img src="assets/image/sector/1.svg" style="width:850px;">
                 <div class="sector-text-overlay">
                     <p>
                         Retail & Service
@@ -228,21 +228,21 @@
             Our Solution's Influence on all Sector
         </p>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/7.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/7.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector5">
                 <div class="cart-col1">
-                    <img src="assets/image/sector/cart.svg">
+                    <img src="assets/image/sector/cart.svg" style="margin-top: 100px;">
                 </div>
                 <div class="cart-col2">
                     <div style="display: flex;">
                         <p class="retail-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Retail & Service
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
@@ -259,21 +259,21 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/8.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/8.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector7">
                 <div class="spoon-col1">
-                    <img src="assets/image/sector/spoon.svg">
+                    <img src="assets/image/sector/spoon.svg" style="margin-top: 100px;">
                 </div>
                 <div class="spoon-col2">
                     <div style="display: flex;">
                         <p class="food-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Food & Beverage
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
@@ -290,21 +290,21 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/9.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/9.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector9">
                 <div class="spoon-col1">
-                    <img src="assets/image/sector/ferry.svg">
+                    <img src="assets/image/sector/ferry.svg" style="margin-top: 100px;">
                 </div>
                 <div class="spoon-col2">
                     <div style="display: flex;">
                         <p class="food-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Logistic
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
@@ -322,21 +322,21 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/10.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/10.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector11">
                 <div class="spoon-col1">
-                    <img src="assets/image/sector/box.svg">
+                    <img src="assets/image/sector/box.svg" style="margin-top: 100px;">
                 </div>
                 <div class="spoon-col2">
                     <div style="display: flex;">
                         <p class="food-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Wholesale
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
@@ -354,21 +354,21 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/11.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/11.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector13">
                 <div class="spoon-col1">
-                    <img src="assets/image/sector/car.svg" style="margin-bottom: -80px;">
+                    <img src="assets/image/sector/car.svg" style="margin-top: 100px;">
                 </div>
                 <div class="spoon-col2">
                     <div style="display: flex;">
                         <p class="food-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Automotive
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
@@ -386,21 +386,21 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/12.svg" style="margin-bottom: -80px;">
+                <img src="assets/image/sector/12.svg" style="margin-bottom: -80px; margin-top: 25px;">
             </div>
             <div class="sector15">
                 <div class="spoon-col1">
-                    <img src="assets/image/sector/edu.svg" style="margin-bottom: -80px;">
+                    <img src="assets/image/sector/edu.svg" style="margin-top: 100px;">
                 </div>
                 <div class="spoon-col2">
                     <div style="display: flex;">
                         <p class="food-p1">
-                            <span class="exp-color">
+                            {{-- <span class="exp-color"> --}}
                             Education
-                            </span>
+                            {{-- </span> --}}
                         </p>
                     </div>
                     <div style="display: flex;">
