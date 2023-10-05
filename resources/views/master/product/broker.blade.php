@@ -73,7 +73,18 @@
     .broker12 {
         width: 100%;
     }
+
+    hr {
+            height: 400px;
+            width: 0px;
+            color: #666666;
+        }
+
     @media screen and (max-width: 1280px) {
+        .build-p {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
         .broker1 {
             width: 100%;
             height: auto;
@@ -94,6 +105,7 @@
             height: auto;
         }
         .broker4 {
+            margin-left: -100px;
             width: 100%;
             height: auto;
         }
@@ -104,44 +116,56 @@
             justify-content: center;
         }
         .broker6 {
-            width: 100%;
+            width: 85%;
             height: auto;
+            margin-right: 20px;
         }
         .broker7 {
-            width: 100%;
+            width: 85%;
             height: auto;
+            margin-right: 20px;
         }
         .broker8 {
-            width: 100%;
+            width: 85%;
             height: auto;
+            margin-right: 20px;
         }
         .broker9 {
             width: 100%;
             height: auto;
+            margin-right: 20px;
         }
         .broker10 {
             width: 100%;
             height: auto;
+            margin-right: 20px;
         }
         .broker10 p {
-            /* width: 100%;
-            height: auto; */
+            width: 85%;
+            margin-left: 100px;
         }
         .cont {
             width: 100%;
+            height: 320px;
+            margin-bottom: 100px;
         }
         .cont img {
-            width: 400px;
-            margin-left: 20px;
+            width: 450px;
+            height: 450px;
+            margin-left: -20px;
+            margin-top: -40px;
+
         }
         .cont-2-1 {
             width: 100%;
+            height: 320px;
+            margin-bottom: 100px;
         }
         .cont-2-1 img {
-            width: 450px;
-            height: 450px;
-            margin-left: 20px;
-            margin-top: -60px;
+            width: 400px;
+            height: 400px;
+            margin-left: -70px;
+            margin-top: -40px;
         }
         .ct-box {
             margin-left: 40px;
@@ -157,19 +181,22 @@
 
         .cont2-2 {
             width: 100%;
+            height: 320px;
         }
         .cont2-2 img {
-            width: 450px;
-            height: 450px;
-            margin-left: 20px;
-            margin-top: -60px;
+            width: 350px;
+            height: 350px;
+            margin-left: 10px;
+            margin-top: -40px;
         }
         .package-p {
             width: 100%;
         }
         .package-p2 {
-            width: 100%;
-            font-size: 14px;
+            width: 85%;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 40px;
         }
         .getstart-container {
 
@@ -178,10 +205,12 @@
             width: 100%;
         }
         .quota-p {
-            width: 100%;
+            width: 80%;
+            margin-left: 80px;
         }
         .personalise-container {
             width: 100%;
+            display: none;
         }
         .personalise-container img {
             width: 400px;
@@ -189,10 +218,15 @@
             margin-left: -15px;
         }
         .build2 {
-            font-size: 14px;
+            font-size: 19px;
+            width: 90%;
         }
         .broker-p2 {
-            font-size: 14px;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 70px;
+            margin-right: 10px;
+            width: 100%;
         }
         .getinfo-align {
             margin-top: -50px;
@@ -217,6 +251,47 @@
         }
         .getstart-p2 {
             font-size: 14px;
+        }
+        .effective {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 693px;
+            height: 1200px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+            color: #BD00FF;
+            border-radius: 50px;
+        }
+
+        tr {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 10px; 
+            border: none;
+        }
+
+        th, td {
+            width: calc(50% - 2px); 
+            text-align: center;
+            box-sizing: border-box;
+            padding: 0px;
+            border: none;
+        }   
+
+        .line2 {
+            display: none;
+        }
+
+        hr {
+            width: 70%;
+            color: #666666;
+            height: 1px;
+        }
+        .effective-container {
+            margin-bottom: 700px;
         }
     }
 
@@ -444,7 +519,7 @@
             <div class="ct-box">
                 <p class="ct-p">
                     <span class="exp-color">
-                    CT White Label Solutions
+                    White Label Solutions
                     </span>
                 </p>
                 <p class="ct-p2">
@@ -458,7 +533,6 @@
     </div>
     <div class="broker7">
         <div class="cont-2-1">
-            
             <div class="ct-box2">
                 <p class="ct-p4">
                     <span class="exp-color">
@@ -495,8 +569,6 @@
         </div>
     </div>
     
-
-
     <div style="display: flex;justify-content:center;flex-direction:column;margin-bottom: 80px;">
         <div>
             <p class="package-p">
@@ -544,7 +616,7 @@
                                 cTrader <br> Brokerage Setup
                             </div>
                         </div>
-                        <div class="vertical-line"></div>
+                        <hr>
                         <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
@@ -625,9 +697,10 @@
                         <div style="padding: 50px;">
                             <img src="assets/image/product/broker/6.svg" style="width: 100px; height: 100px;">
                             <div class="developtext">
-                                Meta Trader Brokerage Setup
+                                Meta Trader <br> Brokerage Setup
                             </div>
                         </div>
+                        <hr>
                         <td style="padding: 50px;">
                             <div style="text-align: center;">
                                 <img src="assets/image/product/broker/7.svg" style="width: 100px; height: 80px;">
@@ -855,7 +928,7 @@
                         <span class="exp-color">
                             CONTACT
                         </span>
-                        </p>
+                    </p>
                     <p class="contact-p2">
                         Reach out to us today for any questions or
                         support related to our competitively priced
@@ -874,7 +947,7 @@
                 </div> --}}
             </div>
         </div>
-        <div class="getstart-container2" style="margin-bottom:28.73px;margin-left:14px">
+        <div class="getstart-container3" style="margin-bottom:28.73px;margin-left:14px">
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">
                     <p class="contact-p">
@@ -902,7 +975,7 @@
         </div>
     </div>
 
-    <div style="display: flex">
+    <div class="broker11" style="display: flex">
         <div class="getstart-container2" style="margin-right:28.73px">
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:36px">

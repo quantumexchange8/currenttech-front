@@ -176,7 +176,7 @@
     }
 
     .webappfont {
-        color: #888;
+        color: #ffffff;
         font-family: SF Pro;
         font-size: 14px;
         margin: 0;
@@ -268,50 +268,25 @@
     }
 
     @media screen and (max-width: 1280px) {
-    /* .detail-4 p{
-        margin-top: 50px;
-    }
-    .detail-4 img {
-        max-width: 100%;
-    }
+        .detail-4 {
+            display: none;
+        }
+        .detail-7 {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
 
-    .detail-5 {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px; 
-    }
+        .detail-social-cont {
+            /* margin: 0;  */
+            margin-bottom: 20px; 
+            text-align: center;
+            width: 100%
 
-    .detail-5 .details-p {
-        font-size: 10px; 
-        max-width: 86%;
-    }
-
-    .detail-6 .detail-heading,
-    .detail-6 li {
-        font-size: 10px;
-    }
-
-    .detail-heading2 {
-        font-size: 13px; 
-    }
-    .detail-container1 {
-        max-width: 100%;
-    }
-    .detail-1 p{
-        font-size: 20px;
-    }
-    .detail-row1 {
-        display: flex;
-        margin-left: -450px;
-    }
-    .detail-container1,
-    .detail-container2,
-    .detail-container3 {
-        width: 32%;
-    } */
+        }
+        .line1 {
+            display: none;
+        }
         .webapp1 {
             width: 100%;
             height: auto;
@@ -339,7 +314,7 @@
             max-width: 100%;
         }
         .webappfont {
-        font-size: 10px; 
+            font-size: 10px; 
         }
         .webapp4 {
             width: 100%;
@@ -348,9 +323,9 @@
         }
 
         .webapp4 p {
-            width: 100%;
+            width: 80%;
             height: auto;
-            font-size: 16px;
+            font-size: 25px;
         }
 
         .webapp5 {
@@ -381,39 +356,76 @@
             width: 100%;
             height: auto;
         }
+
         .ecomm-tem {
             display: flex;
-            flex-direction: row;
-            width: 100%;
+            flex-direction: column;
+            align-items: center; 
         }
+
+        .webapp7, .webapp8 {
+            width: 100%; 
+            margin-bottom: 20px; 
+        }
+
         .webapp7 {
             width: 100%;
             height: auto;
             margin-top: 0px;
             flex-direction: column;
             align-items: flex-start;
-            margin-left: 10px;
+            margin-left: -300px;
+        }
+        .product-img {
+            margin-right: -200px;
+            width: 150px;
         }
         .webapp8 {
             width: 100%;
             height: auto;
             margin-top: 0px;
             flex-direction: column;
-            margin-left: 10px;
+            margin-left: -300px;
         }
         .webapp9 p {
             font-size: 16px;
         }
         .webapp10 {
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 40px; 
+            margin-left: -40px;
+        }
+
+        .webapp10 > div {
+            width: 100%; 
+            margin-right: 0; 
+            margin-bottom: 20px;
         }
 
         .webapp10 img {
             width: 100%;
             height: auto;
             max-width: 100%;
+        }
+
+        .embrace-p {
+            margin-bottom: -20px;
+            margin-left: 90px;
+        }
+
+        .transform-p {
+            margin-top: 20px;
+            margin-left: 70px;
+        }
+
+        .eye {
+            width: 40px !important;
+        }
+
+        .webappfont {
+            font-size: 20px;
+            color: #FFF;
         }
 
         .webapp11 {
@@ -448,6 +460,20 @@
             height: auto;
             max-width: 100%;
         }
+        .ecorm {
+            width: 100%;
+            margin-left: 90px;
+            margin-bottom: 20px;
+        }
+        .ecormm {
+            width: 100%;
+            margin-left: 90px;
+            margin-top: -6px;
+        }
+        .text-container {
+            max-width: 75%; /* Adjust the max-width as needed */
+            margin-left: 0px;
+}
         .ecomm-margin {
             display: flex;   
             flex-direction:column;
@@ -472,6 +498,7 @@
         }
         .clothing {
             font-size: 14px;
+            width: 100%;
         }
         .powerhouse-p2 {
             font-size: 12px;
@@ -654,7 +681,7 @@
         <img src="assets/image/product/webapp/1.svg" style="margin-bottom: 140px">
     </div>
      
-     <div class="line1"></div>
+     <div class="line2"></div>
 
      <div class="webapp4">
         <p class="embrace-p">
@@ -808,9 +835,7 @@
         </div>
     </div>
 
-    
-
-    <div class="line1" style="margin-top:66px"></div>
+    <div class="line2" style="margin-top:66px"></div>
 
     {{-- <div class="webapp9" style="width: 1507px;">
         <p class="modern-p">
@@ -848,12 +873,12 @@
     </div>
     <div class="webapp6">
         <div class="temp">
-            <div>
+            <div class="text-container">
                 <p class="ecormm">Unlock the ultimate potential of your online presence with our 
                     premium web template products! Stay on the cutting edge with 
-                    trending designs, unrivalled functionality, and seamless 
-                    customisation options. Elevate your website today!</p>
-            </div>
+                    trending designs, unrivaled functionality, and seamless 
+                    customization options. Elevate your website today!</p>
+            </div>            
             {{-- <div>
                 <a href="{{ route('seeall') }}" class="view-more">View More</a>
             </div> --}}
@@ -875,14 +900,14 @@
                     Template Solution
                 </p>
                 <br>
-                <p style="color: #888;
+                <p class="template" style="color: #888;
                     font-family: SF Pro;
-                    font-size: 10px;margin:0">
+                    font-size: 14px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
-                    <img src="assets/image/product/seeall/eye.svg">
+                    <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
@@ -903,12 +928,12 @@
                 <br>
                 <p style="color: #888;
                     font-family: SF Pro;
-                    font-size: 10px;margin:0">
+                    font-size: 14px;margin:0">
                      Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
-                    <img src="assets/image/product/seeall/eye.svg">
+                    <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
@@ -929,12 +954,12 @@
                 <br>
                 <p style="color: #888;
                     font-family: SF Pro;
-                    font-size: 10px;margin:0">
+                    font-size: 14px;margin:0">
                     Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
-                    <img src="assets/image/product/seeall/eye.svg">
+                    <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
@@ -955,17 +980,39 @@
                 <br>
                 <p style="color: #888;
                     font-family: SF Pro;
-                    font-size: 10px;margin:0">
+                    font-size: 14px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
-                    <img src="assets/image/product/seeall/eye.svg">
+                    <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="home-marqueee" style="margin-bottom: 60px;">
+        <div class="marquee-content">
+            {{-- <div class="detail-3"> --}}
+                {{-- <div class="detail-marquee-content" style="display: flex"> --}}
+                    <div class="marquee-item">
+                        <img src="assets/image/product/detail/1.png" class="img-max-width">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/image/product/detail/2.png" class="img-max-width">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/image/product/detail/3.png" class="img-max-width">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/image/product/detail/4.png" class="img-max-width">
+                    </div> 
+                {{-- </div> --}}
+            {{-- </div>   --}}
+        </div>    
+    </div>
+
     <div class="main-content18" style="margin-top: 10px;">
         <div class="detail-3">
             <div class="detail-marquee-content" style="display: flex">
@@ -985,9 +1032,7 @@
         </div>      
     </div>
 
-    
-
-    <div class="line1" style="margin-top:66px"></div>
+    <div class="line2" style="margin-top:66px"></div>
 
     <div class="webapp4">
         <p class="transform-p">
@@ -1131,8 +1176,6 @@
             </div>
         </div>
     </div> --}}
-
-    
 
     {{-- <div class="line1" style="margin-top:66px"></div> --}}
 
@@ -1634,7 +1677,7 @@
                 <div style="color: #FFF;
                 font-family: SF Pro Text;
                 font-size: 20px;">
-                    Email Support
+                    Email Support Get Quote
                 </div>
                 <div style="color: #888;
                 text-align: center;

@@ -21,7 +21,7 @@
 
     .pos-row5 {
         text-align: center;
-        margin-bottom: 170px;
+        margin-bottom: 100px;
         display: flex;
         align-items: center;
     }
@@ -99,6 +99,7 @@
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-bottom: -50px;
         }
         .pos-row1 p {
             width: 100%;
@@ -108,21 +109,27 @@
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-left: 85px;
         }
         .pos-row4 p {
-            width: 100%;
+            margin-top: 100px;
+            width: 80%;
             height: auto;
+            text-align: left
         }
         .ignite-p1 {
-            font-size: 26px;
+            font-size: 36px;
         }
         .streamline-p {
-            font-size: 10px;
+            font-size: 16px;
+            text-align: left
         }
         .pos-row5 {
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-left: 85px;
+            margin-right: 110px;
         }
         .pos-row5 p {
             width: 100%;
@@ -132,15 +139,20 @@
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-left: 40px;
         }
         .pos-row6 p {
-            width: 100%;
+            width: 90%;
             height: auto;
+            margin-left: 80px;
+            margin-right: 110px;
         }
         .pos-row7 {
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-left: 80px;
+            margin-right: 110px;
         }
         .pos-row7 p {
             width: 100%;
@@ -164,16 +176,25 @@
         .pos-row10 p {
             width: 100%;
             height: auto;
-            margin-top: 0px;
+            margin-top: 100px;
+            text-align: left;
+            margin-left: 80px;
+            margin-right: 80px;
         }
-        .pos-row11{
-            width: 100%;
-            height: auto;
+        .pos-row11 {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        .pos-row11 div {
+            margin: 10px 0; 
+            text-align: center;
         }
         .pos-row11 img {
-            width: 100%;
+            /* width: 100%;
             height: auto;
-            max-width: 100%;
+            max-width: 100%; */
         }
         .std-image {
             /* margin-right: 10px; */
@@ -188,12 +209,17 @@
 
         .software-p1 {
             font-size: 32px;
+            margin-left: 200px;
         }
         .software-p2 {
-            font-size: 20px;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 34px;
+            
         }
         .st-icon {
-            width:146px;
+            width:50px;
+            margin-top: -100px;
         }
         .simplify-p {
             font-size: 37px;
@@ -201,7 +227,8 @@
         }
 
         .simplify-p2 {
-            font-size: 10px;
+            font-size: 12px;
+            line-height: 18px;
             
         }
     }
@@ -258,9 +285,10 @@
             height: auto;
         }
         .pos-row11 img {
-            width: 100%;
+            width: 700px;
             height: auto;
-            max-width: 100%;
+            margin-bottom: 80px;
+            /* max-width: 100%; */
         }
     }
 
@@ -350,8 +378,9 @@
     }
     @media screen and (max-width: 1257px) {
         .pos-row3 img{
-            width: 100%;
+            width: 90%;
             height: auto;
+            margin-left: 100px;
         }
     }
     @media screen and (max-width: 1728px) {
@@ -398,9 +427,9 @@
             <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
                 <div><p class="software-p1">Software</p></div>
                 <div>
-                    <p class="software-p2">Software offers intuitive and customizable features<br>
-                        like inventory management, sales analytics, payment processing,<br>
-                        and CRM integration, ensuring efficient and secure operations for<br>
+                    <p class="software-p2">Software offers intuitive and customizable features
+                        like inventory management, sales analytics, payment processing,
+                        and CRM integration, ensuring efficient and secure operations for
                         businesses of all sizes.
                     </p>
                 </div>
@@ -413,9 +442,9 @@
             <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
                 <div><p class="software-p1">Hardware</p></div>
                 <div>
-                    <p class="software-p2">Hardware offers durable and reliable components,<br>
-                        including touchscreen interface, fast barcode scanning, secure <br>
-                        payment processing, integration capabilities, and easy maintenance<br>
+                    <p class="software-p2">Hardware offers durable and reliable components,
+                        including touchscreen interface, fast barcode scanning, secure 
+                        payment processing, integration capabilities, and easy maintenance
                         for streamlined and efficient operations.
                     </p>
                 </div>
@@ -479,9 +508,9 @@
         <div style="margin-right: 20px;">
             <img src="assets/image/product/pos/10.svg" class="std-image">
         </div>
-        {{-- <div style="margin-left: 20px;">
+        <div style="margin-left: 20px;">
             <img src="assets/image/product/pos/11.svg" class="adv-image">
-        </div> --}}
+        </div>
     </div>
     
 </div>

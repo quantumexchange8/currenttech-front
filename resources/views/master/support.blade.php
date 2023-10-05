@@ -3,6 +3,10 @@
 
 <style>
     @media screen and (max-width: 1268px) {
+        .support2 img {
+            border-radius: 20px;
+            width: 900px;
+        }
         .support3 {
             width: 100%;
         }
@@ -41,6 +45,8 @@
         <img src="assets/image/support.png">
     </div>
 
+    <div class="line1"></div>
+    
     <div class="support3">
         <div class="support-col1">
             <div class="support-row1">
@@ -63,6 +69,7 @@
                     </label>
                 </div>
             </div>
+            <div class="line1"></div>
             <div class="support-row2">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 310px;">
@@ -99,6 +106,7 @@
                     </label>
                 </div>
             </div>
+            <div class="line1"></div>
             <div class="support-row3">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
@@ -135,6 +143,7 @@
                     </label>
                 </div>
             </div>
+            <div class="line1"></div>
         </div>
         <div class="support-col2">
             <div class="support-row4">
@@ -166,6 +175,7 @@
                     </label>
                 </div>
             </div>
+            <div class="line1"></div>
             <div class="support-row5">
                 <div class="sup-row1-cont">
                     <label class="web3hide">
@@ -186,6 +196,7 @@
                     </label>
                 </div>
             </div>
+            <div class="line1"></div>
             <div class="support-row6">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
@@ -193,7 +204,7 @@
                             <label class="web3hide">
                                 {{-- <input type="radio" name="web3" value="web3"> 
                                 <span class="custom-radio"  style="opacity: 0;"></span> --}}
-                                <span >Career</span>
+                                <span >Careers</span>
                             </label>
                         </div>
                     </div>
@@ -232,7 +243,9 @@
             </div>
         </div>
     </div>
+    <div class="line1"></div>
 
+    {{-- web view --}}
     <div class="support4">
         <div class="left-input">
             <textarea class="sup-form-control large-textarea" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
@@ -243,10 +256,25 @@
             <input type="email" class="sup-form-control" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">            
         </div>
     </div>
-        <button class="btn-sup-submit">
-            <span>Submit</span>
-        </button>
+
+    <button class="btn-sup-submit">
+        <span>Submit</span>
+    </button>
+
+    {{-- mobile view --}}
+    <div class="support44">
+            <input type="text" class="sup-form-control" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
+            <input type="text" class="sup-form-control" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
+            <input type="email" class="sup-form-control" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>   
+            <textarea class="sup-form-control large-textarea" placeholder="Your Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>   
+            <button class="btn-sup-submit2">
+                <span>Submit</span>
+            </button>     
+    </div>
+    
 </div>
+
+{{-- script --}}
 <script>
     function clearPlaceholder(element) {
     if (element.placeholder) {

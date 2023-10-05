@@ -14,8 +14,11 @@
 </style>
     <div class="main-content">
         <div class="techmain-1">
-            <div>
+            <div class="vr">
                 <img src="/assets/image/home/vr.svg">
+            </div>
+            <div class="vr2">
+                <img src="/assets/image/home/vr2.svg">
             </div>
             <div class="techpmain-cont">
                 <p class="techp">Technology</p>
@@ -178,7 +181,7 @@
                                 </div>
 
                                 <div class="pos-col5">
-                                    <p class="pos-p">Expert advisor Builder
+                                    <p class="pos-p">Expert Advisor Builder
                                     </p>
                                 </div>
                             </div>
@@ -246,6 +249,13 @@
             </p>
         </div>
 
+        <!-- mobile -->
+        <div class="center-spectacularr">
+            <p class="spect-p">
+                Introducing Our Spectacular
+                Line of Cutting-Edge Products
+            </p>
+        </div>
         <div class="center-spectacular">
             <p class="spect-p">
                 Introducing Our Spectacular
@@ -281,7 +291,6 @@
                                 </button>
                             </a>
                         </div>
-                        
                     </div>
                     <div class="spec-col3">
                         <div class="webapp">
@@ -365,7 +374,134 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+        
+        <!-- web -->
+        <div class="home-marqueee" style="margin-bottom: 60px;">
+            <div class="marquee-content">
+                <div class="marquee-item">
+                    <div class="spec-col1">
+                        <p>
+                            <span class="exp-color">Experience</span> <br>the future with our 
+                            groundbreaking 
+                            <span class="prod-color">products</span>, redefining 
+                            possibilities and empowering lives 
+                            like never before! Discover 
+                            <span class="inno-color">innovation</span> today!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="marquee-item">
+                    <div class="spec-col2">
+                        <div class="pos-content-1">
+                            <img src="assets/image/home/posimg.svg" class="workcate">
+                            <p class="poshead">
+                                POS SYSTEM
+                            </p>
+                            <p class="streamhead" style="margin-bottom: 10px;">
+                                Streamlining <br>Your Sales Process<br>
+                            </p>
+                            <a href="{{ route('possystem') }}">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="marquee-item">
+                    <div class="spec-col3">
+                        <div class="webapp">
+                            <img src="assets/image/home/webapp.svg" class="workcate">
+                            <p class="webapphead">
+                                WEB & APP
+                            </p>
+                            <p class="webappcont" style="margin-bottom: 10px;">
+                                360-Degree Connectivity<br>
+                            </p>
+                            <a href="{{ route('webapp') }}">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="marquee-item">
+                    <div class="spec-col4">
+                        <div class="broker">
+                            <img src="assets/image/home/broker.svg" class="workcate">
+                            <p class="brokerhead">
+                                BROKERAGE SETUP
+                            </p>
+                            <p class="brokercontent" style="margin-bottom: 10px;">
+                                Path to <br> Financial Success<br>
+                            </p>
+                            <a href="{{ route('expert') }}">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="marquee-item">
+                    <div class="spec-col5">
+                        <div class="expert-1">
+                            <img src="assets/image/home/expertimg.svg" class="workcate">
+                            <p class="expert1head">
+                                EXPERT ADVISOR
+                            </p>
+                            <p class="expert1content" style="margin-bottom: 10px;">
+                                Power <br> of AI Investment<br>
+                            </p>
+                            <a href="{{ route('brokerage') }}">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="marquee-item">
+                    <div class="spec-col6">
+                        <div class="web3">
+                            <img src="assets/image/home/web3.svg" class="workcate">
+                            <p class="web3head">
+                                WEB 3.0
+                            </p>
+                            <p class="web3content" style="margin-bottom: 10px;">
+                                The Decentralised Digital Revolution<br>
+                            </p>
+                            <a href="{{ route('web3') }}">
+                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                <button class="btn-getmoreinfo2">
+                                    <a href="{{ route('support') }}" class="explore-link">
+                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                    </a>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="one-stop">
@@ -378,12 +514,12 @@
                 <p class="ourfeature3">Discover Latest Features</p>
 
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/performance.svg">
+                    <img src="assets/image/home/performance.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 121px">
                         <p class="perform-detail-head">Performance</p>
                         <p class="perform-detail-content" style="width: 264px;">Impactful and versatile features.</p>
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -396,12 +532,12 @@
                 </div>
 
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/reward.svg">
+                    <img src="assets/image/home/reward.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 167px">
                         <p class="perform-detail-head">Reward Program</p>
                         <p class="perform-detail-content" style="width: 220px;">Points, discount, referrals.</p>
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -414,12 +550,12 @@
                 </div>
 
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/develop.svg">
+                    <img src="assets/image/home/develop.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 163px">
                         <p class="perform-detail-head">Develop & Learn</p>
                         <p class="perform-detail-content" style="width: 223px;">Data analysis and predictions.</p>
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -432,12 +568,12 @@
                 </div>
 
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/hr.svg">
+                    <img src="assets/image/home/hr.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 134px">
                         <p class="perform-detail-head">HR Management</p>
                         <p class="perform-detail-content" style="width: 253px;">Recruitment, onboarding, training.</p>
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -450,12 +586,12 @@
                 </div>
 
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/report.svg">
+                    <img src="assets/image/home/report.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 138px">
                         <p class="perform-detail-head">Report & Analytics</p>
                         <p class="perform-detail-content" style="width: 251px;">Gather, analyse, and presebt data.</p>
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;">
+                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -485,7 +621,7 @@
 
     <div class="home-marquee" style="margin-bottom: 122px">
         <div class="marquee-content">
-            <div class="marquee-item">
+            <div class="marquee-item2">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic.svg">
                     <div class="text-overlay">
