@@ -3,7 +3,82 @@
 
 <style>
     @media screen and (max-width: 1280px) {
+        .rew10 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 50px; 
+            margin-bottom: 20px;
+        }
 
+        .perform-col {
+            width: 48%; 
+            margin-bottom: 20px; 
+            margin-bottom: 20px; 
+        }
+        .perform-col img {
+            width: 50px;
+            height: 50px;
+        }
+        .perform-pbig {
+            font-size: 32px;
+        }
+        .perform-psmall {
+            font-size: 10px;
+        }
+        .ignite-p {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-top: -80px;
+        }
+        .unleash-p {
+             font-size: 14px; 
+             width: 100%;
+             line-height: 16px;
+        }
+        .point-p {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+        }
+        .badges-p1 {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-left: 0px;
+        }
+        .leveling-p1 {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-left: 0px;
+        }
+        .incorporate-p1 {
+             font-size: 14px; 
+             width: 100%;
+             line-height: 23px;
+        }
+        .vip-p1 {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-left: 0px;
+        }
+        .streak-p1 {
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-left: 0px;
+        }
+        .provid-2{
+             font-size: 20px; 
+             width: 100%;
+             line-height: 23px;
+             margin-left: 0px;
+             text-align: center;
+        }
     }
     @media screen and (max-width: 1600px) {
         .rew11 {
@@ -122,7 +197,7 @@
     </div>
 
     <div class="rew9" style="margin-bottom: 100px;">
-        <img src="assets/image/feature/reward/5.svg">
+        <img src="assets/image/feature/reward/5.svg" style="width: 100%;">
     </div>
 
     <div class="rew7">
@@ -142,7 +217,7 @@
     </div>
 
     <div class="rew9" style="margin-bottom: 100px;">
-        <img src="assets/image/feature/reward/6.svg">
+        <img src="assets/image/feature/reward/6.svg" style="width: 100%;">
     </div>
 
     <div class="perform6">
@@ -154,7 +229,7 @@
     </div>
 
     <div class="rew10">
-        <div class="perform-col1">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/7.svg">
             </div>
@@ -175,7 +250,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col2">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/8.svg">
             </div>
@@ -196,7 +271,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col3">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
@@ -216,7 +291,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col4">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
@@ -237,13 +312,5 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="rew11" style="margin-bottom: 60px">
-        <button class="btn-getmoreinfo">
-            <a href="{{ route('support') }}" class="explore-link">
-                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
-            </a>
-        </button>
-    </div> --}}
 </div>
 @endsection

@@ -21,6 +21,9 @@
         margin-right: 51px;
         margin-top: -23px;
     }
+    .line1 {
+        display: none;
+    }
     @media screen and (max-width: 1280px) {
         .web3-7 {
             width: 100%;
@@ -41,6 +44,10 @@
         .web3-2 {
             width: 100%;
         }
+        .revo-p {
+            width: 100%;
+            font-size: 20px;
+        }
         .revo-p2 {
             width: 100%;
             font-size: 14px;
@@ -48,29 +55,68 @@
         .web3-4 {
             width: 100%;
         }
+        .empowering-p {
+            width: 90%;
+            text-align: left;
+            font-size: 20px;
+        }
         .empowering-p2 {
+            width: 90%;
+            text-align: left;
+            font-size: 14px;
+        }
+        .howwork-p {
+            margin-left: 20px;
+            margin-bottom: 50px;
             width: 100%;
-            
+            font-size: 20px;
         }
         .web3-5 {
             width: 100%;
         }
         .step1-p {
-            width: 600px;
+            width: 100%;
+            margin-left: 50px;
+            font-size: 14px;
         }
         .step1-p2 {
+            /* margin-left: 50px; */
+            width: 80%;
+            margin-bottom: 150px;
+            font-size: 14px;
+        }
+        .step2-p {
             width: 600px;
+            margin-left: -110px;
+            font-size: 14px;
+        }
+        .step2-p2 {
+            margin-left: -160px;
+            width: 70%;
+            font-size: 14px;
         }
         .work-container-1 {
             height: auto;
             width: 100%;
         }
         .zombie-img {
-            display: flex;
+            position: relative;
+            z-index: -1; 
+            opacity: 0.5; 
+            margin-left: -180px;
+            width: 140px;
+            height: 170px;
+            margin-top: -250px;
         }
         .zombie-img2 {
+            /* margin-top: -750px; */
             margin-right: 35px;
             display: flex;
+            position: relative;
+            z-index: -1; 
+            opacity: 0.5; 
+            width: 140px;
+            height: 170px;
         }
         .work-container-1-2 {
             margin-right: 20px;
@@ -87,22 +133,40 @@
             height: auto;
             width: 100%;
         }
-        .zombie-img3 img{
-            margin-top: 200px;
+        .zombie-img3 {
+            position: relative;
+            z-index: -1; 
+            opacity: 0.5; 
+            margin-left: -180px;
+            width: 140px;
+            height: 170px;
+            margin-top: -250px;
         }
-        .zombie-img4 img {
-            margin-top: 150px;
-            margin-right: 10px;
+        .zombie-img4 {
+            /* margin-top: -550px; */
+            margin-right: 35px;
+            display: flex;
+            position: relative;
+            z-index: -1; 
+            opacity: 0.5; 
+            width: 140px;
+            height: 170px;
+        }
+        .craft-p {
+            width: 90%;
+            margin-left: 40px;
+            font-size: 16px;
+            text-align: left;
         }
         .craft-p2 {
-            width: 100%;
+            width: 90%;
+            margin-left: 40px;
             font-size: 14px;
-        }
-        .dashimg {
-            width: 100%;
+            text-align: left;
         }
         .dashimg img {
-            width: 100%;
+            width: 90%;
+            margin-left: 30px;
         }
         .personal-nft-cont {
             width: 100%;
@@ -113,12 +177,52 @@
             height: auto;
         }
         .remark-p {
-            font-size: 7px
+            width: 90%;
+            font-size: 10px;
+            margin-left: 30px;
+            margin-bottom: 150px;
+        }
+        .create-p {
+            width: 100%;
+            /* margin-left: 40px; */
+            font-size: 16px;
         }
         .create-p2 {
             width: 100%;
-            height: auto;
-            font-size: 13px;
+            /* margin-left: 40px; */
+            font-size: 14px;
+        }
+        .line1 {
+            margin-top: 50px;
+            margin-left: 60px;
+            width: 70%;
+            display: block;
+        }
+        .inline-display {
+            /* margin-top: -8px; */
+        }
+        .web3-marquee-item img {
+            width: 150px;
+            height: 150px;
+        }
+        .web3-marquee-item-2 img {
+            width: 150px;
+            height: 150px;
+        }
+        .web3-marqueee-item img {
+            width: 110px;
+            height: 150px;
+        }
+        .web3-marqueee-item-2 img {
+            width: 150px;
+            /* height: 150px; */
+        }
+        .web3-marquee-itemm img {
+            width: 100%;
+            height: 300px;
+        }
+        .web3-marqueee {
+            margin-bottom: 10px;
         }
     }
 
@@ -166,7 +270,7 @@
 <div>
     <img src="assets/image/product/web3/alien.svg" style="max-width: 100%; height: auto;width: 100%;">
 </div>
-
+<div class="line1"></div>
 <div class="main-content5" style="margin-top: 120px">
     <div class="web3-3">
         <p class="empowering-p">
@@ -221,9 +325,9 @@
                 <img src="assets/image/product/web3/zombie2.svg" style="margin-top: -23px;">
             </div>
             <div style="display: flex; flex-direction:column">
-                <div><p class="step1-p">Step 2</p></div>
+                <div><p class="step2-p">Step 2</p></div>
                 <div>
-                    <ul class="step1-p2">
+                    <ul class="step2-p2">
                         <li style="margin-bottom: 15px">
                             Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
                         </li>
@@ -274,10 +378,10 @@
             </div>
 
             <div style="display: flex; flex-direction:column;">
-                <div><p class="step1-p">Step 4</p></div>
+                <div><p class="step2-p">Step 4</p></div>
                 <div>
-                    <ul class="step1-p2">
-                        <li style="margin-bottom: 20px">
+                    <ul class="step2-p2">
+                        <li style="margin-bottom: 15px">
                             Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
                         </li>
                         <li style="margin-bottom: 20px">
@@ -597,20 +701,6 @@
             <img src="assets/image/product/web3/monkey3.svg">
         </div>
     </div>
-
-    {{-- <div class="personal-nft-cont2">
-        <div>
-            <img src="assets/image/product/web3/monkey.svg" style="margin-right: 25px">
-        </div>
-
-        <div>
-            <img src="assets/image/product/web3/monkey2.svg" style="margin-right: 25px;margin-left: 25px">
-        </div> 
-
-        <div>
-            <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
-        </div>
-    </div> --}}
     <div class="main-content7">
         <div class="web3-8">
             <p class="create-p">
@@ -627,9 +717,22 @@
             </p>
         </div>
     </div>
+    {{-- <div class="personal-nft-cont2">
+        <div>
+            <img src="assets/image/product/web3/monkey.svg" style="margin-right: 25px">
+        </div>
+
+        <div>
+            <img src="assets/image/product/web3/monkey2.svg" style="margin-right: 25px;margin-left: 25px">
+        </div> 
+
+        <div>
+            <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
+        </div>
+    </div> --}}
     {{-- <div class="web3-marquee" style="margin-top: 66px;"> --}}
         <div class="web3-marquee-content">
-            <div class="web3-marquee-item">
+            <div class="web3-marquee-itemm">
                 <img src="assets/image/product/web3/crypto.svg">
             </div>
         </div>

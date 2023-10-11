@@ -23,16 +23,26 @@
     }
 
     @media screen and (max-width: 1268px) {
+        .line-develop {
+            width: 340px;
+        }
         .develop1 {
             width: 100%;
             /* margin-top: 100px; */
         }
         .employ-p1 {
             width: 100%;
+            /* margin-left: 100px; */
+            font-size: 20px;
+            /* margin-bottom: 40px; */
+            text-align: center;
         }
         .employ-p2 {
             width: 100%;
-            font-size: 12px;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            margin-left: 0px;
         }
         .develop2 {
             width: 100%;
@@ -42,11 +52,16 @@
             max-width: 100%;
             height: auto;
         }
-        .develop4 {
+        /* .develop4 {
             width: 100%;
-        }
+        } */
         .develop4 p {
-            width: 100%;
+            width: 80%;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .develop5 {
             /* margin-left: 0px;
@@ -56,6 +71,13 @@
         .develop8 {
             width: 100%;
         }
+        .develop8 p{
+            margin-top: -100px;
+            width: 100%;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+        }
         .develop6 {
             width: 100%;
         }
@@ -64,36 +86,28 @@
         }
         .effective-container {
             width: 100%;
-            height: 451px;
+            height: 390px;
         }
         .effective {
             width: 100%;
-            height: auto;
+            height: 191px;
         }
         .effective-container img {
-            width: 620px;
-            height: auto;
+            width: 214px;
+            height: 191px;
         }
-        .effective p {
-            width: 300px;
-            margin-left: 35px;
-            font-size: 20px;
+        .effective .exp-color {
+            font-size: 14px;
         }
-
         .career {
+            margin-top: -180px;
             width: 100%;
-            /* height: auto; */
+            height: 191px;
         }
         .career img{
-            width: 620px;
+            width: 214px;
             height: auto;
         }
-        .career p {
-            margin-right: 4px;
-            font-size: 20px;
-            width: 300px;
-        }
-
         .ongoing {
             width: 100%;
             height: 451px;
@@ -108,12 +122,55 @@
             width: 300px;
         }
         .effective p span {
-            font-size: 20px;
+            font-size: 14px;
+            width: 100%;
         }
         .effective p {
+            font-size: 12px;
+            margin-left: 15px;
+            width: 345px;
+            width: 40%;
+            line-height: 15px;
+        }
+        .career .exp-color {
             font-size: 14px;
-            margin-left: 10px;
-            width: 245px;
+            width: 100%;
+            line-height: 14px;
+        }
+        .career p {
+            font-size: 12px;
+            /* margin-left: 35px; */
+            width: 345px;
+            width: 40%;
+            line-height: 15px;
+        }
+        .career p span {
+            font-size: 14px;
+            width: 100%;
+        }
+        .rew10 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 80px; 
+            margin-bottom: 20px;
+        }
+
+        .perform-col {
+            width: 48%; 
+            margin-bottom: 20px; 
+            margin-bottom: 20px; 
+        }
+        .perform-col img {
+            width: 50px;
+            height: 50px;
+        }
+        .perform-pbig {
+            font-size: 32px;
+        }
+        .perform-psmall {
+            font-size: 10px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -174,7 +231,8 @@
                         Effective<br>
                         Knowledge Transfer
                         </span>
-                    </span><br>
+                    </span>
+                    <br>
                     Efficiently sharing expertise
                     and insights within an
                     organization to enhance performance, continuity, and
@@ -239,8 +297,8 @@
         </p>
     </div>
 
-    <div class="develop9">
-        <div class="perform-col1">
+    <div class="rew10">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/7.svg">
             </div>
@@ -261,7 +319,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col2">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/8.svg">
             </div>
@@ -282,7 +340,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col3">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
@@ -302,7 +360,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col4">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>

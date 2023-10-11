@@ -25,7 +25,9 @@
         .report1 p {
             width: 100%;
             height: auto;
-            font-size: 40px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .report2 {
             width: 100%;
@@ -35,6 +37,8 @@
             width: 100%;
             height: auto;
             font-size: 14px;
+            line-height: 16px;
+            text-align: center;
         }
         .report3 {
             width: 100%;
@@ -51,6 +55,9 @@
         .report4 p {
             width: 100%;
             height: auto;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .report8 {
             width: 100%;
@@ -59,7 +66,9 @@
         .report8 p {
             width: 100%;
             height: auto;
-            font-size: 28px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .report9 {
             width: 100%;
@@ -69,26 +78,61 @@
             width: 100%;
         }
         .report5-container {
+            /* margin-left: 50px; */
             width: 100%;
-            height: 375px;
+            height: 400px;
+            border-radius: 40px;
         }
         .report5-col1 img {
-            width: 535px;
+            width: 255px;
+            margin-right: 200px;
+            margin-top: 400px;
+            display: none;
+        }
+        .report5-col11 img {
+            width: 235px;
+            margin-right: 200px;
+            margin-top: 400px;
+            display: block;
         }
         .report-enhancing-p1 {
-            font-size: 24px;
-            width: 369px;
+            font-size: 16px;
+            width: 80%;    
+            text-align: left;
+            margin-left: 40px;
+            line-height: 18px;
+        }
+        .report-app-p2 {
+            font-size: 16px;
+            width: 80%;    
+            text-align: left;
+            margin-left: 30px;
+            line-height: 18px;
+            margin-top: -5px;
         }
         .report-data-p1 {
-            width: 371px;
-            font-size: 18px;
+            width: 80%;
+            font-size: 14px;
+            margin-left: 40px;
+            text-align: left;
+            line-height: 16px;
+            margin-top: -50px;
         }
         .report-data-p2 {
-            width: 371px;
-            font-size: 18px;
+            width: 100%;
+            font-size: 14px;
+            margin-left: 30px;
+            text-align: left;
+            line-height: 16px;
+            margin-top: -50px;
         }
         .report5-col1 {
             margin-left: 5px;
+        }
+        .report5-col11 {
+            /* margin-left: 5px; */
+            display: block;
+            margin-top: -230px;
         }
         .report5-col2 {
             margin-right: 20px;
@@ -100,10 +144,15 @@
             height: auto;
         }
         .report6-container {
+            /* margin-left: 50px; */
             width: 100%;
+            height: 400px;
+            border-radius: 40px;
         }
         .report-col4 img {
-            width: 535px;
+            width: 255px;
+            margin-left: 170px;
+            display: none;
         }
         .report-col3 {
             margin-left: 20px;
@@ -114,17 +163,29 @@
         }
         .report7-container {
             width: 100%;
+            height: 400px;
+            border-radius: 40px;
         }
         .report7-col5 img {
-            width: 520px;
-            margin-top: 0px;
+            width: 255px;
+            margin-right: 200px;
+            margin-top: 400px;
+            display: none;
         }
         .report-unveil-p2 {
-            width: 386px;
+            font-size: 16px;
+            width: 80%;    
+            text-align: left;
+            margin-left: 40px;
+            line-height: 18px;
         }
         .report-data-p3 {
-            width: 382px;
-            font-size: 18px;
+            width: 100%;
+            font-size: 14px;
+            margin-left: 40px;
+            text-align: left;
+            line-height: 16px;
+            margin-top: -50px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -204,9 +265,6 @@
 
     <div class="report5">
         <div class="report5-container">
-            <div class="report5-col1">
-                <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
-            </div>
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
                     <span class="exp-color">
@@ -225,6 +283,12 @@
                     sustainable company growth.
                 </p>
             </div>
+            <div class="report5-col1">
+                <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
+            </div>
+        </div>
+        <div class="report5-col11">
+            <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
         </div>
     </div>
 
@@ -252,13 +316,13 @@
                 <img src="assets/image/feature/report/3.svg" style="margin-top: 20px">
             </div>
         </div>
+        <div class="report5-col11">
+            <img src="assets/image/feature/report/3.svg" style="margin-top: 20px">
+        </div>
     </div>
 
     <div class="report7">
         <div class="report7-container">
-            <div class="report7-col5">
-                <img src="assets/image/feature/report/4.svg" style="margin-top: 20px" >
-            </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">
                     <span class="exp-color">
@@ -277,6 +341,12 @@
                     A data-driven future awaits.
                 </p>
             </div>
+            <div class="report7-col5">
+                <img src="assets/image/feature/report/4.svg" style="margin-top: 20px" >
+            </div>
+        </div>
+        <div class="report5-col11">
+            <img src="assets/image/feature/report/4.svg" style="margin-top: 20px">
         </div>
     </div>
 

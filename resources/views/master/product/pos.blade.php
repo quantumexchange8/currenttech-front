@@ -94,16 +94,84 @@
     }
     
 
+    @media screen and (max-width: 575px) {
+        .ignite-p1 {
+            font-size: 20px;
+            width: 100%;
+            margin-left: -40px;
+        }
+        .streamline-p {
+            width: 100%;
+            font-size: 16px;
+            text-align: left;
+            margin-left: -40px;
+        }
+        .pos-row6 {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 40px;
+            display: none;
+        }
+        .pos-row6 p {
+            width: 90%;
+            height: auto;
+            margin-left: 80px;
+            margin-right: 110px;
+        }
+        .pos-row6 p {
+            width: 90%;
+            height: auto;
+            margin-left: 80px;
+            margin-right: 110px;
+        }
+        .pos-row7 .simplify-p {
+            font-size: 20px;
+            line-height: 23px;
+            font-weight: 500;
+            width: 100%;
+            margin-left: -40px;
+            /* margin-bottom: 50px; */
+        }
+        .pos-row7 .simplify-p2 {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+            width: 100%;
+            margin-left: -40px;
+            /* margin-bottom: 50px; */
+        }
+        .pos-row9 img{
+            width: 340px;
+        }
+        .pos-p1 {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 14px;
+        }
+    }
     @media screen and (max-width: 1280px) {
         .pos-row1 {
             width: 100%;
             height: auto;
-            margin-top: 0px;
+            margin-top: -90px;
             margin-bottom: -50px;
         }
         .pos-row1 p {
             width: 100%;
             height: auto;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 23.87px;
+        }
+        .order-p {
+            width: 100%;
+            height: auto;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 23.87px;
         }
         .pos-row4 {
             width: 100%;
@@ -113,23 +181,26 @@
         }
         .pos-row4 p {
             margin-top: 100px;
-            width: 80%;
+            width: 100%;
             height: auto;
             text-align: left
         }
         .ignite-p1 {
-            font-size: 36px;
+            font-size: 20px;
+            width: 100%;
+            /* margin-left: -80px; */
         }
         .streamline-p {
+            width: 100%;
             font-size: 16px;
-            text-align: left
+            text-align: left;
+            /* margin-left: -80px; */
         }
         .pos-row5 {
             width: 100%;
             height: auto;
             margin-top: 0px;
             margin-left: 85px;
-            margin-right: 110px;
         }
         .pos-row5 p {
             width: 100%;

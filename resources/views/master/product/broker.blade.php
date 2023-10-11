@@ -81,6 +81,42 @@
         }
 
     @media screen and (max-width: 1280px) {
+        .ct-p {
+         font-size: 14px;
+         text-align: right;
+         width: 100%;
+        }
+        .ct-p2 {
+         margin-top: -70px;
+         font-size: 10px;
+         text-align: right;
+         line-height: 12px;
+         width: 100%;
+        }
+        .ct-p4 {
+         font-size: 14px;
+         text-align: right;
+         width: 100%;
+        }
+        .ct-p3 {
+         margin-top: -70px;
+         font-size: 10px;
+         text-align: right;
+         line-height: 12px;
+         width: 100%;
+        }
+        .ct-p6 {
+         font-size: 14px;
+         text-align: right;
+         width: 100%;
+        }
+        .ct-p5 {
+         margin-top: -70px;
+         font-size: 10px;
+         text-align: right;
+         line-height: 12px;
+         width: 100%;
+        }
         .build-p {
             font-size: 40px;
             margin-bottom: 20px;
@@ -129,6 +165,7 @@
             width: 85%;
             height: auto;
             margin-right: 20px;
+            margin-top: -120px;
         }
         .broker9 {
             width: 100%;
@@ -142,29 +179,28 @@
         }
         .broker10 p {
             width: 85%;
-            margin-left: 100px;
+            margin-left: 40px;
         }
         .cont {
             width: 100%;
-            height: 320px;
+            height: 100px;
             margin-bottom: 100px;
         }
         .cont img {
-            width: 450px;
-            height: 450px;
+            width: 170px;
+            height: 170px;
             margin-left: -20px;
             margin-top: -40px;
-
         }
         .cont-2-1 {
             width: 100%;
-            height: 320px;
+            height: 100px;
             margin-bottom: 100px;
         }
         .cont-2-1 img {
-            width: 400px;
-            height: 400px;
-            margin-left: -70px;
+            width: 170px;
+            height: 170px;
+            margin-left: -20px;
             margin-top: -40px;
         }
         .ct-box {
@@ -177,20 +213,26 @@
         }
         .cont2 {
             width: 100%;
+            height: 100px;
+            margin-bottom: 100px;
         }
 
         .cont2-2 {
             width: 100%;
-            height: 320px;
+            height: 100px;
+            margin-bottom: 100px;
         }
         .cont2-2 img {
-            width: 350px;
-            height: 350px;
-            margin-left: 10px;
-            margin-top: -40px;
+            width: 170px;
+            height: 170px;
+            /* margin-left: 250px;
+            margin-top: -40px; */
         }
         .package-p {
             width: 100%;
+            font-size: 20px;
+            text-align: left;
+            margin-left: 40px;
         }
         .package-p2 {
             width: 85%;
@@ -203,6 +245,9 @@
         }
         .broker12 {
             width: 100%;
+        }
+        .broker12 p{
+            margin-left: 40px;
         }
         .quota-p {
             width: 80%;
@@ -221,10 +266,17 @@
             font-size: 19px;
             width: 90%;
         }
+        .broker-p {
+            font-size: 18px;
+            text-align: left;
+            margin-left: 90px;
+            margin-right: 10px;
+            width: 80%;
+        }
         .broker-p2 {
             font-size: 18px;
             text-align: left;
-            margin-left: 70px;
+            margin-left: 40px;
             margin-right: 10px;
             width: 100%;
         }
@@ -243,9 +295,6 @@
             text-align:end;
             margin-right:35px;
         }
-        .ct-p {
-            width: 445px;
-        }
         .ct-p6 {
             width: 420px;
         }
@@ -258,7 +307,9 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            width: 693px;
+            width: 70%;
+            max-width: 700px; /* Set a maximum width if desired */
+            min-height: 50vh;
             height: 1200px;
             background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
             color: #BD00FF;
@@ -551,15 +602,15 @@
     </div>
 
     <div class="broker8">
-        <div class="cont2-2">
+        <div class="cont">
             <img src="assets/image/product/broker/4.svg">
-            <div class="ct-box" >
-                <p class="ct-p6">
+            <div class="ct-box">
+                <p class="ct-p">
                     <span class="exp-color">
-                    CRM Solutions
+                        CRM Solutions
                     </span>
                 </p>
-                <p class="ct-p5">
+                <p class="ct-p2">
                     Integrated software for 
                     managing customer interactions, 
                     optimising relationships, and 

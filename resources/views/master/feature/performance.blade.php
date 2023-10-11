@@ -29,6 +29,11 @@
             width: 100%;
             height: auto;
         }
+        .perform3 img {
+            width: 100%;
+            /* max-width: 100%; */
+            height: auto;
+        }
         .perform4 {
             width: 100%;
             height: auto;
@@ -48,7 +53,82 @@
             height: auto;
         }
         .through-p2 {
+            width: 100%;
             font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+        }
+        .building-p1 {
+            width: 100%;
+            height: auto;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: -100px;
+        }
+        .emphasise-p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .emphasise-p2 {
+            width: 100%;
+            font-size: 12px;
+        }
+        .sales-p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .sales-p2 {
+            width: 100%;
+            font-size: 12px;
+        }
+        .encourage-p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .encourage-p2 {
+            width: 100%;
+            font-size: 12px;
+        }
+        .indispensable-p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .indispensable-p2 {
+            width: 100%;
+            font-size: 12px;
+        }
+        .display-p1 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .display-p2 {
+            width: 100%;
+            font-size: 12px;
+        }        
+        .rew10 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 50px; 
+            margin-bottom: 20px;
+        }
+
+        .perform-col {
+            width: 48%; 
+            margin-bottom: 20px; 
+            margin-bottom: 20px; 
+        }
+        .perform-col img {
+            width: 50px;
+            height: 50px;
+        }
+        .perform-pbig {
+            font-size: 32px;
+        }
+        .perform-psmall {
+            font-size: 10px;
         }
     }
     @media screen and (min-width: 1800px) {
@@ -232,8 +312,8 @@
         </p>
     </div>
 
-    <div class="perform7">
-        <div class="perform-col1">
+    <div class="rew10">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/7.svg">
             </div>
@@ -254,7 +334,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col2">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/8.svg">
             </div>
@@ -275,7 +355,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col3">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
@@ -295,7 +375,7 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col4">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
@@ -304,6 +384,91 @@
                     Higher
                 </p>
             </div> --}}
+            <div>
+                <p class="perform-pbig">
+                    91%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Performance
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    {{-- <div class="perform7">
+        <div class="perform-col1">
+            <div>
+                <img src="assets/image/feature/perform/7.svg">
+            </div>
+            
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Increase
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    86%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Productivity
+                </p>
+            </div>
+        </div>
+        <div class="perform-col2">
+            <div>
+                <img src="assets/image/feature/perform/8.svg">
+            </div>
+
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Better
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    250%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Teeamwork
+                </p>
+            </div>
+        </div>
+        <div class="perform-col3">
+            <div>
+                <img src="assets/image/feature/perform/9.svg">
+            </div>
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Gain
+                </p>
+            </div>
+            <div>
+                <p class="perform-pbig">
+                    78%
+                </p>
+            </div>
+            <div>
+                <p class="perform-psmall">
+                    Sales Volume
+                </p>
+            </div>
+        </div>
+        <div class="perform-col4">
+            <div>
+                <img src="assets/image/feature/perform/10.svg">
+            </div>
+            <div style="margin-top: 54px">
+                <p class="perform-psmall">
+                    Higher
+                </p>
+            </div>
             <div>
                 <p class="perform-pbig">
                     52%
@@ -315,7 +480,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- <div class="perform8">
         <button class="btn-getmoreinfo">

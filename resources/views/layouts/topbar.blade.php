@@ -330,10 +330,21 @@
             </li>
             
             
-            <li class="smallnav-act {{ Request::is('sectors') ? 'active' : ''}}"><a href="{{ route('sector') }}" style="{{ Request::is('sectors') ? 'color: #BD00FF;' : '' }}">Sectors</a></li>
-            <li class="smallnav-act {{ Request::is('career') ? 'active' : ''}}"><a href="{{ route('career') }}" style="{{ Request::is('career') ? 'color: #BD00FF;' : '' }}">Career</a></li>
-
-            <li class="smallnav-act {{ Request::is('support') ? 'active' : ''}}"><a href="{{ route('support') }}" style="{{ Request::is('support') ? 'color: #BD00FF;' : '' }}">Support</a></li>
+            <li class="smallnav-act {{ Request::is('sectors') ? 'active' : ''}}">
+                <a href="{{ route('sector') }}" style="{{ Request::is('sectors') ? 'color: #BD00FF;' : '' }}">
+                    Sectors
+                </a>
+            </li>
+            <li class="smallnav-act {{ Request::is('career') ? 'active' : ''}}">
+                <a href="{{ route('career') }}" style="{{ Request::is('career') ? 'color: #BD00FF;' : '' }}">
+                    Career
+                </a>
+            </li>
+            <li class="smallnav-act {{ Request::is('support') ? 'active' : ''}}">
+                <a href="{{ route('support') }}" style="{{ Request::is('support') ? 'color: #BD00FF;' : '' }}">
+                    Support
+                </a>
+            </li>
 {{-- 
             <li class="smallnav-act {{ Request::is('login') ? 'active' : ''}} mobile-hidden"><a href="{{ route('login') }}" style="{{ Request::is('login') ? 'color: #BD00FF;' : '' }}">Login</a></li>
             <li class="smallnav-act {{ Request::is('register') ? 'active' : ''}} mobile-hidden"><a href="{{ route('register') }}" style="{{ Request::is('register') ? 'color: #BD00FF;' : '' }}">Register</a></li> --}}

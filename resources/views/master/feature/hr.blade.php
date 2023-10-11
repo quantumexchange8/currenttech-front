@@ -43,11 +43,40 @@
     }
 
     @media screen and (max-width: 1268px) {
+        .hr5-container-row1,
+    .hr5-container-row2 {
+        display: block; 
+    }
+
+    /* .hr-container1,
+    .hr-container2,
+    .hr-container3,
+    .hr-container4 {
+        width: 100%; 
+    } */
+
+    /* .hr-container-col1,
+    .hr-container-col2,
+    .hr-container-col3,
+    .hr-container-col4,
+    .hr-container-col5,
+    .hr-container-col6,
+    .hr-container-col-7,
+    .hr-container-col8,
+    .hr-container-col-img {
+        width: 100%; 
+        text-align: left; 
+        margin-right: 0; 
+    } */
+
         .hr2 {
             width: 100%;
         }
         .hr2 p {
             width: 100%;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
         }
         .hr3 {
             width: 100%;
@@ -62,6 +91,9 @@
         }
         .hr4 p {
             width: 100%;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .hr5 {
             margin-left: 100px;
@@ -72,57 +104,123 @@
         }
         .hr6 p {
             width: 100%;
+            /* font-size: 40px; */
+            margin-bottom: -30px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
         }
         .hr-container1 {
-            width: 460px;
-            height: 741px;
+            width: 100%;
+            height: auto;
+            margin-left: 270px;
+            border-radius: 70px;
+            margin-bottom: 50px;
         }
         .hr-container-col-img img {
             width: 460px;
+            margin-left: 130px;
         }
         .hr-container-col1 p {
             margin-bottom: 10px;
             font-size: 28px;
+            margin-left: 90px;
+            width: 80%;
         }
         .hr-container-col2 p {
-            width: 400px;
+            width: 70%;
+            margin-left: 90px;
         }
         .hr-container2 {
-            width: 460px;
+            width: 750px;
             height: 741px;
+            margin-left: 270px;
+            border-radius: 70px;
+            margin-bottom: 50px;
         }
         .hr-container2 img {
             width: 460px;
+            margin-left: 130px;
         }
         .hr-container-col3 p {
             font-size: 27px;
+            margin-left: 90px;
+            width: 80%;
         }
         .hr-container-col4 p {
-            width: 415px;
+            width: 70%;
+            margin-left: 90px;
         }
         .hr-container3 {
-            width: 460px;
+            width: 750px;
             height: 741px;
+            margin-left: 270px;
+            border-radius: 70px;
+            margin-bottom: 50px;
         }
 
         .hr-container3 img {
             width: 460px;
+            margin-left: 130px;
         }
         .hr-container-col5 p {
-            font-size: 28px;
+            font-size: 27px;
+            margin-left: 90px;
+            width: 80%;
         }
         .hr-container-col6 p {
-            width: 454px;
+            width: 70%;
+            margin-left: 90px;
         }
         .hr-container4 {
-            width: 460px;
+            width: 750px;
             height: 741px;
+            margin-left: 270px;
+            border-radius: 70px;
         }
         .hr-container4 img {
             width: 460px;
+            margin-left: 130px;
+        }
+        .hr-container-col-7 p {
+            font-size: 27px;
+            margin-left: 90px;
+            width: 80%;
         }
         .hr-container-col8 p {
-            width: 427px;
+            width: 70%;
+            margin-left: 90px;
+        }
+        .enhanced-p {
+            margin-left: 30px;
+            width: 80%;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+        }
+        .rew10 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 80px; 
+            margin-bottom: 20px;
+        }
+
+        .perform-col {
+            width: 48%; 
+            margin-bottom: 20px; 
+            margin-bottom: 20px; 
+        }
+        .perform-col img {
+            width: 50px;
+            height: 50px;
+        }
+        .perform-pbig {
+            font-size: 32px;
+        }
+        .perform-psmall {
+            font-size: 10px;
         }
     }
     @media screen and (min-width: 1600px) {
@@ -290,7 +388,7 @@
         </div>
     </div>
 
-    <div class="line-hr"></div>
+    {{-- <div class="line-hr"></div> --}}
     
     <div class="hr6">
         <p>
@@ -300,16 +398,10 @@
         </p>
     </div>
     <div class="rew10">
-        <div class="perform-col1">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/7.svg">
             </div>
-            
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Increase
-                </p>
-            </div> --}}
             <div>
                 <p class="perform-pbig">
                     76%
@@ -321,16 +413,10 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col2">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/8.svg">
             </div>
-
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Better
-                </p>
-            </div> --}}
             <div>
                 <p class="perform-pbig">
                     81%
@@ -342,15 +428,10 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col3">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/9.svg">
             </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Gain
-                </p>
-            </div> --}}
             <div>
                 <p class="perform-pbig">
                     90%
@@ -362,15 +443,10 @@
                 </p>
             </div>
         </div>
-        <div class="perform-col4">
+        <div class="perform-col">
             <div>
                 <img src="assets/image/feature/perform/10.svg">
             </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Higher
-                </p>
-            </div> --}}
             <div>
                 <p class="perform-pbig">
                     78%
@@ -383,6 +459,7 @@
             </div>
         </div>
     </div>
+    
 
     {{-- <div class="hr7">
         <div class="perform-col1">

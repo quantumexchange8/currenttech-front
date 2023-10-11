@@ -217,7 +217,7 @@
         margin-bottom: 36px;
     }
     .webappfont {
-        color: #888;
+        color: #ffffff;
         font-family: SF Pro;
         font-size: 14px;
         margin: 0;
@@ -312,7 +312,7 @@
                 <br>
                 <p style="color: #888;
                     font-family: SF Pro;
-                    font-size: 10px;margin:0">
+                    font-size: 10px;margin:0" class="template">
                     Minimalist Template
                 </p>
                 <br>

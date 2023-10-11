@@ -13,10 +13,42 @@
     }
 </style>
     <div class="main-content">
+        {{-- web --}}
         <div class="techmain-1">
             <div class="vr">
                 <img src="/assets/image/home/vr.svg">
             </div>
+            {{-- <div class="vr2">
+                <img src="/assets/image/home/vr2.svg">
+            </div> --}}
+            <div class="techpmain-cont">
+                <p class="techp">Technology</p>
+                <br>
+                <p class="techp-content">
+                    is the key to unlocking a sustainable <br>
+                    and prosperous future. Through <br>
+                    innovation and technological <br>
+                    advancements. Technology has <br>
+                    ushered in an era of intelligence, <br>
+                    automation, and digitization, <br>
+                    propelling the transformation and <br>
+                    upgrading of industries.
+                    {{-- is the key to unlocking a sustainable <br>
+                    and prosperous <span class="future">future</span>. Through <br>
+                    innovation and technological <br>
+                    advancements. Technology has <br>
+                    ushered in an era of <span class="intell">intelligence</span>, <br>
+                    automation, and digitization, <br>
+                    propelling the transformation and <br>
+                    upgrading of industries. --}}
+                </p>
+            </div>
+        </div>
+        {{-- mobile --}}
+        <div class="mobile-techmain-1">
+            {{-- <div class="vr">
+                <img src="/assets/image/home/vr.svg">
+            </div> --}}
             <div class="vr2">
                 <img src="/assets/image/home/vr2.svg">
             </div>

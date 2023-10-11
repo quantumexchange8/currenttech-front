@@ -282,12 +282,12 @@ body {
 }
 
 .techp-content {
-    width: 486px;
+    width: 100%;
     height: 372px;
     color: #FFF;
     text-align: right;
     font-family: SF Pro Text;
-    font-size: 32px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 40px; /* 150% */
@@ -653,6 +653,29 @@ body {
     opacity: 0;
   }
   @media (max-width: 1000px) {
+    .techp-content {
+        width: 100%;
+        height: auto;
+        color: #FFF;
+        text-align: right;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px; /* 150% */
+    }
+
+    .spec-col1 p {
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 125% */
+        color: #000000;
+        margin-top: 0px; /* Remove margin */
+        padding: 30px; /* Remove padding */
+    }
+
     .bar {
       display: none;
     }
@@ -868,12 +891,18 @@ body {
   }
 
   .nav-border {
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
     flex-shrink: 0;
     border-radius:50%;
     margin-right: 6px;
     background: linear-gradient(360deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+}
+.nav-border img{
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    margin-top: -20px;
 }
 
 .nav-border-items {
@@ -1325,6 +1354,13 @@ body {
     width: 100%;
     margin-bottom: 40px;
 }
+.mobile-techmain-1 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
 
 .techmain-1 .vr {
     display: block;
@@ -1485,7 +1521,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1439px) {
     .software {
     margin-left: -300px;
     }
@@ -1858,15 +1894,12 @@ body {
 @media screen and (max-width: 1100px){
     .spect-p {
         color: #FFF;
-        text-align: center;
+        /* text-align: center; */
         font-family: SF Pro Text;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 55px; /* 113.636% */
-        width: 900px;
-        margin-bottom: 100px;
-        margin-left: -20px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px; /* 113.636% */
+        width: 100%;
     }
 }
 
@@ -2137,28 +2170,29 @@ body {
     .ourfeature2 {
         color: #888;
         font-family: SF Pro Text;
-        font-size: 25px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 25px; /* 125% */
         text-align: left;
-        margin: 0;
-        height: 30px;
-        margin-left: -90px;
+        margin-left: 5px;
+        width: 100%;
     }
     .ourfeature3 {
         color: #FFF;
         text-align: center;
         font-family: SF Pro Text;
-        font-size: 32px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 40px; /* 125% */
         text-align: left;
         margin: 0;
-        height: 30px;
-        margin-left: -90px;
-        margin-bottom: 40px;
+        margin-left: 5px;
+        /* height: 16px; */
+        width: 100%;
+        /* margin-left: -90px;
+        margin-bottom: 40px; */
     }
 }
 
@@ -2203,16 +2237,18 @@ body {
         display: none;
     }
     .ic{
-        margin-left: -30px;
-        margin-right: 30px;
+        /* margin-left: -30px;
+        margin-right: 30px; */
+        width: 50px;
+        height: 50px;
     }
     .ourfeature-item {
         display: flex;
         align-items: center;
         margin-top: 66px;
-        margin-left: -140px;
+        margin-left: -250px;
         margin-right: 16px;
-        margin-bottom: 54px;
+        /* margin-bottom: 54px; */
         width: 900px;
         height: 20px;
         background: black;
@@ -2224,7 +2260,7 @@ body {
     .perform-detail-head {
         color: #FFF;
         font-family: SF Pro Text;
-        font-size: 24px;
+        font-size: 12px;
         font-style: normal;
         /* font-weight: 700; */
         line-height: 40px; /* 166.667% */
@@ -2234,7 +2270,7 @@ body {
     .perform-detail-content {
         color: #888;
         font-family: SF Pro Text;
-        font-size: 22px;
+        font-size: 10px;
         font-style: normal;
         /* font-weight: 700; */
         line-height: 25px; /* 178.571% */
@@ -2243,7 +2279,9 @@ body {
     }
 
     .btn-getinfo{
-        margin-left: 100px;
+        margin-left: -220px;
+        width: 80px;
+        height: 26px;
     }
 }
 
@@ -2349,7 +2387,7 @@ body {
     }
     .marquee-content {
         display: flex;
-        gap: 39px;
+        gap: 19px;
         animation: marquee-animation1 250s linear infinite;
     }
     
@@ -2373,25 +2411,25 @@ body {
         color: #FFF;
         text-align: center;
         font-family: SF Pro Text;
-        font-size: 40px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 85px; /* 113.636% */
-        width: 780px;
-        height: 150px;
+        line-height: 25px; /* 113.636% */
+        width: 100%;
+        /* height: 150px; */
         margin-bottom: 20px;
-        margin-left: -70px;
+        /* margin-left: -70px; */
     }
     .innovation-content {
         color: #ffffff;
         text-align: center;
         font-family: SF Pro Text;
-        font-size: 30px;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 500;
-        line-height: 40px; /* 133.333% */
-        width: 1000px;
-        height: 181px;
+        font-weight: 400;
+        line-height: 18px; /* 133.333% */
+        width: 100%;
+        /* height: 181px; */
         text-align: left;
     }
 }
@@ -2497,6 +2535,7 @@ body {
     .marquee-item {
         flex: 0 0 auto; /* Prevent items from growing */
     }
+
 }
 /* home */
 
@@ -2693,7 +2732,7 @@ body {
     height: 1.5px;
     background: #333;
     margin-bottom: 66px;
-    display: none;
+    /* display: none; */
 }
 
 .line2 {
@@ -3418,6 +3457,18 @@ body {
     margin-left: 20px;
 }
 
+.word-small2 {
+    color: #888;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
 .word-big {
     color: #FFF;
     font-family: SF Pro Text;
@@ -3445,6 +3496,11 @@ body {
 }
 
 .word-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.word-img2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -3762,6 +3818,16 @@ body {
         /* width: 1246px; */
         margin-bottom: 60px;
     }
+    .exprt-row11 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        /* width: 1246px; */
+        margin-bottom: 60px;
+    }
     .exprt-row3 {
         display: flex;
         flex-wrap: wrap;
@@ -4042,6 +4108,28 @@ body {
     
 }
 
+.step2-p {
+    color: #BD00FF;
+    font-family: SF Pro Text;
+    font-size: 26px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+
+.step2-p2 {
+    color: #ffffff;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    width: 810px;
+    
+}
+
 .remark-p {
     color: #888;
     font-family: SF Pro Text;
@@ -4086,6 +4174,17 @@ body {
 }
 
 .create-p2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 19px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    width: 825px;
+}
+
+.crypto-p2 {
     color: #ffffff;
     text-align: center;
     font-family: SF Pro Text;
@@ -4458,10 +4557,10 @@ body {
     width: 100%;
 }
 
-.perform-col1 {
-    display: flex;
+/* .perform-col1 {
+    display: flex; 
     flex-direction: column;
-}
+} */
 
 .building-p1 {
     color: #FFF;
@@ -4811,21 +4910,55 @@ body {
 @media screen and (max-width: 1268px) {
     .unleash-p {
         width: 100%;
+        font-size: 18px;
+    }
+    .implement-p {
+        width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
     }
     .recognise-p1 {
         width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
     }
     .incorporate-p1 {
         width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .badges-p1 {
+        margin-left: -100px;
+    }
+    .leveling-p1 {
+        margin-left: -130px;
+    }
+    .vip-p1 {
+        margin-left: -60px;
+    }
+    .streak-p1 {
+        margin-left: -30px;
     }
     .vip-p2 {
         width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
     }
     .streak-p2 {
         width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
     }
     .employ-p2 {
         width: 100%;
+        margin-left: 40px;
+        font-size: 14px;
+        text-align: left;
         
     }
     .develop4 p {
@@ -5490,7 +5623,7 @@ body {
 }
 
 .report5 {
-    margin-bottom: 168px;
+    margin-bottom: 100px;
 }
 
 .report5-container {
@@ -5506,6 +5639,10 @@ body {
 
 .report5-col1 {
     margin-left: 20px;
+}
+.report5-col11 {
+    margin-left: 20px;
+    display: none;
 }
 
 .report5-col1 img {
@@ -5553,7 +5690,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 168px;
+    margin-bottom: 100px;
 }
 
 .report-app-p2 {
@@ -5601,7 +5738,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 168px;
+    margin-bottom: 100px;
 }
 
 .report-unveil-p2 {
@@ -6818,21 +6955,28 @@ body {
     }
 
     .small-nav {
-        padding: 20px 20px 0 20px;
+        /* padding: 20px 20px 0 20px; */
+        margin-top: -40px;
         display: block;
         position: absolute;
-        top: 7vh;
-        left: 35px;
-        width: 240px;
-        height: 17vh;
+        top: 158px;
+        left: 15px;
+        width: 200px;
+        height: 366px;
         background-color: #333;
-        border-radius: 40px;
+        border-radius: 30px;
         opacity: 0; /* Start with opacity set to 0 */
         visibility: hidden; /* Start with visibility hidden */
         transition: opacity 0.3s ease, visibility 0.3s ease; /* Add transition for opacity and visibility */
         z-index: 998;
         position: fixed;
         overflow-y: auto;
+    }
+    .mobile-nav-link span {
+        font-size: 16px; 
+    }
+    .smallnav-act a {
+        font-size: 16px !important; /* Adjust the font size as needed */
     }
     
     .smallnav-act.mobile-hidden {
@@ -6846,7 +6990,7 @@ body {
     .nav-wording2 {
         color: #FFF;
         font-family: SF Pro Text;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         line-height: normal;
         margin-top: 9px;
@@ -6856,7 +7000,7 @@ body {
     .nav-wordingAct {
         color: #BD00FF;
         font-family: SF Pro Text;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -6933,61 +7077,95 @@ body {
     width: 340px;
 }
 /* mobile view */
-
-
 @media screen and (max-width: 1280px) {
+    .bottom-container {
+        width: 338px;
+        height: 106px;
+    }
+    .logistic-p {
+        font-size: 12px;
+        height: 30px;
+    }
+    .logistic-p-cont {
+        font-size: 11px;
+        width: 210px;
+        font-weight: 500;
+    }
+    .btm-cont-text {
+        /* margin-right:10px;
+        margin-left: 10px; */
+        width: 28px;
+    }
+    .txtimg-efficient {
+        margin-top:180px;
+        font-size: 16px;
+        line-height: 18px;
+        width: 50%;
+    }
+    .txtimg-efficient-edu {
+        font-size: 16px;
+        /* width: 420px; */
+    }
+    .home-marquee-btm {
+        width: 338px;
+        height: 370px;
+    }
+    .home-marquee-btm-icon {
+        width: 50px;
+        height: 50px;
+    }
     .main-content {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content2 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content3 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content4 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content5 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content6 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content7 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content8 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content9 {
-        margin: 50px;
+        margin: 45px;
         width: auto;
     }
 
     .main-content10 {
-        margin: 50px;
+        margin: 45px;
         width: auto;
     }
 
     .main-content11 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
@@ -7002,17 +7180,17 @@ body {
     }
 
     .main-content14 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content15 {
-        margin: 50px;
+        margin: 10px;
         width: auto;
     }
 
     .main-content16 {
-        margin: 50px;
+        margin: 10px;
     }
 
     .main-content16 .line1{
@@ -7052,9 +7230,10 @@ body {
     }
 
     .center-service .unleash {
-        width: 90%;
-        height: auto;
-        font-size: 25px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        width: 80%;
     }
     .center-service .lightning-fast {
         font-size: 20px;
@@ -7102,13 +7281,14 @@ body {
     .center-vision p {
         width: 80%;
         height: auto;
-        font-size: 46px;
+        font-size: 20px;
     }
 
     .center-vision .vision-content {
         font-size: 18px;
         text-align: left;
         font-weight: 400;
+        line-height: 18px;
     }
     .center-vision .vision-color {
         font-size: 20px;
@@ -7216,10 +7396,14 @@ body {
     }
 
     .techpmain-cont {
-        margin-right: 100px;
+        /* margin-right: 100px;
         margin-top: 95px;
-        margin-left: -175px;
+        margin-left: -175px; */
+        font-size: 10px;
+        width: 100%;
+        margin: 0;
     }
+    
     .content1 {
         margin-left: 10px;
         margin-right: 10px;
@@ -7237,11 +7421,11 @@ body {
         display: block;
     }
     .techp {
-        font-size: 53px;
+        font-size: 20px;
     }
     .techp-content {
-        font-size:  24px;
-        width: 605px;
+        font-size:  14px;
+        /* width: 605px; */
     }
     .future {
         font-size:  23px;
@@ -7277,8 +7461,8 @@ body {
         margin-bottom: 20px;
         margin-left: 0px;
         height: 320px;
-        width: 870px;
-        margin-left: 20px;
+        width: 100%;
+        /* margin-left: 20px; */
     }
     .dev-col2 {
         margin-top: 6px;
@@ -7335,52 +7519,194 @@ body {
         flex-direction: column;
     }
     .spec-col1 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 16px;
         margin-top: 16px;
     }
     .spec-col2 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 16px;
         margin-top: 16px;
     }
     .spec-col3 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-top: 16px;
         margin-bottom: 0px;
     }
     .spec-col4 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 16px;
         margin-top: 16px;
     }
     .spec-col5 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 16px;
         margin-top: 16px;
     }
     .spec-col6 {
-        width: 390px;
-        height: 430px;
+        width: 237px;
+        height: 258px;
         margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 16px;
         margin-top: 16px;
+    }
+    .workcate {
+        /* width: 191px;  */
+        height:169px;
+        /* margin-bottom: 5px; */
+    }
+    .poshead {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+    .streamhead {
+        color: #000000;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 111.111% */
+        text-align: left;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .webapphead {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+    .webappcont {
+        color: #000000;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 111.111% */
+        text-align: left;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    
+    .brokerhead {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+    .brokercontent {
+        color: #000000;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 111.111% */
+        text-align: left;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    
+    .expert1head {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+    .expert1content {
+        color: #000000;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 111.111% */
+        text-align: left;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    
+    .web3head {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+    .web3content {
+        /* width: 311px;
+        height: 80px; */
+        color: #000000;
+        font-family: SF Pro Text;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 111.111% */
+        text-align: left;
+        margin: 0;
+    }
+    
+    .one-stop-head {
+        color: #FFF;
+        text-align: center;
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px; /* 113.636% */
+        width: 740px;
+        height: 150px;
+        margin-bottom: 120px;
+    }
+    .ourfeature {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
     }
     .broker a {
         text-align: right;
@@ -7399,6 +7725,14 @@ body {
     }
     .techmain-1 {
         margin-top: 10px;
+        width: 100%;
+        display: none;
+    }
+    .mobile-techmain-1 {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
     .broker11 {
         flex-direction: column;
@@ -7480,20 +7814,25 @@ body {
     }
     .join-container {
         width: 100%;
+        /* margin-top: -200px; */
     }
     .joinnow-row {
         width: 100%;
     }
     .joinworld-p {
-        font-size: 30px;
+        font-size: 14px;
         margin-right: 20px;
         margin-top: 35px;
+        align-items: center;
     }
     .btn-startnow {
-        width: 290px;
-        height: 77px;
+        width: 100%;
+        height: auto;
     }
-
+    .startnow-span {
+        font-size: 12px;
+        text-align: center;
+    }
     /* nft */
     .personal-nft-cont {
         width: 1250px;
