@@ -9,35 +9,107 @@
 
     .sector2 {
         text-align: center;
-        margin-bottom: 67px;
     }
 
     .sector3 {
         text-align: center;
+        margin: 0;
     }
 
     @media screen and (max-width: 1268px) {
+        .getstart-container22 {
+            width: 100%;
+            height: auto;
+            margin-bottom: 48px;
+        }
+        .image-container img{
+            max-width: 374px;
+            height: 249px;
+        }
         .sector1 {
             width: 100%;
             height: auto;
             /* margin-top: 100px; */
         }
+        .sector2 {
+            width: 100%;
+            height: 20px;
+            margin-bottom: 0px;
+        }
         .sector1 p {
+            display: flex;
             width: 100%;
             height: auto;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: 6px;
+            /* margin-left: 36px; */
+            margin-bottom: 0;
+        }
+        .sector2 p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 100%;
+            margin-top: 38px;
+            margin-bottom: 38px;
         }
         .sector3 {
             width: 100%;
-            height: auto;
+            margin: 0;
         }
         .sector3 p {
             width: 100%;
             height: auto;
-            font-size: 30px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 23px;
+            margin-bottom: 50px;
         }
-        .sector5 {
+        .sector4 {
+            margin-bottom: 0;
+}
+        .sector4 img {
             width: 100%;
             height: auto;
+            margin-top: 31px;
+            margin-bottom: 18px;
+        }
+        .cart-col1 img {
+            width: 44px;
+            height: auto;
+            margin-left: -15px;
+        }
+        .spoon-col1 img {
+            width: 44px;
+            height: auto;
+            margin-left: -15px;
+            margin-bottom: 11px;
+        }
+        .sector5 {
+            flex-direction: column; /* Stack columns in mobile view */
+        }
+        .cart-col1 {
+            margin-top: -120px; /* Reset margin for mobile view */
+            margin-left: -50px;
+            margin-bottom: 10px;
+        }
+        .spoon-col1 {
+            margin-top: -120px; /* Reset margin for mobile view */
+            margin-left: -50px;
+            margin-bottom: 10px;
         }
         .sector7 {
             width: 100%;
@@ -71,13 +143,47 @@
             width: 100%;
             height: auto;
         }
+        .retail-p1 {
+            width: 100%;
+            height: auto;
+            margin-left: -70px;
+            font-size: 16px;
+            line-height: 18px;
+        }
         .retail-p2 {
             width: 100%;
             height: auto;
+            margin-left: -70px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .food-p1 {
+            width: 100%;
+            height: auto;
+            margin-left: -115px;
+            margin-top: 40px;
+            font-size: 16px;
+            line-height: 18px;
         }
         .food-p2 {
             width: 100%;
             height: auto;
+            margin-top: 10px;
+            margin-left: -115px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .sector-text-overlay p{
+            font-size: 18px;
+            margin-top: 50px;
+        }
+        .sector-line {
+            width: 340px;
+            height: 0.5px;
+            background: #666;
+            margin-top: -20px;
+            margin-bottom: 0;
         }
     }
 
@@ -131,7 +237,7 @@
 
 </style>
 
-<div class="main-content14" style="margin-top: 170px;">
+<div class="main-content14">
     <div class="sector1">
         <p>
             Transforming Every Sector
@@ -152,7 +258,7 @@
     <div class="sector-marquee-content">
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.svg" style="width:850px;">
+                <img src="assets/image/sector/1.svg">
                 <div class="sector-text-overlay">
                     <p>
                         Retail & Service
@@ -163,7 +269,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.2.png" style="width:850px">
+                <img src="assets/image/sector/1.2.png">
                 <div class="sector-text-overlay">
                     <p>
                         Food & Beverage
@@ -174,7 +280,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/3.svg" style="width:850px">
+                <img src="assets/image/sector/3.svg">
                 <div class="sector-text-overlay">
                     <p>
                         Logistic
@@ -185,7 +291,7 @@
         </div> 
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.4.png" style="width:850px">
+                <img src="assets/image/sector/1.4.png">
                 <div class="sector-text-overlay">
                     <p>
                         Wholesale 
@@ -196,7 +302,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.5.png" style="width:850px">
+                <img src="assets/image/sector/1.5.png">
                 <div class="sector-text-overlay">
                     <p>
                         Automotive 
@@ -207,7 +313,7 @@
         </div>
         <div class="sector-marquee-item">
             <div class="image-container">
-                <img src="assets/image/sector/1.6.png" style="width:850px">
+                <img src="assets/image/sector/1.6.png">
                 <div class="sector-text-overlay">
                     <p>
                         Education 
@@ -228,10 +334,10 @@
             Our Solution's Influence on all Sector
         </p>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/7.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/7.svg">
             </div>
             <div class="sector5">
                 <div class="cart-col1">
@@ -245,7 +351,7 @@
                             {{-- </span> --}}
                         </p>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex; margin: 0;">
                         <p class="retail-p2">
                             Retail involves selling goods and services directly to consumers,
                             either through physical stores or online platforms. Service refers to 
@@ -259,10 +365,10 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/8.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/8.svg">
             </div>
             <div class="sector7">
                 <div class="spoon-col1">
@@ -276,7 +382,7 @@
                             {{-- </span> --}}
                         </p>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex; margin: 0;">
                         <p class="food-p2">
                             The food and beverage (F&B) industry involves the production, 
                             distribution, and sale of food and drinks for human consumption. It 
@@ -290,10 +396,10 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/9.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/9.svg">
             </div>
             <div class="sector9">
                 <div class="spoon-col1">
@@ -307,7 +413,7 @@
                             {{-- </span> --}}
                         </p>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex; margin: 0;">
                         <p class="food-p2">
                             Logistics involves efficiently planning, implementing, and controlling 
                             the movement and storage of goods, services, and information from 
@@ -322,10 +428,10 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22" style="margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/10.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/10.svg">
             </div>
             <div class="sector11">
                 <div class="spoon-col1">
@@ -354,10 +460,10 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/11.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/11.svg">
             </div>
             <div class="sector13">
                 <div class="spoon-col1">
@@ -371,7 +477,7 @@
                             {{-- </span> --}}
                         </p>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex; margin: 0;">
                         <p class="food-p2">
                             The automotive industry involves designing, manufacturing, selling, 
                             and maintaining motor vehicles. It includes cars, trucks, motorcycles, 
@@ -386,10 +492,10 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-right:14px;margin-bottom:68px"> 
+    <div class="getstart-container22"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/12.svg" style="margin-bottom: -80px; margin-top: 25px;">
+                <img src="assets/image/sector/12.svg">
             </div>
             <div class="sector15">
                 <div class="spoon-col1">
@@ -403,7 +509,7 @@
                             {{-- </span> --}}
                         </p>
                     </div>
-                    <div style="display: flex;">
+                    <div style="display: flex; margin: 0;">
                         <p class="food-p2">
                             Education is the acquisition of knowledge, skills, and values through 
                             formal or informal methods. It empowers individuals for personal and 
