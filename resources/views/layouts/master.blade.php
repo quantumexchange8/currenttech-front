@@ -850,7 +850,32 @@
           });
       });
 
-  </script>
+    </script>
+
+    <script>
+        window.addEventListener("load", function() {
+            const marqueeContents = document.querySelectorAll(".web3-marquee-content-3");
+
+            // Clone the marquee items for each marquee row
+            marqueeContents.forEach((marqueeContent) => {
+                const marqueeItems = marqueeContent.querySelectorAll(".web3-marquee-item-3");
+                const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
+
+                // Calculate the number of items needed to fill the width of the marquee
+                const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
+
+                // Clone the items
+                for (let i = 0; i < numberOfItems; i++) {
+                    marqueeItems.forEach((item) => {
+                        marqueeContent.appendChild(item.cloneNode(true));
+                    });
+                }
+
+                marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+            });
+        });
+
+    </script>
     <script>
       function toggleNav() {
         var smallNav = document.querySelector('.small-nav');

@@ -4,7 +4,7 @@
 <style>
     .hr2 {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 68px;
     }
     .hr3 {
         text-align: center;
@@ -15,9 +15,12 @@
     .hr4 {
         text-align: center;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 66px;
     }
     .hr5 {
-        margin-top: 60px;
+        margin-bottom: 128px;
     }
     .hr6 {
         text-align: center;
@@ -34,8 +37,8 @@
         width: 1257px;
         height: 1.5px;
         background: #888888;
-        margin-top: 66px;
-        margin-bottom: 66px;
+        margin-top: 68px;
+        margin-bottom: 128px;
     }
 
     .hr-container-col-img img {
@@ -105,7 +108,7 @@
         .hr6 p {
             width: 100%;
             /* font-size: 40px; */
-            margin-bottom: -30px;
+            margin: 0px;
             font-size: 20px;
             line-height: 23px;
             text-align: center;
@@ -121,12 +124,12 @@
             width: 460px;
             margin-left: 130px;
         }
-        .hr-container-col1 p {
+        /* .hr-container-col1 p {
             margin-bottom: 10px;
             font-size: 28px;
             margin-left: 90px;
             width: 80%;
-        }
+        } */
         .hr-container-col2 p {
             width: 70%;
             margin-left: 90px;
@@ -225,8 +228,8 @@
     }
     @media screen and (min-width: 1600px) {
         .hr2 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px; */
+            /* margin-right: 200px; */
         }
         .hr2 p {
             /* margin-left: 200px;
@@ -245,35 +248,51 @@
             margin-right: 200px; */
         }
         .hr6 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr6 p {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr7 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
         .hr8 {
-            margin-left: 200px;
-            margin-right: 200px;
+            /* margin-left: 200px;
+            margin-right: 200px; */
         }
     }
     @media screen and (min-width: 2500px) {
         .hr7 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .hr8 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
+    }
+
+    .clock-purple {
+        color: #BD00FF;
+        font-family: SF Pro Text;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 125% */
+        margin: 0;
+        width: 424px;
+    }
+
+    .hr-container-col-img {
+        display: flex;
+        justify-content: center;
     }
 </style>
 
-<div class="main-content12" style="margin-top: 170px">
+<div class="main-content12" style="margin-top: 160px">
     <div class="hr1">
         <p class="enhanced-p">
             Enhanced HR management for higher efficiency
@@ -282,7 +301,7 @@
 
     <div class="hr2">
         <p>
-            Employing Smart HR strategies to optimise workforce productivity and streamline 
+            Employing Smart HR strategies to optimise workforce productivity and<br> streamline 
             operations, leading to enhanced efficiency and organizational success.
         </p>
     </div>
@@ -303,11 +322,9 @@
         <div class="hr5-container-row1">
             <div class="hr-container1">
                 <div class="hr-container-col1">
-                    <p>
-                        <span class="exp-color">
-                        Smart clock-in for effortless
+                    <p class="clock-purple">
+                        Smart clock-in for<br> effortless
                         attendance tracking
-                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col2">
@@ -318,17 +335,15 @@
                     </p>
                 </div>
                 <div class="hr-container-col-img">
-                    <img src="assets/image/feature/hr/2.svg">
+                    <img src="assets/image/feature/hr/2.svg" style="width: 500px">
                 </div>
             </div>
 
             <div class="hr-container2">
                 <div class="hr-container-col3">
-                    <p>
-                        <span class="exp-color">
+                    <p class="clock-purple">
                         Make the reimbursement
                         process more straightforward
-                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col4">
@@ -340,18 +355,14 @@
                     </p>
                 </div>
                 <div class="hr-container-col-img">
-                    <img src="assets/image/feature/hr/3.svg">
+                    <img src="assets/image/feature/hr/3.svg" style="width: 500px">
                 </div>
             </div>
-        </div>
 
-        <div class="hr5-container-row2">
             <div class="hr-container3">
                 <div class="hr-container-col5">
-                    <p>
-                        <span class="exp-color">
+                    <p class="clock-purple">
                         Smart payroll management<br> system
-                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col6">
@@ -362,15 +373,14 @@
                     </p>
                 </div>
                 <div class="hr-container-col-img">
-                    <img src="assets/image/feature/hr/4.svg">
+                    <img src="assets/image/feature/hr/4.svg" style="width: 500px">
                 </div>
             </div>
+
             <div class="hr-container4">
                 <div class="hr-container-col-7">
-                    <p>
-                        <span class="exp-color">
+                    <p class="clock-purple">
                         Learning Management System (LMS)
-                        </span>
                     </p>
                 </div>
                 <div class="hr-container-col8">
@@ -382,10 +392,14 @@
                     </p>
                 </div>
                 <div class="hr-container-col-img">
-                    <img src="assets/image/feature/hr/5.svg">
+                    <img src="assets/image/feature/hr/5.svg" style="width: 500px">
                 </div>
             </div>
         </div>
+
+        {{-- <div class="hr5-container-row2">
+            
+        </div> --}}
     </div>
 
     {{-- <div class="line-hr"></div> --}}
@@ -394,7 +408,7 @@
         <p>
             Through strategic HR management, ensuring the timely
             assignment of suitable tasks leads to enhanced
-            productivity and employee development.
+            productivity and <br>employee development.
         </p>
     </div>
     <div class="rew10">

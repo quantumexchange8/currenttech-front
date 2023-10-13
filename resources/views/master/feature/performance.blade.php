@@ -5,6 +5,8 @@
     .perform1 {
         text-align: center;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .perform2 {
         text-align: center;
@@ -172,10 +174,10 @@
     }
 </style>
 
-<div class="main-content9" style="margin-top:170px;">
+<div class="main-content9" style="margin-top:160px;">
     <div class="perform1">
         <p class="building-p1">
-            Building Success <br>
+            Building Success
             Unleashing the Power of Performance
         </p>
 
@@ -200,7 +202,7 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="emphasise-p1">
-                    <span class="exp-color"> Emphasise Well-Defined Goals </span>
+                    Emphasise Well-Defined Goals
                 </p>
             </div>
             <div>
@@ -213,29 +215,29 @@
             </div>
         </div>
         <div>
-            <img src="assets/image/feature/perform/2.svg" style="width: 550px;">
+            <img src="assets/image/feature/perform/2.svg">
         </div>
     </div>
 
     <div class="perform5">
         <div>
-            <img src="assets/image/feature/perform/3.svg" style="width: 550px;">
+            <img src="assets/image/feature/perform/3.svg">
         </div>
         <div style="display: flex; flex-direction:column">
-            <div>
-                <p class="sales-p1"><span class="exp-color">
-                    Sales Commissions on <br>
-                    Motivation and Enthusiasm
-                    </span>
+            <div style="width: 440px">
+                <p class="sales-p1">
+                    Sales Commissions on
+                    Motivation
                 </p>
             </div>
-            <div>
+            <div style="width: 440px">
                 <p class="sales-p2">
-                    Sales commissions drive motivation and goal-
-                    oriented performance, fostering a competitive 
-                    spirit. Careful implementation ensures a customer-
-                    centric approach, balancing short-term goals with 
-                    long-term growth.
+                    Sales incentives motivate, 
+                    drive goal-oriented 
+                    performance, and balance 
+                    short-term objectives with 
+                    long-term growth while 
+                    prioritising customers.
                 </p>
             </div>
         </div>
@@ -245,7 +247,7 @@
         <div style="display: flex; flex-direction:column">
             <div>
                 <p class="encourage-p1">
-                    <span class="exp-color">Promote competitiveness for better results.</span>
+                    Promote competitiveness for better results.
                 </p>
             </div>
             <div>
@@ -258,23 +260,21 @@
             </div>
         </div>
         <div>
-            <img src="assets/image/feature/perform/4.svg" style="width: 550px;">
+            <img src="assets/image/feature/perform/4.svg">
         </div>
     </div>
 
     <div class="perform4">
         <div>
-            <img src="assets/image/feature/perform/5.svg" style="width: 550px;">
+            <img src="assets/image/feature/perform/5.svg">
         </div>
         <div style="display: flex; flex-direction:column">
-            <div>
+            <div style="width: 400px">
                 <p class="indispensable-p1">
-                    <span class="exp-color">
-                        The Essential Function of a Sales Support Team.
-                    </span>
+                    The Essential Function of a Sales Support Team.
                 </p>
             </div>
-            <div>
+            <div style="width: 380px">
                 <p class="indispensable-p2">
                     A robust support team empowers sales teams with 
                     tools, streamlined processes, and customer-centric 
@@ -287,14 +287,12 @@
     <div class="perform5">
         
         <div style="display: flex; flex-direction:column">
-            <div>
+            <div style="width:430px">
                 <p class="display-p1">
-                    <span class="exp-color">
-                    Demonstrate skill and surpass performance. 
-                    </span>
+                    Demonstrate skill and surpass performance.
                 </p>
             </div>
-            <div>
+            <div style="width:430px">
                 <p class="display-p2">
                     Embrace growth, innovation, and customer-centricity to demonstrate strength,
                      surpass mediocrity, and achieve excellence in personal and organisational endeavour.
@@ -351,7 +349,7 @@
             </div>
             <div>
                 <p class="perform-psmall">
-                    Teeamwork
+                    Teamwork
                 </p>
             </div>
         </div>

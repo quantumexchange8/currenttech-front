@@ -190,44 +190,44 @@
     }
     @media screen and (min-width: 1800px) {
         .report1 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report1 p {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report2 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report2 p {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report3 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report3 img {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report4 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report4 p {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report8 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report8 p {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .report9 {
             /* margin-left: 350px;
@@ -237,7 +237,7 @@
 </style>
 
 
-<div class="main-content13" style="margin-top: 170px">
+<div class="main-content13" style="margin-top: 160px">
     <div class="report1">
         <p>
             Data-driven strategy and efficient workforce management
@@ -265,6 +265,9 @@
 
     <div class="report5">
         <div class="report5-container">
+            <div class="report5-col1">
+                <img src="assets/image/feature/report/2.svg">
+            </div>
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
                     <span class="exp-color">
@@ -283,12 +286,9 @@
                     sustainable company growth.
                 </p>
             </div>
-            <div class="report5-col1">
-                <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
-            </div>
         </div>
         <div class="report5-col11">
-            <img src="assets/image/feature/report/2.svg" style="margin-top: 20px">
+            <img src="assets/image/feature/report/2.svg">
         </div>
     </div>
 
@@ -313,16 +313,19 @@
                 </p>
             </div>
             <div class="report-col4">
-                <img src="assets/image/feature/report/3.svg" style="margin-top: 20px">
+                <img src="assets/image/feature/report/3.svg">
             </div>
         </div>
         <div class="report5-col11">
-            <img src="assets/image/feature/report/3.svg" style="margin-top: 20px">
+            <img src="assets/image/feature/report/3.svg">
         </div>
     </div>
 
     <div class="report7">
         <div class="report7-container">
+            <div class="report7-col5">
+                <img src="assets/image/feature/report/4.svg" >
+            </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">
                     <span class="exp-color">
@@ -340,9 +343,6 @@
                     scientists are vital.<br>
                     A data-driven future awaits.
                 </p>
-            </div>
-            <div class="report7-col5">
-                <img src="assets/image/feature/report/4.svg" style="margin-top: 20px" >
             </div>
         </div>
         <div class="report5-col11">

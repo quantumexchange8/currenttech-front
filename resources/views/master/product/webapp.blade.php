@@ -8,7 +8,7 @@
     }
     .detail-2 {
         max-width: 1100px;
-        margin-bottom: 66px;
+        margin-bottom: 21px;
     }
     .detail-5 {
         width: 1100px;
@@ -23,7 +23,7 @@
     }
     .detail-7 {
         width: 1100px;
-        margin-bottom: 66px;
+        margin-bottom: 88px;
         display: flex;
     }
     .btn-preview {
@@ -82,7 +82,7 @@
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
-        margin-right: 12.5px;
+        margin-right: 11px;
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }
     .detail-container2 {
@@ -90,8 +90,8 @@
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
-        margin-right: 12.5px;
-        margin-left: 12.5px;
+        margin-right: 11px;
+        margin-left: 11px;
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }
     .detail-container3 {
@@ -99,7 +99,7 @@
         height: 125px;
         flex-shrink: 0;
         border-radius: 10px;
-        margin-left: 12.5px;
+        margin-left: 11px;
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }
     .rating-container {
@@ -170,16 +170,19 @@
     }
     .webapp2 {
         text-align: center;
-        margin-bottom: 136px;
+        margin-bottom: 88px;
         margin-left: 250px;
         margin-right: 250px;
     }
 
     .webappfont {
-        color: #ffffff;
-        font-family: SF Pro;
-        font-size: 14px;
-        margin: 0;
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0px
     }
 
     .webapp3 img {
@@ -196,13 +199,17 @@
     .webapp5 {
         display: flex;
         text-align: center;
-        margin-bottom: 90px;
+        margin-bottom: 67.5px;
         width: 100%;
     }
 
     .webapp6 {
         text-align: left;
-        margin-bottom: 40px
+        margin-bottom: 16px;
+    }
+    .webapp6-1 {
+        text-align: left;
+        margin-bottom: 46px;
     }
 
     .webapp7 {
@@ -218,7 +225,7 @@
         align-items:center;
         /* width: 100%; */
         justify-content: space-between;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .webapp9 {
@@ -227,11 +234,11 @@
 
     .webapp10 {
         display: flex;
-        margin-bottom: 96px;
+        margin-bottom: 88px;
     }
 
     .webapp11 {
-        margin-bottom: 80px
+        margin-bottom: 87px;
     }
     
     .webapp12 {
@@ -239,14 +246,15 @@
     }
 
     .webapp13 {
-        margin-bottom: 90px;
+        margin-bottom: 88px;
         display: flex;
     }
 
     .ecomm-tem {
         display: flex;
         flex-direction: column;
-        width: 100%
+        width: 100%;
+        margin-bottom: 127px;
     }
 
     .ecomm-margin {
@@ -255,6 +263,7 @@
         margin-left: 28px;
         margin-right: 10px;
         width: 170px;
+        gap: 8px
     }
 
     .ecomm-main-margin {
@@ -661,7 +670,7 @@
     }
 </style>
 
-<div class="main-content2" style="margin-top: 170px;">
+<div class="main-content2" style="margin-top: 160px;">
     <div class="webapp1">
         <p class="powerhouse-p">
             The Powerhouse for Your Web and App Needs
@@ -673,12 +682,12 @@
             Welcome to the realm of innovative web and app development. 
             Embrace captivating designs and user-centric experiences that
              elevate your digital presence. Unleash the potential of your 
-             online venture with our expert solutions. Join us now!
+             online venture with our expert solutions. <br>Join us now!
         </p>
     </div>
      
     <div class="webapp3">
-        <img src="assets/image/product/webapp/1.svg" style="margin-bottom: 140px">
+        <img src="assets/image/product/webapp/1.svg" style="margin-bottom:168px">
     </div>
      
      <div class="line2"></div>
@@ -718,10 +727,10 @@
             <div class="ecomm-main-margin-1">
                 <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Fashion Store</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Clothing & Accessories</p>
                     </div>
                     <div>
@@ -737,10 +746,10 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/8.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Grid Plus</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Unlimited Grid Layout </p>
                     </div>
                     <div>
@@ -756,10 +765,10 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Livesay</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Event & Conference Theme</p>
                     </div>
                     <div>
@@ -778,10 +787,10 @@
             <div class="ecomm-main-margin-1">
                 <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
                     <div>
@@ -797,10 +806,10 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/7.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Furnatur</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Furniture Template Kit</p>
                     </div>
                     <div>
@@ -816,10 +825,10 @@
             <div class="ecomm-main-margin">
                 <img src="assets/image/product/webapp/9.svg" class="product-img">
                 <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="fashion-store">Marketin</p>
                     </div>
-                    <div style="margin-bottom: 10px;">
+                    <div >
                         <p class="clothing">Business Startup Template</p>
                     </div>
                     <div>
@@ -835,7 +844,7 @@
         </div>
     </div>
 
-    <div class="line2" style="margin-top:66px"></div>
+    <div class="line3"></div>
 
     {{-- <div class="webapp9" style="width: 1507px;">
         <p class="modern-p">
@@ -871,7 +880,7 @@
             </div> --}}
         </div>
     </div>
-    <div class="webapp6">
+    <div class="webapp6-1">
         <div class="temp">
             <div class="text-container">
                 <p class="ecormm">Unlock the ultimate potential of your online presence with our 
@@ -887,106 +896,102 @@
     <div class="webapp10">
         <div style="margin-right: 10px">
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/1.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/13.png" style="margin-right: 12px;width: 100%;">
             </a>
-            <div style="margin-top: 36px">
+            <div style="margin-top: 28px">
                 <p class="webappfont">Carbon
                 </p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: SF Pro;
-                    font-size: 18px;margin:0;width:222px">
+                    font-family: SF Pro Text;
+                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
                     Your All-in-One Website
                     Template Solution
                 </p>
-                <br>
                 <p class="template" style="color: #888;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 14px;margin:0">
                     Minimalist Template
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
         <div style="margin-right: 10px">
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/2.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/12.svg" style="margin-right: 12px;width: 100%;">
             </a>
-            <div style="margin-top: 36px" class="webapp10-font">
+            <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Zivi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: SF Pro;
-                    font-size: 18px;margin:0;width:222px">
+                    font-family: SF Pro Text;
+                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
                     A Modern Website Template
                     Collection
                 </p>
-                <br>
                 <p style="color: #888;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 14px;margin:0">
                      Creative Theme 
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
         <div style="margin-right: 10px">
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/3.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/13.png" style="margin-right: 12px;width: 100%;">
             </a>
-            <div style="margin-top: 36px" class="webapp10-font">
+            <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Livesay</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: SF Pro;
-                    font-size: 18px;margin:0;width:222px">
+                    font-family: SF Pro Text;
+                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
-                <br>
                 <p style="color: #888;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 14px;margin:0">
                     Event Conference
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
         <div style="margin-right: 10px">
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/4.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/14.png" style="margin-right: 12px;width: 100%;">
             </a>
-            <div style="margin-top: 36px" class="webapp10-font">
+            <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Archi</p>
                 <br>
                 <p style="color: #FFF;
-                    font-family: SF Pro;
-                    font-size: 18px;margin:0;width:222px">
+                    font-family: SF Pro Text;
+                    font-size: 18px;margin:0;width:235px;margin-bottom:8px">
                     Painting Your Online Vision
                     with Stunning Templates
                 </p>
-                <br>
                 <p style="color: #888;
-                    font-family: SF Pro;
+                    font-family: SF Pro Text;
                     font-size: 14px;margin:0">
                     E-Commerce Theme
                 </p>
                 <br>
                 <div style="display: flex;align-items:center">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
@@ -1032,7 +1037,7 @@
         </div>      
     </div>
 
-    <div class="line2" style="margin-top:66px"></div>
+    <div class="line4" style="margin-top:66px"></div>
 
     <div class="webapp4">
         <p class="transform-p">
@@ -1054,143 +1059,6 @@
             </div>
         </div>
     </div>
-    
-    {{-- <div class="ecomm-tem">
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <div class="webapp8"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Furnatur</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Furniture Template Kit</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Road Pedal</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Bike Store Section</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Marketin</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Business Startup Template</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div> --}}
-
-    {{-- <div class="line1" style="margin-top:66px"></div> --}}
-
-    {{-- <div class="webapp6">
-        <div class="temp">
-            <div>
-                <p class="ecorm">Customer Relationshio Management made Easy</p>
-            </div>
-            <div class="viewmore-a">
-                <a href="" class="view-more">View More</a>
-            </div>
-        </div>
-    </div> --}}
-    
-
     <div class="webapp13">
         <div style="margin-right: 15px;">
             <img src="assets/image/product/webapp/15.svg" style="width: 100%;">
@@ -1201,316 +1069,12 @@
         
     </div>
 
-{{-- 
-    <div class="webapp6">
-        <div class="temp">
-            <div>
-                <p class="ecorm">CRM & Admin Template</p>
-            </div>
-            <div>
-                <a href="" class="view-more">View More</a>
-            </div>
-        </div>
-    </div> --}}
-    
 
-    {{-- <div class="ecomm-tem">
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <div class="webapp8"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Furnatur</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Furniture Template Kit</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Road Pedal</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Bike Store Section</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Marketin</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Business Startup Template</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div> --}}
-
-    {{-- <div class="webapp6">
-        <div class="temp">
-            <div>
-                <p class="ecorm">Your APP Adventure Starts Here</p>
-            </div>
-            <div>
-                <a href="" class="view-more">View More</a>
-            </div>
-        </div>
-    </div> --}}
-    
-
-    {{-- <div class="webapp12">
-        <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/17.svg" style="margin-right:20px;width: 100%;">
-        </div>
-        <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/18.svg" style="margin-right:20px;width: 100%;">
-        </div>
-        <div>
-            <img src="assets/image/product/webapp/19.svg" style="width: 100%;">
-        </div>
-        
-    </div> --}}
-
-    {{-- <div class="webapp6">
-        <div class="temp">
-            <div>
-                <p class="ecorm">Apple / Google / iPad & Mobile Apps Development</p>
-            </div>
-            <div class="viewmore-a">
-                <a href="" class="view-more">View More</a>
-            </div>
-        </div>
-    </div> --}}
-    
-
-    {{-- <div class="ecomm-tem">
-        <div class="webapp7"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Fashion Store</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <div class="webapp8"> 
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Furnatur</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Furniture Template Kit</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Road Pedal</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Bike Store Section</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div style="margin-bottom: 10px;">
-                        <p class="fashion-store">Marketin</p>
-                    </div>
-                    <div style="margin-bottom: 10px;">
-                        <p class="clothing">Business Startup Template</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div> --}}
     <div class="detail-4" style="width: 1100px;">
         <p style="color: #FFF;
         font-family: SF Pro Text;
-        font-size: 30px; font-weight: 600;">Rating & Likes</p>
-        {{-- <div class="rating-container">
-            <div style="display: flex;align-items: center;justify-content: center;">
-                <div style="color: #FFF;
-                    text-align: center;
-                    font-family: SF Pro Text;
-                    font-size: 100px; margin-right: 350px; margin-top: 28px;">
-                        4.0
-                </div>
-                <div style="font-size: 100px; margin-right: 550px; margin-top: -50px;">
-                    <img src="assets/image/product/webapp/star.svg">
-                </div>
-            </div>
-        </div> --}}
+        font-size: 30px; font-weight: 600;margin-top:0px;margin-bottom:28px">Rating & Likes</p>
+        
         <div class="detail-2">
             <div class="detail-row1">
                 <div class="detail-container1">
@@ -1527,9 +1091,6 @@
                         <div>
                             <img src="assets/image/product/webapp/star.svg">
                         </div>
-                        {{-- <div style="color: #FFF">
-                            STAR
-                        </div> --}}
                         <div style="color: #FFF;
                         text-align: center;
                         font-family: SF Pro Text;

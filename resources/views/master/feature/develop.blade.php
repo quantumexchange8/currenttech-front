@@ -175,8 +175,8 @@
     }
     @media screen and (min-width: 1800px) {
         .develop1 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .develop2 {
             /* margin-left: 350px;
@@ -193,7 +193,7 @@
     }
 </style>
 
-<div class="main-content11" style="margin-top: 170px">
+<div class="main-content11" style="margin-top: 160px">
     <div class="develop1">
         <p class="employ-p1">
             Employee development is vital
@@ -201,7 +201,7 @@
         </p>
     </div>
 
-    <div class="develop2" style="margin-bottom: 50px;">
+    <div class="develop2" style="margin-bottom: 88px;">
         <p class="employ-p2">
             Employee growth is crucial for a company's success, enhances productivity, innovation, 
             retention, adaptability, and leadership, fostering a positive work environment and 
@@ -279,7 +279,7 @@
                     </span><br>
                     Regular training sessions <br>
                     and workshops keep <br>
-                    employees updated with new <br>
+                    employees updated with <br>new 
                     skills and knowledge, <br>
                     ensuring their continuous <br>
                     professional development.
@@ -291,8 +291,8 @@
 
     <div class="develop8">
         <p>
-            By introducing the appropriate tasks at the
-            optimal moment, we facilitate effective
+            By introducing the appropriate tasks at the<br>
+            optimal moment, we facilitate effective<br>
             development and growth.
         </p>
     </div>

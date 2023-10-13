@@ -5,6 +5,7 @@
     
     .web3-8 {
         text-align: center;
+        margin-bottom: 68px;
     }
     .work-container-1-2 {
         display: flex; 
@@ -12,14 +13,14 @@
         margin-right: 43px
     }
     .zombie-img2 {
-        margin-right: 50px;
+        /* margin-right: 50px; */
     }
     .zombie-img3 img {
         margin-top: -23px;
     }
     .zombie-img4 img {
         margin-right: 51px;
-        margin-top: -23px;
+        /* margin-top: -23px; */
     }
     .line1 {
         display: none;
@@ -252,7 +253,7 @@
     }
 </style>
 
-<div class="main-content5" style="margin-top:170px;">
+<div class="main-content5" style="margin-top:160px;">
     <div class="web3-1">
         <p class="revo-p">
             The Revolution of Web 3.0
@@ -267,11 +268,11 @@
     </div>
 </div>
 
-<div>
+<div style="margin-bottom:68px">
     <img src="assets/image/product/web3/alien.svg" style="max-width: 100%; height: auto;width: 100%;">
 </div>
-<div class="line1"></div>
-<div class="main-content5" style="margin-top: 120px">
+{{-- <div class="line1"></div> --}}
+<div class="main-content5">
     <div class="web3-3">
         <p class="empowering-p">
             Empowering Creativity
@@ -317,12 +318,12 @@
             </div>
 
             <div class="zombie-img">
-                <img src="assets/image/product/web3/zombie1.svg" style="margin-top: -23px;">
+                <img src="assets/image/product/web3/zombie.svg" style="margin-top: -75px;">
             </div>
         </div>
         <div class="work-container-2">
             <div class="zombie-img2">
-                <img src="assets/image/product/web3/zombie2.svg" style="margin-top: -23px;">
+                <img src="assets/image/product/web3/slpmonk.svg" style="margin-top: -30px;">
             </div>
             <div style="display: flex; flex-direction:column">
                 <div><p class="step2-p">Step 2</p></div>
@@ -367,14 +368,14 @@
             </div>
 
             <div class="zombie-img3">
-                <img src="assets/image/product/web3/zombie3.svg">
+                <img src="assets/image/product/web3/goldmonk.svg">
             </div>
         </div>
 
         <div class="work-container-4">
 
             <div class="zombie-img4">
-                <img src="assets/image/product/web3/zombie4.svg">
+                <img src="assets/image/product/web3/firemonk.svg">
             </div>
 
             <div style="display: flex; flex-direction:column;">
@@ -414,7 +415,7 @@
             WEB 3.0
         </p>
     </div>
-    <div style="margin-bottom: 50px;">
+    <div>
         <p class="craft-p2">
             Designing cutting-edge NFT-based digital experiences to revolutionize content 
             consumption, ownership, and engagement, shaping the future of the digital art and 
@@ -426,7 +427,7 @@
     </div>
 </div>
 
-<div class="web3-marquee" style="margin-top: 66px;">
+<div class="web3-marquee" style="margin-top: 88px;">
     <div class="web3-marquee-content">
         <div class="web3-marquee-item">
             <img src="assets/image/product/web3/purple1.svg">
@@ -488,7 +489,7 @@
             Creating Personal NFTs Collection
         </p>
     </div>
-    <div class="web3-8" style="margin-bottom:96px">
+    <div class="web3-8">
         <p class="create-p2">
             Transform your artwork or content into blockchain-based NFTs.
             Mint and own one-of-a-kind digital assets. Showcase, sell,
@@ -525,168 +526,14 @@
 <div class="main-content8">
     <div class="personal-nft-cont">
         <div class="nft-container1-1">
-            {{-- <div>
-                <img src="assets/image/product/web3/cat.svg">
-            </div>
-            <div style="display: flex;align-items:center; width:400px">
-                <div>
-                    <img src="assets/image/product/web3/c.svg">
-                </div>
-                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
-                    <div>
-                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
-                    </div>
-                    <div>
-                        <p class="nft1-p2">HAPE PRIME</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="assets/image/product/web3/iconarrow.svg">
-                </div>
-            </div>
-
-            <div style="display: flex; justify-content:space-between">
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">15.8 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">latest Bid</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">9.45 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">from</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p2">$180,345</p>
-                    </div>
-                    <div>
-                        <p class="bid-p2">+12.45</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <button class="btn-collect">
-                    <span class="collect-btn">Collect Now</span>
-                </button>
-            </div> --}}
+            
             <img src="assets/image/product/web3/test.png">
         </div>
         <div class="nft-container1-2">
-            {{-- <div>
-                <img src="assets/image/product/web3/cow.svg">
-            </div>
-            <div style="display: flex;align-items:center; width:400px">
-                <div>
-                    <img src="assets/image/product/web3/c.svg">
-                </div>
-                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
-                    <div>
-                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
-                    </div>
-                    <div>
-                        <p class="nft1-p2">HAPE PRIME</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="assets/image/product/web3/iconarrow.svg">
-                </div>
-            </div>
-
-            <div style="display: flex; justify-content:space-between">
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">15.8 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">latest Bid</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">9.45 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">from</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p2">$180,345</p>
-                    </div>
-                    <div>
-                        <p class="bid-p2">+12.45</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <button class="btn-collect">
-                    <span class="collect-btn">Collect Now</span>
-                </button>
-            </div> --}}
+           
             <img src="assets/image/product/web3/test2.png">
         </div>
         <div class="nft-container1-3">
-            {{-- <div>
-                <img src="assets/image/product/web3/chick.svg">
-            </div>
-            <div style="display: flex;align-items:center; width:400px">
-                <div>
-                    <img src="assets/image/product/web3/c.svg">
-                </div>
-                <div style="display: flex; flex-direction:column;margin-left:20px;width:267px">
-                    <div>
-                        <p class="nft1-p1"><b>HAPPY #8064</b></p>
-                    </div>
-                    <div>
-                        <p class="nft1-p2">HAPE PRIME</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="assets/image/product/web3/iconarrow.svg">
-                </div>
-            </div>
-
-            <div style="display: flex; justify-content:space-between">
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">15.8 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">latest Bid</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p">9.45 ETH</p>
-                    </div>
-                    <div>
-                        <p class="bid-p">from</p>
-                    </div>
-                </div>
-                <div style="display: flex;flex-direction:column;width:130px">
-                    <div>
-                        <p class="eth-p2">$180,345</p>
-                    </div>
-                    <div>
-                        <p class="bid-p2">+12.45</p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <button class="btn-collect">
-                    <span class="collect-btn">Collect Now</span>
-                </button>
-            </div> --}}
             <img src="assets/image/product/web3/test3.png">
         </div>
         <div class="nft-container1-4">
@@ -717,26 +564,18 @@
             </p>
         </div>
     </div>
-    {{-- <div class="personal-nft-cont2">
-        <div>
-            <img src="assets/image/product/web3/monkey.svg" style="margin-right: 25px">
-        </div>
+</div>
 
-        <div>
-            <img src="assets/image/product/web3/monkey2.svg" style="margin-right: 25px;margin-left: 25px">
-        </div> 
+<div class="web3-marquee-3">
+    <div class="web3-marquee-content-3">
+        <div class="web3-marquee-item-3">
+            <img src="assets/image/product/web3/crypto.svg">
+        </div>
+    </div>
+</div>
 
-        <div>
-            <img src="assets/image/product/web3/monkey3.svg" style="margin-left: 25px">
-        </div>
-    </div> --}}
-    {{-- <div class="web3-marquee" style="margin-top: 66px;"> --}}
-        <div class="web3-marquee-content">
-            <div class="web3-marquee-itemm">
-                <img src="assets/image/product/web3/crypto.svg">
-            </div>
-        </div>
-    {{-- </div> --}}
+
+<div class="main-content8">
     <div class="joinnow-row">
         <div class="join-container">
             <div class="inline-display">

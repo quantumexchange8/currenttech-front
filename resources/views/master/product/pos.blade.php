@@ -3,7 +3,6 @@
 <style>
     .pos-row1 {
         text-align: center;
-        margin-bottom: 40px;
     }
 
     .pos-row2 {
@@ -28,9 +27,10 @@
 
     .pos-row6 {
         text-align: left;
-        margin-bottom: 100px;
+        margin-bottom: 168px;
         display: flex; 
-        flex-direction:column
+        flex-direction:column;
+        width: 100%;
     }
 
     .pos-row7 {
@@ -38,7 +38,7 @@
     }
 
     .pos-row8 {
-        margin-bottom: 120px;
+        margin-bottom: 168px;
         width: 100%;
     }
 
@@ -53,6 +53,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin-bottom: 68px;
     }
     .pos-row9 img {
         /* width: 100%;
@@ -64,11 +65,11 @@
 
     .pos-row10 {
         text-align: center;
-        margin-top: 36px;
-        margin-bottom: 66px;
+        margin-bottom: 128px;
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .pos-row11 {
@@ -326,8 +327,8 @@
             margin-right: 355px; */
         }
         .pos-row6 {
-            margin-left: 355px;
-            margin-right: 355px;
+            /* margin-left: 355px;
+            margin-right: 355px; */
         }
         .pos-row7 {
             /* margin-left: 355px;
@@ -385,8 +386,8 @@
             margin-right: 423px;
         }
         .pos-row6 {
-            margin-left: 423px;
-            margin-right: 423px;
+            /* margin-left: 423px;
+            margin-right: 423px; */
         }
         .pos-row7 {
             margin-left: 423px;
@@ -427,8 +428,8 @@
             margin-right: 550px;
         }
         .pos-row6 {
-            margin-left: 550px;
-            margin-right: 550px;
+            /* margin-left: 550px;
+            margin-right: 550px; */
         }
         .pos-row7 {
             margin-left: 550px;
@@ -462,7 +463,7 @@
         }
     }
 </style>
-<div class="main-content" style="margin-top: 170px">
+<div class="main-content" style="margin-top: 160px">
     <div class="pos-row1">
         <p class="tranpos-p">
             Transforming Restaurants with our Dynamic POS System
@@ -494,10 +495,10 @@
     
 
     <div class="pos-row6">
-        <div style="display: flex;align-items: center;margin-bottom:136px">
-            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
+        <div style="display: flex;align-items: center;margin-bottom:136px;justify-content: center;">
+            <div style="display: flex; flex-direction:column;margin-left: -30px; height: 147px;">
                 <div><p class="software-p1">Software</p></div>
-                <div>
+                <div style="width:760px">
                     <p class="software-p2">Software offers intuitive and customizable features
                         like inventory management, sales analytics, payment processing,
                         and CRM integration, ensuring efficient and secure operations for
@@ -505,15 +506,16 @@
                     </p>
                 </div>
             </div>
-            <img src="assets/image/product/pos/2.svg" class="st-icon">
+            <div>
+                <img src="assets/image/product/pos/2.svg" class="st-icon">
+            </div>
         </div>
 
-        <div style="display: flex;align-items: center;margin-bottom:136px">
-            {{-- <img src="assets/image/product/pos/3.svg" class="st-icon"> --}}
-            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
+        <div style="display: flex;align-items: center;margin-bottom:136px;justify-content: center;">
+            <div style="display: flex; flex-direction:column;margin-left: -30px; height: 147px;">
                 <div><p class="software-p1">Hardware</p></div>
-                <div>
-                    <p class="software-p2">Hardware offers durable and reliable components,
+                <div style="width:760px">
+                    <p class="hardware-p2">Hardware offers durable and reliable components,
                         including touchscreen interface, fast barcode scanning, secure 
                         payment processing, integration capabilities, and easy maintenance
                         for streamlined and efficient operations.
@@ -523,12 +525,11 @@
             <img src="assets/image/product/pos/3.svg" class="st-icon">
         </div>
 
-        <div style="display: flex;align-items: center;margin-bottom:40px">
-            {{-- <img src="assets/image/product/pos/4.svg" class="st-icon" > --}}
-            <div style="display: flex; flex-direction:column;margin-left: -30px; width: 774px; height: 147px;">
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <div style="display: flex; flex-direction:column;margin-left: -30px; height: 147px;">
                 <div><p class="software-p1">Payment</p></div>
-                <div>
-                    <p class="software-p2">
+                <div style="width:760px">
+                    <p class="payment-p2">
                         Our POS system offers secure and versatile payment options, seamless 
                         integration with popular gateways, mobile payment solutions, real-time 
                         tracking, and industry-standard compliance, providing businesses with 
@@ -569,19 +570,20 @@
     <div class="pos-row10">
         <p class="chooose-p">
             Choosing the right POS system is crucial for any business, as it can greatly impact 
-            efficiency, customer satisfaction, and overall operations. Find out more in<br>
-            Current Tech Industries.
+            efficiency, customer satisfaction, and overall operations. <br>
+            Find out more inCurrent Tech Industries.
         </p>
     </div>
     
 
     <div class="pos-row11">
-        <div style="margin-right: 20px;">
-            <img src="assets/image/product/pos/10.svg" class="std-image">
+        {{-- <div style="margin-right: 20px;">
+            
         </div>
         <div style="margin-left: 20px;">
             <img src="assets/image/product/pos/11.svg" class="adv-image">
-        </div>
+        </div> --}}
+        <img src="assets/image/product/pos/12.svg" class="std-image">
     </div>
     
 </div>

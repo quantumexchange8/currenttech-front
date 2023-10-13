@@ -5,23 +5,23 @@
                 <ul>
                     <li class="nav-img nav-border">
                         <a href="{{ route('home') }}">
-                            <img src="/assets/image/currenttechlogo.svg" style="width: 25px;">
+                            <img src="/assets/image/currenttechlogo.svg" style="width: 18px;">
                         </a>
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                         <a class="nav-link" data-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product">
                             <span class="nav-wording">Products</span>
                         </a>
-                        <div class="sub collapse" id="product" style="height: auto;">
+                        <div class="sub collapse" id="product" style="display: none;">
                             <nav class="sub-navi">
                                 <ul>
                                     <li class="{{ Request::is('possystem') ? 'active' : ''}}">
                                         <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'possystem')
-                                                <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
                                                 <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
                                             @else
-                                                <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
                                                 <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
                                             @endif
                                         </a>
@@ -29,32 +29,32 @@
                                     <li class="{{ Request::is('webapp') ? 'active' : ''}}">
                                         <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'webapp')
-                                                <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
                                             @else
-                                                <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
                                             @endif
                                         </a>
                                     </li>
-                                    <li class="{{ Request::is('brokerage') ? 'active' : ''}}">
+                                    <li class="{{ Request::is('brokerage') ? 'active' : ''}}" style=" width:144px">
                                         <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'brokerage')
-                                                <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
                                             @else
-                                                <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
                                             @endif
                                         </a>
                                     </li>
-                                    <li class="{{ Request::is('expert') ? 'active' : ''}}">
+                                    <li class="{{ Request::is('expert') ? 'active' : ''}}" style=" width:123px">
                                         <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'expert')
-                                                <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
                                             @else
-                                                <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
                                             @endif
                                         </a>
@@ -62,10 +62,10 @@
                                     <li class="{{ Request::is('web3') ? 'active' : ''}}">
                                         <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'web3')
-                                                <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
                                             @else
-                                                <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                                <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                                 <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
                                             @endif
                                         </a>
@@ -80,61 +80,61 @@
                         <a class="nav-link" data-toggle="collapse" href="#feature" aria-expanded="false" aria-controls="feature">
                             <span class="nav-wording">Features</span>
                         </a>
-                        <div class="sub collapse" id="feature"  style="height: auto;">
+                        <div class="sub collapse" id="feature" style="display: none;">
                             <nav class="sub-navi">
                                 <ul>
                                     <!-- style="width:95px;margin-left:25px;margin-right:25px" -->
                                     <li class="{{ Request::is('performance') ? 'active' : '' }}">
-                                        <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                                        <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'performance')
-                                            <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wordingAct">Performance</span>
                                             @else
-                                            <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wording2">Performance</span>
                                             @endif
                                         </a>
                                     </li>
                                     <li class="{{ Request::is('reward') ? 'active' : '' }}">
-                                        <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                                        <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'reward')
-                                            <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wordingAct">Reward Program</span>
                                             @else
-                                            <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wording2">Reward Program</span>
                                             @endif
                                         </a>
                                     </li>
                                     <li class="{{ Request::is('develop') ? 'active' : '' }}">
-                                        <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                                        <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'develop')
-                                            <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wordingAct">Develop & Learn</span>
                                             @else
-                                            <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wording2">Develop & Learn</span>
                                             @endif
                                         </a>
                                     </li>
                                     <li class="{{ Request::is('hrmanage') ? 'active' : '' }}">
-                                        <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                                        <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'hrmanage')
-                                            <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wordingAct">HR Management </span>
                                             @else
-                                            <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wording2">HR Management</span>
                                             @endif
                                         </a>
                                     </li>
                                     <li class="{{ Request::is('report') ? 'active' : '' }}">
-                                        <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                                        <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'report')
-                                            <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wordingAct">Reporting & Analytics</span>
                                             @else
-                                            <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 10px;">
+                                            <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
                                             <span class="nav-wording2">Reporting & Analytics</span>
                                             @endif
                                         </a>
@@ -157,14 +157,14 @@
                     <li class="nav-border-setting">
                         <a href="{{ route('support') }}">
                             @if(Route::currentRouteName() === 'support')
-                                <img src="/assets/image/top/sup.svg"  style="width: 25px;">
+                                <img src="/assets/image/top/sup.svg"  style="width: 21px;">
                             @else
-                                <img src="/assets/image/accdetail.svg"  style="width: 25px;">
+                                <img src="/assets/image/accdetail.svg"  style="width: 21px;">
                             @endif
                             
                         </a>
                         <a href="#">
-                            <img src="/assets/image/lang.svg"  style="width: 25px;">
+                            <img src="/assets/image/lang.svg"  style="width: 21px;height:18px">
                         </a>
                         {{-- <a href="{{ route('register') }}">
                             <img src="/assets/image/edit.svg">

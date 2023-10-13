@@ -25,14 +25,14 @@
                 <p class="techp">Technology</p>
                 <br>
                 <p class="techp-content">
-                    is the key to unlocking a sustainable <br>
-                    and prosperous future. Through <br>
-                    innovation and technological <br>
-                    advancements. Technology has <br>
-                    ushered in an era of intelligence, <br>
-                    automation, and digitization, <br>
-                    propelling the transformation and <br>
-                    upgrading of industries.
+                    is the key to unlocking a<br> 
+                    sustainable and prosperous<br> 
+                    future. Through innovation<br>
+                    and technological advancements. <br>
+                    Technology has ushered in an <br>era of intelligence, 
+                    automation, <br>and digitization, 
+                    propelling the <br>transformation and 
+                    upgrading <br>of industries.
                     {{-- is the key to unlocking a sustainable <br>
                     and prosperous <span class="future">future</span>. Through <br>
                     innovation and technological <br>
@@ -55,23 +55,15 @@
             <div class="techpmain-cont">
                 <p class="techp">Technology</p>
                 <br>
-                <p class="techp-content">
-                    is the key to unlocking a sustainable <br>
-                    and prosperous future. Through <br>
-                    innovation and technological <br>
-                    advancements. Technology has <br>
-                    ushered in an era of intelligence, <br>
-                    automation, and digitization, <br>
-                    propelling the transformation and <br>
+                <p class="techp-content-mobile">
+                    is the key to unlocking a sustainable 
+                    and prosperous future. Through 
+                    innovation and technological 
+                    advancements. Technology has 
+                    ushered in an era of intelligence, 
+                    automation, and digitization, 
+                    propelling the transformation and 
                     upgrading of industries.
-                    {{-- is the key to unlocking a sustainable <br>
-                    and prosperous <span class="future">future</span>. Through <br>
-                    innovation and technological <br>
-                    advancements. Technology has <br>
-                    ushered in an era of <span class="intell">intelligence</span>, <br>
-                    automation, and digitization, <br>
-                    propelling the transformation and <br>
-                    upgrading of industries. --}}
                 </p>
             </div>
         </div>
@@ -297,111 +289,151 @@
                 <div class="spec-row1">
                     <div class="spec-col1">
                         <p>
-                            <span class="exp-color">Experience</span> <br>the future with our 
+                            <span class="exp-color">Experience</span> 
+                            <br>
+                            the future with our 
                             groundbreaking 
-                            <span class="prod-color">products</span>, redefining 
+                            products, redefining 
                             possibilities and empowering lives 
                             like never before! Discover 
-                            <span class="inno-color">innovation</span> today!
+                            innovation today!
                         </p>
                     </div>
                     <div class="spec-col2">
                         <div class="pos-content-1">
-                            <img src="assets/image/home/posimg.svg" class="workcate">
-                            <p class="poshead">
-                                POS SYSTEM
-                            </p>
-                            <p class="streamhead" style="margin-bottom: 10px;">
-                                Streamlining <br>Your Sales Process<br>
-                            </p>
-                            <a href="{{ route('possystem') }}">
-                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
-                                <button class="btn-getmoreinfo2">
-                                    <a href="{{ route('support') }}" class="explore-link">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/posimg.svg" class="workcate">
+                            </div>
+                            <div>
+                                <p class="poshead">
+                                    POS SYSTEM
+                                </p>
+                            </div>
+                            <div>
+                                <p class="streamhead" style="margin-bottom: 16px;">
+                                    Streamlining <br>Your Sales Process<br>
+                                </p>
+                            </div>
+                            <div>
+                                <a href="{{ route('possystem') }}" class="explore-link">
+                                    {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                    <button class="btn-getmoreinfo2">
                                         <span class="btn-getmoreinfo2-span">GET INFO</span>
-                                    </a>
-                                </button>
-                            </a>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="spec-col3">
                         <div class="webapp">
-                            <img src="assets/image/home/webapp.svg" class="workcate">
-                            <p class="webapphead">
-                                WEB & APP
-                            </p>
-                            <p class="webappcont" style="margin-bottom: 10px;">
-                                360-Degree Connectivity<br>
-                            </p>
-                            <a href="{{ route('webapp') }}">
-                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
-                                <button class="btn-getmoreinfo2">
-                                    <a href="{{ route('support') }}" class="explore-link">
-                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
-                                    </a>
-                                </button>
-                            </a>
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/webapp.svg" class="workcate">
+                            </div>
+                            <div>
+                                <p class="webapphead">
+                                    WEB & APP
+                                </p>
+                            </div>
+                            <div>
+                                <p class="webappcont" style="margin-bottom: 16px;">
+                                    360 <br>Degree Connectivity
+                                </p>
+                            </div>
+                            <div>
+                                <a href="{{ route('webapp') }}">
+                                    {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                    <button class="btn-getmoreinfo2">
+                                        <a href="{{ route('support') }}" class="explore-link">
+                                            <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                        </a>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="spec-row2">
                     <div class="spec-col4">
                         <div class="broker">
-                            <img src="assets/image/home/broker.svg" class="workcate">
-                            <p class="brokerhead">
-                                BROKERAGE SETUP
-                            </p>
-                            <p class="brokercontent" style="margin-bottom: 10px;">
-                                Path to <br> Financial Success<br>
-                            </p>
-                            <a href="{{ route('expert') }}">
-                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
-                                <button class="btn-getmoreinfo2">
-                                    <a href="{{ route('support') }}" class="explore-link">
-                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
-                                    </a>
-                                </button>
-                            </a>
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/broker.svg" class="workcate">
+                            </div>
+                            <div>
+                                <p class="brokerhead">
+                                    BROKERAGE SETUP
+                                </p>
+                            </div>
+                            <div>
+                                <p class="brokercontent" style="margin-bottom: 16px;">
+                                    Path to <br> Financial Success<br>
+                                </p>
+                            </div>
+                            <div>
+                                <a href="{{ route('expert') }}">
+                                    {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                    <button class="btn-getmoreinfo2">
+                                        <a href="{{ route('support') }}" class="explore-link">
+                                            <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                        </a>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="spec-col5">
                         <div class="expert-1">
-                            <img src="assets/image/home/expertimg.svg" class="workcate">
-                            <p class="expert1head">
-                                EXPERT ADVISOR
-                            </p>
-                            <p class="expert1content" style="margin-bottom: 10px;">
-                                Power <br> of AI Investment<br>
-                            </p>
-                            <a href="{{ route('brokerage') }}">
-                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
-                                <button class="btn-getmoreinfo2">
-                                    <a href="{{ route('support') }}" class="explore-link">
-                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
-                                    </a>
-                                </button>
-                            </a>
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/expertimg.svg" class="workcate">
+                            </div>
+                            <div>
+                                <p class="expert1head">
+                                    EXPERT ADVISOR
+                                </p>
+                            </div>
+                            <div>
+                                <p class="expert1content" style="margin-bottom: 16px;">
+                                    Power <br> of AI Investment<br>
+                                </p>
+                            </div>
+                            <div>
+                                <a href="{{ route('brokerage') }}">
+                                    {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                    <button class="btn-getmoreinfo2">
+                                        <a href="{{ route('support') }}" class="explore-link">
+                                            <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                        </a>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="spec-col6">
                         <div class="web3">
-                            <img src="assets/image/home/web3.svg" class="workcate">
-                            <p class="web3head">
-                                WEB 3.0
-                            </p>
-                            <p class="web3content" style="margin-bottom: 10px;">
-                                The Decentralised Digital Revolution<br>
-                            </p>
-                            <a href="{{ route('web3') }}">
-                                {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
-                                <button class="btn-getmoreinfo2">
-                                    <a href="{{ route('support') }}" class="explore-link">
-                                        <span class="btn-getmoreinfo2-span">GET INFO</span>
-                                    </a>
-                                </button>
-                            </a>
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/web3.svg" class="workcate">
+                            </div>
+                            <div>
+                                <p class="web3head">
+                                    WEB 3.0
+                                </p>
+                            </div>
+                            <div>
+                                <p class="web3content" style="margin-bottom: 16px;">
+                                    The Decentralised<br> Digital Revolution
+                                </p>
+                            </div>
+                            <div>
+                                <a href="{{ route('web3') }}">
+                                    {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
+                                    <button class="btn-getmoreinfo2">
+                                        <a href="{{ route('support') }}" class="explore-link">
+                                            <span class="btn-getmoreinfo2-span">GET INFO</span>
+                                        </a>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -542,9 +574,10 @@
             </p>
 
             <div class="ourfeature">
-                <p class="ourfeature2">OUR FEATURES</p>
-                <p class="ourfeature3">Discover Latest Features</p>
-
+                <div style="margin-bottom: 68px">
+                    <p class="ourfeature2">OUR FEATURES</p>
+                    <p class="ourfeature3">Discover Latest Features</p>
+                </div>
                 <div class="ourfeature-item">
                     <img src="assets/image/home/performance.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 121px">
@@ -556,8 +589,8 @@
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
-                                font-family: SF Pro Text;
-                                font-size: 16px;">GET INFO</span>
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
                             </a>
                         </button>
                     </div>
@@ -573,9 +606,9 @@
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #BD00FF;text-align: center;
-                            font-family: SF Pro Text;
-                            font-size: 16px;">GET INFO</span>
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
                             </a>
                         </button>
                     </div>
@@ -591,9 +624,9 @@
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #BD00FF;text-align: center;
-                            font-family: SF Pro Text;
-                            font-size: 16px;">GET INFO</span>
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
                             </a>
                         </button>
                     </div>
@@ -609,15 +642,15 @@
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #BD00FF;text-align: center;
-                            font-family: SF Pro Text;
-                            font-size: 16px;">GET INFO</span>
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
                             </a>
                         </button>
                     </div>
                 </div>
 
-                <div class="ourfeature-item">
+                <div class="ourfeature-item" style="margin-bottom:0px">
                     <img src="assets/image/home/report.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 138px">
                         <p class="perform-detail-head">Report & Analytics</p>
@@ -627,9 +660,9 @@
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
-                            <span style="color: #BD00FF;text-align: center;
-                            font-family: SF Pro Text;
-                            font-size: 16px;">GET INFO</span>
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
                             </a>
                         </button>
                     </div>
@@ -797,7 +830,7 @@
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale.svg">
                     <div class="text-overlay">
-                        <p class="txtimg-efficient" style="width:379px">
+                        <p class="txtimg-efficient" style="width:416px">
                             Bulk savings, wholesale
                             prices, sourcing for
                             businesses and retailers.
@@ -832,7 +865,7 @@
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/automotive.svg">
                     <div class="text-overlay">
-                        <p class="txtimg-efficient" style="width:379px">
+                        <p class="txtimg-efficient" style="width:395px">
                             Innovative vehicles,
                             driving excellence,
                             mobility redefined.

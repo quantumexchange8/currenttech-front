@@ -8,23 +8,24 @@
 }
     .broker1 {
         text-align: center;
-        margin-bottom: 36px;
+        margin-bottom: 68px;
     }
 
-    .borker2 {
+    .broker2 {
         text-align: center;
-        margin-bottom: 136px;
+        margin-bottom: 68px;
     }
 
     .broker3 {
-        margin-bottom: 136px;
+        margin-bottom: 128px;
     }
     .broker4 {
-        margin-bottom: 36px;
+        margin-bottom: 68px;
         text-align: center;
     }
     .broker5 {
         text-align: center;
+        margin-bottom: 146px;
     }
     .broker6 {
         margin-bottom: 36px;
@@ -35,7 +36,7 @@
         margin-bottom: 36px;
     }
     .broker8 {
-        margin-bottom: 36px;
+        margin-bottom: 118px;
         width: 100%;
     }
     .broker9 {
@@ -43,7 +44,19 @@
         width: 100%;
     }
     .broker10 {
-        margin-bottom: 96px;
+        margin-bottom: 88px;
+        width: 100%;
+    }
+    .broker11 {
+        margin-bottom: 128px;
+        width: 100%;
+    }
+    .broker13 {
+        margin-bottom: 68px;
+        width: 100%;
+    }
+    .broker14 {
+        margin-bottom: 128px;
         width: 100%;
     }
     .cont {
@@ -527,9 +540,79 @@
             margin-right: 650px;
         }
     }
+
+    .ctrader-content {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        width: 630px;
+        height: 219px;
+        flex-shrink: 0;
+    }
+
+    .ctrader-row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .ctrader-row2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ctrater-col-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+        width: 197px;
+        padding-left: 39px;
+    }
+
+    .cont-wordnimg {
+        width: 120px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+
+    .ctrader-brokerage-word {
+        color: #FFF;
+        text-align: center;
+        font-family: SF Pro Text;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .ctrader-container-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .line5 {
+        width: 100%;
+        height: 1.5px;
+        background: #666;
+        margin-bottom: 88px;
+    }
 </style>
 
-<div class="main-content3" style="margin-top:170px;">
+<div class="main-content3" style="margin-top:160px;">
     <div class="broker1">
         <p class="build-p">
             Building Bridges of Wealth
@@ -566,7 +649,9 @@
     
     <div class="broker6">
         <div class="cont">
-            <img src="assets/image/product/broker/2.svg">
+            <div>
+                <img src="assets/image/product/broker/2.svg">
+            </div>
             <div class="ct-box">
                 <p class="ct-p">
                     <span class="exp-color">
@@ -603,14 +688,16 @@
 
     <div class="broker8">
         <div class="cont">
-            <img src="assets/image/product/broker/4.svg">
+            <div>
+                <img src="assets/image/product/broker/4.svg" class="crm-image">
+            </div>
             <div class="ct-box">
-                <p class="ct-p">
+                <p class="ct-p8">
                     <span class="exp-color">
                         CRM Solutions
                     </span>
                 </p>
-                <p class="ct-p2">
+                <p class="ct-p7">
                     Integrated software for 
                     managing customer interactions, 
                     optimising relationships, and 
@@ -620,7 +707,7 @@
         </div>
     </div>
     
-    <div style="display: flex;justify-content:center;flex-direction:column;margin-bottom: 80px;">
+    <div style="display: flex;justify-content:center;flex-direction:column;">
         <div>
             <p class="package-p">
                 Our cost-effective brokerage package
@@ -650,13 +737,193 @@
             </div>
         </div>
     </div> --}}
+    
+    <div class="broker13">
+        <div class="setup-container">
+            {{-- <div class="ctrader-container-content">
+
+            </div> --}}
+            <div class="ctrater-col-1">
+                <img src="assets/image/product/broker/5.svg" style="width: 100px; height: 100px;">
+                <div class="ctrader-brokerage-word">
+                    cTrader <br> Brokerage Setup
+                </div>
+            </div>
+            
+            <div class="straight-line"></div>
+            
+            <div class="ctrader-content">
+
+                <div class="ctrader-row1">
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/7.svg" style="width: 66.667px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Unlimited User
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/8.svg" style="width: 66.667px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            In-app Deposit
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/10.svg" style="width: 60.526px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Copy-Trading
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/12.svg" style="width: 60.526px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Spread Betting
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ctrader-row2">
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/13.svg" style="width: 37.5px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Seperate Brand
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/17.svg" style="width: 29.167px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            In-app Control
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/18.svg" style="width: 50.001px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Expert Advisor
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/19.svg" style="width: 50px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            60+ Indicators
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="broker14">
+        <div class="setup-container">
+            {{-- <div class="ctrader-container-content">
+
+            </div> --}}
+            <div class="ctrater-col-1">
+                <img src="assets/image/product/broker/6.svg" style="width: 100px; height: 100px;">
+                <div class="ctrader-brokerage-word">
+                    Meta Trader <br> Brokerage Setup
+                </div>
+            </div>
+            
+            <div class="straight-line"></div>
+            
+            <div class="ctrader-content">
+
+                <div class="ctrader-row1">
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/7.svg" style="width: 66.667px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Limited User
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/9.svg" style="width: 40px;height: 18px;margin-bottom:30px">
+                        </div>
+                        <div class="developtext">
+                            In-app Deposit
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/10.svg" style="width: 60.526px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Copy-Trading
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/9.svg" style="width: 40px;height: 18px;margin-bottom:30px">
+                        </div>
+                        <div class="developtext">
+                            Spread Betting
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ctrader-row2">
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/13.svg" style="width: 37.5px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Seperate Brand
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/17.svg" style="width: 29.167px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            In-app Control
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/18.svg" style="width: 50.001px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            Expert Advisor
+                        </div>
+                    </div>
+                    <div class="cont-wordnimg">
+                        <div style="text-align: center;">
+                            <img src="assets/image/product/broker/19.svg" style="width: 50px;height: 50px;margin-bottom:12px">
+                        </div>
+                        <div class="developtext">
+                            30+ Indicators
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     {{-- <div class="line2"></div> --}}
 
     {{-- <div class="broker9">
         <p class="feature-p">Features</p>
     </div> --}}
-    <div class="develop55">
+    {{-- <div class="develop55">
         <div class="effective-container">
             <div class="effective">
                 <table>
@@ -762,7 +1029,7 @@
                         </td>
                         <td style="padding: 50px;">
                             <div style="text-align: center;">
-                                <img src="assets/image/product/broker/9.svg" style="width: 50px; height: 80px;">
+                                <img src="assets/image/product/broker/9.svg" style="width: 40px; height: 18px;">
                             </div>
                             <div class="developtext">
                                 In-app deposit
@@ -822,7 +1089,7 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- <div style="display: flex;width: 1257px;align-items: center;justify-content: space-evenly;margin-bottom: 98px;">
         <div style="text-align: center">
@@ -960,7 +1227,7 @@
         </div>
     </div> --}}
     
-    <div class="line2"></div>
+    <div class="line5"></div>
 
     <div class="broker10">
         <p class="getstart-p">4 Tips To Get Started</p>
@@ -971,14 +1238,12 @@
         </p>
     </div>
 
-    <div class="broker11" style="display: flex">
-        <div class="getstart-container" style="margin-right:14px;margin-bottom:28.73px"> 
+    <div class="broker11" style="display: flex;flex-wrap:wrap;gap:25px">
+        <div class="getstart-container" > 
             <div style="display: flex; flex-direction:column">
-                <div style="margin-left:36px">
+                <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        <span class="exp-color">
-                            CONTACT
-                        </span>
+                        CONTACT
                     </p>
                     <p class="contact-p2">
                         Reach out to us today for any questions or
@@ -998,13 +1263,13 @@
                 </div> --}}
             </div>
         </div>
-        <div class="getstart-container3" style="margin-bottom:28.73px;margin-left:14px">
+        <div class="getstart-container3" >
             <div style="display: flex; flex-direction:column">
-                <div style="margin-left:36px">
+                <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        <span class="exp-color">
-                            CUSTOMISATION
-                        </span>
+                        
+                        CUSTOMISATION
+                        
                     </p>
                     <p class="contact-p2">
                         Customise our affordable brokerage package
@@ -1024,17 +1289,12 @@
                 </div> --}}
             </div>
         </div>
-    </div>
-
-    <div class="broker11" style="display: flex">
-        <div class="getstart-container2" style="margin-right:28.73px">
+        <div class="getstart-container2" >
             <div style="display: flex; flex-direction:column">
-                <div style="margin-left:36px">
+                <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        <span class="exp-color">
-                            INSTALLATION
-                        </span>
-                        </p>
+                        INSTALLATION
+                    </p>
                     <p class="contact-p2">
                         Our process ensures secure hosting, rigorous testing,
                         and flawless functionality. Your personalized White 
@@ -1057,11 +1317,9 @@
         </div>
         <div class="getstart-container2"> 
             <div style="display: flex; flex-direction:column">
-                <div style="margin-left:36px">
+                <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        <span class="exp-color">
-                            TRAINING
-                        </span>
+                        TRAINING
                     </p>
                     <p class="contact-p2">
                         We offer comprehensive training, encompassing 
@@ -1082,6 +1340,10 @@
             </div>
         </div>
     </div>
+
+    {{-- <div class="broker11" style="display: flex">
+        
+    </div> --}}
 
     <div class="broker12">
         <p class="quota-p">Get Your Personalised Quota Today!</p>
@@ -1115,7 +1377,7 @@
                         <label>
                             <input type="radio" name="whitelabel" value="whitelabel">
                             <span class="custom-radio"></span>
-                            <span>White Label Solutions</span>
+                            <span style="font-weight: 300;">White Label Solutions</span>
                         </label>
                         <label>
                             <input type="radio" name="appdev" value="appdev"> 

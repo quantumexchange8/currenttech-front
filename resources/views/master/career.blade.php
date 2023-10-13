@@ -272,7 +272,7 @@
         <p>
             Empower your future with Current Tech Industries. Join our visionary team, embrace 
             diversity, and work on impactful projects. Explore career opportunities that fuel your 
-            growth and make a difference. Apply now at <br><a href="#" class="href-link">hr.admin@currenttech.pro</a>
+            growth and make a difference. Apply now at <br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
         </p>
     </div>
 
