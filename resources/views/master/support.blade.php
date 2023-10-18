@@ -3,6 +3,11 @@
 
 <style>
     @media screen and (max-width: 1268px) {
+        .support-col1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+}
         .main-content16 .line1{
             width: 80%;
             /* height: 1.5px; */
@@ -61,15 +66,23 @@
             margin-left: 20px;
             /* margin-bottom: 30px; */
         }
-        .support-title {
-            font-size: 45px;
+        .sup-row1-cont label .support-title{
+            color: #FFF;
+            display: flex;
+            margin-bottom: 20px;
+            font-family: SF Pro Text;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px; /* 166.667% */
+            margin-left: 39px;
         }
         .sup-row1-cont label span {
         color: #FFF;
         font-family: SF Pro Text;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 40px; /* 166.667% */
         margin-left: 18px;
     }
@@ -110,7 +123,6 @@
     </div>
 
     {{-- <div class="line1"></div> --}}
-    
     <div class="support3">
         <div class="support-col1">
             <div class="line2"></div>
@@ -311,24 +323,34 @@
         </div>
     </div>
     {{-- <div class="line1"></div> --}}
-
+    <form action="{{ url('contact_mail') }}" method="post" enctype="multipart/form-data">
+    {{ csrf_field()}}
     {{-- web view --}}
     <div class="support4">
         <div class="left-input">
-            <textarea class="sup-form-control large-textarea" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
+            <textarea class="sup-form-control large-textarea" name="message" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
         </div>
         <div class="right-input">
-            <input type="text" class="sup-form-control" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
-            <input type="text" class="sup-form-control" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
-            <input type="email" class="sup-form-control" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">   
-            <input type="text" class="sup-form-control" placeholder="File" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">           
+            <input type="text" class="sup-form-control" name="name" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+            <input type="text" class="sup-form-control" name="number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+            <input type="email" class="sup-form-control" name="email" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+            {{-- <div class="file-input-container"> --}}
+                <label for="file" class="custom-file-upload">
+                    File
+                </label>
+                <input type="file" class="sup-form-control" name="file" id="file" onchange="displayFileName(this)">
+            {{-- </div> --}}
         </div>
     </div>
-
     <button class="btn-sup-submit">
         <span>Submit</span>
     </button>
-
+</form>
+@if(session('success'))
+<div class="alert alert-success custom-success">
+    {{ session('success') }}
+</div><br><br>
+@endif
     {{-- mobile view --}}
     <div class="support44">
             <input type="text" class="sup-form-control" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
@@ -356,5 +378,11 @@
             element.placeholder = element.dataset.placeholder;
         }
     }
+    function displayFileName(input) {
+        const fileName = input.files[0] ? input.files[0].name : 'File';
+        const label = input.parentElement.querySelector('.custom-file-upload');
+        label.textContent = fileName;
+    }
+
     </script>
 @endsection

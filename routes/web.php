@@ -7,7 +7,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\FeatureController;
 use App\Http\Controllers\SectorController;
 use App\Http\Controllers\CareerController;
-
+use App\Http\Controllers\SubscribeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,10 @@ use App\Http\Controllers\CareerController;
 |
 */
 
+
+Route::post('/subscribe', [SubscribeController::class, 'post']);
+Route::post('/subscribe/{hash}', [SubscribeController::class, 'show']);
+Route::post('contact_mail', [HomeController::class,'contact_mail_send']);
 Route::get('/', function () {
     return view('master.home');
 });
