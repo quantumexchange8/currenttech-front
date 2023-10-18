@@ -1,7 +1,7 @@
 @extends('layouts.login')
 @section('content')
 <style>
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1093px) {
     .register-create, .register-small {
     margin-left: -60px; 
     }

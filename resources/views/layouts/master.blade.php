@@ -356,16 +356,16 @@
         // Hide the previously shown submenu (if any)
         if (hideSubMenu.style.display === 'block') {
             hideSubMenu.style.display = 'none';
-            hideIcon.className = 'mdi mdi-chevron-down';
+            // hideIcon.className = 'mdi mdi-chevron-down';
         }
 
         // Toggle the clicked submenu
         if (showSubMenu.style.display === 'none' || showSubMenu.style.display === '') {
             showSubMenu.style.display = 'block';
-            showIcon.className = 'mdi mdi-chevron-up';
+            // showIcon.className = 'mdi mdi-chevron-up';
         } else {
             showSubMenu.style.display = 'none';
-            showIcon.className = 'mdi mdi-chevron-down';
+            // showIcon.className = 'mdi mdi-chevron-down';
         }
     }
 

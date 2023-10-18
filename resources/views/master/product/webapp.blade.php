@@ -201,23 +201,28 @@
         text-align: center;
         margin-bottom: 67.5px;
         width: 100%;
+        gap: 18px;
     }
 
     .webapp6 {
         text-align: left;
         margin-bottom: 16px;
+        width: 100%;
     }
     .webapp6-1 {
         text-align: left;
         margin-bottom: 46px;
+        width: 100%;
     }
 
     .webapp7 {
-        display: flex; 
-        align-items:center;
-        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        width: 100%;
         justify-content: space-between;
         margin-bottom: 40px;
+        flex-wrap: wrap;
+        gap: 40px;
     }
 
     .webapp8 {
@@ -235,8 +240,9 @@
     .webapp10 {
         display: flex;
         margin-bottom: 88px;
+        justify-content: center;
+        gap: 22px;
     }
-
     .webapp11 {
         margin-bottom: 87px;
     }
@@ -269,14 +275,41 @@
     .ecomm-main-margin {
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
     .ecomm-main-margin-1 {
         display: flex;
         align-items: center;
     }
 
-    @media screen and (max-width: 1280px) {
+    .carbon-image {
+        width: 100%;
+    }
+    
+    .social-icon {
+        display: flex;
+        gap: 24.37px;
+    }
+    .email-support {
+        color: #FFF;
+        text-align: center;
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .template {
+        color: #888;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    @media screen and (max-width: 1093px) {
         .detail-4 {
             display: none;
         }
@@ -296,6 +329,27 @@
         .line1 {
             display: none;
         }
+        .line2 {
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .line3 {
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .line4 {
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 0px !important;
+        }
+        .img-max-width {
+            width: 150.439px;
+            height: 250px;
+            flex-shrink: 0;
+        }
         .webapp1 {
             width: 100%;
             height: auto;
@@ -306,11 +360,12 @@
             height: auto;
         }
         .webapp2 {
-            width: 100%;
+            width: 90%;
             height: auto;
             margin-top: 0px;
             margin-left: 0px;
             margin-right: 0px;
+            margin-bottom: 38px;
         }
         .webapp2 p {
             width: 100%;
@@ -321,6 +376,7 @@
             width: 100%;
             height: auto;
             max-width: 100%;
+            margin-bottom: 68px !important;
         }
         .webappfont {
             font-size: 10px; 
@@ -332,15 +388,23 @@
         }
 
         .webapp4 p {
-            width: 80%;
-            height: auto;
-            font-size: 25px;
+            width: 50%;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 38px;
         }
 
         .webapp5 {
             width: 100%;
             height: auto;
-            margin-bottom: 96px;
+            margin-bottom: 68px;
+            display: flex;
+            justify-content: center;
+            gap: 7px;
         }
 
         .webapp5 img {
@@ -363,13 +427,41 @@
 
         .webapp6 p {
             width: 100%;
-            height: auto;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: left;
+        }
+
+        .email-support {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+
+        .template {
+            color: #888;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
 
         .ecomm-tem {
             display: flex;
             flex-direction: column;
-            align-items: center; 
+            align-items: center;
+            margin-bottom: 68px;
         }
 
         .webapp7, .webapp8 {
@@ -383,11 +475,12 @@
             margin-top: 0px;
             flex-direction: column;
             align-items: flex-start;
-            margin-left: -300px;
+            gap: 18px;
         }
         .product-img {
-            margin-right: -200px;
-            width: 150px;
+            /* margin-right: -200px; */
+            width: 70px;
+            height: 70px;
         }
         .webapp8 {
             width: 100%;
@@ -400,17 +493,16 @@
             font-size: 16px;
         }
         .webapp10 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 40px; 
-            margin-left: -40px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
         }
 
-        .webapp10 > div {
+        /* .webapp10 > div {
             width: 100%; 
             margin-right: 0; 
             margin-bottom: 20px;
-        }
+        } */
 
         .webapp10 img {
             width: 100%;
@@ -419,28 +511,43 @@
         }
 
         .embrace-p {
-            margin-bottom: -20px;
-            margin-left: 90px;
-        }
-
-        .transform-p {
-            margin-top: 20px;
-            margin-left: 70px;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px !important;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 16px;
         }
 
         .eye {
-            width: 40px !important;
+            width: 19.481px !important;
+            height: 20.784px !important;
         }
 
         .webappfont {
-            font-size: 20px;
             color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .webappfont2 {
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 150px;
         }
 
         .webapp11 {
             width: 100%;
             height: auto;
             margin-top: 0px;
+            margin-bottom: 68px;
         }
         .webapp11 img {
             width: 100%;
@@ -463,6 +570,7 @@
             width: 100%;
             height: auto;
             margin-top: 0px;
+            gap: 8px;
         }
         .webapp13 img {
             width: 100%;
@@ -471,46 +579,91 @@
         }
         .ecorm {
             width: 100%;
-            margin-left: 90px;
-            margin-bottom: 20px;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
         }
         .ecormm {
             width: 100%;
-            margin-left: 90px;
-            margin-top: -6px;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 128.571% */
         }
         .text-container {
-            max-width: 75%; /* Adjust the max-width as needed */
+            width: 100%; /* Adjust the max-width as needed */
             margin-left: 0px;
 }
         .ecomm-margin {
             display: flex;   
             flex-direction:column;
             margin-left: 18px;
+            gap: 3px;
         }
         .ecomm-main-margin {
-            margin-bottom: 30px;
+            margin-bottom: 0px;
             margin-left: 0px;
-            justify-content: space-evenly;
+            justify-content: flex-start;
             width: 100%;
         }
         .ecomm-main-margin-1 {
-            margin-bottom: 30px;
-            justify-content: space-evenly;
+            margin-bottom: 0px;
+            justify-content: flex-start;
             width: 100%;
         }
         .viewmore-a {
             width: 120px;
         }
         .fashion-store {
-            font-size: 20px;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15.022px; /* 125.185% */
         }
         .clothing {
-            font-size: 14px;
+            color: #888;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 9.389px; /* 93.889% */
             width: 100%;
         }
         .powerhouse-p2 {
-            font-size: 12px;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .powerhouse-p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 70%;
+            height: auto;
+            margin-bottom: 38px;
+        }
+        .carbon-image {
+            width: 162.038px !important;
+            height: 131.692px !important;
+        }
+        .social-icon {
+            display: flex;
+            gap: 18px;
         }
     }
 
@@ -520,24 +673,24 @@
             margin-right: 350px; */
         }
         .webapp2 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp3 {
             /* margin-left: 350px;
             margin-right: 350px; */
         }
         .webapp4 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp5 {
             /* margin-left: 350px;
             margin-right: 350px; */
         }
         .webapp6 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp7 {
             /* margin-left: 350px;
@@ -548,21 +701,21 @@
             margin-right: 350px; */
         }
         .webapp10 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
 
         .webapp11 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp12 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .webapp13 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         
     }
@@ -573,24 +726,24 @@
             margin-right: 500px; */
         }
         .webapp2 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp3 {
             /* margin-left: 500px;
             margin-right: 500px; */
         }
         .webapp4 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp5 {
             /* margin-left: 500px;
             margin-right: 500px; */
         }
         .webapp6 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp7 {
             /* margin-left: 500px;
@@ -601,20 +754,20 @@
             margin-right: 500px; */
         }
         .webapp10 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp11 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp12 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
         .webapp13 {
-            margin-left: 500px;
-            margin-right: 500px;
+            /* margin-left: 500px;
+            margin-right: 500px; */
         }
     }
 
@@ -624,24 +777,24 @@
             margin-right: 650px; */
         }
         .webapp2 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px; */
+            /* margin-right: 650px; */
         }
         .webapp3 {
             /* margin-left: 650px;
             margin-right: 650px; */
         }
         .webapp4 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp5 {
             /* margin-left: 650px;
             margin-right: 650px; */
         }
         .webapp6 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp7 {
             /* margin-left: 650px;
@@ -652,20 +805,20 @@
             margin-right: 650px; */
         }
         .webapp10 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp11 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp12 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
         .webapp13 {
-            margin-left: 650px;
-            margin-right: 650px;
+            /* margin-left: 650px;
+            margin-right: 650px; */
         }
     }
 </style>
@@ -682,7 +835,7 @@
             Welcome to the realm of innovative web and app development. 
             Embrace captivating designs and user-centric experiences that
              elevate your digital presence. Unleash the potential of your 
-             online venture with our expert solutions. <br>Join us now!
+             online venture with our expert solutions. Join us now!
         </p>
     </div>
      
@@ -690,33 +843,35 @@
         <img src="assets/image/product/webapp/1.svg" style="margin-bottom:168px">
     </div>
      
-     <div class="line2"></div>
-
+    {{-- <div class="mobile-alignment-30px"> --}}
+        <div class="line2"></div>
+    {{-- </div> --}}
+     
      <div class="webapp4">
-        <p class="embrace-p">
-            Embrace the Trendy and Inspirational
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="embrace-p">
+                Embrace the Trendy and Inspirational
+            </p>
+        </div>
+        
      </div>
 
      <div class="webapp6">
-        <div class="temp">
-            <div>
+        {{-- <div class="temp"> --}}
+            <div class="mobile-alignment-30px">
                 <p class="ecorm">e-Commerce Template</p>
             </div>
-            {{-- <div>
-                <a href="{{ route('seeall') }}" class="view-more">View More</a>
-            </div> --}}
-        </div>
+        {{-- </div> --}}
     </div>
     
      <div class="webapp5">
-        <div style="margin-right: 12px">
+        <div>
             <img src="assets/image/product/webapp/2.svg" style="width: 100%">
         </div>
-        <div style="margin-right: 12px;margin-left: 12px">
+        <div>
             <img src="assets/image/product/webapp/3.svg" style="width: 100%">
         </div>
-        <div style="margin-left: 12px">
+        <div>
             <img src="assets/image/product/webapp/4.svg" style="width: 100%">
         </div>
         
@@ -724,152 +879,122 @@
     
     <div class="ecomm-tem">
         <div class="webapp7"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Fashion Store</p>
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin-1">
+                    <img src="assets/image/product/webapp/7.svg" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Fashion Store</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Clothing & Accessories</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
                     </div>
-                    <div >
-                        <p class="clothing">Clothing & Accessories</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
+                    {{-- <a>
+                        <button class="btn-view">
+                            <span class="btn-span-view">View</span>
+                        </button>
+                    </a> --}}
                 </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
             </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/8.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Grid Plus</p>
-                    </div>
-                    <div >
-                        <p class="clothing">Unlimited Grid Layout </p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
+            
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin">
+                    <img src="assets/image/product/webapp/8.svg" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Grid Plus</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Unlimited Grid Layout </p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
                     </div>
                 </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
             </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Livesay</p>
-                    </div>
-                    <div >
-                        <p class="clothing">Event & Conference Theme</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
+            
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin">
+                    <img src="assets/image/product/webapp/9.svg" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Livesay</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Event & Conference Theme</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
                     </div>
                 </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
+            </div>
+            
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin">
+                    <img src="assets/image/product/webapp/21.png" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Furnatur</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Furniture Template Kit</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin">
+                    <img src="assets/image/product/webapp/22.png" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Road Pedal</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Bike Store Section</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mobile-alignment-30px">
+                <div class="ecomm-main-margin">
+                    <img src="assets/image/product/webapp/23.png" class="product-img">
+                    <div class="ecomm-margin">
+                        <div >
+                            <p class="fashion-store">Merketin</p>
+                        </div>
+                        <div >
+                            <p class="clothing">Business Startup Template</p>
+                        </div>
+                        <div>
+                            <img src="assets/image/product/webapp/star.svg">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="webapp8"> 
-            <div class="ecomm-main-margin-1">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Furnatur</p>
-                    </div>
-                    <div >
-                        <p class="clothing">Furniture Template Kit</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/7.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Furnatur</p>
-                    </div>
-                    <div >
-                        <p class="clothing">Furniture Template Kit</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
-            </div>
-            <div class="ecomm-main-margin">
-                <img src="assets/image/product/webapp/9.svg" class="product-img">
-                <div class="ecomm-margin">
-                    <div >
-                        <p class="fashion-store">Marketin</p>
-                    </div>
-                    <div >
-                        <p class="clothing">Business Startup Template</p>
-                    </div>
-                    <div>
-                        <img src="assets/image/product/webapp/star.svg">
-                    </div>
-                </div>
-                {{-- <a>
-                    <button class="btn-view">
-                        <span class="btn-span-view">View</span>
-                    </button>
-                </a> --}}
-            </div>
-        </div>
+        
     </div>
 
     <div class="line3"></div>
 
-    {{-- <div class="webapp9" style="width: 1507px;">
-        <p class="modern-p">
-            Web Templates for the Modern You
-        </p>
-    </div>
-
-    <div class="webapp10">
-        <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/10.svg" style="margin-right: 12px;width: 100%;">
-        </div>
-        <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/11.svg" style="margin-right: 12px;width: 100%;">
-        </div>
-        <div style="margin-right: 10px">
-            <img src="assets/image/product/webapp/12.svg" style="margin-right: 12px;width: 100%;">
-        </div>
-        <div>
-            <img src="assets/image/product/webapp/13.svg" style="margin-right: 12px;width: 100%;">
-        </div>
-    </div> --}}
-
     <div class="webapp6">
-        <div class="temp">
-            <div>
+        {{-- <div class="temp"> --}}
+            <div class="mobile-alignment-30px">
                 <p class="ecorm">Essential Trending Products</p>
             </div>
             <div>
@@ -878,10 +1003,10 @@
             {{-- <div>
                 <a href="" class="view-more">View More</a>
             </div> --}}
-        </div>
+        {{-- </div> --}}
     </div>
     <div class="webapp6-1">
-        <div class="temp">
+        <div class="mobile-alignment-30px">
             <div class="text-container">
                 <p class="ecormm">Unlock the ultimate potential of your online presence with our 
                     premium web template products! Stay on the cutting edge with 
@@ -894,108 +1019,97 @@
         </div>
     </div>
     <div class="webapp10">
-        <div style="margin-right: 10px">
+        <div>
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/13.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/13.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px">
                 <p class="webappfont">Carbon
                 </p>
                 <br>
-                <p style="color: #FFF;
-                    font-family: SF Pro Text;
-                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
+                <p class="webappfont2">
                     Your All-in-One Website
                     Template Solution
                 </p>
-                <p class="template" style="color: #888;
-                    font-family: SF Pro Text;
-                    font-size: 14px;margin:0">
+                <p class="template">
                     Minimalist Template
                 </p>
                 <br>
-                <div style="display: flex;align-items:center">
+                <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
-        <div style="margin-right: 10px">
+
+        <div>
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/12.svg" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/12.svg" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Zivi</p>
                 <br>
-                <p style="color: #FFF;
-                    font-family: SF Pro Text;
-                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
+                <p class="webappfont2">
                     A Modern Website Template
                     Collection
                 </p>
-                <p style="color: #888;
-                    font-family: SF Pro Text;
-                    font-size: 14px;margin:0">
+                <p class="template">
                      Creative Theme 
                 </p>
                 <br>
-                <div style="display: flex;align-items:center">
+                <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
-        <div style="margin-right: 10px">
+
+        <div>
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/13.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/13.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Livesay</p>
                 <br>
-                <p style="color: #FFF;
-                    font-family: SF Pro Text;
-                    font-size: 18px;margin:0;width:222px;margin-bottom:8px">
+                <p class="webappfont2">
                     Elevate Your Web Design
                     with High-End Templates
                 </p>
-                <p style="color: #888;
-                    font-family: SF Pro Text;
-                    font-size: 14px;margin:0">
+                <p class="template">
                     Event Conference
                 </p>
                 <br>
-                <div style="display: flex;align-items:center">
+                <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
-        <div style="margin-right: 10px">
+
+        <div>
             <a href="{{ route('productdetail') }}">
-                <img src="assets/image/product/seeall/14.png" style="margin-right: 12px;width: 100%;">
+                <img src="assets/image/product/seeall/14.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
                 <p class="webappfont">Archi</p>
                 <br>
-                <p style="color: #FFF;
-                    font-family: SF Pro Text;
-                    font-size: 18px;margin:0;width:235px;margin-bottom:8px">
+                <p class="webappfont2">
                     Painting Your Online Vision
-                    with Stunning Templates
+                    with Stunning
                 </p>
-                <p style="color: #888;
-                    font-family: SF Pro Text;
-                    font-size: 14px;margin:0">
+                <p class="template">
                     E-Commerce Theme
                 </p>
                 <br>
-                <div style="display: flex;align-items:center">
+                <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
                 </div>
             </div>
         </div>
+
     </div>
+</div>
     
     <div class="home-marqueee" style="margin-bottom: 60px;">
         <div class="marquee-content">
@@ -1018,7 +1132,8 @@
         </div>    
     </div>
 
-    <div class="main-content18" style="margin-top: 10px;">
+<div class="main-content2">
+    {{-- <div class="main-content18" style="margin-top: 10px;">
         <div class="detail-3">
             <div class="detail-marquee-content" style="display: flex">
                 <div class="detail-marquee-item" style="margin-right: 10px;">
@@ -1035,14 +1150,16 @@
                 </div> 
             </div>
         </div>      
-    </div>
+    </div> --}}
 
     <div class="line4" style="margin-top:66px"></div>
 
     <div class="webapp4">
-        <p class="transform-p">
-            Transform Your Art Into a Digital Empire
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="transform-p">
+                Transform Your Art Into a Digital Empire
+            </p>
+        </div>
     </div>
 
     <div class="webapp11">
@@ -1050,20 +1167,17 @@
     </div>
 
     <div class="webapp6">
-        <div class="temp">
-            <div>
+        {{-- <div class="temp"> --}}
+            <div class="mobile-alignment-30px">
                 <p class="ecorm">Forex / NFT / Cryptocurrency Web 3.0 Template</p>
             </div>
-            <div class="viewmore-a">
-                {{-- <a href="" class="view-more">View More</a> --}}
-            </div>
-        </div>
+        {{-- </div> --}}
     </div>
     <div class="webapp13">
-        <div style="margin-right: 15px;">
+        <div>
             <img src="assets/image/product/webapp/15.svg" style="width: 100%;">
         </div>
-        <div style="margin-left: 15px;">
+        <div>
             <img src="assets/image/product/webapp/16.svg" style="width: 100%;">
         </div>
         
@@ -1210,7 +1324,7 @@
     <div class="line1" style="margin-top:16px"></div><br><br><br><br>
 
     <div class="detail-7">
-        <div class="detail-social-cont" style="margin-right: 9px">
+        <div class="detail-social-cont">
             <div style="display: flex;flex-direction:column;justify-content: space-evenly;;align-items: center;">
                 <div>
                     <img src="assets/image/product/detail/cloud.svg">
@@ -1220,24 +1334,22 @@
                 font-size: 20px;">
                     Connect Us
                 </div>
-                <div>
-                    <img src="assets/image/product/detail/fb.svg" style="margin-right: 28px">
-                    <img src="assets/image/product/detail/ig.svg" style="margin-right: 28px">
-                    <img src="assets/image/product/detail/ws.svg" style="margin-right: 28px">
-                    <img src="assets/image/product/detail/tele.svg" style="margin-right: 28px">
-                    <img src="assets/image/product/detail/drib.svg" style="margin-right: 28px">
+                <div class="social-icon">
+                    <img src="assets/image/product/detail/fb.svg">
+                    <img src="assets/image/product/detail/ig.svg">
+                    <img src="assets/image/product/detail/ws.svg">
+                    <img src="assets/image/product/detail/tele.svg">
+                    <img src="assets/image/product/detail/drib.svg">
                     <img src="assets/image/product/detail/link.svg">
                 </div>
             </div>
         </div>
-        <div class="detail-social-cont" style="margin-left: 9px">
+        <div class="detail-social-cont">
             <div style="display: flex;flex-direction:column;justify-content: space-evenly;;align-items: center;">
                 <div>
                     <img src="assets/image/product/detail/sup.svg">
                 </div>
-                <div style="color: #FFF;
-                font-family: SF Pro Text;
-                font-size: 20px;">
+                <div class="email-support">
                     Email Support Get Quote
                 </div>
                 <div style="color: #888;

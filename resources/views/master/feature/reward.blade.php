@@ -2,7 +2,7 @@
 @section('content')
 
 <style>
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1093px) {
         .rew10 {
             display: flex;
             flex-wrap: wrap;

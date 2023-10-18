@@ -25,10 +25,20 @@
     .line1 {
         display: none;
     }
-    @media screen and (max-width: 1280px) {
+    .line5 {
+        display: none;
+    }
+    .alien-web {
+        display: block;
+    }
+    .alien-mobile {
+        display: none;
+    }
+    @media screen and (max-width: 1093px) {
         .web3-7 {
             width: 100%;
             height: auto;
+            margin-bottom: 16px;
         }
         .web3-7 p {
             width: 100%;
@@ -37,17 +47,47 @@
         .web3-8 {
             width: 100%;
             height: auto;
+            margin-bottom: 68px !important;
         }
         .web3-8 p {
-            width: 100%;
+            width: 94%;
             height: auto;
         }
         .web3-2 {
             width: 100%;
+            margin-bottom: 38px;
+        }
+        .web3-1 {
+            margin-bottom: 38px;
+        }
+
+        .line5 {
+            display: block;
+            width: 100%;
+            height: 0.5px;
+            background: #666;
+            margin-bottom: 38px;
+        }
+
+        .alien-web {
+            display: none;
+        }   
+        .alien-mobile {
+            display: block;
+            margin-left: 15px;
+            margin-right: 15px;
         }
         .revo-p {
             width: 100%;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
             font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 20px;
+            margin-top: 20px;
         }
         .revo-p2 {
             width: 100%;
@@ -55,20 +95,31 @@
         }
         .web3-4 {
             width: 100%;
+            margin-bottom: 68px;
         }
         .empowering-p {
-            width: 90%;
+            width: 65%;
             text-align: left;
+            color: #FFF;
+            font-family: SF Pro Text;
             font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         .empowering-p2 {
             width: 90%;
             text-align: left;
+            color: #FFF;
+
+            font-family: SF Pro Text;
             font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 128.571% */
         }
         .howwork-p {
-            margin-left: 20px;
-            margin-bottom: 50px;
+            margin-bottom: 37px;
             width: 100%;
             font-size: 20px;
         }
@@ -77,14 +128,21 @@
         }
         .step1-p {
             width: 100%;
-            margin-left: 50px;
-            font-size: 14px;
+            color: #BD00FF;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px; /* 90% */
+
         }
         .step1-p2 {
             /* margin-left: 50px; */
-            width: 80%;
-            margin-bottom: 150px;
+            width: 100%;
+            margin-bottom: 68px;
             font-size: 14px;
+            padding-left: 20px;
+            box-sizing: border-box;
         }
         .step2-p {
             width: 600px;
@@ -99,6 +157,20 @@
         .work-container-1 {
             height: auto;
             width: 100%;
+            margin-top: 80px;
+            margin-bottom: 0px;
+            display: block;
+            position: relative; /* Add this line */
+            z-index: 1; /* Add this line */
+        }
+        .work-container-2-mobile {
+            height: auto;
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 0px;
+            display: block;
+            position: relative; /* Add this line */
+            z-index: 1; /* Add this line */
         }
         .zombie-img {
             position: relative;
@@ -109,18 +181,39 @@
             height: 170px;
             margin-top: -250px;
         }
+        .zombie-img-mobile img {
+            width: 140px;
+            height: 170px;
+            position: absolute;
+            z-index: -1;
+            top: -72px;
+            right: 33px;
+        
+        }
+        .zombie-img-mobile2 img {
+            width: 140px;
+            height: 170px;
+            position: absolute;
+            z-index: -1;
+            top: -88px;
+            left: 28px;
+        }
+
         .zombie-img2 {
             /* margin-top: -750px; */
             margin-right: 35px;
             display: flex;
             position: relative;
             z-index: -1; 
-            opacity: 0.5; 
+            opacity: 0.5;
+        }
+        .zombie-img2 img {
             width: 140px;
             height: 170px;
+            margin-top: 190px !important;
         }
         .work-container-1-2 {
-            margin-right: 20px;
+            margin-right: 0px;
         }
         .work-container-2 {
             height: auto;
@@ -154,44 +247,62 @@
             height: 170px;
         }
         .craft-p {
-            width: 90%;
-            margin-left: 40px;
+            width: 100%;
             font-size: 16px;
             text-align: left;
+            margin: 0;
         }
         .craft-p2 {
-            width: 90%;
-            margin-left: 40px;
+            width: 100%;
+            color: #FFF;
+            font-family: SF Pro Text;
             font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
             text-align: left;
+            margin: 0;
+            margin-bottom: 38px;
         }
         .dashimg img {
-            width: 90%;
-            margin-left: 30px;
+            width: 100%;
         }
         .personal-nft-cont {
             width: 100%;
             height: auto;
+            margin-bottom: 0px;
         }
         .personal-nft-cont2 {
             width: 100%;
             height: auto;
         }
         .remark-p {
-            width: 90%;
+            width: 100%;
             font-size: 10px;
-            margin-left: 30px;
-            margin-bottom: 150px;
+            margin-bottom: 68px;
         }
         .create-p {
-            width: 100%;
+            width: 90%;
             /* margin-left: 40px; */
-            font-size: 16px;
+            color: #FFF;
+
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: left;
         }
         .create-p2 {
             width: 100%;
             /* margin-left: 40px; */
+            color: #FFF;
+            font-family: SF Pro Text;
             font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: left;
         }
         .line1 {
             margin-top: 50px;
@@ -201,6 +312,9 @@
         }
         .inline-display {
             /* margin-top: -8px; */
+            display: flex;
+            flex-direction: column;
+
         }
         .web3-marquee-item img {
             width: 150px;
@@ -211,8 +325,10 @@
             height: 150px;
         }
         .web3-marqueee-item img {
-            width: 110px;
-            height: 150px;
+            width: 150px;
+            height: auto;
+            border: 2px solid #69EACB;
+            border-radius: 20px;
         }
         .web3-marqueee-item-2 img {
             width: 150px;
@@ -224,6 +340,24 @@
         }
         .web3-marqueee {
             margin-bottom: 10px;
+            margin-top: 0px !important;
+        }
+        .web3-3 {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+        .web3-marquee {
+            margin-top: 68px !important;
+            margin-bottom: 16px;
+        }
+        .web3-marquee-2 {
+            margin-bottom: 68px;
+        }
+        .web3-marquee-3 {
+            margin-bottom: 68px;
+        }
+        .many-icon {
+            height: 300px !important;
         }
     }
 
@@ -260,46 +394,64 @@
         </p>
     </div>
     <div class="web3-2">
-        <p class="revo-p2">
-            Web 3.0 revolutionizes content with decentralized, user-centric platforms. It empowers 
-            creators, ensures data privacy, utilizes blockchain for transparency, and enables immersive 
-            experiences through AI, AR, and VR technologies.
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="revo-p2">
+                Web 3.0 revolutionizes content with decentralized, user-centric platforms. It empowers 
+                creators, ensures data privacy, utilizes blockchain for transparency, and enables immersive 
+                experiences through AI, AR, and VR technologies.
+            </p>
+        </div>
     </div>
 </div>
 
-<div style="margin-bottom:68px">
+<div class="alien-web" style="margin-bottom:68px">
     <img src="assets/image/product/web3/alien.svg" style="max-width: 100%; height: auto;width: 100%;">
 </div>
-{{-- <div class="line1"></div> --}}
+
+<div class="alien-mobile" style="margin-bottom:68px">
+    <img src="assets/image/product/web3/alien.svg" style="max-width: 100%; height: auto;width: 100%;">
+</div>
+
 <div class="main-content5">
+
+    <div class="mobile-alignment-30px">
+        <div class="line5"></div>
+    </div>
+    
     <div class="web3-3">
-        <p class="empowering-p">
-            Empowering Creativity
-            in the Digital Age
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="empowering-p">
+                Empowering Creativity
+                in the Digital Age
+            </p>
+        </div>
     </div>
 
     <div class="web3-4">
-        <p class="empowering-p2">
-            Embrace limitless possibilities. Embody innovation. Unleash digital tools. Ignite artistic 
-            expression. EmPower Creativity in the Digital Age and paint a vibrant canvas of boundless 
-            imagination.
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="empowering-p2">
+                Embrace limitless possibilities. Embody innovation. Unleash digital tools. Ignite artistic 
+                expression. EmPower Creativity in the Digital Age and paint a vibrant canvas of boundless 
+                imagination.
+            </p>
+        </div>
     </div>
 </div>
 
 <div class="main-content6" >
     <div class="web3-5">
-        <div>
+        <div class="mobile-alignment-30px">
             <p class="howwork-p">How it works?</p>
         </div>
 
         <div class="work-container-1">
             <div class="work-container-1-2">
-                <div><p class="step1-p">
-                    Step 1</p></div>
-                <div>
+                <div class="mobile-alignment-30px">
+                    <p class="step1-p">
+                        Step 1
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
                             Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
@@ -400,22 +552,225 @@
     </div>
 </div>
 
+<div class="main-content6-mobile">
+    <div class="web3-5">
+        <div class="mobile-alignment-30px">
+            <p class="howwork-p">How it works?</p>
+        </div>
+
+        <div class="work-container-1">
+            <div class="zombie-img-mobile">
+                <img src="assets/image/product/web3/1.svg">
+            </div>
+            <div class="work-container-1-2">
+                <div class="mobile-alignment-30px">
+                    <p class="step1-p">
+                        Step 1
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Create a digital wallet: Set up a digital wallet on the chosen blockchain platform to store and manage your NFTs.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Prepare the digital asset: Get your digital asset ready to be turned into an NFT; it can be digital art, music, videos, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Write a smart contract: Use a smart contract programming language like Solidity to write a smart contract that will create the NFT. This contract should include the basic attributes of the NFT, such as name, description, owner, etc.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        {{-- <div class="work-container-1"> --}}
+            {{-- <div class="zombie-img2">
+                <img src="assets/image/product/web3/slpmonk.svg" style="margin-top: -30px;">
+            </div> --}}
+            {{-- <div class="work-container-1-2">
+                <div class="mobile-alignment-30px">
+                    <p class="step2-p">
+                        Step 2
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Deploy the smart contract: Deploy the written smart contract to the chosen blockchain platform, such as Ethereum.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> --}}
+        <div class="work-container-2-mobile">
+            <div class="zombie-img-mobile2">
+                <img src="assets/image/product/web3/2.svg">
+            </div>
+            <div class="work-container-1-2">
+                <div class="mobile-alignment-30px">
+                    <p class="step1-p">
+                        Step 2
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Deploy the smart contract: Deploy the written smart contract to the chosen blockchain platform, such as Ethereum.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-container-1">
+            <div class="zombie-img-mobile">
+                <img src="assets/image/product/web3/3.svg">
+            </div>
+            <div class="work-container-1-2">
+                <div class="mobile-alignment-30px">
+                    <p class="step1-p">
+                        Step 3
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Pay the fees: Cover the fees required for creating the NFT, usually involving some cryptocurrency transaction fees.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-container-2-mobile">
+            <div class="zombie-img-mobile2">
+                <img src="assets/image/product/web3/4.svg">
+            </div>
+            <div class="work-container-1-2">
+                <div class="mobile-alignment-30px">
+                    <p class="step1-p">
+                        Step 4
+                    </p>
+                </div>
+                <div class="mobile-alignment-30px">
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Promote your NFT: Actively promote your NFT through social media and other platforms to attract potential buyers.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Handle transactions: If someone shows interest and is willing to buy your NFT, ensure prompt handling of the transaction and transfer the NFT to the buyer's wallet.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        {{-- <div class="work-container-3">
+            <div style="display: flex; flex-direction:column;margin-right: 43px">
+                <div><p class="step1-p">Step 3</p></div>
+                <div>
+                    <ul class="step1-p2">
+                        <li style="margin-bottom: 15px">
+                            Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
+                        </li>
+                        <li style="margin-bottom: 15px">
+                            Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
+                        </li>
+                        <li style="margin-bottom: 5px">
+                            Pay the fees: Cover the fees required for creating the NFT, usually involving some cryptocurrency transaction fees.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="zombie-img3">
+                <img src="assets/image/product/web3/goldmonk.svg">
+            </div>
+        </div> --}}
+
+        {{-- <div class="work-container-4">
+
+            <div class="zombie-img4">
+                <img src="assets/image/product/web3/firemonk.svg">
+            </div>
+
+            <div style="display: flex; flex-direction:column;">
+                <div><p class="step2-p">Step 4</p></div>
+                <div>
+                    <ul class="step2-p2">
+                        <li style="margin-bottom: 15px">
+                            Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
+                        </li>
+                        <li style="margin-bottom: 20px">
+                            Promote your NFT: Actively promote your NFT through social media and other platforms to attract potential buyers.
+                        </li>
+                        <li style="margin-bottom: 20px">
+                            Handle transactions: If someone shows interest and is willing to buy your NFT, ensure prompt handling of the transaction and transfer the NFT to the buyer's wallet.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> --}}
+    </div>
+</div>
+
 <div class="main-content7">
     <div class="web3-6">
-        <p class="remark-p">
-            <span style="color:#F00">Remarks:</span>
-            <br>
-            Creating a smart contract involves advanced technical knowledge and security considerations. If you're a beginner, it's advisable to learn the basics of blockchain and smart contract development before attempting to write one. Also, exercise caution in dealing with security and logic while developing the smart contract to protect your digital assets.
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="remark-p">
+                <span style="color:#F00">Remarks:</span>
+                <br>
+                Creating a smart contract involves advanced technical knowledge and security considerations. If you're a beginner, it's advisable to learn the basics of blockchain and smart contract development before attempting to write one. Also, exercise caution in dealing with security and logic while developing the smart contract to protect your digital assets.
+            </p>
+        </div>
     </div>
 
     <div class="web3-7">
-        <p class="craft-p">
-            Crafting Digital Experiences for Future
-            WEB 3.0
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="craft-p">
+                Crafting Digital Experiences for Future
+                WEB 3.0
+            </p>
+        </div>
     </div>
-    <div>
+    <div class="mobile-alignment-30px">
         <p class="craft-p2">
             Designing cutting-edge NFT-based digital experiences to revolutionize content 
             consumption, ownership, and engagement, shaping the future of the digital art and 
@@ -423,7 +778,9 @@
         </p>
     </div>
     <div class="dashimg">
-        <img src="assets/image/product/web3/dashboardnew.png">
+        <div class="mobile-alignment-30px">
+            <img src="assets/image/product/web3/dashboardnew.png">
+        </div>
     </div>
 </div>
 
@@ -485,16 +842,20 @@
 </div>
 <div class="main-content7">
     <div class="web3-8">
-        <p class="create-p">
-            Creating Personal NFTs Collection
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="create-p">
+                Creating Personal NFTs Collection
+            </p>
+        </div>
     </div>
     <div class="web3-8">
-        <p class="create-p2">
-            Transform your artwork or content into blockchain-based NFTs.
-            Mint and own one-of-a-kind digital assets. Showcase, sell,
-            or trade your personalized creations with the world.
-        </p>
+        <div class="mobile-alignment-30px">
+            <p class="create-p2">
+                Transform your artwork or content into blockchain-based NFTs.
+                Mint and own one-of-a-kind digital assets. Showcase, sell,
+                or trade your personalized creations with the world.
+            </p>
+        </div>
     </div>
 </div>
 <div class="web3-marqueee" style="margin-top: 66px;">
@@ -550,18 +911,22 @@
     </div>
     <div class="main-content7">
         <div class="web3-8">
-            <p class="create-p">
-                Discovering Miracles of the Future 
-                Leading the Digital World
-            </p>
+            <div class="mobile-alignment-30px">
+                <p class="create-p">
+                    Discovering Miracles of the Future 
+                    Leading the Digital World
+                </p>
+            </div>
         </div>
         <div class="web3-8" style="margin-bottom:96px">
-            <p class="create-p2">
-                Cryptocurrency, the marvel born in the information age, is emerging at an 
-                astonishing pace, and its future is brimming with boundless possibilities. In this wave
-                 of digital revolution, cryptocurrency is poised to become the shining star of the financial 
-                 world, leading us towards an unprecedented tomorrow.
-            </p>
+            <div class="mobile-alignment-30px">
+                <p class="create-p2">
+                    Cryptocurrency, the marvel born in the information age, is emerging at an 
+                    astonishing pace, and its future is brimming with boundless possibilities. In this wave
+                     of digital revolution, cryptocurrency is poised to become the shining star of the financial 
+                     world, leading us towards an unprecedented tomorrow.
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -569,7 +934,10 @@
 <div class="web3-marquee-3">
     <div class="web3-marquee-content-3">
         <div class="web3-marquee-item-3">
-            <img src="assets/image/product/web3/crypto.svg">
+            <img src="assets/image/product/web3/crypto.svg" class="many-icon" style="height:500px">
+        </div>
+        <div class="web3-marquee-item-3">
+            <img src="assets/image/product/web3/crypto.svg" class="many-icon" style="height:500px">
         </div>
     </div>
 </div>
@@ -577,19 +945,21 @@
 
 <div class="main-content8">
     <div class="joinnow-row">
-        <div class="join-container">
-            <div class="inline-display">
-                <div>
-                    <p class="joinworld-p">
-                        Join the Digital Art World Community
-                    </p>
-                </div>
-                <div>
-                    <button class="btn-startnow">
-                        <a href="{{ route('support') }}" class="explore-link">
-                            <span class="startnow-span">Start Now!</span>
-                        </a>
-                    </button>
+        <div class="mobile-alignment-30px">
+            <div class="join-container">
+                <div class="inline-display">
+                    <div>
+                        <p class="joinworld-p">
+                            Join the Digital Art World Community
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn-startnow">
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span class="startnow-span">Start Now!</span>
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
