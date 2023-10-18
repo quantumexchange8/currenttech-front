@@ -64,12 +64,29 @@
                 <div class="desc-content-col5">
                     <div class="desc-content-row2">
                         <div class="desc-content-col6">
-                            <p>Subcribe for latest news</p>
-                            <div style="position: relative;">
-                                <input type="email" class="form-control-email" style="margin-top: 15px;" placeholder="Your Email">
-                                <img src="assets/image/home/envelope.svg" style="position: absolute; right: 10px; top: 34px; transform: translateY(-50%);">
-                            </div>                            
+                            <p>Subscribe to our newsletter</p>
+                            <form method="POST" action="/subscribe">
+                                @csrf
+                                <div class="input-group" style="position: relative;">
+                                    <input type="email" name="email" class="form-control-email" placeholder="Your Email" required>
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-primary" style="position: absolute; right: 10px; top: 34px;">
+                                            <img src="assets/image/home/envelope.svg" alt="Subscribe" style="transform: translateY(-50%);">
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
+                        @if(session('error'))
+                        <div class="alert alert-success custom-success">
+                            {{ session('error') }}
+                        </div><br><br>
+                        @endif
+                        @if(session('success'))
+                        <div class="alert alert-success custom-success">
+                            {{ session('success') }}
+                        </div><br><br>
+                        @endif
                         <div class="desc-content-col7">
                             <p>Connect with us</p>
                             <br>
