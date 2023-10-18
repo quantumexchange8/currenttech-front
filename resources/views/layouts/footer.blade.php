@@ -70,7 +70,7 @@
                                 <div class="input-group" style="position: relative;">
                                     <input type="email" name="email" class="form-control-email" placeholder="Your Email" required>
                                     <div class="input-group-append">
-                                        <button type="submit" class="btn btn-primary" style="position: absolute; right: 10px; top: 34px;">
+                                        <button type="submit" class="btn btn-primary" style="position: absolute;right: 10px;top: 17px;background: transparent;border: none;">
                                             <img src="assets/image/home/envelope.svg" alt="Subscribe" style="transform: translateY(-50%);">
                                         </button>
                                     </div>

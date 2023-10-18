@@ -8,77 +8,73 @@
                             <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;">
                         </a>
                     </li>
-                    <div style="background: #000;border-radius:35px;">
-                        <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
-                            <a class="nav-link" data-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product">
-                                <span class="nav-wording">Products</span>
-                            </a>
-                            <div class="sub collapse" id="product" style="display: none;">
-                                <nav class="sub-navi">
-                                    <ul>
-                                        <li class="{{ Request::is('possystem') ? 'active' : ''}}">
-                                            <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
-                                                @if(Route::currentRouteName() === 'possystem')
-                                                    <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
-                                                    <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
-                                                @else
-                                                    <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
-                                                    <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
-                                                @endif
-                                            </a>
-                                        </li>
-                                        <li class="{{ Request::is('webapp') ? 'active' : ''}}">
-                                            <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
-                                                @if(Route::currentRouteName() === 'webapp')
-                                                    <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
-                                                @else
-                                                    <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
-                                                @endif
-                                            </a>
-                                        </li>
-                                        <li class="{{ Request::is('brokerage') ? 'active' : ''}}" style=" width:144px">
-                                            <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
-                                                @if(Route::currentRouteName() === 'brokerage')
-                                                    <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
-                                                @else
-                                                    <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
-                                                @endif
-                                            </a>
-                                        </li>
-                                        <li class="{{ Request::is('expert') ? 'active' : ''}}" style=" width:123px">
-                                            <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
-                                                @if(Route::currentRouteName() === 'expert')
-                                                    <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
-                                                @else
-                                                    <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
-                                                @endif
-                                            </a>
-                                        </li>
-                                        <li class="{{ Request::is('web3') ? 'active' : ''}}">
-                                            <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
-                                                @if(Route::currentRouteName() === 'web3')
-                                                    <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
-                                                @else
-                                                    <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                    <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
-                                                @endif
-                                            </a>
-                                        </li>
-                                        <!-- style="width:80px;margin-left:15px;margin-right:25px" -->
-                                    </ul>
-                                </nav>
-                            </div>
-                            
-                        </li>
-                    </div>
-                    
+                    <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
+                        <a class="nav-link" data-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product">
+                            <span class="nav-wording">Products</span>
+                        </a>
+                        <div class="sub collapse" id="product" style="display: none;">
+                            <nav class="sub-navi">
+                                <ul>
+                                    <li class="{{ Request::is('possystem') ? 'active' : ''}}">
+                                        <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
+                                            @if(Route::currentRouteName() === 'possystem')
+                                                <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
+                                            @else
+                                                <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
+                                                <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
+                                            @endif
+                                        </a>
+                                    </li>
+                                    <li class="{{ Request::is('webapp') ? 'active' : ''}}">
+                                        <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
+                                            @if(Route::currentRouteName() === 'webapp')
+                                                <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
+                                            @else
+                                                <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
+                                            @endif
+                                        </a>
+                                    </li>
+                                    <li class="{{ Request::is('brokerage') ? 'active' : ''}}" style=" width:144px">
+                                        <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
+                                            @if(Route::currentRouteName() === 'brokerage')
+                                                <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
+                                            @else
+                                                <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
+                                            @endif
+                                        </a>
+                                    </li>
+                                    <li class="{{ Request::is('expert') ? 'active' : ''}}" style=" width:123px">
+                                        <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
+                                            @if(Route::currentRouteName() === 'expert')
+                                                <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
+                                            @else
+                                                <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
+                                            @endif
+                                        </a>
+                                    </li>
+                                    <li class="{{ Request::is('web3') ? 'active' : ''}}">
+                                        <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
+                                            @if(Route::currentRouteName() === 'web3')
+                                                <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
+                                            @else
+                                                <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
+                                                <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
+                                            @endif
+                                        </a>
+                                    </li>
+                                    <!-- style="width:80px;margin-left:15px;margin-right:25px" -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                         <a class="nav-link" data-toggle="collapse" href="#feature" aria-expanded="false" aria-controls="feature">
                             <span class="nav-wording">Features</span>
@@ -191,9 +187,14 @@
 </div>
 <div class="small-nav">
     <nav class="nav2">
-        <ul>
+        <ul style="margin: 13px 0px;">
             <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
-                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}">
+                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
+                style="padding-left: 25px;
+                padding-top: 26px;
+                padding-right: 30px;
+                padding-bottom: 13px;"
+                >
                     <span>
                         Home
                     </span>
@@ -275,7 +276,7 @@
             </li>
             <li class="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                 <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
-                    <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">Feature</span>
+                    <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">Features</span>
                     @if(Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : '')
                         <img src="/assets/image/arrowdown_act.svg" style="margin-left: 22px">
                     @else

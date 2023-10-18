@@ -1192,7 +1192,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#food-beverage" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
