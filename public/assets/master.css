@@ -3,15 +3,17 @@
     src: url('fonts/SF-Pro-Text-Regular.otf') format('opentype');
     font-weight: normal;
 }
+
 @font-face {
-    font-family: 'SF Pro Text Bold';
-    src: url('/fonts/SF-Pro-Text-Bold.otf') format('opentype');
+    font-family: 'SF Pro Text';
+    src: url('public/fonts/SF-Pro-Text-Bold.otf') format('opentype');
     font-weight: bold;
 }
+
 @font-face {
-    font-family: 'SF Pro Text Bold';
-    src: url('/fonts/SF-Pro-Text-Light.otf') format('opentype');
-    font-weight: Light;
+    font-family: 'SF Pro Text';
+    src: url('public/fonts/SF-Pro-Text-Light.otf') format('opentype');
+    font-weight: light;
 }
 
 body {
@@ -920,16 +922,18 @@ body {
   .sub {
     display: flex;
     justify-content: center;
-    border-radius: 20px;
     position: absolute;
     top: 100%;
     left: -49px;
+    /* right: -660px; */
     z-index: 999;
     width: 1093px;
     height: 30px;
+    flex-shrink: 0;
     margin-top: 16px;
     border-radius: 35px;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    backdrop-filter: blur(5px);
   }
   
   @media (min-width: 768px) {
@@ -970,14 +974,28 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    position: relative;
     width: 100px;
     height: 30px;
     flex-shrink: 0;
     border-radius: 35px;
     margin-left: 6px;
-    margin-right: 6px;border-radius: 35px;
-    background: linear-gradient(0deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    margin-right: 6px;
 }
+
+.nav-border-items::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+    backdrop-filter: blur(5px);
+    z-index: -1; 
+}
+
 
 .nav-border-setting {
     display: flex;
@@ -6973,11 +6991,13 @@ body {
 .support-col1 {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .support-col2 {
     display: flex;
     flex-direction: column;
+    margin-top: 27px;
 }
 
  .support-row1 {
@@ -7054,21 +7074,21 @@ body {
     align-items: center; /* Vertically center-align items */
 }
 
-.support-title{
+.sup-row1-cont label span {
     color: #FFF;
-    display: flex;
-    width: 275px;
-    margin-bottom: 20px;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 40px; /* 166.667% */
     margin-left: 39px;
 }
 
-.sup-row1-cont label span {
+.sup-row1-cont label .support-title{
     color: #FFF;
+    display: flex;
+    width: 275px;
+    margin-bottom: 20px;
     font-family: SF Pro Text;
     font-size: 24px;
     font-style: normal;
@@ -7113,7 +7133,7 @@ body {
 .support4 {
     display: flex;
     align-items: flex-start; 
-    margin-top: 52px;
+    margin-top: 117px;
 }
 
 .support44 {
@@ -7166,6 +7186,44 @@ body {
     line-height: 40px; /* 166.667% */
     
 }
+/* Style the container */
+.file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Style the custom file upload button */
+.custom-file-upload {
+    margin-left: -8px;
+    margin-bottom: 16px;
+    width: 517px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    color: #333333;
+    font-family: 'SF Pro Text';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+}
+
+
+/* Style the file input to make it transparent */
+.custom-file-upload + input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
 .btn-sup-submit {
     width: 134px;
@@ -7202,6 +7260,12 @@ body {
     margin-left: 890px;
     display: none;
 }
+/* In your CSS file */
+.custom-success {
+    color: white; /* Change to your desired font color */
+    font-family: SF Pro Text;
+}
+
 /* support */
 
 /* mobile view */
