@@ -826,7 +826,7 @@ body {
     }
     .nav-menu ul li .btn-primary {
       background-color: #5CA346;
-      color: white;
+      color: rgb(227, 215, 215);
       border-radius: 20px;
       border: none;
       width: 265px;
