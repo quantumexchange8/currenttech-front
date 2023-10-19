@@ -128,6 +128,16 @@ body {
     margin: 0 auto;
 }
 
+.main-content9-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
+}
+
 .main-content10 {
     margin-top: 120px;
     margin-left: 226px;
@@ -2626,7 +2636,7 @@ body {
 
 .sector-marquee-content {
     display: flex;
-    gap: 30px;
+    gap: 18px;
     animation: marquee-animation4 100s linear infinite;
 }
 
@@ -3444,7 +3454,7 @@ body {
 }
 .getstart-container22 {
     width: 100%;
-    height: auto;
+    height: 1093px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
@@ -5139,6 +5149,7 @@ body {
     font-weight: 700;
     line-height: 42.96px;
     width: 871px;
+    margin-bottom: 32px;
 }
 
 .implement-p {
@@ -5151,6 +5162,10 @@ body {
     width: 100%;
     text-align: center;
     margin: 0;
+    display: block;
+}
+.implement-p-mobile {
+    display: none;
 }
 
 .badges-p1 {
@@ -5175,6 +5190,10 @@ body {
     width: 100%;
     text-align: center;
     margin: 0;
+    display: block;
+}
+.recognise-p1-web {
+    display: none;
 }
 
 .leveling-p1 {
@@ -5258,6 +5277,10 @@ body {
     line-height: 57.28px;
     /* width: 1268px; */
     margin: 0;
+    display: block;
+}
+.provid-2-web {
+    display: none;
 }
 
 @media screen and (max-width: 1093px) {
@@ -5266,15 +5289,35 @@ body {
         font-size: 18px;
     }
     .implement-p {
+        display: none;
         width: 100%;
-        margin-left: 40px;
         font-size: 14px;
         text-align: left;
     }
+    .implement-p-mobile {
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        display: block;
+    }
     .recognise-p1 {
         width: 100%;
-        margin-left: 40px;
         font-size: 14px;
+        text-align: left;
+        display: none;
+    }
+    .recognise-p1-web {
+        display: block;
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
         text-align: left;
     }
     .incorporate-p1 {
@@ -5282,9 +5325,6 @@ body {
         margin-left: 40px;
         font-size: 14px;
         text-align: left;
-    }
-    .badges-p1 {
-        margin-left: -100px;
     }
     .leveling-p1 {
         margin-left: -130px;
@@ -5463,6 +5503,7 @@ body {
     color: #BD00FF;
     border-radius: 50px;
 }
+
 .effective img {
     width: 670px;
 }
@@ -5990,6 +6031,7 @@ body {
     background: #333;
     margin-top: 128px;
     margin-bottom: 128px;
+
 }
 
 .report4 {
@@ -7746,27 +7788,43 @@ body {
     }
 
     .main-content9 {
-        margin: 45px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+    }
+    .main-content9-1 {
+        margin-top: 0px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content10 {
-        margin: 45px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content11 {
-        margin: 10px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content12 {
-        margin: 50px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content13 {
-        margin: 50px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
@@ -8640,6 +8698,7 @@ body {
     }
     .provid-2 {
         width: 100%;
+        display: none;
     }
     .develop5 {
         width: 100%;
@@ -8653,9 +8712,13 @@ body {
     }
     .rew1 {
         /* margin-top: 111px; */
+        display: flex;
+        justify-content: center;
     }
     .hr1 {
         /* margin-top: 110px; */
+        display: flex;
+        justify-content: center;
     }
     .blackboard {
         display: none;

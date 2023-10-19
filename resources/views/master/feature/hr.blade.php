@@ -5,6 +5,10 @@
     .hr2 {
         text-align: center;
         margin-bottom: 68px;
+        display: block;
+    }
+    .hr2-mobile {
+        display: none;
     }
     .hr3 {
         text-align: center;
@@ -22,8 +26,16 @@
     .hr5 {
         margin-bottom: 128px;
     }
+    .hr5-mobile {
+        display: none;
+    }
     .hr6 {
         text-align: center;
+        display: block;
+    }
+    .hr6-mobile {
+        text-align: center;
+        display: none;
     }
     .hr7 {
         margin-bottom: 168px;
@@ -45,10 +57,20 @@
         width: 530px;
     }
 
-    @media screen and (max-width: 1268px) {
+    @media screen and (max-width: 1093px) {
         .hr5-container-row1,
     .hr5-container-row2 {
         display: block; 
+    }
+
+    .hr-line {
+        width: 100%;
+        height: 0.5px;
+        background: #666;
+        margin-top: 68px;
+        margin-bottom: 38px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     /* .hr-container1,
@@ -72,14 +94,55 @@
         margin-right: 0; 
     } */
 
+    .hr5-container-row1 {
+        width: 100%;
+    }
+
         .hr2 {
             width: 100%;
+            display: none;
         }
         .hr2 p {
             width: 100%;
             font-size: 14px;
             line-height: 16px;
             text-align: center;
+            margin-top: 38px;
+        }
+        .hr2-mobile {
+            display: block;
+            width: 100%;
+        }
+        .hr2-mobile p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 38px;
+            margin-bottom: 38px;
+        }
+        .smart-purple {
+            color: #BD00FF;
+            font-family: SF Pro Text;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px; /* 112.5% */
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .smart-black {
+            color: #000;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 114.286% */
+            margin-top: 5px;
+            margin-bottom: 34px;
         }
         .hr3 {
             width: 100%;
@@ -91,20 +154,59 @@
         }
         .hr4 {
             width: 100%;
+            margin-bottom: 38px;
         }
         .hr4 p {
             width: 100%;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
             font-size: 20px;
-            line-height: 23px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
             text-align: center;
         }
         .hr5 {
-            margin-left: 100px;
-            margin-right: 100px;
+            /* margin-left: 100px;
+            margin-right: 100px; */
+            display: none;
+        }
+        .hr5-mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hr-container1-mobile {
+            width: 100%;
+            height: auto;
+            background: #FFF;
+            border-radius: 35px;
+            display: flex;
+            flex-direction: column;
+            padding: 30px 45px 0px 45px;
+            box-sizing: border-box;
         }
         .hr6 {
             width: 100%;
+            display: none;
         }
+        .hr6-mobile {
+            text-align: center;
+            display: block;
+            margin-bottom: 68px;
+        }
+        .hr6-mobile p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 96%;
+        }
+
         .hr6 p {
             width: 100%;
             /* font-size: 40px; */
@@ -116,9 +218,7 @@
         .hr-container1 {
             width: 100%;
             height: auto;
-            margin-left: 270px;
             border-radius: 70px;
-            margin-bottom: 50px;
         }
         .hr-container-col-img img {
             width: 460px;
@@ -195,7 +295,6 @@
             margin-left: 90px;
         }
         .enhanced-p {
-            margin-left: 30px;
             width: 80%;
             font-size: 20px;
             line-height: 23px;
@@ -204,14 +303,14 @@
         .rew10 {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             width: 100%;
-            margin-left: 80px; 
-            margin-bottom: 20px;
+            margin-bottom: 88px;
+            gap: 43px;
         }
 
         .perform-col {
-            width: 48%; 
+            width: 25%; 
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
@@ -276,7 +375,7 @@
     }
 
     .clock-purple {
-        color: #BD00FF;
+        color: #BD00FF !important;
         font-family: SF Pro Text;
         font-size: 24px;
         font-style: normal;
@@ -305,6 +404,15 @@
             operations, leading to enhanced efficiency and organizational success.
         </p>
     </div>
+    <div class="mobile-alignment-30px">
+        <div class="hr2-mobile">
+            <p>
+                Employing Smart HR strategies to optimise workforce productivity and streamline 
+                operations, leading to enhanced efficiency and organizational success.
+            </p>
+        </div>
+    </div>
+    
 
     <div class="hr3">
         <img src="assets/image/feature/hr/1.svg">
@@ -312,10 +420,12 @@
 
     <div class="hr-line"></div>
 
-    <div class="hr4">
-        <p>
-            Empowering the HR's Workforce Journey to Success
-        </p>
+    <div class="mobile-alignment-30px">
+        <div class="hr4">
+            <p>
+                Empowering the HR's Workforce Journey to Success
+            </p>
+        </div>
     </div>
 
     <div class="hr5">
@@ -402,169 +512,196 @@
         </div> --}}
     </div>
 
+    <div class="mobile-alignment-30px">
+        <div class="hr5-mobile">
+            <div class="hr-container1-mobile">
+                <div>
+                    <p class="smart-purple">
+                        Smart clock-in for<br>
+                        effortless attendance tracking
+                    </p>
+                </div>
+                <div>
+                    <p class="smart-black">
+                        Effortless attendance tracking with a
+                        smart clock-in system for streamlined
+                        and convenient time management.
+                    </p>
+                </div>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                    <img src="assets/image/feature/hr/6.svg">
+                </div>
+            </div>
+
+            <div class="hr-container1-mobile" style="margin-top: 48px;margin-bottom:48px">
+                <div>
+                    <p class="smart-purple">
+                        Make the reimbursement<br>
+                        process more straightforward
+                    </p>
+                </div>
+                <div>
+                    <p class="smart-black" style="margin-bottom:4px;">
+                        Streamline and simplify the arduous
+                        reimbursement process, making it more efficient and less time-consuming for employees and administrators.
+                    </p>
+                </div>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                    <img src="assets/image/feature/hr/7.svg">
+                </div>
+            </div>
+
+            <div class="hr-container1-mobile" style="margin-bottom:48px">
+                <div>
+                    <p class="smart-purple">
+                        Smart payroll<br>
+                        management system
+                    </p>
+                </div>
+                <div>
+                    <p class="smart-black" style="margin-bottom:14px">
+                        Efficiently manage payroll with a smart system that automates tasks, 
+                        ensuring accuracy and timeliness while reducing manual effort.
+                    </p>
+                </div>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                    <img src="assets/image/feature/hr/8.svg">
+                </div>
+            </div>
+
+            <div class="hr-container1-mobile" style="margin-bottom: 68px">
+                <div>
+                    <p class="smart-purple">
+                        Learning Management System<br>(LMS)
+                    </p>
+                </div>
+                <div>
+                    <p class="smart-black" style="margin-bottom:4px">
+                        An LMS is used for employee training and 
+                        development. It offers online courses, tracks employee 
+                        training progress, and assesses their learning outcomes.
+                    </p>
+                </div>
+                <div style="display: flex;
+                flex-direction: column;
+                align-items: center;">
+                    <img src="assets/image/feature/hr/9.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{-- <div class="line-hr"></div> --}}
     
-    <div class="hr6">
-        <p>
-            Through strategic HR management, ensuring the timely
-            assignment of suitable tasks leads to enhanced
-            productivity and <br>employee development.
-        </p>
-    </div>
-    <div class="rew10">
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/7.svg">
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    76%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Productivity
-                </p>
-            </div>
+    <div class="mobile-alignment-30px">
+        <div class="hr6">
+            <p>
+                Through strategic HR management, ensuring the timely
+                assignment of suitable tasks leads to enhanced
+                productivity and <br>employee development.
+            </p>
         </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/8.svg">
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    81%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Teamwork
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/9.svg">
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    90%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Sales Volume
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/10.svg">
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    78%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Performance
-                </p>
-            </div>
+        <div class="hr6-mobile">
+            <p>
+                Through strategic HR management, ensuring the timely
+                assignment of suitable tasks leads to enhanced
+                productivity and employee development.
+            </p>
         </div>
     </div>
     
+    <div class="mobile-alignment-30px">
+        <div class="rew10">
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/7.svg">
+                </div>
+                
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Increase
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        76%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Productivity
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/8.svg">
+                </div>
+    
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Better
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        81%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Teamwork
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/9.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Gain
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        90%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Sales Volume
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/10.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Higher
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        78%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Performance
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    {{-- <div class="hr7">
-        <div class="perform-col1">
-            <div>
-                <img src="assets/image/feature/perform/7.svg">
-            </div>
-            
-            <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Increase
-                </p>
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    76%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Productivity
-                </p>
-            </div>
-        </div>
-        <div class="perform-col2">
-            <div>
-                <img src="assets/image/feature/perform/8.svg">
-            </div>
-
-            <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Better
-                </p>
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    81%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Teeamwork
-                </p>
-            </div>
-        </div>
-        <div class="perform-col3">
-            <div>
-                <img src="assets/image/feature/perform/9.svg">
-            </div>
-            <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Gain
-                </p>
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    90%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Sales Volume
-                </p>
-            </div>
-        </div>
-        <div class="perform-col4">
-            <div>
-                <img src="assets/image/feature/perform/10.svg">
-            </div>
-            <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Higher
-                </p>
-            </div>
-            <div>
-                <p class="perform-pbig">
-                    78%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Performance
-                </p>
-            </div>
-        </div>
-    </div> --}}
-    {{-- <div class="hr8" style="margin-bottom: 60px;display: flex;justify-content: center;">
-        <button class="btn-getmoreinfo">
-            <a href="{{ route('support') }}" class="explore-link">
-                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
-            </a>
-        </button>
-    </div> --}}
 </div>
 @endsection

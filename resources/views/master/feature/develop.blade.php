@@ -20,22 +20,39 @@
 
     .develop8 {
         text-align: center;
+        display: block;
+    }
+    .develop8-mobile {
+        display: none;
+    }
+    .develop5-new {
+        display: none;
     }
 
-    @media screen and (max-width: 1268px) {
+    @media screen and (max-width: 1093px) {
         .line-develop {
-            width: 340px;
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 38px;
         }
         .develop1 {
             width: 100%;
             /* margin-top: 100px; */
+            display: flex;
+            justify-content: center;
+        }
+        .develop4 {
+            display: flex;
+            justify-content: center;
         }
         .employ-p1 {
-            width: 100%;
+            width: 70%;
             /* margin-left: 100px; */
             font-size: 20px;
             /* margin-bottom: 40px; */
             text-align: center;
+            margin-bottom: 38px;
         }
         .employ-p2 {
             width: 100%;
@@ -46,6 +63,7 @@
         }
         .develop2 {
             width: 100%;
+            margin-bottom: 38px !important;
         }
         .develop3 img {
             width: 100%;
@@ -56,27 +74,85 @@
             width: 100%;
         } */
         .develop4 p {
-            width: 80%;
-            margin-left: 30px;
-            margin-bottom: 20px;
+            width: 70%;
+            margin-bottom: 38px;
             font-size: 20px;
             line-height: 23px;
             text-align: center;
         }
         .develop5 {
-            /* margin-left: 0px;
-            margin-right: 0px;
-            width: 100%; */
+            display: none;
+        }
+        .develop6 {
+            display: none;
+        }
+        .develop7 {
+            display: none;
+        }
+        .develop5-new {
+            width: 100%;
+            display: block;
+            margin-bottom: 68px;
+        }
+        .effec-mobile {
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: right;
+            margin-right: 18px; 
+        }
+        .effec-mobile-left {
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: left;
+            margin-left: 18px; 
+        }
+        .effec-mobile-purple {
+            color: #BD00FF;
+            text-align: right;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14px; /* 100% */
         }
         .develop8 {
             width: 100%;
+            display: none;
+        }
+        .develop8-mobile {
+            display: block;
         }
         .develop8 p{
-            margin-top: -100px;
             width: 100%;
-            font-size: 20px;
-            line-height: 23px;
+            color: #FFF;
             text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+        }
+
+        .develop8-mobile p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 98%;
+            text-align: center;
+            margin-bottom: 68px;
         }
         .develop6 {
             width: 100%;
@@ -98,6 +174,17 @@
         }
         .effective .exp-color {
             font-size: 14px;
+        }
+
+        .effective-container-new {
+            width: 100%;
+            height: 191.395px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(214, 214, 214, 0.24) 100%);
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         .career {
             margin-top: -180px;
@@ -151,14 +238,14 @@
         .rew10 {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             width: 100%;
-            margin-left: 80px; 
-            margin-bottom: 20px;
+            margin-bottom: 88px;
+            gap: 43px;
         }
 
         .perform-col {
-            width: 48%; 
+            width: 25%; 
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
@@ -201,24 +288,85 @@
         </p>
     </div>
 
-    <div class="develop2" style="margin-bottom: 88px;">
-        <p class="employ-p2">
-            Employee growth is crucial for a company's success, enhances productivity, innovation, 
-            retention, adaptability, and leadership, fostering a positive work environment and 
-            competitive advantage.
-        </p>
+    <div class="mobile-alignment-30px">
+        <div class="develop2" style="margin-bottom: 88px;">
+            <p class="employ-p2">
+                Employee growth is crucial for a company's success, enhances productivity, innovation, 
+                retention, adaptability, and leadership, fostering a positive work environment and 
+                competitive advantage.
+            </p>
+        </div>
     </div>
 
     <div class="develop3">
         <img src="assets/image/feature/develop/1.svg">
     </div>
 
-    <div class="line-develop"></div>
+    
+        <div class="line-develop"></div>
+    
 
     <div class="develop4">
         <p>
             The Power of Learning and Development
         </p>
+    </div>
+
+    <div class="develop5-new">
+        <div class="effective-container-new" style="margin-bottom: 38px;">
+            <div>
+                <img src="assets/image/feature/develop/5.svg">
+            </div>
+            <div>
+                <p class="effec-mobile">
+                    <span class="effec-mobile-purple">Effective<br> Knowledge Transfer</span>
+                    <br>
+                    <br>
+                    Efficiently sharing expertise
+                    and insights within an
+                    organization to enhance performance, continuity,
+                    and overall effectiveness.
+                    Systematic knowledge
+                    transfer benefits growth.
+                </p>
+            </div>
+        </div>
+
+        <div class="effective-container-new" style="margin-bottom: 38px;">
+            <div>
+                <p class="effec-mobile-left">
+                    <span class="effec-mobile-purple">Career<br> Development</span>
+                    <br>
+                    <br>
+                    Advancing one's skills and experiences to pursue
+                    professional goals and
+                    improve job prospects.
+                    Career development
+                    fosters personal growth
+                    and success.
+                </p>
+            </div>
+            <div>
+                <img src="assets/image/feature/develop/6.svg">
+            </div>
+        </div>
+
+        <div class="effective-container-new">
+            <div>
+                <img src="assets/image/feature/develop/7.svg">
+            </div>
+            <div>
+                <p class="effec-mobile">
+                    <span class="effec-mobile-purple">Ongoing training<br>and workshops</span>
+                    <br>
+                    <br>
+                    Regular training sessions
+                    and workshops keep employees updated with
+                    new skills and knowledge, ensuring their continuous professional development.
+                </p>
+            </div>
+        </div>
+        
     </div>
 
     <div class="develop5">
@@ -244,6 +392,7 @@
             
         </div>
     </div>
+    
 
     <div class="develop6">
         <div class="career">
@@ -297,98 +446,103 @@
         </p>
     </div>
 
-    <div class="rew10">
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/7.svg">
-            </div>
-            
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Increase
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    96%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Productivity
-                </p>
-            </div>
+    <div class="mobile-alignment-30px">
+        <div class="develop8-mobile">
+            <p>
+                By introducing the appropriate tasks at the
+                optimal moment, we facilitate effective
+                development and growth.
+            </p>
         </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/8.svg">
-            </div>
+    </div>
 
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Better
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    84%
-                </p>
+    <div class="mobile-alignment-30px">
+        <div class="rew10">
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/7.svg">
+                </div>
+                
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Increase
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        96%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Productivity
+                    </p>
+                </div>
             </div>
-            <div>
-                <p class="perform-psmall">
-                    Teeamwork
-                </p>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/8.svg">
+                </div>
+    
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Better
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        84%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Teamwork
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/9.svg">
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/9.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Gain
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        79%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Sales Volume
+                    </p>
+                </div>
             </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Gain
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    79%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Sales Volume
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/10.svg">
-            </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Higher
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    88%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Performance
-                </p>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/10.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Higher
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        88%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Performance
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    {{-- <div class="develop10" style="margin-bottom: 60px">
-        <button class="btn-getmoreinfo">
-            <a href="{{ route('support') }}" class="explore-link">
-                <span class="btn-getmoreinfo-span">GET MORE INFO</span>
-            </a>
-        </button>
-    </div> --}}
 </div>
 
 @endsection

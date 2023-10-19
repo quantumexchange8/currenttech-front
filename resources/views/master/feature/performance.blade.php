@@ -18,7 +18,7 @@
             height: auto;
         }
         .perform1 p {
-            width: 100%;
+            width: 70%;
             height: auto;
             /* margin-top: 170px; */
         }
@@ -26,11 +26,18 @@
         .perform2 {
             width: 100%;
             height: auto;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 68px;
         }
         .perform2 p {
-            width: 100%;
+            width: 80%;
             height: auto;
         }
+        .perform3 {
+            margin-bottom: 68px;
+        }
+
         .perform3 img {
             width: 100%;
             /* max-width: 100%; */
@@ -39,6 +46,8 @@
         .perform4 {
             width: 100%;
             height: auto;
+            margin-bottom: 38px;
+            justify-content: center;
         }
         .perform4 img {
             width: 100%;
@@ -48,11 +57,16 @@
         .perform5 {
             width: 100%;
             height: auto;
+            margin-bottom: 38px;
         }
         .perform5 img {
             width: 100%;
             max-width: 100%;
             height: auto;
+        }
+        .perform6 {
+            margin-top: 30px;
+            margin-bottom: 68px;
         }
         .through-p2 {
             width: 100%;
@@ -66,7 +80,7 @@
             font-size: 20px;
             line-height: 23px;
             text-align: center;
-            margin-top: -100px;
+            margin-bottom: 38px;
         }
         .emphasise-p1 {
             width: 100%;
@@ -75,6 +89,9 @@
         .emphasise-p2 {
             width: 100%;
             font-size: 12px;
+        }
+        .mobile-emphasise {
+            width: 160%;
         }
         .sales-p1 {
             width: 100%;
@@ -85,7 +102,7 @@
             font-size: 12px;
         }
         .encourage-p1 {
-            width: 100%;
+            width: 80%;
             font-size: 14px;
         }
         .encourage-p2 {
@@ -93,16 +110,18 @@
             font-size: 12px;
         }
         .indispensable-p1 {
-            width: 100%;
+            width: 92%;
             font-size: 14px;
+            margin-top: 0px;
         }
         .indispensable-p2 {
-            width: 100%;
+            width: 92%;
             font-size: 12px;
         }
         .display-p1 {
             width: 100%;
             font-size: 14px;
+            margin-top: 0px;
         }
         .display-p2 {
             width: 100%;
@@ -111,14 +130,14 @@
         .rew10 {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             width: 100%;
-            margin-left: 50px; 
-            margin-bottom: 20px;
+            margin-bottom: 88px;
+            gap: 43px;
         }
 
         .perform-col {
-            width: 48%; 
+            width: 25%; 
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
@@ -192,208 +211,225 @@
         </p>
     </div>
 
-    <div class="perform3">
-        <img src="assets/image/feature/perform/1.svg">
+    <div class="mobile-alignment-30px">
+        <div class="perform3">
+            <img src="assets/image/feature/perform/1.svg">
+        </div>
     </div>
 </div>
 
-<div class="main-content9">
-    <div class="perform4">
-        <div style="display: flex; flex-direction:column">
-            <div>
-                <p class="emphasise-p1">
-                    Emphasise Well-Defined Goals
-                </p>
+<div class="main-content9-1">
+    <div class="mobile-alignment-30px">
+        <div class="perform4">
+            <div class="mobile-emphasise" style="display: flex; flex-direction:column">
+                {{-- <div> --}}
+                    <p class="emphasise-p1">
+                        Emphasise Well Defined Goals
+                    </p>
+                {{-- </div> --}}
+                {{-- <div> --}}
+                    <p class="emphasise-p2">
+                        Set clear objectives for focused efforts. Provide
+                        results-oriented guidance to achieve desired 
+                        outcomes, maximising productivity and success in 
+                        endeavours.
+                    </p>
+                {{-- </div> --}}
             </div>
             <div>
-                <p class="emphasise-p2">
-                    Set clear objectives for focused efforts. Provide
-                    results-oriented guidance to achieve desired 
-                    outcomes, maximising productivity and success in 
-                    endeavours.
-                </p>
-            </div>
-        </div>
-        <div>
-            <img src="assets/image/feature/perform/2.svg">
-        </div>
-    </div>
-
-    <div class="perform5">
-        <div>
-            <img src="assets/image/feature/perform/3.svg">
-        </div>
-        <div style="display: flex; flex-direction:column">
-            <div style="width: 440px">
-                <p class="sales-p1">
-                    Sales Commissions on
-                    Motivation
-                </p>
-            </div>
-            <div style="width: 440px">
-                <p class="sales-p2">
-                    Sales incentives motivate, 
-                    drive goal-oriented 
-                    performance, and balance 
-                    short-term objectives with 
-                    long-term growth while 
-                    prioritising customers.
-                </p>
+                <img src="assets/image/feature/perform/2.svg">
             </div>
         </div>
     </div>
 
-    <div class="perform5">
-        <div style="display: flex; flex-direction:column">
+    <div class="mobile-alignment-30px">
+        <div class="perform5">
             <div>
-                <p class="encourage-p1">
-                    Promote competitiveness for better results.
-                </p>
+                <img src="assets/image/feature/perform/3.svg">
             </div>
-            <div>
-                <p class="encourage-p2">
-                    Promoting constructive competition can
-                    enhance performance, innovation, accountability, to
-                    create a supportive and productive
-                    work environment.
-                </p>
-            </div>
-        </div>
-        <div>
-            <img src="assets/image/feature/perform/4.svg">
-        </div>
-    </div>
-
-    <div class="perform4">
-        <div>
-            <img src="assets/image/feature/perform/5.svg">
-        </div>
-        <div style="display: flex; flex-direction:column">
-            <div style="width: 400px">
-                <p class="indispensable-p1">
-                    The Essential Function of a Sales Support Team.
-                </p>
-            </div>
-            <div style="width: 380px">
-                <p class="indispensable-p2">
-                    A robust support team empowers sales teams with 
-                    tools, streamlined processes, and customer-centric 
-                    assistance, driving success, motivation, and growth.
-                </p>
+            <div class="mobile-emphasise" style="display: flex; flex-direction:column">
+                <div>
+                    <p class="sales-p1">
+                        Sales Commissions on
+                        Motivation
+                    </p>
+                </div>
+                <div>
+                    <p class="sales-p2">
+                        Sales incentives motivate, 
+                        drive goal-oriented 
+                        performance, and balance 
+                        short-term objectives with 
+                        long-term growth while 
+                        prioritising customers.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="perform5">
+    <div class="mobile-alignment-30px">
+        <div class="perform5">
+            <div class="mobile-emphasise" style="display: flex; flex-direction:column">
+                <div>
+                    <p class="encourage-p1">
+                        Promote competitiveness for better results.
+                    </p>
+                </div>
+                <div>
+                    <p class="encourage-p2">
+                        Promoting constructive competition can
+                        enhance performance, innovation, accountability, to
+                        create a supportive and productive
+                        work environment.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="assets/image/feature/perform/4.svg">
+            </div>
+        </div>
+    </div>
+    
+    <div class="mobile-alignment-30px">
+        <div class="perform4">
+            <div>
+                <img src="assets/image/feature/perform/5.svg">
+            </div>
+            <div class="mobile-emphasise" style="display: flex; flex-direction:column">
+                {{-- <div > --}}
+                    <p class="indispensable-p1">
+                        The Essential Function of a Sales Support Team.
+                    </p>
+                {{-- </div>
+                <div> --}}
+                    <p class="indispensable-p2">
+                        A robust support team empowers sales teams with 
+                        tools, streamlined processes, and customer-centric 
+                        assistance, driving success, motivation, and growth.
+                    </p>
+                {{-- </div> --}}
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-alignment-30px">
+        <div class="perform5">
         
-        <div style="display: flex; flex-direction:column">
-            <div style="width:430px">
-                <p class="display-p1">
-                    Demonstrate skill and surpass performance.
-                </p>
-            </div>
-            <div style="width:430px">
-                <p class="display-p2">
-                    Embrace growth, innovation, and customer-centricity to demonstrate strength,
-                     surpass mediocrity, and achieve excellence in personal and organisational endeavour.
-                </p>
-            </div>
-        </div>
-        <div>
-            <img src="assets/image/feature/perform/6.svg">
-        </div>
-    </div>
-
-    <div class="perform6">
-        <p class="discover-p">
-            Discover the Potential of Your Company to Achieve Performance and Growth
-        </p>
-    </div>
-
-    <div class="rew10">
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/7.svg">
-            </div>
-            
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Increase
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    86%
-                </p>
+            <div class="mobile-emphasise" style="display: flex; flex-direction:column">
+                <div>
+                    <p class="display-p1">
+                        Demonstrate skill and surpass performance.
+                    </p>
+                </div>
+                <div>
+                    <p class="display-p2">
+                        Embrace growth, innovation, and customer-centricity to demonstrate strength,
+                         surpass mediocrity, and achieve excellence in personal and organisational endeavour.
+                    </p>
+                </div>
             </div>
             <div>
-                <p class="perform-psmall">
-                    Productivity
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/8.svg">
-            </div>
-
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Better
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    250%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Teamwork
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/9.svg">
-            </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Gain
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    78%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Sales Volume
-                </p>
-            </div>
-        </div>
-        <div class="perform-col">
-            <div>
-                <img src="assets/image/feature/perform/10.svg">
-            </div>
-            {{-- <div style="margin-top: 54px">
-                <p class="perform-psmall">
-                    Higher
-                </p>
-            </div> --}}
-            <div>
-                <p class="perform-pbig">
-                    91%
-                </p>
-            </div>
-            <div>
-                <p class="perform-psmall">
-                    Performance
-                </p>
+                <img src="assets/image/feature/perform/6.svg">
             </div>
         </div>
     </div>
+
+    <div class="mobile-alignment-30px">
+        <div class="perform6">
+            <p class="discover-p">
+                Discover the Potential of Your Company to Achieve Performance and Growth
+            </p>
+        </div>
+    </div>
+
+    <div class="mobile-alignment-30px">
+        <div class="rew10">
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/7.svg">
+                </div>
+                
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Increase
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        86%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Productivity
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/8.svg">
+                </div>
+    
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Better
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        250%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Teamwork
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/9.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Gain
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        78%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Sales Volume
+                    </p>
+                </div>
+            </div>
+            <div class="perform-col">
+                <div>
+                    <img src="assets/image/feature/perform/10.svg">
+                </div>
+                {{-- <div style="margin-top: 54px">
+                    <p class="perform-psmall">
+                        Higher
+                    </p>
+                </div> --}}
+                <div>
+                    <p class="perform-pbig">
+                        91%
+                    </p>
+                </div>
+                <div>
+                    <p class="perform-psmall">
+                        Performance
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
     {{-- <div class="perform7">
         <div class="perform-col1">

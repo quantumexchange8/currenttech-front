@@ -14,6 +14,10 @@
         margin-bottom: 66px;
     }
 
+    .career4 {
+        margin-bottom: 0px;
+    }
+
     @media screen and (max-width: 1268px) {
         .career-req-p1 {
             color: #ffffff;
@@ -77,6 +81,7 @@
             font-size: 14px;
             line-height: 16px;
             margin-top: 38px;
+            margin-bottom: 38px;
         }
         
         .career4 p {
@@ -87,7 +92,7 @@
         .career3 {
             width: 100%;
             height: auto;
-            margin-bottom: 10px;
+            /* margin-bottom: 10px; */
         }
         .career3 img {
             width: 100%;
@@ -123,7 +128,7 @@
             width: 129px;
         } */
         .career-row3 {
-            display: flex;
+            display: none;
             /* margin-bottom: 88px; */
             flex-wrap: wrap;
             justify-content: center;
@@ -133,21 +138,21 @@
             
         }
         .career-col3 {
-            margin-bottom: 7.99px;
             width: 100%;
-            margin-right: 0px;
             height: 230px;
-            
+            margin-right: 0px;
         }
         .career-col4 {
             width: 100%;
-            /* margin-left: 0px; */
+            margin-right: 0px;
         }
         .career-col5 {
             width: 100%;
+            margin-right: 0px;
         }
         .career-col6 {
             width: 100%;
+            margin-right: 0px;
         }
         .career-col7 {
             margin-bottom: 5px;
@@ -200,9 +205,12 @@
         }
         .it-program-p2 p{
             width: 100%;
+            color: #FFF;
+            font-family: SF Pro Text;
             font-size: 14px;
-            font-weight: 700;
-            line-height: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px; /* 114.286% */
             /* margin-bottom: 17.94px; */
             margin-top: 0;
         }
@@ -212,16 +220,15 @@
             overflow-x: auto; /* Enable horizontal scrolling if needed */
         }   
 
-        .career-col4,
+        /* .career-col4,
         .career-col5,
         .career-col6,
         .career-col8,
         .career-col9 {
             flex: 0 0 auto; 
             width: calc(100% / 4);
-            /* margin-right: -8px; */
             white-space: nowrap; 
-        }
+        } */
         .career-line {
             margin-top: 68px;
             margin-bottom: 38px;
@@ -268,13 +275,16 @@
         </p>
     </div>
 
-    <div class="career2">
-        <p>
-            Empower your future with Current Tech Industries. Join our visionary team, embrace 
-            diversity, and work on impactful projects. Explore career opportunities that fuel your 
-            growth and make a difference. Apply now at <br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
-        </p>
+    <div class="mobile-alignment-30px">
+        <div class="career2">
+            <p>
+                Empower your future with Current Tech Industries. Join our visionary team, embrace 
+                diversity, and work on impactful projects. Explore career opportunities that fuel your 
+                growth and make a difference. Apply now at <br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
+            </p>
+        </div>
     </div>
+    
 
     <div class="career3">
         <img src="assets/image/career/1.svg">
