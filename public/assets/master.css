@@ -1373,6 +1373,7 @@ body {
     /* font-weight: 700; */
     line-height: normal;
     margin: 0;
+    margin-bottom: 14px;
 }
 
 .desc-content-col7 p {
@@ -2565,18 +2566,21 @@ body {
         display: flex;
         gap: 16px !important;
         animation: marquee-animation1 100s linear infinite;
+        -webkit-animation: marquee-animation1 100s linear infinite;
     }
     
     .web3-marqueee-content {
         display: flex;
         gap: 10px;
         animation: marquee-animation2 100s linear infinite;
+        -webkit-animation: marquee-animation2 100s linear infinite;
     }
     
     .web3-marqueee-content-2 {
         display: flex;
         gap: 10px;
         animation: marquee-animation3 100s linear infinite;
+        -webkit-animation: marquee-animation3 100s linear infinite;
     }
     
     .sector-marquee-content {
@@ -2614,30 +2618,35 @@ body {
     display: flex;
     gap: 39px;
     animation: marquee-animation1 100s linear infinite;
+    -webkit-animation: marquee-animation1 100s linear infinite;
 }
 
 .web3-marquee-content {
     display: flex;
     gap: 10px;
     animation: marquee-animation2 150s linear infinite;
+    -webkit-animation: marquee-animation2 150s linear infinite;
 }
 
 .web3-marquee-content-2 {
     display: flex;
     gap: 10px;
     animation: marquee-animation3 150s linear infinite;
+    -webkit-animation: marquee-animation3 150s linear infinite;
 }
 
 .web3-marquee-content-3 {
     display: flex;
     gap: 40px;
     animation: marquee-animation5 100s  linear infinite;
+    -webkit-animation: marquee-animation5 100s linear infinite;
 }
 
 .sector-marquee-content {
     display: flex;
     gap: 18px;
     animation: marquee-animation4 100s linear infinite;
+    -webkit-animation: marquee-animation4 100s linear infinite;
 }
 
 .marquee-item {
@@ -7386,8 +7395,17 @@ body {
 .small-nav-toggle {
     display: none;
     cursor: pointer;
+    outline: none;
 }
 
+/* .small-nav-toggle:focus {
+    outline: none; 
+} */
+.small-nav-toggle:focus {
+    outline: none; /* Remove the default focus outline */
+    /* Add your custom focus styles here, like a border or box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Example custom focus style */
+}
 .nav-border-mobile {
     width: 50px;
     height: 50px;

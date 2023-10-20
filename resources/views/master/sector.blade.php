@@ -164,7 +164,7 @@
             line-height: 18px;
         }
         .retail-p2 {
-            width: 100%;
+            width: 115%;
             height: auto;
             margin-left: -70px;
             margin-top: 10px;
@@ -180,7 +180,7 @@
             line-height: 18px;
         }
         .food-p2 {
-            width: 100%;
+            width: 95%;
             height: auto;
             margin-top: 10px;
             margin-left: -115px;
@@ -347,7 +347,7 @@
             Our Solution's Influence on all Sector
         </p>
     </div>
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="retail"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/7.svg">
@@ -409,7 +409,7 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="logistic"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/9.svg">
@@ -441,7 +441,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-bottom:68px"> 
+    <div class="getstart-container22" id="wholesale" style="margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/10.svg">
@@ -473,7 +473,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="automotive"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/11.svg">
@@ -505,7 +505,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="education"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/12.svg">
@@ -536,19 +536,6 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="sector16">
-        <div>
-            <p>Get Your Personalised Quote Today!</p>
-        </div>
-        <div style="margin-left: 30px;">
-            <button class="btn-contact">
-                <a href="{{ route('support') }}" class="explore-link">
-                    <span>Contact Us Now!</span>
-                </a>
-            </button>
-        </div>
-    </div> --}}
 
 </div>
 @endsection

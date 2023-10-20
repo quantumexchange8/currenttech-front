@@ -69,13 +69,13 @@
         .sup-row1-cont label .support-title{
             color: #FFF;
             display: flex;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             font-family: SF Pro Text;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 40px; /* 166.667% */
-            margin-left: 39px;
+            margin-left: 15px;
         }
         .sup-row1-cont label span {
         color: #FFF;

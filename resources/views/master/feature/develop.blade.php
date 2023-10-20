@@ -314,9 +314,9 @@
 
     <div class="develop5-new">
         <div class="effective-container-new" style="margin-bottom: 38px;">
-            <div>
+            
                 <img src="assets/image/feature/develop/5.svg">
-            </div>
+            
             <div>
                 <p class="effec-mobile">
                     <span class="effec-mobile-purple">Effective<br> Knowledge Transfer</span>
@@ -346,15 +346,15 @@
                     and success.
                 </p>
             </div>
-            <div>
-                <img src="assets/image/feature/develop/6.svg">
-            </div>
+            
+            <img src="assets/image/feature/develop/6.svg">
+            
         </div>
 
         <div class="effective-container-new">
-            <div>
-                <img src="assets/image/feature/develop/7.svg">
-            </div>
+            
+            <img src="assets/image/feature/develop/7.svg">
+            
             <div>
                 <p class="effec-mobile">
                     <span class="effec-mobile-purple">Ongoing training<br>and workshops</span>

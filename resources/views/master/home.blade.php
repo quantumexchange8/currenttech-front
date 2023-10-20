@@ -755,7 +755,7 @@
                     </div>
                     <div>
                         <button class="btn-getinfo">
-                            <a href="{{ route('support') }}" class="explore-link">
+                            <a href="{{ route('performance') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;font-weight: 700;
                                 font-size: 14px;">GET INFO</span>
@@ -781,7 +781,7 @@
                     </div>
                     <div>
                         <button class="btn-getinfo">
-                            <a href="{{ route('support') }}" class="explore-link">
+                            <a href="{{ route('reward') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;font-weight: 700;
                                 font-size: 14px;">GET INFO</span>
@@ -807,7 +807,7 @@
                     </div>
                     <div>
                         <button class="btn-getinfo">
-                            <a href="{{ route('support') }}" class="explore-link">
+                            <a href="{{ route('develop') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;font-weight: 700;
                                 font-size: 14px;">GET INFO</span>
@@ -833,7 +833,7 @@
                     </div>
                     <div>
                         <button class="btn-getinfo">
-                            <a href="{{ route('support') }}" class="explore-link">
+                            <a href="{{ route('hrmanage') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;font-weight: 700;
                                 font-size: 14px;">GET INFO</span>
@@ -859,7 +859,7 @@
                     </div>
                     <div>
                         <button class="btn-getinfo">
-                            <a href="{{ route('support') }}" class="explore-link">
+                            <a href="{{ route('report') }}" class="explore-link">
                                 <span style="color: #BD00FF;text-align: center;
                                 font-family: SF Pro Text;font-weight: 700;
                                 font-size: 14px;">GET INFO</span>
@@ -1121,7 +1121,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#logistic" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-logis">
                                         <span class="btn-span-getinfo">GET INFO</span>
                                     </button>
@@ -1156,7 +1156,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#education" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-edu">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1228,7 +1228,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#retail" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #C89E8A">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1264,7 +1264,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#wholesale" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #A7A7A7">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1300,7 +1300,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#automotive" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #418F9B">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1340,7 +1340,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#logistic" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-logis">
                                         <span class="btn-span-getinfo">GET INFO</span>
                                     </button>
@@ -1375,7 +1375,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#education" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-edu">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1411,7 +1411,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#food-beverage" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1447,7 +1447,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#retail" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #C89E8A">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1483,7 +1483,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#wholesale" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #A7A7A7">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
@@ -1519,7 +1519,7 @@
                             </div>
 
                             <div>
-                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <a href="{{ route('sector') }}#automotive" style="cursor: pointer; text-decoration: none;" class="explore-link">
                                     <button class="btn-getinfo-fnb" style="background: #418F9B">
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>

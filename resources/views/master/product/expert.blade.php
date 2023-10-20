@@ -51,7 +51,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 317px;
+        width: 120px;
     }
     .medusa1 img{
         width: 352px;
@@ -77,6 +77,9 @@
         height: 160px;
     }
     @media screen and (max-width: 1093px) {
+        .bigimg-border {
+            border-radius: 0px !important;
+        }
         .content4-inside-img {
         }
 
@@ -468,7 +471,7 @@
     </div>
 
     <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px">
-        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
+        <img src="assets/image/product/expert/medusa3.svg" class="bigimg-border" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute; bottom: 55px; padding: 5px;">
                 <p class="medusa-p4">
@@ -556,7 +559,7 @@
     </div>
 
     <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px">
-        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
+        <img src="assets/image/product/expert/medusa3.svg" class="bigimg-border" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute;bottom: 55px;padding: 5px">
                 <p class="medusa-p6">
@@ -650,7 +653,7 @@
     </div>
 
     <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px;">
-        <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
+        <img src="assets/image/product/expert/ragnarok.svg" class="bigimg-border" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute; bottom: 15px; padding: 5px;">
                 <img src="assets/image/product/expert/13.svg" class="ragnarok-icon">

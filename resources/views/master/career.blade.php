@@ -18,7 +18,7 @@
         margin-bottom: 0px;
     }
 
-    @media screen and (max-width: 1268px) {
+    @media screen and (max-width: 1093px) {
         .career-req-p1 {
             color: #ffffff;
             text-align: center;
@@ -132,6 +132,140 @@
             /* margin-bottom: 88px; */
             flex-wrap: wrap;
             justify-content: center;
+        }
+        .career-row3-mobile {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 8px;
+        }
+        .container-req-mobile {
+            height: auto;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            gap: 26px;
+        }
+        .container-req-mobile-2 {
+            width: auto;
+            height: auto;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 16px 21px 16px;
+            box-sizing: border-box;
+            gap: 18px;
+        }
+        .container-req-mobile-2-1 {
+            width: auto;
+            height: auto;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 16px 21px 16px;
+            box-sizing: border-box;
+            gap: 41px;
+        }
+        .container-req-mobile-2-2 {
+            width: auto;
+            height: auto;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 16px 21px 16px;
+            box-sizing: border-box;
+            gap: 33px;
+        }
+        .container-req-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            width: 100%;
+
+        }
+        .container-req-item-2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 6.1px;
+        }
+        .container-req-item p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+        }
+        .container-req-item-2 p {
+            color: #FFF;
+            text-align: left;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+        }
+        .container-req-item-2-1 p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+        }
+        .container-req-item-2-2 p {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+        }
+        .skill-word1 {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+        }
+        .skill-word2 {
+            color: #888;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+            margin-top: 2px;
         }
         .career-col2 {
             margin-top: 0;
@@ -412,6 +546,104 @@
                 </div>
             </div>
         </div>
+        
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(2, auto);
+                    gap: 17px;
+                    width: 100%;
+                    justify-items: center;">
+                        <div>
+                            <p>CSS / HTML</p>
+                        </div>
+                        <div>
+                            <p>LARAVEL PHP</p>
+                        </div>
+                        <div>
+                            <p >VUE JS</p>
+                        </div>
+                        <div>
+                            <p>MQL4</p>
+                        </div>
+                        <div>
+                            <p>JAVA SCRIPT</p>
+                        </div>
+                        <div>
+                            <p >REACT JS</p>
+                        </div>
+                        <div>
+                            <p>FLUTTER</p>
+                        </div>
+                        <div>
+                            <p>MQL5</p>
+                        </div>
+                    </div>
+                    
+                    {{-- <div style="display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;">
+                        <div>
+                            <p>JAVA SCRIPT</p>
+                        </div>
+                        <div>
+                            <p style="width: 66.38px;">REACT JS</p>
+                        </div>
+                        <div>
+                            <p>FLUTTER</p>
+                        </div>
+                        <div>
+                            <p>MQL5</p>
+                        </div>
+                    </div> --}}
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>PROBLEM-SOLVING</p>
+                        <p>INDEPENDENCE</p>
+                        <p>COMMUNICATION</p>
+                        <p>AGGRESSIVE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <div class="career-line1"></div>
@@ -529,6 +761,90 @@
                 </div>
             </div>
         </div>
+
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(2, auto);
+                    gap: 17px;
+                    width: 100%;
+                    justify-items: center;">
+                        <div>
+                            <p>FIGMA</p>
+                        </div>
+                        <div>
+                            <p>ADOBE XD</p>
+                        </div>
+                        <div>
+                            <p>ILLUSTRATOR</p>
+                        </div>
+                        <div>
+                            <p>SKETCH</p>
+                        </div>
+                        <div>
+                            <p style="width: 66.38px;">PHOTOSHOP</p>
+                        </div>
+                    </div>
+                    
+                    {{-- <div style="display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: space-between;">
+                        <div>
+                            <p>SKETCH</p>
+                        </div>
+                        <div>
+                            <p style="width: 66.38px;">PHOTOSHOP</p>
+                        </div>
+                    </div> --}}
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>CREATIVE</p>
+                        <p>PROBLEM-SOLVING</p>
+                        <p>INDEPENDENCE</p>
+                        <p>COMMUNICATION</p>
+                        <p>AGGRESSIVE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <div class="career-line1"></div>
@@ -645,6 +961,76 @@
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile" style="padding: 20px 30px;">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;justify-items: center;grid-column-gap: 25px;">
+                        <div>
+                            <p>FB / IG / LINKEDIN ADS</p>
+                        </div>
+                        <div>
+                            <p>CONTENT CREATOR</p>
+                        </div>
+                        <div style="width:auto">
+                            <p>ILLUSTRATOR</p>
+                        </div>
+                        <div style="width: auto">
+                            <p >GOOGLE ADS</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>PHOTOSHOP</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>VIDEO EDITOR</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>CREATIVE</p>
+                        <p>PROBLEM-SOLVING</p>
+                        <p>INDEPENDENCE</p>
+                        <p>COMMUNICATION</p>
+                        <p>WRITING GRAMMAR</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
@@ -764,6 +1150,80 @@
                 </div>
             </div>
         </div>
+
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile" style="padding: 20px 30px;">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 14px;
+                    justify-items: center;
+                    grid-column-gap: 30px;">
+                        <div>
+                            <p>BACKEND SYSTEM</p>
+                        </div>
+                        <div>
+                            <p>MANAGEMENT</p>
+                        </div>
+                        <div style="width:auto">
+                            <p>MT4 ADMIN</p>
+                        </div>
+                        <div style="width: auto">
+                            <p >CRM SYSTEM</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>cTrader ADMIN</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>MT5 ADMIN</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>CREATIVE</p>
+                        <p>PROBLEM-SOLVING</p>
+                        <p>COMMUNICATION</p>
+                        <p>INDEPENDENCE</p>
+                        <p>ADAPTABILITY</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <div class="career-line1"></div>
@@ -881,6 +1341,75 @@
                 </div>
             </div>
         </div>
+
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile" style="padding: 20px 30px;">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;justify-items: center;grid-column-gap: 20px;">
+                        <div>
+                            <p>COMMUNICATION</p>
+                        </div>
+                        <div>
+                            <p>CUSTOMER SERVICE</p>
+                        </div>
+                        <div style="width:auto">
+                            <p>PRESENTATION</p>
+                        </div>
+                        <div style="width: auto">
+                            <p >SALES & SERVICE</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>NEGOTIATION</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>SELF-CONFIDENCE</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>PROBLEM-SOLVING</p>
+                        <p>INDEPENDENCE</p>
+                        <p>COMMUNICATION</p>
+                        <p>ADAPTABILITY</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DIPLOMA <br>&<br> DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
     <div class="career-line1"></div>
@@ -996,6 +1525,80 @@
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div class="career-row3-mobile">
+            <div class="container-req-mobile" style="padding: 20px 30px;">
+                <div>
+                    <p class="skill-word1">
+                        SKILLS
+                    </p>
+                    <p class="skill-word2">
+                        MIN REQUIREMENT
+                    </p>
+                </div>
+                <div class="container-req-item">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;justify-items: start;;grid-column-gap: 20px;">
+                        <div>
+                            <p>ADAPTABILITY</p>
+                        </div>
+                        <div>
+                            <p>INDEPENDENCE</p>
+                        </div>
+                        <div style="width:auto">
+                            <p>HARDWORKING</p>
+                        </div>
+                        <div style="width: auto">
+                            <p >PROBLEM-SOLVING</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>AGGRESSIVE</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>SELF-CONFIDENCE</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>COMMUNICATION</p>
+                        </div>
+                        <div style="width: auto">
+                            <p>LEARNING</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+                <div class="container-req-mobile-2">
+                    <div>
+                        <p class="skill-word1">CAPABILITY</p>
+                        <p class="skill-word2">GOOD ON</p>
+                    </div>
+                    <div class="container-req-item-2">
+                        <p>IT PROGRAMMER</p>
+                        <p>UI / UX DESIGNER</p>
+                        <p>MARKETING DESIGN</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EDUCATION</p>
+                        <p class="skill-word2">QUALIFICATION</p>
+                    </div>
+                    <div class="container-req-item-2-1">
+                        <p>DEGREE</p>
+                    </div>
+                </div>
+                <div class="container-req-mobile-2-2">
+                    <div>
+                        <p class="skill-word1">EXPERIENCE</p>
+                        <p class="skill-word2">MIN YEAR</p>
+                    </div>
+                    <div class="container-req-item-2-2">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
