@@ -7253,7 +7253,7 @@ body {
 .support4 {
     display: flex;
     align-items: flex-start; 
-    margin-top: 117px;
+    margin-top: 180px;
 }
 
 .support44 {
@@ -7270,7 +7270,7 @@ body {
 }
 
 .support4 .large-textarea {
-    margin-left: 130px;
+    /* margin-left: 130px; */
     width: 514px;
     height: 259px;
     flex-shrink: 0;
@@ -7294,6 +7294,7 @@ body {
     text-align: center;
     display: flex;
     font-size: 22px;
+    outline: none;
 }
 
 .sup-form-control::placeholder {
@@ -9045,4 +9046,9 @@ body {
         margin-right: 700px;
     }
     
+}
+
+.toastr-message-text {
+    font-family: "SF Pro", sans-serif;
+    /* Add any other desired styles for the text */
 }

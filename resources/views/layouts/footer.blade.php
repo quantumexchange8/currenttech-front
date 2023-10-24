@@ -65,7 +65,7 @@
                     <div class="desc-content-row2">
                         <div class="desc-content-col6">
                             <p>Subscribe to our newsletter</p>
-                            <form method="POST" action="/subscribe">
+                            <form method="POST" action="{{ route('subscribe') }}">
                                 @csrf
                                 <div class="input-group" style="position: relative;">
                                     <input type="email" name="email" class="form-control-email" placeholder="Your Email" required>

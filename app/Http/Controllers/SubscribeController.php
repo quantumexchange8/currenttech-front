@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Jobs\SubscriberJoinJob;
 use App\Http\Requests\NewsletterRequest;
 
-class SubscribeController extends Controller
+class SubscribeController extends Controller 
 {
     // public function post(NewsletterRequest $request)
     // {
@@ -25,22 +25,28 @@ class SubscribeController extends Controller
     // }
 
 
-    public function post(NewsletterRequest $request)
+    public function post(NewsletterRequest $request )
 {
-    $validated = $request->validated();
-    $existingSubscriber = Subscriber::where('email', $validated['email'])->first();
+    // dd($request->all());
+    // $validated = $request->validated();
+    
+    // $existingSubscriber = Subscriber::where('email', $validated['email'])->first();
 
-    if ($existingSubscriber) {
+    // if ($existingSubscriber) {
         // already subscribed email
-        return redirect('support')->with('error', 'This email address is already subscribed.');
-    }
+        // return redirect('support')->with('error', 'This email address is already subscribed.');
+    // }
 
     // new subscriber
-    $newSubscriber = Subscriber::create([
-        'email' => $validated['email']
-    ]);
+    // $newSubscriber = Subscriber::create([
+    //     'email' => $validated['email']
+    // ]);
 
-    SubscriberJoinJob::dispatch($newSubscriber);
+    // SubscriberJoinJob::dispatch($newSubscriber);
+
+    $test = Subscriber::create([
+        'email' => $request->email,
+    ]);
 
     return redirect('support')->with('success', 'You have successfully subscribed. Please check your email spam folder.');
 }

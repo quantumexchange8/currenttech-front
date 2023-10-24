@@ -895,5 +895,106 @@
   });
     </script>
 
+    <script>
+        $(document).ready(function () {
+            // Listen for changes in the NFT and Crypto checkboxes
+            // $("input[name='nft'], input[name='crypto'], input[name='standard_package'], input[name='advance_package'], input[name='website'], input[name='appdev'], input[name='crm']").change(function () {
+            //     var isNFTSelected = $("input[name='nft']").is(":checked");
+            //     var isCryptoSelected = $("input[name='crypto']").is(":checked");
+
+            //     var isStdSelected = $("input[name='standard_package']").is(":checked");
+            //     var isAdvSelected = $("input[name='advance_package']").is(":checked");
+
+            //     var isCryptoSelected = $("input[name='crypto']").is(":checked");
+
+                
+            //     // Disable the Career checkboxes if NFT or Crypto is selected
+            //     if (isNFTSelected || isCryptoSelected) {
+            //         $("input[name^='it'], input[name='uiux'], input[name='market'], input[name='op'], input[name='sales'], input[name='intern']").prop("disabled", true);
+            //     } else {
+            //         // Enable the Career checkboxes if neither NFT nor Crypto is selected
+            //         $("input[name^='it'], input[name='uiux'], input[name='market'], input[name='op'], input[name='sales'], input[name='intern']").prop("disabled", false);
+            //     }
+            // });
+
+            
+
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const itprogramCheckboxes = document.querySelectorAll('[name="itprogram"], [name="uiux"], [name="market"], [name="op"], [name="sales"]');
+            const internCheckbox = document.querySelector('[name="intern"]');
+            const otherCheckboxes = document.querySelectorAll('[name="standard_package"], [name="advance_package"], [name="website"], [name="appdev"], [name="crm"], [name="whitelabel"], [name="appdev2"], [name="crmsolu"], [name="medusa"], [name="mercury"], [name="ragnarok"], [name="nft"], [name="crypto"]');
+            const displayElement = document.getElementById('someElement');
+            
+            
+            // Function to count the number of checked checkboxes in the itprogramCheckboxes group
+            function isAnyItProgramCheckboxChecked() {
+                return Array.from(itprogramCheckboxes).some(checkbox => checkbox.checked);
+            }
+
+            function countCheckedCheckboxes() {
+                return Array.from(itprogramCheckboxes).filter(checkbox => checkbox.checked).length;
+            }
+
+            // Add event listeners to the "itprogram, uiux, market, op, sales" checkboxes
+            itprogramCheckboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    
+                    if (internCheckbox.checked) {
+                        // If "intern" is checked, allow selecting only one checkbox from itprogramCheckboxes
+                        if (countCheckedCheckboxes() > 1) {
+                            this.checked = false;
+                            displayElement.style.display = 'block';
+                        }
+                    } else {
+                        // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
+                        if (countCheckedCheckboxes() > 1) {
+                            this.checked = false;
+                            displayElement.style.display = 'block';
+                        }
+                    }
+                    displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                });
+            });
+
+            // Add event listener to the "intern" checkbox
+            internCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    // If "intern" is checked, allow selecting only one checkbox from itprogramCheckboxes
+                    itprogramCheckboxes.forEach(function(checkbox) {
+                        checkbox.disabled = false;
+                    });
+                } else {
+                    // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
+                    itprogramCheckboxes.forEach(function(checkbox) {
+                        checkbox.disabled = false;
+                    });
+                }
+                displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+            });
+
+            // Add event listeners to the "standard_package, advance_package, website, appdev, crm, whitelabel, appdev2, crmsolu, medusa, mercury, ragnarok, nft, crypto" checkboxes
+            otherCheckboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    // If any checkbox in otherCheckboxes is checked, disable all checkboxes in itprogramCheckboxes
+                    if (this.checked) {
+                        itprogramCheckboxes.forEach(function(itprogramCheckbox) {
+                            itprogramCheckbox.checked = false;
+                            itprogramCheckbox.disabled = true;
+                        });
+                    } else {
+                        // Enable all checkboxes in itprogramCheckboxes
+                        itprogramCheckboxes.forEach(function(itprogramCheckbox) {
+                            itprogramCheckbox.disabled = false;
+                        });
+                    }
+                    displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+
+
 </body>
 </html>

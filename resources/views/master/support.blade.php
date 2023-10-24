@@ -97,7 +97,7 @@
         }
         .sup-form-control {
             display: block;
-            margin-left: 40px;
+            margin-left: 0px !important;
             width: 60%;
             font-size: 12px;
             height: 30px;
@@ -109,6 +109,79 @@
             overflow-x: hidden;
         }
     }
+
+    .custom-radio {
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+}
+
+.custom-radio::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(183, 173, 173);
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + .custom-radio::before {
+    background-color: black;
+    box-shadow: 0 0 0 2px rgb(215, 211, 211);
+    width: 15px;
+    height: 15px;
+}
+.custom-radio {
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+}
+
+.custom-radio::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(183, 173, 173);
+    cursor: pointer;
+}
+
+.hidden-checkbox {
+    display: none; /* Hide the default checkbox */
+}
+
+.hidden-checkbox:checked + .custom-radio::before {
+    background-color: black;
+    box-shadow: 0 0 0 2px rgb(215, 211, 211);
+    width: 15px;
+    height: 15px;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 54%;
+    font-size: 12px;
+    height: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style the label when the mouse hovers over it */
+.file-label:hover {
+  background-color: #bbb;
+}
+
+/* Hide the default file input */
+#file {
+  display: none;
+}
+
 </style>
 
 <div class="main-content16">
@@ -123,30 +196,36 @@
     </div>
 
     {{-- <div class="line1"></div> --}}
+<form action="{{ route('resume') }}" method="post" enctype="multipart/form-data" style="max-width: 1093px;">
+    {{ csrf_field()}}
+
+    @if ($errors->has('file'))
+        <div class="alert alert-danger">
+            {{ $errors->first('file') }}
+        </div>
+    @endif
     <div class="support3">
         <div class="support-col1">
             <div class="line2"></div>
             <div class="support-row1">
                 <div class="sup-row1-cont">
                     <label>
-                        {{-- <input type="radio" name="pos" value="pos_system">
-                        <span class="custom-radio"></span> --}}
                         <span class="support-title">POS System</span>
                     </label>
                     <br>
                     <label>
-                        <input type="radio" name="package" value="standard_package">
+                        <input type="checkbox" name="standard_package" value="standard_package" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>Standard Package</span>
                     </label>
                     <label>
-                        <input type="radio" name="package" value="advance_package">
+                        <input type="checkbox" name="advance_package" value="advance_package" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>Advance Package</span>
                     </label>
                 </div>
             </div>
-            <div class="line2"></div>
+            {{-- <div class="line2"></div> --}}
             <div class="support-row2">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 310px;">
@@ -167,23 +246,24 @@
                     </div>
                     <br>
                     <label>
-                        <input type="radio" name="website" value="website"> 
+                        <input type="checkbox" name="website" value="website" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>Website Development</span>
                     </label>
                     <label>
-                        <input type="radio" name="appdev" value="appdev"> 
+                        <input type="checkbox" name="appdev" value="appdev" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>App Development</span>
                     </label>
                     <label>
-                        <input type="radio" name="crm" value="crm">
+                        <input type="checkbox" name="crm" value="crm" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>CRM Development</span>
                     </label>
+                    
                 </div>
             </div>
-            <div class="line2"></div>
+            {{-- <div class="line2"></div> --}}
             <div class="support-row3">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
@@ -204,17 +284,17 @@
                     </div>
                     <br>
                     <label>
-                        <input type="radio" name="whitelabel" value="whitelabel">
+                        <input type="checkbox" name="whitelabel" value="whitelabel" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>White Label Solutions</span>
                     </label>
                     <label>
-                        <input type="radio" name="appdev" value="appdev"> 
+                        <input type="checkbox" name="paymentsolution" value="paymentsolution" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>Payment Solutions</span>
                     </label>
                     <label>
-                        <input type="radio" name="crmsolu" value="crmsolu"> 
+                        <input type="checkbox" name="crmsolu" value="crmsolu" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>CRM Solutions</span>
                     </label>
@@ -236,23 +316,23 @@
                     </div>
                     <br>
                     <label>
-                        <input type="radio" name="medusa" value="medusa">
+                        <input type="checkbox" name="medusa" value="medusa" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>MEDUSA ROBOTECH</span>
                     </label>
                     <label>
-                        <input type="radio" name="mercury" value="mercury">
+                        <input type="checkbox" name="mercury" value="mercury" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>MERCURY ROBOTECH</span>
                     </label>
                     <label>
-                        <input type="radio" name="ragnarok" value="ragnarok"> 
+                        <input type="checkbox" name="ragnarok" value="ragnarok" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>RAGNAROK ROBOTECH</span>
                     </label>
                 </div>
             </div>
-            <div class="line2"></div>
+            {{-- <div class="line2"></div> --}}
             <div class="support-row5">
                 <div class="sup-row1-cont">
                     <label class="web3hide">
@@ -262,18 +342,18 @@
                     </label>
                     <br>
                     <label>
-                        <input type="radio" name="nft" value="nft">
+                        <input type="checkbox" name="nft" value="nft" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>NFT Trading Board</span>
                     </label>
                     <label>
-                        <input type="radio" name="crypto" value="crypto"> 
+                        <input type="checkbox" name="crypto" value="crypto" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>Cryptocurrency Exchange</span>
                     </label>
                 </div>
             </div>
-            <div class="line2"></div>
+            {{-- <div class="line2"></div> --}}
             <div class="support-row6">
                 <div class="sup-row1-cont">
                     <div style="display: flex;justify-content: space-between;width: 430px">
@@ -286,33 +366,34 @@
                         </div>
                     </div>
                     <br>
+                    
                     <label>
-                        <input type="radio" name="itprogram" value="itprogram"> 
+                        <input type="checkbox" name="itprogram" value="itprogram" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>IT Programmer</span>
                     </label>
                     <label>
-                        <input type="radio" name="uiux" value="uiux"> 
+                        <input type="checkbox" name="uiux" value="uiux" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>UI / UX Designer</span>
                     </label>
                     <label>
-                        <input type="radio" name="market" value="market">
+                        <input type="checkbox" name="market" value="market" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>Marketing Designer</span>
                     </label>
                     <label>
-                        <input type="radio" name="op" value="op"> 
+                        <input type="checkbox" name="op" value="op" id="customRadioButton" class="hidden-checkbox"> 
                         <span class="custom-radio"></span>
                         <span>Backend Operation</span>
                     </label>
                     <label>
-                        <input type="radio" name="sales" value="sales">
+                        <input type="checkbox" name="sales" value="sales" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>Indoor / Outdoor Sales</span>
                     </label>
                     <label>
-                        <input type="radio" name="intern" value="intern">
+                        <input type="checkbox" name="intern" value="intern" id="customRadioButton" class="hidden-checkbox">
                         <span class="custom-radio"></span>
                         <span>New Intern</span>
                     </label>
@@ -323,22 +404,24 @@
         </div>
     </div>
     {{-- <div class="line1"></div> --}}
-    <form action="{{ url('contact_mail') }}" method="post" enctype="multipart/form-data">
-    {{ csrf_field()}}
+    
     {{-- web view --}}
     <div class="support4">
         <div class="left-input">
             <textarea class="sup-form-control large-textarea" name="message" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
         </div>
         <div class="right-input">
-            <input type="text" class="sup-form-control" name="name" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
-            <input type="text" class="sup-form-control" name="number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+            <input type="text" class="sup-form-control" name="full_name" value="{{ old('full_name') }}" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+            <input type="number" class="sup-form-control" name="contact_number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
             <input type="email" class="sup-form-control" name="email" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
             {{-- <div class="file-input-container"> --}}
-                <label for="file" class="custom-file-upload">
-                    File
-                </label>
-                <input type="file" class="sup-form-control" name="file" id="file" onchange="displayFileName(this)">
+                <div id="someElement" style="display: none;">
+                    <label for="file" class="custom-file-upload">
+                        File
+                    </label>
+                    <input type="file" class="sup-form-control" name="file" id="file" onchange="displayFileName(this)">
+                </div>
+                
             {{-- </div> --}}
         </div>
     </div>
@@ -353,10 +436,12 @@
 @endif
     {{-- mobile view --}}
     <div class="support44">
-            <input type="text" class="sup-form-control" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
-            <input type="text" class="sup-form-control" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
-            <input type="email" class="sup-form-control" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>   
-            <textarea class="sup-form-control large-textarea" placeholder="Your Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>   
+            <input type="text" class="sup-form-control" name="full_name" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)" value="{{ old('full_name') }}"><br>
+            <input type="number" class="sup-form-control" name="contact_number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>
+            <input type="email" class="sup-form-control" name="email" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"><br>   
+            <label for="file" class="file-label">Select a File</label>
+            <input type="file" class="sup-form-control" style="display: none;" name="file" id="file" onchange="displayFileName(this)"><br>
+            <textarea class="sup-form-control large-textarea" name="message" placeholder="Your Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>   
             <button class="btn-sup-submit2">
                 <span>Submit</span>
             </button>     
