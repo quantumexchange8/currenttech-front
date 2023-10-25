@@ -108,6 +108,9 @@
             color: #666666;
         }
 
+    .sup-row1-cont label span {
+        margin-left: 0px;
+    }
     @media screen and (max-width: 1093px) {
         .ct-p {
             color: #BD00FF;
@@ -170,7 +173,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 12px; /* 120% */
-            width: 100%;
+            width: 98%;
             margin-top: 0px;
         }
 
@@ -182,7 +185,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            width: 100%;
+            width: 98%;
             margin: 0px;
         }
 
@@ -347,9 +350,10 @@
         }
         .cont {
             width: 100%;
-            height: 100px;
+            height: auto;
             margin-bottom: 0px;
             margin-top: 36px;
+            gap: 15px;
         }
         .cont img {
             width: 170px;
@@ -369,7 +373,8 @@
         .ct-box {
             /* margin-left: 40px;
             margin-right: 20px; */
-            margin-top: 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             margin-right: 15px;
             display: flex;
             flex-direction: column;
@@ -385,6 +390,16 @@
             justify-content: center;
             gap: 8px;
             margin-left: 16px;
+        }
+        .ct-box3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            height: auto; 
+            justify-content: center;
+            gap: 2px;
         }
         .cont2 {
             width: 100%;
@@ -869,7 +884,7 @@
     
     <div class="broker6">
         <div class="mobile-alignment-30px">
-            <div class="cont">
+            <div class="cont" style="gap: 0px">
                 <div>
                     <img src="assets/image/product/broker/2.svg">
                 </div>
@@ -916,7 +931,7 @@
                 <div>
                     <img src="assets/image/product/broker/4.svg" class="crm-image">
                 </div>
-                <div class="ct-box">
+                <div class="ct-box3">
                     <p class="ct-p8">
                         CRM solutions
                     </p>
@@ -1279,7 +1294,7 @@
                     </div>
                 </div>
 
-                <div style="display: flex;flex-direction:column;align-items:center">
+                <div style="display: flex;flex-direction:column;align-items:center;width:82.8px;">
                     <div>
                         <img src="assets/image/product/broker/10.svg" style="width: 53.314px;height: 40px;margin-bottom:8px">
                     </div>
@@ -1504,7 +1519,7 @@
         <div style="padding: 48px">
                 <div class="sup-row1-cont">   
             <div style="display: flex;align-items: center;justify-content: space-between;">
-                <div style="margin-left: -60px;">
+                <div>
                     <img src="assets/image/product/broker/24.svg">
                 </div>
                 <div style="display: flex;flex-direction:column">

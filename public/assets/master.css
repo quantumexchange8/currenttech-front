@@ -3275,6 +3275,14 @@ body {
     margin-left: 55px;
     margin-top: 75px;
 }
+
+.ct-box3 {
+    /* width: 480px; */
+    height: 180px;
+    margin-right: 50px;
+    margin-top: 75px;
+}
+
 .ct-p3 {
     color: #ffffff;
     font-family: SF Pro Text;
@@ -3540,6 +3548,7 @@ body {
     border-radius: 35px;
     margin-bottom: 86px;
     background: linear-gradient(135deg, rgba(173, 0, 255, 0.40) 0%, rgba(250, 0, 255, 0.40) 56.25%, rgba(5, 0, 255, 0.24) 100%);
+    display: none;
 }
 
 .ctrade-span-word {
@@ -7102,16 +7111,17 @@ body {
 }
 
 .support3 {
-    width: 1067px;
+    width: 100%;
     height: 846px;
     display: flex;
     margin-bottom: 120px;
+    justify-content: center;
 }
 
 .support-col1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .support-col2 {
@@ -7252,8 +7262,10 @@ body {
 
 .support4 {
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-top: 180px;
+    justify-content: center;
+    gap: 27px;
 }
 
 .support44 {
@@ -7261,18 +7273,18 @@ body {
 }
 
 .left-input {
-    margin-right: 40px; /* Adjust spacing between left and right sections */
+    /* margin-right: 40px; Adjust spacing between left and right sections */
 }
 
 .right-input {
-    margin-right: 120px;
-    flex: 2; /* Take up twice as much space as the left section */
+    /* margin-right: 120px; */
+    /* flex: 2; Take up twice as much space as the left section */
 }
 
 .support4 .large-textarea {
     /* margin-left: 130px; */
-    width: 514px;
-    height: 259px;
+    width: 514.4px;
+    height: 243px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
@@ -7284,7 +7296,7 @@ body {
 } 
 
 .sup-form-control {
-    margin-left: -10px;
+    /* margin-left: -10px; */
     margin-bottom: 16px;
     width: 512px;
     height: 48px;
@@ -7316,9 +7328,9 @@ body {
 
 /* Style the custom file upload button */
 .custom-file-upload {
-    margin-left: -8px;
+    /* margin-left: -8px; */
     margin-bottom: 16px;
-    width: 517px;
+    /* width: 517px; */
     height: 48px;
     flex-shrink: 0;
     border-radius: 5px;
@@ -7355,7 +7367,7 @@ body {
     background: transparent;
     margin-top: 20px;
     margin-bottom: 70px;
-    margin-left: 950px;
+    margin-left: 925px;
     display: block;
 }
 
@@ -7638,7 +7650,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         /* margin-bottom: 30px; */
-        margin-top: -60px;
+        /* margin-top: -60px; */
     }
     .support-row2 {
         width: 100%;
@@ -7647,7 +7659,6 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
     }
     .support-row3 {
         width: 100%;
@@ -7656,7 +7667,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
     }
     .support-row4 {
         width: 100%;
@@ -7665,7 +7676,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support-row5 {
@@ -7675,7 +7686,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support-row6 {
@@ -7685,13 +7696,13 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support3 {
         flex-direction: column; 
         /* margin-left: 70px; */
-        margin-bottom: 770px;
+        margin-bottom: 650px;
     }
 }
 

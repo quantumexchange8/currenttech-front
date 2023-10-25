@@ -315,7 +315,7 @@
     <div class="develop5-new">
         <div class="effective-container-new" style="margin-bottom: 38px;">
             
-                <img src="assets/image/feature/develop/5.svg">
+                <img src="assets/image/feature/develop/5.svg" style="margin-top: 1px;">
             
             <div>
                 <p class="effec-mobile">

@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('subscribers', function (Blueprint $table) {
             $table->id();
             $table->string('email');
-            $table->timestamp('created_at')->nullable();
-            $table->timestamp('updated_at')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -24,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('subscriptions');
+        Schema::dropIfExists('subscribers');
     }
 };

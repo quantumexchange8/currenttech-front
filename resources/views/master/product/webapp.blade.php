@@ -937,7 +937,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/21.png" class="product-img">
+                    <img src="assets/image/product/webapp/24.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Furnatur</p>
@@ -954,7 +954,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/22.png" class="product-img">
+                    <img src="assets/image/product/webapp/25.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Road Pedal</p>
@@ -971,7 +971,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/23.png" class="product-img">
+                    <img src="assets/image/product/webapp/26.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Merketin</p>
@@ -1335,9 +1335,15 @@
                     Connect Us
                 </div>
                 <div class="social-icon">
-                    <img src="assets/image/product/detail/fb.svg">
-                    <img src="assets/image/product/detail/ig.svg">
-                    <img src="assets/image/product/detail/ws.svg">
+                    <a href="https://www.facebook.com/currenttechindustries">
+                        <img src="assets/image/product/detail/fb.svg">
+                    </a>
+                    <a href="https://instagram.com/currenttechindustries?">
+                        <img src="assets/image/product/detail/ig.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/company/currenttechindustries/">
+                        <img src="assets/image/product/detail/ws.svg">
+                    </a>
                     <img src="assets/image/product/detail/tele.svg">
                     <img src="assets/image/product/detail/drib.svg">
                     <img src="assets/image/product/detail/link.svg">

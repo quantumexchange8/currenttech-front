@@ -44,7 +44,9 @@
             margin-bottom: 68px;
         }
         .rew4 {
-            width: 340px;
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
         }
         .rew5 {
             width: auto;
@@ -54,7 +56,9 @@
             margin-bottom: 38px !important;
         }
         .rew7 {
-            width: 340px;
+            width: 100%;
+            margin-left: 30px;
+            margin-right: 30px;
         }
         .rew8 {
             margin-bottom: 38px !important;
@@ -224,13 +228,13 @@
         </div>
     </div>
 
-    <div class="mobile-alignment-30px">
+    {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew4">
             <p class="point-p">
                Points and Loyalty Programs
             </p>
        </div>
-    </div>
+    {{-- </div> --}}
 
     <div class="mobile-alignment-30px">
         <div class="rew5">
@@ -255,13 +259,13 @@
         </div>
     </div>
 
-    <div class="mobile-alignment-30px">
+    {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
                 Badges and Achievements
             </p>
         </div>
-    </div>
+    {{-- </div> --}}
 
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">
@@ -289,13 +293,13 @@
             Leveling and Progression
         </p>
     </div> --}}
-    <div class="mobile-alignment-30px">
+    {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
                 Leveling and Progression
             </p>
         </div>
-    </div>
+    {{-- </div> --}}
 
     {{-- <div class="rew8" style="margin-bottom: 68px">
         <p class="incorporate-p1">
@@ -330,13 +334,13 @@
             VIP or Premium Membership
         </p>
     </div> --}}
-    <div class="mobile-alignment-30px">
+    {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
                 VIP or Premium Membership
             </p>
         </div>
-    </div>
+    {{-- </div> --}}
 
     {{-- <div class="rew8" style="margin-bottom: 68px">
         <p class="vip-p2">
@@ -372,13 +376,13 @@
         </p>
     </div> --}}
 
-    <div class="mobile-alignment-30px">
+    {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
                 Daily Streaks and Challenges
             </p>
         </div>
-    </div>
+    {{-- </div> --}}
 
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">

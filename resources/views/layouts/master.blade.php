@@ -924,8 +924,34 @@
         document.addEventListener('DOMContentLoaded', function() {
             const itprogramCheckboxes = document.querySelectorAll('[name="itprogram"], [name="uiux"], [name="market"], [name="op"], [name="sales"]');
             const internCheckbox = document.querySelector('[name="intern"]');
-            const otherCheckboxes = document.querySelectorAll('[name="standard_package"], [name="advance_package"], [name="website"], [name="appdev"], [name="crm"], [name="whitelabel"], [name="appdev2"], [name="crmsolu"], [name="medusa"], [name="mercury"], [name="ragnarok"], [name="nft"], [name="crypto"]');
+            const otherCheckboxes = document.querySelectorAll('[name="standard_package"], [name="advance_package"], [name="website"], [name="appdev"], [name="crm"], [name="whitelabel"], [name="paymentsolution"], [name="crmsolu"], [name="medusa"], [name="mercury"], [name="ragnarok"], [name="nft"], [name="crypto"]');
+            
+            const standardPackageCheckbox = document.querySelector('[name="standard_package"]');
+            const advancePackageCheckbox = document.querySelector('[name="advance_package"]');
+
+            const websiteCheckbox = document.querySelector('[name="website"]');
+            const appdevCheckbox = document.querySelector('[name="appdev"]');
+            const crmCheckbox = document.querySelector('[name="crm"]');
+
+            const whitelabelCheckbox = document.querySelector('[name="whitelabel"]');
+            const paymentsolutionCheckbox = document.querySelector('[name="paymentsolution"]');
+            const crmsoluCheckbox = document.querySelector('[name="crmsolu"]');
+
+            const medusaCheckbox = document.querySelector('[name="medusa"]');
+            const mercuryCheckbox = document.querySelector('[name="mercury"]');
+            const ragnarokCheckbox = document.querySelector('[name="ragnarok"]');
+
+            const nftCheckbox = document.querySelector('[name="nft"]');
+            const cryptoCheckbox = document.querySelector('[name="crypto"]');
+
+
+            // const webApplicationCheckboxes = document.querySelectorAll('[name="website"], [name="appdev"], [name="crm"]');
+            // const ctraderCheckboxes = document.querySelectorAll('[name="whitelabel"], [name="appdev2"], [name="crmsolu"]');
+            // const prochipCheckboxes = document.querySelectorAll('[name="medusa"], [name="mercury"], [name="ragnarok"]');
+            // const web3Checkboxes = document.querySelectorAll('[name="nft"], [name="crypto"]');
+            
             const displayElement = document.getElementById('someElement');
+            const displayElement2 = document.getElementById('someElement2');
             
             
             // Function to count the number of checked checkboxes in the itprogramCheckboxes group
@@ -937,6 +963,98 @@
                 return Array.from(itprogramCheckboxes).filter(checkbox => checkbox.checked).length;
             }
 
+            // POS SYSTEM
+            standardPackageCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    advancePackageCheckbox.checked = false;
+                }
+            });
+
+            advancePackageCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    standardPackageCheckbox.checked = false;
+                }
+            });
+
+            // WEB / APPPLICATION
+            websiteCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    appdevCheckbox.checked = false;
+                    crmCheckbox.checked = false;
+                }
+            });
+
+            appdevCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    websiteCheckbox.checked = false;
+                    crmCheckbox.checked = false;
+                }
+            });
+
+            crmCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    websiteCheckbox.checked = false;
+                    appdevCheckbox.checked = false;
+                }
+            });
+
+            // CTRADER / METAQUOTE
+            whitelabelCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    paymentsolutionCheckbox.checked = false;
+                    crmsoluCheckbox.checked = false;
+                }
+            });
+
+            paymentsolutionCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    whitelabelCheckbox.checked = false;
+                    crmsoluCheckbox.checked = false;
+                }
+            });
+
+            crmsoluCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    whitelabelCheckbox.checked = false;
+                    paymentsolutionCheckbox.checked = false;
+                }
+            });
+
+            // PRO CHIP / ULTRA CHIP
+            medusaCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    mercuryCheckbox.checked = false;
+                    ragnarokCheckbox.checked = false;
+                }
+            });
+
+            mercuryCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    medusaCheckbox.checked = false;
+                    ragnarokCheckbox.checked = false;
+                }
+            });
+
+            ragnarokCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    medusaCheckbox.checked = false;
+                    mercuryCheckbox.checked = false;
+                }
+            });
+
+            // WEB 3.0
+            nftCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    cryptoCheckbox.checked = false;
+                }
+            });
+
+            cryptoCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    nftCheckbox.checked = false;
+                }
+            });
+
             // Add event listeners to the "itprogram, uiux, market, op, sales" checkboxes
             itprogramCheckboxes.forEach(function(checkbox) {
                 checkbox.addEventListener('change', function() {
@@ -946,15 +1064,18 @@
                         if (countCheckedCheckboxes() > 1) {
                             this.checked = false;
                             displayElement.style.display = 'block';
+                            displayElement2.style.display = 'block';
                         }
                     } else {
                         // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
                         if (countCheckedCheckboxes() > 1) {
                             this.checked = false;
                             displayElement.style.display = 'block';
+                            displayElement2.style.display = 'block';
                         }
                     }
                     displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
                 });
             });
 
@@ -972,6 +1093,7 @@
                     });
                 }
                 displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
             });
 
             // Add event listeners to the "standard_package, advance_package, website, appdev, crm, whitelabel, appdev2, crmsolu, medusa, mercury, ragnarok, nft, crypto" checkboxes
@@ -990,6 +1112,7 @@
                         });
                     }
                     displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
                 });
             });
         });

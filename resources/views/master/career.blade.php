@@ -160,7 +160,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 30px 16px 21px 16px;
+            padding: 30px 12px 21px 12px;
             box-sizing: border-box;
             gap: 18px;
         }
@@ -235,6 +235,10 @@
             font-weight: 400;
             line-height: normal;
             margin: 0;
+            height: 43.2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .container-req-item-2-2 p {
             color: #FFF;
@@ -617,7 +621,7 @@
                         <p class="skill-word2">GOOD ON</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>PROBLEM-SOLVING</p>
+                        <p>PROBLEM SOLVING</p>
                         <p>INDEPENDENCE</p>
                         <p>COMMUNICATION</p>
                         <p>AGGRESSIVE</p>
@@ -818,7 +822,7 @@
                     </div>
                     <div class="container-req-item-2">
                         <p>CREATIVE</p>
-                        <p>PROBLEM-SOLVING</p>
+                        <p>PROBLEM SOLVING</p>
                         <p>INDEPENDENCE</p>
                         <p>COMMUNICATION</p>
                         <p>AGGRESSIVE</p>
@@ -930,7 +934,7 @@
                 <div class="cap-ctgry-p">
                     <p>
                         Creative <br><br>
-                        Problem-Solving <br><br>
+                        Problem Solving <br><br>
                         Independence <br><br>
                         Communication <br><br>
                         Writing Grammar
@@ -1005,7 +1009,7 @@
                     </div>
                     <div class="container-req-item-2">
                         <p>CREATIVE</p>
-                        <p>PROBLEM-SOLVING</p>
+                        <p>PROBLEM SOLVING</p>
                         <p>INDEPENDENCE</p>
                         <p>COMMUNICATION</p>
                         <p>WRITING GRAMMAR</p>
@@ -1116,7 +1120,7 @@
                 <div class="cap-ctgry-p">
                     <p>
                         Adaptability <br><br>
-                        Problem-Solving <br><br>
+                        Problem Solving <br><br>
                         Independence <br><br>
                         Communication <br><br>
                         Creative
@@ -1197,7 +1201,7 @@
                     </div>
                     <div class="container-req-item-2">
                         <p>CREATIVE</p>
-                        <p>PROBLEM-SOLVING</p>
+                        <p>PROBLEM SOLVING</p>
                         <p>COMMUNICATION</p>
                         <p>INDEPENDENCE</p>
                         <p>ADAPTABILITY</p>
@@ -1383,7 +1387,7 @@
                         <p class="skill-word2">GOOD ON</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>PROBLEM-SOLVING</p>
+                        <p>PROBLEM SOLVING</p>
                         <p>INDEPENDENCE</p>
                         <p>COMMUNICATION</p>
                         <p>ADAPTABILITY</p>
@@ -1472,7 +1476,7 @@
                     <div class="ctgry-p">
                         <div class="container">
                             <p>ADAPTABILITY</p>
-                            <p>PROBLEM-SOLVING</p>
+                            <p>PROBLEM SOLVING</p>
                             <p>COMMUNICATION</p>
                             <p>INDEPENDENCE</p>
                         </div>
@@ -1549,7 +1553,7 @@
                             <p>HARDWORKING</p>
                         </div>
                         <div style="width: auto">
-                            <p >PROBLEM-SOLVING</p>
+                            <p >PROBLEM SOLVING</p>
                         </div>
                         <div style="width: auto">
                             <p>AGGRESSIVE</p>
