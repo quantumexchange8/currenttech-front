@@ -17,7 +17,9 @@
     .career4 {
         margin-bottom: 0px;
     }
-
+    .career-row3-mobile {
+        display: none;
+    }
     @media screen and (max-width: 1093px) {
         .career-req-p1 {
             color: #ffffff;

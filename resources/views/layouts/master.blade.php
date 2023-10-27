@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+    {{-- href="{{asset('assets/image/home/ct_processor.png')}}" --}}
 </head>
 
 <body class="light-mode dark-mode">
@@ -785,19 +787,19 @@
                         // If "intern" is checked, allow selecting only one checkbox from itprogramCheckboxes
                         if (countCheckedCheckboxes() > 1) {
                             this.checked = false;
-                            displayElement.style.display = 'block';
-                            displayElement2.style.display = 'block';
+                            // displayElement.style.display = 'block';
+                            // displayElement2.style.display = 'block';
                         }
                     } else {
                         // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
                         if (countCheckedCheckboxes() > 1) {
                             this.checked = false;
-                            displayElement.style.display = 'block';
-                            displayElement2.style.display = 'block';
+                            // displayElement.style.display = 'block';
+                            // displayElement2.style.display = 'block';
                         }
                     }
-                    displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
-                    displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
                 });
             });
 
@@ -814,8 +816,8 @@
                         checkbox.disabled = false;
                     });
                 }
-                displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
-                displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
             });
 
             // Add event listeners to the "standard_package, advance_package, website, appdev, crm, whitelabel, appdev2, crmsolu, medusa, mercury, ragnarok, nft, crypto" checkboxes
@@ -833,8 +835,8 @@
                             itprogramCheckbox.disabled = false;
                         });
                     }
-                    displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
-                    displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
                 });
             });
         });

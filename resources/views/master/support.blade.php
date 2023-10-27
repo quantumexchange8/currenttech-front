@@ -5,6 +5,40 @@
     .support4-mobile {
         display: none;
     }
+    textarea {
+        resize: none;
+    }
+    .custom-file-input {
+        display: block;
+    }
+
+    .custom-file-label {
+        background-color: #fff;
+        color: #000;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 520px;
+        height: 48px;
+        display: inline-block; /* Change display to inline-block */
+        box-sizing: border-box;
+        font-family: SF Pro Text;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .custom-file-label::before {
+        content: "Browse";
+        background: #BD00FF;
+        font-size: 18px;
+        width: 150px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        margin-right: 26px;
+    }
     @media screen and (min-width: 1100px)
     {
         .line2 {
@@ -197,9 +231,10 @@
             margin-bottom: 0px
         }
         .support44 .large-textarea {
-            height: 180px; 
-            width: 60%;
-            overflow-x: hidden;
+            width: 520px;
+            height: 243px;
+            border-radius: 10px;
+            background: #FFF;
         }
     }
 
@@ -271,9 +306,9 @@ input[type="checkbox"]:checked + .custom-radio::before {
 }
 
 /* Hide the default file input */
-#file {
+/* #file {
   display: none;
-}
+} */
 
 </style>
 
@@ -289,7 +324,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
     </div>
 
     {{-- <div class="line1"></div> --}}
-    <div style="width:100%">
+    <div style="width:100%;margin-bottom:68px;">
         <form action="{{ route('resume') }}" method="post" enctype="multipart/form-data">
             {{ csrf_field()}}
         
@@ -500,11 +535,18 @@ input[type="checkbox"]:checked + .custom-radio::before {
                     <input type="number" class="sup-form-control" name="contact_number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
                     <input type="email" class="sup-form-control" name="email" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
                     {{-- <div class="file-input-container"> --}}
-                        <div id="someElement" style="display: none;">
-                            <label for="file" class="custom-file-upload">
+                        <div id="someElement">
+                            {{-- <label for="file" class="custom-file-upload">
                                 File
-                            </label>
-                            <input type="file" class="sup-form-control" name="file" id="file" onchange="displayFileName(this)">
+                            </label> --}}
+                            <input type="file" class="sup-form-control" name="file" id="file" onchange="displayFileName(this)" style="width: 518px;">
+                            {{-- <label for="file" class="custom-file-label">Custom Choose File</label> --}}
+                        </div>
+
+                        <div style="display: flex;justify-content:end">
+                            <button class="btn-sup-submit">
+                                <span>Submit</span>
+                            </button>
                         </div>
                         
                     {{-- </div> --}}
@@ -536,11 +578,11 @@ input[type="checkbox"]:checked + .custom-radio::before {
                     <div>
                         <input class="sup-mobile-form-control" placeholder="Email Address">
                     </div>
-                    <div id="someElement2" style="display: none;">
-                        <label for="file" class="custom-file-upload">
+                    <div id="someElement2">
+                        {{-- <label for="file" class="custom-file-upload">
                             File
-                        </label>
-                        <input type="file" class="sup-mobile-form-control" name="file" id="file" onchange="displayFileName(this)">
+                        </label> --}}
+                        <input type="file" class="sup-mobile-form-control" name="file" id="file" onchange="displayFileName(this)" style="width: 94%;">
                     </div>
                     <div>
                         <textarea class="sup-mobile-form-control-text" placeholder="Your Message">
@@ -557,10 +599,6 @@ input[type="checkbox"]:checked + .custom-radio::before {
                     </div>
                 </div>
             </div>
-            
-            <button class="btn-sup-submit">
-                <span>Submit</span>
-            </button>
         </form>
     </div>
 

@@ -7283,16 +7283,20 @@ body {
 
 .support4 .large-textarea {
     /* margin-left: 130px; */
-    width: 514.4px;
+    width: 520px;
     height: 243px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .support4 .large-textarea::placeholder {
     text-align: left;
-    padding-left: 15px;
+    /* padding-left: 10px;
+    padding-top: 10px; */
 } 
 
 .sup-form-control {
@@ -7365,9 +7369,6 @@ body {
     border-radius: 25px;
     border: 2px solid #7940CF;
     background: transparent;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    margin-left: 925px;
     display: block;
 }
 

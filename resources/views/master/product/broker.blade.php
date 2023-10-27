@@ -1354,7 +1354,7 @@
         </div>
     </div>
 
-    <div class="broker11" style="display: flex;flex-wrap:wrap;gap:25px">
+    <div class="broker11" style="display: flex;flex-wrap:wrap;gap:24px">
         <div class="getstart-container" > 
             <div style="display: flex; flex-direction:column">
                 <div class="contact-align" style="margin-left:40px;margin-top:47px">
