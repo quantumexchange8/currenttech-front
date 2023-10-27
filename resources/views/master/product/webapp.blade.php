@@ -22,9 +22,10 @@
         margin-bottom: 66px;
     }
     .detail-7 {
-        width: 1100px;
+        /* width: 1100px; */
         margin-bottom: 88px;
         display: flex;
+        gap: 10px;
     }
     .btn-preview {
         width: 134px;
@@ -254,6 +255,7 @@
     .webapp13 {
         margin-bottom: 88px;
         display: flex;
+        gap: 23px;
     }
 
     .ecomm-tem {
@@ -283,9 +285,13 @@
     }
 
     .carbon-image {
-        width: 100%;
+        /* width: 100%; */
+        width: 256.696px;
+        height: 208.622px;
     }
-    
+    .webappfont2 {
+        display: none;
+    }
     .social-icon {
         display: flex;
         gap: 24.37px;
@@ -1175,10 +1181,10 @@
     </div>
     <div class="webapp13">
         <div>
-            <img src="assets/image/product/webapp/15.svg" style="width: 100%;">
+            <img src="assets/image/product/webapp/15.svg" style="width: 535px;height: auto;">
         </div>
         <div>
-            <img src="assets/image/product/webapp/16.svg" style="width: 100%;">
+            <img src="assets/image/product/webapp/16.svg" style="width: 535px;height: auto;">
         </div>
         
     </div>
