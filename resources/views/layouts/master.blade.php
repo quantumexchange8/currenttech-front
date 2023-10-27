@@ -9,7 +9,6 @@
     <title>Current Tech</title>
     <meta name="Description" content="Current Tech Industries is a leading technology solutions development provider." />
     <meta name="keywords" content="Current Tech Industries, Current Tech, Forex, Crypto, Financial, Technology, POS system, Accounting System, NFT, Expert Advisor Builder, Mobile App Development, Website Development, Software Development">
-    <meta name="Description" content="Current Tech Industries is a leading technology solutions development provider." />
     <meta property="og:title" content="Current Tech Industries">
     <meta property="og:description" content="Current Tech Industries is a leading technology solutions development provider.">
     <meta property="og:image" content="https://currenttech.pro/assets/image/currenttechlogo.svg">
