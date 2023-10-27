@@ -11,7 +11,7 @@
     <meta name="keywords" content="Current Tech Industries, Current Tech, Forex, Crypto, Financial, Technology, POS system, Accounting System, NFT, Expert Advisor Builder, Mobile App Development, Website Development, Software Development">
     <meta property="og:title" content="Current Tech Industries Sdn Bhd">
     <meta property="og:description" content="Current Tech Industries is a leading technology solutions development provider.">
-    <meta property="og:image" content="https://currenttech.pro/assets/image/home/service.svg">
+    <meta property="og:image" content="https://currenttech.pro/assets/image/home/ct_processor.png">
     <meta property="og:url" content="https://currenttech.pro/">
     <meta property="og:type" content="website">
     <link rel="shortcut icon" href="{{asset('assets/image/logo.png')}}">
