@@ -28,25 +28,21 @@ class SubscribeController extends Controller
     public function post(NewsletterRequest $request )
 {
     // dd($request->all());
-    // $validated = $request->validated();
+    $validated = $request->validated();
     
-    // $existingSubscriber = Subscriber::where('email', $validated['email'])->first();
+    $existingSubscriber = Subscriber::where('email', $validated['email'])->first();
 
-    // if ($existingSubscriber) {
+    if ($existingSubscriber) {
         // already subscribed email
-        // return redirect('support')->with('error', 'This email address is already subscribed.');
-    // }
+        return redirect('support')->with('error', 'This email address is already subscribed.');
+    }
 
     // new subscriber
-    // $newSubscriber = Subscriber::create([
-    //     'email' => $validated['email']
-    // ]);
-
-    // SubscriberJoinJob::dispatch($newSubscriber);
-
-    $test = Subscriber::create([
-        'email' => $request->email,
+    $newSubscriber = Subscriber::create([
+        'email' => $validated['email']
     ]);
+
+    SubscriberJoinJob::dispatch($newSubscriber);
 
     return redirect('support')->with('success', 'You have successfully subscribed. Please check your email spam folder.');
 }
