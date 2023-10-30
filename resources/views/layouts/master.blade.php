@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-
 
 <head>
     <meta charset="utf-8">
@@ -14,15 +12,14 @@
     <meta property="og:image" content="https://currenttech.pro/assets/image/home/ct_processor.png">
     <meta property="og:url" content="https://currenttech.pro/">
     <meta property="og:type" content="website">
-    <link rel="shortcut icon" href="{{asset('assets/image/logo.png')}}">
-    <link rel="apple-touch-icon" href="{{asset('assets/image/logo.png')}}">
-    <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{asset('assets/image/newlogo.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('assets/image/newlogo.png')}}">
+    <link rel="icon" href="{{asset('assets/image/newlogo.png')}}" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
-    {{-- href="{{asset('assets/image/home/ct_processor.png')}}" --}}
 </head>
 
 <body class="light-mode dark-mode">
