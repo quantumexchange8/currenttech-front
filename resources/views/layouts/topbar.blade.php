@@ -5,7 +5,7 @@
                 <ul>
                     <li class="nav-img nav-border">
                         <a href="{{ route('home') }}">
-                            <img src="/assets/image/currenttechlogo.svg" style="width: 18px;">
+                            <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;">
                         </a>
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
@@ -74,7 +74,6 @@
                                 </ul>
                             </nav>
                         </div>
-                        
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                         <a class="nav-link" data-toggle="collapse" href="#feature" aria-expanded="false" aria-controls="feature">
@@ -181,28 +180,44 @@
 </div>
 
 
-<div class="small-nav-toggle nav-border" onclick="toggleNav()">
-    <img src="/assets/image/currenttechlogo.svg">
+<div class="small-nav-toggle nav-border-mobile" onclick="toggleNav()">
+    <div class="center-image">
+        <img src="/assets/image/currenttechlogo.svg" alt="Logo" style="width: 30px; height: 30px;">
+    </div>
 </div>
 <div class="small-nav">
     <nav class="nav2">
-        <ul>
-            <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}} mobile-hidden">
-                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}">Home</a>
+        <ul style="margin: 13px 0px;">
+            <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
+                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
+                style="padding-left: 25px;
+                padding-top: 26px;
+                padding-right: 30px;
+                padding-bottom: 13px;"
+                >
+                    <span>
+                        Home
+                    </span>
+                </a>
             </li>
             <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                 <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')">
-                    <span style="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? '; color: #BD00FF' : '' }}">Products</span>
-                    <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left: 30px"></i>
+                    <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">Products</span>
+                    {{-- <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left: 30px"></i> --}}
+                    @if(Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : '')
+                        <img src="/assets/image/arrowdown_act.svg" style="margin-left: 32px;">
+                    @else
+                        <img src="/assets/image/arrowdown.svg" style="margin-left: 32px"> 
+                    @endif
                 </a>
                 <ul id="ProductSubMenu" style="display: none;margin-left: 30px;">
                     <li class="{{ Request::is('possystem') ? 'active' : ''}}" style="margin-left: -30px;">
                         <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'possystem')
-                                <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
                             @else
-                                <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
                             @endif
                         </a>
@@ -210,10 +225,10 @@
                     <li class="{{ Request::is('webapp') ? 'active' : ''}}" style="margin-left: -30px;">
                         <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'webapp')
-                                <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
                             @else
-                                <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
                             @endif
                         </a>
@@ -221,10 +236,10 @@
                     <li class="{{ Request::is('brokerage') ? 'active' : ''}}" style="margin-left: -30px;">
                         <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'brokerage')
-                                <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
                             @else
-                                <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
                             @endif
                         </a>
@@ -232,10 +247,10 @@
                     <li class="{{ Request::is('expert') ? 'active' : ''}}" style="margin-left: -30px;">
                         <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'expert')
-                                <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
                             @else
-                                <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
                             @endif
                         </a>
@@ -243,10 +258,10 @@
                     <li class="{{ Request::is('web3') ? 'active' : ''}}" style="margin-left: -30px;">
                         <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'web3')
-                                <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
                             @else
-                                <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                                <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                                 <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
                             @endif
                         </a>
@@ -261,8 +276,12 @@
             </li>
             <li class="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                 <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
-                    <span style="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? '; color: #BD00FF' : '' }}">Feature</span>
-                    <i id="FeatureIcon" class="mdi mdi-chevron-down" style="margin-left: 48px"></i>
+                    <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">Features</span>
+                    @if(Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : '')
+                        <img src="/assets/image/arrowdown_act.svg" style="margin-left: 22px">
+                    @else
+                        <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
+                    @endif
                 </a>
                 <ul id="FeatureSubMenu" style="display: none;margin-left: 30px;">
                     {{-- <li class="{{ Request::is('performance') ? 'active' : '' }}"><a href="{{ route('performance') }}"><span style="{{ Request::is('performance') ? 'color: #BD00FF;' : '' }}" >Performance</span></a></li>
@@ -272,57 +291,57 @@
                     <li class="{{ Request::is('reporting&Analytics') ? 'active' : '' }}"><a href="{{ route('report') }}"><span style="{{ Request::is('reporting&Analytics') ? 'color: #BD00FF;' : '' }}" >Reporting & Analytics</span></a></li> --}}
 
                     <li class="{{ Request::is('performance') ? 'active' : '' }}" style="margin-left: -30px;">
-                        <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                        <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'performance')
-                            <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wordingAct">Performance</span>
                             @else
-                            <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wording2">Performance</span>
                             @endif
                         </a>
                     </li>
                     <li class="{{ Request::is('reward') ? 'active' : '' }}" style="margin-left: -30px;">
-                        <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                        <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'reward')
-                            <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wordingAct">Reward Program</span>
                             @else
-                            <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wording2">Reward Program</span>
                             @endif
                         </a>
                     </li>
                     <li class="{{ Request::is('develop') ? 'active' : '' }}" style="margin-left: -30px;">
-                        <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                        <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'develop')
-                            <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wordingAct">Develop & Learn</span>
                             @else
-                            <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wording2">Develop & Learn</span>
                             @endif
                         </a>
                     </li>
                     <li class="{{ Request::is('hrmanage') ? 'active' : '' }}" style="margin-left: -30px;">
-                        <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                        <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'hrmanage')
-                            <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wordingAct">HR Management </span>
                             @else
-                            <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 10px;">
+                            <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
                             <span class="nav-wording2">HR Management</span>
                             @endif
                         </a>
                     </li>
                     <li class="{{ Request::is('report') ? 'active' : '' }}" style="margin-left: -30px;">
-                        <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;"">
+                        <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'report')
-                            <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 10px;">
-                            <span class="nav-wordingAct">Reporting & Analytics</span>
+                            <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
+                            <span class="nav-wordingAct">Report & Analysis</span>
                             @else
-                            <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 10px;">
-                            <span class="nav-wording2">Reporting & Analytics</span>
+                            <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
+                            <span class="nav-wording2">Report & Analysis</span>
                             @endif
                         </a>
                     </li>
@@ -349,17 +368,17 @@
             <li class="smallnav-act {{ Request::is('login') ? 'active' : ''}} mobile-hidden"><a href="{{ route('login') }}" style="{{ Request::is('login') ? 'color: #BD00FF;' : '' }}">Login</a></li>
             <li class="smallnav-act {{ Request::is('register') ? 'active' : ''}} mobile-hidden"><a href="{{ route('register') }}" style="{{ Request::is('register') ? 'color: #BD00FF;' : '' }}">Register</a></li> --}}
 
-            <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
-                <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')">
-                    <span style="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? '; color: #BD00FF' : '' }}">Language</span>
-                    <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left: 30px"></i>
+            <li>
+                <a href="#language" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
+                    {{-- <a href="#" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')"> --}}
+                    <span style="display:inline-block;color: #FFFFFF;width:90px">Language</span>
+                    <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
                 </a>
-                <ul id="ProductSubMenu" style="display: none;margin-left: 30px;">
-                    <li class="{{ Request::is('POS-System') ? 'active' : '' }}"><a href="{{ route('possystem') }}"><span style="{{ Request::is('POS-System') ? 'color: #BD00FF;' : '' }}" >English</span></a></li>
-                    <li class="{{ Request::is('web-app') ? 'active' : '' }}"><a href="{{ route('webapp') }}"><span style="{{ Request::is('web-app') ? 'color: #BD00FF;' : '' }}" >Bahasa Malaysia</span></a></li>
-                    <li class="{{ Request::is('broker') ? 'active' : '' }}"><a href="{{ route('brokerage') }}"><span style="{{ Request::is('broker') ? 'color: #BD00FF;' : '' }}">Chinese (S)</span></a></li>
+                <ul id="#language" style="display: none;margin-left: 30px;">
+                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >English</span></a></li>
+                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >Bahasa Malaysia</span></a></li>
+                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF">Chinese (S)</span></a></li>
                 </ul>
-                
             </li>
             <!-- Add more menu items as needed -->
         </ul>

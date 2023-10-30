@@ -51,40 +51,82 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        width: 317px;
     }
-    @media screen and (max-width: 1280px) {
+    .medusa1 img{
+        width: 352px;
+        height: 352px;
+        box-shadow: 0px 0px 100px 10px rgba(75, 185, 248, 0.30);
+        margin-bottom: 68px;
+    }
+    .mercury1 img{
+        width: 352px;
+        height: 352px;
+        box-shadow: 0px 0px 100px 10px rgba(75, 185, 248, 0.30);
+        margin-bottom: 68px;
+    }
+
+    .prochip-img {
+        width: 180px;
+        height: 180px;
+        box-shadow: 0px 0px 100px 10px rgba(75, 185, 248, 0.30);
+        margin-bottom: 68px;
+    }
+    .ragnarok-icon {
+        width: 160px;
+        height: 160px;
+    }
+    @media screen and (max-width: 1093px) {
         .content4-inside-img {
-            margin-bottom: -250px;
         }
+
+        .exprt-1 {
+            margin-bottom: 36px;
+        }
+
         .exprt-2 {
             width: 100%;
+            margin-bottom: 0px;
         }
         .expert-p-word {
             width: 100%;
-            margin-top: -100px;
-            margin-bottom: -250px;
             font-size: 20px;
+            margin: 20px 0px; 
         }
         .expert-p-word2 {
             width: 100%;
             /* margin-left: 50px; */
-            margin-bottom: 50px;
+            margin-bottom: 68px;
             font-size: 14px;
             line-height: 16px;
             text-align: center;
         }
         .exprt-3 {
             width: 100%;
+            margin-bottom: 68px;
         }
         .medusa1 {
-            width: 100%;
+            /* width: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .mercury1 {
+            /* width: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         .exprt-row1 {
             display: flex;
             width: 100%;
             flex-wrap: nowrap;
             align-items: center;
-            height: 940px;
+            /* height: 940px; */
+            justify-content: center;
+            gap: 80px;
         }
         .exprt-row2 {
             display: flex;
@@ -100,10 +142,28 @@
             margin-bottom: -60px;
         }
         .medusapro-p {
-            font-size: 25px;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal; /* 357.143% */
+            background: linear-gradient(110deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .medusaultra-p {
-            font-size: 25px;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal; /* 357.143% */
+            background: linear-gradient(110deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .medusapro-p2 {
             /* width: 100%; */
@@ -116,6 +176,7 @@
         }
         .exprt-4 {
             width: 100%;
+            margin-bottom: 0px;
         }
         .exprt-4 img {
             width: 100%;
@@ -125,6 +186,7 @@
         }
         .exprt-9 {
             width: 100%;
+            margin-bottom: 0px;
         }
         .exprt-9 img {
             width: 100%;
@@ -134,6 +196,7 @@
         }
         .exprt-10 {
             width: 100%;
+            margin-bottom: 0px !important;
         }
         .exprt-10 img {
             width: 100%;
@@ -185,48 +248,82 @@
             width: 100%;
         }
         .ragnarok-p {
-            margin-left: 20px;
+            margin-left: 40px;
             font-size: 20px;
+            line-height: normal;
+            margin-bottom: 16px;
         }
         .ragnarok-p1 {
             font-size: 12px;
             line-height: 14px;
             width: 80%;
-            margin-left: 20px;
+            margin-left: 40px;
         }
         .medusa-p4 {
             font-size: 20px;
-            margin-left: 20px;
+            margin-left: 45px;
+            margin-bottom: 16px;
+            line-height: normal;
         }
         .medusa-p6 {
             font-size: 20px;
-            margin-left: 20px;
-            line-height: 14px;
+            margin-left: 45px;
+            line-height: normal;
+            margin-bottom: 16px;
         }
         .medusa-p5 {
             font-size: 12px;
             width: 80%;
-            margin-left: 20px;
+            margin-left: 45px;
         }
         .medusa-p {
-            margin-left: 60px;
+            width: 140px;
+            height: auto;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px; /* 183.333% */
+            background: linear-gradient(110deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .mercury-p {
-            margin-left: -20px;
+            width: 140px;
+            height: auto;
+            font-family: SF Pro Text;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px; /* 183.333% */
+            background: linear-gradient(110deg, #4BBEFF 0%, rgba(53, 158, 255, 0.51) 44.79%, #D06BFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .medusa1 img{
-            margin-left: 50px;
-            width: 15px;
+            width: 151.083px;
+            height: 151.512px;
+            box-shadow: 0px 0px 100px 10px rgba(75, 185, 248, 0.30);
+            margin-bottom: 38px;
         }
         .mercury1 img{
-            margin-left: -120px;
+            width: 151.083px;
+            height: 151.512px;
+            box-shadow: 0px 0px 100px 10px rgba(75, 185, 248, 0.30);
+            margin-bottom: 38px;
         }
         .exprt-col-content {
-            margin-top: -50px;
-            width: 924px;
+            /* margin-top: -50px;
+            width: 924px; */
         }
         .prochip-img {
-            width: 434px;
+            /* width: 434px; */
+            width: 100px;
+            height: 100px;
+            flex-shrink: 0;
+            margin-bottom: 16px;
         }
         .exprt-col3 {
             width: 494px;
@@ -249,9 +346,15 @@
             width: 100%;
         }
         .word-big {
-            font-size: 60px;
-            margin-left: 7px;
-            margin-top: -250px;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            /* margin-left: 7px;
+            margin-top: -250px; */
         }
         .word-bigg {
             font-size: 60px;
@@ -264,16 +367,58 @@
             margin-top: -250px;
         } */
         .word-img {
-            margin-top: -150px;
+            margin-top: 0px;
+            margin-bottom: 8px;
         }
         .word-img2 {
             margin-top: 40px;
         }
         .invest-img {
-            margin-top: -40px;
+            /* margin-top: -40px; */
             width: 100px;
         }
         
+        .medusaaa {
+            gap: 37.83px;
+            margin-bottom: 68.49px;
+        }
+
+        .mobile-medusa-btm {
+            margin-bottom: 68px !important;
+        }
+        .mobile-margin-bottom {
+            margin-bottom: 38px !important;
+        }
+        .word-small {
+            color: #888;
+            font-family: SF Pro Text;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .mobile-mt5-icon {
+            width: 30px;
+            height: ;: 30px;
+        }
+        .ragnarok-icon {
+            width: 40px;
+            height: 40px;
+            margin-left: 40px;
+        }
+        .infinity-img {
+            width: 61.578px;
+            height: 30px;
+        }
+        .support-img {
+            width: 30px;
+            height: 28px;
+        }
+        .support-img2 {
+            width: 30px;
+            height: 28px;
+            margin-right: 16px !important;
+        }
     }
 </style>
 
@@ -285,18 +430,20 @@
         </div>
 
         <div class="exprt-2">
-            <p class="expert-p-word2">
-                We are an Expert Advisor Builder. Our EA is designed to take advantage of market 
-                fluctuations, thereby enhancing the potential for profitable trades while minimizing risks. 
-                Our EA supports cTrader, MetaTrader 4, and MetaTrader 5 platforms. It provides traders 
-                with powerful tools and strategies to enhance their trading experience and
-                achieve better results.
-            </p>
+            <div class="mobile-alignment-30px">
+                <p class="expert-p-word2">
+                    We are an Expert Advisor Builder. Our EA is designed to take advantage of market 
+                    fluctuations, thereby enhancing the potential for profitable trades while minimizing risks. 
+                    Our EA supports cTrader, MetaTrader 4, and MetaTrader 5 platforms. It provides traders 
+                    with powerful tools and strategies to enhance their trading experience and
+                    achieve better results.
+                </p>
+            </div>
         </div>
 
         <div class="medusaaa">
-            <div style="text-align: center; margin: 0 auto;" class="medusa1">
-                <img src="assets/image/product/expert/medusa.svg" style="width:500px">
+            <div class="medusa1">
+                <img src="assets/image/product/expert/9.svg">
                 <div style="display: flex;justify-content: center;">
                     <p class="medusa-p">
                         &bull; Hedging Strategy <br>
@@ -306,8 +453,8 @@
                       </p>
                 </div>
             </div>
-            <div style="text-align: center; margin: 0 auto;" class="mercury1">
-                <img src="assets/image/product/expert/mercury.svg" style="width:500px">
+            <div class="mercury1">
+                <img src="assets/image/product/expert/10.svg">
                 <div style="display: flex;justify-content: center;">
                     <p class="mercury-p">
                         &bull; Signal Detect <br>
@@ -320,8 +467,8 @@
         </div>
     </div>
 
-    <div style="position: relative;margin-bottom:64px">
-        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
+    <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px">
+        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute; bottom: 55px; padding: 5px;">
                 <p class="medusa-p4">
@@ -346,9 +493,9 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/pro.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/11.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom:68px">
                             <p class="medusapro-p">
                                 <b>PRO CHIP</b>
                             </p>
@@ -356,13 +503,13 @@
                         <div>
                             <p class="word-big">76.8%</p>
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Accuracy Up to</p>
                         </div>
                         <div>
-                            <div class="word-img" style="margin-left: 20px;">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                            <div class="word-img">
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                             
                         </div>
@@ -374,9 +521,9 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/ultra.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/12.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom:68px">
                             <p class="medusaultra-p">
                                 <b>ULTRA CHIP</b>
                             </p>
@@ -384,13 +531,13 @@
                         <div>
                             <p class="word-big">81.2%</p>
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Accuracy Up to</p>
                         </div>
                         <div>
-                            <div class="word-img" style="margin-left: 20px;">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                            <div class="word-img" >
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                             
                         </div>
@@ -408,8 +555,8 @@
         </div>
     </div>
 
-    <div style="position: relative;">
-        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;">
+    <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px">
+        <img src="assets/image/product/expert/medusa3.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute;bottom: 55px;padding: 5px">
                 <p class="medusa-p6">
@@ -437,9 +584,9 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/pro.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/11.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom:68px">
                             <p class="medusapro-p">
                                 <b>PRO CHIP</b>
                             </p>
@@ -447,14 +594,14 @@
                         <div>
                             <p class="word-big">79.3%</p>
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Accuracy Up to</p>
                         </div>
                         <div>
                             <div class="word-img">
-                                <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                                <img src="assets/image/product/broker/5.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                         </div>
                         <div>
@@ -465,9 +612,9 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/pro.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/12.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom:68px">
                             <p class="medusapro-p">
                                 <b>ULTRA CHIP</b>
                             </p>
@@ -475,14 +622,14 @@
                         <div>
                             <p class="word-big">84.6%</p>
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Accuracy Up to</p>
                         </div>
                         <div>
                             <div class="word-img">
-                                <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                                <img src="assets/image/product/broker/5.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                         </div>
                         <div>
@@ -502,11 +649,11 @@
         </div>
     </div>
 
-    <div style="position: relative;">
-        <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;">
+    <div class="mobile-medusa-btm" style="position: relative;margin-bottom:188px;">
+        <img src="assets/image/product/expert/ragnarok.svg" style="max-width: 100%; height: auto;width: 100%;border-radius: 80px;">
         <div class="content4-inside-img">
             <div style="position: absolute; bottom: 15px; padding: 5px;">
-                <img src="assets/image/product/expert/1.svg" style="margin-left: -108px;margin-bottom: -130px;">
+                <img src="assets/image/product/expert/13.svg" class="ragnarok-icon">
                 <p class="ragnarok-p">
                     RAGNAROK
                 </p>
@@ -532,9 +679,9 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/pro.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/11.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 68px;">
                             <p class="medusapro-p">
                                 PRO CHIP
                             </p>
@@ -542,7 +689,7 @@
                         <div>
                             <p class="word-big">50+</p>
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Investor Accounts</p>
                         </div>
                         <div>
@@ -550,14 +697,14 @@
                                 <img src="assets/image/product/expert/support1.svg" class="support-img">
                             </div>
                         </div>
-                        <div style="margin-bottom:138px">
+                        <div class="mobile-margin-bottom" style="margin-bottom:138px">
                             <p class="word-small">Support</p>
                         </div>
                         <div>
                             <div class="word-img">
-                                <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                                <img src="assets/image/product/broker/5.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                         </div>
                         <div>
@@ -568,33 +715,33 @@
                 <div class="exprt-col1">
                     <div class="exprt-col-content">
                         <div>
-                            <img src="assets/image/product/expert/pro.svg" class="prochip-img">
+                            <img src="assets/image/product/expert/12.svg" class="prochip-img">
                         </div>
-                        <div style="margin-top: -40px;margin-bottom:68px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 68px;">
                             <p class="medusapro-p">
                                 <b>ULTRA CHIP</b>
                             </p>
                         </div>
                         <div>
-                            <img src="assets/image/product/expert/infinity.png">
+                            <img src="assets/image/product/expert/infinity.png" class="infinity-img">
                         </div>
-                        <div style="margin-bottom: 136px">
+                        <div class="mobile-margin-bottom" style="margin-bottom: 136px">
                             <p class="word-small">Investor Accounts</p>
                         </div>
                         <div>
                             <div class="word-img">
-                                <img src="assets/image/product/expert/support1.svg" class="support-img" style="margin-right: 20px">
+                                <img src="assets/image/product/expert/support1.svg" class="support-img2" style="margin-right: 20px">
                                 <img src="assets/image/product/expert/support2.svg" class="support-img">
                             </div>
                         </div>
-                        <div style="margin-bottom:138px">
+                        <div class="mobile-margin-bottom"    style="margin-bottom:138px">
                             <p class="word-small">Support</p>
                         </div>
                         <div>
                             <div class="word-img">
-                                <img src="assets/image/product/broker/5.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt4.svg" style="margin-right: 15px">
-                                <img src="assets/image/product/expert/mt5.svg">
+                                <img src="assets/image/product/broker/5.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt4.svg" class="mobile-mt5-icon" style="margin-right: 15px">
+                                <img src="assets/image/product/expert/mt5.svg" class="mobile-mt5-icon">
                             </div>
                         </div>
                         <div>

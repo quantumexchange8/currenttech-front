@@ -1,14 +1,22 @@
 @extends('layouts.master')
 @section('content')
 
-<br>
-<br>
-<br>
-
 <style>
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1093px) {
         .ourservice {
-            font-size: 46px !important;
+            font-size: 46px;
+        }
+        .btn-span-getinfo1 {
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal; /* 285.714% */
+        }
+        .home-marquee {
+            margin-bottom: 88px !important;
         }
     }
 </style>
@@ -110,8 +118,143 @@
                             </div>
                         </div>
                     </div>
+                    <div class="dev-col1">
+                        <div class="software">
+                            <div class="software-row1">
+                                <div class="software-col1">
+                                    <img src="assets/image/home/website.svg">
+                                </div>
+                                <div class="software-col2">
+                                    <p class="software-p">
+                                        Website Development
+                                    </p>
+                                </div>
+                            </div>
 
-                    <div class="dev-col2">
+                            <div class="software-row2">
+                                <div class="software-col3">
+                                    <p class="software-content">
+                                        We develop websites, no matter big or small with a stage-by-stage approach. 
+                                        From pre-production planning, crafting the GUI design, to backend development;
+                                        we execute them with precision.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-col1">
+                        <div class="software">
+                            <div class="software-row1">
+                                <div class="software-col1">
+                                    <img src="assets/image/home/mobile.svg">
+                                </div>
+                                <div class="software-col2">
+                                    <p class="software-p">
+                                        Mobile App Development
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="software-row2">
+                                <div class="software-col3">
+                                    <p class="software-content">
+                                        We convert our clients' core idea into 
+                                        innovative applications for mobile, 
+                                        cloud or web. We ensure the apps are 
+                                        developed to be compatible on major 
+                                        platforms as well as cater to mass
+                                        devices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-col1">
+                        <div class="software">
+                            <div class="software-row1">
+                                <div class="software-col1">
+                                    <img src="assets/image/home/possystem.svg">
+                                </div>
+                                <div class="software-col2">
+                                    <p class="software-p">
+                                        POS System Development
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="software-row2">
+                                <div class="software-col3">
+                                    <p class="software-content">
+                                        Streamline your business operations 
+                                        with our powerful POS system. Manage 
+                                        sales, inventory, and customer data 
+                                        seamlessly, while providing a seamless 
+                                        checkout experience for your 
+                                        customers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-col1">
+                        <div class="software">
+                            <div class="software-row1">
+                                <div class="software-col1">
+                                    <img src="assets/image/home/expert.svg">
+                                </div>
+                                <div class="software-col2">
+                                    <p class="software-p">
+                                        Expert Advisor Builder
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="software-row2">
+                                <div class="software-col3">
+                                    <p class="software-content">
+                                        Expert Advisor in forex is an automated 
+                                        trading software that executes trades 
+                                        based on predefined strategies, aiming 
+                                        to enhance trading efficiency and 
+                                        potentially generate profits.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-col1">
+                        <div class="software">
+                            <div class="software-row1">
+                                <div class="software-col1">
+                                    <img src="assets/image/home/support.svg">
+                                </div>
+                                <div class="software-col2">
+                                    <p class="software-p">
+                                        Support & Maintenance
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="software-row2">
+                                <div class="software-col3">
+                                    <p class="software-content">
+                                        Ensure the smooth functioning of your 
+                                        systems with our comprehensive 
+                                        support and maintenance services. Our 
+                                        dedicated team will provide timely 
+                                        updates & troubleshooting to keep your 
+                                        systems running at their best.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- <div class="dev-col2">
                         <div class="website">
                             <div class="website-row3">
                                 <div class="website-col4">
@@ -135,9 +278,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="dev-col3">
+                    {{-- <div class="dev-col3">
                         <div class="mobile">
                             <div class="mobile-row3">
                                 <div class="mobile-col4">
@@ -164,12 +307,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="dev-row2">
 
-                    <div class="dev-col4">
+                    {{-- <div class="dev-col4">
                         <div class="pos">
                             <div class="pos-row3">
                                 <div class="pos-col4">
@@ -250,7 +393,7 @@
                                 </div>
                             </div>
                         </div> 
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
@@ -261,16 +404,15 @@
 
             <img src="/assets/image/home/vision.png" style="width: 100%;">
 
-            <p class="vision-content">
-                Welcome to the era of vision. Embark on a journey through the realms of 
-                boundless creativity and innovation. Discover how technology unlocks the 
-                power of imagination, reshaping our world with visionary possibilities and 
-                endless horizons of imagination.
-                {{-- Welcome to the era of <span class="vision-color">vision</span>. Embark on a journey through the realms of 
-                boundless <span class="creativity-color">creativity</span> and innovation. Discover how technology unlocks the 
-                power of imagination, <span class="reshap-color">reshaping our world</span> with visionary possibilities and 
-                endless horizons of imagination. --}}
-            </p>
+            <div class="mobile-alignment-30px">
+                <p class="vision-content">
+                    Welcome to the era of vision. Embark on a journey through the realms of 
+                    boundless creativity and innovation. Discover how technology unlocks the 
+                    power of imagination, reshaping our world with visionary possibilities and 
+                    endless horizons of imagination.
+                </p>
+            </div>
+            
         </div>
 
         <!-- mobile -->
@@ -441,12 +583,14 @@
         </div>
         
         <!-- web -->
-        <div class="home-marqueee" style="margin-bottom: 60px;">
+        <div class="home-marqueee" style="margin-bottom: 38px;">
             <div class="marquee-content">
                 <div class="marquee-item">
                     <div class="spec-col1">
                         <p>
-                            <span class="exp-color">Experience</span> <br>the future with our 
+                            <span class="exp-color">Experience</span> 
+                            <br>
+                            the future with our 
                             groundbreaking 
                             <span class="prod-color">products</span>, redefining 
                             possibilities and empowering lives 
@@ -459,7 +603,9 @@
                 <div class="marquee-item">
                     <div class="spec-col2">
                         <div class="pos-content-1">
-                            <img src="assets/image/home/posimg.svg" class="workcate">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/posimg.svg" class="workcate">
+                            </div>
                             <p class="poshead">
                                 POS SYSTEM
                             </p>
@@ -481,12 +627,15 @@
                 <div class="marquee-item">
                     <div class="spec-col3">
                         <div class="webapp">
-                            <img src="assets/image/home/webapp.svg" class="workcate">
-                            <p class="webapphead">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/webapp.svg" class="workcate">
+                            </div>
+                            <p class="poshead">
                                 WEB & APP
                             </p>
                             <p class="webappcont" style="margin-bottom: 10px;">
-                                360-Degree Connectivity<br>
+                                360 <br>
+                                Degree Connectivity
                             </p>
                             <a href="{{ route('webapp') }}">
                                 {{-- <img src="assets/image/home/arrow.svg" style="text-align: left"> --}}
@@ -503,7 +652,9 @@
                 <div class="marquee-item">
                     <div class="spec-col4">
                         <div class="broker">
-                            <img src="assets/image/home/broker.svg" class="workcate">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/broker.svg" class="workcate">
+                            </div>
                             <p class="brokerhead">
                                 BROKERAGE SETUP
                             </p>
@@ -525,7 +676,9 @@
                 <div class="marquee-item">
                     <div class="spec-col5">
                         <div class="expert-1">
-                            <img src="assets/image/home/expertimg.svg" class="workcate">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/expertimg.svg" class="workcate">
+                            </div>
                             <p class="expert1head">
                                 EXPERT ADVISOR
                             </p>
@@ -547,7 +700,9 @@
                 <div class="marquee-item">
                     <div class="spec-col6">
                         <div class="web3">
-                            <img src="assets/image/home/web3.svg" class="workcate">
+                            <div style="display: flex;justify-content:center">
+                                <img src="assets/image/home/web3.svg" class="workcate">
+                            </div>
                             <p class="web3head">
                                 WEB 3.0
                             </p>
@@ -569,22 +724,35 @@
         </div>
 
         <div class="one-stop">
-            <p class="one-stop-head">
-                Your One-Stop Solution for Core Servive Needs
-            </p>
-
+            
+                <p class="one-stop-head">
+                    Your One-Stop Solution for Core Servive Needs
+                </p>
+            
+            
             <div class="ourfeature">
-                <div style="margin-bottom: 68px">
+            
+                <div style="margin-bottom: 38px">
                     <p class="ourfeature2">OUR FEATURES</p>
                     <p class="ourfeature3">Discover Latest Features</p>
                 </div>
+                
+
                 <div class="ourfeature-item">
-                    <img src="assets/image/home/performance.svg" class="ic">
-                    <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 121px">
-                        <p class="perform-detail-head">Performance</p>
-                        <p class="perform-detail-content" style="width: 264px;">Impactful and versatile features.</p>
+                    <div>
+                        <img src="assets/image/home/performance.svg" class="ic">
                     </div>
-                    <img src="assets/image/home/star.svg" style="margin-left: -90px; margin-right: 50px;" class="star">
+                    <div class="mobile-displayflex">
+                        <div>
+                            <p class="perform-detail-head">Performance</p>
+                        </div>
+                        <div>
+                            <p class="perform-detail-content">Impactful and versatile features.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/image/home/star.svg" class="star">
+                    </div>
                     <div>
                         <button class="btn-getinfo">
                             <a href="{{ route('support') }}" class="explore-link">
@@ -597,6 +765,111 @@
                 </div>
 
                 <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/reward.svg" class="ic">
+                    </div>
+                    <div class="mobile-displayflex">
+                        <div>
+                            <p class="perform-detail-head">Reward Program</p>
+                        </div>
+                        <div>
+                            <p class="perform-detail-content">Points, discount, referrals.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/image/home/star.svg" class="star">
+                    </div>
+                    <div>
+                        <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/develop.svg" class="ic">
+                    </div>
+                    <div class="mobile-displayflex">
+                        <div>
+                            <p class="perform-detail-head">Develop & Learn</p>
+                        </div>
+                        <div>
+                            <p class="perform-detail-content">Data analysis and predictions.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/image/home/star.svg" class="star">
+                    </div>
+                    <div>
+                        <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/hr.svg" class="ic">
+                    </div>
+                    <div class="mobile-displayflex">
+                        <div>
+                            <p class="perform-detail-head">HR Management</p>
+                        </div>
+                        <div>
+                            <p class="perform-detail-content">Recruitment, onboarding, training.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/image/home/star.svg" class="star">
+                    </div>
+                    <div>
+                        <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/report.svg" class="ic">
+                    </div>
+                    <div class="mobile-displayflex">
+                        <div>
+                            <p class="perform-detail-head">Report & Analytics</p>
+                        </div>
+                        <div>
+                            <p class="perform-detail-content">Gather, analyse, and presebt data.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/image/home/star.svg" class="star">
+                    </div>
+                    <div>
+                        <button class="btn-getinfo">
+                            <a href="{{ route('support') }}" class="explore-link">
+                                <span style="color: #BD00FF;text-align: center;
+                                font-family: SF Pro Text;font-weight: 700;
+                                font-size: 14px;">GET INFO</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                
+                
+                {{-- <div class="ourfeature-item">
                     <img src="assets/image/home/reward.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 167px">
                         <p class="perform-detail-head">Reward Program</p>
@@ -612,9 +885,9 @@
                             </a>
                         </button>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="ourfeature-item">
+                {{-- <div class="ourfeature-item">
                     <img src="assets/image/home/develop.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 163px">
                         <p class="perform-detail-head">Develop & Learn</p>
@@ -630,9 +903,9 @@
                             </a>
                         </button>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="ourfeature-item">
+                {{-- <div class="ourfeature-item">
                     <img src="assets/image/home/hr.svg" class="ic">
                     <div style="display: flex; flex-direction:column; margin-left: 26px; margin-right: 134px">
                         <p class="perform-detail-head">HR Management</p>
@@ -648,7 +921,7 @@
                             </a>
                         </button>
                     </div>
-                </div>
+                </div> 
 
                 <div class="ourfeature-item" style="margin-bottom:0px">
                     <img src="assets/image/home/report.svg" class="ic">
@@ -666,9 +939,147 @@
                             </a>
                         </button>
                     </div>
-                </div>
+                </div>--}}
                 
             </div>
+
+            <div class="ourfeature-mobile">
+            
+                <div style="margin-bottom: 38px">
+                    <p class="ourfeature2">OUR FEATURES</p>
+                    <p class="ourfeature3">Discover Latest Features</p>
+                </div>
+                
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/performance.svg" class="ic">
+                    </div>
+                    <div style="display: flex;gap:23px">
+                        <div class="mobile-displayflex">
+                            <div>
+                                <p class="perform-detail-head">Performance</p>
+                            </div>
+                            <div>
+                                <p class="perform-detail-content">Impactful and versatile features.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-getinfo">
+                                <a href="{{ route('support') }}" class="explore-link">
+                                    <span style="color: #BD00FF;text-align: center;
+                                    font-family: SF Pro Text;font-weight: 700;
+                                    font-size: 10px;">GET INFO</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/reward.svg" class="ic">
+                    </div>
+                    <div style="display: flex;gap:16px;gap:52px">
+                        <div class="mobile-displayflex">
+                            <div>
+                                <p class="perform-detail-head">Reward Program</p>
+                            </div>
+                            <div>
+                                <p class="perform-detail-content">Points, discount, referrals.</p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <button class="btn-getinfo">
+                                <a href="{{ route('support') }}" class="explore-link">
+                                    <span style="color: #BD00FF;text-align: center;
+                                    font-family: SF Pro Text;font-weight: 700;
+                                    font-size: 10px;">GET INFO</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/develop.svg" class="ic">
+                    </div>
+                    <div style="display: flex;gap:34px">
+                        <div class="mobile-displayflex">
+                            <div>
+                                <p class="perform-detail-head">Develop & Learn</p>
+                            </div>
+                            <div>
+                                <p class="perform-detail-content">Data analysis and predictions.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-getinfo">
+                                <a href="{{ route('support') }}" class="explore-link">
+                                    <span style="color: #BD00FF;text-align: center;
+                                    font-family: SF Pro Text;font-weight: 700;
+                                    font-size: 10px;">GET INFO</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/hr.svg" class="ic">
+                    </div>
+                    <div style="display: flex;gap:16px">
+                        <div class="mobile-displayflex">
+                            <div>
+                                <p class="perform-detail-head">HR Management</p>
+                            </div>
+                            <div>
+                                <p class="perform-detail-content">Recruitment, onboarding, trading.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-getinfo">
+                                <a href="{{ route('support') }}" class="explore-link">
+                                    <span style="color: #BD00FF;text-align: center;
+                                    font-family: SF Pro Text;font-weight: 700;
+                                    font-size: 10px;">GET INFO</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ourfeature-item">
+                    <div>
+                        <img src="assets/image/home/report.svg" class="ic">
+                    </div>
+                    <div style="display: flex;gap:13px">
+                        <div class="mobile-displayflex">
+                            <div>
+                                <p class="perform-detail-head">Report & Analytics</p>
+                            </div>
+                            <div>
+                                <p class="perform-detail-content">Gather, analyse, and presebt data.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn-getinfo">
+                                <a href="{{ route('support') }}" class="explore-link">
+                                    <span style="color: #BD00FF;text-align: center;
+                                    font-family: SF Pro Text;font-weight: 700;
+                                    font-size: 10px;">GET INFO</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="center-innovation">
@@ -684,9 +1095,9 @@
         </div>
     </div>
 
-    <div class="home-marquee" style="margin-bottom: 122px">
+    <div class="home-marquee-web" style="margin-bottom: 122px">
         <div class="marquee-content">
-            <div class="marquee-item2">
+            <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic.svg">
                     <div class="text-overlay">
@@ -698,14 +1109,14 @@
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
                             <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg">
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Logistic  
                                 </p>
                                 <p class="logistic-p-cont">
-                                    Understanding Logistic Regression
+                                    Logistic Regression
                                 </p>
                             </div>
 
@@ -725,22 +1136,22 @@
             <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/education.svg">
-                    <div class="text-overlay-edu">
-                        <p class="txtimg-efficient-edu">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
                             Empowering minds
                             through quality education.
                         </p>
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 40px">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
                             <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Education  
                                 </p>
                                 <p class="logistic-p-cont">
-                                    Education Transformation
+                                    Learning Evolution
                                 </p>
                             </div>
 
@@ -750,6 +1161,7 @@
                                         <span class="btn-span-getinfo1">GET INFO</span>
                                     </button>
                                 </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -757,6 +1169,369 @@
             </div>
 
             <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Delicious dining
+                            experiences, tempting
+                            food and beverages.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Food & Beverage  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Savoury Delights
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}#food-beverage" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/retail.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Shopping, endless
+                            choices, exceptional
+                            experiences.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Retail  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Shopper Trends
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #C89E8A">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Bulk savings, wholesale
+                            prices, sourcing for
+                            businesses and retailers.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Wholesale  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Global Supply Chains
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #A7A7A7">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/automotive.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Innovative vehicles,
+                            driving excellence,
+                            mobility redefined.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Automotive  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Vehicle Advancements
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #418F9B">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="home-marquee" style="margin-bottom: 122px">
+        <div class="marquee-content">
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/1.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Efficient transportation,
+                            logistics, and supply
+                            chain solutions.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Logistic  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Logistic Regression
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-logis">
+                                        <span class="btn-span-getinfo">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/2.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Empowering minds
+                            through quality education.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Education  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Learning Evolution
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-edu">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/3.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Delicious dining
+                            experiences, tempting
+                            food and beverages.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Food & Beverage  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Savoury Delights
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/4.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Shopping, endless
+                            choices, exceptional
+                            experiences.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Retail  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Shopper Trends
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #C89E8A">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/5.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Bulk savings, wholesale
+                            prices, sourcing for
+                            businesses and retailers.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Wholesale  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Global Supply Chains
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #A7A7A7">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="marquee-item">
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/6.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            Innovative vehicles,
+                            driving excellence,
+                            mobility redefined.
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    Automotive  
+                                </p>
+                                <p class="logistic-p-cont">
+                                    Vehicle Advancements
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb" style="background: #418F9B">
+                                        <span class="btn-span-getinfo1">GET INFO</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb.svg">
                     <div class="text-overlay">
@@ -789,9 +1564,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="marquee-item">
+            {{-- <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/retail.svg">
                     <div class="text-overlay">
@@ -810,7 +1585,7 @@
                                     Retail        
                                 </p>
                                 <p class="logistic-p-cont">
-                                    Adapt to Change Shopper Trends
+                                    Shopper Trends
                                 </p>
                             </div>
 
@@ -824,9 +1599,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="marquee-item">
+            {{-- <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale.svg">
                     <div class="text-overlay">
@@ -845,7 +1620,7 @@
                                     Wholesale       
                                 </p>
                                 <p class="logistic-p-cont">
-                                    Powering Global Supply Chains
+                                    Global Supply Chains
                                 </p>
                             </div>
 
@@ -859,9 +1634,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="marquee-item">
+            {{-- <div class="marquee-item">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/automotive.svg">
                     <div class="text-overlay">
@@ -880,7 +1655,7 @@
                                     Automotive       
                                 </p>
                                 <p class="logistic-p-cont">
-                                    Automotive Advancements
+                                    Vehicle Advancements
                                 </p>
                             </div>
 
@@ -894,7 +1669,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 @endsection

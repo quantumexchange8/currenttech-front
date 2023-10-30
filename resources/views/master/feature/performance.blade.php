@@ -12,7 +12,7 @@
         text-align: center;
     }
 
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1093px) {
         .perform1 {
             width: 100%;
             height: auto;
