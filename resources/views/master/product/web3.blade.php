@@ -251,6 +251,21 @@
             font-size: 16px;
             text-align: left;
             margin: 0;
+            display: none;
+        }
+        .craft-p-mobile {
+            width: 100%;
+            font-size: 16px;
+            text-align: left;
+            margin: 0;
+            display: block;
+            color: #FFF;
+
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
         }
         .craft-p2 {
             width: 100%;
@@ -765,6 +780,10 @@
     <div class="web3-7">
         <div class="mobile-alignment-30px">
             <p class="craft-p">
+                Crafting Digital Experiences for Future
+                WEB 3.0
+            </p>
+            <p class="craft-p-mobile">
                 Crafting Digital Experiences for Future
                 WEB 3.0
             </p>

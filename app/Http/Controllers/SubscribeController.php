@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Jobs\SubscriberJoinJob;
 use App\Http\Requests\NewsletterRequest;
 
-class SubscribeController extends Controller
+class SubscribeController extends Controller 
 {
     // public function post(NewsletterRequest $request)
     // {
@@ -25,9 +25,11 @@ class SubscribeController extends Controller
     // }
 
 
-    public function post(NewsletterRequest $request)
+    public function post(NewsletterRequest $request )
 {
+    // dd($request->all());
     $validated = $request->validated();
+    
     $existingSubscriber = Subscriber::where('email', $validated['email'])->first();
 
     if ($existingSubscriber) {

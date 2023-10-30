@@ -1,304 +1,25 @@
-{{-- <!doctype html> 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-
-        <title>Current Tech</title>
-        <link rel="shortcut icon" href="{{asset('assets/image/logo.png')}}">
-        <link rel="apple-touch-icon" href="{{asset('assets/image/logo.png')}}">
-        <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
-
-        <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    </head>
-
-    <body>
-
-        <div class="container-scoller">
-            @include('layouts.topbar')
-
-            @yield('content')
-
-            @include('layouts.footer')
-        </div>
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
-        <script>
-            window.addEventListener("load", function() {
-                const marqueeContents = document.querySelectorAll(".marquee-content");
-
-                // Clone the marquee items for each marquee row
-                marqueeContents.forEach((marqueeContent) => {
-                    const marqueeItems = marqueeContent.querySelectorAll(".marquee-item");
-                    const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
-
-                    // Calculate the number of items needed to fill the width of the marquee
-                    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
-
-                    // Clone the items
-                    for (let i = 0; i < numberOfItems; i++) {
-                        marqueeItems.forEach((item) => {
-                            marqueeContent.appendChild(item.cloneNode(true));
-                        });
-                    }
-
-                    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
-                });
-            });
-
-        </script>
-
-        <script>
-            window.addEventListener("load", function() {
-                const marqueeContents = document.querySelectorAll(".web3-marquee-content");
-
-                // Clone the marquee items for each marquee row
-                marqueeContents.forEach((marqueeContent) => {
-                    const marqueeItems = marqueeContent.querySelectorAll(".web3-marquee-item");
-                    const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
-
-                    // Calculate the number of items needed to fill the width of the marquee
-                    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
-
-                    // Clone the items
-                    for (let i = 0; i < numberOfItems; i++) {
-                        marqueeItems.forEach((item) => {
-                            marqueeContent.appendChild(item.cloneNode(true));
-                        });
-                    }
-
-                    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
-                });
-            });
-
-        </script>
-
-        <script>
-            window.addEventListener("load", function() {
-                const marqueeContents = document.querySelectorAll(".web3-marquee-content-2");
-
-                // Clone the marquee items for each marquee row
-                marqueeContents.forEach((marqueeContent) => {
-                    const marqueeItems = marqueeContent.querySelectorAll(".web3-marquee-item-2");
-                    const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
-
-                    // Calculate the number of items needed to fill the width of the marquee
-                    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
-
-                    // Clone the items
-                    for (let i = 0; i < numberOfItems; i++) {
-                        marqueeItems.forEach((item) => {
-                            marqueeContent.appendChild(item.cloneNode(true));
-                        });
-                    }
-
-                    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
-                });
-            });
-
-        </script>
-
-        <script>
-            window.addEventListener("load", function() {
-                const marqueeContents = document.querySelectorAll(".sector-marquee-content");
-
-                // Clone the marquee items for each marquee row
-                marqueeContents.forEach((marqueeContent) => {
-                    const marqueeItems = marqueeContent.querySelectorAll(".sector-marquee-item");
-                    const marqueeWidth = marqueeItems.length * marqueeItems[0].offsetWidth;
-
-                    // Calculate the number of items needed to fill the width of the marquee
-                    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / marqueeItems[0].offsetWidth);
-
-                    // Clone the items
-                    for (let i = 0; i < numberOfItems; i++) {
-                        marqueeItems.forEach((item) => {
-                            marqueeContent.appendChild(item.cloneNode(true));
-                        });
-                    }
-
-                    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
-                });
-            });
-
-        </script>
-
-        <script>
-            document.addEventListener('click', function(event) {
-                // var navMenu = document.getElementById('navMenu');
-                // var navToggle = document.querySelector('.nav-toggle');
-
-                // Check if the clicked element is outside the nav-menu
-                // if (!navMenu.contains(event.target) && !navToggle.contains(event.target)) {
-                //     navMenu.classList.remove('active');// Hide the nav-menu
-                // }
-                });
-
-                // function toggleNav() {
-                // var navMenu = document.getElementById('navMenu');
-                // var navToggle = document.querySelector('.nav-toggle');
-                
-                // // Check if the navMenu has the active class
-                // if (navMenu.classList.contains('active')) {
-                //     // If it has the active class, remove it to hide the menu
-                //     navMenu.classList.remove('active');
-                // } else {
-                //     // If it doesn't have the active class, add it to show the menu
-                //     navMenu.classList.add('active');
-                // }
-                // }
-
-                function toggleSubMenu(subMenuId) {
-                var subMenu = document.getElementById(subMenuId);
-                var subMenuArrow = subMenu.previousElementSibling.querySelector('i');
-                var subMenus = document.getElementsByClassName("sub-menu");
-
-                // Check if the clicked sub-menu is already active
-                if (subMenu.classList.contains("active")) {
-                subMenu.classList.remove("active");
-                subMenuArrow.classList.remove("mdi-chevron-up");
-                subMenuArrow.classList.add("mdi-chevron-down");
-                } else {
-                // Deactivate all sub-menus
-                for (var i = 0; i < subMenus.length; i++) {
-                    subMenus[i].classList.remove("active");
-                    var arrow = subMenus[i].previousElementSibling.querySelector('i');
-                    arrow.classList.remove("mdi-chevron-up");
-                    arrow.classList.add("mdi-chevron-down");
-                }
-                
-                // Activate the clicked sub-menu
-                subMenu.classList.add("active");
-                subMenuArrow.classList.remove("mdi-chevron-down");
-                subMenuArrow.classList.add("mdi-chevron-up");
-                }
-            }
-
-
-                window.addEventListener('scroll', function() {
-                // var navMenu = document.getElementById('navMenu');
-
-                // // Remove the "active" class from navMenu when scrolling the page
-                // navMenu.classList.remove('active');
-                });
-
-
-                // dark mode
-                $(document).ready(function() {
-                        var modeToggle = $('#mode-toggle');
-                        var icon = modeToggle.find('i');
-
-                        modeToggle.on('click', function() {
-                            $('body').toggleClass('dark-mode');
-                            var isDarkMode = $('body').hasClass('dark-mode');
-                            icon.css('color', isDarkMode ? '#ffffff' : '#5CA346');
-
-                            // Store the mode in local storage
-                            localStorage.setItem('mode', isDarkMode ? 'dark' : 'light');
-                        });
-
-                        // Check the mode on page load
-                        var storedMode = localStorage.getItem('mode');
-                        if (storedMode === 'dark' || (storedMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                            $('body').addClass('dark-mode');
-                            icon.css('color', '#ffffff');
-                        } else {
-                            $('body').removeClass('dark-mode');
-                            icon.css('color', '#5CA346');
-                        }
-                    });
-                
-                    function myFunction() {
-            var body = document.querySelector('body');
-            var modeIcon = document.querySelector('#mode-icon');
-            var isDarkMode = body.classList.contains('dark-mode');
-
-            body.classList.toggle('dark-mode');
-
-            // Update the modeIcon based on the selected mode
-            if (body.classList.contains('dark-mode')) {
-                modeIcon.classList.replace('mdi-lightbulb-on-outline', 'mdi-lightbulb');
-            } else {
-                modeIcon.classList.replace('mdi-lightbulb', 'mdi-lightbulb-on-outline');
-            }
-
-            // Store the selected mode in local storage
-            localStorage.setItem('mode', body.classList.contains('dark-mode') ? 'dark' : 'light');
-            }
-
-            // navigation sub active
-
-            $(document).ready(function() {
-            // Show/hide sub-navigation menu on parent click
-            $('.nav-item.menu-items > a.nav-link').click(function() {
-            var subMenu = $(this).next('.sub');
-            $('.sub').not(subMenu).slideUp(300);
-            subMenu.slideToggle(300);
-            });
-
-            // Add active class to selected sub-navigation menu item and its parent
-            $('.sub-navi a').click(function() {
-            // Remove active class from all sub-navigation menu items
-            $('.sub-navi a').removeClass('active');
-
-            // Add active class to selected sub-navigation menu item
-            $(this).addClass('active');
-
-            // Add active class to parent menu item
-            var parentMenuItem = $(this).closest('.nav-item.menu-items');
-            $('.nav-item.menu-items').removeClass('active');
-            parentMenuItem.addClass('active');
-            parentMenuItem.find('> a.nav-link').addClass('active');
-
-            // Add active class to parent menu item if sub-menu is active
-            if (parentMenuItem.hasClass('nav-item') && parentMenuItem.hasClass('menu-items')) {
-                parentMenuItem.addClass('active');
-                parentMenuItem.find('> a.nav-link').addClass('active');
-            } else {
-                parentMenuItem.removeClass('active');
-                parentMenuItem.find('> a.nav-link').removeClass('active');
-            }
-            });
-
-            // Hide sub-navigation menu on scroll
-            $(window).scroll(function() {
-            // Check if the sub-navigation menu is currently visible
-            var subMenuVisible = $('.sub:visible').length > 0;
-            
-            // Close the sub-navigation menu if it's visible and the user is scrolling
-            if (subMenuVisible) {
-            $('.sub').slideUp();
-            }
-        });
-            // Disable auto-scrolling to top on parent click
-            $('.nav-item.menu-items > a.nav-link').click(function(e) {
-            e.preventDefault(); // Prevent the default anchor link behavior
-            });
-        });
-        </script>
-        
-    </body>
-</html> --}}
-
 <!DOCTYPE html>
 <html lang="en">
-    
-
 
 <head>
     <meta charset="utf-8">
 
     <title>Current Tech</title>
-    <link rel="shortcut icon" href="{{asset('assets/image/logo.png')}}">
-    <link rel="apple-touch-icon" href="{{asset('assets/image/logo.png')}}">
-    <link rel="icon" href="{{asset('assets/image/logo.png')}}" type="image/png">
+    <meta name="Description" content="Current Tech Industries is a leading technology solutions development provider." />
+    <meta name="keywords" content="Current Tech Industries, Current Tech, Forex, Crypto, Financial, Technology, POS system, Accounting System, NFT, Expert Advisor Builder, Mobile App Development, Website Development, Software Development">
+    <meta property="og:title" content="Current Tech Industries Sdn Bhd">
+    <meta property="og:description" content="Current Tech Industries is a leading technology solutions development provider.">
+    <meta property="og:image" content="https://currenttech.pro/assets/image/home/ct_processor.png">
+    <meta property="og:url" content="https://currenttech.pro/">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="{{asset('assets/image/newlogo.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('assets/image/newlogo.png')}}">
+    <link rel="icon" href="{{asset('assets/image/newlogo.png')}}" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
 </head>
 
 <body class="light-mode dark-mode">
@@ -894,6 +615,230 @@
       window.addEventListener("scroll", closeSidebar);
   });
     </script>
+
+    <script>
+        $(document).ready(function () {
+            // Listen for changes in the NFT and Crypto checkboxes
+            // $("input[name='nft'], input[name='crypto'], input[name='standard_package'], input[name='advance_package'], input[name='website'], input[name='appdev'], input[name='crm']").change(function () {
+            //     var isNFTSelected = $("input[name='nft']").is(":checked");
+            //     var isCryptoSelected = $("input[name='crypto']").is(":checked");
+
+            //     var isStdSelected = $("input[name='standard_package']").is(":checked");
+            //     var isAdvSelected = $("input[name='advance_package']").is(":checked");
+
+            //     var isCryptoSelected = $("input[name='crypto']").is(":checked");
+
+                
+            //     // Disable the Career checkboxes if NFT or Crypto is selected
+            //     if (isNFTSelected || isCryptoSelected) {
+            //         $("input[name^='it'], input[name='uiux'], input[name='market'], input[name='op'], input[name='sales'], input[name='intern']").prop("disabled", true);
+            //     } else {
+            //         // Enable the Career checkboxes if neither NFT nor Crypto is selected
+            //         $("input[name^='it'], input[name='uiux'], input[name='market'], input[name='op'], input[name='sales'], input[name='intern']").prop("disabled", false);
+            //     }
+            // });
+
+            
+
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const itprogramCheckboxes = document.querySelectorAll('[name="itprogram"], [name="uiux"], [name="market"], [name="op"], [name="sales"]');
+            const internCheckbox = document.querySelector('[name="intern"]');
+            const otherCheckboxes = document.querySelectorAll('[name="standard_package"], [name="advance_package"], [name="website"], [name="appdev"], [name="crm"], [name="whitelabel"], [name="paymentsolution"], [name="crmsolu"], [name="medusa"], [name="mercury"], [name="ragnarok"], [name="nft"], [name="crypto"]');
+            
+            const standardPackageCheckbox = document.querySelector('[name="standard_package"]');
+            const advancePackageCheckbox = document.querySelector('[name="advance_package"]');
+
+            const websiteCheckbox = document.querySelector('[name="website"]');
+            const appdevCheckbox = document.querySelector('[name="appdev"]');
+            const crmCheckbox = document.querySelector('[name="crm"]');
+
+            const whitelabelCheckbox = document.querySelector('[name="whitelabel"]');
+            const paymentsolutionCheckbox = document.querySelector('[name="paymentsolution"]');
+            const crmsoluCheckbox = document.querySelector('[name="crmsolu"]');
+
+            const medusaCheckbox = document.querySelector('[name="medusa"]');
+            const mercuryCheckbox = document.querySelector('[name="mercury"]');
+            const ragnarokCheckbox = document.querySelector('[name="ragnarok"]');
+
+            const nftCheckbox = document.querySelector('[name="nft"]');
+            const cryptoCheckbox = document.querySelector('[name="crypto"]');
+
+
+            // const webApplicationCheckboxes = document.querySelectorAll('[name="website"], [name="appdev"], [name="crm"]');
+            // const ctraderCheckboxes = document.querySelectorAll('[name="whitelabel"], [name="appdev2"], [name="crmsolu"]');
+            // const prochipCheckboxes = document.querySelectorAll('[name="medusa"], [name="mercury"], [name="ragnarok"]');
+            // const web3Checkboxes = document.querySelectorAll('[name="nft"], [name="crypto"]');
+            
+            const displayElement = document.getElementById('someElement');
+            const displayElement2 = document.getElementById('someElement2');
+            
+            
+            // Function to count the number of checked checkboxes in the itprogramCheckboxes group
+            function isAnyItProgramCheckboxChecked() {
+                return Array.from(itprogramCheckboxes).some(checkbox => checkbox.checked);
+            }
+
+            function countCheckedCheckboxes() {
+                return Array.from(itprogramCheckboxes).filter(checkbox => checkbox.checked).length;
+            }
+
+            // POS SYSTEM
+            standardPackageCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    advancePackageCheckbox.checked = false;
+                }
+            });
+
+            advancePackageCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    standardPackageCheckbox.checked = false;
+                }
+            });
+
+            // WEB / APPPLICATION
+            websiteCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    appdevCheckbox.checked = false;
+                    crmCheckbox.checked = false;
+                }
+            });
+
+            appdevCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    websiteCheckbox.checked = false;
+                    crmCheckbox.checked = false;
+                }
+            });
+
+            crmCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    websiteCheckbox.checked = false;
+                    appdevCheckbox.checked = false;
+                }
+            });
+
+            // CTRADER / METAQUOTE
+            whitelabelCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    paymentsolutionCheckbox.checked = false;
+                    crmsoluCheckbox.checked = false;
+                }
+            });
+
+            paymentsolutionCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    whitelabelCheckbox.checked = false;
+                    crmsoluCheckbox.checked = false;
+                }
+            });
+
+            crmsoluCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    whitelabelCheckbox.checked = false;
+                    paymentsolutionCheckbox.checked = false;
+                }
+            });
+
+            // PRO CHIP / ULTRA CHIP
+            medusaCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    mercuryCheckbox.checked = false;
+                    ragnarokCheckbox.checked = false;
+                }
+            });
+
+            mercuryCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    medusaCheckbox.checked = false;
+                    ragnarokCheckbox.checked = false;
+                }
+            });
+
+            ragnarokCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    medusaCheckbox.checked = false;
+                    mercuryCheckbox.checked = false;
+                }
+            });
+
+            // WEB 3.0
+            nftCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    cryptoCheckbox.checked = false;
+                }
+            });
+
+            cryptoCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    nftCheckbox.checked = false;
+                }
+            });
+
+            // Add event listeners to the "itprogram, uiux, market, op, sales" checkboxes
+            itprogramCheckboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    
+                    if (internCheckbox.checked) {
+                        // If "intern" is checked, allow selecting only one checkbox from itprogramCheckboxes
+                        if (countCheckedCheckboxes() > 1) {
+                            this.checked = false;
+                            // displayElement.style.display = 'block';
+                            // displayElement2.style.display = 'block';
+                        }
+                    } else {
+                        // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
+                        if (countCheckedCheckboxes() > 1) {
+                            this.checked = false;
+                            // displayElement.style.display = 'block';
+                            // displayElement2.style.display = 'block';
+                        }
+                    }
+                    // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                });
+            });
+
+            // Add event listener to the "intern" checkbox
+            internCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    // If "intern" is checked, allow selecting only one checkbox from itprogramCheckboxes
+                    itprogramCheckboxes.forEach(function(checkbox) {
+                        checkbox.disabled = false;
+                    });
+                } else {
+                    // If "intern" is unchecked, allow selecting only one checkbox from itprogramCheckboxes
+                    itprogramCheckboxes.forEach(function(checkbox) {
+                        checkbox.disabled = false;
+                    });
+                }
+                // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+            });
+
+            // Add event listeners to the "standard_package, advance_package, website, appdev, crm, whitelabel, appdev2, crmsolu, medusa, mercury, ragnarok, nft, crypto" checkboxes
+            otherCheckboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    // If any checkbox in otherCheckboxes is checked, disable all checkboxes in itprogramCheckboxes
+                    if (this.checked) {
+                        itprogramCheckboxes.forEach(function(itprogramCheckbox) {
+                            itprogramCheckbox.checked = false;
+                            itprogramCheckbox.disabled = true;
+                        });
+                    } else {
+                        // Enable all checkboxes in itprogramCheckboxes
+                        itprogramCheckboxes.forEach(function(itprogramCheckbox) {
+                            itprogramCheckbox.disabled = false;
+                        });
+                    }
+                    // displayElement.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                    // displayElement2.style.display = isAnyItProgramCheckboxChecked() ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+
 
 </body>
 </html>

@@ -29,7 +29,12 @@
         .sector1 {
             width: 100%;
             height: auto;
+            display: flex;
+            justify-content: center;
             /* margin-top: 100px; */
+        }
+        .sector-text-overlay {
+            border-radius: 0px 0px 20px 20px;
         }
         .sector2 {
             width: 100%;
@@ -38,7 +43,7 @@
         }
         .sector1 p {
             display: flex;
-            width: 100%;
+            width: 80%;
             height: auto;
             flex-direction: column;
             justify-content: center;
@@ -69,9 +74,11 @@
         .sector3 {
             width: 100%;
             margin: 0;
+            display: flex;
+            justify-content: center;
         }
         .sector3 p {
-            width: 100%;
+            width: 80%;
             height: auto;
             font-size: 20px;
             text-align: center;
@@ -100,6 +107,7 @@
         }
         .sector5 {
             flex-direction: column; /* Stack columns in mobile view */
+            margin-bottom: 20px;
         }
         .cart-col1 {
             margin-top: -120px; /* Reset margin for mobile view */
@@ -114,22 +122,27 @@
         .sector7 {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
         }
         .sector9 {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
         }
         .sector11 {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
         }
         .sector13 {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
         }
         .sector15 {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
         }
         .sector16 {
             width: 100%;
@@ -151,7 +164,7 @@
             line-height: 18px;
         }
         .retail-p2 {
-            width: 100%;
+            width: 115%;
             height: auto;
             margin-left: -70px;
             margin-top: 10px;
@@ -167,7 +180,7 @@
             line-height: 18px;
         }
         .food-p2 {
-            width: 100%;
+            width: 95%;
             height: auto;
             margin-top: 10px;
             margin-left: -115px;
@@ -182,8 +195,8 @@
             width: 340px;
             height: 0.5px;
             background: #666;
-            margin-top: -20px;
             margin-bottom: 0;
+            margin-top: 28px;
         }
     }
 
@@ -334,7 +347,7 @@
             Our Solution's Influence on all Sector
         </p>
     </div>
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="retail"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/7.svg">
@@ -396,7 +409,7 @@
             </div>
         </div>
     </div>
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="logistic"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/9.svg">
@@ -428,7 +441,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22" style="margin-bottom:68px"> 
+    <div class="getstart-container22" id="wholesale" style="margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/10.svg">
@@ -460,7 +473,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="automotive"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/11.svg">
@@ -492,7 +505,7 @@
         </div>
     </div>
 
-    <div class="getstart-container22"> 
+    <div class="getstart-container22" id="education"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
                 <img src="assets/image/sector/12.svg">
@@ -523,19 +536,6 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="sector16">
-        <div>
-            <p>Get Your Personalised Quote Today!</p>
-        </div>
-        <div style="margin-left: 30px;">
-            <button class="btn-contact">
-                <a href="{{ route('support') }}" class="explore-link">
-                    <span>Contact Us Now!</span>
-                </a>
-            </button>
-        </div>
-    </div> --}}
 
 </div>
 @endsection

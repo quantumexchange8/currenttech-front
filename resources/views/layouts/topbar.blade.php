@@ -201,7 +201,7 @@
                 </a>
             </li>
             <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
-                <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')">
+                <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon', 'LanguageSubMenu', 'LanguageIcon')">
                     <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">Products</span>
                     {{-- <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left: 30px"></i> --}}
                     @if(Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : '')
@@ -275,7 +275,7 @@
                 
             </li>
             <li class="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
-                <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
+                <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon', 'LanguageSubMenu', 'LanguageIcon')">
                     <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">Features</span>
                     @if(Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : '')
                         <img src="/assets/image/arrowdown_act.svg" style="margin-left: 22px">
@@ -369,12 +369,12 @@
             <li class="smallnav-act {{ Request::is('register') ? 'active' : ''}} mobile-hidden"><a href="{{ route('register') }}" style="{{ Request::is('register') ? 'color: #BD00FF;' : '' }}">Register</a></li> --}}
 
             <li>
-                <a href="#language" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon')">
+                <a href="#language" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="language" onclick="toggleSubMenu('LanguageSubMenu', 'LanguageIcon', 'FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon', 'LanguageIcon')">
                     {{-- <a href="#" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')"> --}}
                     <span style="display:inline-block;color: #FFFFFF;width:90px">Language</span>
                     <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
                 </a>
-                <ul id="#language" style="display: none;margin-left: 30px;">
+                <ul id="LanguageSubMenu" style="display: none;">
                     <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >English</span></a></li>
                     <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >Bahasa Malaysia</span></a></li>
                     <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF">Chinese (S)</span></a></li>

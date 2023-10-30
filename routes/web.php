@@ -20,7 +20,8 @@ use App\Http\Controllers\SubscribeController;
 */
 
 
-Route::post('/subscribe', [SubscribeController::class, 'post']);
+Route::post('/subscribe', [SubscribeController::class, 'post'])->name('subscribe');
+Route::post('/resume', [HomeController::class, 'resume'])->name('resume');
 Route::post('/subscribe/{hash}', [SubscribeController::class, 'show']);
 Route::post('contact_mail', [HomeController::class,'contact_mail_send']);
 Route::get('/', function () {

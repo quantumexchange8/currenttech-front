@@ -22,9 +22,10 @@
         margin-bottom: 66px;
     }
     .detail-7 {
-        width: 1100px;
+        /* width: 1100px; */
         margin-bottom: 88px;
         display: flex;
+        gap: 10px;
     }
     .btn-preview {
         width: 134px;
@@ -254,6 +255,7 @@
     .webapp13 {
         margin-bottom: 88px;
         display: flex;
+        gap: 23px;
     }
 
     .ecomm-tem {
@@ -283,9 +285,13 @@
     }
 
     .carbon-image {
-        width: 100%;
+        /* width: 100%; */
+        width: 256.696px;
+        height: 208.622px;
     }
-    
+    .webappfont2 {
+        display: none;
+    }
     .social-icon {
         display: flex;
         gap: 24.37px;
@@ -937,7 +943,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/21.png" class="product-img">
+                    <img src="assets/image/product/webapp/24.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Furnatur</p>
@@ -954,7 +960,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/22.png" class="product-img">
+                    <img src="assets/image/product/webapp/25.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Road Pedal</p>
@@ -971,7 +977,7 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/23.png" class="product-img">
+                    <img src="assets/image/product/webapp/26.svg" class="product-img">
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Merketin</p>
@@ -1175,10 +1181,10 @@
     </div>
     <div class="webapp13">
         <div>
-            <img src="assets/image/product/webapp/15.svg" style="width: 100%;">
+            <img src="assets/image/product/webapp/15.svg" style="width: 535px;height: auto;">
         </div>
         <div>
-            <img src="assets/image/product/webapp/16.svg" style="width: 100%;">
+            <img src="assets/image/product/webapp/16.svg" style="width: 535px;height: auto;">
         </div>
         
     </div>
@@ -1335,9 +1341,15 @@
                     Connect Us
                 </div>
                 <div class="social-icon">
-                    <img src="assets/image/product/detail/fb.svg">
-                    <img src="assets/image/product/detail/ig.svg">
-                    <img src="assets/image/product/detail/ws.svg">
+                    <a href="https://www.facebook.com/currenttechindustries">
+                        <img src="assets/image/product/detail/fb.svg">
+                    </a>
+                    <a href="https://instagram.com/currenttechindustries?">
+                        <img src="assets/image/product/detail/ig.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/company/currenttechindustries/">
+                        <img src="assets/image/product/detail/ws.svg">
+                    </a>
                     <img src="assets/image/product/detail/tele.svg">
                     <img src="assets/image/product/detail/drib.svg">
                     <img src="assets/image/product/detail/link.svg">

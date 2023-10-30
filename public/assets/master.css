@@ -128,6 +128,16 @@ body {
     margin: 0 auto;
 }
 
+.main-content9-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    width: 100%;
+    max-width: 1093px;
+    margin: 0 auto;
+}
+
 .main-content10 {
     margin-top: 120px;
     margin-left: 226px;
@@ -1363,6 +1373,7 @@ body {
     /* font-weight: 700; */
     line-height: normal;
     margin: 0;
+    margin-bottom: 14px;
 }
 
 .desc-content-col7 p {
@@ -2555,18 +2566,21 @@ body {
         display: flex;
         gap: 16px !important;
         animation: marquee-animation1 100s linear infinite;
+        -webkit-animation: marquee-animation1 100s linear infinite;
     }
     
     .web3-marqueee-content {
         display: flex;
         gap: 10px;
         animation: marquee-animation2 100s linear infinite;
+        -webkit-animation: marquee-animation2 100s linear infinite;
     }
     
     .web3-marqueee-content-2 {
         display: flex;
         gap: 10px;
         animation: marquee-animation3 100s linear infinite;
+        -webkit-animation: marquee-animation3 100s linear infinite;
     }
     
     .sector-marquee-content {
@@ -2604,30 +2618,35 @@ body {
     display: flex;
     gap: 39px;
     animation: marquee-animation1 100s linear infinite;
+    -webkit-animation: marquee-animation1 100s linear infinite;
 }
 
 .web3-marquee-content {
     display: flex;
     gap: 10px;
     animation: marquee-animation2 150s linear infinite;
+    -webkit-animation: marquee-animation2 150s linear infinite;
 }
 
 .web3-marquee-content-2 {
     display: flex;
     gap: 10px;
     animation: marquee-animation3 150s linear infinite;
+    -webkit-animation: marquee-animation3 150s linear infinite;
 }
 
 .web3-marquee-content-3 {
     display: flex;
     gap: 40px;
     animation: marquee-animation5 100s  linear infinite;
+    -webkit-animation: marquee-animation5 100s linear infinite;
 }
 
 .sector-marquee-content {
     display: flex;
-    gap: 30px;
+    gap: 18px;
     animation: marquee-animation4 100s linear infinite;
+    -webkit-animation: marquee-animation4 100s linear infinite;
 }
 
 .marquee-item {
@@ -3256,6 +3275,14 @@ body {
     margin-left: 55px;
     margin-top: 75px;
 }
+
+.ct-box3 {
+    /* width: 480px; */
+    height: 180px;
+    margin-right: 50px;
+    margin-top: 75px;
+}
+
 .ct-p3 {
     color: #ffffff;
     font-family: SF Pro Text;
@@ -3444,7 +3471,7 @@ body {
 }
 .getstart-container22 {
     width: 100%;
-    height: auto;
+    height: 1093px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
@@ -3521,6 +3548,7 @@ body {
     border-radius: 35px;
     margin-bottom: 86px;
     background: linear-gradient(135deg, rgba(173, 0, 255, 0.40) 0%, rgba(250, 0, 255, 0.40) 56.25%, rgba(5, 0, 255, 0.24) 100%);
+    display: none;
 }
 
 .ctrade-span-word {
@@ -5139,6 +5167,7 @@ body {
     font-weight: 700;
     line-height: 42.96px;
     width: 871px;
+    margin-bottom: 32px;
 }
 
 .implement-p {
@@ -5151,6 +5180,10 @@ body {
     width: 100%;
     text-align: center;
     margin: 0;
+    display: block;
+}
+.implement-p-mobile {
+    display: none;
 }
 
 .badges-p1 {
@@ -5175,6 +5208,10 @@ body {
     width: 100%;
     text-align: center;
     margin: 0;
+    display: block;
+}
+.recognise-p1-web {
+    display: none;
 }
 
 .leveling-p1 {
@@ -5258,6 +5295,10 @@ body {
     line-height: 57.28px;
     /* width: 1268px; */
     margin: 0;
+    display: block;
+}
+.provid-2-web {
+    display: none;
 }
 
 @media screen and (max-width: 1093px) {
@@ -5266,15 +5307,35 @@ body {
         font-size: 18px;
     }
     .implement-p {
+        display: none;
         width: 100%;
-        margin-left: 40px;
         font-size: 14px;
         text-align: left;
     }
+    .implement-p-mobile {
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        display: block;
+    }
     .recognise-p1 {
         width: 100%;
-        margin-left: 40px;
         font-size: 14px;
+        text-align: left;
+        display: none;
+    }
+    .recognise-p1-web {
+        display: block;
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
         text-align: left;
     }
     .incorporate-p1 {
@@ -5282,9 +5343,6 @@ body {
         margin-left: 40px;
         font-size: 14px;
         text-align: left;
-    }
-    .badges-p1 {
-        margin-left: -100px;
     }
     .leveling-p1 {
         margin-left: -130px;
@@ -5463,6 +5521,7 @@ body {
     color: #BD00FF;
     border-radius: 50px;
 }
+
 .effective img {
     width: 670px;
 }
@@ -5990,6 +6049,7 @@ body {
     background: #333;
     margin-top: 128px;
     margin-bottom: 128px;
+
 }
 
 .report4 {
@@ -7051,16 +7111,17 @@ body {
 }
 
 .support3 {
-    width: 1067px;
+    width: 100%;
     height: 846px;
     display: flex;
     margin-bottom: 120px;
+    justify-content: center;
 }
 
 .support-col1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .support-col2 {
@@ -7201,8 +7262,10 @@ body {
 
 .support4 {
     display: flex;
-    align-items: flex-start; 
-    margin-top: 117px;
+    align-items: flex-start;
+    margin-top: 180px;
+    justify-content: center;
+    gap: 27px;
 }
 
 .support44 {
@@ -7210,30 +7273,34 @@ body {
 }
 
 .left-input {
-    margin-right: 40px; /* Adjust spacing between left and right sections */
+    /* margin-right: 40px; Adjust spacing between left and right sections */
 }
 
 .right-input {
-    margin-right: 120px;
-    flex: 2; /* Take up twice as much space as the left section */
+    /* margin-right: 120px; */
+    /* flex: 2; Take up twice as much space as the left section */
 }
 
 .support4 .large-textarea {
-    margin-left: 130px;
-    width: 514px;
-    height: 259px;
+    /* margin-left: 130px; */
+    width: 520px;
+    height: 243px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .support4 .large-textarea::placeholder {
     text-align: left;
-    padding-left: 15px;
+    /* padding-left: 10px;
+    padding-top: 10px; */
 } 
 
 .sup-form-control {
-    margin-left: -10px;
+    /* margin-left: -10px; */
     margin-bottom: 16px;
     width: 512px;
     height: 48px;
@@ -7243,6 +7310,7 @@ body {
     text-align: center;
     display: flex;
     font-size: 22px;
+    outline: none;
 }
 
 .sup-form-control::placeholder {
@@ -7264,9 +7332,9 @@ body {
 
 /* Style the custom file upload button */
 .custom-file-upload {
-    margin-left: -8px;
+    /* margin-left: -8px; */
     margin-bottom: 16px;
-    width: 517px;
+    /* width: 517px; */
     height: 48px;
     flex-shrink: 0;
     border-radius: 5px;
@@ -7301,9 +7369,6 @@ body {
     border-radius: 25px;
     border: 2px solid #7940CF;
     background: transparent;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    margin-left: 950px;
     display: block;
 }
 
@@ -7344,8 +7409,17 @@ body {
 .small-nav-toggle {
     display: none;
     cursor: pointer;
+    outline: none;
 }
 
+/* .small-nav-toggle:focus {
+    outline: none; 
+} */
+.small-nav-toggle:focus {
+    outline: none; /* Remove the default focus outline */
+    /* Add your custom focus styles here, like a border or box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Example custom focus style */
+}
 .nav-border-mobile {
     width: 50px;
     height: 50px;
@@ -7577,7 +7651,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         /* margin-bottom: 30px; */
-        margin-top: -60px;
+        /* margin-top: -60px; */
     }
     .support-row2 {
         width: 100%;
@@ -7586,7 +7660,6 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
     }
     .support-row3 {
         width: 100%;
@@ -7595,7 +7668,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
     }
     .support-row4 {
         width: 100%;
@@ -7604,7 +7677,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support-row5 {
@@ -7614,7 +7687,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support-row6 {
@@ -7624,13 +7697,13 @@ body {
         background: rgba(0, 0, 0, 0.4);
         margin-right: 13.5px;
         margin-bottom: 0;
-        margin-top: -60px;
+        /* margin-top: -60px; */
         margin-left: 0;
     }
     .support3 {
         flex-direction: column; 
         /* margin-left: 70px; */
-        margin-bottom: 770px;
+        margin-bottom: 650px;
     }
 }
 
@@ -7746,27 +7819,43 @@ body {
     }
 
     .main-content9 {
-        margin: 45px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+    }
+    .main-content9-1 {
+        margin-top: 0px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content10 {
-        margin: 45px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content11 {
-        margin: 10px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content12 {
-        margin: 50px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
     .main-content13 {
-        margin: 50px;
+        margin-top: 36px !important;
+        margin-left: 15px;
+        margin-right: 15px;
         width: auto;
     }
 
@@ -8640,6 +8729,7 @@ body {
     }
     .provid-2 {
         width: 100%;
+        display: none;
     }
     .develop5 {
         width: 100%;
@@ -8653,9 +8743,13 @@ body {
     }
     .rew1 {
         /* margin-top: 111px; */
+        display: flex;
+        justify-content: center;
     }
     .hr1 {
         /* margin-top: 110px; */
+        display: flex;
+        justify-content: center;
     }
     .blackboard {
         display: none;
@@ -8964,4 +9058,9 @@ body {
         margin-right: 700px;
     }
     
+}
+
+.toastr-message-text {
+    font-family: "SF Pro", sans-serif;
+    /* Add any other desired styles for the text */
 }

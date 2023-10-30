@@ -14,7 +14,7 @@ class NewsletterRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => 'email|unique:email|min:6|max:64'
+            'email' => 'email|unique:users|min:6|max:64'
         ];
     }
 }
