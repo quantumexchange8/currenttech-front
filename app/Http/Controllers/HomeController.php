@@ -23,36 +23,36 @@ class HomeController extends Controller
     {
         return view('master.support');
     }
-    public function contact_mail_send(Request $request)
-    {
-        // dd($request->all());
-        $validated = $request->validate([
-            'name' => 'required|string',
-            'number' => 'required|string',
-            'email' => 'required|email',
-            'message' => 'required|string',
-            'file' => 'file|mimes:pdf',
-        ]);
+    // public function contact_mail_send(Request $request)
+    // {
+    //     // dd($request->all());
+    //     $validated = $request->validate([
+    //         'full_name' => 'required|string',
+    //         'contact_number' => 'required|string',
+    //         'email' => 'required|email',
+    //         'message' => 'required|string',
+    //         'file' => 'file|mimes:pdf',
+    //     ]);
 
-        $formData = FormData::create([
-            'name' => $validated['name'],
-            'number' => $validated['number'],
-            'email' => $validated['email'],
-            'message' => $validated['message'],
-            'file' => $request->file('file')->store('uploads'), 
-        ]);
+    //     $formData = FormData::create([
+    //         'full_name' => $validated['full_name'],
+    //         'contact_number' => $validated['contact_number'],
+    //         'email' => $validated['email'],
+    //         'message' => $validated['message'],
+    //         'file' => $request->file('file')->store('uploads'), 
+    //     ]);
         
-        Mail::to('support@currenttech.pro')->send(new ContactMail($request));
-        return redirect('support')->with('success', 'Contact form submitted successfully.');
-    }
+    //     Mail::to('rajahaikal7@gmail.com')->send(new ContactMail($request));
+    //     return redirect('support')->with('success', 'Contact form submitted successfully.');
+    // }
 
     public function resume(Request $request)
     {
         // dd($request->all());
 
         $validator = Validator::make($request->all(), [
-            'name' => 'required|string',
-            'number' => 'required|number',
+            'full_name' => 'required|string',
+            'contact_number' => 'required|number',
             'email' => 'required|email',
             'message' => 'required|string',
             'file' => 'file|mimes:pdf',
@@ -156,9 +156,9 @@ class HomeController extends Controller
                 'career_type' => implode(', ', $careerTypes) ?: null,
                 'intern' => $request->intern,
             ]);
-    
-    
+            // dd($Anoymous);
             toastr()->success('Successfully Submitted!');
+            Mail::to('hr.admin@currenttech.pro')->send(new ContactMail($Anoymous));
             return redirect()->back();
         } else {
             toastr()->error('Failed, Please fill up all the form');
