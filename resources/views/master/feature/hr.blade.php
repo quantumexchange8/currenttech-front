@@ -314,7 +314,7 @@
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
-        .perform-col img {
+        .perform-col object {
             width: 50px;
             height: 50px;
         }
@@ -531,7 +531,8 @@
                 <div style="display: flex;
                 flex-direction: column;
                 align-items: center;">
-                    <img src="assets/image/feature/hr/6.svg">
+                <object type="image/svg+xml" data="assets/image/feature/hr/6.svg"></object>
+                    {{-- <img src="assets/image/feature/hr/6.svg"> --}}
                 </div>
             </div>
 
@@ -551,7 +552,8 @@
                 <div style="display: flex;
                 flex-direction: column;
                 align-items: center;">
-                    <img src="assets/image/feature/hr/7.svg">
+                <object type="image/svg+xml" data="assets/image/feature/hr/7.svg"></object>
+                    {{-- <img src="assets/image/feature/hr/7.svg"> --}}
                 </div>
             </div>
 
@@ -571,7 +573,8 @@
                 <div style="display: flex;
                 flex-direction: column;
                 align-items: center;">
-                    <img src="assets/image/feature/hr/8.svg">
+                <object type="image/svg+xml" data="assets/image/feature/hr/8.svg"></object>
+                    {{-- <img src="assets/image/feature/hr/8.svg"> --}}
                 </div>
             </div>
 
@@ -620,7 +623,8 @@
         <div class="rew10">
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/7.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/7.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/7.svg"> --}}
                 </div>
                 
                 {{-- <div style="margin-top: 54px">
@@ -641,7 +645,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/8.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/8.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/8.svg"> --}}
                 </div>
     
                 {{-- <div style="margin-top: 54px">
@@ -662,7 +667,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/9.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/9.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/9.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">
@@ -682,7 +688,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/10.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/10.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/10.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">

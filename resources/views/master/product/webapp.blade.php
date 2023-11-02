@@ -279,9 +279,18 @@
         align-items: center;
         /* margin-left: 10px; */
     }
+    .ecomm-main-margin object {
+        width: 100px;
+        height: 100px;
+    }
     .ecomm-main-margin-1 {
         display: flex;
         align-items: center;
+    }
+
+    .ecomm-main-margin-1 object {
+        width: 100px;
+        height: 100px;
     }
 
     .carbon-image {
@@ -290,7 +299,19 @@
         height: 208.622px;
     }
     .webappfont2 {
-        display: none;
+        display: flex;
+        width: 150px;
+        height: 25.98px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* display: block; */
     }
     .social-icon {
         display: flex;
@@ -578,7 +599,7 @@
             margin-top: 0px;
             gap: 8px;
         }
-        .webapp13 img {
+        .webapp13 object {
             width: 100%;
             height: auto;
             max-width: 100%;
@@ -617,10 +638,18 @@
             justify-content: flex-start;
             width: 100%;
         }
+        .ecomm-main-margin object {
+            width: 70px;
+            height: 70px;
+        }
         .ecomm-main-margin-1 {
             margin-bottom: 0px;
             justify-content: flex-start;
             width: 100%;
+        }
+        .ecomm-main-margin-1 object {
+            width: 70px;
+            height: 70px;
         }
         .viewmore-a {
             width: 120px;
@@ -872,13 +901,16 @@
     
      <div class="webapp5">
         <div>
-            <img src="assets/image/product/webapp/2.svg" style="width: 100%">
+            <object type="image/svg+xml" data="assets/image/product/webapp/2.svg" style="width: 100%"></object>
+            {{-- <img src="assets/image/product/webapp/2.svg" style="width: 100%"> --}}
         </div>
         <div>
-            <img src="assets/image/product/webapp/3.svg" style="width: 100%">
+            <object type="image/svg+xml" data="assets/image/product/webapp/3.svg" style="width: 100%"></object>
+            {{-- <img src="assets/image/product/webapp/3.svg" style="width: 100%"> --}}
         </div>
         <div>
-            <img src="assets/image/product/webapp/4.svg" style="width: 100%">
+            <object type="image/svg+xml" data="assets/image/product/webapp/4.svg" style="width: 100%"></object>
+            {{-- <img src="assets/image/product/webapp/4.svg" style="width: 100%"> --}}
         </div>
         
     </div>
@@ -887,7 +919,8 @@
         <div class="webapp7"> 
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin-1">
-                    <img src="assets/image/product/webapp/7.svg" class="product-img">
+                    {{-- <img src="assets/image/product/webapp/7.svg" class="product-img"> --}}
+                    <object type="image/svg+xml" data="assets/image/product/webapp/7.svg"></object>
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Fashion Store</p>
@@ -909,7 +942,8 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/8.svg" class="product-img">
+                    <object type="image/svg+xml" data="assets/image/product/webapp/8.svg"></object>
+                    {{-- <img src="assets/image/product/webapp/8.svg" class="product-img"> --}}
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Grid Plus</p>
@@ -926,7 +960,8 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/9.svg" class="product-img">
+                    <object type="image/svg+xml" data="assets/image/product/webapp/9.svg"></object>
+                    {{-- <img src="assets/image/product/webapp/9.svg" class="product-img"> --}}
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Livesay</p>
@@ -943,7 +978,8 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/24.svg" class="product-img">
+                    <object type="image/svg+xml" data="assets/image/product/webapp/24.svg"></object>
+                    {{-- <img src="assets/image/product/webapp/24.svg" class="product-img"> --}}
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Furnatur</p>
@@ -960,7 +996,8 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/25.svg" class="product-img">
+                    <object type="image/svg+xml" data="assets/image/product/webapp/25.svg"></object>
+                    {{-- <img src="assets/image/product/webapp/25.svg" class="product-img"> --}}
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Road Pedal</p>
@@ -977,7 +1014,8 @@
             
             <div class="mobile-alignment-30px">
                 <div class="ecomm-main-margin">
-                    <img src="assets/image/product/webapp/26.svg" class="product-img">
+                    <object type="image/svg+xml" data="assets/image/product/webapp/26.svg"></object>
+                    {{-- <img src="assets/image/product/webapp/26.svg" class="product-img"> --}}
                     <div class="ecomm-margin">
                         <div >
                             <p class="fashion-store">Merketin</p>
@@ -1181,10 +1219,12 @@
     </div>
     <div class="webapp13">
         <div>
-            <img src="assets/image/product/webapp/15.svg" style="width: 535px;height: auto;">
+            <object type="image/svg+xml" data="assets/image/product/webapp/15.svg" style="width: 535px;height: auto;"></object>
+            {{-- <img src="assets/image/product/webapp/15.svg" style="width: 535px;height: auto;"> --}}
         </div>
         <div>
-            <img src="assets/image/product/webapp/16.svg" style="width: 535px;height: auto;">
+            <object type="image/svg+xml" data="assets/image/product/webapp/16.svg" style="width: 535px;height: auto;"></object>
+            {{-- <img src="assets/image/product/webapp/16.svg" style="width: 535px;height: auto;"> --}}
         </div>
         
     </div>

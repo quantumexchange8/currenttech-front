@@ -249,7 +249,7 @@
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
-        .perform-col img {
+        .perform-col object {
             width: 50px;
             height: 50px;
         }
@@ -299,6 +299,7 @@
     </div>
 
     <div class="develop3">
+        {{-- <object type="image/svg+xml" data="assets/image/feature/develop/1.svg"></object> --}}
         <img src="assets/image/feature/develop/1.svg">
     </div>
 
@@ -314,7 +315,7 @@
 
     <div class="develop5-new">
         <div class="effective-container-new" style="margin-bottom: 38px;">
-            
+            {{-- <object type="image/svg+xml" data="assets/image/feature/develop/5.svg" style="margin-top: 1px;"></object> --}}
                 <img src="assets/image/feature/develop/5.svg" style="margin-top: 1px;">
             
             <div>
@@ -346,13 +347,13 @@
                     and success.
                 </p>
             </div>
-            
+            {{-- <object type="image/svg+xml" data="assets/image/feature/develop/6.svg"></object> --}}
             <img src="assets/image/feature/develop/6.svg">
             
         </div>
 
         <div class="effective-container-new">
-            
+            {{-- <object type="image/svg+xml" data="assets/image/feature/develop/7.svg"></object> --}}
             <img src="assets/image/feature/develop/7.svg">
             
             <div>
@@ -372,6 +373,7 @@
     <div class="develop5">
         <div class="effective-container">
             <div class="effective">
+                {{-- <object type="image/svg+xml" data="assets/image/feature/develop/2.svg"></object> --}}
                 <img src="assets/image/feature/develop/2.svg">
                 <p>
                     <span>
@@ -396,6 +398,7 @@
 
     <div class="develop6">
         <div class="career">
+            {{-- <object type="image/svg+xml" data="assets/image/feature/develop/3.svg" style="margin-top: 1px;"></object> --}}
             <img src="assets/image/feature/develop/3.svg">
             <p>
                 <span>
@@ -418,6 +421,7 @@
     <div class="develop7">
         <div class="effective-container">
             <div class="effective">
+                {{-- <object type="image/svg+xml" data="assets/image/feature/develop/4.svg"></object> --}}
                 <img src="assets/image/feature/develop/4.svg">
                 <p>
                     <span>
@@ -460,7 +464,8 @@
         <div class="rew10">
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/7.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/7.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/7.svg"> --}}
                 </div>
                 
                 {{-- <div style="margin-top: 54px">
@@ -481,7 +486,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/8.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/8.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/8.svg"> --}}
                 </div>
     
                 {{-- <div style="margin-top: 54px">
@@ -502,7 +508,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/9.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/9.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/9.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">
@@ -522,7 +529,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/10.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/10.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/10.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">

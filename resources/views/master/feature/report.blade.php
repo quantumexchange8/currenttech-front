@@ -134,13 +134,13 @@
             height: 400px;
             border-radius: 40px;
         }
-        .report5-col1 img {
+        .report5-col1 object {
             width: 255px;
             margin-right: 200px;
             margin-top: 400px;
             display: none;
         }
-        .report5-col11 img {
+        .report5-col11 object {
             width: 235px;
             margin-right: 200px;
             margin-top: 400px;
@@ -204,7 +204,7 @@
             height: 400px;
             border-radius: 40px;
         }
-        .report-col4 img {
+        .report-col4 object {
             width: 255px;
             margin-left: 170px;
             display: none;
@@ -225,7 +225,7 @@
             height: 400px;
             border-radius: 40px;
         }
-        .report7-col5 img {
+        .report7-col5 object {
             width: 255px;
             margin-right: 200px;
             margin-top: 400px;
@@ -405,7 +405,8 @@
     <div class="report5">
         <div class="report5-container">
             <div class="report5-col1">
-                <img src="assets/image/feature/report/2.svg">
+                <object type="image/svg+xml" data="assets/image/feature/report/2.svg"></object>
+                {{-- <img src="assets/image/feature/report/2.svg"> --}}
             </div>
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
@@ -427,7 +428,8 @@
             </div>
         </div>
         <div class="report5-col11">
-            <img src="assets/image/feature/report/2.svg">
+            <object type="image/svg+xml" data="assets/image/feature/report/2.svg"></object>
+            {{-- <img src="assets/image/feature/report/2.svg"> --}}
         </div>
     </div>
 
@@ -452,18 +454,21 @@
                 </p>
             </div>
             <div class="report-col4">
-                <img src="assets/image/feature/report/3.svg">
+                <object type="image/svg+xml" data="assets/image/feature/report/3.svg"></object>
+                {{-- <img src="assets/image/feature/report/3.svg"> --}}
             </div>
         </div>
         <div class="report5-col11">
-            <img src="assets/image/feature/report/3.svg">
+            <object type="image/svg+xml" data="assets/image/feature/report/3.svg"></object>
+            {{-- <img src="assets/image/feature/report/3.svg"> --}}
         </div>
     </div>
 
     <div class="report7">
         <div class="report7-container">
             <div class="report7-col5">
-                <img src="assets/image/feature/report/4.svg" >
+                <object type="image/svg+xml" data="assets/image/feature/report/4.svg"></object>
+                {{-- <img src="assets/image/feature/report/4.svg" >      --}}
             </div>
             <div class="report7-col6">
                 <p class="report-unveil-p2">
@@ -485,7 +490,8 @@
             </div>
         </div>
         <div class="report5-col11">
-            <img src="assets/image/feature/report/4.svg" style="margin-top: 20px">
+            <object type="image/svg+xml" data="assets/image/feature/report/4.svg" style="margin-top: 20px"></object>
+            {{-- <img src="assets/image/feature/report/4.svg" style="margin-top: 20px">  --}}
         </div>
     </div>
 
@@ -508,7 +514,8 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/image/feature/report/18.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/report/18.svg"></object>
+                    {{-- <img src="assets/image/feature/report/18.svg"> --}}
                 </div>
             </div>
 
@@ -526,7 +533,8 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/image/feature/report/19.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/report/19.svg"></object>
+                    {{-- <img src="assets/image/feature/report/19.svg"> --}}
                 </div>
             </div>
 
@@ -544,7 +552,8 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/image/feature/report/20.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/report/20.svg"></object>
+                    {{-- <img src="assets/image/feature/report/20.svg"> --}}
                 </div>
             </div>
             

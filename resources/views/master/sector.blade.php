@@ -88,7 +88,7 @@
         .sector4 {
             margin-bottom: 0;
 }
-        .sector4 img {
+        .sector4 object {
             width: 100%;
             height: auto;
             margin-top: 31px;
@@ -350,7 +350,8 @@
     <div class="getstart-container22" id="retail"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/7.svg">
+                <object type="image/svg+xml" data="assets/image/sector/7.svg"></object>
+                {{-- <img src="assets/image/sector/7.svg"> --}}
             </div>
             <div class="sector5">
                 <div class="cart-col1">
@@ -381,7 +382,8 @@
     <div class="getstart-container22" id="food-beverage"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/8.svg">
+                <object type="image/svg+xml" data="assets/image/sector/8.svg"></object>
+                {{-- <img src="assets/image/sector/8.svg"> --}}
             </div>
             <div class="sector7">
                 <div class="spoon-col1">
@@ -412,7 +414,8 @@
     <div class="getstart-container22" id="logistic"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/9.svg">
+                <object type="image/svg+xml" data="assets/image/sector/9.svg"></object>
+                {{-- <img src="assets/image/sector/9.svg"> --}}
             </div>
             <div class="sector9">
                 <div class="spoon-col1">
@@ -444,7 +447,8 @@
     <div class="getstart-container22" id="wholesale" style="margin-bottom:68px"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/10.svg">
+                <object type="image/svg+xml" data="assets/image/sector/10.svg"></object>
+                {{-- <img src="assets/image/sector/10.svg"> --}}
             </div>
             <div class="sector11">
                 <div class="spoon-col1">
@@ -476,7 +480,8 @@
     <div class="getstart-container22" id="automotive"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/11.svg">
+                <object type="image/svg+xml" data="assets/image/sector/11.svg"></object>
+                {{-- <img src="assets/image/sector/11.svg"> --}}
             </div>
             <div class="sector13">
                 <div class="spoon-col1">
@@ -508,7 +513,8 @@
     <div class="getstart-container22" id="education"> 
         <div style="display: flex; flex-direction:column">
             <div class="sector4">   
-                <img src="assets/image/sector/12.svg">
+                <object type="image/svg+xml" data="assets/image/sector/12.svg"></object>
+                {{-- <img src="assets/image/sector/12.svg"> --}}
             </div>
             <div class="sector15">
                 <div class="spoon-col1">

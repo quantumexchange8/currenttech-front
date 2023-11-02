@@ -96,7 +96,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/software.svg">
+                                    <object type="image/svg+xml" data="assets/image/home/software.svg" class="svg-image"></object>
+                                    {{-- <img src="assets/image/home/software.svg"> --}}
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -122,7 +123,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/website.svg">
+                                    {{-- <img src="assets/image/home/website.svg"> --}}
+                                    <object type="image/svg+xml" data="assets/image/home/website.svg" class="svg-image"></object>
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -147,7 +149,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/mobile.svg">
+                                    <object type="image/svg+xml" data="assets/image/home/mobile.svg" class="svg-image"></object>
+                                    {{-- <img src="assets/image/home/mobile.svg"> --}}
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -175,7 +178,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/possystem.svg">
+                                    {{-- <img src="assets/image/home/possystem.svg"> --}}
+                                    <object type="image/svg+xml" data="assets/image/home/possystem.svg" class="svg-image"></object>
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -203,7 +207,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/expert.svg">
+                                    {{-- <img src="assets/image/home/expert.svg"> --}}
+                                    <object type="image/svg+xml" data="assets/image/home/expert.svg" class="svg-image"></object>
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -230,7 +235,8 @@
                         <div class="software">
                             <div class="software-row1">
                                 <div class="software-col1">
-                                    <img src="assets/image/home/support.svg">
+                                    {{-- <img src="assets/image/home/support.svg"> --}}
+                                    <object type="image/svg+xml" data="assets/image/home/support.svg" class="svg-image"></object>
                                 </div>
                                 <div class="software-col2">
                                     <p class="software-p">
@@ -444,7 +450,8 @@
                     <div class="spec-col2">
                         <div class="pos-content-1">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/posimg.svg" class="workcate">
+                                {{-- <img src="assets/image/home/posimg.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/posimg.svg" class="workcate"></object>
                             </div>
                             <div>
                                 <p class="poshead">
@@ -469,7 +476,8 @@
                     <div class="spec-col3">
                         <div class="webapp">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/webapp.svg" class="workcate">
+                                {{-- <img src="assets/image/home/webapp.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/webapp.svg" class="workcate"></object>
                             </div>
                             <div>
                                 <p class="webapphead">
@@ -498,7 +506,8 @@
                     <div class="spec-col4">
                         <div class="broker">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/broker.svg" class="workcate">
+                                {{-- <img src="assets/image/home/broker.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/broker.svg" class="workcate"></object>
                             </div>
                             <div>
                                 <p class="brokerhead">
@@ -526,7 +535,8 @@
                     <div class="spec-col5">
                         <div class="expert-1">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/expertimg.svg" class="workcate">
+                                {{-- <img src="assets/image/home/expertimg.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/expertimg.svg" class="workcate"></object>
                             </div>
                             <div>
                                 <p class="expert1head">
@@ -554,7 +564,8 @@
                     <div class="spec-col6">
                         <div class="web3">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/web3.svg" class="workcate">
+                                {{-- <img src="assets/image/home/web3.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/web3.svg" class="workcate"></object>
                             </div>
                             <div>
                                 <p class="web3head">
@@ -604,7 +615,8 @@
                     <div class="spec-col2">
                         <div class="pos-content-1">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/posimg.svg" class="workcate">
+                                {{-- <img src="assets/image/home/posimg.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/posimg.svg" class="workcate"></object>
                             </div>
                             <p class="poshead">
                                 POS SYSTEM
@@ -628,7 +640,8 @@
                     <div class="spec-col3">
                         <div class="webapp">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/webapp.svg" class="workcate">
+                                {{-- <img src="assets/image/home/webapp.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/webapp.svg" class="workcate"></object>
                             </div>
                             <p class="poshead">
                                 WEB & APP
@@ -653,7 +666,8 @@
                     <div class="spec-col4">
                         <div class="broker">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/broker.svg" class="workcate">
+                                {{-- <img src="assets/image/home/broker.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/broker.svg" class="workcate"></object>
                             </div>
                             <p class="brokerhead">
                                 BROKERAGE SETUP
@@ -677,7 +691,8 @@
                     <div class="spec-col5">
                         <div class="expert-1">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/expertimg.svg" class="workcate">
+                                {{-- <img src="assets/image/home/expertimg.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/expertimg.svg" class="workcate"></object>
                             </div>
                             <p class="expert1head">
                                 EXPERT ADVISOR
@@ -701,7 +716,8 @@
                     <div class="spec-col6">
                         <div class="web3">
                             <div style="display: flex;justify-content:center">
-                                <img src="assets/image/home/web3.svg" class="workcate">
+                                {{-- <img src="assets/image/home/web3.svg" class="workcate"> --}}
+                                <object type="image/svg+xml" data="assets/image/home/web3.svg" class="workcate"></object>
                             </div>
                             <p class="web3head">
                                 WEB 3.0
@@ -740,7 +756,9 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/performance.svg" class="ic">
+                        {{-- <img src="assets/image/home/performance.svg" class="ic"> --}}
+                        <object type="image/svg+xml" data="assets/image/home/performance.svg" class="ic"></object>
+                        
                     </div>
                     <div class="mobile-displayflex">
                         <div>
@@ -766,7 +784,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/reward.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/reward.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/reward.svg" class="ic"> --}}
                     </div>
                     <div class="mobile-displayflex">
                         <div>
@@ -792,7 +811,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/develop.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/develop.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/develop.svg" class="ic"> --}}
                     </div>
                     <div class="mobile-displayflex">
                         <div>
@@ -818,7 +838,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/hr.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/hr.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/hr.svg" class="ic"> --}}
                     </div>
                     <div class="mobile-displayflex">
                         <div>
@@ -843,8 +864,8 @@
                 </div>
 
                 <div class="ourfeature-item">
-                    <div>
-                        <img src="assets/image/home/report.svg" class="ic">
+                    <div>'<object type="image/svg+xml" data="assets/image/home/report.svg" class="ic"></object>'
+                        {{-- <img src="assets/image/home/report.svg" class="ic"> --}}
                     </div>
                     <div class="mobile-displayflex">
                         <div>
@@ -952,7 +973,8 @@
                 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/performance.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/performance.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/performance.svg" class="ic"> --}}
                     </div>
                     <div style="display: flex;gap:23px">
                         <div class="mobile-displayflex">
@@ -978,7 +1000,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/reward.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/reward.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/reward.svg" class="ic"> --}}
                     </div>
                     <div style="display: flex;gap:16px;gap:52px">
                         <div class="mobile-displayflex">
@@ -1005,7 +1028,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/develop.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/develop.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/develop.svg" class="ic"> --}}
                     </div>
                     <div style="display: flex;gap:34px">
                         <div class="mobile-displayflex">
@@ -1031,7 +1055,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/hr.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/hr.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/hr.svg" class="ic"> --}}
                     </div>
                     <div style="display: flex;gap:16px">
                         <div class="mobile-displayflex">
@@ -1056,7 +1081,8 @@
 
                 <div class="ourfeature-item">
                     <div>
-                        <img src="assets/image/home/report.svg" class="ic">
+                        <object type="image/svg+xml" data="assets/image/home/report.svg" class="ic"></object>
+                        {{-- <img src="assets/image/home/report.svg" class="ic"> --}}
                     </div>
                     <div style="display: flex;gap:13px">
                         <div class="mobile-displayflex">
@@ -1110,7 +1136,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg">
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg"> --}}
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1.svg" class="home-marquee-btm-icon"></object>
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Logistic  
@@ -1145,7 +1172,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/education2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Education  
@@ -1170,7 +1198,7 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb.svg">
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Delicious dining
@@ -1181,7 +1209,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/fnb1.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Food & Beverage  
@@ -1217,7 +1246,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/retail2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Retail  
@@ -1253,7 +1283,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Wholesale  
@@ -1289,7 +1320,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Automotive  
@@ -1318,7 +1350,8 @@
         <div class="marquee-content">
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/1.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/1.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/1.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Efficient transportation,
@@ -1329,7 +1362,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Logistic  
@@ -1354,7 +1388,8 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/2.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/2.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/2.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Empowering minds
@@ -1364,7 +1399,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/education2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Education  
@@ -1389,7 +1425,8 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/3.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/3.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/3.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Delicious dining
@@ -1400,7 +1437,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/fnb1.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Food & Beverage  
@@ -1425,7 +1463,8 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/4.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/4.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/4.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Shopping, endless
@@ -1436,7 +1475,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/retail2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Retail  
@@ -1461,7 +1501,8 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/5.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/5.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/5.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Bulk savings, wholesale
@@ -1472,7 +1513,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Wholesale  
@@ -1497,7 +1539,8 @@
 
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee-btm" src="/assets/image/homemarquee/6.svg">
+                    <object type="image/svg+xml" data="/assets/image/homemarquee/6.svg" class="home-marquee-btm"></object>
+                    {{-- <img class="home-marquee-btm" src="/assets/image/homemarquee/6.svg"> --}}
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             Innovative vehicles,
@@ -1508,7 +1551,8 @@
 
                     <div class="bottom-container">
                         <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
-                            <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                             <div class="btm-cont-text">
                                 <p class="logistic-p">
                                     Automotive  

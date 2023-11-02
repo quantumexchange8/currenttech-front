@@ -43,6 +43,11 @@
             display: block;
             margin-bottom: 68px;
         }
+        .rew3-mobile object {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
         .rew4 {
             width: 100%;
             margin-left: 30px;
@@ -55,16 +60,36 @@
         .rew6 {
             margin-bottom: 38px !important;
         }
+        .rew6 object {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
         .rew7 {
             width: 100%;
             margin-left: 30px;
             margin-right: 30px;
         }
+        .rew7 object {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
         .rew8 {
             margin-bottom: 38px !important;
         }
+        .rew8 object {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
         .rew9 {
             margin-bottom: 68px !important;
+        }
+        .rew9 object {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
         }
         .rew10 {
             display: flex;
@@ -80,7 +105,7 @@
             margin-bottom: 20px; 
             margin-bottom: 20px; 
         }
-        .perform-col img {
+        .perform-col object {
             width: 50px;
             height: 50px;
         }
@@ -221,10 +246,12 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew3">
-            <img src="assets/image/feature/reward/1.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/1.svg"></object>
+            {{-- <img src="assets/image/feature/reward/1.svg" style="width: 100%;"> --}}
         </div>
         <div class="rew3-mobile" style="margin-bottom: 68px">
-            <img src="assets/image/feature/reward/7.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/7.svg"></object>
+            {{-- <img src="assets/image/feature/reward/7.svg" style="width: 100%;"> --}}
         </div>
     </div>
 
@@ -255,7 +282,8 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew6" style="margin-bottom: 68px;">
-            <img src="assets/image/feature/reward/2.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/2.svg"></object>
+            {{-- <img src="assets/image/feature/reward/2.svg" style="width: 100%;"> --}}
         </div>
     </div>
 
@@ -283,8 +311,8 @@
     </div>
 
     <div class="mobile-alignment-30px">
-        <div class="rew-9" style="margin-bottom: 68px;">
-            <img src="assets/image/feature/reward/3.svg" style="width: 100%;">
+        <div class="rew9" style="margin-bottom: 68px;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/3.svg"></object>
         </div>
     </div>
 
@@ -325,7 +353,7 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew9" style="margin-bottom: 66px;">
-            <img src="assets/image/feature/reward/4.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/4.svg"></object>
         </div>
     </div>
 
@@ -366,7 +394,8 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew9" style="margin-bottom: 75px;">
-            <img src="assets/image/feature/reward/5.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/5.svg"></object>
+            {{-- <img src="assets/image/feature/reward/5.svg" style="width: 100%;"> --}}
         </div>
     </div>
     
@@ -409,7 +438,8 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew9" style="margin-bottom: 128px;">
-            <img src="assets/image/feature/reward/6.svg" style="width: 100%;">
+            <object type="image/svg+xml" data="assets/image/feature/reward/6.svg"></object>
+            {{-- <img src="assets/image/feature/reward/6.svg" style="width: 100%;"> --}}
         </div>
     </div>
     
@@ -432,7 +462,8 @@
         <div class="rew10">
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/7.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/7.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/7.svg"> --}}
                 </div>
                 
                 {{-- <div style="margin-top: 54px">
@@ -453,7 +484,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/8.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/8.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/8.svg"> --}}
                 </div>
     
                 {{-- <div style="margin-top: 54px">
@@ -474,7 +506,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/9.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/9.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/9.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">
@@ -494,7 +527,8 @@
             </div>
             <div class="perform-col">
                 <div>
-                    <img src="assets/image/feature/perform/10.svg">
+                    <object type="image/svg+xml" data="assets/image/feature/perform/10.svg"></object>
+                    {{-- <img src="assets/image/feature/perform/10.svg"> --}}
                 </div>
                 {{-- <div style="margin-top: 54px">
                     <p class="perform-psmall">
