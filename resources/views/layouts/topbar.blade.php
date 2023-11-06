@@ -5,8 +5,8 @@
                 <ul>
                     <li class="nav-img nav-border">
                         <a href="{{ route('home') }}">
-                            {{-- <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"> --}}
-                            <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"></object>
+                            <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;">
+                            {{-- <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"></object> --}}
                         </a>
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
