@@ -846,16 +846,13 @@
 <div class="main-content3" style="margin-top:160px;">
     <div class="broker1">
         <p class="build-p">
-            Building Bridges of Wealth
+            @lang('public.brokerage 1')
         </p>
     </div>
     
     <div class="broker2">
         <p class="build2">
-            Connecting Opportunities, Empowering Prosperity. Your Gateway to 
-            Financial Success, Where Expertise Meets Innovation. Uniting Investors
-            and Markets for a Flourishing Future. Discover the Power of Partnership
-            with our Premier Brokerage Services.
+            @lang('public.brokerage 2')
         </p>
     </div>
 
@@ -866,7 +863,7 @@
     <div class="broker4">
         <div class="mobile-alignment-30px">
             <p class="broker-p">
-                Brokerage Setup Includes
+                @lang('public.brokerage 3')
             </p>
         </div>
     </div>
@@ -874,10 +871,7 @@
     <div class="broker5">
         <div class="mobile-alignment-30px">
             <p class="broker-p2">
-                Get a White Label Solutions for your brokerage, including customised and rebranded 
-                services with advanced tech. Enjoy secure payment solutions for global transactions and 
-                efficient financial services. Utilise CRM Solutions for optimized customer interactions,
-                sales, and support
+                @lang('public.brokerage 4')
             </p>
         </div>
     </div>
@@ -891,15 +885,12 @@
                 <div class="ct-box">
                     <div>
                         <p class="ct-p">
-                            White Label Solutions
+                            @lang('public.brokerage 5')
                         </p>
                     </div>
                     <div>
                         <p class="ct-p2">
-                            Customised and rebrand
-                            solutions for brokerage
-                            with end-to-end support
-                            and advanced technology.
+                            @lang('public.brokerage 6')
                         </p>
                     </div>
                 </div>
@@ -911,13 +902,10 @@
             <div class="cont-2-1">
                 <div class="ct-box2">
                     <p class="ct-p4">
-                        Payment Solutions
+                        @lang('public.brokerage 7')
                     </p>
                     <p class="ct-p3">
-                        Secure and efficient financial 
-                        services for seamless 
-                        transactions, catering to 
-                        diverse payment.
+                        @lang('public.brokerage 8')
                     </p>
                 </div>
                 <img src="assets/image/product/broker/3.svg">
@@ -933,13 +921,10 @@
                 </div>
                 <div class="ct-box3">
                     <p class="ct-p8">
-                        CRM solutions
+                        @lang('public.brokerage 9')
                     </p>
                     <p class="ct-p7">
-                        Integrated software for 
-                        managing customer interactions, 
-                        optimising relationships, and 
-                        enhancing sales effectively.
+                        @lang('public.brokerage 10')
                     </p>
                 </div>
             </div>
@@ -949,16 +934,13 @@
     <div style="display: flex;justify-content:center;flex-direction:column;">
         <div class="mobile-alignment-30px">
             <p class="package-p">
-                Our cost-effective brokerage package
+                @lang('public.brokerage 11')
             </p>
         </div>
         <div class="mobile-alignment-30px">
             <div style="display: flex;justify-content: center;">
                 <p class="package-p2">
-                    Introducing our comprehensive brokerage package, designed for seamless investing. 
-                    Leverage our expertise, technology, and support for your brokerage. Establish your brand 
-                    and expand your business with confidence and ease. Start your journey to financial
-                    success with our tailored brokerage package now.
+                    @lang('public.brokerage 12')
                 </p>
             </div>
         </div>
@@ -1345,11 +1327,9 @@
 
     <div class="broker10">
         <div class="mobile-alignment-30px">
-            <p class="getstart-p">4 Step To Get Started</p>
+            <p class="getstart-p">@lang('public.brokerage 15')</p>
             <p class="getstart-p2">
-                To begin a brokerage with Current Tech Industries. Align expertise and goals,
-                acquire relevant licenses, integrate technology, establish partnerships,
-                and prioritise exceptional customer service for growth and success.
+                @lang('public.brokerage 16')
             </p>
         </div>
     </div>
@@ -1359,12 +1339,10 @@
             <div style="display: flex; flex-direction:column">
                 <div class="contact-align" style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        CONTACT
+                        @lang('public.brokerage 17')
                     </p>
                     <p class="contact-p2">
-                        Reach out to us today for any questions or
-                        support related to our competitively priced
-                        brokerage package. We're here to help!
+                        @lang('public.brokerage 17.1')
                     </p>
                 </div>
                 <div>     
@@ -1377,13 +1355,11 @@
                 <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
                         
-                        CUSTOMISATION
+                        @lang('public.brokerage 18')
                         
                     </p>
                     <p class="contact-p2">
-                        Customise our affordable brokerage package
-                        to suit your individual needs and investment
-                        preferences, ensuring an ideal fit for you.
+                        @lang('public.brokerage 18.1')
                     </p>
                 </div>
                 <div>     
@@ -1395,13 +1371,10 @@
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        INSTALLATION
+                        @lang('public.brokerage 19')
                     </p>
                     <p class="contact-p2">
-                        Our process ensures secure hosting, rigorous testing,
-                        and flawless functionality. Your personalized White 
-                        Label Forex platform goes live, empowering your 
-                        business to thrive in the dynamic forex market. 
+                        @lang('public.brokerage 19.1')
                     </p>
                 </div>
                 <div>     
@@ -1413,12 +1386,10 @@
             <div style="display: flex; flex-direction:column">
                 <div style="margin-left:40px;margin-top:47px">
                     <p class="contact-p">
-                        TRAINING
+                        @lang('public.brokerage 20')
                     </p>
                     <p class="contact-p2">
-                        We offer comprehensive training, encompassing 
-                        technical support, marketing insights, and regular 
-                        updates, ensuring your success in the market.
+                        @lang('public.brokerage 20.1')
                     </p>
                 </div>
                 <div>     
@@ -1435,12 +1406,10 @@
                 <div style="display: flex; flex-direction:column">
                     <div class="contact-align" style="margin-left:40px;margin-top:47px">
                         <p class="contact-p">
-                            CONTACT
+                            @lang('public.brokerage 17')
                         </p>
                         <p class="contact-p2">
-                            Reach out to us today for any questions or
-                            support related to our competitively priced
-                            brokerage package. We're here to help!
+                            @lang('public.brokerage 17.1')
                         </p>
                     </div>
                     <img src="assets/image/product/broker/29.svg">
@@ -1451,13 +1420,10 @@
                 <div style="display: flex; flex-direction:column">
                     <div class="contact-align2" style="margin-left:40px;margin-top:47px">
                         <p class="contact-p">
-                            CUSTOMISATION
+                            @lang('public.brokerage 18')
                         </p>
                         <p class="contact-p2">
-                            Customise our affordable brokerage 
-                            package to suit your individual needs and 
-                            investment preferences, ensuring an ideal 
-                            fit for you.
+                            @lang('public.brokerage 18.1')
                         </p>
                     </div>   
                         <img src="assets/image/product/broker/30.svg" >
@@ -1468,15 +1434,10 @@
                 <div style="display: flex; flex-direction:column">
                     <div class="contact-align3" style="margin-left:40px;margin-top:47px">
                         <p class="contact-p">
-                            INSTALLATION
+                            @lang('public.brokerage 19')
                         </p>
                         <p class="contact-p2">
-                            Our process ensures secure hosting,
-                            rigorous testing, and flawless functionality. 
-                            Your personalized White Label Forex 
-                            platform goes live, empowering your 
-                            business to thrive in the dynamic forex 
-                            market. 
+                            @lang('public.brokerage 19.1') 
                         </p>
                     </div>
                     <div style="margin-left: 19px;margin-right:19px;margin-bottom:18px;">
@@ -1490,14 +1451,10 @@
                 <div style="display: flex; flex-direction:column">
                     <div class="contact-align2" style="margin-left:40px;margin-top:47px">
                         <p class="contact-p">
-                            TRAINING
+                            @lang('public.brokerage 20')
                         </p>
                         <p class="contact-p2">
-                            We offer comprehensive training,
-                            encompassing platform operation,
-                            trading strategies, technical support, 
-                            marketing insights, and regular updates, 
-                            ensuring your success in the market.
+                            @lang('public.brokerage 20.1')
                         </p>
                     </div>
                     <div style="margin-left: 19px;margin-right:19px;margin-bottom:18px;">
@@ -1509,10 +1466,10 @@
     </div>
 
     <div class="broker12">
-        <p class="quota-p">Get Your Personalised Quota Today!</p>
+        <p class="quota-p">@lang('public.brokerage 21')</p>
     </div>
     <div class="broker12-mobile">
-        <p class="quota-p">Get Your<br> Personalised Quota Today!</p>
+        <p class="quota-p">@lang('public.brokerage 21')</p>
     </div>
 
     <div class="personalise-container">

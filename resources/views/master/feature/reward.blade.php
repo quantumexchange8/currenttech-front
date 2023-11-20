@@ -223,23 +223,17 @@
 <div class="main-content10" style="margin-top:160px;">
     <div class="rew1">
         <p class="ignite-p">
-            Ignite Engagement and Unlock Exclusive Benefits
+            @lang('public.reward 1')
         </p>
     </div>
 
     <div class="rew2" style="margin-bottom: 100px">
         <p class="unleash-p">
-            Unleash engagement, earn points, unlock badges, and enjoy exclusive benefits.<br>
-             Join now for 
-            personalized offers, contests, and delightful surprises. <br>Elevate your experience with 
-            rewarding app features!
+            @lang('public.reward 2')
         </p>
         <div class="mobile-alignment-30px">
             <p class="unleash-p-mobile">
-                Unleash engagement, earn points, unlock badges, and enjoy exclusive benefits.
-                 Join now for 
-                personalized offers, contests, and delightful surprises. Elevate your experience with 
-                rewarding app features!
+                @lang('public.reward 2')
             </p>
         </div>
     </div>
@@ -258,7 +252,7 @@
     {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew4">
             <p class="point-p">
-               Points and Loyalty Programs
+                @lang('public.reward 3')
             </p>
        </div>
     {{-- </div> --}}
@@ -266,16 +260,10 @@
     <div class="mobile-alignment-30px">
         <div class="rew5">
             <p class="implement-p">
-                Implement a points-based rewards system to incentivize user engagement.<br>
-                Users can earn points for various actions within the app, such as completing tasks,<br>
-                referring friends, or making purchases. Accumulated points can be redeemed for<br>
-                exclusive discounts, upgrades, or special perks.
+                @lang('public.reward 4')
             </p>
             <p class="implement-p-mobile">
-                Implement a points-based rewards system to incentivize user engagement.
-                Users can earn points for various actions within the app, such as completing tasks,
-                referring friends, or making purchases. Accumulated points can be redeemed for
-                exclusive discounts, upgrades, or special perks.
+                @lang('public.reward 4')
             </p>
         </div>
     </div>
@@ -290,7 +278,7 @@
     {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
-                Badges and Achievements
+                @lang('public.reward 5')
             </p>
         </div>
     {{-- </div> --}}
@@ -298,14 +286,10 @@
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">
             <p class="recognise-p1">
-                Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching <br>
-                specific milestones, completing challenges, or demonstrating exceptional performance. 
-                Displaying badges <br>on user profiles adds a gamified element and encourages users to strive for more accomplishments.
+                @lang('public.reward 6')
             </p>
             <p class="recognise-p1-web">
-                Recognise and reward user achievements with virtual badges. Users can unlock badges by reaching 
-                specific milestones, completing challenges, or demonstrating exceptional performance. 
-                Displaying badges on user profiles adds a gamified element and encourages users to strive for more accomplishments.
+                @lang('public.reward 6')
             </p>
         </div>
     </div>
@@ -324,7 +308,7 @@
     {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
-                Leveling and Progression
+                @lang('public.reward 7')
             </p>
         </div>
     {{-- </div> --}}
@@ -339,14 +323,10 @@
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">
             <p class="recognise-p1">
-                Incorporate a leveling system to provide a sense of progression and achievement. 
-            As users interact<br> with the app, they can level up based on their activities and accomplishments.
-            Each level unlocks<br> new features, benefits, or privileges, motivating users to <br>stay engaged and reach higher levels.
+                @lang('public.reward 8')
             </p>
             <p class="recognise-p1-web">
-                Incorporate a leveling system to provide a sense of progression and achievement. 
-            As users interact with the app, they can level up based on their activities and accomplishments.
-            Each level unlocks new features, benefits, or privileges, motivating users to stay engaged and reach higher levels.
+                @lang('public.reward 8')
             </p>
         </div>
     </div>
@@ -365,7 +345,7 @@
     {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
-                VIP or Premium Membership
+                @lang('public.reward 9')
             </p>
         </div>
     {{-- </div> --}}
@@ -380,14 +360,10 @@
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">
             <p class="recognise-p1">
-                Offer a premium or VIP membership tier with exclusive benefits. Users who subscribe to this membership<br>
-                level gain access to premium content, enhanced features, personalized support, or priority
-                access to new <br>updates. This creates a sense of exclusivity and encourages users to upgrade for enhanced rewards.
+                @lang('public.reward 10')
             </p>
             <p class="recognise-p1-web">
-                Offer a premium or VIP membership tier with exclusive benefits. Users who subscribe to this membership
-                level gain access to premium content, enhanced features, personalized support, or priority
-                access to new updates. This creates a sense of exclusivity and encourages users to upgrade for enhanced rewards.
+                @lang('public.reward 10')
             </p>
         </div>
     </div>
@@ -408,7 +384,7 @@
     {{-- <div class="mobile-alignment-30px"> --}}
         <div class="rew7">
             <p class="badges-p1">
-                Daily Streaks and Challenges
+                @lang('public.reward 11')
             </p>
         </div>
     {{-- </div> --}}
@@ -416,14 +392,10 @@
     <div class="mobile-alignment-30px">
         <div class="rew8" style="margin-bottom: 68px;">
             <p class="recognise-p1">
-                Encourage daily app usage and engagement through daily streaks and challenges. 
-                Users who consistently log in or complete certain tasks every day can earn bonus rewards,
-                extra points, or exclusive content.<br> This creates a habit-forming experience and keeps users actively engaged with the app.
+                @lang('public.reward 12')
             </p>
             <p class="recognise-p1-web">
-                Encourage daily app usage and engagement through daily streaks and challenges. 
-                Users who consistently log in or complete certain tasks every day can earn bonus rewards,
-                extra points, or exclusive content. This creates a habit-forming experience and keeps users actively engaged with the app.
+                @lang('public.reward 12')
             </p>
         </div>
     </div>
@@ -446,14 +418,10 @@
     <div class="mobile-alignment-30px">
         <div class="perform6">
             <p class="provid-2">
-                By providing suitable rewards at the <br>
-                appropriate moment, we ensure that the<br> desired
-                activity is accomplished effectively.
+                @lang('public.reward 13')
             </p>
             <p class="provid-2-web">
-                By providing suitable rewards at the 
-                appropriate moment, we ensure that the desired
-                activity is accomplished effectively.
+                @lang('public.reward 13')
             </p>
         </div>
     </div>
@@ -478,7 +446,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Productivity
+                        @lang('public.reward 14')
                     </p>
                 </div>
             </div>
@@ -500,7 +468,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Teamwork
+                        @lang('public.reward 15')
                     </p>
                 </div>
             </div>
@@ -521,7 +489,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Sales Volume
+                        @lang('public.reward 16')
                     </p>
                 </div>
             </div>
@@ -542,7 +510,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Performance
+                        @lang('public.reward 17')
                     </p>
                 </div>
             </div>

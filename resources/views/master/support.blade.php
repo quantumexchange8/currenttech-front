@@ -315,7 +315,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
 <div class="main-content16">
     <div class="support1">
         <p>
-            Contact Us for Inquiries Support, and Collaborations
+            @lang('public.support 1')
         </p>
     </div>
 
@@ -339,18 +339,18 @@ input[type="checkbox"]:checked + .custom-radio::before {
                     <div class="support-row1">
                         <div class="sup-row1-cont">
                             <label>
-                                <span class="support-title">POS System</span>
+                                <span class="support-title">@lang('public.support 2')</span>
                             </label>
                             <br>
                             <label>
                                 <input type="checkbox" name="standard_package" value="standard_package" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>Standard Package</span>
+                                <span>@lang('public.support 3')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="advance_package" value="advance_package" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>Advance Package</span>
+                                <span>@lang('public.support 4')</span>
                             </label>
                         </div>
                     </div>
@@ -362,7 +362,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                                     <label>
                                         {{-- <input type="radio" name="web" value="web"> 
                                         <span class="custom-radio"></span> --}}
-                                        <span class="support-title">Web / Application</span>
+                                        <span class="support-title">@lang('public.support 5')</span>
                                     </label>
                                 </div>
                                 {{-- <div>
@@ -377,17 +377,17 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <label>
                                 <input type="checkbox" name="website" value="website" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>Website Development</span>
+                                <span>@lang('public.support 6')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="appdev" value="appdev" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>App Development</span>
+                                <span>@lang('public.support 7')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="crm" value="crm" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>CRM Development</span>
+                                <span>@lang('public.support 8')</span>
                             </label>
                             
                         </div>
@@ -398,7 +398,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <div style="display: flex;justify-content: space-between;width: 430px">
                                 <div>
                                     <label>
-                                        <span class="support-title">cTrader / Metaquote</span>
+                                        <span class="support-title">@lang('public.support 9')</span>
                                     </label>
                                 </div>
                             </div>
@@ -406,17 +406,17 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <label>
                                 <input type="checkbox" name="whitelabel" value="whitelabel" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>White Label Solutions</span>
+                                <span>@lang('public.support 10')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="paymentsolution" value="paymentsolution" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>Payment Solutions</span>
+                                <span>@lang('public.support 11')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="crmsolu" value="crmsolu" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>CRM Solutions</span>
+                                <span>@lang('public.support 12')</span>
                             </label>
                         </div>
                     </div>
@@ -430,7 +430,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                                     <label class="web3hide">
                                         {{-- <input type="radio" name="web3" value="web3"> 
                                         <span class="custom-radio"  style="opacity: 0;"></span> --}}
-                                        <span class="support-title">Pro Chip / Ultra Chip</span>
+                                        <span class="support-title">@lang('public.support 13')</span>
                                     </label>
                                 </div>
                             </div>
@@ -438,17 +438,17 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <label>
                                 <input type="checkbox" name="medusa" value="medusa" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>MEDUSA ROBOTECH</span>
+                                <span>@lang('public.support 14')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="mercury" value="mercury" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>MERCURY ROBOTECH</span>
+                                <span>@lang('public.support 15')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="ragnarok" value="ragnarok" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>RAGNAROK ROBOTECH</span>
+                                <span>@lang('public.support 16')</span>
                             </label>
                         </div>
                     </div>
@@ -458,18 +458,18 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <label class="web3hide">
                                 {{-- <input type="radio" name="web3" value="web3"> 
                                 <span class="custom-radio"  style="opacity: 0;"></span> --}}
-                                <span class="support-title">WEB 3.0</span>
+                                <span class="support-title">@lang('public.support 17')</span>
                             </label>
                             <br>
                             <label>
                                 <input type="checkbox" name="nft" value="nft" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>NFT Trading Board</span>
+                                <span>@lang('public.support 18')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="crypto" value="crypto" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>Cryptocurrency Exchange</span>
+                                <span>@lang('public.support 19')</span>
                             </label>
                         </div>
                     </div>
@@ -481,7 +481,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                                     <label class="web3hide">
                                         {{-- <input type="radio" name="web3" value="web3"> 
                                         <span class="custom-radio"  style="opacity: 0;"></span> --}}
-                                        <span class="support-title">Careers</span>
+                                        <span class="support-title">@lang('public.support 20')</span>
                                     </label>
                                 </div>
                             </div>
@@ -490,32 +490,32 @@ input[type="checkbox"]:checked + .custom-radio::before {
                             <label>
                                 <input type="checkbox" name="itprogram" value="itprogram" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>IT Programmer</span>
+                                <span>@lang('public.support 21')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="uiux" value="uiux" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>UI / UX Designer</span>
+                                <span>@lang('public.support 22')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="market" value="market" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>Marketing Designer</span>
+                                <span>@lang('public.support 23')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="op" value="op" id="customRadioButton" class="hidden-checkbox"> 
                                 <span class="custom-radio"></span>
-                                <span>Backend Operation</span>
+                                <span>@lang('public.support 24')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="sales" value="sales" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>Indoor / Outdoor Sales</span>
+                                <span>@lang('public.support 25')</span>
                             </label>
                             <label>
                                 <input type="checkbox" name="intern" value="intern" id="customRadioButton" class="hidden-checkbox">
                                 <span class="custom-radio"></span>
-                                <span>New Intern</span>
+                                <span>@lang('public.support 26')</span>
                             </label>
                         </div>
                         
@@ -528,12 +528,12 @@ input[type="checkbox"]:checked + .custom-radio::before {
             {{-- web view --}}
             <div class="support4">
                 <div class="left-input">
-                    <textarea class="sup-form-control large-textarea" name="message" placeholder="Message" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
+                    <textarea class="sup-form-control large-textarea" name="message" placeholder="{{ __('public.support 31') }}" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)"></textarea>
                 </div>
                 <div class="right-input">
-                    <input type="text" class="sup-form-control" name="full_name" value="{{ old('full_name') }}" placeholder="Full Name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
-                    <input type="number" class="sup-form-control" name="contact_number" placeholder="Contact Number" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
-                    <input type="email" class="sup-form-control" name="email" placeholder="Email Address" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+                    <input type="text" class="sup-form-control" name="full_name" value="{{ old('full_name') }}" placeholder="{{ __('public.support 27') }}" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+                    <input type="number" class="sup-form-control" name="contact_number" placeholder="{{ __('public.support 28') }}" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
+                    <input type="email" class="sup-form-control" name="email" placeholder="{{ __('public.support 29') }}" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)">
                     {{-- <div class="file-input-container"> --}}
                         <div id="someElement">
                             {{-- <label for="file" class="custom-file-upload">
@@ -545,7 +545,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
 
                         <div style="display: flex;justify-content:end">
                             <button class="btn-sup-submit">
-                                <span>Submit</span>
+                                <span>@lang('public.support 32')</span>
                             </button>
                         </div>
                         
@@ -570,13 +570,13 @@ input[type="checkbox"]:checked + .custom-radio::before {
                         </div>
                     </div> --}}
                     <div>
-                        <input class="sup-mobile-form-control" placeholder="Full Name">
+                        <input class="sup-mobile-form-control" placeholder="{{ __('public.support 27') }}">
                     </div>
                     <div>
-                        <input class="sup-mobile-form-control" placeholder="Contact Number">
+                        <input class="sup-mobile-form-control" placeholder="{{ __('public.support 28') }}">
                     </div>
                     <div>
-                        <input class="sup-mobile-form-control" placeholder="Email Address">
+                        <input class="sup-mobile-form-control" placeholder="{{ __('public.support 29') }}">
                     </div>
                     <div id="someElement2">
                         {{-- <label for="file" class="custom-file-upload">
@@ -585,7 +585,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                         <input type="file" class="sup-mobile-form-control" name="file" id="file" onchange="displayFileName(this)" style="width: 94%;">
                     </div>
                     <div>
-                        <textarea class="sup-mobile-form-control-text" placeholder="Your Message">
+                        <textarea class="sup-mobile-form-control-text" placeholder="{{ __('public.support 31') }}">
             
                         </textarea>
                     </div>
@@ -594,7 +594,7 @@ input[type="checkbox"]:checked + .custom-radio::before {
                     width: 94.5%;
                 ">
                         <button class="btn-purple-mobile">
-                            <span class="submit-mobile">Submit</span>
+                            <span class="submit-mobile">@lang('public.support 32')</span>
                         </button>
                     </div>
                 </div>

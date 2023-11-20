@@ -394,21 +394,19 @@
 <div class="main-content12" style="margin-top: 160px">
     <div class="hr1">
         <p class="enhanced-p">
-            Enhanced HR management for higher efficiency
+            @lang('public.hr 1')
         </p>
     </div>
 
     <div class="hr2">
         <p>
-            Employing Smart HR strategies to optimise workforce productivity and<br> streamline 
-            operations, leading to enhanced efficiency and organizational success.
+            @lang('public.hr 2')
         </p>
     </div>
     <div class="mobile-alignment-30px">
         <div class="hr2-mobile">
             <p>
-                Employing Smart HR strategies to optimise workforce productivity and streamline 
-                operations, leading to enhanced efficiency and organizational success.
+                @lang('public.hr 2')
             </p>
         </div>
     </div>
@@ -423,7 +421,7 @@
     <div class="mobile-alignment-30px">
         <div class="hr4">
             <p>
-                Empowering the HR's Workforce Journey to Success
+                @lang('public.hr 3')
             </p>
         </div>
     </div>
@@ -433,15 +431,12 @@
             <div class="hr-container1">
                 <div class="hr-container-col1">
                     <p class="clock-purple">
-                        Smart clock-in for<br> effortless
-                        attendance tracking
+                        @lang('public.hr 4')
                     </p>
                 </div>
                 <div class="hr-container-col2">
                     <p>
-                        Effortless attendance tracking with a
-                        smart clock-in system for streamlined and
-                        convenient time management.
+                        @lang('public.hr 5')
                     </p>
                 </div>
                 <div class="hr-container-col-img">
@@ -452,16 +447,12 @@
             <div class="hr-container2">
                 <div class="hr-container-col3">
                     <p class="clock-purple">
-                        Make the reimbursement
-                        process more straightforward
+                        @lang('public.hr 6')
                     </p>
                 </div>
                 <div class="hr-container-col4">
                     <p>
-                        Streamline and simplify the arduous
-                        reimbursement process, making it more efficient
-                        and less time-consuming for employees
-                        and administrators.
+                        @lang('public.hr 7')
                     </p>
                 </div>
                 <div class="hr-container-col-img">
@@ -472,14 +463,12 @@
             <div class="hr-container3">
                 <div class="hr-container-col5">
                     <p class="clock-purple">
-                        Smart payroll management<br> system
+                        @lang('public.hr 8')
                     </p>
                 </div>
                 <div class="hr-container-col6">
                     <p>
-                        Efficiently manage payroll with a smart system
-                        that automates tasks, ensuring accuracy and
-                        timeliness while reducing manual effort.
+                        @lang('public.hr 9')
                     </p>
                 </div>
                 <div class="hr-container-col-img">
@@ -490,15 +479,12 @@
             <div class="hr-container4">
                 <div class="hr-container-col-7">
                     <p class="clock-purple">
-                        Learning Management System (LMS)
+                        @lang('public.hr 10')
                     </p>
                 </div>
                 <div class="hr-container-col8">
                     <p>
-                        An LMS is used for employee training and
-                        development. It offers online courses, tracks
-                        employee training progress, and assesses their
-                        learning outcomes.
+                        @lang('public.hr 11')
                     </p>
                 </div>
                 <div class="hr-container-col-img">
@@ -517,15 +503,12 @@
             <div class="hr-container1-mobile">
                 <div>
                     <p class="smart-purple">
-                        Smart clock-in for<br>
-                        effortless attendance tracking
+                        @lang('public.hr 4')
                     </p>
                 </div>
                 <div>
                     <p class="smart-black">
-                        Effortless attendance tracking with a
-                        smart clock-in system for streamlined
-                        and convenient time management.
+                        @lang('public.hr 5')
                     </p>
                 </div>
                 <div style="display: flex;
@@ -539,14 +522,12 @@
             <div class="hr-container1-mobile" style="margin-top: 48px;margin-bottom:48px">
                 <div>
                     <p class="smart-purple">
-                        Make the reimbursement<br>
-                        process more straightforward
+                        @lang('public.hr 6')
                     </p>
                 </div>
                 <div>
                     <p class="smart-black" style="margin-bottom:4px;">
-                        Streamline and simplify the arduous
-                        reimbursement process, making it more efficient and less time-consuming for employees and administrators.
+                        @lang('public.hr 7')
                     </p>
                 </div>
                 <div style="display: flex;
@@ -560,14 +541,12 @@
             <div class="hr-container1-mobile" style="margin-bottom:48px">
                 <div>
                     <p class="smart-purple">
-                        Smart payroll<br>
-                        management system
+                        @lang('public.hr 8')
                     </p>
                 </div>
                 <div>
                     <p class="smart-black" style="margin-bottom:14px">
-                        Efficiently manage payroll with a smart system that automates tasks, 
-                        ensuring accuracy and timeliness while reducing manual effort.
+                        @lang('public.hr 9')
                     </p>
                 </div>
                 <div style="display: flex;
@@ -581,14 +560,12 @@
             <div class="hr-container1-mobile" style="margin-bottom: 68px">
                 <div>
                     <p class="smart-purple">
-                        Learning Management System<br>(LMS)
+                        @lang('public.hr 10')
                     </p>
                 </div>
                 <div>
                     <p class="smart-black" style="margin-bottom:4px">
-                        An LMS is used for employee training and 
-                        development. It offers online courses, tracks employee 
-                        training progress, and assesses their learning outcomes.
+                        @lang('public.hr 11')
                     </p>
                 </div>
                 <div style="display: flex;
@@ -605,16 +582,12 @@
     <div class="mobile-alignment-30px">
         <div class="hr6">
             <p>
-                Through strategic HR management, ensuring the timely
-                assignment of suitable tasks leads to enhanced
-                productivity and <br>employee development.
+                @lang('public.hr 12')
             </p>
         </div>
         <div class="hr6-mobile">
             <p>
-                Through strategic HR management, ensuring the timely
-                assignment of suitable tasks leads to enhanced
-                productivity and employee development.
+                @lang('public.hr 12')
             </p>
         </div>
     </div>
@@ -639,7 +612,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Productivity
+                        @lang('public.hr 13')
                     </p>
                 </div>
             </div>
@@ -661,7 +634,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Teamwork
+                        @lang('public.hr 14')
                     </p>
                 </div>
             </div>
@@ -682,7 +655,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Sales Volume
+                        @lang('public.hr 15')
                     </p>
                 </div>
             </div>
@@ -703,7 +676,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Performance
+                        @lang('public.hr 16')
                     </p>
                 </div>
             </div>

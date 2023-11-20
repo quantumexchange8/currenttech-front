@@ -405,15 +405,13 @@
 <div class="main-content5" style="margin-top:160px;">
     <div class="web3-1">
         <p class="revo-p">
-            The Revolution of Web 3.0
+            @lang('public.web 1')
         </p>
     </div>
     <div class="web3-2">
         <div class="mobile-alignment-30px">
             <p class="revo-p2">
-                Web 3.0 revolutionizes content with decentralized, user-centric platforms. It empowers 
-                creators, ensures data privacy, utilizes blockchain for transparency, and enables immersive 
-                experiences through AI, AR, and VR technologies.
+                @lang('public.web 2')
             </p>
         </div>
     </div>
@@ -436,8 +434,7 @@
     <div class="web3-3">
         <div class="mobile-alignment-30px">
             <p class="empowering-p">
-                Empowering Creativity
-                in the Digital Age
+                @lang('public.web 3')
             </p>
         </div>
     </div>
@@ -445,9 +442,7 @@
     <div class="web3-4">
         <div class="mobile-alignment-30px">
             <p class="empowering-p2">
-                Embrace limitless possibilities. Embody innovation. Unleash digital tools. Ignite artistic 
-                expression. EmPower Creativity in the Digital Age and paint a vibrant canvas of boundless 
-                imagination.
+                @lang('public.web 4')
             </p>
         </div>
     </div>
@@ -456,29 +451,29 @@
 <div class="main-content6" >
     <div class="web3-5">
         <div class="mobile-alignment-30px">
-            <p class="howwork-p">How it works?</p>
+            <p class="howwork-p">@lang('public.web 5')</p>
         </div>
 
         <div class="work-container-1">
             <div class="work-container-1-2">
                 <div class="mobile-alignment-30px">
                     <p class="step1-p">
-                        Step 1
+                        @lang('public.web 7')
                     </p>
                 </div>
                 <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
+                            @lang('public.web 7.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Create a digital wallet: Set up a digital wallet on the chosen blockchain platform to store and manage your NFTs.
+                            @lang('public.web 7.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Prepare the digital asset: Get your digital asset ready to be turned into an NFT; it can be digital art, music, videos, etc.
+                            @lang('public.web 7.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Write a smart contract: Use a smart contract programming language like Solidity to write a smart contract that will create the NFT. This contract should include the basic attributes of the NFT, such as name, description, owner, etc.
+                            @lang('public.web 7.4')
                         </li>
                     </ul>
                 </div>
@@ -493,20 +488,20 @@
                 <img src="assets/image/product/web3/slpmonk.svg" style="margin-top: -30px;">
             </div>
             <div style="display: flex; flex-direction:column">
-                <div><p class="step2-p">Step 2</p></div>
+                <div><p class="step2-p">@lang('public.web 8')</p></div>
                 <div>
                     <ul class="step2-p2">
                         <li style="margin-bottom: 15px">
-                            Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
+                            @lang('public.web 8.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
+                            @lang('public.web 8.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
+                            @lang('public.web 8.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Deploy the smart contract: Deploy the written smart contract to the chosen blockchain platform, such as Ethereum.
+                            @lang('public.web 8.4')
                         </li>
                     </ul>
                 </div>
@@ -515,20 +510,20 @@
 
         <div class="work-container-3">
             <div style="display: flex; flex-direction:column;margin-right: 43px">
-                <div><p class="step1-p">Step 3</p></div>
+                <div><p class="step1-p">@lang('public.web 9')</p></div>
                 <div>
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
+                            @lang('public.web 9.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
+                            @lang('public.web 9.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
+                            @lang('public.web 9.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Pay the fees: Cover the fees required for creating the NFT, usually involving some cryptocurrency transaction fees.
+                            @lang('public.web 9.4')
                         </li>
                     </ul>
                 </div>
@@ -546,17 +541,17 @@
             </div>
 
             <div style="display: flex; flex-direction:column;">
-                <div><p class="step2-p">Step 4</p></div>
+                <div><p class="step2-p">@lang('public.web 10')</p></div>
                 <div>
                     <ul class="step2-p2">
                         <li style="margin-bottom: 15px">
-                            Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
+                            @lang('public.web 10.1')
                         </li>
                         <li style="margin-bottom: 20px">
-                            Promote your NFT: Actively promote your NFT through social media and other platforms to attract potential buyers.
+                            @lang('public.web 10.2')
                         </li>
                         <li style="margin-bottom: 20px">
-                            Handle transactions: If someone shows interest and is willing to buy your NFT, ensure prompt handling of the transaction and transfer the NFT to the buyer's wallet.
+                            @lang('public.web 10.3')
                         </li>
                     </ul>
                 </div>
@@ -570,7 +565,7 @@
 <div class="main-content6-mobile">
     <div class="web3-5">
         <div class="mobile-alignment-30px">
-            <p class="howwork-p">How it works?</p>
+            <p class="howwork-p">@lang('public.web 5')</p>
         </div>
 
         <div class="work-container-1">
@@ -580,22 +575,22 @@
             <div class="work-container-1-2">
                 <div class="mobile-alignment-30px">
                     <p class="step1-p">
-                        Step 1
+                        @lang('public.web 7')
                     </p>
                 </div>
                 <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Choose a blockchain platform: Select a blockchain platform that supports NFTs, such as Ethereum.
+                            @lang('public.web 7.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Create a digital wallet: Set up a digital wallet on the chosen blockchain platform to store and manage your NFTs.
+                            @lang('public.web 7.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Prepare the digital asset: Get your digital asset ready to be turned into an NFT; it can be digital art, music, videos, etc.
+                            @lang('public.web 7.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Write a smart contract: Use a smart contract programming language like Solidity to write a smart contract that will create the NFT. This contract should include the basic attributes of the NFT, such as name, description, owner, etc.
+                            @lang('public.web 7.4')
                         </li>
                     </ul>
                 </div>
@@ -637,22 +632,22 @@
             <div class="work-container-1-2">
                 <div class="mobile-alignment-30px">
                     <p class="step1-p">
-                        Step 2
+                        @lang('public.web 8')
                     </p>
                 </div>
                 <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Add NFT metadata: In the smart contract, you can include metadata for the NFT, such as image URLs, creator information, copyright details, etc.
+                            @lang('public.web 8.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Set NFT attributes: Customize the NFT attributes in the smart contract, such as whether it's transferable, whether it's limited edition, etc.
+                            @lang('public.web 8.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Implement NFT ownership transfer: Ensure that the smart contract can handle the transfer of NFT ownership, enabling smooth transactions when the NFT is bought or sold.
+                            @lang('public.web 8.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Deploy the smart contract: Deploy the written smart contract to the chosen blockchain platform, such as Ethereum.
+                            @lang('public.web 8.4')
                         </li>
                     </ul>
                 </div>
@@ -666,22 +661,22 @@
             <div class="work-container-1-2">
                 <div class="mobile-alignment-30px">
                     <p class="step1-p">
-                        Step 3
+                        @lang('public.web 9')
                     </p>
                 </div>
                 <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Connect wallet and contract: Link your digital wallet to the deployed smart contract, enabling you to manage and trade your NFTs.
+                            @lang('public.web 9.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Create the NFT: Access an NFT marketplace, choose the "Create NFT" option, upload your digital asset, and provide necessary information. This will trigger the execution of the smart contract, creating your NFT.
+                            @lang('public.web 9.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Set attributes: Customize NFT attributes such as name, description, limited edition, etc.
+                            @lang('public.web 9.3')
                         </li>
                         <li style="margin-bottom: 5px">
-                            Pay the fees: Cover the fees required for creating the NFT, usually involving some cryptocurrency transaction fees.
+                            @lang('public.web 9.4')
                         </li>
                     </ul>
                 </div>
@@ -695,19 +690,19 @@
             <div class="work-container-1-2">
                 <div class="mobile-alignment-30px">
                     <p class="step1-p">
-                        Step 4
+                        @lang('public.web 10')
                     </p>
                 </div>
                 <div class="mobile-alignment-30px">
                     <ul class="step1-p2">
                         <li style="margin-bottom: 15px">
-                            Publish the NFT: Once the creation process is complete, your NFT will be published on the blockchain for others to view and purchase.
+                            @lang('public.web 10.1')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Promote your NFT: Actively promote your NFT through social media and other platforms to attract potential buyers.
+                            @lang('public.web 10.2')
                         </li>
                         <li style="margin-bottom: 15px">
-                            Handle transactions: If someone shows interest and is willing to buy your NFT, ensure prompt handling of the transaction and transfer the NFT to the buyer's wallet.
+                            @lang('public.web 10.3')
                         </li>
                     </ul>
                 </div>
@@ -770,9 +765,9 @@
     <div class="web3-6">
         <div class="mobile-alignment-30px">
             <p class="remark-p">
-                <span style="color:#F00">Remarks:</span>
+                <span style="color:#F00">@lang('public.web 10.4')</span>
                 <br>
-                Creating a smart contract involves advanced technical knowledge and security considerations. If you're a beginner, it's advisable to learn the basics of blockchain and smart contract development before attempting to write one. Also, exercise caution in dealing with security and logic while developing the smart contract to protect your digital assets.
+                @lang('public.web 11')
             </p>
         </div>
     </div>
@@ -780,20 +775,16 @@
     <div class="web3-7">
         <div class="mobile-alignment-30px">
             <p class="craft-p">
-                Crafting Digital Experiences for Future
-                WEB 3.0
+                @lang('public.web 12')
             </p>
             <p class="craft-p-mobile">
-                Crafting Digital Experiences for Future
-                WEB 3.0
+                @lang('public.web 12')
             </p>
         </div>
     </div>
     <div class="mobile-alignment-30px">
         <p class="craft-p2">
-            Designing cutting-edge NFT-based digital experiences to revolutionize content 
-            consumption, ownership, and engagement, shaping the future of the digital art and 
-            collectibles landscape.
+            @lang('public.web 13')
         </p>
     </div>
     <div class="dashimg">
@@ -863,16 +854,14 @@
     <div class="web3-8">
         <div class="mobile-alignment-30px">
             <p class="create-p">
-                Creating Personal NFTs Collection
+                @lang('public.web 14')
             </p>
         </div>
     </div>
     <div class="web3-8">
         <div class="mobile-alignment-30px">
             <p class="create-p2">
-                Transform your artwork or content into blockchain-based NFTs.
-                Mint and own one-of-a-kind digital assets. Showcase, sell,
-                or trade your personalized creations with the world.
+                @lang('public.web 15')
             </p>
         </div>
     </div>
@@ -932,18 +921,14 @@
         <div class="web3-8">
             <div class="mobile-alignment-30px">
                 <p class="create-p">
-                    Discovering Miracles of the Future 
-                    Leading the Digital World
+                    @lang('public.web 16')
                 </p>
             </div>
         </div>
         <div class="web3-8" style="margin-bottom:96px">
             <div class="mobile-alignment-30px">
                 <p class="create-p2">
-                    Cryptocurrency, the marvel born in the information age, is emerging at an 
-                    astonishing pace, and its future is brimming with boundless possibilities. In this wave
-                     of digital revolution, cryptocurrency is poised to become the shining star of the financial 
-                     world, leading us towards an unprecedented tomorrow.
+                    @lang('public.web 17')
                 </p>
             </div>
         </div>
@@ -969,13 +954,13 @@
                 <div class="inline-display">
                     <div>
                         <p class="joinworld-p">
-                            Join the Digital Art World Community
+                            @lang('public.web 18')
                         </p>
                     </div>
                     <div>
                         <button class="btn-startnow">
                             <a href="{{ route('support') }}" class="explore-link">
-                                <span class="startnow-span">Start Now!</span>
+                                <span class="startnow-span">@lang('public.web 19')</span>
                             </a>
                         </button>
                     </div>

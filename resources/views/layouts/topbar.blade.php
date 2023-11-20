@@ -4,14 +4,14 @@
             <nav class="nav">
                 <ul>
                     <li class="nav-img nav-border">
-                        <a href="{{ route('home') }}">
+                        <a href="{{ url('') }}">
                             {{-- <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"> --}}
                             <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"></object>
                         </a>
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                         <a class="nav-link" data-toggle="collapse" href="#product" aria-expanded="false" aria-controls="product">
-                            <span class="nav-wording">Products</span>
+                            <span class="nav-wording">@lang('public.products')</span>
                         </a>
                         <div class="sub collapse" id="product" style="display: none;">
                             <nav class="sub-navi">
@@ -20,10 +20,10 @@
                                         <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'possystem')
                                                 <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
-                                                <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.pos')</span>
                                             @else
                                                 <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:18.807px;height:16px">
-                                                <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
+                                                <span class="nav-wording2" style="vertical-align: middle;">@lang('public.pos')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -31,10 +31,10 @@
                                         <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'webapp')
                                                 <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.web')</span>
                                             @else
                                                 <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
+                                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.web')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -42,10 +42,10 @@
                                         <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'brokerage')
                                                 <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.brokerage')</span>
                                             @else
                                                 <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
+                                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.brokerage')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -53,10 +53,10 @@
                                         <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'expert')
                                                 <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.expert')</span>
                                             @else
                                                 <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
+                                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.expert')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -64,10 +64,10 @@
                                         <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'web3')
                                                 <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
+                                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.web 3.0')</span>
                                             @else
                                                 <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                                <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
+                                                <span class="nav-wording2" style="vertical-align: middle;">@lang('public.web 3.0')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -78,7 +78,7 @@
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                         <a class="nav-link" data-toggle="collapse" href="#feature" aria-expanded="false" aria-controls="feature">
-                            <span class="nav-wording">Features</span>
+                            <span class="nav-wording">@lang('public.features')</span>
                         </a>
                         <div class="sub collapse" id="feature" style="display: none;">
                             <nav class="sub-navi">
@@ -88,10 +88,10 @@
                                         <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'performance')
                                             <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wordingAct">Performance</span>
+                                            <span class="nav-wordingAct">@lang('public.footer 4.1')</span>
                                             @else
                                             <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wording2">Performance</span>
+                                            <span class="nav-wording2">@lang('public.footer 4.1')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -99,10 +99,10 @@
                                         <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'reward')
                                             <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wordingAct">Reward Program</span>
+                                            <span class="nav-wordingAct">@lang('public.footer 4.2')</span>
                                             @else
                                             <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wording2">Reward Program</span>
+                                            <span class="nav-wording2">@lang('public.footer 4.2')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -110,10 +110,10 @@
                                         <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'develop')
                                             <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wordingAct">Develop & Learn</span>
+                                            <span class="nav-wordingAct">@lang('public.footer 4.3')</span>
                                             @else
                                             <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wording2">Develop & Learn</span>
+                                            <span class="nav-wording2">@lang('public.footer 4.3')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -121,10 +121,10 @@
                                         <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'hrmanage')
                                             <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wordingAct">HR Management </span>
+                                            <span class="nav-wordingAct">@lang('public.footer 4.4')</span>
                                             @else
                                             <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wording2">HR Management</span>
+                                            <span class="nav-wording2">@lang('public.footer 4.4')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -132,10 +132,10 @@
                                         <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                                             @if(Route::currentRouteName() === 'report')
                                             <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wordingAct">Reporting & Analytics</span>
+                                            <span class="nav-wordingAct">@lang('public.footer 4.5')</span>
                                             @else
                                             <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 6px;width:16px;height:16px">
-                                            <span class="nav-wording2">Reporting & Analytics</span>
+                                            <span class="nav-wording2">@lang('public.footer 4.5')</span>
                                             @endif
                                         </a>
                                     </li>
@@ -145,12 +145,12 @@
                     </li>
                     <li class="nav-border-items {{ Route::currentRouteName() === 'sector' ? 'active' : '' }}">
                         <a href="{{ route('sector') }}">
-                            <span class="nav-wording">Sectors</span>
+                            <span class="nav-wording">@lang('public.sectors')</span>
                         </a>
                     </li>
                     <li class="nav-border-items {{ Route::currentRouteName() === 'career' ? 'active' : '' }}">
                         <a href="{{ route('career') }}">
-                            <span class="nav-wording">Career</span>
+                            <span class="nav-wording">@lang('public.career')</span>
                         </a>
                         
                     </li>
@@ -174,6 +174,7 @@
                         </a> --}}
                         
                     </li>
+                    {{-- @include('language') --}}
                 </ul>
             </nav>
         </div>
@@ -191,20 +192,20 @@
     <nav class="nav2">
         <ul style="margin: 13px 0px;">
             <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
-                <a href="{{ route('home') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
+                <a href="{{ url('') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
                 style="padding-left: 25px;
                 padding-top: 26px;
                 padding-right: 30px;
                 padding-bottom: 13px;"
                 >
                     <span>
-                        Home
+                        {{-- Home --}}
                     </span>
                 </a>
             </li>
             <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                 <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon', 'LanguageSubMenu', 'LanguageIcon')">
-                    <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">Products</span>
+                    <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">@lang('public.products')</span>
                     {{-- <i id="ProductIcon" class="mdi mdi-chevron-down" style="margin-left: 30px"></i> --}}
                     @if(Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : '')
                         <img src="/assets/image/arrowdown_act.svg" style="margin-left: 32px;">
@@ -217,10 +218,10 @@
                         <a href="{{ route('possystem') }}" style="display: inline-block;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'possystem')
                                 <img src="assets/image/top/posactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wordingAct" style="vertical-align: middle;">POS System</span>
+                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.pos')</span>
                             @else
                                 <img src="assets/image/top/posnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wording2" style="vertical-align: middle;">POS System</span>
+                                <span class="nav-wording2" style="vertical-align: middle;">@lang('public.pos')</span>
                             @endif
                         </a>
                     </li>
@@ -228,10 +229,10 @@
                         <a href="{{ route('webapp') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'webapp')
                                 <img src="assets/image/top/webappactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wordingAct" style="vertical-align: middle;">Web & App</span>
+                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.web')</span>
                             @else
                                 <img src="assets/image/top/webappnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wording2" style=" vertical-align: middle;">Web & App</span>
+                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.web')</span>
                             @endif
                         </a>
                     </li>
@@ -239,10 +240,10 @@
                         <a href="{{ route('brokerage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'brokerage')
                                 <img src="assets/image/top/brokeractive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wordingAct" style="vertical-align: middle;">Brokerage Setup</span>
+                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.brokerage')</span>
                             @else
                                 <img src="assets/image/top/brokernoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wording2" style=" vertical-align: middle;">Brokerage Setup</span>
+                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.brokerage')</span>
                             @endif
                         </a>
                     </li>
@@ -250,10 +251,10 @@
                         <a href="{{ route('expert') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'expert')
                                 <img src="assets/image/top/expertactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wordingAct" style="vertical-align: middle;">Expert Advisor</span>
+                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.expert')</span>
                             @else
                                 <img src="assets/image/top/expertnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wording2" style=" vertical-align: middle;">Expert Advisor</span>
+                                <span class="nav-wording2" style=" vertical-align: middle;">@lang('public.expert')</span>
                             @endif
                         </a>
                     </li>
@@ -261,10 +262,10 @@
                         <a href="{{ route('web3') }}" style="display: inline-block; vertical-align: middle;  white-space: nowrap;">
                             @if(Route::currentRouteName() === 'web3')
                                 <img src="assets/image/top/web3active.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wordingAct" style="vertical-align: middle;">Web 3.0</span>
+                                <span class="nav-wordingAct" style="vertical-align: middle;">@lang('public.web 3.0')</span>
                             @else
                                 <img src="assets/image/top/web3noactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                                <span class="nav-wording2" style="vertical-align: middle;">Web 3.0</span>
+                                <span class="nav-wording2" style="vertical-align: middle;">@lang('public.web 3.0')</span>
                             @endif
                         </a>
                     </li>
@@ -278,7 +279,7 @@
             </li>
             <li class="{{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : ''}}">
                 <a href="#feature" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="feature" onclick="toggleSubMenu('FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon', 'LanguageSubMenu', 'LanguageIcon')">
-                    <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">Features</span>
+                    <span style="display: inline-block; {{ Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? ' color: #BD00FF;' : '' }} width: 90px;">@lang('public.features')</span>
                     @if(Request::is('performance', 'reward-program', 'develop&learn', 'hr_management', 'reporting&Analytics') ? 'active' : '')
                         <img src="/assets/image/arrowdown_act.svg" style="margin-left: 22px">
                     @else
@@ -296,10 +297,10 @@
                         <a href="{{ route('performance') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'performance')
                             <img src="assets/image/top/performactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wordingAct">Performance</span>
+                            <span class="nav-wordingAct">@lang('public.footer 4.1')</span>
                             @else
                             <img src="assets/image/top/performnoactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wording2">Performance</span>
+                            <span class="nav-wording2">@lang('public.footer 4.1')</span>
                             @endif
                         </a>
                     </li>
@@ -307,10 +308,10 @@
                         <a href="{{ route('reward') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'reward')
                             <img src="assets/image/top/rewardactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wordingAct">Reward Program</span>
+                            <span class="nav-wordingAct">@lang('public.footer 4.2')</span>
                             @else
                             <img src="assets/image/top/rewardicon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wording2">Reward Program</span>
+                            <span class="nav-wording2">@lang('public.footer 4.2')</span>
                             @endif
                         </a>
                     </li>
@@ -318,10 +319,10 @@
                         <a href="{{ route('develop') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'develop')
                             <img src="assets/image/top/developactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wordingAct">Develop & Learn</span>
+                            <span class="nav-wordingAct">@lang('public.footer 4.3')</span>
                             @else
                             <img src="assets/image/top/developicon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wording2">Develop & Learn</span>
+                            <span class="nav-wording2">@lang('public.footer 4.3')</span>
                             @endif
                         </a>
                     </li>
@@ -329,10 +330,10 @@
                         <a href="{{ route('hrmanage') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'hrmanage')
                             <img src="assets/image/top/hractive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wordingAct">HR Management </span>
+                            <span class="nav-wordingAct">@lang('public.footer 4.4') </span>
                             @else
                             <img src="assets/image/top/hricon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wording2">HR Management</span>
+                            <span class="nav-wording2">@lang('public.footer 4.4')</span>
                             @endif
                         </a>
                     </li>
@@ -340,10 +341,10 @@
                         <a href="{{ route('report') }}" style="display: inline-block; vertical-align: middle; white-space: nowrap;">
                             @if(Route::currentRouteName() === 'report')
                             <img src="assets/image/top/reportactive.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wordingAct">Report & Analysis</span>
+                            <span class="nav-wordingAct">@lang('public.footer 4.5')</span>
                             @else
                             <img src="assets/image/top/reporticon.svg" style="vertical-align: middle; margin-right: 10px;width:19px;height:19px">
-                            <span class="nav-wording2">Report & Analysis</span>
+                            <span class="nav-wording2">@lang('public.footer 4.5')</span>
                             @endif
                         </a>
                     </li>
@@ -353,17 +354,17 @@
             
             <li class="smallnav-act {{ Request::is('sectors') ? 'active' : ''}}">
                 <a href="{{ route('sector') }}" style="{{ Request::is('sectors') ? 'color: #BD00FF;' : '' }}">
-                    Sectors
+                    @lang('public.sectors')
                 </a>
             </li>
             <li class="smallnav-act {{ Request::is('career') ? 'active' : ''}}">
                 <a href="{{ route('career') }}" style="{{ Request::is('career') ? 'color: #BD00FF;' : '' }}">
-                    Career
+                    @lang('public.career')
                 </a>
             </li>
             <li class="smallnav-act {{ Request::is('support') ? 'active' : ''}}">
                 <a href="{{ route('support') }}" style="{{ Request::is('support') ? 'color: #BD00FF;' : '' }}">
-                    Support
+                    @lang('public.support')
                 </a>
             </li>
 {{-- 
@@ -373,7 +374,7 @@
             <li>
                 <a href="#language" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="language" onclick="toggleSubMenu('LanguageSubMenu', 'LanguageIcon', 'FeatureSubMenu', 'FeatureIcon', 'ProductSubMenu', 'ProductIcon', 'LanguageIcon')">
                     {{-- <a href="#" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon')"> --}}
-                    <span style="display:inline-block;color: #FFFFFF;width:90px">Language</span>
+                    <span style="display:inline-block;color: #FFFFFF;width:90px">@lang('public.language')</span>
                     <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
                 </a>
                 <ul id="LanguageSubMenu" style="display: none;">

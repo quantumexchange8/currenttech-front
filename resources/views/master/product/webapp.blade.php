@@ -861,16 +861,13 @@
 <div class="main-content2" style="margin-top: 160px;">
     <div class="webapp1">
         <p class="powerhouse-p">
-            The Powerhouse for Your Web and App Needs
+            @lang('public.web app 1')
         </p>
     </div>
      
     <div class="webapp2">
         <p class="powerhouse-p2">
-            Welcome to the realm of innovative web and app development. 
-            Embrace captivating designs and user-centric experiences that
-             elevate your digital presence. Unleash the potential of your 
-             online venture with our expert solutions. Join us now!
+            @lang('public.web app 2')
         </p>
     </div>
      
@@ -885,7 +882,7 @@
      <div class="webapp4">
         <div class="mobile-alignment-30px">
             <p class="embrace-p">
-                Embrace the Trendy and Inspirational
+                @lang('public.web app 3')
             </p>
         </div>
         
@@ -894,7 +891,7 @@
      <div class="webapp6">
         {{-- <div class="temp"> --}}
             <div class="mobile-alignment-30px">
-                <p class="ecorm">e-Commerce Template</p>
+                <p class="ecorm">@lang('public.web app 4')</p>
             </div>
         {{-- </div> --}}
     </div>
@@ -1039,7 +1036,7 @@
     <div class="webapp6">
         {{-- <div class="temp"> --}}
             <div class="mobile-alignment-30px">
-                <p class="ecorm">Essential Trending Products</p>
+                <p class="ecorm">@lang('public.web app 12')</p>
             </div>
             <div>
                 {{-- <p class="ecorm">e-Commerce Template</p> --}}
@@ -1052,10 +1049,7 @@
     <div class="webapp6-1">
         <div class="mobile-alignment-30px">
             <div class="text-container">
-                <p class="ecormm">Unlock the ultimate potential of your online presence with our 
-                    premium web template products! Stay on the cutting edge with 
-                    trending designs, unrivaled functionality, and seamless 
-                    customization options. Elevate your website today!</p>
+                <p class="ecormm">@lang('public.web app 13')</p>
             </div>            
             {{-- <div>
                 <a href="{{ route('seeall') }}" class="view-more">View More</a>
@@ -1068,20 +1062,19 @@
                 <img src="assets/image/product/seeall/13.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px">
-                <p class="webappfont">Carbon
+                <p class="webappfont">Zivi
                 </p>
                 <br>
                 <p class="webappfont2">
-                    Your All-in-One Website
-                    Template Solution
+                    @lang('public.web app 14.1')
                 </p>
                 <p class="template">
-                    Minimalist Template
+                    @lang('public.web app 14.2')
                 </p>
                 <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
                 </div>
             </div>
         </div>
@@ -1091,19 +1084,18 @@
                 <img src="assets/image/product/seeall/12.svg" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
-                <p class="webappfont">Zivi</p>
+                <p class="webappfont">Livesay</p>
                 <br>
                 <p class="webappfont2">
-                    A Modern Website Template
-                    Collection
+                    @lang('public.web app 15.1')
                 </p>
                 <p class="template">
-                     Creative Theme 
+                    @lang('public.web app 15.2')
                 </p>
                 <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
                 </div>
             </div>
         </div>
@@ -1113,19 +1105,18 @@
                 <img src="assets/image/product/seeall/13.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
-                <p class="webappfont">Livesay</p>
+                <p class="webappfont">Archi</p>
                 <br>
                 <p class="webappfont2">
-                    Elevate Your Web Design
-                    with High-End Templates
+                    @lang('public.web app 16.1')
                 </p>
                 <p class="template">
-                    Event Conference
+                    @lang('public.web app 16.2')
                 </p>
                 <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
                 </div>
             </div>
         </div>
@@ -1135,19 +1126,18 @@
                 <img src="assets/image/product/seeall/14.png" class="carbon-image">
             </a>
             <div style="margin-top: 28px" class="webapp10-font">
-                <p class="webappfont">Archi</p>
+                <p class="webappfont">Skudo</p>
                 <br>
                 <p class="webappfont2">
-                    Painting Your Online Vision
-                    with Stunning
+                    @lang('public.web app 17.1')
                 </p>
                 <p class="template">
-                    E-Commerce Theme
+                    @lang('public.web app 17.2')
                 </p>
                 <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
-                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 Viewer</span>
+                    <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
                 </div>
             </div>
         </div>
@@ -1201,7 +1191,7 @@
     <div class="webapp4">
         <div class="mobile-alignment-30px">
             <p class="transform-p">
-                Transform Your Art Into a Digital Empire
+                @lang('public.web app 18')
             </p>
         </div>
     </div>
@@ -1213,7 +1203,7 @@
     <div class="webapp6">
         {{-- <div class="temp"> --}}
             <div class="mobile-alignment-30px">
-                <p class="ecorm">Forex / NFT / Cryptocurrency Web 3.0 Template</p>
+                <p class="ecorm">@lang('public.web app 19')</p>
             </div>
         {{-- </div> --}}
     </div>

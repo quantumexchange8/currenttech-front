@@ -411,16 +411,14 @@
 <div class="main-content15">
     <div class="career1">
         <p>
-            Join Our Team for Exciting Career Opportunities
+            @lang('public.career 1')
         </p>
     </div>
 
     <div class="mobile-alignment-30px">
         <div class="career2">
             <p>
-                Empower your future with Current Tech Industries. Join our visionary team, embrace 
-                diversity, and work on impactful projects. Explore career opportunities that fuel your 
-                growth and make a difference. Apply now at <br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
+                @lang('public.career 2')<br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
             </p>
         </div>
     </div>
@@ -432,7 +430,7 @@
 
     <div class="career4">
         <p>
-            We focus on
+            @lang('public.career 3')
         </p>
     </div>
 
@@ -445,20 +443,16 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>IT Programmer</p>
+                    <p>@lang('public.career 4')</p>
                 </div>
                 
                 <div class="it-program-p2">
                     <p>
-                        IT programmers write, test, and maintain code for software 
-                        applications, using various languages like Java, Python, and 
-                        JavaScript. They solve complex problems, collaborate in teams, and 
-                        stay updated with technology trends for efficient development and 
-                        secure solutions.
+                        @lang('public.career 5')
                     </p>
                 </div>
             </div>
@@ -486,11 +480,11 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div style="display: flex;width:262px;justify-content: space-between;">
@@ -514,24 +508,24 @@
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">CAPABILITY</p>
+                    <p class="cap-p-p">@lang('public.career 5.3')</p>
                     <br>
-                    <p class="goodon-p">GOOD ON</p>
+                    <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        Problem-Solving <br><br>
-                        Independence <br><br>
-                        Communication <br><br>
-                        Aggressive
+                        @lang('public.career 6') <br><br>
+                        @lang('public.career 7') <br><br>
+                        @lang('public.career 8') <br><br>
+                        @lang('public.career 9')
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -541,9 +535,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -557,10 +551,10 @@
             <div class="container-req-mobile">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
@@ -619,20 +613,20 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>PROBLEM SOLVING</p>
-                        <p>INDEPENDENCE</p>
-                        <p>COMMUNICATION</p>
-                        <p>AGGRESSIVE</p>
+                        <p>@lang('public.career 6')</p>
+                        <p>@lang('public.career 7')</p>
+                        <p>@lang('public.career 8')</p>
+                        <p>@lang('public.career 9')</p>
                     </div>
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DEGREE</p>
@@ -640,8 +634,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>1</p>
@@ -661,19 +655,15 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>UI / UX Designer</p>
+                    <p>@lang('public.career 21')</p>
                 </div>
                 <div class="it-program-p2">
                     <p>
-                        UI/UX designer focuses on creating user-friendly interfaces, 
-                        conducting research, wireframing, prototyping, and collaborating
-                        with stakeholders. They aim to enhance user satisfaction, 
-                        engagement, and accessibility through visually appealing designs 
-                        and seamless experiences.
+                        @lang('public.career 22')
                     </p>
                 </div>
             </div>
@@ -701,11 +691,11 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div style="display: flex;width:265px;justify-content: space-between;">
@@ -726,25 +716,25 @@
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">CAPABILITY</p>
+                    <p class="cap-p-p">@lang('public.career 5.3')</p>
                     <br>
-                    <p class="goodon-p">GOOD ON</p>
+                    <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        Creative <br><br>
-                        Problem-Solving <br><br>
-                        Independence <br><br>
-                        Communication <br><br>
-                        Aggressive 
+                        @lang('public.career 10') <br><br>
+                        @lang('public.career 6') <br><br>
+                        @lang('public.career 7') <br><br>
+                        @lang('public.career 8') <br><br>
+                        @lang('public.career 9') 
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -756,9 +746,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -772,10 +762,10 @@
             <div class="container-req-mobile">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
@@ -819,21 +809,21 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>CREATIVE</p>
-                        <p>PROBLEM SOLVING</p>
-                        <p>INDEPENDENCE</p>
-                        <p>COMMUNICATION</p>
-                        <p>AGGRESSIVE</p>
+                        <p>@lang('public.career 10')</p>
+                        <p>@lang('public.career 6')</p>
+                        <p>@lang('public.career 7')</p>
+                        <p>@lang('public.career 8')</p>
+                        <p>@lang('public.career 9')</p>
                     </div>
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DEGREE</p>
@@ -841,8 +831,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>1</p>
@@ -862,19 +852,15 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>Marketing Designer</p>
+                    <p>@lang('public.career 23')</p>
                 </div>
                 <div class="it-program-p2">
                     <p>
-                        A marketing designer is a professional who combines marketing 
-                        strategies with design skills to create visually compelling materials. 
-                        They design marketing collateral, graphics, and advertisements that 
-                        effectively communicate brand messages and engage target 
-                        audiences to drive business growth.
+                        @lang('public.career 24')
                     </p>
                 </div>
             </div>
@@ -903,11 +889,11 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div style="display: flex;width:275px;justify-content: space-between;">
@@ -929,25 +915,25 @@
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">CAPABILITY</p>
+                    <p class="cap-p-p">@lang('public.career 5.3')</p>
                     <br>
-                    <p class="goodon-p">GOOD ON</p>
+                    <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        Creative <br><br>
-                        Problem Solving <br><br>
-                        Independence <br><br>
-                        Communication <br><br>
-                        Writing Grammar
+                        @lang('public.career 10') <br><br>
+                        @lang('public.career 6') <br><br>
+                        @lang('public.career 7') <br><br>
+                        @lang('public.career 8') <br><br>
+                        @lang('public.career 14')
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -957,9 +943,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -973,10 +959,10 @@
             <div class="container-req-mobile" style="padding: 20px 30px;">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
@@ -1006,21 +992,21 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>CREATIVE</p>
-                        <p>PROBLEM SOLVING</p>
-                        <p>INDEPENDENCE</p>
-                        <p>COMMUNICATION</p>
-                        <p>WRITING GRAMMAR</p>
+                        <p>@lang('public.career 10')</p>
+                        <p>@lang('public.career 6')</p>
+                        <p>@lang('public.career 7')</p>
+                        <p>@lang('public.career 8')</p>
+                        <p>@lang('public.career 14')</p>
                     </div>
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DEGREE</p>
@@ -1028,8 +1014,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>1</p>
@@ -1049,19 +1035,15 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>Backend Operation</p>
+                    <p>@lang('public.career 25')</p>
                 </div>
                 <div class="it-program-p2">
                     <p>
-                        Operation involves managing and maintaining software in production, 
-                        ensuring reliability and performance. Backend development focuses 
-                        on server-side logic and infrastructure for data processing, powering 
-                        the software's functionality. Both are crucial for a successful 
-                        application.
+                        @lang('public.career 26')
                     </p>
                 </div>
             </div>
@@ -1089,11 +1071,11 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div style="display: flex;width:295px;justify-content: space-between;">
@@ -1115,25 +1097,25 @@
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">CAPABILITY</p>
+                    <p class="cap-p-p">@lang('public.career 5.3')</p>
                     <br>
-                    <p class="goodon-p">GOOD ON</p>
+                    <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        Adaptability <br><br>
-                        Problem Solving <br><br>
-                        Independence <br><br>
-                        Communication <br><br>
-                        Creative
+                        @lang('public.career 15') <br><br>
+                        @lang('public.career 6') <br><br>
+                        @lang('public.career 7') <br><br>
+                        @lang('public.career 12') <br><br>
+                        @lang('public.career 10')
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -1145,9 +1127,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -1161,10 +1143,10 @@
             <div class="container-req-mobile" style="padding: 20px 30px;">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
@@ -1198,21 +1180,21 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>CREATIVE</p>
-                        <p>PROBLEM SOLVING</p>
-                        <p>COMMUNICATION</p>
-                        <p>INDEPENDENCE</p>
-                        <p>ADAPTABILITY</p>
+                        <p>@lang('public.career 10')</p>
+                        <p>@lang('public.career 6')</p>
+                        <p>@lang('public.career 8')</p>
+                        <p>@lang('public.career 11')</p>
+                        <p>@lang('public.career 15')</p>
                     </div>
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DEGREE</p>
@@ -1220,8 +1202,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>1</p>
@@ -1241,18 +1223,15 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>Indoor / Outdoor Sales</p>
+                    <p>@lang('public.career 27')</p>
                 </div>
                 <div class="it-program-p2">
                     <p>
-                        Indoor sales occur within physical premises or online, with direct 
-                        customer interaction. Outdoor sales involve field activities, reaching 
-                        clients at various locations. Both methods are vital for sales success, 
-                        depending on business objectives and target audience.
+                        @lang('public.career 28')
                     </p>
                 </div>
             </div>
@@ -1281,11 +1260,11 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div style="display: flex;width:335px;justify-content: space-between;">
@@ -1307,24 +1286,24 @@
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">CAPABILITY</p>
+                    <p class="cap-p-p">@lang('public.career 5.3')</p>
                     <br>
-                    <p class="goodon-p">GOOD ON</p>
+                    <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        Adaptability <br><br>
-                        Problem-Solving <br><br>
-                        Independence <br><br>
-                        Communication <br><br>
+                        @lang('public.career 15') <br><br>
+                        @lang('public.career 6') <br><br>
+                        @lang('public.career 11') <br><br>
+                        @lang('public.career 8') <br><br>
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -1336,9 +1315,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -1352,16 +1331,16 @@
             <div class="container-req-mobile" style="padding: 20px 30px;">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
                     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;justify-items: center;grid-column-gap: 20px;">
                         <div>
-                            <p>COMMUNICATION</p>
+                            <p>@lang('public.career 12')</p>
                         </div>
                         <div>
                             <p>CUSTOMER SERVICE</p>
@@ -1385,20 +1364,20 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
-                        <p>PROBLEM SOLVING</p>
-                        <p>INDEPENDENCE</p>
-                        <p>COMMUNICATION</p>
-                        <p>ADAPTABILITY</p>
+                        <p>@lang('public.career 6')</p>
+                        <p>@lang('public.career 7')</p>
+                        <p>@lang('public.career 8')</p>
+                        <p>@lang('public.career 15')</p>
                     </div>
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DIPLOMA <br>&<br> DEGREE</p>
@@ -1406,8 +1385,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>1</p>
@@ -1427,19 +1406,15 @@
                     <div class="career-col2">
                         <a href="{{ route('support') }}" class="explore-link">
                             <button class="btn-apply">
-                                <span>APPLY NOW</span>
+                                <span>@lang('public.career 3.1')</span>
                             </button>
                         </a>
                     </div>
-                    <p>Internship</p>
+                    <p>@lang('public.career 29')</p>
                 </div>
                 <div class="it-program-p2">
                     <p>
-                        An internship is a temporary work opportunity provided by companies 
-                        or organizations to students or recent graduates, offering them 
-                        practical experience in a specific field. Interns gain valuable skills, 
-                        apply theoretical knowledge, and explore potential career paths while 
-                        contributing to the company's projects and activities.
+                        @lang('public.career 30')
                     </p>
                 </div>
             </div>
@@ -1467,51 +1442,51 @@
             <div class="career-col3">
                 <div class="career-req-p">
                     <p class="career-req-p1">
-                        CAPABILITY
+                        @lang('public.career 5.3')
                     </p>
                     <br>
                     <p class="career-req-p2">
-                        GOOD ON
+                        @lang('public.career 5.4')
                     </p>
                 </div>
                 <div style="display: flex;width:315px;justify-content: space-between;">
                     <div class="ctgry-p">
                         <div class="container">
-                            <p>ADAPTABILITY</p>
-                            <p>PROBLEM SOLVING</p>
-                            <p>COMMUNICATION</p>
-                            <p>INDEPENDENCE</p>
+                            <p>@lang('public.career 15')</p>
+                            <p>@lang('public.career 6')</p>
+                            <p>@lang('public.career 8')</p>
+                            <p>@lang('public.career 7')</p>
                         </div>
                     </div>
                     <div class="ctgry-p">
                         <div class="container">
-                            <p>AGGRESSIVE</p>
-                            <p>LEARNING</p>
-                            <p>HARDWORKING</p>
-                            <p>SELF-CONFIDENCE</p>
+                            <p>@lang('public.career 9')</p>
+                            <p>@lang('public.career 17')</p>
+                            <p>@lang('public.career 18')</p>
+                            <p>@lang('public.career 19')</p>
                         </div>
                     </div>
                 </div>  
             </div>
             <div class="career-col4">
                 <div class="cap-p">
-                    <p class="cap-p-p">SKILL</p>
+                    <p class="cap-p-p">@lang('public.career 5.1')</p>
                     <br>
-                    <p class="goodon-p">MIN REQUIREMENT</p>
+                    <p class="goodon-p">@lang('public.career 5.2')</p>
                 </div>
                 <div class="cap-ctgry-p">
                     <p>
-                        IT Programmer <br><br>
-                        UI / UX Desiner <br><br>
-                        Marketing Design 
+                        IT PROGRAMMER <br><br>
+                        UI / UX DESIGNER <br><br>
+                        MARKETING DESIGN
                     </p>
                 </div>
             </div>
             <div class="career-col5">
                 <div class="cap-p">
-                    <p class="cap-p-p">EDUCATION</p>
+                    <p class="cap-p-p">@lang('public.career 5.5')</p>
                     <br>
-                    <p class="goodon-p">QUALIFICATION</p>
+                    <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
                     <p>
@@ -1521,9 +1496,9 @@
             </div>
             <div class="career-col6">
                 <div class="cap-p">
-                    <p class="cap-p-p">EXPERIENCES</p>
+                    <p class="cap-p-p">@lang('public.career 5.7')</p>
                     <br>
-                    <p class="goodon-p">MIN YEAR</p>
+                    <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
                     <p>
@@ -1537,10 +1512,10 @@
             <div class="container-req-mobile" style="padding: 20px 30px;">
                 <div>
                     <p class="skill-word1">
-                        SKILLS
+                        @lang('public.career 5.1')
                     </p>
                     <p class="skill-word2">
-                        MIN REQUIREMENT
+                        @lang('public.career 5.2')
                     </p>
                 </div>
                 <div class="container-req-item">
@@ -1576,8 +1551,8 @@
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                 <div class="container-req-mobile-2">
                     <div>
-                        <p class="skill-word1">CAPABILITY</p>
-                        <p class="skill-word2">GOOD ON</p>
+                        <p class="skill-word1">@lang('public.career 5.3')</p>
+                        <p class="skill-word2">@lang('public.career 5.4')</p>
                     </div>
                     <div class="container-req-item-2">
                         <p>IT PROGRAMMER</p>
@@ -1587,8 +1562,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EDUCATION</p>
-                        <p class="skill-word2">QUALIFICATION</p>
+                        <p class="skill-word1">@lang('public.career 5.5')</p>
+                        <p class="skill-word2">@lang('public.career 5.6')</p>
                     </div>
                     <div class="container-req-item-2-1">
                         <p>DEGREE</p>
@@ -1596,8 +1571,8 @@
                 </div>
                 <div class="container-req-mobile-2-2">
                     <div>
-                        <p class="skill-word1">EXPERIENCE</p>
-                        <p class="skill-word2">MIN YEAR</p>
+                        <p class="skill-word1">@lang('public.career 5.7')</p>
+                        <p class="skill-word2">@lang('public.career 5.8')</p>
                     </div>
                     <div class="container-req-item-2-2">
                         <p>0</p>
@@ -1612,10 +1587,8 @@
 
     <div class="career7">
         <p>
-            Join us on an exciting journey towards endless possibilities and growth. Embrace diverse 
-            career opportunities, unleash your potential, and become part of a supportive community 
-            that values lifelong learning and personal fulfillment. Let's build a brighter future together. 
-            <br>Apply now at <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
+            @lang('public.career 31')
+            <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
         </p>
     </div>
 </div>

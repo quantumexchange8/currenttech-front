@@ -373,15 +373,13 @@
 <div class="main-content13" style="margin-top: 160px">
     <div class="report1">
         <p>
-            Data-driven strategy and efficient workforce management
+            @lang('public.report 1')
         </p>
     </div>
     <div class="mobile-alignment-30px">
         <div class="report2">
             <p>
-                Included benefits, implementation, analytics, strategic decision-making, performance 
-                measurement, ethics, and case studies for a competitive advantage and organisational 
-                success.
+                @lang('public.report 2')
             </p>
         </div>
     </div>
@@ -397,7 +395,7 @@
     <div class="mobile-alignment-30px">
         <div class="report4">
             <p>
-                A Comprehensive Analysis and Report
+                @lang('public.report 3')
             </p>
         </div>
     </div>
@@ -411,19 +409,12 @@
             <div class="report5-col2">
                 <p class="report-enhancing-p1">
                     <span class="exp-color">
-                    Enhancing Clarity and
-                    Visibility of Key Metrics
+                        @lang('public.report 4')
                     </span>
                 </p>
 
                 <p class="report-data-p1">
-                    Data enables real-time <br>
-                    monitoring of business metrics, <br>
-                    sales, and goals. Insights into <br>
-                    team efficiency, challenges, and <br>
-                    employee contributions empower <br>
-                    agile adjustments and drive <br>
-                    sustainable company growth.
+                    @lang('public.report 5')
                 </p>
             </div>
         </div>
@@ -438,19 +429,12 @@
             <div class="report-col3">
                 <p class="report-app-p2">
                     <span class="exp-color">
-                    Apps for Management
-                    Team
+                        @lang('public.report 6')
                     </span>
                 </p>
 
                 <p class="report-data-p2">
-                    Data enables real-time <br>
-                    monitoring of business metrics, <br>
-                    sales, and goals. Insights into <br>
-                    team efficiency, challenges, and <br>
-                    employee contributions empower <br>
-                    agile adjustments and drive <br>
-                    sustainable company growth.
+                    @lang('public.report 7')
                 </p>
             </div>
             <div class="report-col4">
@@ -473,19 +457,12 @@
             <div class="report7-col6">
                 <p class="report-unveil-p2">
                     <span class="exp-color">
-                    Unveiling the <br>
-                    Power of Data
+                        @lang('public.report 8')
                     </span>
                 </p>
 
                 <p class="report-data-p3">
-                    Data's potential is transformative. <br>
-                    It empowers decision-making, <br>
-                    personalization, predictive <br>
-                    analytics, and AI advancements. <br>
-                    Ethical handling and skilled data <br>
-                    scientists are vital.<br>
-                    A data-driven future awaits.
+                    @lang('public.report 9')
                 </p>
             </div>
         </div>
@@ -500,17 +477,12 @@
             <div class="report-container">
                 <div>
                     <p class="enhance-purple">
-                        Enhancing Clarity and Visibility
-                        of Key Metrics
+                        @lang('public.report 4')
                     </p>
                 </div>
                 <div>
                     <p class="enhance-black">
-                        Data enables real-time monitoring of 
-                        business metrics, sales, and goals. 
-                        Insights into team efficiency, challenges, 
-                        and employee contributions empower agile adjustments and drive 
-                        sustainable company growth.
+                        @lang('public.report 5')
                     </p>
                 </div>
                 <div>
@@ -522,14 +494,12 @@
             <div class="report-container">
                 <div>
                     <p class="enhance-purple">
-                        Apps for Management<br>Team
+                        @lang('public.report 6')
                     </p>
                 </div>
                 <div>
                     <p class="enhance-black">
-                        Data enables real-time monitoring of business metrics, sales, and goals. 
-                        Insights into team efficiency, challenges, and employee contributions empower 
-                        agile adjustments and drive sustainable company growth.
+                        @lang('public.report 7')
                     </p>
                 </div>
                 <div>
@@ -541,14 +511,12 @@
             <div class="report-container">
                 <div>
                     <p class="enhance-purple">
-                        Unveiling the Power of<br>Data
+                        @lang('public.report 8')
                     </p>
                 </div>
                 <div>
                     <p class="enhance-black" style="margin-bottom:29px;">
-                        Data's potential is transformative.
-                        It empowers decision-making, personalization, predictive analytics, and AI advancements. 
-                        Ethical handling and skilled data scientists are vital. A data-driven future awaits.
+                        @lang('public.report 9')
                     </p>
                 </div>
                 <div>
@@ -576,9 +544,7 @@
     <div class="mobile-alignment-30px">
         <div class="report8">
             <p>
-                By providing accurate reports and analytics
-                at the opportune moment, we enable informed
-                decision-making and improved insights.
+                @lang('public.report 10')
             </p>
         </div>
     </div>
@@ -598,7 +564,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Attendance
+                        @lang('public.report 11')
                     </p>
                 </div>
             </div>
@@ -613,7 +579,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:177px">
-                        Leave Management
+                        @lang('public.report 12')
                     </p>
                 </div>
             </div>
@@ -628,7 +594,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:213px">
-                        Performance
+                        @lang('public.report 13')
                     </p>
                 </div>
             </div>
@@ -643,7 +609,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:108px">
-                        Recruitment
+                        @lang('public.report 14')
                     </p>
                 </div>
             </div>
@@ -660,7 +626,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:115px">
-                        Work Quality
+                        @lang('public.report 15')
                     </p>
                 </div>
             </div>
@@ -675,7 +641,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:177px">
-                        Work Progress
+                        @lang('public.report 16')
                     </p>
                 </div>
             </div>
@@ -690,7 +656,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:213px">
-                        Problem-solving
+                        @lang('public.report 17')
                     </p>
                 </div>
             </div>
@@ -705,7 +671,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:108px">
-                        Competencies
+                        @lang('public.report 18')
                     </p>
                 </div>
             </div>
@@ -722,7 +688,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:115px">
-                        Productivity
+                        @lang('public.report 19')
                     </p>
                 </div>
             </div>
@@ -737,7 +703,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:177px">
-                        Teamwork
+                        @lang('public.report 20')
                     </p>
                 </div>
             </div>
@@ -752,7 +718,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:213px">
-                        Sales Volume
+                        @lang('public.report 21')
                     </p>
                 </div>
             </div>
@@ -767,7 +733,7 @@
                 </div>
                 <div>
                     <p class="report-p2" style="width:108px">
-                        Target
+                        @lang('public.report 22')
                     </p>
                 </div>
             </div>
@@ -787,7 +753,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Attendance
+                        @lang('public.report 11')
                     </p>
                 </div>
             </div>
@@ -802,7 +768,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Leave Management
+                        @lang('public.report 12')
                     </p>
                 </div>
             </div>
@@ -817,7 +783,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Performance
+                        @lang('public.report 13')
                     </p>
                 </div>
             </div>
@@ -832,7 +798,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Recruitment
+                        @lang('public.report 14')
                     </p>
                 </div>
             </div>
@@ -847,7 +813,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Work Quality
+                        @lang('public.report 15')
                     </p>
                 </div>
             </div>
@@ -862,7 +828,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Work Progress
+                        @lang('public.report 16')
                     </p>
                 </div>
             </div>
@@ -877,7 +843,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Problem-solving
+                        @lang('public.report 17')
                     </p>
                 </div>
             </div>
@@ -892,7 +858,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Competencies
+                        @lang('public.report 18')
                     </p>
                 </div>
             </div>
@@ -907,7 +873,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Productivity
+                        @lang('public.report 19')
                     </p>
                 </div>
             </div>
@@ -922,7 +888,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Teamwork
+                        @lang('public.report 20')
                     </p>
                 </div>
             </div>
@@ -937,7 +903,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Sales Volume
+                        @lang('public.report 21')
                     </p>
                 </div>
             </div>
@@ -952,7 +918,7 @@
                 </div>
                 <div>
                     <p class="report-p2">
-                        Target
+                        @lang('public.report 22')
                     </p>
                 </div>
             </div>

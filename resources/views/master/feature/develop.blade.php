@@ -283,17 +283,14 @@
 <div class="main-content11" style="margin-top: 160px">
     <div class="develop1">
         <p class="employ-p1">
-            Employee development is vital
-            for a company's success
+            @lang('public.develop 1')
         </p>
     </div>
 
     <div class="mobile-alignment-30px">
         <div class="develop2" style="margin-bottom: 88px;">
             <p class="employ-p2">
-                Employee growth is crucial for a company's success, enhances productivity, innovation, 
-                retention, adaptability, and leadership, fostering a positive work environment and 
-                competitive advantage.
+                @lang('public.develop 2')
             </p>
         </div>
     </div>
@@ -309,7 +306,7 @@
 
     <div class="develop4">
         <p>
-            The Power of Learning and Development
+            @lang('public.develop 3')
         </p>
     </div>
 
@@ -320,15 +317,10 @@
             
             <div>
                 <p class="effec-mobile">
-                    <span class="effec-mobile-purple">Effective<br> Knowledge Transfer</span>
+                    <span class="effec-mobile-purple">@lang('public.develop 4')</span>
                     <br>
                     <br>
-                    Efficiently sharing expertise
-                    and insights within an
-                    organization to enhance performance, continuity,
-                    and overall effectiveness.
-                    Systematic knowledge
-                    transfer benefits growth.
+                    @lang('public.develop 5')
                 </p>
             </div>
         </div>
@@ -336,15 +328,10 @@
         <div class="effective-container-new" style="margin-bottom: 38px;">
             <div>
                 <p class="effec-mobile-left">
-                    <span class="effec-mobile-purple">Career<br> Development</span>
+                    <span class="effec-mobile-purple">@lang('public.develop 6')</span>
                     <br>
                     <br>
-                    Advancing one's skills and experiences to pursue
-                    professional goals and
-                    improve job prospects.
-                    Career development
-                    fosters personal growth
-                    and success.
+                    @lang('public.develop 7')
                 </p>
             </div>
             {{-- <object type="image/svg+xml" data="assets/image/feature/develop/6.svg"></object> --}}
@@ -358,12 +345,10 @@
             
             <div>
                 <p class="effec-mobile">
-                    <span class="effec-mobile-purple">Ongoing training<br>and workshops</span>
+                    <span class="effec-mobile-purple">@lang('public.develop 8')</span>
                     <br>
                     <br>
-                    Regular training sessions
-                    and workshops keep employees updated with
-                    new skills and knowledge, ensuring their continuous professional development.
+                    @lang('public.develop 9')
                 </p>
             </div>
         </div>
@@ -378,17 +363,11 @@
                 <p>
                     <span>
                         <span class="exp-color">
-                        Effective<br>
-                        Knowledge Transfer
+                            @lang('public.develop 4')
                         </span>
                     </span>
                     <br>
-                    Efficiently sharing expertise
-                    and insights within an
-                    organization to enhance performance, continuity, and
-                    overall effectiveness.
-                    Systematic knowledge
-                    transfer benefits growth.
+                    @lang('public.develop 5')
                 </p>
             </div>
             
@@ -403,17 +382,10 @@
             <p>
                 <span>
                     <span class="exp-color">
-                    Career <br>
-                    Development
+                        @lang('public.develop 6')
                     </span>
                 </span><br>
-                Advancing one's skills and 
-                experiences to pursue 
-                professional goals and 
-                improve job prospects. 
-                Career development fosters 
-                personal growth and 
-                success.
+                @lang('public.develop 7')
             </p>
         </div>
     </div>
@@ -426,16 +398,10 @@
                 <p>
                     <span>
                         <span class="exp-color">
-                        Ongoing training<br> 
-                        and workshops
+                            @lang('public.develop 8')
                         </span>
                     </span><br>
-                    Regular training sessions <br>
-                    and workshops keep <br>
-                    employees updated with <br>new 
-                    skills and knowledge, <br>
-                    ensuring their continuous <br>
-                    professional development.
+                    @lang('public.develop 9')
                 </p>
             </div>
         </div>
@@ -444,18 +410,14 @@
 
     <div class="develop8">
         <p>
-            By introducing the appropriate tasks at the<br>
-            optimal moment, we facilitate effective<br>
-            development and growth.
+            @lang('public.develop 10')
         </p>
     </div>
 
     <div class="mobile-alignment-30px">
         <div class="develop8-mobile">
             <p>
-                By introducing the appropriate tasks at the
-                optimal moment, we facilitate effective
-                development and growth.
+                @lang('public.develop 10')
             </p>
         </div>
     </div>
@@ -480,7 +442,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Productivity
+                        @lang('public.develop 11')
                     </p>
                 </div>
             </div>
@@ -502,7 +464,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Teamwork
+                        @lang('public.develop 12')
                     </p>
                 </div>
             </div>
@@ -523,7 +485,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Sales Volume
+                        @lang('public.develop 13')
                     </p>
                 </div>
             </div>
@@ -544,7 +506,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Performance
+                        @lang('public.develop 14')
                     </p>
                 </div>
             </div>

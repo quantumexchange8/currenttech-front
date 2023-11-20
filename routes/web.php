@@ -52,3 +52,4 @@ Route::get('/sectors', [SectorController::class, 'sector'])->name('sector');
 
 Route::get('/career', [CareerController::class, 'career'])->name('career');
 
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);

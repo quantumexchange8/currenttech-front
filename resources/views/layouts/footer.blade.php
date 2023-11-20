@@ -10,53 +10,49 @@
                     <br>
                     <br>
                     <p class="ft-desc">
-                        Current Tech Industries is a leading technology<br>
-                        solutions development provider.<br>
-                        Founded in 2006, with a primary focus on technology development and distribution, the company is dedicated to driving innovative solutions for digital transformation. By offering cutting-edge IT solutions,<br>
-                        Current Tech Industries aims to meet the diverse needs of its partners and customers.
+                        @lang('public.footer 1')
                     </p>
                     <br>
                     <br>
                     <p class="ft-copyright">
-                        Copyright ©
-                        Current Tech Industries 2023. All rights reserved.
+                        @lang('public.footer 2')
                     </p>
                 </div>
             </div>
 
             <div class="desc-content-row2-main">
                 <div class="desc-content-col2">
-                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">Products</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">@lang('public.footer 3')</b>
                     <br>
                     <br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('possystem') }}">POS System</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('webapp') }}">Web & App</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('brokerage') }}">Brokerage Setup</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('expert') }}">Expert Advisor</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('web3') }}">Web 3.0</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('possystem') }}">@lang('public.footer 3.1')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('webapp') }}">@lang('public.footer 3.2')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('brokerage') }}">@lang('public.footer 3.3')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('expert') }}">@lang('public.footer 3.4')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('web3') }}">@lang('public.footer 3.5')</a><br>
                 </div>
 
                 <div class="desc-content-col3">
-                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">Features</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">@lang('public.footer 4')</b>
                     <br>
                     <br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('performance') }}">Performance</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('reward') }}">Reward Program</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('develop') }}">Develop & Learn</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('hrmanage') }}">HR Management</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('report') }}">Reporting & Analytics</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('performance') }}">@lang('public.footer 4.1')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('reward') }}">@lang('public.footer 4.2')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('develop') }}">@lang('public.footer 4.3')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('hrmanage') }}">@lang('public.footer 4.4')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('report') }}">@lang('public.footer 4.5')</a><br>
                 </div>
 
                 <div class="desc-content-col4">
-                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">Sectors</b>
+                    <b style="font-size: 14px;color: #FFF;font-family: SF Pro Text;">@lang('public.footer 5')</b>
                     <br>
                     <br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Retails & Service</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Food & Beverage</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Logistic</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Wholesale</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Automotive</a><br>
-                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">Education</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.1')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.2')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.3')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.4')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.5')</a><br>
+                    <a class="explore-link" style="font-size: 12px;" href="{{ route('sector') }}">@lang('public.footer 5.6')</a><br>
                 </div>
             </div>
 
@@ -64,11 +60,11 @@
                 <div class="desc-content-col5">
                     <div class="desc-content-row2">
                         <div class="desc-content-col6">
-                            <p>Subscribe to our newsletter</p>
+                            <p>@lang('public.footer 6')</p>
                             <form method="POST" action="{{ route('subscribe') }}">
                                 @csrf
                                 <div class="input-group" style="position: relative;">
-                                    <input type="email" name="email" class="form-control-email" placeholder="Your Email" required>
+                                    <input type="email" name="email" class="form-control-email" placeholder="{{ __('public.footer 7') }}" required>
                                     <div class="input-group-append">
                                         <button type="submit" class="btn btn-primary" style="position: absolute;right: 10px;top: 17px;background: transparent;border: none;">
                                             <img src="assets/image/home/envelope.svg" alt="Subscribe" style="transform: translateY(-50%);">
@@ -89,7 +85,7 @@
                         </div><br><br>
                         @endif
                         <div class="desc-content-col7">
-                            <p>Connect with us</p>
+                            <p>@lang('public.footer 8')</p>
                             <br>
                             <div class="social-row">
                                 <div class="social-item1">
@@ -128,7 +124,7 @@
                         <div class="desc-content-col8">
                             <div class="abtus">
                                 <a href="{{ route('support') }}" style="text-decoration: none;">
-                                    <p>About Career</p>
+                                    <p>@lang('public.footer 9')</p>
                                 </a>
                                 
                             </div>

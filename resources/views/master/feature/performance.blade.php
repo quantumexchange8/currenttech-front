@@ -196,18 +196,14 @@
 <div class="main-content9" style="margin-top:160px;">
     <div class="perform1">
         <p class="building-p1">
-            Building Success
-            Unleashing the Power of Performance
+            @lang('public.performance 1')
         </p>
 
         
     </div>
     <div class="perform2">
         <p class="through-p2">
-            Through the integration of diverse management tools like KPIs, OKRs, and point systems, 
-            organizations can establish transparency in goal-setting, enhance visibility of progress, 
-            and exert greater control over performance. This comprehensive approach facilitates the 
-            improvement of overall performance and operational efficiency within enterprises.
+            @lang('public.performance 2')
         </p>
     </div>
 
@@ -225,15 +221,12 @@
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 {{-- <div> --}}
                     <p class="emphasise-p1">
-                        Emphasise Well Defined Goals
+                        @lang('public.performance 3')
                     </p>
                 {{-- </div> --}}
                 {{-- <div> --}}
                     <p class="emphasise-p2">
-                        Set clear objectives for focused efforts. Provide
-                        results-oriented guidance to achieve desired 
-                        outcomes, maximising productivity and success in 
-                        endeavours.
+                        @lang('public.performance 4')
                     </p>
                 {{-- </div> --}}
             </div>
@@ -253,18 +246,12 @@
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
                     <p class="sales-p1">
-                        Sales Commissions on
-                        Motivation
+                        @lang('public.performance 5')
                     </p>
                 </div>
                 <div>
                     <p class="sales-p2">
-                        Sales incentives motivate, 
-                        drive goal-oriented 
-                        performance, and balance 
-                        short-term objectives with 
-                        long-term growth while 
-                        prioritising customers.
+                        @lang('public.performance 6')
                     </p>
                 </div>
             </div>
@@ -276,15 +263,12 @@
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
                     <p class="encourage-p1">
-                        Promote competitiveness for better results.
+                        @lang('public.performance 7')
                     </p>
                 </div>
                 <div>
                     <p class="encourage-p2">
-                        Promoting constructive competition can
-                        enhance performance, innovation, accountability, to
-                        create a supportive and productive
-                        work environment.
+                        @lang('public.performance 8')
                     </p>
                 </div>
             </div>
@@ -304,14 +288,12 @@
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 {{-- <div > --}}
                     <p class="indispensable-p1">
-                        The Essential Function of a Sales Support Team.
+                        @lang('public.performance 9')
                     </p>
                 {{-- </div>
                 <div> --}}
                     <p class="indispensable-p2">
-                        A robust support team empowers sales teams with 
-                        tools, streamlined processes, and customer-centric 
-                        assistance, driving success, motivation, and growth.
+                        @lang('public.performance 10')
                     </p>
                 {{-- </div> --}}
             </div>
@@ -324,13 +306,12 @@
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
                     <p class="display-p1">
-                        Demonstrate skill and surpass performance.
+                        @lang('public.performance 11')
                     </p>
                 </div>
                 <div>
                     <p class="display-p2">
-                        Embrace growth, innovation, and customer-centricity to demonstrate strength,
-                         surpass mediocrity, and achieve excellence in personal and organisational endeavour.
+                        @lang('public.performance 12')
                     </p>
                 </div>
             </div>
@@ -344,7 +325,7 @@
     <div class="mobile-alignment-30px">
         <div class="perform6">
             <p class="discover-p">
-                Discover the Potential of Your Company to Achieve Performance and Growth
+                @lang('public.performance 13')
             </p>
         </div>
     </div>
@@ -369,7 +350,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Productivity
+                        @lang('public.performance 14')
                     </p>
                 </div>
             </div>
@@ -391,7 +372,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Teamwork
+                        @lang('public.performance 15')
                     </p>
                 </div>
             </div>
@@ -412,7 +393,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Sales Volume
+                        @lang('public.performance 16')
                     </p>
                 </div>
             </div>
@@ -433,7 +414,7 @@
                 </div>
                 <div>
                     <p class="perform-psmall">
-                        Performance
+                        @lang('public.performance 17')
                     </p>
                 </div>
             </div>

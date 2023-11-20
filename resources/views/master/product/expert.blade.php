@@ -427,18 +427,14 @@
     <div class="main-content4" style="margin-top:160px;">
         <div class="exprt-1">
             <p class="expert-p-word">
-                Choose Your Expert Advisor
+                @lang('public.expert 1')
             </p>
         </div>
 
         <div class="exprt-2">
             <div class="mobile-alignment-30px">
                 <p class="expert-p-word2">
-                    We are an Expert Advisor Builder. Our EA is designed to take advantage of market 
-                    fluctuations, thereby enhancing the potential for profitable trades while minimizing risks. 
-                    Our EA supports cTrader, MetaTrader 4, and MetaTrader 5 platforms. It provides traders 
-                    with powerful tools and strategies to enhance their trading experience and
-                    achieve better results.
+                    @lang('public.expert 2')
                 </p>
             </div>
         </div>
@@ -448,10 +444,10 @@
                 <img src="assets/image/product/expert/9.svg">
                 <div style="display: flex;justify-content: center;">
                     <p class="medusa-p">
-                        &bull; Hedging Strategy <br>
-                        &bull; 0 Time Delay <br>
-                        &bull; Up-to 10 products <br>
-                        &bull; Semi Auto
+                        &bull; @lang('public.expert 2.1') <br>
+                        &bull; @lang('public.expert 2.2')<br>
+                        &bull; @lang('public.expert 2.3') <br>
+                        &bull; @lang('public.expert 2.4')
                       </p>
                 </div>
             </div>
@@ -459,10 +455,10 @@
                 <img src="assets/image/product/expert/10.svg">
                 <div style="display: flex;justify-content: center;">
                     <p class="mercury-p">
-                        &bull; Signal Detect <br>
-                        &bull; 0 Times Delay <br>
-                        &bull; Unlimited products <br>
-                        &bull; Fully Auto
+                        &bull; @lang('public.expert 2.5') <br>
+                        &bull; @lang('public.expert 2.6') <br>
+                        &bull; @lang('public.expert 2.7') <br>
+                        &bull; @lang('public.expert 2.8')
                     </p>
                 </div>
             </div>
@@ -477,13 +473,7 @@
                     MEDUSA
                 </p>
                 <p class="medusa-p5">
-                    The Medusa Expert Advisor is an automated 
-                    trading robot for the Forex market. It employs 
-                    a hedging strategy to protect positions from  
-                    adverse price movements. The EA uses 
-                    predefined rules and indicators to open 
-                    hedge positions and manages them with 
-                    stop-loss and take-profit levels.
+                    @lang('public.expert 3')
                 </p>
             </div>
         </div>
@@ -506,7 +496,7 @@
                             <p class="word-big">76.8%</p>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Accuracy Up to</p>
+                            <p class="word-small">@lang('public.expert 4')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -516,7 +506,7 @@
                             
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 5')</p>
                         </div>
                     </div>
                 </div>
@@ -534,7 +524,7 @@
                             <p class="word-big">81.2%</p>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Accuracy Up to</p>
+                            <p class="word-small">@lang('public.expert 4')</p>
                         </div>
                         <div>
                             <div class="word-img" >
@@ -544,7 +534,7 @@
                             
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 5')</p>
                         </div>
                     </div>
                 </div>
@@ -565,15 +555,7 @@
                     MERCURY
                 </p>
                 <p class="medusa-p5">
-                    The Mercury Expert Advisor's trading 
-                    strategies utilize technical indicators or price 
-                    action analysis. Indicator-based approaches 
-                    involve mathematical calculations from 
-                    historical price data, while price action 
-                    strategies interpret actual chart movements. 
-                    Both methods inform trading decisions, 
-                    offering potential opportunities for successful 
-                    trading.
+                    @lang('public.expert 7')
                 </p>
             </div>
         </div>
@@ -597,7 +579,7 @@
                             <p class="word-big">79.3%</p>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Accuracy Up to</p>
+                            <p class="word-small">@lang('public.expert 4')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -607,7 +589,7 @@
                             </div>
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 5')</p>
                         </div>
                     </div>
                 </div>
@@ -625,7 +607,7 @@
                             <p class="word-big">84.6%</p>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Accuracy Up to</p>
+                            <p class="word-small">@lang('public.expert 4')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -635,7 +617,7 @@
                             </div>
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 5')</p>
                         </div>
                     </div>
                 </div>
@@ -660,15 +642,7 @@
                     RAGNAROK
                 </p>
                 <p class="ragnarok-p1">
-                    Ragnarok is a fund management system 
-                    combines PAMM and Copy Trading, allowing 
-                    professional traders to manage pooled funds 
-                    (PAMM) and enabling others to automatically 
-                    copy their trades. This 
-                    integrated platform enhances investment 
-                    opportunities, optimizes risk management, and 
-                    fosters collaboration between traders and 
-                    investors.
+                    @lang('public.expert 8')
                 </p>
             </div>
         </div>
@@ -692,7 +666,7 @@
                             <p class="word-big">50+</p>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Investor Accounts</p>
+                            <p class="word-small">@lang('public.expert 9')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -700,7 +674,7 @@
                             </div>
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom:138px">
-                            <p class="word-small">Support</p>
+                            <p class="word-small">@lang('public.expert 10')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -710,7 +684,7 @@
                             </div>
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 11')</p>
                         </div>
                     </div>
                 </div>
@@ -728,7 +702,7 @@
                             <img src="assets/image/product/expert/infinity.png" class="infinity-img">
                         </div>
                         <div class="mobile-margin-bottom" style="margin-bottom: 136px">
-                            <p class="word-small">Investor Accounts</p>
+                            <p class="word-small">@lang('public.expert 9')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -737,7 +711,7 @@
                             </div>
                         </div>
                         <div class="mobile-margin-bottom"    style="margin-bottom:138px">
-                            <p class="word-small">Support</p>
+                            <p class="word-small">@lang('public.expert 10')</p>
                         </div>
                         <div>
                             <div class="word-img">
@@ -747,7 +721,7 @@
                             </div>
                         </div>
                         <div>
-                            <p class="word-small">Trading Platform</p>
+                            <p class="word-small">@lang('public.expert 11')</p>
                         </div>
                     </div>
                 </div>

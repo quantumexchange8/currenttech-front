@@ -562,12 +562,12 @@
 <div class="main-content" style="margin-top: 160px">
     <div class="pos-row1">
         <p class="tranpos-p">
-            Transforming Restaurants with our Dynamic POS System
+            @lang('public.pos 1')
         </p>
     </div>
     
     <div class="pos-row2">
-        <p class="order-p">Order - Serve - Succeed</p>
+        <p class="order-p"> @lang('public.pos 2')</p>
     </div>
     
     <div class="pos-row3">
@@ -577,8 +577,7 @@
     <div class="pos-row4">
         <div class="mobile-alignment-30px">
             <p class="ignite-p1">
-                Ignite Your Restaurant's Potential with Our
-                Next-Gen POS System
+                @lang('public.pos 3')
             </p>
         </div>
     </div>
@@ -586,9 +585,7 @@
     <div class="pos-row5">
         <div class="mobile-alignment-30px">
             <p class="streamline-p">
-                Streamline operations, elevate service, and boost profitability with our advanced POS 
-                system for restaurants. From order management to inventory control, enhance the dining 
-                experience and stay ahead of the competition.
+                @lang('public.pos 4')
             </p>
         </div>
     </div>
@@ -597,12 +594,9 @@
     <div class="pos-row6">
         <div style="display: flex;align-items: center;margin-bottom:136px;justify-content: center;">
             <div style="display: flex; flex-direction:column">
-                <div><p class="software-p1">Software</p></div>
+                <div><p class="software-p1"> @lang('public.pos 5')</p></div>
                 <div style="width:760px">
-                    <p class="software-p2">Software offers intuitive and customizable features
-                        like inventory management, sales analytics, payment processing,
-                        and CRM integration, ensuring efficient and secure operations for
-                        businesses of all sizes.
+                    <p class="software-p2"> @lang('public.pos 5.1')
                     </p>
                 </div>
             </div>
@@ -613,12 +607,9 @@
 
         <div style="display: flex;align-items: center;margin-bottom:136px;justify-content: center;">
             <div style="display: flex; flex-direction:column;">
-                <div><p class="software-p1">Hardware</p></div>
+                <div><p class="software-p1"> @lang('public.pos 6')</p></div>
                 <div style="width:760px">
-                    <p class="hardware-p2">Hardware offers durable and reliable components,
-                        including touchscreen interface, fast barcode scanning, secure 
-                        payment processing, integration capabilities, and easy maintenance
-                        for streamlined and efficient operations.
+                    <p class="hardware-p2"> @lang('public.pos 7')
                     </p>
                 </div>
             </div>
@@ -627,13 +618,10 @@
 
         <div style="display: flex;align-items: center;margin-bottom:136px;justify-content: center;">
             <div style="display: flex; flex-direction:column;">
-                <div><p class="software-p1">Payment</p></div>
+                <div><p class="software-p1"> @lang('public.pos 8')</p></div>
                 <div style="width:760px">
                     <p class="hardware-p2">
-                        Our POS system offers secure and versatile payment options, seamless 
-                        integration with popular gateways, mobile payment solutions, real-time 
-                        tracking, and industry-standard compliance, providing businesses with 
-                        a comprehensive solution for streamlined transactions.
+                        @lang('public.pos 9')
                     </p>
                 </div>
             </div>
@@ -665,16 +653,13 @@
                     </div>
                     <div>
                         <p class="software-header">
-                            Software
+                            @lang('public.pos 5')
                         </p>
                     </div>
                 </div>
                 <div>
                     <p class="software-content-mobile">
-                        Software offers intuitive and customizable features
-                        like inventory management, sales analytics, payment processing,
-                        and CRM integration, ensuring efficient and secure operations for
-                        businesses of all sizes.
+                        @lang('public.pos 5.1')
                     </p>
                 </div>
             </div>
@@ -686,16 +671,13 @@
                     </div>
                     <div>
                         <p class="software-header">
-                            Hardware
+                            @lang('public.pos 6')
                         </p>
                     </div>
                 </div>
                 <div>
                     <p class="software-content-mobile">
-                        Hardware offers durable and reliable components,
-                        including touchscreen interface, fast barcode scanning, secure 
-                        payment processing, integration capabilities, and easy maintenance
-                        for streamlined and efficient operations.
+                        @lang('public.pos 7')
                     </p>
                 </div>
             </div>
@@ -707,16 +689,13 @@
                     </div>
                     <div>
                         <p class="software-header">
-                            Payment
+                            @lang('public.pos 8')
                         </p>
                     </div>
                 </div>
                 <div>
                     <p class="software-content-mobile">
-                        Our POS system offers secure and versatile payment options, seamless 
-                        integration with popular gateways, mobile payment solutions, real-time 
-                        tracking, and industry-standard compliance, providing businesses with 
-                        a comprehensive solution for streamlined transactions.
+                        @lang('public.pos 9')
                     </p>
                 </div>
             </div>
@@ -726,14 +705,11 @@
     <div class="pos-row7">
         <div class="mobile-alignment-30px">
             <p class="simplify-p">
-                Simplify Operations and
-                Supercharge Sales with our POS Solution
+                @lang('public.pos 10')
             </p>
 
             <p class="simplify-p2">
-                The right POS system can revolutionise the way your big business 
-                operates, providing the tools and insights needed to flourish in a 
-                dynamic marketplace.
+                @lang('public.pos 11')
             </p>
         </div>
         
@@ -784,9 +760,7 @@
     <div class="pos-row10">
         <div class="mobile-alignment-30px">
             <p class="chooose-p">
-                Choosing the right POS system is crucial for any business, as it can greatly impact 
-                efficiency, customer satisfaction, and overall operations.
-                Find out more inCurrent Tech Industries.
+                @lang('public.pos 12')
             </p>
         </div>
     </div>
