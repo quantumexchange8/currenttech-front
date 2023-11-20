@@ -8,6 +8,9 @@ return [
     "support" => "支持",
     "language" => "切換語言",
     "home" => "產品",
+    "language 1" => "英語",
+    "language 2" => "馬來語",
+    "language 3" => "中文 (簡)",
 
     "pos" => "POS 系統",
     "web" => "網頁與應用程序",

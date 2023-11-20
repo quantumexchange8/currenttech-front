@@ -8,6 +8,9 @@ return [
     "support" => "Support",
     "language" => "Language",
     "home" => "Home",
+    "language 1" => "English",
+    "language 2" => "Bahasa Malaysia",
+    "language 3" => "Chinese (S)",
 
     "pos" => "POS System",
     "web" => "Web & App",

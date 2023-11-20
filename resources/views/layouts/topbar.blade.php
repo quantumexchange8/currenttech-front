@@ -1,3 +1,44 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<style>
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background: linear-gradient(0deg, #333333 0%, #333 100%);
+        z-index: 1;
+        border-radius: 8px; 
+        padding: 10px;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 0; 
+        margin-top: 15px;
+        margin-left: -40px;
+
+    }
+
+    .dropdown-menu.show {
+        display: block;
+        opacity: 1; 
+    }
+
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: 5px 2px;
+        clear: both;
+        font-weight: 400;
+        color: #212529;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+        text-decoration: none;
+    }
+</style>
+
 <div class="blackboard">
     <div class="center-top">
         <div class="bar">
@@ -5,8 +46,8 @@
                 <ul>
                     <li class="nav-img nav-border">
                         <a href="{{ url('') }}">
-                            {{-- <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"> --}}
-                            <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"></object>
+                            <img src="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;">
+                            {{-- <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 18px;margin-bottom: 2px;"></object> --}}
                         </a>
                     </li>
                     <li class="nav-border-items nav-item menu-items {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
@@ -163,9 +204,19 @@
                             @endif
                             
                         </a>
-                        <a href="#">
+                        {{-- <a href="#">
                             <img src="/assets/image/lang.svg"  style="width: 21px;height:18px">
-                        </a>
+                        </a> --}}
+                        <div class="dropdown">
+                            <a href="#" role="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="/assets/image/lang.svg" style="width: 21px; height: 18px;">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">@lang('public.language 1')</a>
+                                <a class="dropdown-item" href="{{ route('lang.switch', 'my') }}">@lang('public.language 2')</a>
+                                <a class="dropdown-item" href="{{ route('lang.switch', 'zh') }}">@lang('public.language 3')</a>
+                            </div>
+                        </div>
                         {{-- <a href="{{ route('register') }}">
                             <img src="/assets/image/edit.svg">
                         </a>
@@ -184,14 +235,14 @@
 
 <div class="small-nav-toggle nav-border-mobile" onclick="toggleNav()">
     <div class="center-image">
-        <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 30px; height: 30px;"></object>
-        {{-- <img src="/assets/image/currenttechlogo.svg" alt="Logo" style="width: 30px; height: 30px;"> --}}
+        {{-- <object type="image/svg+xml" data="/assets/image/currenttechlogo.svg" style="width: 30px; height: 30px;"></object> --}}
+        <img src="/assets/image/currenttechlogo.svg" alt="Logo" style="width: 30px; height: 30px;">
     </div>
 </div>
 <div class="small-nav">
     <nav class="nav2">
         <ul style="margin: 13px 0px;">
-            <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
+            {{-- <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
                 <a href="{{ url('') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
                 style="padding-left: 25px;
                 padding-top: 26px;
@@ -199,10 +250,10 @@
                 padding-bottom: 13px;"
                 >
                     <span>
-                        {{-- Home --}}
+                        Home
                     </span>
                 </a>
-            </li>
+            </li> --}}
             <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                 <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon', 'LanguageSubMenu', 'LanguageIcon')">
                     <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">@lang('public.products')</span>
@@ -378,12 +429,24 @@
                     <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
                 </a>
                 <ul id="LanguageSubMenu" style="display: none;">
-                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >English</span></a></li>
-                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF" >Bahasa Malaysia</span></a></li>
-                    <li class=""><a href="#"><span class="lang-word" style="color: #FFFFFF">Chinese (S)</span></a></li>
+                    <li class=""><a href="{{ route('lang.switch', 'en') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 1')</span></a></li>
+                    <li class=""><a href="{{ route('lang.switch', 'my') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 2')</span></a></li>
+                    <li class=""><a href="{{ route('lang.switch', 'zh') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 3')</span></a></li>
                 </ul>
             </li>
-            <!-- Add more menu items as needed -->
         </ul>
     </nav>
 </div>
+<script>
+    $(document).ready(function() {
+        $('.dropdown').on('click', function(e) {
+            $(this).find('.dropdown-menu').toggleClass('show');
+        });
+
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu').removeClass('show');
+            }
+        });
+    });
+</script>
