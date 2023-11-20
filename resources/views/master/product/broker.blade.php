@@ -1000,7 +1000,7 @@
                             <img src="assets/image/product/broker/13.svg" style="width: 37.5px;height: 50px;margin-bottom:12px">
                         </div>
                         <div class="developtext">
-                            Seperate Brand
+                            Separate Brand
                         </div>
                     </div>
                     <div class="cont-wordnimg">
@@ -1087,7 +1087,7 @@
                             <img src="assets/image/product/broker/13.svg" style="width: 37.5px;height: 50px;margin-bottom:12px">
                         </div>
                         <div class="developtext">
-                            Seperate Brand
+                            Separate Brand
                         </div>
                     </div>
                     <div class="cont-wordnimg">
@@ -1148,7 +1148,7 @@
                     </div>
                     <div>
                         <span class="ctrader-content-mobile-p">
-                            Seperate Brand
+                            Separate Brand
                         </span>
                     </div>
                 </div>
@@ -1250,7 +1250,7 @@
                     </div>
                     <div>
                         <span class="ctrader-content-mobile-p">
-                            Seperate Brand
+                            Separate Brand
                         </span>
                     </div>
                 </div>
