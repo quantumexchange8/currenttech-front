@@ -1,6 +1,100 @@
 @extends('layouts.master')
 @section('content')
 <style>
+    .overlay-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white; /* Adjust text color */
+    }
+
+    .overlay-text .text-wrapper {
+        margin-top: 20px;
+        width: 245px;
+        height: 36px;
+        left: -20px;
+        font-family: "PingFang TC-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 36px;
+        line-height: normal;
+        position: absolute;
+        top: 20px;
+        letter-spacing: 0;
+        white-space: nowrap;
+}
+
+    .overlay-text .div {
+        margin-top: 20px;
+        position: absolute;
+        width: 335px;
+        height: 43px;
+        top: 73px;
+        left: 30px;
+        font-family: "PingFang TC-Light", Helvetica;
+        font-weight: 300;
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 20px;
+        text-align: left;
+    }
+    .overlay-text .group-2 {
+        margin-top: 20px;
+        position: absolute;
+        width: 161px;
+        height: 18px;
+        top: 103px;
+        left: 0;
+    }
+
+    .overlay-text .star {
+        margin-top: 20px;
+        position: absolute;
+        width: 17px;
+        height: 16px;
+        top: 0px;
+        left: 33px;
+    }
+    .overlay-text .text-wrapper-2 {
+        width: 133px;
+        height: 18px;
+        left: 55px;
+        font-family: "PingFang TC-Light", Helvetica;
+        font-weight: 300;
+        color: #bbbbbb;
+        font-size: 16px;
+        line-height: 25px;
+        position: absolute;
+        top: 17px;
+        letter-spacing: 0;
+        white-space: nowrap;
+        }
+    .overlay-text .sq {
+        margin-left: -151px;
+        margin-top: 416px;
+        /* position: absolute; */
+        width: 326px;
+        /* height: 16px; */
+        /* top: 0;
+        left: 0; */
+    }
+    .overlay-text .sq2 {
+        margin-left: -7px;
+        margin-top: 346px;
+        /* position: absolute; */
+        width: 445px;
+        /* height: 16px; */
+        /* top: 0;
+        left: 0; */
+    }
     .pos-row1 {
         text-align: center;
     }
@@ -157,6 +251,58 @@
             font-weight: 500;
             line-height: normal;
         }
+        .overlay-text .text-wrapper {
+            margin-top: 20px;
+            width: 245px;
+            height: 36px;
+            left: -58px;
+            font-family: "PingFang TC-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 20px;
+            line-height: normal;
+            position: absolute;
+            top: 20px;
+            letter-spacing: 0;
+            white-space: nowrap;
+}
+        .overlay-text .div {
+            margin-top: 20px;
+            position: absolute;
+            width: 335px;
+            height: 43px;
+            top: 49px;
+            left: 25px;
+            font-family: "PingFang TC-Light", Helvetica;
+            font-weight: 300;
+            color: #ffffff;
+            font-size: 14px;
+            letter-spacing: 0;
+            line-height: 20px;
+            text-align: left;
+        }
+        .overlay-text .text-wrapper-2 {
+        width: 133px;
+        height: 18px;
+        left: 24px;
+        font-family: "PingFang TC-Light", Helvetica;
+        font-weight: 300;
+        color: #bbbbbb;
+        font-size: 12px;
+        line-height: 25px;
+        position: absolute;
+        top: -14px;
+        letter-spacing: 0;
+        white-space: nowrap;
+        }
+        .overlay-text .star {
+        margin-top: 20px;
+        position: absolute;
+        width: 17px;
+        height: 16px;
+        top: -30px;
+        left: 25px;
+    }
     }
     @media screen and (max-width: 1093px) {
         .pos-row6-mobile {
@@ -292,9 +438,9 @@
             text-align: center;
         }
         .pos-row11 img {
-            /* width: 100%;
+            width: 100%;
             height: auto;
-            max-width: 100%; */
+            /* max-width: 100%; */
         }
         .std-image {
             /* margin-right: 10px; */
@@ -767,30 +913,62 @@
     
 
     <div class="pos-row11">
-        {{-- <div style="margin-right: 20px;">
-            
+        <div style="margin-left: 20px; position: relative;">
+            <img src="assets/image/product/pos/10.svg" class="adv-image" alt="Image 10">
+            <div class="overlay-text">
+                <div class="text-wrapper">@lang('public.pos 13')</div>
+                <div class="div">@lang('public.pos 13.1')</div>
+                <div class="group-2">
+                    <div class="text-wrapper-2">@lang('public.pos 13.2')</div>
+                    <img class="star" src="assets/image/product/pos/star.svg" />
+                </div>
+                <img class="sq" src="assets/image/product/pos/19.svg" />
+            </div>
         </div>
-        <div style="margin-left: 20px;">
+        
+        <div style="margin-left: 20px; position: relative;">
             <img src="assets/image/product/pos/11.svg" class="adv-image">
-        </div> --}}
-        <img src="assets/image/product/pos/12.svg" class="std-image">
+            <div class="overlay-text">
+                <div class="text-wrapper">@lang('public.pos 14')</div>
+                <div class="div">@lang('public.pos 14.1')</div>
+                <div class="group-2">
+                    <div class="text-wrapper-2">@lang('public.pos 14.2')</div>
+                    <img class="star" src="assets/image/product/pos/star.svg" />
+                </div>
+                <img class="sq2" src="assets/image/product/pos/20.svg" />
+            </div>
+        </div>
+        {{-- <img src="assets/image/product/pos/12.svg" class="std-image"> --}}
     </div>
 
     <div class="pos-row11-mobile">
         <div class="mobile-alignment-30px">
-            <div style="display: flex;flex-direction:column">
-                <div style="display: flex;flex-direction:column;gap:24px;margin-bottom:68px">
-                    <div>
-                        <img src="assets/image/product/pos/16.svg">
-                    </div>
-                    <div>
-                        <img src="assets/image/product/pos/17.svg">
+            <div style="display: flex; flex-direction: column; gap: 24px; margin-bottom: 68px; width: 100%;">
+                <div style="position: relative; width: 100%;">
+                    <img src="assets/image/product/pos/10.svg" style="width: 100%;">
+                    <div class="overlay-text">
+                        <div class="text-wrapper">@lang('public.pos 13')</div>
+                        <div class="div">@lang('public.pos 13.1')</div>
+                        <div class="group-2">
+                            <div class="text-wrapper-2">@lang('public.pos 13.2')</div>
+                            <img class="star" src="assets/image/product/pos/star.svg" />
+                        </div>
                     </div>
                 </div>
-                <div style="margin-bottom: 88px">
-                    <img src="assets/image/product/pos/18.svg">
+                <img src="assets/image/product/pos/19.svg" style="width: 100%;">
+                <div style="position: relative; width: 100%;">
+                    <img src="assets/image/product/pos/11.svg" style="width: 100%;">
+                    <div class="overlay-text">
+                        <div class="text-wrapper">@lang('public.pos 14')</div>
+                        <div class="div">@lang('public.pos 14.1')</div>
+                        <div class="group-2">
+                            <div class="text-wrapper-2">@lang('public.pos 14.2')</div>
+                            <img class="star" src="assets/image/product/pos/star.svg" />
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <img src="assets/image/product/pos/20.svg" style="width: 100%;">
+            </div>            
         </div>
     </div>
     

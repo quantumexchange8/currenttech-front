@@ -208,7 +208,7 @@
                             <img src="/assets/image/lang.svg"  style="width: 21px;height:18px">
                         </a> --}}
                         <div class="dropdown">
-                            <a href="#" role="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a href="javascript:void(0)" role="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="/assets/image/lang.svg" style="width: 21px; height: 18px;">
                             </a>
                             <div class="dropdown-menu" aria-labelledby="languageDropdown">
@@ -242,7 +242,7 @@
 <div class="small-nav">
     <nav class="nav2">
         <ul style="margin: 13px 0px;">
-            {{-- <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
+            <li class="smallnav-act {{ Request::is('home') ? 'active' : ''}}">
                 <a href="{{ url('') }}" style="{{ Request::is('home') ? 'color: #BD00FF;' : '' }}"
                 style="padding-left: 25px;
                 padding-top: 26px;
@@ -250,10 +250,10 @@
                 padding-bottom: 13px;"
                 >
                     <span>
-                        Home
+                        @lang('public.home')
                     </span>
                 </a>
-            </li> --}}
+            </li>
             <li class="{{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'active' : ''}}">
                 <a href="#product" class="mobile-nav-link" data-toggle="collapse" aria-expanded="false" aria-controls="product" onclick="toggleSubMenu('ProductSubMenu', 'ProductIcon', 'FeatureSubMenu', 'FeatureIcon', 'LanguageSubMenu', 'LanguageIcon')">
                     <span style="display: inline-block; {{ Request::is('POS-System', 'web-app', 'broker', 'expert-advisor', 'web3') ? 'color: #BD00FF;' : '' }} width: 80px;">@lang('public.products')</span>

@@ -473,6 +473,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 35px; /* 100% */
+    margin: 0;
 }
 
 .txtimg-efficient-edu {
@@ -2169,7 +2170,7 @@ body {
 }
 
 .webapphead {
-    width: 157px;
+    /* width: 157px; */
     color: #888;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -2388,9 +2389,6 @@ body {
 }
 
 @media screen and (max-width: 1093px){
-    .star{
-        display: none;
-    }
     .ic{
         /* margin-left: -30px;
         margin-right: 30px; */
@@ -3151,7 +3149,7 @@ body {
     font-style: normal;
     /* font-weight: 700; */
     line-height: normal;
-    width: 680px;
+    /* width: 680px; */
     margin: 0;
 }
 
@@ -6120,7 +6118,7 @@ body {
     /* font-weight: 700; */
     line-height: 45px; /* 125% */
     width: 435px;
-    height: 90px;
+    /* height: 90px; */
     text-align: right;
 }
 
@@ -6532,7 +6530,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 0px;
+    margin-top: 55px;
     margin-bottom: 0px;
 }
 
@@ -6556,7 +6554,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 0px;
+    margin-top: 55px;
     margin-bottom: 0px;
 }
 
@@ -7725,7 +7723,7 @@ body {
 /* mobile view */
 @media screen and (max-width: 1093px) {
     .bottom-container {
-        width: 338px;
+        width: 100%;
         height: 106px;
     }
     .logistic-p {
@@ -7759,7 +7757,7 @@ body {
         line-height: 18px;
     }
     .home-marquee-btm {
-        width: 338px;
+        width: 100%;
         /* height: 370px; */
     }
     .home-marquee-btm-icon {
@@ -7792,7 +7790,7 @@ body {
         margin-top: 36px !important;
         margin-left: 15px;
         margin-right: 15px;
-        width: auto;
+        width: 100%;
     }
 
     .main-content5 {
@@ -7900,7 +7898,7 @@ body {
         height: auto;
     }
     .center-service p {
-        width: 70%;
+        /* width: 70%; */
         color: #FFF;
 
         font-family: SF Pro Text;

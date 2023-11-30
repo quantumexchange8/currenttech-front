@@ -2,7 +2,23 @@
 @section('content')
 
 <style>
-    
+    .slick-slide img {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    /* Change the color of slick dots */
+    .slick-dots li button {
+        background-color: rgb(255, 255, 255); /* Change to your desired dot color */
+        border-radius: 50%; /* Make the dots circular */
+        width: 10px; /* Adjust the width of the dots */
+        height: 10px; /* Adjust the height of the dots */
+        transition: background-color 0.3s ease; /* Optional: Add a transition effect */
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: rgb(148, 137, 137); /* Change to your desired active dot color */
+    }
     .web3-8 {
         text-align: center;
         margin-bottom: 68px;
@@ -33,6 +49,16 @@
     }
     .alien-mobile {
         display: none;
+    }
+    @media only screen and (min-width: 1440px) {
+        .responsive {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 1440px) {
+        .res {
+            display: block;
+        }
     }
     @media screen and (max-width: 1093px) {
         .web3-7 {
@@ -334,19 +360,27 @@
         .web3-marquee-item img {
             width: 150px;
             height: 150px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 27px;
         }
         .web3-marquee-item-2 img {
             width: 150px;
             height: 150px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 27px;
         }
         .web3-marqueee-item img {
             width: 150px;
             height: auto;
             border: 2px solid #69EACB;
             border-radius: 20px;
+            margin-left: 27px;
         }
         .web3-marqueee-item-2 img {
             width: 150px;
+            margin-left: 27px;
             /* height: 150px; */
         }
         .web3-marquee-itemm img {
@@ -794,8 +828,9 @@
     </div>
 </div>
 
-<div class="web3-marquee" style="margin-top: 88px;">
-    <div class="web3-marquee-content">
+{{-- <div class="web3-marquee" style="margin-top: 88px;">
+    <div class="web3-marquee-content"> --}}
+    <div class="res">
         <div class="web3-marquee-item">
             <img src="assets/image/product/web3/purple1.svg">
         </div>
@@ -821,9 +856,10 @@
             <img src="assets/image/product/web3/purple8.svg">
         </div>
     </div>
-</div>
-<div class="web3-marquee-2">
-    <div class="web3-marquee-content-2">
+{{-- </div> --}}
+{{-- <div class="web3-marquee-2">
+    <div class="web3-marquee-content-2"> --}}
+        <div class="res">
         <div class="web3-marquee-item-2">
             <img src="assets/image/product/web3/red1.svg">
         </div>
@@ -849,7 +885,7 @@
             <img src="assets/image/product/web3/red8.svg">
         </div>
     </div>
-</div>
+{{-- </div> --}}
 <div class="main-content7">
     <div class="web3-8">
         <div class="mobile-alignment-30px">
@@ -866,32 +902,36 @@
         </div>
     </div>
 </div>
-<div class="web3-marqueee" style="margin-top: 66px;">
-    <div class="web3-marqueee-content">
-        <div class="web3-marqueee-item">
-            <img src="assets/image/product/web3/test.png">
-        </div>
-        <div class="web3-marqueee-item">
-            <img src="assets/image/product/web3/test2.png">
-        </div>
-        <div class="web3-marqueee-item">
-            <img src="assets/image/product/web3/test3.png">
-        </div>
-    </div>
+<div class="responsive">
+    {{-- <div class="web3-marqueee" style="margin-top: 66px;"> --}}
+        {{-- <div class="web3-marqueee-content"> --}}
+            <div class="web3-marqueee-item">
+                <img src="assets/image/product/web3/test.png">
+            </div>
+            <div class="web3-marqueee-item">
+                <img src="assets/image/product/web3/test2.png">
+            </div>
+            <div class="web3-marqueee-item">
+                <img src="assets/image/product/web3/test3.png">
+            </div>
+            </div>
+        {{-- </div> --}}
 </div>
-<div class="web3-marqueee-2">
-    <div class="web3-marqueee-content-2">
-        <div class="web3-marqueee-item-2">
-            <img src="assets/image/product/web3/monkey.svg">
-        </div>
-        <div class="web3-marqueee-item-2">
-            <img src="assets/image/product/web3/monkey2.svg">
-        </div>
-        <div class="web3-marqueee-item-2">
-            <img src="assets/image/product/web3/monkey3.svg">
-        </div>
-    </div>
+<div class="responsive">
+    {{-- <div class="web3-marqueee" style="margin-top: 66px;"> --}}
+        {{-- <div class="web3-marqueee-content"> --}}
+            <div class="web3-marqueee-item-2">
+                <img src="assets/image/product/web3/monkey.svg">
+            </div>
+            <div class="web3-marqueee-item-2">
+                <img src="assets/image/product/web3/monkey2.svg">
+            </div>
+            <div class="web3-marqueee-item-2">
+                <img src="assets/image/product/web3/monkey3.svg">
+            </div>
+        {{-- </div> --}}
 </div>
+
 <div class="main-content8">
     <div class="personal-nft-cont">
         <div class="nft-container1-1">
@@ -969,5 +1009,78 @@
         </div>
     </div>
 </div>
-
+<script>
+    $(document).ready(function () {
+        $('.responsive').slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.res').slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
+        });
+    });
+</script>
 @endsection

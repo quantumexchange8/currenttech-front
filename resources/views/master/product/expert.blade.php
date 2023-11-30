@@ -251,7 +251,7 @@
             width: 100%;
         }
         .ragnarok-p {
-            margin-left: 40px;
+            margin-left: 25px;
             font-size: 20px;
             line-height: normal;
             margin-bottom: 16px;
@@ -259,25 +259,25 @@
         .ragnarok-p1 {
             font-size: 12px;
             line-height: 14px;
-            width: 80%;
-            margin-left: 40px;
+            width: 60%;
+            margin-left: 25px;
         }
         .medusa-p4 {
             font-size: 20px;
-            margin-left: 45px;
+            margin-left: 25px;
             margin-bottom: 16px;
             line-height: normal;
         }
         .medusa-p6 {
             font-size: 20px;
-            margin-left: 45px;
+            margin-left: 25px;
             line-height: normal;
             margin-bottom: 16px;
         }
         .medusa-p5 {
             font-size: 12px;
             width: 80%;
-            margin-left: 45px;
+            margin-left: 25px;
         }
         .medusa-p {
             width: 140px;
@@ -406,7 +406,7 @@
         .ragnarok-icon {
             width: 40px;
             height: 40px;
-            margin-left: 40px;
+            margin-left: 25px;
         }
         .infinity-img {
             width: 61.578px;

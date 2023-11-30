@@ -19,7 +19,14 @@
     <link rel="stylesheet" href="{{ asset('assets/master.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-
+    <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    {{-- <link rel="stylesheet" type="text/css" href="{{asset('assets/slick/slick.js')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/slick/slick.min.js')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/slick.css')}}"/> --}}
+    {{-- <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/> --}}
 </head>
 
 <body class="light-mode dark-mode">
@@ -45,7 +52,10 @@
 
     </div>
 
-    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    {{-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script> --}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>

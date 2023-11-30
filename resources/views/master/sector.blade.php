@@ -98,6 +98,7 @@
             width: 44px;
             height: auto;
             margin-left: -15px;
+            margin-bottom: -52px;
         }
         .spoon-col1 img {
             width: 44px;

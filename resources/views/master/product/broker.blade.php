@@ -352,7 +352,7 @@
             width: 100%;
             height: auto;
             margin-bottom: 0px;
-            margin-top: 36px;
+            margin-top: 75px;
             gap: 15px;
         }
         .cont img {
@@ -885,7 +885,7 @@
                 <div class="ct-box">
                     <div>
                         <p class="ct-p">
-                            @lang('public.brokerage 5')
+                            <span class="exp-color">@lang('public.brokerage 5')</span>
                         </p>
                     </div>
                     <div>
@@ -902,7 +902,7 @@
             <div class="cont-2-1">
                 <div class="ct-box2">
                     <p class="ct-p4">
-                        @lang('public.brokerage 7')
+                        <span class="exp-color">@lang('public.brokerage 7')</span>
                     </p>
                     <p class="ct-p3">
                         @lang('public.brokerage 8')
@@ -921,7 +921,7 @@
                 </div>
                 <div class="ct-box3">
                     <p class="ct-p8">
-                        @lang('public.brokerage 9')
+                        <span class="exp-color">@lang('public.brokerage 9')</span>
                     </p>
                     <p class="ct-p7">
                         @lang('public.brokerage 10')
