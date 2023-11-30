@@ -142,10 +142,10 @@ return [
     "pos 11"        => "The right POS system can revolutionise the way your big business operates, providing the tools and insights needed to flourish in a dynamic marketplace.",
     "pos 12"        => "Choosing the right POS system is crucial for any business, as it can greatly impact efficiency, customer satisfaction, and overall operations. Find out more in Current Tech Industries.",
     "pos 13"        => "Standard",
-    "pos 13.1"        => "1 month free, then RM5.48/day",
+    "pos 13.1"        => "1 month free, then <br> RM5.48/day",
     "pos 13.2"        => "STARTER PACK",
     "pos 14"        => "Advanced",
-    "pos 14.1"        => "1 month free, then RM27.39/day",
+    "pos 14.1"        => "1 month free, then <br> RM27.39/day",
     "pos 14.2"        => "RECOMMENDED",
 
     //web app
@@ -458,11 +458,7 @@ return [
                             effectively communicate brand messages and engage target 
                             audiences to drive business growth.",
     "career 25"        => "Backend Operation",
-    "career 26"        => "A marketing designer is a professional who combines marketing 
-                            strategies with design skills to create visually compelling materials. 
-                            They design marketing collateral, graphics, and advertisements that 
-                            effectively communicate brand messages and engage target 
-                            audiences to drive business growth.",
+    "career 26"        => "Operation involves managing and maintaining software in production, ensuring reliability and performance. Backend development focuses on server-side logic and infrastructure for data processing, powering the software's functionality. Both are crucial for a successful application.",
     "career 27"        => "Indoor / Outdoor Sales",
     "career 28"        => "Indoor sales occur within physical premises or online, with direct customer interaction. 
                            Outdoor sales involve field activities, reaching clients at various locations. Both methods are vital for sales 
