@@ -1,6 +1,12 @@
 @extends('layouts.master')
 @section('content')
 <style>
+    .responsive-web {
+        display: block;
+    }
+    .responsive-mobile {
+        display: none;
+    }
         .slick-dots li button {
         background-color: rgb(255, 255, 255); /* Change to your desired dot color */
         border-radius: 50%; /* Make the dots circular */
@@ -13,6 +19,16 @@
         background-color: rgb(148, 137, 137); /* Change to your desired active dot color */
     }
     @media screen and (max-width: 1093px) {
+        .responsive-web {
+        display: none;
+    }
+    .responsive-mobile {
+        display: block;
+    }
+        .section {
+        display: flex;
+        gap:62px
+    }
         .ourservice {
             font-size: 46px;
         }
@@ -935,7 +951,7 @@
                         <object type="image/svg+xml" data="assets/image/home/performance.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/performance.svg" class="ic"> --}}
                     </div>
-                    <div style="display: flex;gap:23px">
+                    <div class="section">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 23')</p>
@@ -962,7 +978,7 @@
                         <object type="image/svg+xml" data="assets/image/home/reward.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/reward.svg" class="ic"> --}}
                     </div>
-                    <div style="display: flex;gap:64px;">
+                    <div class="section">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 24')</p>
@@ -990,7 +1006,7 @@
                         <object type="image/svg+xml" data="assets/image/home/develop.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/develop.svg" class="ic"> --}}
                     </div>
-                    <div style="display: flex;gap:64px">
+                    <div class="section">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 25')</p>
@@ -1017,7 +1033,7 @@
                         <object type="image/svg+xml" data="assets/image/home/hr.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/hr.svg" class="ic"> --}}
                     </div>
-                    <div style="display: flex;gap:64px">
+                    <div class="section">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 26')</p>
@@ -1043,7 +1059,7 @@
                         <object type="image/svg+xml" data="assets/image/home/report.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/report.svg" class="ic"> --}}
                     </div>
-                    <div style="display: flex;gap:80px">
+                    <div class="section">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 27')</p>
@@ -1077,7 +1093,7 @@
             </p>
         </div>
     </div>
-    <div class="responsive">
+    <div class="responsive-web">
         {{-- <div class="marquee-item"> --}}
             <div class="marquee-image-container">
                 <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic.svg">
@@ -1287,6 +1303,217 @@
                 {{-- </div> --}}
             {{-- </div> --}}
     </div>
+
+    <div class="responsive-mobile">
+        {{-- <div class="marquee-item"> --}}
+            <div class="marquee-image-container">
+                <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic-mobile.svg">
+                <div class="text-overlay">
+                    <p class="txtimg-efficient">
+                        @lang('public.home 30')
+                    </p>
+                </div>
+
+                <div class="bottom-container">
+                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                        {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg"> --}}
+                        <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1.svg" class="home-marquee-btm-icon"></object>
+                        <div class="btm-cont-text">
+                            <p class="logistic-p">
+                                @lang('public.home 30.1')
+                            </p>
+                            <p class="logistic-p-cont">
+                                @lang('public.home 30.2')
+                            </p>
+                        </div>
+
+                        <div>
+                            <a href="{{ route('sector') }}#logistic" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                <button class="btn-getinfo-logis">
+                                    <span class="btn-span-getinfo">@lang('public.home 15.2')</span>
+                                </button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{-- </div> --}}
+    
+            {{-- <div class="marquee-item"> --}}
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/education-mobile.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            @lang('public.home 31')
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/education2.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg"> --}}
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    @lang('public.home 31.1') 
+                                </p>
+                                <p class="logistic-p-cont">
+                                    @lang('public.home 31.2')
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}#education" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-edu">
+                                        <span class="btn-span-getinfo1">@lang('public.home 15.2')</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{-- </div> --}}
+    
+            {{-- <div class="marquee-item"> --}}
+                <div class="marquee-image-container">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/fnb-mobile.svg">
+                    <div class="text-overlay">
+                        <p class="txtimg-efficient">
+                            @lang('public.home 32')
+                        </p>
+                    </div>
+
+                    <div class="bottom-container">
+                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <object type="image/svg+xml" data="/assets/image/homemarquee/fnb1.svg" class="home-marquee-btm-icon"></object>
+                            {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg"> --}}
+                            <div class="btm-cont-text">
+                                <p class="logistic-p">
+                                    @lang('public.home 32.1') 
+                                </p>
+                                <p class="logistic-p-cont">
+                                    @lang('public.home 32.2')
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="{{ route('sector') }}#food-beverage" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                    <button class="btn-getinfo-fnb">
+                                        <span class="btn-span-getinfo1">@lang('public.home 15.2')</span>
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="marquee-item"> --}}
+                    <div class="marquee-image-container">
+                        <img class="home-marquee-btm" src="/assets/image/homemarquee/retail-mobile.svg">
+                        <div class="text-overlay">
+                            <p class="txtimg-efficient">
+                                @lang('public.home 33')
+                            </p>
+                        </div>
+    
+                        <div class="bottom-container">
+                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                                <object type="image/svg+xml" data="/assets/image/homemarquee/retail2.svg" class="home-marquee-btm-icon"></object>
+                                {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg"> --}}
+                                <div class="btm-cont-text">
+                                    <p class="logistic-p">
+                                        @lang('public.home 33.1')
+                                    </p>
+                                    <p class="logistic-p-cont">
+                                        @lang('public.home 33.2')
+                                    </p>
+                                </div>
+    
+                                <div>
+                                    <a href="{{ route('sector') }}#retail" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                        <button class="btn-getinfo-fnb" style="background: #C89E8A">
+                                            <span class="btn-span-getinfo1">@lang('public.home 15.2')</span>
+                                        </button>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{-- </div> --}}
+    
+                {{-- <div class="marquee-item"> --}}
+                    <div class="marquee-image-container">
+                        <img class="home-marquee-btm" src="/assets/image/homemarquee/wholesale-mobile.svg">
+                        <div class="text-overlay">
+                            <p class="txtimg-efficient">
+                                @lang('public.home 34')
+                            </p>
+                        </div>
+    
+                        <div class="bottom-container">
+                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                                <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                                {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
+                                <div class="btm-cont-text">
+                                    <p class="logistic-p">
+                                        @lang('public.home 34.1')
+                                    </p>
+                                    <p class="logistic-p-cont">
+                                        @lang('public.home 34.2')
+                                    </p>
+                                </div>
+    
+                                <div>
+                                    <a href="{{ route('sector') }}#wholesale" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                        <button class="btn-getinfo-fnb" style="background: #A7A7A7">
+                                            <span class="btn-span-getinfo1">@lang('public.home 15.2')</span>
+                                        </button>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{-- </div> --}}
+    
+                {{-- <div class="marquee-item"> --}}
+                    <div class="marquee-image-container">
+                        <img class="home-marquee-btm" src="/assets/image/homemarquee/automotive-mobile.svg">
+                        <div class="text-overlay">
+                            <p class="txtimg-efficient">
+                                @lang('public.home 35')
+                            </p>
+                        </div>
+    
+                        <div class="bottom-container">
+                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                                <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
+                                {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
+                                <div class="btm-cont-text">
+                                    <p class="logistic-p">
+                                        @lang('public.home 35.1') 
+                                    </p>
+                                    <p class="logistic-p-cont">
+                                        @lang('public.home 35.2')
+                                    </p>
+                                </div>
+    
+                                <div>
+                                    <a href="{{ route('sector') }}#automotive" style="cursor: pointer; text-decoration: none;" class="explore-link">
+                                        <button class="btn-getinfo-fnb" style="background: #418F9B">
+                                            <span class="btn-span-getinfo1">@lang('public.home 15.2')</span>
+                                        </button>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{-- </div> --}}
+            {{-- </div> --}}
+    </div>
   
     {{-- <script type="text/javascript">
       $(document).ready(function(){
@@ -1297,19 +1524,19 @@
     </script> --}}
     <script>
         $(document).ready(function () {
-            $('.responsive').slick({
+            $('.responsive-web').slick({
                 arrows: true,
                 dots: true,
                 infinite: true,
                 speed: 300,
                 slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToScroll: 1,
                 responsive: [
                     {
                         breakpoint: 1024,
                         settings: {
                             slidesToShow: 3,
-                            slidesToScroll: 3,
+                            slidesToScroll: 1,
                             infinite: true,
                             dots: true
                         }
@@ -1318,7 +1545,7 @@
                         breakpoint: 600,
                         settings: {
                             slidesToShow: 2,
-                            slidesToScroll: 2
+                            slidesToScroll: 1
                         }
                     },
                     {
@@ -1332,6 +1559,43 @@
             });
         });
     </script>
+        <script>
+            $(document).ready(function () {
+                $('.responsive-mobile').slick({
+                    arrows: true,
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                infinite: true,
+                                dots: true
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
 
     {{-- <div class="home-marquee-web" style="margin-bottom: 122px">
         <div class="marquee-content">

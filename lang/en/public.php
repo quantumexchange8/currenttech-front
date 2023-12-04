@@ -43,7 +43,8 @@ return [
                         efficiency and potentially generate profits.",
     "home 10"       => "Support & Maintenance",
     "home 10.1"     => "Optimise system performance with our expert support. Our team ensures timely updates and troubleshooting for seamless operations, keeping
-                        your systems at peak efficiency.",
+                        your systems at peak efficiency.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
     "home 11"      => "Your Vision Come Alive",
     "home 12"      => "Welcome to the era of vision. Embark on a journey through the realms of boundless creativity and innovation. Discover how technology unlocks 
                         the power of imagination, reshaping our world with visionary possibilities and endless horizons of imagination.",
@@ -143,10 +144,10 @@ return [
     "pos 12"        => "Choosing the right POS system is crucial for any business, as it can greatly impact efficiency, customer satisfaction, and overall operations. Find out more in Current Tech Industries.",
     "pos 13"        => "Standard",
     "pos 13.1"        => "1 month free, then <br> RM5.48/day",
-    "pos 13.2"        => "STARTER PACK",
+    "pos 13.2"        => "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STARTER PACK",
     "pos 14"        => "Advanced",
     "pos 14.1"        => "1 month free, then <br> RM27.39/day",
-    "pos 14.2"        => "RECOMMENDED",
+    "pos 14.2"        => "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RECOMMENDED",
 
     //web app
     "web app 1"         => "The Powerhouse for Your Web and App Needs",
@@ -348,7 +349,7 @@ return [
 
     //hr 
 
-    "hr 1"         => "Enhanced HR management for higher efficiency",
+    "hr 1"         => "&nbsp;&nbsp;&nbsp;&nbsp;Enhanced HR management for higher efficiency",
     "hr 2"         => "Employing Smart HR strategies to optimise workforce productivity and streamline operations, leading to enhanced efficiency and organizational success.",
     "hr 3"         => "Empowering the HR’s Workforce Journey to Success",
     "hr 4"         => "Smart clock-in for effortless attendance tracking",

@@ -66,7 +66,7 @@
     .overlay-text .text-wrapper-2 {
         width: 133px;
         height: 18px;
-        left: 55px;
+        left: 25px;
         font-family: "PingFang TC-Light", Helvetica;
         font-weight: 300;
         color: #bbbbbb;
@@ -185,7 +185,7 @@
     }
 
     .st-icon {
-        width:135px;
+        width:146px;
     }
     
     .pos-row6-mobile {

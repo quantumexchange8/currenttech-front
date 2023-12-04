@@ -1672,8 +1672,8 @@ body {
     }
     
     .svg-image {
-        width: 100%; 
-        height: 100%; 
+        width: 60px; 
+        height: 60px; 
     }
     
     .website-col4 img{
@@ -1805,7 +1805,7 @@ body {
 
 .software-p {
     width: 176px;
-    height: 56px;
+    /* height: 56px; */
     color: #FFF;
     font-family: SF Pro Text;
     font-size: 20px;
@@ -2043,7 +2043,7 @@ body {
     .exp-color {
         color: #BD00FF;
         font-family: SF Pro Text;
-        font-size: 24px !important;
+        font-size: 14px !important;
         font-style: normal !important;
         font-weight: 700 !important;
         line-height: 35px !important; /* 145.833% */
@@ -2854,7 +2854,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 54.89px;
-    width: 1000px;
+    width: 80%;
     height: 102px;
     margin: 0px;
 }
@@ -2867,7 +2867,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 125% */
-    width: 790px;
+    width: 70%;
     height: 75px;
 }
 
@@ -2907,7 +2907,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 28.64px;
-    width: 870px;
+    width: 98%;
     height: 81px;
     margin: 0;
 }
@@ -6955,6 +6955,11 @@ body {
     flex-direction: column;
     height: 100px; 
 }
+.containerr {
+    display: flex;
+    flex-direction: row;
+    height: 100px; 
+}
 
 .container p {
     color: #FFF;
@@ -7788,8 +7793,8 @@ body {
 
     .main-content4 {
         margin-top: 36px !important;
-        margin-left: 15px;
-        margin-right: 15px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
         width: 100%;
     }
 

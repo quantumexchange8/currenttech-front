@@ -123,6 +123,7 @@
             line-height: normal;
             margin-top: 38px;
             margin-bottom: 38px;
+            width: 360px;
         }
         .smart-purple {
             color: #BD00FF;
@@ -295,7 +296,7 @@
             margin-left: 90px;
         }
         .enhanced-p {
-            width: 80%;
+            /* width: 100%; */
             font-size: 20px;
             line-height: 23px;
             text-align: center;

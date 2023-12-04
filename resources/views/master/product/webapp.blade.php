@@ -210,6 +210,11 @@
         margin-bottom: 16px;
         width: 100%;
     }
+    .webapp66 {
+        text-align: left;
+        margin-bottom: 16px;
+        width: 100%;
+    }
     .webapp6-1 {
         text-align: left;
         margin-bottom: 46px;
@@ -317,6 +322,11 @@
         display: flex;
         gap: 24.37px;
     }
+    .connectus {
+        color: #FFF;
+        font-family: SF Pro Text;
+        font-size: 16px;
+    }
     .email-support {
         color: #FFF;
         text-align: center;
@@ -350,8 +360,8 @@
             /* margin: 0;  */
             margin-bottom: 20px; 
             text-align: center;
-            width: 100%
-
+            width: 135%;
+            height: 118px;
         }
         .line1 {
             display: none;
@@ -395,7 +405,7 @@
             margin-bottom: 38px;
         }
         .webapp2 p {
-            width: 100%;
+            width: 88%;
             height: auto;
             margin-top: 0px;
         }
@@ -422,7 +432,8 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            margin-bottom: 38px;
+            /* margin-bottom: 38px; */
+            margin-bottom: 24px;
         }
 
         .webapp5 {
@@ -452,6 +463,19 @@
             margin-top: 0px;
         }
 
+        .webapp66 {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            margin-bottom: 38px;
+        }
+
+        .webapp66 .temp {
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+        }
+
         .webapp6 p {
             width: 100%;
             color: #FFF;
@@ -461,9 +485,26 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            text-align: center;
+        }
+
+        .webapp66 p {
+            width: 100%;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
             text-align: left;
         }
 
+        .connectus {
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 12px;
+        }
         .email-support {
             color: #FFF;
             text-align: center;
@@ -688,7 +729,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
-            width: 70%;
+            width: 55%;
             height: auto;
             margin-bottom: 38px;
         }
@@ -699,6 +740,10 @@
         .social-icon {
             display: flex;
             gap: 18px;
+        }
+        .social-icon img{
+            width: 30px;
+            height: 30px;
         }
     }
 
@@ -888,7 +933,7 @@
         
      </div>
 
-     <div class="webapp6">
+     <div class="webapp66">
         {{-- <div class="temp"> --}}
             <div class="mobile-alignment-30px">
                 <p class="ecorm">@lang('public.web app 4')</p>
@@ -1365,9 +1410,7 @@
                 <div>
                     <img src="assets/image/product/detail/cloud.svg">
                 </div>
-                <div style="color: #FFF;
-                font-family: SF Pro Text;
-                font-size: 20px;">
+                <div class="connectus">
                     Connect Us
                 </div>
                 <div class="social-icon">

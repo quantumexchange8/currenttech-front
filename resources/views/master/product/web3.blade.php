@@ -124,7 +124,7 @@
             margin-bottom: 68px;
         }
         .empowering-p {
-            width: 65%;
+            width: 50%;
             text-align: left;
             color: #FFF;
             font-family: SF Pro Text;

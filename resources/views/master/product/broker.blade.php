@@ -151,7 +151,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 12px; /* 120% */
-            width: 78%;
+            width: 88%;
         }
         .ct-p6 {
          font-size: 14px;
@@ -361,7 +361,7 @@
         }
         .cont-2-1 {
             width: 100%;
-            height: 100px;
+            height: 110px;
             margin-bottom: 0px;
         }
         .cont-2-1 img {
@@ -380,7 +380,7 @@
             flex-direction: column;
             height: auto;
             justify-content: center;
-            gap: 8px;
+            /* gap: 8px; */
         }
         .ct-box2 {
             margin-top: 0px;
@@ -388,7 +388,7 @@
             flex-direction: column;
             height: auto;
             justify-content: center;
-            gap: 8px;
+            /* gap: 8px; */
             margin-left: 16px;
         }
         .ct-box3 {
@@ -399,7 +399,7 @@
             flex-direction: column;
             height: auto; 
             justify-content: center;
-            gap: 2px;
+            /* gap: 2px; */
         }
         .cont2 {
             width: 100%;
