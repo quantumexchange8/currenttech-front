@@ -419,7 +419,7 @@
             margin-top: -40px; */
         }
         .package-p {
-            width: 100%;
+            width: 90%;
             color: #FFF;
             font-family: SF Pro Text;
             font-size: 20px;

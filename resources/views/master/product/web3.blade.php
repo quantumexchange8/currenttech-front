@@ -67,8 +67,10 @@
             margin-bottom: 16px;
         }
         .web3-7 p {
-            width: 100%;
+            width: 60%;
             height: auto;
+            margin-bottom: -20px;
+            margin-top: 20px;
         }
         .web3-8 {
             width: 100%;
@@ -76,7 +78,7 @@
             margin-bottom: 68px !important;
         }
         .web3-8 p {
-            width: 94%;
+            width: 54%;
             height: auto;
         }
         .web3-2 {
@@ -304,6 +306,7 @@
             text-align: left;
             margin: 0;
             margin-bottom: 38px;
+            margin-top: 38px;
         }
         .dashimg img {
             width: 100%;
@@ -887,19 +890,21 @@
     </div>
 {{-- </div> --}}
 <div class="main-content7">
-    <div class="web3-8">
+
+    <div class="web3-7">
         <div class="mobile-alignment-30px">
-            <p class="create-p">
+            <p class="craft-p">
+                @lang('public.web 14')
+            </p>
+            <p class="craft-p-mobile">
                 @lang('public.web 14')
             </p>
         </div>
     </div>
-    <div class="web3-8">
-        <div class="mobile-alignment-30px">
-            <p class="create-p2">
-                @lang('public.web 15')
-            </p>
-        </div>
+    <div class="mobile-alignment-30px">
+        <p class="craft-p2">
+            @lang('public.web 15')
+        </p>
     </div>
 </div>
 <div class="responsive">
@@ -958,19 +963,21 @@
         </div>
     </div>
     <div class="main-content7">
-        <div class="web3-8">
+
+        <div class="web3-7">
             <div class="mobile-alignment-30px">
-                <p class="create-p">
+                <p class="craft-p">
+                    @lang('public.web 16')
+                </p>
+                <p class="craft-p-mobile">
                     @lang('public.web 16')
                 </p>
             </div>
         </div>
-        <div class="web3-8" style="margin-bottom:96px">
-            <div class="mobile-alignment-30px">
-                <p class="create-p2">
-                    @lang('public.web 17')
-                </p>
-            </div>
+        <div class="mobile-alignment-30px">
+            <p class="craft-p2">
+                @lang('public.web 17')
+            </p>
         </div>
     </div>
 </div>

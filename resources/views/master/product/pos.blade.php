@@ -265,7 +265,7 @@
             top: 20px;
             letter-spacing: 0;
             white-space: nowrap;
-}
+        }
         .overlay-text .div {
             margin-top: 20px;
             position: absolute;
@@ -282,27 +282,27 @@
             text-align: left;
         }
         .overlay-text .text-wrapper-2 {
-        width: 133px;
-        height: 18px;
-        left: 24px;
-        font-family: "PingFang TC-Light", Helvetica;
-        font-weight: 300;
-        color: #bbbbbb;
-        font-size: 12px;
-        line-height: 25px;
-        position: absolute;
-        top: -14px;
-        letter-spacing: 0;
-        white-space: nowrap;
+            width: 133px;
+            height: 18px;
+            left: 8px;
+            font-family: "PingFang TC-Light", Helvetica;
+            font-weight: 300;
+            color: #bbbbbb;
+            font-size: 12px;
+            line-height: 25px;
+            position: absolute;
+            top: -14px;
+            letter-spacing: 0;
+            white-space: nowrap;
         }
         .overlay-text .star {
-        margin-top: 20px;
-        position: absolute;
-        width: 17px;
-        height: 16px;
-        top: -30px;
-        left: 25px;
-    }
+            margin-top: 20px;
+            position: absolute;
+            width: 17px;
+            height: 16px;
+            top: -30px;
+            left: 25px;
+        }
     }
     @media screen and (max-width: 1093px) {
         .pos-row6-mobile {

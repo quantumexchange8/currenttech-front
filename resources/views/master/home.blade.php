@@ -1,6 +1,12 @@
 @extends('layouts.master')
 @section('content')
 <style>
+    .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
     .responsive-web {
         display: block;
     }
@@ -8,27 +14,49 @@
         display: none;
     }
         .slick-dots li button {
-        background-color: rgb(255, 255, 255); /* Change to your desired dot color */
-        border-radius: 50%; /* Make the dots circular */
-        width: 10px; /* Adjust the width of the dots */
-        height: 10px; /* Adjust the height of the dots */
-        transition: background-color 0.3s ease; /* Optional: Add a transition effect */
+        background-color: rgb(255, 255, 255); 
+        border-radius: 50%; 
+        width: 10px;
+        height: 10px; 
+        transition: background-color 0.3s ease; 
     }
 
     .slick-dots li.slick-active button {
-        background-color: rgb(148, 137, 137); /* Change to your desired active dot color */
+        background-color: rgb(148, 137, 137); 
     }
     @media screen and (max-width: 1093px) {
+        .bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+    }
         .responsive-web {
-        display: none;
+            display: none;
     }
-    .responsive-mobile {
-        display: block;
+        .responsive-mobile {
+            display: block;
     }
-        .section {
-        display: flex;
-        gap:62px
-    }
+        .section1 {
+            display: flex;
+            gap: 38px
+        }
+        .section2 {
+            display: flex;
+            gap: 76px
+        }
+        .section3 {
+            display: flex;
+            gap: 76px
+        }
+        .section4 {
+            display: flex;
+            gap: 76px
+        }
+        .section5 {
+            display: flex;
+            gap: 87px
+        }
         .ourservice {
             font-size: 46px;
         }
@@ -951,7 +979,7 @@
                         <object type="image/svg+xml" data="assets/image/home/performance.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/performance.svg" class="ic"> --}}
                     </div>
-                    <div class="section">
+                    <div class="section1">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 23')</p>
@@ -978,7 +1006,7 @@
                         <object type="image/svg+xml" data="assets/image/home/reward.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/reward.svg" class="ic"> --}}
                     </div>
-                    <div class="section">
+                    <div class="section2">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 24')</p>
@@ -1006,7 +1034,7 @@
                         <object type="image/svg+xml" data="assets/image/home/develop.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/develop.svg" class="ic"> --}}
                     </div>
-                    <div class="section">
+                    <div class="section3">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 25')</p>
@@ -1033,7 +1061,7 @@
                         <object type="image/svg+xml" data="assets/image/home/hr.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/hr.svg" class="ic"> --}}
                     </div>
-                    <div class="section">
+                    <div class="section4">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 26')</p>
@@ -1059,7 +1087,7 @@
                         <object type="image/svg+xml" data="assets/image/home/report.svg" class="ic"></object>
                         {{-- <img src="assets/image/home/report.svg" class="ic"> --}}
                     </div>
-                    <div class="section">
+                    <div class="section5">
                         <div class="mobile-displayflex">
                             <div>
                                 <p class="perform-detail-head">@lang('public.home 27')</p>
@@ -1104,7 +1132,7 @@
                 </div>
 
                 <div class="bottom-container">
-                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                    <div class="bottom">
                         {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg"> --}}
                         <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1.svg" class="home-marquee-btm-icon"></object>
                         <div class="btm-cont-text">
@@ -1139,7 +1167,7 @@
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                        <div class="bottom">
                             <object type="image/svg+xml" data="/assets/image/homemarquee/education2.svg" class="home-marquee-btm-icon"></object>
                             {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg"> --}}
                             <div class="btm-cont-text">
@@ -1174,7 +1202,7 @@
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                        <div class="bottom">
                             <object type="image/svg+xml" data="/assets/image/homemarquee/fnb1.svg" class="home-marquee-btm-icon"></object>
                             {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg"> --}}
                             <div class="btm-cont-text">
@@ -1207,7 +1235,7 @@
                         </div>
     
                         <div class="bottom-container">
-                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <div class="bottom">
                                 <object type="image/svg+xml" data="/assets/image/homemarquee/retail2.svg" class="home-marquee-btm-icon"></object>
                                 {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg"> --}}
                                 <div class="btm-cont-text">
@@ -1242,7 +1270,7 @@
                         </div>
     
                         <div class="bottom-container">
-                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <div class="bottom">
                                 <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
                                 {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                                 <div class="btm-cont-text">
@@ -1315,9 +1343,9 @@
                 </div>
 
                 <div class="bottom-container">
-                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                    <div class="bottom">
                         {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/logistic1.svg"> --}}
-                        <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1.svg" class="home-marquee-btm-icon"></object>
+                        <object type="image/svg+xml" data="/assets/image/homemarquee/logistic1-mobile.svg" class="home-marquee-btm-icon"></object>
                         <div class="btm-cont-text">
                             <p class="logistic-p">
                                 @lang('public.home 30.1')
@@ -1350,7 +1378,7 @@
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                        <div class="bottom">
                             <object type="image/svg+xml" data="/assets/image/homemarquee/education2.svg" class="home-marquee-btm-icon"></object>
                             {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/education2.svg"> --}}
                             <div class="btm-cont-text">
@@ -1385,7 +1413,7 @@
                     </div>
 
                     <div class="bottom-container">
-                        <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                        <div class="bottom">
                             <object type="image/svg+xml" data="/assets/image/homemarquee/fnb1.svg" class="home-marquee-btm-icon"></object>
                             {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/fnb1.svg"> --}}
                             <div class="btm-cont-text">
@@ -1418,7 +1446,7 @@
                         </div>
     
                         <div class="bottom-container">
-                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <div class="bottom">
                                 <object type="image/svg+xml" data="/assets/image/homemarquee/retail2.svg" class="home-marquee-btm-icon"></object>
                                 {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/retail2.svg"> --}}
                                 <div class="btm-cont-text">
@@ -1453,7 +1481,7 @@
                         </div>
     
                         <div class="bottom-container">
-                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <div class="bottom">
                                 <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
                                 {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                                 <div class="btm-cont-text">
@@ -1488,7 +1516,7 @@
                         </div>
     
                         <div class="bottom-container">
-                            <div style="display: flex;justify-content: center;align-items: center;margin-top: 24px;">
+                            <div class="bottom">
                                 <object type="image/svg+xml" data="/assets/image/homemarquee/wholesale2.svg" class="home-marquee-btm-icon"></object>
                                 {{-- <img class="home-marquee-btm-icon" src="/assets/image/homemarquee/wholesale2.svg"> --}}
                                 <div class="btm-cont-text">

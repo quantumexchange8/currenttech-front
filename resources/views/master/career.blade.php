@@ -82,7 +82,7 @@
             height: auto;
             font-size: 14px;
             line-height: 16px;
-            margin-top: 38px;
+            margin-top: 55px;
             margin-bottom: 38px;
         }
         
@@ -923,7 +923,7 @@
                     <p>
                         @lang('public.career 10') <br><br>
                         @lang('public.career 6') <br><br>
-                        @lang('public.career 7') <br><br>
+                        @lang('public.career 7.1') <br><br>
                         @lang('public.career 8') <br><br>
                         @lang('public.career 14')
                     </p>

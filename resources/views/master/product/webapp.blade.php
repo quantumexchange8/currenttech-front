@@ -1078,7 +1078,7 @@
 
     <div class="line3"></div>
 
-    <div class="webapp6">
+    <div class="webapp66">
         {{-- <div class="temp"> --}}
             <div class="mobile-alignment-30px">
                 <p class="ecorm">@lang('public.web app 12')</p>

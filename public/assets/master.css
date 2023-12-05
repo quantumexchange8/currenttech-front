@@ -4275,6 +4275,7 @@ body {
 .web3-6 {
     width: 1153px;
     height: auto;
+    margin-bottom: -40px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -7733,7 +7734,7 @@ body {
     }
     .logistic-p {
         font-size: 12px;
-        height: 16px;
+        /* height: 16px; */
         margin-bottom: 5px;
         line-height: normal;
     }
