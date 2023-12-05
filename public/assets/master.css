@@ -1516,7 +1516,7 @@ body {
     width: 100%;
 }
 .center-spectacularr {
-    display: none;
+    display: block;
 }
 
 .center-innovation {
@@ -8369,6 +8369,7 @@ body {
         text-align: left;
         margin-left: 20px;
         margin-top: -10px;
+        width: 50%;
     }
     .webapphead {
         color: #888;
@@ -8380,6 +8381,7 @@ body {
         width: 100%;
         margin-left: 20px;
         margin-top: -20px;
+        width: 50%;
     }
     
     .webappcont {
@@ -8393,6 +8395,7 @@ body {
         margin-left: 20px;
         margin-top: -10px;
         width: 100%;
+        width: 50%;
     }
     
     .brokerhead {
@@ -8417,6 +8420,7 @@ body {
         text-align: left;
         margin-left: 20px;
         margin-top: -10px;
+        width: 50%;
     }
     
     .expert1head {
@@ -8441,6 +8445,7 @@ body {
         text-align: left;
         margin-left: 20px;
         margin-top: -10px;
+        width: 50%;
     }
     
     .web3head {
@@ -8468,6 +8473,7 @@ body {
         margin-left: 20px;
         margin-top: -10px;
         width: 100%;
+        width: 70%;
     }
     
     .one-stop-head {

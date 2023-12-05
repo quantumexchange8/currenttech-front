@@ -445,9 +445,9 @@
             </p>
         </div>
         <div class="center-spectacular">
-            <p class="spect-p">
+            {{-- <p class="spect-p">
                 @lang('public.home 13')
-            </p>
+            </p> --}}
             <div class="spectacular">
                 <div class="spec-row1">
                     <div class="spec-col1">
@@ -604,7 +604,7 @@
         </div>
         
         <!-- mobile -->
-        {{-- <div class="home-marqueee" style="margin-bottom: 38px;">
+        <div class="home-marqueee" style="margin-bottom: 38px;">
             <div class="marquee-content">
                 <div class="marquee-item">
                     <div class="spec-col1">
@@ -628,14 +628,14 @@
                             <p class="streamhead" style="margin-bottom: 10px;">
                                 @lang('public.home 15.1')
                             </p>
-                            <a href="{{ route('possystem') }}">
+                            {{-- <a href="{{ route('possystem') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                                 <button class="btn-getmoreinfo2">
                                     <a href="{{ route('support') }}" class="explore-link">
                                         <span class="btn-getmoreinfo2-span">@lang('public.home 15.2')</span>
                                     </a>
                                 </button>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -653,14 +653,14 @@
                             <p class="webappcont" style="margin-bottom: 10px;">
                                 @lang('public.home 16.1')
                             </p>
-                            <a href="{{ route('webapp') }}">
+                            {{-- <a href="{{ route('webapp') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                                 <button class="btn-getmoreinfo2">
                                     <a href="{{ route('support') }}" class="explore-link">
                                         <span class="btn-getmoreinfo2-span">@lang('public.home 15.2')</span>
                                     </a>
                                 </button>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -678,14 +678,14 @@
                             <p class="brokercontent" style="margin-bottom: 10px;">
                                 @lang('public.home 17.1')
                             </p>
-                            <a href="{{ route('expert') }}">
+                            {{-- <a href="{{ route('expert') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                                 <button class="btn-getmoreinfo2">
                                     <a href="{{ route('support') }}" class="explore-link">
                                         <span class="btn-getmoreinfo2-span">@lang('public.home 15.2')</span>
                                     </a>
                                 </button>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -703,14 +703,14 @@
                             <p class="expert1content" style="margin-bottom: 10px;">
                                 @lang('public.home 18.1')
                             </p>
-                            <a href="{{ route('brokerage') }}">
+                            {{-- <a href="{{ route('brokerage') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                                 <button class="btn-getmoreinfo2">
                                     <a href="{{ route('support') }}" class="explore-link">
                                         <span class="btn-getmoreinfo2-span">@lang('public.home 15.2')</span>
                                     </a>
                                 </button>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -728,19 +728,19 @@
                             <p class="web3content" style="margin-bottom: 10px;">
                                 @lang('public.home 19.1')
                             </p>
-                            <a href="{{ route('web3') }}">
+                            {{-- <a href="{{ route('web3') }}">
                                 <img src="assets/image/home/arrow.svg" style="text-align: left">
                                 <button class="btn-getmoreinfo2">
                                     <a href="{{ route('support') }}" class="explore-link">
                                         <span class="btn-getmoreinfo2-span">@lang('public.home 15.2')</span>
                                     </a>
                                 </button>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
         <div class="one-stop">
             
