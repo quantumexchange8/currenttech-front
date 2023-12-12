@@ -29,22 +29,33 @@ return [
     "home 5"        => "Software Development",
     "home 5.1"      => "Empower your business with customized software solutions. Our expert team of developers will bring your ideas to life, delivering innovative 
                         and reliable software tailored to your specific needs.",
+    "home 5.1 mobile"      => "Empower your business with customized software solutions. Our expert team of developers will bring your ideas to life, delivering innovative 
+                        and reliable software tailored to your specific needs.",
     "home 6"        => "Website Development",
     "home 6.1"      => "We develop websites, no matter big or small with a stage-by-stage approach. From pre-production planning, crafting the GUI design, to backend
+                        development; we execute them with precision.",
+    "home 6.1 mobile"      => "We develop websites, no matter big or small with a stage-by-stage approach. From pre-production planning, crafting the GUI design, to backend
                         development; we execute them with precision.",
     "home 7"        => "Mobile App Development",
     "home 7.1"      => "We convert our clients’ core idea into innovative applications for mobile, cloud or web. We ensure the apps are developed to be compatible on 
                         major platforms as well as cater to mass devices.",
+    "home 7.1 mobile"      => "We convert our clients’ core idea into innovative applications for mobile, cloud or web. We ensure the apps are developed to be compatible on 
+                        major platforms as well as cater to mass devices.",
     "home 8"        =>  "POS System Development",
     "home 8.1"      => "Streamline your business operations with our powerful POS system. Manage sales, inventory, and customer data seamlessly, while providing a 
+                        seamless checkout experience for your customers.", 
+    "home 8.1 mobile"      => "Streamline your business operations with our powerful POS system. Manage sales, inventory, and customer data seamlessly, while providing a 
                         seamless checkout experience for your customers.", 
     "home 9"        => "Expert Advisor Builder",
     "home 9.1"      => "Expert Advisor in forex is an automated trading software that executes trades based on predefined strategies, aiming to enhance trading 
                         efficiency and potentially generate profits.",
+    "home 9.1 mobile"      => "Expert Advisor in forex is an automated trading software that executes trades based on predefined strategies, aiming to enhance trading 
+                        efficiency and potentially generate profits.",
     "home 10"       => "Support & Maintenance",
     "home 10.1"     => "Optimise system performance with our expert support. Our team ensures timely updates and troubleshooting for seamless operations, keeping
-                        your systems at peak efficiency.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+                        your systems at peak efficiency.",
+    "home 10.1 mobile"     => "Optimise system performance with our expert support. Our team ensures timely updates and troubleshooting for seamless operations, keeping
+                        your systems at peak efficiency.",
     "home 11"      => "Your Vision Come Alive",
     "home 12"      => "Welcome to the era of vision. Embark on a journey through the realms of boundless creativity and innovation. Discover how technology unlocks 
                         the power of imagination, reshaping our world with visionary possibilities and endless horizons of imagination.",

@@ -369,7 +369,7 @@
         }
         .cont {
             width: 100%;
-            height: auto;
+            height: 100px;
             margin-bottom: 0px;
             margin-top: 75px;
             gap: 15px;
