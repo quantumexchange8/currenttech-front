@@ -28,6 +28,12 @@
     .develop5-new {
         display: none;
     }
+    .employ-p1-mobile {
+        display: none;
+    }
+    .employ-p2-mobile {
+        display: none;
+    }
 
     @media screen and (max-width: 1093px) {
         .line-develop {
@@ -259,6 +265,21 @@
         .perform-psmall {
             font-size: 10px;
         }
+        .employ-p1-mobile {
+            display: block;
+        }
+        .employ-p1-web {
+            display: none;
+        }
+        .employ-p2-mobile {
+            display: block;
+        }
+        .employ-p2-web {
+            display: none;
+        }
+        .zh-develop4 {
+            width: 100%;
+        }
     }
     @media screen and (min-width: 1800px) {
         .develop1 {
@@ -278,20 +299,43 @@
             margin-right: 350px; */
         }
     }
+    .zh-employ-p2 {
+        width: 100% !important;
+    }
 </style>
 
 <div class="main-content11" style="margin-top: 160px">
     <div class="develop1">
-        <p class="employ-p1">
-            @lang('public.develop 1')
-        </p>
+        @if(app()->getLocale() == 'zh')
+            <p class="employ-p1 employ-p1-web">
+                @lang('public.develop 1')
+            </p>
+            <p class="employ-p1 employ-p1-mobile">
+                @lang('public.develop 1 mobile')
+            </p>
+        @else
+            <p class="employ-p1">
+                @lang('public.develop 1')
+            </p>
+        @endif
+        
     </div>
 
     <div class="mobile-alignment-30px">
         <div class="develop2" style="margin-bottom: 88px;">
-            <p class="employ-p2">
-                @lang('public.develop 2')
-            </p>
+            @if(app()->getLocale() == 'zh')
+                <p class="employ-p2 employ-p2-web @if(app()->getLocale() == 'zh') zh-employ-p2 @endif">
+                    @lang('public.develop 2')
+                </p>
+                <p class="employ-p2 employ-p2-mobile @if(app()->getLocale() == 'zh') zh-employ-p2 @endif">
+                    @lang('public.develop 2 mobile')
+                </p>
+            @else
+                <p class="employ-p2">
+                    @lang('public.develop 2')
+                </p>
+            @endif
+            
         </div>
     </div>
 
@@ -304,7 +348,7 @@
         <div class="line-develop"></div>
     
 
-    <div class="develop4">
+    <div class="develop4 @if(app()->getLocale() == 'zh') zh-develop4 @endif">
         <p>
             @lang('public.develop 3')
         </p>
@@ -417,7 +461,7 @@
     <div class="mobile-alignment-30px">
         <div class="develop8-mobile">
             <p>
-                @lang('public.develop 10')
+                @lang('public.develop 10 mobile')
             </p>
         </div>
     </div>

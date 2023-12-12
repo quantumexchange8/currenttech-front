@@ -140,14 +140,10 @@
             font-size: 20px;
             line-height: 22px;
             text-align: center;
-            width: 70%;
+            width: 100%;
             margin: 0;
-            margin-left: 60px;
-            margin-bottom: 68px;
-            /* margin-bottom: -20px; */
         }
         .support2 img {
-            margin-top: -90px;
             margin-bottom: 35px;
             border-radius: 20px;
             width: 100%;

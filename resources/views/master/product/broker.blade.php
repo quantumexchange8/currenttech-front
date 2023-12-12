@@ -14,6 +14,8 @@
     .broker2 {
         text-align: center;
         margin-bottom: 68px;
+        display: flex;
+        justify-content: center;
     }
 
     .broker3 {
@@ -22,6 +24,7 @@
     .broker4 {
         margin-bottom: 68px;
         text-align: center;
+        width: 100%;
     }
     .broker5 {
         text-align: center;
@@ -110,6 +113,22 @@
 
     .sup-row1-cont label span {
         margin-left: 0px;
+    }
+    .web-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .special-contact-p2 {
+        margin-bottom: 15px;
+    }
+    .build2-mobile {
+        display: none;
+    }
+    .broker-p2-mobile {
+        display: none;
+    }
+    .ct-p7-mobile {
+        display: none;
     }
     @media screen and (max-width: 1093px) {
         .ct-p {
@@ -222,7 +241,7 @@
             justify-content: center;
             align-items: center;
             gap: 22px;
-            width: 197px;
+            width: 100%;
             margin-bottom: 25px;
         }
         .ctrader-brokerage-word {
@@ -439,12 +458,35 @@
             font-weight: 400;
             line-height: 18px; /* 128.571% */
             margin-bottom: 68px;
+            display: none;
+        }
+        .package-p2-mobile {
+            display: block;
+            width: 100%;
+            text-align: left;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 128.571% */
+            margin-bottom: 68px;
         }
         .getstart-container {
 
         }
 
         .getstart-p {
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            display: none;
+        }
+        .getstart-p-mobile {
+            display: block;
             color: #FFF;
             font-family: SF Pro Text;
             font-size: 20px;
@@ -491,7 +533,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            width: 85%;
+            width: 100%;
 
         }
         .broker-p {
@@ -544,6 +586,16 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            display: none;
+        }
+        .getstart-p2-mobile {
+            display: block;
+            color: #FFF;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
         }
         .effective {
             display: flex;
@@ -587,6 +639,28 @@
         }
         .effective-container {
             margin-bottom: 700px;
+        }
+        .build2-web {
+            display: none;
+        }
+        .build2-mobile {
+            display: block;
+        }
+        .broker-p2-web {
+            display: none;
+        }
+        .broker-p2-mobile {
+            display: block;
+        }
+        .ct-p7-mobile {
+            display: block;
+            width: 100%;
+        }
+        .ct-p7-web {
+            display: none;
+        }
+        .zh-package-p {
+            width: 70%;
         }
     }
 
@@ -806,7 +880,7 @@
         justify-content: center;
         align-items: center;
         gap: 22px;
-        width: 197px;
+        width: 205px;
         padding-left: 39px;
     }
 
@@ -841,6 +915,12 @@
         background: #666;
         margin-bottom: 88px;
     }
+    .zh-build2 {
+        width: 100%;
+    }
+    .zh-broker-p2 {
+        width: 100%;
+    }
 </style>
 
 <div class="main-content3" style="margin-top:160px;">
@@ -851,9 +931,22 @@
     </div>
     
     <div class="broker2">
-        <p class="build2">
-            @lang('public.brokerage 2')
-        </p>
+        <div class="mobile-alignment-30px web-flex">
+            @if(app()->getLocale() == 'zh') 
+                <p class="build2 build2-web @if(app()->getLocale() == 'zh') zh-build2 @endif">
+                    @lang('public.brokerage 2')
+                </p>
+
+                <p class="build2 build2-mobile @if(app()->getLocale() == 'zh') zh-build2 @endif">
+                    @lang('public.brokerage 2 mobile')
+                </p>
+            @else
+                <p class="build2 @if(app()->getLocale() == 'zh') zh-build2 @endif">
+                    @lang('public.brokerage 2')
+                </p>
+            @endif
+            
+        </div>
     </div>
 
     <div class="broker3">
@@ -869,10 +962,20 @@
     </div>
     
     <div class="broker5">
-        <div class="mobile-alignment-30px">
-            <p class="broker-p2">
-                @lang('public.brokerage 4')
-            </p>
+        <div class="mobile-alignment-30px web-flex">
+            @if(app()->getLocale() == 'zh')
+                <p class="broker-p2 broker-p2-web @if(app()->getLocale() == 'zh') zh-broker-p2 @endif">
+                    @lang('public.brokerage 4')
+                </p>
+
+                <p class="broker-p2 broker-p2-mobile @if(app()->getLocale() == 'zh') zh-broker-p2 @endif">
+                    @lang('public.brokerage 4 mobile')
+                </p>
+            @else
+                <p class="broker-p2 @if(app()->getLocale() == 'zh') zh-broker-p2 @endif">
+                    @lang('public.brokerage 4')
+                </p>
+            @endif
         </div>
     </div>
     
@@ -923,8 +1026,11 @@
                     <p class="ct-p8">
                         <span class="exp-color">@lang('public.brokerage 9')</span>
                     </p>
-                    <p class="ct-p7">
+                    <p class="ct-p7 ct-p7-web">
                         @lang('public.brokerage 10')
+                    </p>
+                    <p class="ct-p7 ct-p7-mobile">
+                        @lang('public.brokerage 10 mobile')
                     </p>
                 </div>
             </div>
@@ -933,7 +1039,7 @@
     
     <div style="display: flex;justify-content:center;flex-direction:column;">
         <div class="mobile-alignment-30px">
-            <p class="package-p">
+            <p class="package-p @if(app()->getLocale() == 'zh') zh-package-p @endif">
                 @lang('public.brokerage 11')
             </p>
         </div>
@@ -941,6 +1047,9 @@
             <div style="display: flex;justify-content: center;">
                 <p class="package-p2">
                     @lang('public.brokerage 12')
+                </p>
+                <p class="package-p2-mobile">
+                    @lang('public.brokerage 12 mobile')
                 </p>
             </div>
         </div>
@@ -1328,8 +1437,13 @@
     <div class="broker10">
         <div class="mobile-alignment-30px">
             <p class="getstart-p">@lang('public.brokerage 15')</p>
+            <p class="getstart-p-mobile">@lang('public.brokerage 15 mobile')</p>
+
             <p class="getstart-p2">
                 @lang('public.brokerage 16')
+            </p>
+            <p class="getstart-p2-mobile">
+                @lang('public.brokerage 16 mobile')
             </p>
         </div>
     </div>
@@ -1388,7 +1502,7 @@
                     <p class="contact-p">
                         @lang('public.brokerage 20')
                     </p>
-                    <p class="contact-p2">
+                    <p class="contact-p2 special-contact-p2">
                         @lang('public.brokerage 20.1')
                     </p>
                 </div>

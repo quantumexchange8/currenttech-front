@@ -11,6 +11,18 @@
     .perform2 {
         text-align: center;
     }
+    .sales-p1-mobile {
+        display: none;
+    }
+    .encourage-p1-mobile {
+        display: none;
+    }
+    .display-p1-mobile {
+        display: none;
+    }
+    .zh-discover-p {
+        width: 100%;
+    }
 
     @media screen and (max-width: 1093px) {
         .perform1 {
@@ -73,6 +85,17 @@
             font-size: 14px;
             line-height: 16px;
             text-align: center;
+            display: none;
+        }
+        .through-p2-mobile {
+            width: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 14px;
+            line-height: 16px;
+            display: block;
+            margin: 0;
         }
         .building-p1 {
             width: 100%;
@@ -151,6 +174,27 @@
         .perform-psmall {
             font-size: 10px;
         }
+        .sales-p1-web {
+            display: none;
+        }
+        .sales-p1-mobile {
+            display: block;
+        }
+        .encourage-p1-web {
+            display: none;
+        }
+        .encourage-p1-mobile {
+            display: block;
+        }
+        .display-p1-mobile {
+            display: block;
+        }
+        .display-p1-web {
+            display: none;
+        }
+        .zh-discover-p {
+            width: 95%;
+        }
     }
     @media screen and (min-width: 1800px) {
         .perform1 {
@@ -205,6 +249,9 @@
         <p class="through-p2">
             @lang('public.performance 2')
         </p>
+        <p class="through-p2-mobile">
+            @lang('public.performance 2 mobile')
+        </p>
     </div>
 
     <div class="mobile-alignment-30px">
@@ -245,9 +292,19 @@
             </div>
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
-                    <p class="sales-p1">
-                        @lang('public.performance 5')
-                    </p>
+                    @if(app()->getLocale() == 'zh')
+                        <p class="sales-p1 sales-p1-web">
+                            @lang('public.performance 5')
+                        </p>
+                        <p class="sales-p1 sales-p1-mobile">
+                            @lang('public.performance 5 mobile')
+                        </p>
+                    @else
+                        <p class="sales-p1">
+                            @lang('public.performance 5')
+                        </p>
+                    @endif
+                    
                 </div>
                 <div>
                     <p class="sales-p2">
@@ -262,9 +319,19 @@
         <div class="perform5">
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
-                    <p class="encourage-p1">
-                        @lang('public.performance 7')
-                    </p>
+                    @if(app()->getLocale() == 'zh')
+                        <p class="encourage-p1 encourage-p1-web">
+                            @lang('public.performance 7')
+                        </p>
+                        <p class="encourage-p1 encourage-p1-mobile">
+                            @lang('public.performance 7 mobile')
+                        </p>
+                    @else
+                        <p class="encourage-p1">
+                            @lang('public.performance 7')
+                        </p>
+                    @endif
+                    
                 </div>
                 <div>
                     <p class="encourage-p2">
@@ -305,9 +372,19 @@
         
             <div class="mobile-emphasise" style="display: flex; flex-direction:column">
                 <div>
-                    <p class="display-p1">
-                        @lang('public.performance 11')
-                    </p>
+                    @if(app()->getLocale() == 'zh')
+                        <p class="display-p1 display-p1-web">
+                            @lang('public.performance 11')
+                        </p>
+                        <p class="display-p1 display-p1-mobile">
+                            @lang('public.performance 11 mobile')
+                        </p>
+                    @else
+                        <p class="display-p1">
+                            @lang('public.performance 11')
+                        </p>
+                    @endif
+                    
                 </div>
                 <div>
                     <p class="display-p2">
@@ -324,7 +401,7 @@
 
     <div class="mobile-alignment-30px">
         <div class="perform6">
-            <p class="discover-p">
+            <p class="discover-p @if(app()->getLocale() == 'zh') zh-discover-p @endif">
                 @lang('public.performance 13')
             </p>
         </div>

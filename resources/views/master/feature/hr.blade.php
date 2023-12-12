@@ -59,9 +59,9 @@
 
     @media screen and (max-width: 1093px) {
         .hr5-container-row1,
-    .hr5-container-row2 {
-        display: block; 
-    }
+        .hr5-container-row2 {
+            display: block; 
+        }
 
     .hr-line {
         width: 100%;
@@ -296,7 +296,7 @@
             margin-left: 90px;
         }
         .enhanced-p {
-            /* width: 100%; */
+            width: 80%;
             font-size: 20px;
             line-height: 23px;
             text-align: center;
@@ -324,6 +324,9 @@
         }
         .perform-psmall {
             font-size: 10px;
+        }
+        .zh-enhanced-p {
+            width: 100%;
         }
     }
     @media screen and (min-width: 1600px) {
@@ -390,11 +393,14 @@
         display: flex;
         justify-content: center;
     }
+    .zh-hr-container-col1 {
+        height: auto !important;
+    }
 </style>
 
 <div class="main-content12" style="margin-top: 160px">
     <div class="hr1">
-        <p class="enhanced-p">
+        <p class="enhanced-p  @if(app()->getLocale() == 'zh') zh-enhanced-p @endif">
             @lang('public.hr 1')
         </p>
     </div>
@@ -407,7 +413,7 @@
     <div class="mobile-alignment-30px">
         <div class="hr2-mobile">
             <p>
-                @lang('public.hr 2')
+                @lang('public.hr 2 mobile')
             </p>
         </div>
     </div>
@@ -430,7 +436,7 @@
     <div class="hr5">
         <div class="hr5-container-row1">
             <div class="hr-container1">
-                <div class="hr-container-col1">
+                <div class="hr-container-col1 @if(app()->getLocale() == 'zh') zh-hr-container-col1 @endif">
                     <p class="clock-purple">
                         @lang('public.hr 4')
                     </p>
@@ -588,7 +594,7 @@
         </div>
         <div class="hr6-mobile">
             <p>
-                @lang('public.hr 12')
+                @lang('public.hr 12 mobile')
             </p>
         </div>
     </div>

@@ -158,8 +158,8 @@
         background: linear-gradient(180deg, rgba(51, 51, 51, 0.40) 0%, rgba(136, 136, 136, 0.24) 100%);
     }   
     .img-max-width {
-        max-width: 100%; 
-        height: auto; 
+        width: 261px; 
+        height: 435px; 
     }
     
     .webapp1 {
@@ -212,7 +212,7 @@
     }
     .webapp66 {
         text-align: left;
-        margin-bottom: 16px;
+        margin-bottom: 50px;
         width: 100%;
     }
     .webapp6-1 {
@@ -344,8 +344,20 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+        margin: 12px 0;
     }
-
+    .webapp14 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .powerhouse-p-mobile {
+        display: none;
+    }
+    .powerhouse-p2-mobile {
+        display: none;
+    }
     @media screen and (max-width: 1093px) {
         .detail-4 {
             display: none;
@@ -354,13 +366,14 @@
             display: flex;
             flex-direction: column;
             align-items: center; 
+            width: 100%;
         }
 
         .detail-social-cont {
             /* margin: 0;  */
             margin-bottom: 20px; 
             text-align: center;
-            width: 135%;
+            width: 100%;
             height: 118px;
         }
         .line1 {
@@ -397,12 +410,14 @@
             height: auto;
         }
         .webapp2 {
-            width: 90%;
+            width: 100%;
             height: auto;
             margin-top: 0px;
             margin-left: 0px;
             margin-right: 0px;
             margin-bottom: 38px;
+            display: flex;
+            justify-content: center;
         }
         .webapp2 p {
             width: 88%;
@@ -645,6 +660,9 @@
             height: auto;
             max-width: 100%;
         }
+        .webapp14 {
+            display: none;
+        }
         .ecorm {
             width: 100%;
             color: #FFF;
@@ -729,9 +747,21 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
-            width: 55%;
+            width: 70%;
             height: auto;
             margin-bottom: 38px;
+        }
+        .powerhouse-p-web {
+            display: none;
+        }
+        .powerhouse-p-mobile {
+            display: block;
+        }
+        .powerhouse-p2-web {
+            display: none;
+        }
+        .powerhouse-p2-mobile {
+            display: block;
         }
         .carbon-image {
             width: 162.038px !important;
@@ -744,6 +774,13 @@
         .social-icon img{
             width: 30px;
             height: 30px;
+        }
+        .cloud-img {
+            width: 29.586px;
+            height: 29.586px;
+        }
+        .slick-slide {
+            margin-right: 5px;
         }
     }
 
@@ -901,19 +938,45 @@
             margin-right: 650px; */
         }
     }
+    .zh-powerhouse-p {
+        width: 100% !important;
+    }
 </style>
 
 <div class="main-content2" style="margin-top: 160px;">
     <div class="webapp1">
-        <p class="powerhouse-p">
-            @lang('public.web app 1')
-        </p>
+        @if(app()->getLocale() == 'zh')
+
+            <p class="powerhouse-p powerhouse-p-web @if(app()->getLocale() == 'zh') zh-powerhouse-p @endif">
+                @lang('public.web app 1')
+            </p>
+
+            <p class="powerhouse-p  powerhouse-p-mobile @if(app()->getLocale() == 'zh') zh-powerhouse-p @endif">
+                @lang('public.web app 1 mobile')
+            </p>
+        @else
+            <p class="powerhouse-p @if(app()->getLocale() == 'zh') zh-powerhouse-p @endif">
+                @lang('public.web app 1')
+            </p>
+        @endif
+        
     </div>
      
     <div class="webapp2">
-        <p class="powerhouse-p2">
-            @lang('public.web app 2')
-        </p>
+        @if(app()->getLocale() == 'zh')
+            <p class="powerhouse-p2 powerhouse-p2-web">
+                @lang('public.web app 2')
+            </p>
+
+            <p class="powerhouse-p2 powerhouse-p2-mobile">
+                @lang('public.web app 2 mobile')
+            </p>
+        @else
+            <p class="powerhouse-p2">
+                @lang('public.web app 2')
+            </p>
+        @endif
+        
     </div>
      
     <div class="webapp3">
@@ -1116,7 +1179,6 @@
                 <p class="template">
                     @lang('public.web app 14.2')
                 </p>
-                <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
@@ -1137,7 +1199,6 @@
                 <p class="template">
                     @lang('public.web app 15.2')
                 </p>
-                <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
@@ -1158,7 +1219,6 @@
                 <p class="template">
                     @lang('public.web app 16.2')
                 </p>
-                <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
@@ -1179,7 +1239,6 @@
                 <p class="template">
                     @lang('public.web app 17.2')
                 </p>
-                <br>
                 <div style="display: flex;align-items:center;gap:8px;">
                     <img src="assets/image/product/seeall/eye.svg" class="eye">
                     <span style="color: #BB9200;font-family: SF Pro Text;font-size: 12px;">2,583 @lang('public.web app 14.3')</span>
@@ -1188,10 +1247,17 @@
         </div>
 
     </div>
+
+    <div class="webapp14">
+        <img src="assets/image/product/detail/1.png" class="img-max-width">
+        <img src="assets/image/product/detail/2.png" class="img-max-width">
+        <img src="assets/image/product/detail/3.png" class="img-max-width">
+        <img src="assets/image/product/detail/4.png" class="img-max-width">
+    </div>
 </div>
     
     <div class="home-marqueee" style="margin-bottom: 60px;">
-        <div class="marquee-content">
+        <div class="marquee-content-webapp-mobile">
             {{-- <div class="detail-3"> --}}
                 {{-- <div class="detail-marquee-content" style="display: flex"> --}}
                     <div class="marquee-item">
@@ -1406,9 +1472,9 @@
 
     <div class="detail-7">
         <div class="detail-social-cont">
-            <div style="display: flex;flex-direction:column;justify-content: space-evenly;;align-items: center;">
+            <div style="display: flex;flex-direction:column;justify-content: center;align-items: center;gap:6px">
                 <div>
-                    <img src="assets/image/product/detail/cloud.svg">
+                    <img src="assets/image/product/detail/cloud.svg" class="cloud-img">
                 </div>
                 <div class="connectus">
                     Connect Us

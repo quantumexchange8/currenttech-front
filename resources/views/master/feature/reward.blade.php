@@ -199,6 +199,9 @@
              text-align: center;
              display: block;
         }
+        .zh-ignite-p {
+            width: 100%;
+        }
     }
     @media screen and (max-width: 1600px) {
         .rew11 {
@@ -218,11 +221,14 @@
             margin-right: 550px;
         }
     }
+    .zh-implement-p {
+        width: 100% !important;
+    }
 </style>
 
 <div class="main-content10" style="margin-top:160px;">
     <div class="rew1">
-        <p class="ignite-p">
+        <p class="ignite-p @if(app()->getLocale() == 'zh') zh-ignite-p @endif">
             @lang('public.reward 1')
         </p>
     </div>
@@ -233,7 +239,7 @@
         </p>
         <div class="mobile-alignment-30px">
             <p class="unleash-p-mobile">
-                @lang('public.reward 2')
+                @lang('public.reward 2 mobile')
             </p>
         </div>
     </div>
@@ -259,7 +265,7 @@
 
     <div class="mobile-alignment-30px">
         <div class="rew5">
-            <p class="implement-p">
+            <p class="implement-p @if(app()->getLocale() == 'zh') zh-implement-p @endif">
                 @lang('public.reward 4')
             </p>
             <p class="implement-p-mobile">
@@ -289,7 +295,7 @@
                 @lang('public.reward 6')
             </p>
             <p class="recognise-p1-web">
-                @lang('public.reward 6')
+                @lang('public.reward 6 mobile')
             </p>
         </div>
     </div>
@@ -326,7 +332,7 @@
                 @lang('public.reward 8')
             </p>
             <p class="recognise-p1-web">
-                @lang('public.reward 8')
+                @lang('public.reward 8 mobile')
             </p>
         </div>
     </div>
@@ -363,7 +369,7 @@
                 @lang('public.reward 10')
             </p>
             <p class="recognise-p1-web">
-                @lang('public.reward 10')
+                @lang('public.reward 10 mobile')
             </p>
         </div>
     </div>
@@ -395,7 +401,7 @@
                 @lang('public.reward 12')
             </p>
             <p class="recognise-p1-web">
-                @lang('public.reward 12')
+                @lang('public.reward 12 mobile')
             </p>
         </div>
     </div>

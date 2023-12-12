@@ -109,7 +109,8 @@
 
     .pos-row4 {
         text-align: center;
-        margin-top: 86px
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .pos-row5 {
@@ -202,6 +203,13 @@
     }
 
     .pos-row11-mobile {
+        display: none;
+    }
+    .web-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .simplify-p-mobile {
         display: none;
     }
     @media screen and (max-width: 575px) {
@@ -360,6 +368,23 @@
             width: 100%;
             /* margin-left: -80px; */
         }
+        .ignite-p1-web {
+            display: none;
+        }
+        .ignite-p1-mobile {
+            display: block;
+            color: #FFF;
+            text-align: center;
+            font-family: SF Pro Text;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 38.19px;
+            width: 660px;
+            height: 72px;
+            margin: 0;
+        }
+
         .streamline-p {
             width: 100%;
             color: #FFF;
@@ -546,6 +571,17 @@
             width: 100%;
             justify-content: center;
         }
+
+        .zh-width {
+            width: 100% !important;
+        }
+        .simplify-p-web {
+            display: none;
+        }
+
+        .simplify-p-mobile {
+            display: block;
+        }
     }
 
     @media screen and (min-width: 1300px) {
@@ -704,6 +740,13 @@
             height: auto;
         }
     }
+
+    .zh-chooose-p {
+        width: 100% !important;
+    }
+    .ignite-p1-mobile {
+        width: 100% !important;
+    }
 </style>
 <div class="main-content" style="margin-top: 160px">
     <div class="pos-row1">
@@ -722,9 +765,19 @@
     
     <div class="pos-row4">
         <div class="mobile-alignment-30px">
-            <p class="ignite-p1">
-                @lang('public.pos 3')
-            </p>
+            @if(app()->getLocale() == 'zh')
+                <p class="ignite-p1 ignite-p1-web">
+                    @lang('public.pos 3')
+                </p>
+                <p class="ignite-p1-mobile">
+                    @lang('public.pos 3 mobile')
+                </p>
+            @else
+                <p class="ignite-p1">
+                    @lang('public.pos 3')
+                </p>
+            @endif
+            
         </div>
     </div>
     
@@ -850,9 +903,20 @@
 
     <div class="pos-row7">
         <div class="mobile-alignment-30px">
-            <p class="simplify-p">
-                @lang('public.pos 10')
-            </p>
+            @if(app()->getLocale() == 'zh')
+                <p class="simplify-p simplify-p-web">
+                    @lang('public.pos 10')
+                </p>
+
+                <p class="simplify-p simplify-p-mobile @if(app()->getLocale() == 'zh') zh-width @endif">
+                    @lang('public.pos 10 mobile')
+                </p>
+            @else
+                <p class="simplify-p">
+                    @lang('public.pos 10')
+                </p>
+            @endif
+            
 
             <p class="simplify-p2">
                 @lang('public.pos 11')
@@ -904,8 +968,8 @@
         
     </div>
     <div class="pos-row10">
-        <div class="mobile-alignment-30px">
-            <p class="chooose-p">
+        <div class="mobile-alignment-30px web-flex">
+            <p class="chooose-p @if(app()->getLocale() == 'zh') zh-chooose-p @endif">
                 @lang('public.pos 12')
             </p>
         </div>

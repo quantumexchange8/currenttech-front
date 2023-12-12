@@ -76,6 +76,10 @@
         width: 160px;
         height: 160px;
     }
+    .web-flex {
+        display: flex;
+        justify-content: center;
+    }
     @media screen and (max-width: 1093px) {
         .bigimg-border {
             border-radius: 0px !important;
@@ -251,7 +255,7 @@
             width: 100%;
         }
         .ragnarok-p {
-            margin-left: 25px;
+            margin-left: 40px;
             font-size: 20px;
             line-height: normal;
             margin-bottom: 16px;
@@ -259,25 +263,25 @@
         .ragnarok-p1 {
             font-size: 12px;
             line-height: 14px;
-            width: 60%;
-            margin-left: 25px;
+            width: 80%;
+            margin-left: 40px;
         }
         .medusa-p4 {
             font-size: 20px;
-            margin-left: 25px;
+            margin-left: 45px;
             margin-bottom: 16px;
             line-height: normal;
         }
         .medusa-p6 {
             font-size: 20px;
-            margin-left: 25px;
+            margin-left: 45px;
             line-height: normal;
             margin-bottom: 16px;
         }
         .medusa-p5 {
             font-size: 12px;
             width: 80%;
-            margin-left: 25px;
+            margin-left: 45px;
         }
         .medusa-p {
             width: 140px;
@@ -401,12 +405,12 @@
         }
         .mobile-mt5-icon {
             width: 30px;
-            height: ;: 30px;
+            height: 30px;
         }
         .ragnarok-icon {
             width: 40px;
             height: 40px;
-            margin-left: 25px;
+            margin-left: 40px;
         }
         .infinity-img {
             width: 61.578px;
@@ -422,6 +426,9 @@
             margin-right: 16px !important;
         }
     }
+    .zh-expert-p-word2 {
+        width: 100%;
+    }
 </style>
 
     <div class="main-content4" style="margin-top:160px;">
@@ -432,8 +439,8 @@
         </div>
 
         <div class="exprt-2">
-            <div class="mobile-alignment-30px">
-                <p class="expert-p-word2">
+            <div class="mobile-alignment-30px web-flex">
+                <p class="expert-p-word2 @if(app()->getLocale() == 'zh') zh-expert-p-word2 @endif">
                     @lang('public.expert 2')
                 </p>
             </div>

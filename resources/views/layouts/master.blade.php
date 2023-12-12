@@ -61,6 +61,9 @@
     </script>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
+    <!--Js Library-->
+    <script src="/js/jquery.marquee.min.js"></script>
+    
     <script>
 
     function toggleNav() {
@@ -216,26 +219,26 @@
   window.addEventListener("load", function() {
   // document.addEventListener("DOMContentLoaded", function() {
   // Marquee auto sliding image
-  const marqueeContents = document.querySelectorAll(".marquee-content");
+//   const marqueeContents = document.querySelectorAll(".marquee-content");
   const marqueeContents2 = document.querySelectorAll(".marquee-content5");
 
   // Clone the marquee items for each marquee row
-  marqueeContents.forEach((marqueeContent) => {
-    const marqueeItems = marqueeContent.querySelectorAll(".marquee-item");
-    const marqueeWidth = marqueeItems.length * (marqueeItems[0].offsetWidth + 2 * parseFloat(getComputedStyle(marqueeItems[0]).marginLeft));
+//   marqueeContents.forEach((marqueeContent) => {
+//     const marqueeItems = marqueeContent.querySelectorAll(".marquee-item");
+//     const marqueeWidth = marqueeItems.length * (marqueeItems[0].offsetWidth + 2 * parseFloat(getComputedStyle(marqueeItems[0]).marginLeft));
 
-    // Calculate the number of items needed to fill the width of the marquee
-    const numberOfItems = Math.ceil(marqueeContent.offsetWidth / (marqueeItems[0].offsetWidth + 2 * parseFloat(getComputedStyle(marqueeItems[0]).marginLeft)));
+//     // Calculate the number of items needed to fill the width of the marquee
+//     const numberOfItems = Math.ceil(marqueeContent.offsetWidth / (marqueeItems[0].offsetWidth + 2 * parseFloat(getComputedStyle(marqueeItems[0]).marginLeft)));
 
-    // Clone the items
-    for (let i = 0; i < numberOfItems; i++) {
-      marqueeItems.forEach((item) => {
-        marqueeContent.appendChild(item.cloneNode(true));
-      });
-    }
+//     // Clone the items
+//     for (let i = 0; i < numberOfItems; i++) {
+//       marqueeItems.forEach((item) => {
+//         marqueeContent.appendChild(item.cloneNode(true));
+//       });
+//     }
 
-    marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
-  });
+//     marqueeContent.style.width = (marqueeWidth * numberOfItems) + "px";
+//   });
 
   marqueeContents2.forEach((marqueeContent2) => {
     const marqueeItems2 = marqueeContent2.querySelectorAll(".marquee-item5");
@@ -849,6 +852,7 @@
         });
     </script>
 
+    <script src="js/marquee.js"></script>
 
 </body>
 </html>

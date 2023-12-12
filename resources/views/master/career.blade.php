@@ -20,7 +20,16 @@
     .career-row3-mobile {
         display: none;
     }
+    .career2-header2-mobile {
+        display: none;
+    }
     @media screen and (max-width: 1093px) {
+        .career2-header2-web {
+            display: none;
+        }
+        .career2-header2-mobile {
+            display: block;
+        }
         .career-req-p1 {
             color: #ffffff;
             text-align: center;
@@ -59,6 +68,7 @@
             flex-direction: column;
             justify-content: center;
             flex-shrink: 0;
+            align-items: center;
         }
         .career1 p {
             color: #FFF;
@@ -90,6 +100,7 @@
             font-size: 20px;
             line-height: 23px;
             margin-bottom: 0;
+            margin-top: 0px;
         }
         .career3 {
             width: 100%;
@@ -314,7 +325,7 @@
         }
         .career7 p {
             margin-top: 30px;
-            width: 80%;
+            width: 100%;
             font-size: 14px;
             text-align: center;
         }
@@ -379,37 +390,40 @@
             margin-bottom: 38px;
             width: 100%;
         }
+        .zh-career1 p {
+            width: 65%;
+        }
     }
     @media screen and (min-width: 1800px) {
         .career1 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .career2 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px; */
+            /* margin-right: 350px; */
         }
         .career3 {
             /* margin-left: 350px;
             margin-right: 350px; */
         }
         .career5 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .career6 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
         .career7 {
-            margin-left: 350px;
-            margin-right: 350px;
+            /* margin-left: 350px;
+            margin-right: 350px; */
         }
     }
 </style>
 
 <div class="main-content15">
-    <div class="career1">
+    <div class="career1 @if(app()->getLocale() == 'zh') zh-career1 @endif">
         <p>
             @lang('public.career 1')
         </p>
@@ -417,8 +431,11 @@
 
     <div class="mobile-alignment-30px">
         <div class="career2">
-            <p>
+            <p class="career2-header2-web">
                 @lang('public.career 2')<br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
+            </p>
+            <p class="career2-header2-mobile">
+                @lang('public.career 2 mobile')<br><a href="#" class="href-link" style="text-decoration: none">hr.admin@currenttech.pro</a>
             </p>
         </div>
     </div>
@@ -482,7 +499,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.1')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.2')
                     </p>
@@ -509,7 +525,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.3')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -524,7 +539,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -536,7 +550,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -693,7 +706,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.1')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.2')
                     </p>
@@ -717,7 +729,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.3')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -733,7 +744,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -747,7 +757,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -891,7 +900,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.1')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.2')
                     </p>
@@ -916,7 +924,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.3')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -932,7 +939,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -944,7 +950,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -1073,7 +1078,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.1')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.2')
                     </p>
@@ -1098,7 +1102,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.3')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -1114,7 +1117,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -1128,7 +1130,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -1262,7 +1263,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.1')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.2')
                     </p>
@@ -1287,7 +1287,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.3')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.4')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -1302,7 +1301,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -1316,7 +1314,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -1444,7 +1441,6 @@
                     <p class="career-req-p1">
                         @lang('public.career 5.3')
                     </p>
-                    <br>
                     <p class="career-req-p2">
                         @lang('public.career 5.4')
                     </p>
@@ -1471,7 +1467,6 @@
             <div class="career-col4">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.1')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.2')</p>
                 </div>
                 <div class="cap-ctgry-p">
@@ -1485,7 +1480,6 @@
             <div class="career-col5">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.5')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.6')</p>
                 </div>
                 <div class="edu-ctgry-p">
@@ -1497,7 +1491,6 @@
             <div class="career-col6">
                 <div class="cap-p">
                     <p class="cap-p-p">@lang('public.career 5.7')</p>
-                    <br>
                     <p class="goodon-p">@lang('public.career 5.8')</p>
                 </div>
                 <div class="exp-ctgry-p">
@@ -1585,11 +1578,13 @@
 
     <div class="career-line1"></div>
 
-    <div class="career7">
-        <p>
-            @lang('public.career 31')
-            <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
-        </p>
+    <div class="mobile-alignment-30px">
+        <div class="career7">
+            <p>
+                @lang('public.career 31')
+                <a href="#" class="href-link2">hr.admin@currenttech.pro</a>
+            </p>
+        </div>
     </div>
 </div>
 

@@ -4,8 +4,8 @@
 <style>
     .slick-slide img {
     display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
     /* Change the color of slick dots */
     .slick-dots li button {
@@ -50,6 +50,34 @@
     .alien-mobile {
         display: none;
     }
+    .craft-p-mobile {
+        display: none;
+    }
+    .web-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .slick-slide {
+        margin-right: 10px;
+    }
+    .res2 {
+        margin-bottom: 68px;
+    }
+    .responsive-nft1 {
+        display: none;
+    }
+    .responsive-nft2 {
+        display: none;
+    }
+    .revo-p2-mobile {
+        display: none;
+    }
+    .empowering-p-mobile {
+        display: none;
+    }
+    .craft-p2-mobile {
+        display: none;
+    }
     @media only screen and (min-width: 1440px) {
         .responsive {
             display: none;
@@ -67,9 +95,8 @@
             margin-bottom: 16px;
         }
         .web3-7 p {
-            width: 60%;
+            width: 90%;
             height: auto;
-            margin-bottom: -20px;
             margin-top: 20px;
         }
         .web3-8 {
@@ -126,7 +153,7 @@
             margin-bottom: 68px;
         }
         .empowering-p {
-            width: 50%;
+            width: 70%;
             text-align: left;
             color: #FFF;
             font-family: SF Pro Text;
@@ -136,7 +163,7 @@
             line-height: normal;
         }
         .empowering-p2 {
-            width: 90%;
+            width: 100%;
             text-align: left;
             color: #FFF;
 
@@ -282,7 +309,7 @@
             display: none;
         }
         .craft-p-mobile {
-            width: 100%;
+            width: 100% !important;
             font-size: 16px;
             text-align: left;
             margin: 0;
@@ -294,6 +321,10 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+        }
+        .craft-p3 {
+            width: 100%;
+            text-align: left;
         }
         .craft-p2 {
             width: 100%;
@@ -372,18 +403,16 @@
             height: 150px;
             margin-top: 20px;
             margin-bottom: 20px;
-            margin-left: 27px;
         }
         .web3-marqueee-item img {
             width: 150px;
             height: auto;
             border: 2px solid #69EACB;
             border-radius: 20px;
-            margin-left: 27px;
         }
         .web3-marqueee-item-2 img {
             width: 150px;
-            margin-left: 27px;
+            /* margin-left: 27px; */
             /* height: 150px; */
         }
         .web3-marquee-itemm img {
@@ -397,6 +426,7 @@
         .web3-3 {
             width: 100%;
             margin-bottom: 16px;
+            justify-content: flex-start;
         }
         .web3-marquee {
             margin-top: 68px !important;
@@ -410,6 +440,33 @@
         }
         .many-icon {
             height: 300px !important;
+        }
+        .res {
+            margin-top: 68px;
+        }
+        .revo-p2-mobile {
+            display: block;
+        }
+        .revo-p2-web {
+            display: none;
+        }
+        .empowering-p-web {
+            display: none;
+        }
+        .empowering-p-mobile {
+            display: block;
+        }
+        .craft-p2-web {
+            display: none;
+        }
+        .craft-p2-mobile {
+            display: block;
+        }
+        .responsive-nft1 {
+            display: block;
+        }
+        .responsive-nft2 {
+            display: block;
         }
     }
 
@@ -437,6 +494,21 @@
             margin-right: 650px; */
         }
     }
+
+    .zh-revo-p2 {
+        width: 100% !important;
+    }
+    .zh-empowering-p {
+        width: 100% !important;
+    }
+    .zh-craft-p2 {
+        width: 85% !important;
+    }
+
+    .web-flex {
+        display: flex;
+        justify-content: center;
+    }
 </style>
 
 <div class="main-content5" style="margin-top:160px;">
@@ -447,9 +519,18 @@
     </div>
     <div class="web3-2">
         <div class="mobile-alignment-30px">
-            <p class="revo-p2">
-                @lang('public.web 2')
-            </p>
+            @if(app()->getLocale() == 'zh') 
+                <p class="revo-p2 revo-p2-web @if(app()->getLocale() == 'zh') zh-revo-p2 @endif">
+                    @lang('public.web 2')
+                </p>
+                <p class="revo-p2 revo-p2-mobile @if(app()->getLocale() == 'zh') zh-revo-p2 @endif">
+                    @lang('public.web 2 mobile')
+                </p>
+            @else
+                <p class="revo-p2">
+                    @lang('public.web 2')
+                </p>
+            @endif
         </div>
     </div>
 </div>
@@ -470,9 +551,20 @@
     
     <div class="web3-3">
         <div class="mobile-alignment-30px">
-            <p class="empowering-p">
-                @lang('public.web 3')
-            </p>
+            @if(app()->getLocale() == 'zh')
+                <p class="empowering-p empowering-p-web @if(app()->getLocale() == 'zh') zh-empowering-p @endif">
+                    @lang('public.web 3')
+                </p>
+                <p class="empowering-p empowering-p-mobile @if(app()->getLocale() == 'zh') zh-empowering-p @endif">
+                    @lang('public.web 3 mobile')
+                </p>
+            @else
+                <p class="empowering-p">
+                    @lang('public.web 3')
+                </p>
+            @endif
+            
+            
         </div>
     </div>
 
@@ -810,7 +902,7 @@
     </div>
 
     <div class="web3-7">
-        <div class="mobile-alignment-30px">
+        <div class="mobile-alignment-30px web-flex">
             <p class="craft-p">
                 @lang('public.web 12')
             </p>
@@ -819,10 +911,20 @@
             </p>
         </div>
     </div>
-    <div class="mobile-alignment-30px">
-        <p class="craft-p2">
-            @lang('public.web 13')
-        </p>
+    <div class="mobile-alignment-30px web-flex">
+        @if(app()->getLocale() == 'zh')
+            <p class="craft-p2 craft-p2-web @if(app()->getLocale() == 'zh') zh-craft-p2 @endif">
+                @lang('public.web 13')
+            </p>
+            <p class="craft-p2 craft-p2-mobile @if(app()->getLocale() == 'zh') zh-craft-p2 @endif">
+                @lang('public.web 13 mobile')
+            </p>
+        @else
+            <p class="craft-p2">
+                @lang('public.web 13')
+            </p>
+        @endif
+        
     </div>
     <div class="dashimg">
         <div class="mobile-alignment-30px">
@@ -862,7 +964,7 @@
 {{-- </div> --}}
 {{-- <div class="web3-marquee-2">
     <div class="web3-marquee-content-2"> --}}
-        <div class="res">
+        <div class="res2" dir="rtl">
         <div class="web3-marquee-item-2">
             <img src="assets/image/product/web3/red1.svg">
         </div>
@@ -901,15 +1003,15 @@
             </p>
         </div>
     </div>
-    <div class="mobile-alignment-30px">
-        <p class="craft-p2">
+    <div class="mobile-alignment-30px web-flex">
+        <p class="craft-p2 @if(app()->getLocale() == 'zh') zh-craft-p2 @endif">
             @lang('public.web 15')
         </p>
     </div>
 </div>
-<div class="responsive">
+<div class="responsive-nft1">
     {{-- <div class="web3-marqueee" style="margin-top: 66px;"> --}}
-        {{-- <div class="web3-marqueee-content"> --}}
+        {{-- < class="web3-marqueee-content"> --}}
             <div class="web3-marqueee-item">
                 <img src="assets/image/product/web3/test.png">
             </div>
@@ -919,10 +1021,9 @@
             <div class="web3-marqueee-item">
                 <img src="assets/image/product/web3/test3.png">
             </div>
-            </div>
         {{-- </div> --}}
 </div>
-<div class="responsive">
+<div class="responsive-nft2" dir="rtl">
     {{-- <div class="web3-marqueee" style="margin-top: 66px;"> --}}
         {{-- <div class="web3-marqueee-content"> --}}
             <div class="web3-marqueee-item-2">
@@ -940,11 +1041,9 @@
 <div class="main-content8">
     <div class="personal-nft-cont">
         <div class="nft-container1-1">
-            
             <img src="assets/image/product/web3/test.png">
         </div>
         <div class="nft-container1-2">
-           
             <img src="assets/image/product/web3/test2.png">
         </div>
         <div class="nft-container1-3">
@@ -965,17 +1064,17 @@
     <div class="main-content7">
 
         <div class="web3-7">
-            <div class="mobile-alignment-30px">
+            <div class="mobile-alignment-30px web-flex">
                 <p class="craft-p">
                     @lang('public.web 16')
                 </p>
                 <p class="craft-p-mobile">
-                    @lang('public.web 16')
+                    @lang('public.web 16 mobile')
                 </p>
             </div>
         </div>
-        <div class="mobile-alignment-30px">
-            <p class="craft-p2">
+        <div class="mobile-alignment-30px web-flex">
+            <p class="craft-p3">
                 @lang('public.web 17')
             </p>
         </div>
@@ -983,7 +1082,7 @@
 </div>
 
 <div class="web3-marquee-3">
-    <div class="web3-marquee-content-3">
+    <div class="web3-marquee-content-3-slick">
         <div class="web3-marquee-item-3">
             <img src="assets/image/product/web3/crypto.svg" class="many-icon" style="height:500px">
         </div>
@@ -1016,78 +1115,5 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function () {
-        $('.responsive').slick({
-            arrows: true,
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 5,
-            slidesToScroll: 2,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                }
-            ]
-        });
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $('.res').slick({
-            arrows: true,
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 5,
-            slidesToScroll: 2,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                }
-            ]
-        });
-    });
-</script>
+
 @endsection

@@ -5,9 +5,13 @@
 <style>
     .report1 {
         text-align: center;
+        width: 100%;
     }
     .report2 {
         text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .report4 {
         text-align: center;
@@ -15,6 +19,9 @@
     .report8 {
         text-align: center;
         margin-bottom: 100px;
+    }
+    .report8-mobile {
+        display: none;
     }
     .report6 {
         display: block;
@@ -98,6 +105,14 @@
             display: flex;
             justify-content: center;
             margin-bottom: 68px;
+            display: none;
+        }
+        .report8-mobile {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 68px;
         }
         .report8 p {
             width: 90%;
@@ -105,6 +120,17 @@
             font-size: 20px;
             line-height: 23px;
             text-align: center;
+            margin: 0;
+        }
+        .report8-mobile p {
+            color: #FFF;
+            font-family: SF Pro Text;
+            width: 90%;
+            height: auto;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            margin: 0;
         }
         .report9 {
             width: 100%;
@@ -320,6 +346,9 @@
             line-height: normal;
             width: auto;
         }
+        .zh-report4 p {
+            width: 100%;
+        }
     }
     @media screen and (min-width: 1800px) {
         .report1 {
@@ -393,7 +422,7 @@
     <div class="report-line"></div>
 
     <div class="mobile-alignment-30px">
-        <div class="report4">
+        <div class="report4 @if(app()->getLocale() == 'zh') zh-report4 @endif">
             <p>
                 @lang('public.report 3')
             </p>
@@ -407,11 +436,11 @@
                 {{-- <img src="assets/image/feature/report/2.svg"> --}}
             </div>
             <div class="report5-col2">
-                <p class="report-enhancing-p1">
-                    <span class="exp-color">
-                        @lang('public.report 4')
-                    </span>
-                </p>
+                
+                <span class="exp-color">
+                    @lang('public.report 4')
+                </span>
+                
 
                 <p class="report-data-p1">
                     @lang('public.report 5')
@@ -511,7 +540,7 @@
             <div class="report-container">
                 <div>
                     <p class="enhance-purple">
-                        @lang('public.report 8')
+                        @lang('public.report 8 mobile')
                     </p>
                 </div>
                 <div>
@@ -545,6 +574,11 @@
         <div class="report8">
             <p>
                 @lang('public.report 10')
+            </p>
+        </div>
+        <div class="report8-mobile">
+            <p>
+                @lang('public.report 10 mobile')
             </p>
         </div>
     </div>
