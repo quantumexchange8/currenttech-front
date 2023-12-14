@@ -14,6 +14,7 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
         focusOnSelect: false,
       });
@@ -34,6 +35,7 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      pauseOnHover: false,
       swipeToSlide: false,
       focusOnSelect: false,
     });
@@ -54,6 +56,7 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      pauseOnHover: false,
       swipeToSlide: false,
       focusOnSelect: false,
       swipeToSlide: false,
@@ -76,6 +79,7 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      pauseOnHover: false,
       swipeToSlide: false,
       focusOnSelect: false,
     });
@@ -96,6 +100,7 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
       focusOnSelect: false,
     });
@@ -116,6 +121,7 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
         focusOnSelect: false,
     });
@@ -135,6 +141,7 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
         focusOnSelect: false,
     });
@@ -154,6 +161,7 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         rtl: true,
         swipeToSlide: false,
         focusOnSelect: false,
@@ -174,6 +182,7 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
         focusOnSelect: false,
     });
@@ -191,6 +200,7 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        pauseOnHover: false,
         swipeToSlide: false,
         focusOnSelect: false,
     });
