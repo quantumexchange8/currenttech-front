@@ -40,6 +40,9 @@
     .slick-next:before {
         display: none;
     }
+    .home-marquee-btm {
+        border-radius: 35px;
+    }
     @media screen and (max-width: 1093px) {
         .bottom {
             display: flex;
@@ -176,6 +179,10 @@
     }
     .zh-innovation-p-web {
         font-weight: 600;
+    }
+    
+    .zh-text-overlay {
+        bottom: 210px;
     }
 </style>
     <div class="main-content">
@@ -1038,7 +1045,7 @@
         <div class="marquee-content-slick">
             <div class="marquee-item">
                 <div class="marquee-image-container">
-                    <img class="home-marquee" src="/assets/image/homemarquee/logistic.svg">
+                    <img class="home-marquee-btm" src="/assets/image/homemarquee/logistic.svg">
                     <div class="text-overlay">
                         <p class="txtimg-efficient">
                             @lang('public.home 30')
@@ -1249,7 +1256,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/1.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 30')
                         </p>
@@ -1283,7 +1290,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/2.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 31')
                         </p>
@@ -1317,7 +1324,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/3.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 32')
                         </p>
@@ -1351,7 +1358,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/4.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 33')
                         </p>
@@ -1386,7 +1393,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/5.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 34')
                         </p>
@@ -1421,7 +1428,7 @@
             <div class="marquee-item-mobilenew">
                 <div class="marquee-image-container">
                     <img class="home-marquee-btm" src="/assets/image/homemarquee/6.svg">
-                    <div class="text-overlay">
+                    <div class="text-overlay @if(app()->getLocale() == 'zh') zh-text-overlay @endif">
                         <p class="txtimg-efficient">
                             @lang('public.home 35')
                         </p>

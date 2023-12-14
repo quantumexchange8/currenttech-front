@@ -14,6 +14,8 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+        focusOnSelect: false,
       });
 });
 
@@ -32,6 +34,8 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      swipeToSlide: false,
+      focusOnSelect: false,
     });
 });
 
@@ -50,6 +54,10 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      swipeToSlide: false,
+      focusOnSelect: false,
+      swipeToSlide: false,
+      focusOnSelect: false,
     });
 });
 
@@ -68,6 +76,8 @@ $(document).ready(function(){
       swipe: false,
       draggable: false,
       pauseOnFocus: false,
+      swipeToSlide: false,
+      focusOnSelect: false,
     });
 });
 
@@ -77,7 +87,7 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 20000, // Adjust the speed as needed
+        speed: 45000, // Adjust the speed as needed
         autoplaySpeed: 0, // Set to 0 for continuous scrolling
         cssEase: 'linear', // Use linear easing for a smooth marquee effect
         variableWidth: true,
@@ -86,6 +96,8 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+      focusOnSelect: false,
     });
 });
 
@@ -104,6 +116,8 @@ $(document).ready(function(){
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+        focusOnSelect: false,
     });
 });
 
@@ -121,6 +135,8 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+        focusOnSelect: false,
     });
 });
 
@@ -138,7 +154,9 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
-        rtl: true
+        rtl: true,
+        swipeToSlide: false,
+        focusOnSelect: false,
     });
 });
 
@@ -156,6 +174,8 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+        focusOnSelect: false,
     });
     $('.res2').slick({
         infinite: true,
@@ -171,5 +191,7 @@ $(document).ready(function () {
         swipe: false,
         draggable: false,
         pauseOnFocus: false,
+        swipeToSlide: false,
+        focusOnSelect: false,
     });
 });
