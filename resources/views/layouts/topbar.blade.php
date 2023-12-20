@@ -37,6 +37,9 @@
         border: 0;
         text-decoration: none;
     }
+    .active-lang .lang-word {
+        color: #BD00FF !important;
+    }
 </style>
 
 <div class="blackboard">
@@ -212,9 +215,9 @@
                                 <img src="/assets/image/lang.svg" style="width: 21px; height: 18px;">
                             </a>
                             <div class="dropdown-menu" aria-labelledby="languageDropdown">
-                                <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}">@lang('public.language 1')</a>
-                                <a class="dropdown-item" href="{{ route('lang.switch', 'my') }}">@lang('public.language 2')</a>
-                                <a class="dropdown-item" href="{{ route('lang.switch', 'zh') }}">@lang('public.language 3')</a>
+                                <a class="dropdown-item @if(app()->getLocale() == 'en') active-lang @endif" href="{{ route('lang.switch', 'en') }}">@lang('public.language 1')</a>
+                                <a class="dropdown-item @if(app()->getLocale() == 'my') active-lang @endif" href="{{ route('lang.switch', 'my') }}">@lang('public.language 2')</a>
+                                <a class="dropdown-item @if(app()->getLocale() == 'zh') active-lang @endif" href="{{ route('lang.switch', 'zh') }}">@lang('public.language 3')</a>
                             </div>
                         </div>
                         {{-- <a href="{{ route('register') }}">
@@ -429,9 +432,9 @@
                     <img src="/assets/image/arrowdown.svg" style="margin-left: 22px"> 
                 </a>
                 <ul id="LanguageSubMenu" style="display: none;">
-                    <li class=""><a href="{{ route('lang.switch', 'en') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 1')</span></a></li>
-                    <li class=""><a href="{{ route('lang.switch', 'my') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 2')</span></a></li>
-                    <li class=""><a href="{{ route('lang.switch', 'zh') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 3')</span></a></li>
+                    <li class=""><a class="@if(app()->getLocale() == 'en') active-lang @endif" href="{{ route('lang.switch', 'en') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 1')</span></a></li>
+                    <li class=""><a class="@if(app()->getLocale() == 'my') active-lang @endif" href="{{ route('lang.switch', 'my') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 2')</span></a></li>
+                    <li class=""><a class="@if(app()->getLocale() == 'zh') active-lang @endif" href="{{ route('lang.switch', 'zh') }}"><span class="lang-word" style="color: #FFFFFF">@lang('public.language 3')</span></a></li>
                 </ul>
             </li>
         </ul>

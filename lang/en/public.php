@@ -10,7 +10,7 @@ return [
     "home" => "Home",
     "language 1" => "English",
     "language 2" => "Bahasa Malaysia",
-    "language 3" => "Chinese (S)",
+    "language 3" => "中文",
 
     "pos" => "POS System",
     "web" => "Web & App",

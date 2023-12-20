@@ -10,7 +10,7 @@ return [
     "home" => "主页",
     "language 1" => "英語",
     "language 2" => "馬來語",
-    "language 3" => "中文 (簡)",
+    "language 3" => "中文",
 
     "pos" => "POS 系統",
     "web" => "網頁與應用程序",
